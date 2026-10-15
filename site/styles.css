@@ -371,6 +371,10 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
 .river .ri-text { fill: #fff; font-weight: 600; pointer-events: none; }
 .river svg.hl .ri:not(.co):not(.me) { opacity: .22; }
 .river .river-guide { stroke: var(--accent); stroke-dasharray: 3 3; }
+.river-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 8px; font-size: 12.5px; color: var(--muted); }
+.river-legend > span { display: inline-flex; align-items: center; gap: 7px; }
+.river-legend .sw-set { display: inline-flex; gap: 2px; }
+.river-legend i { width: 10px; height: 10px; border-radius: 3px; }
 .river-controls { position: absolute; top: -44px; right: 0; display: flex; gap: 6px; }
 @media (max-width: 640px) { .river-controls { position: static; justify-content: flex-end; margin-top: 8px; } }
 
