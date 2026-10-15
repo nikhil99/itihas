@@ -13,7 +13,7 @@
   "kayumars": {"type": "person", "wiki": "Shamsuddin Kayumars", "name": "Kayumars", "aliases": ["Kayumars"]},
   "jalaluddin-khalji": {"type": "person", "wiki": "Jalal-ud-Din Khalji", "aliases": ["Jalaluddin Khalji", "Jalal-ud-Din Khalji", "Jalaluddin"]},
   "khusrau-khan": {"type": "person", "wiki": "Khusrau Khan", "aliases": ["Khusrau Khan"]},
-  "ghiyath-tughluq": {"type": "person", "wiki": "Ghiyath al-Din Tughluq", "name": "Ghiyasuddin Tughlaq", "aliases": ["Ghiyasuddin Tughlaq", "Ghiyath al-Din Tughluq"]},
+  "ghiyath-tughluq": {"type": "person", "wiki": "Ghiyath al-Din Tughluq", "name": "Ghiyasuddin Tughlaq", "aliases": ["Ghiyasuddin Tughlaq", "Ghiyath al-Din Tughluq", "Ghazi Malik"]},
   "firuz-tughlaq": {"type": "person", "wiki": "Firuz Shah Tughlaq", "aliases": ["Firuz Shah Tughlaq", "Firuz Shah"]},
   "abu-bakr-shah": {"type": "person", "wiki": "Abu Bakr Shah", "aliases": ["Abu Bakr Shah"]},
   "sikandar-shah-tughlaq": {"type": "person", "wiki": "Ala ud-din Sikandar Shah", "name": "Ala ud-din Sikandar Shah", "aliases": ["Ala ud-din Sikandar Shah"]},
@@ -57,5 +57,10 @@
   "warangal": {"type": "place", "wiki": "Warangal Fort", "name": "Warangal", "aliases": ["Warangal"]},
   "amroha": {"type": "place", "wiki": "Amroha", "aliases": ["Amroha"]},
   "iqta": {"type": "concept", "wiki": "Iqta'", "name": "Iqta system", "aliases": ["iqta"]},
-  "mongol-invasions": {"type": "concept", "wiki": "Mongol invasions of India", "aliases": ["Mongol invasions"]}
+  "mongol-invasions": {"type": "concept", "wiki": "Mongol invasions of India", "aliases": ["Mongol invasions"]},
+  "battle-kili": {"type": "concept", "wiki": "Battle of Kili", "aliases": ["Battle of Kili"]},
+  "padmavat": {"type": "concept", "wiki": "Padmavat", "aliases": ["Padmavat"]},
+  "mongols": {"type": "polity", "wiki": "Mongols", "aliases": ["Mongol", "Mongols"], "name": "Mongols"},
+  "sufism": {"type": "concept", "wiki": "Sufism", "aliases": ["Sufi", "Sufis"]},
+  "brahmi": {"type": "concept", "wiki": "Brahmi script", "aliases": ["Brahmi"]}
 }
