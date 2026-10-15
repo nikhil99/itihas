@@ -161,6 +161,31 @@ def wikidata(qids):
     return out
 
 
+def year_of(value):
+    """'1630-02-19' / '1630-02' / '1630' / '-500' -> fractional year."""
+    v = str(value)
+    sign = -1 if v.startswith("-") else 1
+    parts = [int(x) for x in v.lstrip("-").split("-")]
+    y = sign * parts[0]
+    m = parts[1] if len(parts) > 1 else 6
+    d = parts[2] if len(parts) > 2 else 15
+    return round(y + (m - 1) / 12 + (d - 1) / 365, 3)
+
+
+def span_of(tl, entities):
+    """The years a timeline is 'about': a person's lifetime, an empire's period."""
+    subj = entities.get(tl["subject"], {})
+    dates = subj.get("dates", {})
+    if subj.get("type") == "person" and not tl.get("rulers") and "born" in dates and "died" in dates:
+        return [year_of(dates["born"]["value"]), year_of(dates["died"]["value"])]
+    if tl.get("focus"):
+        return tl["focus"]
+    members = [m for row in tl.get("rulers", []) for m in row["members"]]
+    if members:
+        return [min(m["from"] for m in members), max(m["to"] for m in members)]
+    return tl["range"]
+
+
 def main():
     global REFRESH
     ap = argparse.ArgumentParser()
@@ -255,12 +280,27 @@ def main():
         index.append({"id": tl["id"], "title": tl["title"], "subtitle": tl.get("subtitle"),
                       "subject": tl["subject"], "events": len(tl["events"]),
                       "series": tl.get("series"), "order": tl.get("order", 0), "kind": tl.get("kind"),
-                      "range": tl["range"], "focus": tl.get("focus")})
+                      "range": tl["range"], "focus": tl.get("focus"), "span": span_of(tl, entities)})
     index.sort(key=lambda t: (t["series"] or "", t["order"]))
 
     (OUT / "entities.json").write_text(json.dumps(entities, ensure_ascii=False, indent=1))
     (OUT / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
     # Sorted so rebuilds are byte-identical and don't create spurious diffs/merge conflicts.
+    # Compact search index for the home page: timelines, entities that appear somewhere, events.
+    search = {
+        "entities": [
+            {"id": e["id"], "t": e["type"], "n": e.get("title"), "al": e.get("aliases", []),
+             "d": e.get("description"), "mr": e.get("labels", {}).get("mr"), "th": e.get("thumb"),
+             "tl": entity_timelines[e["id"]]}
+            for e in entities.values() if e["id"] in entity_timelines
+        ],
+        "events": [
+            {"tl": tl["id"], "id": ev["id"], "d": ev["date"], "a": bool(ev.get("approx")),
+             "t": ev["title"], "m": bool(ev.get("major"))}
+            for tl in timelines for ev in tl["events"]
+        ],
+    }
+    (OUT / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")))
     (OUT / "entity-timelines.json").write_text(
         json.dumps({k: sorted(v) for k, v in sorted(entity_timelines.items())}, ensure_ascii=False))
     print(f"Wrote {len(entities)} entities, {len(timelines)} timeline(s) to {OUT.relative_to(ROOT)}/")

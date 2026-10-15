@@ -108,7 +108,10 @@ const go = (hash) => { if (location.hash !== hash) location.hash = hash; else ro
 // ---------- Home ----------
 async function renderHome() {
   state.tl = null;
-  const [index, entities] = await Promise.all([load("data/index.json"), load("data/entities.json")]);
+  const [index, entities, search] = await Promise.all([load("data/index.json"), load("data/entities.json"),
+    loadOptional("data/search.json", { entities: [], events: [] })]);
+  state.entities = entities;
+  state.subjectTimeline = Object.fromEntries(index.map((t) => [t.subject, t.id]));
   document.title = "Itihas — Indian History Timelines";
   // Placeholders for planned timelines; any that now exist drop out automatically.
   const norm = (t) => t.toLowerCase().replace(/^the\s+/, "").replace(/\s+empire$/, "");
@@ -123,10 +126,31 @@ async function renderHome() {
   };
   const empires = index.filter((t) => t.kind === "empire").sort((a, b) => a.order - b.order);
   const series = [...new Set(index.filter((t) => t.kind !== "empire").map((t) => t.series || "Other"))];
+  const uniqueEvents = new Set(search.events.map((e) => `${e.d}|${e.t}`)).size;
+
+  // Header: portraits, title, search, stats
+  const portraits = index.filter((t) => entities[t.subject]?.type === "person" && entities[t.subject]?.thumb).slice(0, 9);
+  const searchBox = el("div", { class: "search" });
+  const riverBox = el("div", { class: "river" });
   $("#app").replaceChildren(
     el("section", { class: "home" },
-      el("h1", {}, "Indian history, as timelines"),
-      el("p", { class: "lead" }, "Explore people, empires and places through interactive timelines. Every name and place is clickable, with summaries drawn from Wikipedia."),
+      el("header", { class: "home-hero" },
+        el("div", { class: "portraits" }, portraits.map((t) =>
+          el("a", { href: `#/${t.id}`, title: t.title }, el("img", { src: entities[t.subject].thumb, alt: t.title })))),
+        el("div", { class: "hero-dev", "aria-hidden": "true" }, "इतिहास"),
+        el("h1", {}, "Indian history, as timelines"),
+        el("p", { class: "lead" }, "Explore people, empires and places on interactive timelines. Every name is a link; summaries and portraits come from Wikipedia."),
+        searchBox,
+        el("p", { class: "stats" },
+          el("b", {}, index.length), " timelines · ", el("b", {}, search.entities.length), " people, places & powers · ",
+          el("b", {}, uniqueEvents), " events")),
+      el("section", { class: "home-block" },
+        el("div", { class: "block-head" }, el("h2", {}, "All of it, at a glance"),
+          el("span", { class: "block-hint" }, "Hover to see who lived at the same time · click to open · drag or ⌘/Ctrl+scroll to move and zoom")),
+        riverBox),
+      el("div", { class: "home-two" },
+        el("section", { class: "home-block" }, onThisDay(search, index)),
+        el("section", { class: "home-block" }, featuredComparisons(index, entities))),
       empires.length ? el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Empires"),
         el("div", { class: "cards" }, empires.map(card))) : null,
@@ -134,11 +158,278 @@ async function renderHome() {
         el("h2", { class: "series-title" }, name === "Other" ? "Other timelines"
           : index.some((t) => t.series === name && t.kind === "state") ? `${name.replace(/^The /, "")} — the great houses` : `People of ${name.replace(/^The /, "the ")}`),
         el("div", { class: "cards" }, index.filter((t) => t.kind !== "empire" && (t.series || "Other") === name).map(card)))),
-      el("div", { class: "series" },
+      upcoming.length ? el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Coming later"),
-        el("div", { class: "cards" }, upcoming.map((u) => el("div", { class: "tl-card soon" }, el("div", {}, el("h3", {}, u), el("p", {}, "Not started yet")))))),
+        el("div", { class: "cards" }, upcoming.map((u) => el("div", { class: "tl-card soon" }, el("div", {}, el("h3", {}, u), el("p", {}, "Not started yet")))))) : null,
     ),
   );
+  setupSearch(searchBox, search, index);
+  setupRiver(riverBox, index, entities);
+}
+
+// ---------- Home: search ----------
+const fold = (t) => String(t || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+
+function setupSearch(box, search, index) {
+  const tlTitle = Object.fromEntries(index.map((t) => [t.id, t.title]));
+  const subjectTl = Object.fromEntries(index.map((t) => [t.subject, t.id]));
+  const items = [];
+  const entById = Object.fromEntries(search.entities.map((e) => [e.id, e]));
+  for (const t of index) {
+    const subj = entById[t.subject]; // a timeline is also found by its subject's other names, incl. Marathi
+    items.push({ kind: "Timeline", label: t.title, sub: t.subtitle, href: `#/${t.id}`, boost: 0.6,
+      keys: [t.title, subj?.n, ...(subj?.al || []), subj?.mr] });
+  }
+  for (const e of search.entities) {
+    if (subjectTl[e.id]) continue; // its timeline is already listed
+    items.push({ kind: TYPE_LABEL[e.t] || "Entry", label: e.n, sub: [e.d, e.mr].filter(Boolean).join(" · "), thumb: e.th,
+      href: `#/${e.tl[0]}/e/${e.id}`, keys: [e.n, ...(e.al || []), e.mr], boost: 0.3 });
+  }
+  const seen = new Set();
+  for (const ev of search.events) {
+    const k = `${ev.d}|${ev.t}`;
+    if (seen.has(k)) continue;
+    seen.add(k);
+    items.push({ kind: "Event", label: ev.t, sub: `${fmtDate(ev.d, ev.a)} · ${tlTitle[ev.tl]}`, href: `#/${ev.tl}/ev/${ev.id}`, keys: [ev.t], boost: ev.m ? 0.2 : 0 });
+  }
+  items.forEach((it) => (it.folded = it.keys.filter(Boolean).map(fold)));
+
+  const input = el("input", { type: "search", class: "search-input", placeholder: "Search people, places, empires, battles…  ( / )",
+    "aria-label": "Search", autocomplete: "off", role: "combobox", "aria-expanded": "false", "aria-controls": "search-results" });
+  const list = el("ul", { class: "search-results", id: "search-results", role: "listbox", hidden: true });
+  box.replaceChildren(input, list);
+  let results = [], active = -1;
+
+  const score = (it, q) => {
+    let best = 0;
+    for (const k of it.folded) {
+      if (k === q) best = Math.max(best, 4);
+      else if (k.startsWith(q)) best = Math.max(best, 3);
+      else if (k.includes(" " + q) || k.includes("-" + q)) best = Math.max(best, 2);
+      else if (k.includes(q)) best = Math.max(best, 1);
+    }
+    return best ? best + it.boost : 0;
+  };
+  const show = () => {
+    list.replaceChildren(...results.map((it, i) => el("li", { role: "option", class: i === active ? "active" : null, "aria-selected": i === active ? "true" : "false",
+      onmousedown: (e) => { e.preventDefault(); open(i); } },
+      it.thumb ? el("img", { src: it.thumb, alt: "" }) : el("span", { class: "sr-icon" }, it.kind === "Event" ? "◆" : it.kind === "Timeline" ? "◷" : "●"),
+      el("div", {}, el("div", { class: "sr-label" }, it.label), it.sub && el("div", { class: "sr-sub" }, it.sub)),
+      el("span", { class: "sr-kind" }, it.kind))));
+    const q = input.value.trim();
+    if (q && !results.length) list.replaceChildren(el("li", { class: "sr-empty" }, `No matches for “${q}”`));
+    list.hidden = !q;
+    input.setAttribute("aria-expanded", String(!list.hidden));
+  };
+  const open = (i) => { const it = results[i]; if (!it) return; input.value = ""; results = []; show(); go(it.href); };
+  input.addEventListener("input", () => {
+    const q = fold(input.value.trim());
+    results = q.length < 2 ? [] : items.map((it) => [score(it, q), it]).filter(([sc]) => sc > 0)
+      .sort((a, b) => b[0] - a[0] || a[1].label.length - b[1].label.length).slice(0, 10).map(([, it]) => it);
+    active = results.length ? 0 : -1;
+    show();
+  });
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown") { e.preventDefault(); active = Math.min(results.length - 1, active + 1); show(); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); active = Math.max(0, active - 1); show(); }
+    else if (e.key === "Enter") { e.preventDefault(); open(active); }
+    else if (e.key === "Escape") { input.value = ""; results = []; show(); input.blur(); }
+  });
+  input.addEventListener("blur", () => setTimeout(() => { list.hidden = true; input.setAttribute("aria-expanded", "false"); }, 120));
+  input.addEventListener("focus", () => { if (input.value.trim()) show(); });
+}
+document.addEventListener("keydown", (e) => {
+  if (e.key === "/" && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName)) {
+    const input = $(".search-input");
+    if (input) { e.preventDefault(); input.focus(); }
+  }
+});
+
+// ---------- Home: on this day ----------
+function onThisDay(search, index) {
+  const tlTitle = Object.fromEntries(index.map((t) => [t.id, t.title]));
+  const dated = [], seen = new Set();
+  for (const ev of search.events) {
+    // same exact date in two timelines is (in practice) the same event under another title
+    if (ev.a || !/^\d{3,4}-\d{2}-\d{2}$/.test(ev.d) || seen.has(ev.d)) continue;
+    seen.add(ev.d);
+    dated.push(ev);
+  }
+  const today = new Date();
+  const mdOf = (d) => `${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  const byPriority = (a, b) => (b.m ? 1 : 0) - (a.m ? 1 : 0) || a.d.localeCompare(b.d);
+  const todays = dated.filter((ev) => ev.d.slice(-5) === mdOf(today)).sort(byPriority).slice(0, 4);
+  // then the next dated events in the calendar, up to six items in all
+  const upcoming = [];
+  for (let k = 1; k <= 45 && todays.length + upcoming.length < 6; k++) {
+    const day = new Date(today.getFullYear(), today.getMonth(), today.getDate() + k);
+    for (const ev of dated.filter((e) => e.d.slice(-5) === mdOf(day)).sort(byPriority)) {
+      if (todays.length + upcoming.length < 6) upcoming.push({ ev, day });
+    }
+  }
+  const row = (ev, day) => {
+    const y = +ev.d.slice(0, 4);
+    return el("li", {},
+      el("a", { href: `#/${ev.tl}/ev/${ev.id}` },
+        el("span", { class: "otd-year" }, y),
+        el("span", {}, el("span", { class: "otd-title" }, ev.t),
+          el("span", { class: "otd-meta" }, `${day ? `${day.getDate()} ${MONTHS[day.getMonth()]} · ` : ""}${today.getFullYear() - y} years ago · ${tlTitle[ev.tl]}`))));
+  };
+  return el("div", { class: "otd" },
+    el("div", { class: "block-head" }, el("h2", {}, "On this day"), el("span", { class: "otd-date" }, `${today.getDate()} ${MONTHS[today.getMonth()]}`)),
+    todays.length ? el("ul", { class: "otd-list" }, todays.map((ev) => row(ev))) : el("p", { class: "block-hint" }, "Nothing on today's date yet."),
+    upcoming.length ? el("h3", { class: "otd-sub" }, "Coming up") : null,
+    upcoming.length ? el("ul", { class: "otd-list" }, upcoming.map(({ ev, day }) => row(ev, day))) : null);
+}
+
+// ---------- Home: featured comparisons ----------
+const FEATURED = [
+  { ids: ["shivaji", "mughal-empire"], title: "Shivaji and the Mughals", blurb: "A rebel kingdom against the empire at its height." },
+  { ids: ["maratha-empire", "mughal-empire"], title: "Marathas & Mughals", blurb: "Two empires, 144 years side by side." },
+  { ids: ["yadavas-devagiri", "vijayanagara-empire", "mughal-empire"], title: "Before the Marathas", blurb: "Three powers that shaped the Deccan." },
+  { ids: ["bajirao-i", "nanasaheb", "madhavrao-i"], title: "Three Peshwas", blurb: "Father, son and grandson at the head of the state." },
+  { ids: ["ahilyabai-holkar", "mahadji-shinde"], title: "Ahilyabai & Mahadji", blurb: "The queen of Malwa and the master of Delhi." },
+  { ids: ["shinde-gwalior", "holkar-indore", "gaekwad-baroda"], title: "Shinde, Holkar & Gaekwad", blurb: "The great houses of the confederacy." },
+];
+function featuredComparisons(index, ents) {
+  const byId = Object.fromEntries(index.map((t) => [t.id, t]));
+  const yr = (v) => (v < 0 ? `${Math.round(-v)} BCE` : Math.floor(v));
+  const cards = FEATURED.filter((f) => f.ids.every((i) => byId[i])).map((f) => {
+    const spans = f.ids.map((i) => byId[i].span || byId[i].range);
+    const from = Math.max(...spans.map((sp) => sp[0])), to = Math.min(...spans.map((sp) => sp[1]));
+    const overlap = to > from ? `All overlap ${yr(from)}–${yr(to)}` : `${yr(Math.min(...spans.map((sp) => sp[0])))}–${yr(Math.max(...spans.map((sp) => sp[1])))}`;
+    return el("a", { class: "feat", href: `#/compare/${f.ids.join(",")}` },
+      el("div", { class: "feat-faces" }, f.ids.map((i, k) => {
+        const th = ents[byId[i].subject]?.thumb;
+        return th ? el("img", { src: th, alt: "", style: `--k:${k}` }) : el("span", { class: "feat-blank", style: `--k:${k}` });
+      })),
+      el("div", {}, el("div", { class: "feat-title" }, f.title), el("div", { class: "feat-blurb" }, f.blurb),
+        el("div", { class: "feat-meta" }, overlap)));
+  });
+  return el("div", {},
+    el("div", { class: "block-head" }, el("h2", {}, "Compare"), el("a", { class: "block-link", href: "#/compare" }, "Build your own →")),
+    el("div", { class: "feat-grid" }, cards));
+}
+
+// ---------- Home: river of time ----------
+// Every timeline on one axis, packed into rows by kind. Hovering one highlights everything
+// that overlapped it in time.
+function setupRiver(box, index, ents) {
+  const GROUPS = [
+    { label: "Empires", h: 26, pick: (t) => t.kind === "empire", hues: [24, 232, 168, 352, 42, 280] },
+    { label: "Maratha states", h: 20, pick: (t) => t.kind === "state", hues: [200, 330, 42, 120, 280, 12] },
+    { label: "People", h: 17, pick: (t) => !t.kind, hues: null },
+  ];
+  const SERIES_HUE = { "The Maratha Empire": 24, "The Maratha confederacy": 200 };
+  const items = [];
+  GROUPS.forEach((g, gi) => {
+    const rows = [];
+    index.filter(g.pick).map((t) => ({ t, a: (t.span || t.range)[0], b: (t.span || t.range)[1] }))
+      .sort((p, q) => p.a - q.a).forEach((it, k) => {
+        let r = rows.findIndex((end) => it.a > end + 2);
+        if (r === -1) { r = rows.length; rows.push(0); }
+        rows[r] = it.b;
+        items.push({ ...it, g: gi, row: r, hue: g.hues ? g.hues[k % g.hues.length] : SERIES_HUE[it.t.series] ?? 280 });
+      });
+    g.rows = rows.length;
+  });
+  const lo = Math.min(...items.map((i) => i.a)), hi = Math.max(...items.map((i) => i.b));
+  const home = { start: Math.floor(lo - 15), end: Math.ceil(hi + 15) };
+  let view = { ...home }, hover = null;
+  const tip = $("#tooltip");
+  const yr = (v) => (v < 0 ? `${Math.round(-v)} BCE` : Math.floor(v));
+
+  function render() {
+    const W = box.clientWidth || 800, GUT = W < 600 ? 74 : 112, PAD = 12, AX = 26;
+    const span = view.end - view.start, x = (t) => GUT + ((t - view.start) / span) * (W - GUT - PAD);
+    let y = AX + 6;
+    const gTop = GROUPS.map((g) => { const top = y; y += g.rows * (g.h + 5) + 14; return top; });
+    const H = y;
+    const svgEl = svg("svg", { viewBox: `0 0 ${W} ${H}`, height: H, class: hover ? "hl" : null });
+    const pxPerYear = (W - GUT - PAD) / span;
+    const step = [5, 10, 25, 50, 100, 200].find((st) => st * pxPerYear >= 50) || 200;
+    for (let v = Math.ceil(view.start / step) * step; v <= view.end; v += step) {
+      const gx = x(v);
+      if (gx < GUT) continue;
+      svgEl.append(svg("line", { class: "grid", x1: gx, x2: gx, y1: AX - 4, y2: H }));
+      const t = svg("text", { class: "axis-label", x: gx, y: AX - 10, "text-anchor": "middle" });
+      t.textContent = v;
+      svgEl.append(t);
+    }
+    if (hover) for (const v of [hover.a, hover.b]) svgEl.append(svg("line", { class: "river-guide", x1: x(v), x2: x(v), y1: AX - 4, y2: H }));
+    for (const it of items) {
+      const g = GROUPS[it.g], top = gTop[it.g] + it.row * (g.h + 5);
+      const x1 = Math.max(GUT, x(it.a)), x2 = Math.min(W - PAD, x(it.b));
+      if (x2 <= GUT || x1 >= W - PAD) continue;
+      const co = hover && it.a < hover.b && it.b > hover.a;
+      const n = svg("g", { class: `ri${co ? " co" : ""}${hover === it ? " me" : ""}`, tabindex: 0, role: "link", "aria-label": it.t.title });
+      n.append(svg("rect", { x: x1, y: top, width: Math.max(3, x2 - x1), height: g.h, rx: g.h / 2.6, fill: `hsl(${it.hue} 58% ${it.g === 2 ? 52 : 46}%)` }));
+      const label = fitText(shortTitle(it.t), x2 - x1 - 10, `600 ${it.g === 0 ? 12 : 11}px Inter, system-ui, sans-serif`);
+      if (label.length > 2) {
+        const t = svg("text", { class: "ri-text", x: x1 + 6, y: top + g.h / 2 + 4, "font-size": it.g === 0 ? 12 : 11 });
+        t.textContent = label;
+        n.append(t);
+      }
+      n.addEventListener("mouseenter", () => { hover = it; render(); });
+      n.addEventListener("mousemove", (e) => {
+        const others = items.filter((o) => o !== it && o.a < it.b && o.b > it.a).length;
+        tip.innerHTML = `<b>${esc(it.t.title)}</b><div class="tt-date">${yr(it.a)} – ${yr(it.b)} · ${esc(it.t.subtitle || "")}</div>` +
+          `<div class="tt-date">${others} other timeline${others === 1 ? "" : "s"} overlap · click to open</div>`;
+        tip.classList.add("show");
+        const r = tip.getBoundingClientRect();
+        tip.style.left = Math.min(window.innerWidth - r.width - 8, e.clientX + 14) + "px";
+        tip.style.top = Math.max(8, e.clientY - r.height - 10) + "px";
+      });
+      n.addEventListener("mouseleave", () => { hover = null; tip.classList.remove("show"); render(); });
+      n.addEventListener("click", () => { tip.classList.remove("show"); go(`#/${it.t.id}`); });
+      n.addEventListener("keydown", (e) => { if (e.key === "Enter") go(`#/${it.t.id}`); });
+      svgEl.append(n);
+    }
+    svgEl.append(svg("rect", { class: "gutter", x: 0, y: 0, width: GUT - 4, height: H }));
+    GROUPS.forEach((g, gi) => {
+      const t = svg("text", { class: "section-label", x: 10, y: gTop[gi] + g.h / 2 + 4 });
+      t.textContent = W < 600 ? g.label.split(" ").pop() : g.label;
+      svgEl.append(t);
+    });
+    box.replaceChildren(svgEl, controls);
+  }
+  const zoom = (f, frac = 0.5) => {
+    const sp = Math.min(home.end - home.start + 200, Math.max(20, (view.end - view.start) * f));
+    const pivot = view.start + (view.end - view.start) * frac;
+    view = { start: pivot - sp * frac, end: pivot + sp * (1 - frac) };
+    render();
+  };
+  const controls = el("div", { class: "river-controls" },
+    el("button", { class: "zoom-btn", title: "Zoom in", onclick: () => zoom(0.6) }, "+"),
+    el("button", { class: "zoom-btn", title: "Zoom out", onclick: () => zoom(1 / 0.6) }, "−"),
+    el("button", { class: "zoom-btn wide", onclick: () => { view = { ...home }; render(); } }, "Reset"));
+  let drag = null;
+  box.addEventListener("pointerdown", (e) => {
+    if (e.target.closest(".river-controls")) return;
+    drag = { x: e.clientX, view: { ...view }, moved: false };
+  });
+  window.addEventListener("pointermove", (e) => {
+    if (!drag) return;
+    const dx = e.clientX - drag.x;
+    if (Math.abs(dx) > 3) drag.moved = true;
+    if (!drag.moved) return;
+    const per = (drag.view.end - drag.view.start) / (box.clientWidth - 120);
+    view = { start: drag.view.start - dx * per, end: drag.view.end - dx * per };
+    render();
+  });
+  window.addEventListener("pointerup", () => { if (drag?.moved) box.addEventListener("click", (e) => e.stopPropagation(), { capture: true, once: true }); drag = null; });
+  box.addEventListener("wheel", (e) => {
+    const r = box.getBoundingClientRect(), frac = Math.min(1, Math.max(0, (e.clientX - r.left - 112) / (r.width - 124)));
+    if (e.ctrlKey || e.metaKey) { e.preventDefault(); zoom(Math.exp(e.deltaY * 0.01), frac); }
+    else if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
+      e.preventDefault();
+      const d = (e.deltaX / box.clientWidth) * (view.end - view.start);
+      view = { start: view.start + d, end: view.end + d };
+      render();
+    }
+  }, { passive: false });
+  new ResizeObserver(() => render()).observe(box);
+  render();
 }
 
 // ---------- Timeline page ----------
