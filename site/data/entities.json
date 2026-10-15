@@ -11044,5 +11044,135 @@
     "precision": "year"
    }
   }
+ },
+ "amrut-rao": {
+  "id": "amrut-rao",
+  "type": "person",
+  "title": "Amrut Rao",
+  "description": "Maratha noble",
+  "extract": "Amrut Rao was a Maratha noble and the adopted son of Raghunathrao. In 1803, Yashwant Rao Holkar invaded Pune and deposed his adoptive brother, Peshwa Baji Rao II. Following this, Holkar established an ad hoc council nominally headed by Amrut Rao and administered the Peshwa government in his name.",
+  "url": "https://en.wikipedia.org/wiki/Amrut_Rao",
+  "qid": "Q23581312",
+  "aliases": [
+   "Amrut Rao",
+   "Amrutrao"
+  ],
+  "labels": {
+   "hi": "अमृतराव"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1770",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1824",
+    "precision": "year"
+   }
+  }
+ },
+ "ochterlony": {
+  "id": "ochterlony",
+  "type": "person",
+  "title": "David Ochterlony",
+  "description": "First British Resident of Delhi (1758–1825)",
+  "extract": "Major-General Sir David Ochterlony, 1st Baronet, GCB was a Bengal Army officer who served as the British resident to the Mughal court at Delhi. Born in Boston, Massachusetts, he spent most of his life on the Indian subcontinent in the service of the East India Company, seeing action in numerous conflicts.",
+  "url": "https://en.wikipedia.org/wiki/David_Ochterlony",
+  "qid": "Q3423440",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/David_Ochterlony.jpg/330px-David_Ochterlony.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/David_Ochterlony.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "David Ochterlony",
+   "Ochterlony"
+  ],
+  "labels": {
+   "hi": "डेविड ऑक्टरलोनी"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1758-02-12",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1825-07-15",
+    "precision": "day"
+   }
+  }
+ },
+ "gerard-lake": {
+  "id": "gerard-lake",
+  "type": "person",
+  "title": "Gerard Lake",
+  "description": "British general (1744–1808)",
+  "extract": "Gerard Lake, 1st Viscount Lake was a British general. He commanded British forces during the Irish Rebellion of 1798 and the Second Anglo-Maratha War. He later served as Commander-in-Chief of the military in British India.",
+  "url": "https://en.wikipedia.org/wiki/Gerard_Lake%2C_1st_Viscount_Lake",
+  "qid": "Q334092",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Gerard_Lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Gerard_Lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Gerard Lake",
+   "Lord Lake"
+  ],
+  "labels": {
+   "hi": "जेरार्ड लेक"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1744-07-27",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1808-02-20",
+    "precision": "day"
+   }
+  }
+ },
+ "bhanpura": {
+  "id": "bhanpura",
+  "type": "place",
+  "title": "Bhanpura",
+  "description": "Town in Madhya Pradesh, India",
+  "extract": "Bhanpura is a town and a nagar panchayat in Mandsaur district, located in the state of Madhya Pradesh, India. Bhanpura was discovered by King Bhanu bhil. It was also ruled by the Chandrawats of Mewar during the times of Rana Sanga's rule. The town is home to a number of historic places such as the Daraki-Chattan region, which is one of the world's oldest rock arts, Chaturbhujnath Nala rock art shelters, and the Hinglajgarh Fort. Bhanpura also has a museum that displays the popular arts of Mandsaur, including art from the Gupta era until the time of Pratiharas and Parmaras.",
+  "url": "https://en.wikipedia.org/wiki/Bhanpura",
+  "qid": "Q674268",
+  "coords": {
+   "lat": 24.52,
+   "lon": 75.73
+  },
+  "aliases": [
+   "Bhanpura"
+  ],
+  "labels": {
+   "hi": "भानपुरा"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "deeg": {
+  "id": "deeg",
+  "type": "place",
+  "title": "Deeg",
+  "description": "City in Rajasthan, India",
+  "extract": "Deeg is a historical city in the Deeg district of the Indian state of eastern Rajasthan. It is renowned for its architectural heritage, including palaces, forts, gardens, and fountains. Historically, Deeg became the first capital of the Hindu Jats of Bharatpur. It played a significant role in the region's political and cultural development due to its proximity to Agra. Later, Maharaja Suraj Mal ordered the construction of multiple buildings and landmarks in Deeg, as well as the renovation of the Deeg Palace, the only Hindu-style palace in North India.",
+  "url": "https://en.wikipedia.org/wiki/Deeg",
+  "qid": "Q1192807",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Palace_of_Deeg.jpg/330px-Palace_of_Deeg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Palace_of_Deeg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 27.47,
+   "lon": 77.33
+  },
+  "aliases": [
+   "Deeg"
+  ],
+  "labels": {
+   "hi": "डीग",
+   "mr": "डीग"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A1%E0%A5%80%E0%A4%97_%28%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%29",
+  "dates": {}
  }
 }

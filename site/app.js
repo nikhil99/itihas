@@ -819,6 +819,8 @@ async function openEntity(id) {
     e.description && el("p", { class: "d-desc" }, e.description),
     dateLine && el("div", { class: "d-dates" }, dateLine),
     ownTimeline && el("a", { class: "own-tl", href: `#/${ownTimeline.id}` }, `Open the ${ownTimeline.title} timeline →`),
+    otherTimelines.length ? el("div", { class: "d-tls" }, el("span", { class: "d-tls-label" }, ownTimeline ? "Also in" : "Appears in"),
+      otherTimelines.map((t) => el("a", { class: "chip tl-chip", href: `#/${t.id}` }, t.title))) : null,
     lifeBar(e),
     e.extract && linked("p", "d-extract", e.extract, [], { skip: id }),
     el("div", { class: "d-links" },
@@ -829,8 +831,6 @@ async function openEntity(id) {
     evs.length ? el("h3", {}, `In this timeline (${evs.length})`) : "",
     el("ul", { class: "d-events" }, evs.map((ev) =>
       el("li", { onclick: () => go(`#/${tl.id}/ev/${ev.id}`) }, el("span", { class: "d-ev-date" }, fmtDate(ev.date, ev.approx)), el("span", {}, ev.title)))),
-    otherTimelines.length ? el("h3", {}, "Also appears in") : "",
-    el("div", { class: "chips" }, otherTimelines.map((t) => el("a", { class: "chip tl-chip", href: `#/${t.id}/e/${id}` }, t.title))),
     related.length ? el("h3", {}, "Connected") : "",
     el("div", { class: "chips" }, related.map(chip)),
   ].filter(Boolean));

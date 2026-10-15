@@ -436,5 +436,11 @@
   "saraswathi-mahal": {"type": "place", "wiki": "Saraswathi Mahal Library", "aliases": ["Saraswathi Mahal Library", "Saraswathi Mahal"]},
   "brihadisvara": {"type": "place", "wiki": "Brihadisvara Temple", "aliases": ["Brihadisvara Temple", "Brihadeeswarar"]},
   "schwarz": {"type": "person", "wiki": "Christian Friedrich Schwarz", "aliases": ["Christian Friedrich Schwarz", "Schwarz"]},
-  "thanjavur-maratha": {"type": "polity", "wiki": "Thanjavur Maratha kingdom", "name": "Thanjavur Maratha kingdom", "aliases": ["Thanjavur Maratha kingdom"]}
+  "thanjavur-maratha": {"type": "polity", "wiki": "Thanjavur Maratha kingdom", "name": "Thanjavur Maratha kingdom", "aliases": ["Thanjavur Maratha kingdom"]},
+
+  "amrut-rao": {"type": "person", "wiki": "Amrut Rao", "aliases": ["Amrut Rao", "Amrutrao"]},
+  "ochterlony": {"type": "person", "wiki": "David Ochterlony", "aliases": ["David Ochterlony", "Ochterlony"]},
+  "gerard-lake": {"type": "person", "wiki": "Gerard Lake, 1st Viscount Lake", "name": "Gerard Lake", "aliases": ["Gerard Lake", "Lord Lake"]},
+  "bhanpura": {"type": "place", "wiki": "Bhanpura", "aliases": ["Bhanpura"]},
+  "deeg": {"type": "place", "wiki": "Deeg", "aliases": ["Deeg"]}
 }

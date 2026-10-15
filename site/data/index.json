@@ -240,6 +240,24 @@
   ]
  },
  {
+  "id": "yashwantrao-holkar",
+  "title": "Yashwantrao Holkar",
+  "subtitle": "The Holkar who fought the British alone · 1776 – 1811",
+  "subject": "yashwantrao-holkar",
+  "events": 19,
+  "series": "The Maratha confederacy",
+  "order": 2.5,
+  "kind": null,
+  "range": [
+   1772,
+   1815
+  ],
+  "focus": [
+   1798.5,
+   1811.82
+  ]
+ },
+ {
   "id": "gaekwad-baroda",
   "title": "The Gaekwads of Baroda",
   "subtitle": "Marathas in Gujarat, and Sayajirao III's reforming state · 1721 – 1949",
