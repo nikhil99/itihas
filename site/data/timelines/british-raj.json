@@ -1,0 +1,690 @@
+{
+ "id": "british-raj",
+ "kind": "empire",
+ "order": 6,
+ "title": "The British Raj",
+ "subtitle": "Crown rule and the freedom movement · 1858 – 1947",
+ "subject": "british-raj",
+ "range": [
+  1855,
+  1952
+ ],
+ "focus": [
+  1858.83,
+  1947.62
+ ],
+ "intro": "After the revolt of 1857 the British Crown governed India directly through a Viceroy, ruling about two-thirds of the subcontinent and controlling over five hundred princely states. The same decades saw famines, railways and English education — and the growth of a national movement, from the early Congress through Tilak's mass politics to Gandhi's campaigns, revolutionaries and the Indian National Army. Independence in 1947 came with the partition of India.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Government & rulers"
+  },
+  {
+   "id": "military",
+   "label": "Wars & violence"
+  },
+  {
+   "id": "forts",
+   "label": "Reforms & laws"
+  },
+  {
+   "id": "political",
+   "label": "Freedom movement"
+  },
+  {
+   "id": "world",
+   "label": "Society & the wider world"
+  }
+ ],
+ "context": [
+  {
+   "entity": "british-raj",
+   "label": "Crown rule",
+   "from": 1858.83,
+   "to": 1947.62
+  },
+  {
+   "entity": "queen-victoria",
+   "label": "Victoria – Empress of India",
+   "from": 1877.0,
+   "to": 1901.06
+  },
+  {
+   "entity": "congress",
+   "label": "Indian National Congress",
+   "from": 1885.99,
+   "to": 1952
+  },
+  {
+   "entity": "muslim-league",
+   "label": "Muslim League",
+   "from": 1906.99,
+   "to": 1947.62
+  },
+  {
+   "entity": "tilak",
+   "label": "Bal Gangadhar Tilak"
+  },
+  {
+   "entity": "gandhi",
+   "label": "Mahatma Gandhi"
+  },
+  {
+   "entity": "nehru",
+   "label": "Jawaharlal Nehru"
+  },
+  {
+   "entity": "ambedkar",
+   "label": "B. R. Ambedkar"
+  },
+  {
+   "entity": "subhas-bose",
+   "label": "Subhas Chandra Bose"
+  },
+  {
+   "entity": "jinnah",
+   "label": "Muhammad Ali Jinnah"
+  }
+ ],
+ "events": [
+  {
+   "id": "proclamation",
+   "date": "1858-11-01",
+   "lane": "life",
+   "major": true,
+   "title": "Queen Victoria's Proclamation",
+   "summary": "Lord Canning, the first Viceroy, reads Queen Victoria's proclamation at Allahabad: the Crown takes over from the East India Company, promises not to interfere in religion, and abandons annexation of the princely states.",
+   "people": [
+    "queen-victoria",
+    "canning"
+   ],
+   "polities": [
+    "british-raj",
+    "east-india-company"
+   ],
+   "concepts": [
+    "goi-act-1858"
+   ],
+   "see": "east-india-company"
+  },
+  {
+   "id": "ics",
+   "date": "1864",
+   "approx": true,
+   "lane": "forts",
+   "title": "The Indian Civil Service",
+   "summary": "Recruited by examination held in London, the ICS becomes the 'steel frame' of British rule. Satyendranath Tagore becomes its first Indian member in 1864; the London-only exam keeps Indians a small minority for decades.",
+   "concepts": [
+    "ics"
+   ]
+  },
+  {
+   "id": "gandhi-born",
+   "date": "1869-10-02",
+   "lane": "world",
+   "title": "Gandhi born at Porbandar",
+   "summary": "Mohandas Karamchand Gandhi is born in Porbandar, Gujarat. The Suez Canal opens the same year, bringing India much closer to Britain.",
+   "people": [
+    "gandhi"
+   ]
+  },
+  {
+   "id": "satyashodhak",
+   "date": "1873-09-24",
+   "lane": "world",
+   "title": "Satyashodhak Samaj",
+   "summary": "In Pune, Jyotirao Phule founds the Satyashodhak Samaj (Society of Truth-seekers) to challenge caste hierarchy and Brahmin dominance.",
+   "people": [
+    "phule",
+    "savitribai-phule"
+   ],
+   "places": [
+    "pune"
+   ],
+   "concepts": [
+    "satyashodhak"
+   ]
+  },
+  {
+   "id": "famine-1876",
+   "date": "1876",
+   "end": "1878",
+   "lane": "world",
+   "major": true,
+   "title": "The Great Famine",
+   "summary": "Drought across south and west India turns into a famine killing millions, while grain exports continue and relief is kept deliberately meagre. It is the first of several devastating late-19th-century famines.",
+   "concepts": [
+    "famine-1876"
+   ]
+  },
+  {
+   "id": "empress",
+   "date": "1877-01-01",
+   "lane": "life",
+   "major": true,
+   "title": "Victoria proclaimed Empress of India",
+   "summary": "At the Delhi Durbar of 1877, held while famine raged in the south, Queen Victoria is proclaimed Kaisar-i-Hind, Empress of India.",
+   "people": [
+    "queen-victoria"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "concepts": [
+    "delhi-durbar"
+   ]
+  },
+  {
+   "id": "congress",
+   "date": "1885-12-28",
+   "lane": "political",
+   "major": true,
+   "title": "Indian National Congress founded",
+   "summary": "Seventy-two delegates meet in Bombay, encouraged by the retired official A. O. Hume. Early leaders like Dadabhai Naoroji — whose 'drain of wealth' theory indicts British economic policy — petition for reform within the empire.",
+   "people": [
+    "ao-hume",
+    "dadabhai-naoroji"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "concepts": [
+    "congress"
+   ]
+  },
+  {
+   "id": "vivekananda",
+   "date": "1893-09-11",
+   "lane": "world",
+   "title": "Vivekananda at Chicago",
+   "summary": "Swami Vivekananda's address to the World's Parliament of Religions makes him famous and becomes a source of national self-confidence.",
+   "people": [
+    "vivekananda"
+   ]
+  },
+  {
+   "id": "chapekar",
+   "date": "1897-06-22",
+   "lane": "political",
+   "major": true,
+   "title": "Plague in Pune: the Chapekar brothers kill Rand",
+   "summary": "Harsh plague-control measures in Pune — forced house searches and removals — lead the Chapekar brothers to shoot the plague commissioner W. C. Rand. Tilak, whose newspaper Kesari had denounced the measures, is jailed for sedition.",
+   "people": [
+    "chapekar-brothers",
+    "tilak"
+   ],
+   "places": [
+    "pune"
+   ]
+  },
+  {
+   "id": "bengal-partition",
+   "date": "1905-10-16",
+   "lane": "forts",
+   "major": true,
+   "title": "Partition of Bengal and the Swadeshi movement",
+   "summary": "Viceroy Curzon divides Bengal along largely religious lines. The protest movement boycotts British goods (Swadeshi) and turns nationalism into a mass cause.",
+   "people": [
+    "curzon"
+   ],
+   "places": [
+    "kolkata",
+    "dhaka"
+   ],
+   "concepts": [
+    "bengal-partition-1905",
+    "swadeshi"
+   ]
+  },
+  {
+   "id": "muslim-league",
+   "date": "1906-12-30",
+   "lane": "political",
+   "title": "All-India Muslim League founded",
+   "summary": "Muslim leaders meeting at Dhaka found the Muslim League to represent Muslim interests; the 1909 reforms give it separate electorates.",
+   "places": [
+    "dhaka"
+   ],
+   "concepts": [
+    "muslim-league"
+   ]
+  },
+  {
+   "id": "surat-split",
+   "date": "1907-12",
+   "lane": "political",
+   "title": "Congress splits at Surat",
+   "summary": "The Congress session at Surat breaks up in chaos as the Moderates, led by Gokhale, and the Extremists, led by Tilak, Lala Lajpat Rai and Bipin Chandra Pal, part ways.",
+   "people": [
+    "gokhale",
+    "tilak",
+    "lajpat-rai"
+   ],
+   "places": [
+    "surat"
+   ],
+   "concepts": [
+    "congress"
+   ],
+   "wiki": "Surat Split",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Surat_Split"
+  },
+  {
+   "id": "tilak-mandalay",
+   "date": "1908-07",
+   "lane": "political",
+   "title": "Tilak sentenced to Mandalay",
+   "summary": "Tilak is convicted of sedition and spends six years in prison at Mandalay in Burma, where he writes the Gita Rahasya.",
+   "people": [
+    "tilak"
+   ],
+   "places": [
+    "mandalay"
+   ]
+  },
+  {
+   "id": "delhi-capital",
+   "date": "1911-12-12",
+   "lane": "life",
+   "major": true,
+   "title": "Capital moves to Delhi",
+   "summary": "At the Delhi Durbar, George V announces that the capital will move from Calcutta to Delhi and that the partition of Bengal is annulled. New Delhi is inaugurated in 1931.",
+   "places": [
+    "delhi",
+    "new-delhi",
+    "kolkata"
+   ],
+   "concepts": [
+    "delhi-durbar",
+    "bengal-partition-1905"
+   ]
+  },
+  {
+   "id": "ww1",
+   "date": "1914-08",
+   "end": "1918-11",
+   "lane": "military",
+   "title": "First World War",
+   "summary": "More than a million Indian soldiers serve overseas — in France, Mesopotamia, East Africa and Gallipoli — and over 70,000 die. Indian leaders expect self-government in return.",
+   "concepts": [
+    "india-ww1"
+   ]
+  },
+  {
+   "id": "gandhi-returns",
+   "date": "1915-01-09",
+   "lane": "political",
+   "title": "Gandhi returns from South Africa",
+   "summary": "After two decades leading the Indian community's struggle in South Africa, Gandhi returns to India, travels widely on Gokhale's advice, and founds an ashram at Ahmedabad.",
+   "people": [
+    "gandhi",
+    "gokhale"
+   ],
+   "places": [
+    "sabarmati"
+   ]
+  },
+  {
+   "id": "home-rule",
+   "date": "1916",
+   "lane": "political",
+   "title": "Home Rule and the Lucknow Pact",
+   "summary": "Tilak and Annie Besant launch Home Rule Leagues — 'Swaraj is my birthright, and I shall have it'. At Lucknow the Congress and the Muslim League agree a joint scheme for reform.",
+   "people": [
+    "tilak",
+    "annie-besant",
+    "jinnah"
+   ],
+   "places": [
+    "lucknow"
+   ],
+   "concepts": [
+    "home-rule",
+    "lucknow-pact"
+   ]
+  },
+  {
+   "id": "jallianwala",
+   "date": "1919-04-13",
+   "lane": "military",
+   "major": true,
+   "title": "Jallianwala Bagh massacre",
+   "summary": "In Amritsar, after protests against the repressive Rowlatt Act, General Reginald Dyer orders troops to fire without warning on a crowd in an enclosed garden, killing hundreds. It turns much of India against British rule.",
+   "people": [
+    "dyer"
+   ],
+   "places": [
+    "jallianwala",
+    "amritsar"
+   ],
+   "concepts": [
+    "rowlatt-act"
+   ],
+   "wiki": "Jallianwala Bagh massacre",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Jallianwala_Bagh_in_Day_light.JPG/330px-Jallianwala_Bagh_in_Day_light.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "non-cooperation",
+   "date": "1920-08-01",
+   "end": "1922-02",
+   "lane": "political",
+   "major": true,
+   "title": "Non-cooperation movement",
+   "summary": "On the day Tilak dies, Gandhi launches non-cooperation: boycott of British goods, schools, courts and titles, alongside the Khilafat movement. After a mob kills policemen at Chauri Chaura in February 1922, Gandhi calls it off.",
+   "people": [
+    "gandhi",
+    "tilak"
+   ],
+   "places": [
+    "chauri-chaura"
+   ],
+   "concepts": [
+    "non-cooperation",
+    "congress"
+   ],
+   "wiki": "Chauri Chaura incident",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Chauri_Chaura_incident"
+  },
+  {
+   "id": "simon",
+   "date": "1928",
+   "lane": "political",
+   "title": "Simon Commission boycotted",
+   "summary": "An all-British commission to review the constitution is met with protests of 'Simon, go back'. Lala Lajpat Rai dies after being beaten in a police lathi charge in Lahore.",
+   "people": [
+    "lajpat-rai"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "simon-commission"
+   ]
+  },
+  {
+   "id": "purna-swaraj",
+   "date": "1929-12-31",
+   "lane": "political",
+   "title": "Purna Swaraj",
+   "summary": "At Lahore, under Jawaharlal Nehru's presidency, the Congress declares complete independence its goal; 26 January 1930 is celebrated as Independence Day.",
+   "people": [
+    "nehru"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "purna-swaraj",
+    "congress"
+   ]
+  },
+  {
+   "id": "salt-march",
+   "date": "1930-03-12",
+   "end": "1930-04-06",
+   "lane": "political",
+   "major": true,
+   "title": "Salt March",
+   "summary": "Gandhi walks 390 km from Sabarmati Ashram to Dandi to make salt in defiance of the salt tax, starting a civil disobedience movement in which tens of thousands are jailed.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "sabarmati",
+    "dandi"
+   ],
+   "concepts": [
+    "salt-march"
+   ]
+  },
+  {
+   "id": "bhagat-singh",
+   "date": "1931-03-23",
+   "lane": "political",
+   "major": true,
+   "title": "Bhagat Singh, Rajguru and Sukhdev hanged",
+   "summary": "The three revolutionaries are executed in Lahore for the killing of a police officer in revenge for Lajpat Rai's death. Rajguru was from Khed near Pune, today renamed Rajgurunagar in his honour.",
+   "people": [
+    "bhagat-singh",
+    "rajguru",
+    "lajpat-rai"
+   ],
+   "places": [
+    "lahore",
+    "khed"
+   ]
+  },
+  {
+   "id": "poona-pact",
+   "date": "1932-09-24",
+   "lane": "political",
+   "major": true,
+   "title": "Poona Pact",
+   "summary": "Gandhi fasts in Yerawada jail against separate electorates for the Depressed Classes, which Ambedkar had won. Ambedkar agrees to reserved seats within joint electorates instead — a compromise he later criticised.",
+   "people": [
+    "gandhi",
+    "ambedkar"
+   ],
+   "places": [
+    "yerawada",
+    "pune"
+   ],
+   "concepts": [
+    "poona-pact"
+   ]
+  },
+  {
+   "id": "goi-1935",
+   "date": "1935",
+   "lane": "forts",
+   "title": "Government of India Act 1935",
+   "summary": "Provincial autonomy and a wider franchise; Congress wins most provinces in the 1937 elections. Much of the Act later shapes India's constitution.",
+   "concepts": [
+    "goi-act-1935",
+    "congress"
+   ]
+  },
+  {
+   "id": "ww2",
+   "date": "1939-09-03",
+   "end": "1945-08",
+   "lane": "military",
+   "title": "Second World War",
+   "summary": "The Viceroy declares India at war without consulting Indian leaders; Congress ministries resign. About 2.5 million Indians serve in the largest volunteer army in history.",
+   "concepts": [
+    "india-ww2",
+    "congress"
+   ]
+  },
+  {
+   "id": "lahore-resolution",
+   "date": "1940-03-23",
+   "lane": "political",
+   "title": "Lahore Resolution",
+   "summary": "The Muslim League, led by Jinnah, calls for independent states in the Muslim-majority regions — the demand for Pakistan.",
+   "people": [
+    "jinnah"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "muslim-league"
+   ]
+  },
+  {
+   "id": "quit-india",
+   "date": "1942-08-08",
+   "lane": "political",
+   "major": true,
+   "title": "Quit India",
+   "summary": "At Gowalia Tank in Bombay, Gandhi calls on the British to 'Quit India' — 'Do or die'. The Congress leadership is arrested the next morning and a largely leaderless uprising is suppressed.",
+   "people": [
+    "gandhi",
+    "nehru",
+    "patel"
+   ],
+   "places": [
+    "gowalia-tank",
+    "mumbai"
+   ],
+   "concepts": [
+    "quit-india",
+    "congress"
+   ]
+  },
+  {
+   "id": "famine-1943",
+   "date": "1943",
+   "lane": "world",
+   "major": true,
+   "title": "Bengal famine",
+   "summary": "Wartime shortages, the loss of Burmese rice, hoarding and government policy produce a famine in which about three million people die.",
+   "places": [
+    "kolkata"
+   ],
+   "concepts": [
+    "famine-1943"
+   ]
+  },
+  {
+   "id": "ina",
+   "date": "1943-10-21",
+   "lane": "military",
+   "title": "Bose and the Indian National Army",
+   "summary": "Subhas Chandra Bose proclaims a Provisional Government of Free India in Singapore and leads the INA alongside Japan. The 1945–46 Red Fort trials of INA officers spark nationwide sympathy.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "red-fort"
+   ],
+   "concepts": [
+    "ina"
+   ]
+  },
+  {
+   "id": "rin-mutiny",
+   "date": "1946-02-18",
+   "lane": "military",
+   "title": "Royal Indian Navy mutiny",
+   "summary": "Sailors in Bombay strike and seize ships, joined by thousands across the country — a sign that Britain can no longer count on its Indian forces.",
+   "places": [
+    "mumbai"
+   ],
+   "concepts": [
+    "rin-mutiny"
+   ],
+   "wiki": "Royal Indian Navy mutiny",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Royal_Indian_Navy_mutiny",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e6/RIN_HMIS_Hindustan.jpg/330px-RIN_HMIS_Hindustan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "direct-action",
+   "date": "1946-08-16",
+   "lane": "military",
+   "title": "Direct Action Day — the Calcutta killings",
+   "summary": "A Muslim League call for protest turns into days of communal killing in Calcutta, followed by violence in Noakhali and Bihar. Partition comes to look unavoidable.",
+   "people": [
+    "jinnah"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "concepts": [
+    "muslim-league"
+   ],
+   "wiki": "Direct Action Day",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Direct_Action_Day",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Calcutta_1946_riot.jpg/330px-Calcutta_1946_riot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "integration",
+   "date": "1947",
+   "end": "1949",
+   "lane": "forts",
+   "title": "Integration of the princely states",
+   "summary": "Sardar Patel and V. P. Menon bring over 550 princely states — including the Maratha states of Gwalior, Indore, Baroda and Kolhapur — into the Indian Union.",
+   "people": [
+    "patel"
+   ],
+   "polities": [
+    "gwalior-state",
+    "indore-state",
+    "baroda-state",
+    "kolhapur-state",
+    "hyderabad-state"
+   ],
+   "concepts": [
+    "princely-integration"
+   ],
+   "see": "maratha-empire"
+  },
+  {
+   "id": "independence",
+   "date": "1947-08-15",
+   "lane": "life",
+   "major": true,
+   "title": "Independence and Partition",
+   "summary": "Under Mountbatten's plan British India is divided into two dominions, India and Pakistan. Nehru becomes Prime Minister. The partition displaces some 15 million people and is accompanied by killing on a massive scale, with estimates of the dead running from several hundred thousand to two million.",
+   "people": [
+    "mountbatten",
+    "nehru",
+    "jinnah",
+    "gandhi",
+    "patel"
+   ],
+   "places": [
+    "delhi",
+    "red-fort",
+    "lahore"
+   ],
+   "polities": [
+    "dominion-india",
+    "dominion-pakistan",
+    "british-raj"
+   ],
+   "concepts": [
+    "partition-of-india"
+   ],
+   "wiki": "Partition of India",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Partition_of_India",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Brit_IndianEmpireReligions3.jpg/330px-Brit_IndianEmpireReligions3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "gandhi-killed",
+   "date": "1948-01-30",
+   "lane": "world",
+   "title": "Gandhi assassinated",
+   "summary": "Gandhi is shot dead in Delhi by Nathuram Godse, a Hindu nationalist.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "wiki": "Assassination of Mahatma Gandhi",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Assassination_of_Mahatma_Gandhi",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Gandhi_Smriti_Delhi.jpg/330px-Gandhi_Smriti_Delhi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "republic",
+   "date": "1950-01-26",
+   "lane": "life",
+   "major": true,
+   "title": "India becomes a republic",
+   "summary": "The Constitution, drafted by a committee chaired by B. R. Ambedkar, comes into force — on the anniversary of the 1930 Purna Swaraj day.",
+   "people": [
+    "ambedkar",
+    "nehru"
+   ],
+   "polities": [
+    "dominion-india"
+   ],
+   "concepts": [
+    "purna-swaraj"
+   ]
+  }
+ ]
+}
