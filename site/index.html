@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Itihas — Indian History Timelines</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand"><span class="brand-dev">इतिहास</span> Itihas</a>
+    <span class="tagline">Indian history, one timeline at a time</span>
+  </header>
+
+  <main id="app"></main>
+
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <button class="drawer-close" aria-label="Close">×</button>
+    <div class="drawer-body"></div>
+  </aside>
+  <div id="tooltip" class="tooltip" role="tooltip"></div>
+
+  <footer class="footer">
+    Summaries, images and coordinates from <a href="https://en.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a>
+    (CC BY-SA) and <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a>.
+    Event selection and short descriptions curated for this site. Map © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

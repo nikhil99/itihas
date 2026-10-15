@@ -1,0 +1,1093 @@
+{
+ "id": "maratha-empire",
+ "title": "The Maratha Empire",
+ "subtitle": "From Shivaji's first fort to the last Peshwa, and the confederacy states after · 1646 – 1818",
+ "subject": "maratha-empire",
+ "series": "The Maratha Empire",
+ "order": 0,
+ "range": [
+  1625,
+  1830
+ ],
+ "focus": [
+  1674.43,
+  1818.42
+ ],
+ "intro": "In under 150 years the Marathas went from a rebel jagir in the hills around Pune to the strongest power in India, collecting tribute from Bengal to the Punjab, before falling to the East India Company in 1818. This overview links each period to its own detailed timeline: open any card's 'full timeline' link to go deeper.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Battles"
+  },
+  {
+   "id": "forts",
+   "label": "Expansion"
+  },
+  {
+   "id": "political",
+   "label": "State & treaties"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ],
+ "context": [
+  {
+   "entity": "shivaji",
+   "label": "Shivaji – Chhatrapati",
+   "from": 1674.43,
+   "to": 1680.26
+  },
+  {
+   "entity": "sambhaji",
+   "label": "Sambhaji – Chhatrapati",
+   "from": 1681.04,
+   "to": 1689.19
+  },
+  {
+   "entity": "rajaram",
+   "label": "Rajaram – Chhatrapati",
+   "from": 1689.1,
+   "to": 1700.2
+  },
+  {
+   "entity": "tarabai",
+   "label": "Tarabai – regent",
+   "from": 1700.2,
+   "to": 1707.8
+  },
+  {
+   "entity": "shahu",
+   "label": "Shahu – Chhatrapati",
+   "from": 1708.03,
+   "to": 1749.96
+  },
+  {
+   "entity": "balaji-vishwanath",
+   "label": "Balaji Vishwanath – Peshwa",
+   "from": 1713.9,
+   "to": 1720.25
+  },
+  {
+   "entity": "bajirao",
+   "label": "Bajirao I – Peshwa",
+   "from": 1720.3,
+   "to": 1740.32
+  },
+  {
+   "entity": "nanasaheb",
+   "label": "Nanasaheb – Peshwa",
+   "from": 1740.48,
+   "to": 1761.48
+  },
+  {
+   "entity": "madhavrao",
+   "label": "Madhavrao I – Peshwa",
+   "from": 1761.55,
+   "to": 1772.88
+  },
+  {
+   "entity": "nana-phadnavis",
+   "label": "Nana Phadnavis – minister",
+   "from": 1774.3,
+   "to": 1800.2
+  },
+  {
+   "entity": "sawai-madhavrao",
+   "label": "Sawai Madhavrao – Peshwa",
+   "from": 1774.3,
+   "to": 1795.82
+  },
+  {
+   "entity": "bajirao-ii",
+   "label": "Bajirao II – Peshwa",
+   "from": 1796.93,
+   "to": 1818.42
+  },
+  {
+   "entity": "aurangzeb",
+   "label": "Aurangzeb – Mughal reign",
+   "from": 1658,
+   "to": 1707.2
+  },
+  {
+   "entity": "east-india-company",
+   "label": "East India Company in India",
+   "from": 1757.5,
+   "to": 1825
+  },
+  {
+   "entity": "kolhapur-state",
+   "label": "Kolhapur (Bhonsle, Tarabai's line)",
+   "from": 1710,
+   "to": 1949
+  },
+  {
+   "entity": "gwalior-state",
+   "label": "Shindes – Ujjain, later Gwalior",
+   "from": 1731,
+   "to": 1948
+  },
+  {
+   "entity": "indore-state",
+   "label": "Holkars – Indore",
+   "from": 1733,
+   "to": 1948
+  },
+  {
+   "entity": "baroda-state",
+   "label": "Gaekwads – Baroda",
+   "from": 1721,
+   "to": 1949
+  },
+  {
+   "entity": "dhar-state",
+   "label": "Pawars – Dhar",
+   "from": 1732,
+   "to": 1948
+  },
+  {
+   "entity": "nagpur-kingdom",
+   "label": "Bhonsles – Nagpur",
+   "from": 1739,
+   "to": 1853.9
+  }
+ ],
+ "events": [
+  {
+   "id": "shivaji-born",
+   "date": "1630-02-19",
+   "lane": "life",
+   "title": "Shivaji born",
+   "summary": "Shivaji is born at Shivneri fort to Shahaji Bhosale and Jijabai.",
+   "people": [
+    "shivaji",
+    "shahaji",
+    "jijabai"
+   ],
+   "places": [
+    "shivneri"
+   ],
+   "see": "shivaji"
+  },
+  {
+   "id": "torna",
+   "date": "1646",
+   "lane": "forts",
+   "major": true,
+   "title": "Torna — the first fort",
+   "summary": "Sixteen-year-old Shivaji takes Torna fort, the start of an independent Maratha power in the hills around Pune.",
+   "people": [
+    "shivaji"
+   ],
+   "places": [
+    "torna"
+   ],
+   "concepts": [
+    "hindavi-swarajya"
+   ],
+   "see": "shivaji"
+  },
+  {
+   "id": "pratapgarh",
+   "date": "1659-11-10",
+   "lane": "military",
+   "major": true,
+   "title": "Pratapgarh — Afzal Khan killed",
+   "summary": "Shivaji kills Bijapur's general Afzal Khan and routs his army, establishing himself as a major power.",
+   "people": [
+    "shivaji",
+    "afzal-khan"
+   ],
+   "places": [
+    "pratapgad"
+   ],
+   "polities": [
+    "bijapur-sultanate"
+   ],
+   "wiki": "Battle of Pratapgarh",
+   "see": "shivaji"
+  },
+  {
+   "id": "surat",
+   "date": "1664-01-05",
+   "lane": "military",
+   "title": "Sack of Surat",
+   "summary": "Shivaji raids the richest Mughal port, signalling open war with the Mughals.",
+   "people": [
+    "shivaji"
+   ],
+   "places": [
+    "surat"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "wiki": "Sack of Surat",
+   "see": "shivaji"
+  },
+  {
+   "id": "agra",
+   "date": "1666-08-17",
+   "lane": "life",
+   "title": "Escape from Agra",
+   "summary": "Shivaji and Sambhaji escape house arrest at Aurangzeb's court.",
+   "people": [
+    "shivaji",
+    "sambhaji",
+    "aurangzeb"
+   ],
+   "places": [
+    "agra"
+   ],
+   "see": "shivaji"
+  },
+  {
+   "id": "coronation",
+   "date": "1674-06-06",
+   "lane": "political",
+   "major": true,
+   "title": "Shivaji crowned Chhatrapati",
+   "summary": "The coronation at Raigad formally founds a sovereign Maratha kingdom, with the Ashta Pradhan council of eight ministers.",
+   "people": [
+    "shivaji",
+    "gaga-bhatt"
+   ],
+   "places": [
+    "raigad"
+   ],
+   "polities": [
+    "maratha-empire"
+   ],
+   "concepts": [
+    "ashta-pradhan"
+   ],
+   "see": "shivaji"
+  },
+  {
+   "id": "southern",
+   "date": "1676-10",
+   "end": "1678-04",
+   "lane": "forts",
+   "title": "Southern campaign",
+   "summary": "Shivaji conquers Gingee, Vellore and much of the Carnatic.",
+   "people": [
+    "shivaji"
+   ],
+   "places": [
+    "gingee",
+    "vellore"
+   ],
+   "see": "shivaji"
+  },
+  {
+   "id": "shivaji-dies",
+   "date": "1680-04-03",
+   "lane": "life",
+   "major": true,
+   "title": "Shivaji dies",
+   "summary": "Shivaji dies at Raigad. After a brief struggle Sambhaji succeeds him.",
+   "people": [
+    "shivaji",
+    "sambhaji",
+    "rajaram"
+   ],
+   "places": [
+    "raigad"
+   ],
+   "see": "sambhaji"
+  },
+  {
+   "id": "aurangzeb-deccan",
+   "date": "1682-03",
+   "lane": "world",
+   "major": true,
+   "title": "Aurangzeb comes to the Deccan",
+   "summary": "Aurangzeb moves his court south to destroy the Marathas and the Deccan sultanates. The war lasts 25 years.",
+   "people": [
+    "aurangzeb",
+    "sambhaji"
+   ],
+   "places": [
+    "aurangabad"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "concepts": [
+    "deccan-wars"
+   ],
+   "wiki": "Deccan wars",
+   "see": "sambhaji"
+  },
+  {
+   "id": "sambhaji-executed",
+   "date": "1689-03-11",
+   "lane": "life",
+   "major": true,
+   "title": "Sambhaji executed",
+   "summary": "Captured at Sangameshwar, Sambhaji is executed at Tulapur. Rajaram takes over and flees to Gingee.",
+   "people": [
+    "sambhaji",
+    "rajaram",
+    "aurangzeb"
+   ],
+   "places": [
+    "tulapur"
+   ],
+   "see": "sambhaji"
+  },
+  {
+   "id": "gingee",
+   "date": "1690-09",
+   "end": "1698-01",
+   "lane": "forts",
+   "major": true,
+   "title": "Siege of Gingee",
+   "summary": "Rajaram's government holds out at Gingee while Santaji and Dhanaji fight a mobile war across the Deccan.",
+   "people": [
+    "rajaram",
+    "santaji",
+    "dhanaji",
+    "zulfiqar-khan"
+   ],
+   "places": [
+    "gingee"
+   ],
+   "wiki": "Siege of Jinji",
+   "see": "rajaram-tarabai"
+  },
+  {
+   "id": "tarabai-regent",
+   "date": "1700-03",
+   "lane": "life",
+   "major": true,
+   "title": "Tarabai's regency",
+   "summary": "After Rajaram's death, Tarabai leads the war in the name of her son Shivaji II.",
+   "people": [
+    "tarabai",
+    "rajaram",
+    "shivaji-ii"
+   ],
+   "see": "rajaram-tarabai"
+  },
+  {
+   "id": "aurangzeb-dies",
+   "date": "1707-03-03",
+   "lane": "world",
+   "major": true,
+   "title": "Aurangzeb dies",
+   "summary": "The Mughal emperor dies at Ahmednagar with the Marathas undefeated. The Mughal empire begins to break apart.",
+   "people": [
+    "aurangzeb"
+   ],
+   "places": [
+    "ahmednagar"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "concepts": [
+    "deccan-wars"
+   ],
+   "see": "rajaram-tarabai"
+  },
+  {
+   "id": "khed",
+   "date": "1707-10-12",
+   "lane": "military",
+   "title": "Battle of Khed",
+   "summary": "Shahu, freed by the Mughals, defeats Tarabai's forces and becomes Chhatrapati.",
+   "people": [
+    "shahu",
+    "tarabai",
+    "dhanaji"
+   ],
+   "places": [
+    "khed"
+   ],
+   "wiki": "Battle of Khed",
+   "see": "shahu"
+  },
+  {
+   "id": "shahu-crowned",
+   "date": "1708-01-12",
+   "lane": "life",
+   "title": "Shahu crowned at Satara",
+   "summary": "Shahu begins a 41-year reign from Satara.",
+   "people": [
+    "shahu"
+   ],
+   "places": [
+    "satara"
+   ],
+   "see": "shahu"
+  },
+  {
+   "id": "balaji-peshwa",
+   "date": "1713-11-17",
+   "lane": "political",
+   "major": true,
+   "title": "Balaji Vishwanath becomes Peshwa",
+   "summary": "The start of the Peshwa dynasty of chief ministers, who gradually become the real rulers of the state.",
+   "people": [
+    "balaji-vishwanath",
+    "shahu"
+   ],
+   "concepts": [
+    "peshwa"
+   ],
+   "see": "shahu"
+  },
+  {
+   "id": "delhi-1719",
+   "date": "1719-03",
+   "lane": "political",
+   "title": "Mughal grants of chauth",
+   "summary": "The Mughal court recognises Maratha rights to chauth and sardeshmukhi across the Deccan.",
+   "people": [
+    "balaji-vishwanath"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "concepts": [
+    "chauth"
+   ],
+   "see": "shahu"
+  },
+  {
+   "id": "bajirao-peshwa",
+   "date": "1720-04-17",
+   "lane": "life",
+   "title": "Bajirao I becomes Peshwa",
+   "summary": "Shahu appoints the 19-year-old Bajirao, who will lead Maratha armies north for twenty years.",
+   "people": [
+    "bajirao",
+    "shahu"
+   ],
+   "concepts": [
+    "peshwa"
+   ],
+   "see": "bajirao-i"
+  },
+  {
+   "id": "palkhed",
+   "date": "1728-02-28",
+   "lane": "military",
+   "major": true,
+   "title": "Battle of Palkhed",
+   "summary": "Bajirao outmanoeuvres the Nizam and forces him to accept Maratha claims.",
+   "people": [
+    "bajirao",
+    "nizam-ul-mulk"
+   ],
+   "polities": [
+    "hyderabad-state"
+   ],
+   "see": "bajirao-i"
+  },
+  {
+   "id": "delhi-1737",
+   "date": "1737-03-28",
+   "lane": "military",
+   "title": "Bajirao at Delhi",
+   "summary": "Bajirao reaches the outskirts of Delhi and defeats a Mughal force.",
+   "people": [
+    "bajirao",
+    "muhammad-shah"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "see": "bajirao-i"
+  },
+  {
+   "id": "malwa",
+   "date": "1738-01-07",
+   "lane": "forts",
+   "major": true,
+   "title": "Malwa won",
+   "summary": "After the Battle of Bhopal, Malwa passes to the Marathas — the base of the Shinde and Holkar houses.",
+   "people": [
+    "bajirao",
+    "nizam-ul-mulk",
+    "malharrao-holkar",
+    "ranoji-shinde"
+   ],
+   "places": [
+    "malwa",
+    "bhopal"
+   ],
+   "see": "bajirao-i"
+  },
+  {
+   "id": "vasai",
+   "date": "1739-05",
+   "lane": "military",
+   "title": "Vasai taken from the Portuguese",
+   "summary": "Chimaji Appa captures Vasai, ending Portuguese power on the north Konkan coast.",
+   "people": [
+    "chimaji"
+   ],
+   "places": [
+    "vasai"
+   ],
+   "polities": [
+    "portuguese-india"
+   ],
+   "wiki": "Battle of Vasai",
+   "see": "bajirao-i"
+  },
+  {
+   "id": "bengal",
+   "date": "1742",
+   "end": "1751",
+   "lane": "forts",
+   "title": "Raids into Bengal",
+   "summary": "The Bhonsles of Nagpur force Bengal to pay chauth and take Orissa.",
+   "people": [
+    "raghuji-bhonsle",
+    "alivardi-khan"
+   ],
+   "polities": [
+    "bengal-subah",
+    "nagpur-kingdom"
+   ],
+   "wiki": "Maratha invasions of Bengal",
+   "see": "nanasaheb"
+  },
+  {
+   "id": "shahu-dies",
+   "date": "1749-12-15",
+   "lane": "life",
+   "major": true,
+   "title": "Shahu dies; Pune becomes the centre",
+   "summary": "After Shahu's death the Peshwa takes over the government, and Pune replaces Satara as the real capital.",
+   "people": [
+    "shahu",
+    "nanasaheb",
+    "tarabai"
+   ],
+   "places": [
+    "pune",
+    "satara"
+   ],
+   "concepts": [
+    "peshwa"
+   ],
+   "see": "nanasaheb"
+  },
+  {
+   "id": "plassey",
+   "date": "1757-06-23",
+   "lane": "world",
+   "title": "Battle of Plassey",
+   "summary": "The East India Company becomes a territorial power in Bengal.",
+   "polities": [
+    "east-india-company",
+    "bengal-subah"
+   ],
+   "wiki": "Battle of Plassey"
+  },
+  {
+   "id": "attock",
+   "date": "1758-04",
+   "lane": "forts",
+   "major": true,
+   "title": "Marathas at Attock",
+   "summary": "Raghunathrao's army reaches Attock and Peshawar — the furthest limit of Maratha expansion.",
+   "people": [
+    "raghunathrao",
+    "abdali"
+   ],
+   "places": [
+    "attock",
+    "peshawar"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "see": "nanasaheb"
+  },
+  {
+   "id": "panipat",
+   "date": "1761-01-14",
+   "lane": "military",
+   "major": true,
+   "title": "Third Battle of Panipat",
+   "summary": "Ahmad Shah Abdali destroys the Maratha army under Sadashivrao Bhau; Vishwasrao and much of a generation of leaders die.",
+   "people": [
+    "sadashivrao-bhau",
+    "vishwasrao",
+    "abdali"
+   ],
+   "places": [
+    "panipat"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "wiki": "Third Battle of Panipat",
+   "see": "nanasaheb"
+  },
+  {
+   "id": "madhavrao-peshwa",
+   "date": "1761-07-20",
+   "lane": "life",
+   "title": "Madhavrao I becomes Peshwa",
+   "summary": "The 16-year-old Peshwa begins the recovery after Panipat.",
+   "people": [
+    "madhavrao",
+    "raghunathrao"
+   ],
+   "concepts": [
+    "peshwa"
+   ],
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "rakshasbhuvan",
+   "date": "1763-08-10",
+   "lane": "military",
+   "title": "Battle of Rakshasbhuvan",
+   "summary": "Madhavrao defeats the Nizam decisively.",
+   "people": [
+    "madhavrao",
+    "nizam-ali"
+   ],
+   "polities": [
+    "hyderabad-state"
+   ],
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "delhi-1771",
+   "date": "1771-02",
+   "lane": "forts",
+   "major": true,
+   "title": "Back in Delhi",
+   "summary": "Maratha armies retake Delhi and restore Shah Alam II to his throne under their protection.",
+   "people": [
+    "mahadji",
+    "shah-alam-ii"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "madhavrao-dies",
+   "date": "1772-11-18",
+   "lane": "life",
+   "major": true,
+   "title": "Madhavrao I dies",
+   "summary": "The Peshwa dies at 27; the murder of his successor Narayanrao follows nine months later.",
+   "people": [
+    "madhavrao",
+    "narayanrao"
+   ],
+   "places": [
+    "theur"
+   ],
+   "see": "nana-phadnavis"
+  },
+  {
+   "id": "first-amw",
+   "date": "1775-03-07",
+   "end": "1782-05-17",
+   "lane": "military",
+   "major": true,
+   "title": "First Anglo-Maratha War",
+   "summary": "The British back Raghunathrao's claim; Nana Phadnavis and Mahadji Shinde defeat them at Wadgaon (1779) and the war ends with the Treaty of Salbai.",
+   "people": [
+    "raghunathrao",
+    "nana-phadnavis",
+    "mahadji",
+    "warren-hastings"
+   ],
+   "places": [
+    "wadgaon"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "First Anglo-Maratha War",
+   "see": "nana-phadnavis"
+  },
+  {
+   "id": "mahadji-regent",
+   "date": "1784-12",
+   "lane": "forts",
+   "title": "Mahadji Shinde master of Delhi",
+   "summary": "The Mughal emperor makes Mahadji his regent; Maratha power in the north peaks.",
+   "people": [
+    "mahadji",
+    "shah-alam-ii"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "gwalior-state",
+    "mughal-empire"
+   ],
+   "see": "nana-phadnavis"
+  },
+  {
+   "id": "kharda",
+   "date": "1795-03-11",
+   "lane": "military",
+   "title": "Battle of Kharda",
+   "summary": "The last united campaign of the Maratha chiefs defeats the Nizam.",
+   "people": [
+    "nizam-ali",
+    "nana-phadnavis"
+   ],
+   "places": [
+    "kharda"
+   ],
+   "polities": [
+    "hyderabad-state"
+   ],
+   "wiki": "Battle of Kharda",
+   "see": "nana-phadnavis"
+  },
+  {
+   "id": "nana-dies",
+   "date": "1800-03-13",
+   "lane": "political",
+   "major": true,
+   "title": "Nana Phadnavis dies",
+   "summary": "With Nana and Mahadji both gone, rivalry between the Maratha houses tears the confederacy apart.",
+   "people": [
+    "nana-phadnavis",
+    "bajirao-ii"
+   ],
+   "places": [
+    "pune"
+   ],
+   "see": "nana-phadnavis"
+  },
+  {
+   "id": "bassein",
+   "date": "1802-12-31",
+   "lane": "political",
+   "major": true,
+   "title": "Treaty of Bassein",
+   "summary": "Driven from Pune by Yashwantrao Holkar, Bajirao II accepts a British subsidiary alliance.",
+   "people": [
+    "bajirao-ii",
+    "yashwantrao-holkar"
+   ],
+   "places": [
+    "vasai"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "subsidiary-alliance"
+   ],
+   "wiki": "Treaty of Bassein (1802)",
+   "see": "bajirao-ii"
+  },
+  {
+   "id": "second-amw",
+   "date": "1803-08",
+   "end": "1805-12",
+   "lane": "military",
+   "title": "Second Anglo-Maratha War",
+   "summary": "Shinde and the Bhonsle are defeated at Assaye and Laswari and lose Delhi and much territory.",
+   "people": [
+    "wellesley",
+    "daulatrao-shinde",
+    "yashwantrao-holkar"
+   ],
+   "places": [
+    "assaye",
+    "delhi"
+   ],
+   "polities": [
+    "gwalior-state",
+    "nagpur-kingdom",
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Second Anglo-Maratha War",
+   "see": "bajirao-ii"
+  },
+  {
+   "id": "third-amw",
+   "date": "1817-11-05",
+   "end": "1818-06-03",
+   "lane": "military",
+   "major": true,
+   "title": "Third Anglo-Maratha War",
+   "summary": "From Khadki to Ashti, the Peshwa, Bhonsle and Holkar armies are defeated one by one.",
+   "people": [
+    "bajirao-ii",
+    "elphinstone",
+    "bapu-gokhale"
+   ],
+   "places": [
+    "khadki",
+    "koregaon",
+    "ashti",
+    "mahidpur"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Third Anglo-Maratha War",
+   "see": "bajirao-ii"
+  },
+  {
+   "id": "end",
+   "date": "1818-06-03",
+   "lane": "political",
+   "major": true,
+   "title": "End of the Peshwa state",
+   "summary": "Bajirao II surrenders and is exiled to Bithur. The Company annexes his territories; Satara, Kolhapur, Gwalior, Indore, Baroda and Nagpur survive for a while as dependent states.",
+   "people": [
+    "bajirao-ii",
+    "john-malcolm",
+    "pratapsinh"
+   ],
+   "places": [
+    "bithoor"
+   ],
+   "polities": [
+    "maratha-empire",
+    "east-india-company",
+    "satara-state"
+   ],
+   "see": "bajirao-ii"
+  },
+  {
+   "id": "kolhapur-split",
+   "date": "1710",
+   "approx": true,
+   "lane": "political",
+   "title": "Kolhapur becomes a rival court",
+   "summary": "After losing the civil war to Shahu, Tarabai sets up a separate court at Kolhapur. The Treaty of Warna (1731) makes the split permanent: two Maratha kingdoms, Satara and Kolhapur.",
+   "people": [
+    "tarabai",
+    "shahu",
+    "sambhaji-ii"
+   ],
+   "places": [
+    "kolhapur",
+    "satara"
+   ],
+   "polities": [
+    "kolhapur-state"
+   ],
+   "see": "rajaram-tarabai"
+  },
+  {
+   "id": "gaekwads",
+   "date": "1721",
+   "approx": true,
+   "lane": "forts",
+   "title": "Gaekwads in Gujarat",
+   "summary": "Pilaji Gaekwad builds a base at Songadh and begins collecting tribute in Gujarat. His son Damaji takes Baroda in the 1730s; the Gaekwads of Baroda become one of the great confederacy houses.",
+   "people": [
+    "pilaji-gaekwad",
+    "damaji-gaekwad"
+   ],
+   "places": [
+    "vadodara"
+   ],
+   "polities": [
+    "baroda-state"
+   ]
+  },
+  {
+   "id": "malwa-houses",
+   "date": "1731",
+   "end": "1733",
+   "approx": true,
+   "lane": "forts",
+   "major": true,
+   "title": "The confederacy houses: Shinde, Holkar, Pawar",
+   "summary": "Bajirao divides the revenue of Malwa among his commanders. Ranoji Shinde settles at Ujjain, Malharrao Holkar receives Indore, and the Pawars Dhar — the start of the hereditary states that turn the Maratha empire into a confederacy.",
+   "people": [
+    "bajirao",
+    "ranoji-shinde",
+    "malharrao-holkar"
+   ],
+   "places": [
+    "ujjain",
+    "indore",
+    "dhar"
+   ],
+   "polities": [
+    "gwalior-state",
+    "indore-state",
+    "dhar-state"
+   ],
+   "see": "bajirao-i"
+  },
+  {
+   "id": "nagpur-bhonsles",
+   "date": "1739",
+   "approx": true,
+   "lane": "forts",
+   "title": "Bhonsles of Nagpur",
+   "summary": "Raghuji Bhonsle establishes himself at Nagpur and expands east into Gondwana, Orissa and Bengal — the easternmost reach of Maratha power.",
+   "people": [
+    "raghuji-bhonsle"
+   ],
+   "places": [
+    "nagpur"
+   ],
+   "polities": [
+    "nagpur-kingdom",
+    "bengal-subah"
+   ]
+  },
+  {
+   "id": "ahilyabai",
+   "date": "1767",
+   "end": "1795",
+   "lane": "political",
+   "title": "Ahilyabai Holkar rules Indore",
+   "summary": "For nearly thirty years Ahilyabai governs the Holkar state from Maheshwar; she is remembered for temples and ghats built from Somnath to Kashi.",
+   "people": [
+    "ahilyabai",
+    "tukoji-holkar"
+   ],
+   "places": [
+    "indore"
+   ],
+   "polities": [
+    "indore-state"
+   ],
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "gwalior-capital",
+   "date": "1810",
+   "approx": true,
+   "lane": "forts",
+   "title": "Shindes move to Gwalior",
+   "summary": "Daulatrao Shinde makes his camp below Gwalior fort his permanent capital (Lashkar), where the Shinde state continues under British protection.",
+   "people": [
+    "daulatrao-shinde"
+   ],
+   "places": [
+    "gwalior-fort"
+   ],
+   "polities": [
+    "gwalior-state"
+   ]
+  },
+  {
+   "id": "satara-annexed",
+   "date": "1848",
+   "lane": "world",
+   "title": "Satara annexed",
+   "summary": "When the ruler of Satara dies without a natural son, Lord Dalhousie annexes the state under the Doctrine of Lapse — ending the line of Shivaji's direct successors at Satara.",
+   "people": [
+    "dalhousie"
+   ],
+   "places": [
+    "satara"
+   ],
+   "polities": [
+    "satara-state",
+    "east-india-company"
+   ],
+   "concepts": [
+    "doctrine-of-lapse"
+   ]
+  },
+  {
+   "id": "nagpur-jhansi-annexed",
+   "date": "1853",
+   "end": "1854",
+   "lane": "world",
+   "title": "Nagpur and Jhansi annexed",
+   "summary": "Dalhousie annexes Nagpur and the Maratha-ruled state of Jhansi under the same doctrine, refusing to recognise adopted heirs.",
+   "people": [
+    "dalhousie",
+    "lakshmibai"
+   ],
+   "places": [
+    "nagpur",
+    "jhansi"
+   ],
+   "polities": [
+    "nagpur-kingdom",
+    "east-india-company"
+   ],
+   "concepts": [
+    "doctrine-of-lapse"
+   ]
+  },
+  {
+   "id": "revolt-1857",
+   "date": "1857-05",
+   "end": "1858-06",
+   "lane": "world",
+   "major": true,
+   "title": "Revolt of 1857",
+   "summary": "Nana Sahib, the last Peshwa's adopted son, and Rani Lakshmibai of Jhansi become leaders of the great revolt against Company rule. Lakshmibai dies fighting near Gwalior in June 1858.",
+   "people": [
+    "nana-sahib",
+    "lakshmibai"
+   ],
+   "places": [
+    "bithoor",
+    "jhansi",
+    "gwalior-fort"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "revolt-1857"
+   ]
+  },
+  {
+   "id": "merger",
+   "date": "1947",
+   "end": "1949",
+   "lane": "world",
+   "title": "Maratha princely states join India",
+   "summary": "Gwalior, Indore, Baroda, Kolhapur, Dhar and the other surviving Maratha states accede to and then merge into the Indian Union.",
+   "polities": [
+    "gwalior-state",
+    "indore-state",
+    "baroda-state",
+    "kolhapur-state",
+    "dhar-state"
+   ]
+  }
+ ],
+ "kind": "empire"
+}

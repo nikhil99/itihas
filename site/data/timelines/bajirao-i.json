@@ -1,0 +1,422 @@
+{
+ "id": "bajirao-i",
+ "title": "Peshwa Bajirao I",
+ "subtitle": "Twenty years of campaigns that took the Marathas north · 1700 – 1740",
+ "subject": "bajirao",
+ "series": "The Maratha Empire",
+ "order": 5,
+ "range": [
+  1697,
+  1743
+ ],
+ "focus": [
+  1720.3,
+  1740.32
+ ],
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Life & family"
+  },
+  {
+   "id": "military",
+   "label": "Battles & campaigns"
+  },
+  {
+   "id": "forts",
+   "label": "Expansion"
+  },
+  {
+   "id": "political",
+   "label": "State & diplomacy"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ],
+ "context": [
+  {
+   "entity": "bajirao",
+   "label": "Bajirao I"
+  },
+  {
+   "entity": "balaji-vishwanath",
+   "label": "Balaji Vishwanath (father)"
+  },
+  {
+   "entity": "chimaji",
+   "label": "Chimaji Appa (brother)"
+  },
+  {
+   "entity": "shahu",
+   "label": "Shahu – Chhatrapati",
+   "from": 1708.03,
+   "to": 1749.96
+  },
+  {
+   "entity": "nizam-ul-mulk",
+   "label": "Nizam-ul-Mulk"
+  },
+  {
+   "entity": "muhammad-shah",
+   "label": "Muhammad Shah – Mughal reign",
+   "from": 1719.75,
+   "to": 1748.3
+  },
+  {
+   "entity": "malharrao-holkar",
+   "label": "Malharrao Holkar"
+  },
+  {
+   "entity": "ranoji-shinde",
+   "label": "Ranoji Shinde"
+  }
+ ],
+ "events": [
+  {
+   "id": "born",
+   "date": "1700-08-18",
+   "lane": "life",
+   "major": true,
+   "title": "Bajirao born",
+   "summary": "Bajirao is born to Balaji Vishwanath and Radhabai into a Chitpavan Brahmin family. He grows up in military camps with his father.",
+   "people": [
+    "bajirao",
+    "balaji-vishwanath"
+   ],
+   "places": [
+    "sinnar"
+   ]
+  },
+  {
+   "id": "father-peshwa",
+   "date": "1713-11-17",
+   "lane": "political",
+   "title": "His father becomes Peshwa",
+   "summary": "Shahu appoints Balaji Vishwanath as Peshwa. Young Bajirao accompanies him on campaigns and negotiations.",
+   "people": [
+    "balaji-vishwanath",
+    "shahu",
+    "bajirao"
+   ],
+   "concepts": [
+    "peshwa"
+   ],
+   "see": "shahu"
+  },
+  {
+   "id": "delhi-1719",
+   "date": "1719-03",
+   "lane": "political",
+   "title": "To Delhi with his father",
+   "summary": "Bajirao sees the decaying Mughal court first-hand when the Maratha army marches to Delhi and wins imperial grants of chauth.",
+   "people": [
+    "bajirao",
+    "balaji-vishwanath"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "concepts": [
+    "chauth"
+   ]
+  },
+  {
+   "id": "kashibai",
+   "date": "1720",
+   "approx": true,
+   "lane": "life",
+   "title": "Married to Kashibai",
+   "summary": "Bajirao's wife Kashibai is the mother of his sons Balaji (Nanasaheb), Raghunathrao and others.",
+   "people": [
+    "kashibai",
+    "bajirao",
+    "nanasaheb",
+    "raghunathrao"
+   ]
+  },
+  {
+   "id": "peshwa",
+   "date": "1720-04-17",
+   "lane": "political",
+   "major": true,
+   "title": "Appointed Peshwa at 19",
+   "summary": "Shahu chooses Bajirao to succeed his father, over older and more experienced ministers. He will spend almost his whole tenure in the field.",
+   "people": [
+    "bajirao",
+    "shahu"
+   ],
+   "concepts": [
+    "peshwa"
+   ]
+  },
+  {
+   "id": "shakar-kheda",
+   "date": "1724-10",
+   "lane": "military",
+   "title": "Shakar Kheda",
+   "summary": "Marathas fight alongside Nizam-ul-Mulk when he defeats the Mughal governor at Shakar Kheda — before the Nizam turns against them.",
+   "people": [
+    "nizam-ul-mulk",
+    "bajirao"
+   ],
+   "polities": [
+    "hyderabad-state"
+   ],
+   "wiki": "Battle of Shakar Kheda",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Shakar_Kheda",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Battle_of_Shakar_Khera.jpg/330px-Battle_of_Shakar_Khera.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "palkhed",
+   "date": "1728-02-28",
+   "lane": "military",
+   "major": true,
+   "title": "Battle of Palkhed",
+   "summary": "Bajirao draws the Nizam's army away from its base with fast marches, then traps it near Palkhed, cut off from supplies and water. The Nizam has to sign the Treaty of Mungi Shevgaon recognising Shahu's claims. Military historians often cite it as a classic of strategic mobility.",
+   "people": [
+    "bajirao",
+    "nizam-ul-mulk"
+   ],
+   "polities": [
+    "hyderabad-state"
+   ],
+   "concepts": [
+    "chauth",
+    "ganimi-kava"
+   ]
+  },
+  {
+   "id": "bundelkhand",
+   "date": "1729-03",
+   "lane": "military",
+   "major": true,
+   "title": "Rescue of Chhatrasal in Bundelkhand",
+   "summary": "The aged Bundela king Chhatrasal, besieged by Muhammad Khan Bangash, appeals to Bajirao, who rides north and forces Bangash to withdraw. Chhatrasal rewards him with a third of his kingdom — and, in popular accounts, the hand of Mastani.",
+   "people": [
+    "bajirao",
+    "chhatrasal",
+    "bangash",
+    "mastani"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "wiki": "Battle of Bundelkhand",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Bundelkhand"
+  },
+  {
+   "id": "shaniwar-wada",
+   "date": "1730-01-10",
+   "lane": "forts",
+   "title": "Shaniwar Wada founded",
+   "summary": "Bajirao lays the foundation of Shaniwar Wada in Pune, which becomes the Peshwas' seat and the real centre of Maratha power.",
+   "people": [
+    "bajirao"
+   ],
+   "places": [
+    "shaniwar-wada",
+    "pune"
+   ],
+   "concepts": [
+    "peshwa"
+   ]
+  },
+  {
+   "id": "malwa-chiefs",
+   "date": "1731",
+   "approx": true,
+   "lane": "forts",
+   "title": "Shinde, Holkar and Pawar in Malwa",
+   "summary": "Bajirao assigns the collection of Malwa's revenue to his commanders Ranoji Shinde, Malharrao Holkar and Udaji Pawar. Their families become the great Maratha houses of Gwalior, Indore and Dhar.",
+   "people": [
+    "ranoji-shinde",
+    "malharrao-holkar",
+    "bajirao"
+   ],
+   "places": [
+    "malwa",
+    "indore",
+    "dhar"
+   ],
+   "polities": [
+    "gwalior-state",
+    "indore-state"
+   ]
+  },
+  {
+   "id": "dabhoi",
+   "date": "1731-04-01",
+   "lane": "military",
+   "title": "Battle of Dabhoi",
+   "summary": "Bajirao defeats the Senapati Trimbakrao Dabhade, who had allied with the Nizam against him. Trimbakrao is killed and the Peshwa's authority over the other chiefs is confirmed.",
+   "people": [
+    "bajirao",
+    "trimbakrao-dabhade",
+    "pilaji-gaekwad"
+   ],
+   "places": [
+    "dabhoi"
+   ],
+   "wiki": "Battle of Dabhoi",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Dabhoi"
+  },
+  {
+   "id": "janjira",
+   "date": "1733",
+   "end": "1736",
+   "lane": "military",
+   "title": "War against the Siddis",
+   "summary": "Campaigns against the Siddis of Janjira win back much of the Konkan coast; Chimaji Appa defeats and kills the Siddi commander Siddi Sat in 1736, though Janjira itself never falls.",
+   "people": [
+    "chimaji",
+    "bajirao"
+   ],
+   "places": [
+    "janjira"
+   ],
+   "polities": [
+    "janjira-state"
+   ]
+  },
+  {
+   "id": "shamsher",
+   "date": "1734",
+   "lane": "life",
+   "title": "Son with Mastani: Shamsher Bahadur",
+   "summary": "Mastani gives birth to Krishnarao, later known as Shamsher Bahadur. The Pune Brahmin establishment refuses to accept Mastani, causing lasting tension in the Peshwa household.",
+   "people": [
+    "mastani",
+    "bajirao",
+    "shamsher-bahadur"
+   ],
+   "places": [
+    "pune"
+   ]
+  },
+  {
+   "id": "delhi-1737",
+   "date": "1737-03-28",
+   "lane": "military",
+   "major": true,
+   "title": "Raid on Delhi",
+   "summary": "Slipping past Mughal armies sent to stop him, Bajirao reaches the edge of Delhi and defeats a force sent out of the city, before withdrawing south. The emperor Muhammad Shah is left humiliated.",
+   "people": [
+    "bajirao",
+    "muhammad-shah"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ]
+  },
+  {
+   "id": "bhopal",
+   "date": "1737-12",
+   "end": "1738-01-07",
+   "lane": "military",
+   "major": true,
+   "title": "Battle of Bhopal — Malwa won",
+   "summary": "Bajirao surrounds the Nizam's army near Bhopal. By the Treaty of Doraha the Nizam undertakes to secure Malwa for the Marathas and pay a war indemnity.",
+   "people": [
+    "bajirao",
+    "nizam-ul-mulk"
+   ],
+   "places": [
+    "bhopal",
+    "malwa"
+   ],
+   "polities": [
+    "hyderabad-state",
+    "mughal-empire"
+   ]
+  },
+  {
+   "id": "nader-shah",
+   "date": "1739-02-24",
+   "lane": "world",
+   "title": "Nader Shah sacks Delhi",
+   "summary": "News of Nader Shah's invasion alarms Bajirao, who tries to organise a common front, but the Persians leave Delhi before it matters.",
+   "people": [
+    "nader-shah",
+    "muhammad-shah",
+    "bajirao"
+   ],
+   "places": [
+    "karnal",
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ]
+  },
+  {
+   "id": "vasai",
+   "date": "1739-05",
+   "lane": "military",
+   "major": true,
+   "title": "Fall of Vasai",
+   "summary": "Chimaji Appa takes Vasai from the Portuguese after a siege of about three months, completing the conquest of the north Konkan.",
+   "people": [
+    "chimaji"
+   ],
+   "places": [
+    "vasai"
+   ],
+   "polities": [
+    "portuguese-india"
+   ],
+   "wiki": "Battle of Vasai",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Vasai",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Maratha_siege_of_Vasai%2C_1739.jpg/330px-Maratha_siege_of_Vasai%2C_1739.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "mastani-dies",
+   "date": "1740",
+   "approx": true,
+   "lane": "life",
+   "title": "Mastani dies",
+   "summary": "Mastani dies soon after Bajirao; her son Shamsher Bahadur is raised by Kashibai and later dies of wounds after Panipat.",
+   "people": [
+    "mastani",
+    "shamsher-bahadur",
+    "kashibai"
+   ]
+  },
+  {
+   "id": "dies",
+   "date": "1740-04-28",
+   "lane": "life",
+   "major": true,
+   "title": "Dies at Raverkhedi",
+   "summary": "Bajirao dies of a sudden fever while camped on the Narmada at Raverkhedi, aged 39. It is often said he never lost a battle.",
+   "people": [
+    "bajirao"
+   ],
+   "places": [
+    "raverkhedi"
+   ]
+  },
+  {
+   "id": "nanasaheb",
+   "date": "1740-06-25",
+   "lane": "political",
+   "title": "Nanasaheb succeeds as Peshwa",
+   "summary": "Bajirao's eldest son Balaji Bajirao (Nanasaheb) is appointed Peshwa by Shahu.",
+   "people": [
+    "nanasaheb",
+    "shahu"
+   ],
+   "concepts": [
+    "peshwa"
+   ],
+   "see": "nanasaheb"
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+[
+ {
+  "id": "mughal-empire",
+  "title": "The Mughal Empire",
+  "subtitle": "From Babur at Panipat to the last emperor in Rangoon · 1526 – 1857",
+  "subject": "mughal-empire",
+  "events": 48,
+  "series": null,
+  "order": 0,
+  "kind": "empire",
+  "range": [
+   1505,
+   1870
+  ],
+  "focus": null
+ },
+ {
+  "id": "vijayanagara-empire",
+  "title": "The Vijayanagara Empire",
+  "subtitle": "The great south Indian empire of Hampi · 1336 – 1646",
+  "subject": "vijayanagara-empire",
+  "events": 31,
+  "series": null,
+  "order": 0,
+  "kind": "empire",
+  "range": [
+   1320,
+   1680
+  ],
+  "focus": null
+ },
+ {
+  "id": "maratha-empire",
+  "title": "The Maratha Empire",
+  "subtitle": "From Shivaji's first fort to the last Peshwa, and the confederacy states after · 1646 – 1818",
+  "subject": "maratha-empire",
+  "events": 49,
+  "series": "The Maratha Empire",
+  "order": 0,
+  "kind": "empire",
+  "range": [
+   1625,
+   1830
+  ],
+  "focus": [
+   1674.43,
+   1818.42
+  ]
+ },
+ {
+  "id": "shivaji",
+  "title": "Chhatrapati Shivaji Maharaj",
+  "subtitle": "Founder of the Maratha state · 1630 – 1680",
+  "subject": "shivaji",
+  "events": 47,
+  "series": "The Maratha Empire",
+  "order": 1,
+  "kind": null,
+  "range": [
+   1625,
+   1685
+  ],
+  "focus": null
+ },
+ {
+  "id": "sambhaji",
+  "title": "Chhatrapati Sambhaji Maharaj",
+  "subtitle": "Second Chhatrapati of the Marathas · 1657 – 1689",
+  "subject": "sambhaji",
+  "events": 34,
+  "series": "The Maratha Empire",
+  "order": 2,
+  "kind": null,
+  "range": [
+   1654,
+   1702
+  ],
+  "focus": null
+ },
+ {
+  "id": "rajaram-tarabai",
+  "title": "Rajaram & Tarabai",
+  "subtitle": "The war of independence against Aurangzeb · 1689 – 1707",
+  "subject": "tarabai",
+  "events": 28,
+  "series": "The Maratha Empire",
+  "order": 3,
+  "kind": null,
+  "range": [
+   1668,
+   1764
+  ],
+  "focus": [
+   1689.1,
+   1707.2
+  ]
+ },
+ {
+  "id": "shahu",
+  "title": "Chhatrapati Shahu",
+  "subtitle": "From Mughal captive to the rise of the Peshwas · 1682 – 1749",
+  "subject": "shahu",
+  "events": 23,
+  "series": "The Maratha Empire",
+  "order": 4,
+  "kind": null,
+  "range": [
+   1678,
+   1752
+  ],
+  "focus": [
+   1708.0,
+   1749.96
+  ]
+ },
+ {
+  "id": "bajirao-i",
+  "title": "Peshwa Bajirao I",
+  "subtitle": "Twenty years of campaigns that took the Marathas north · 1700 – 1740",
+  "subject": "bajirao",
+  "events": 20,
+  "series": "The Maratha Empire",
+  "order": 5,
+  "kind": null,
+  "range": [
+   1697,
+   1743
+  ],
+  "focus": [
+   1720.3,
+   1740.32
+  ]
+ },
+ {
+  "id": "nanasaheb",
+  "title": "Nanasaheb Peshwa",
+  "subtitle": "From the Narmada to Attock, and the catastrophe at Panipat · 1740 – 1761",
+  "subject": "nanasaheb",
+  "events": 17,
+  "series": "The Maratha Empire",
+  "order": 6,
+  "kind": null,
+  "range": [
+   1718,
+   1764
+  ],
+  "focus": [
+   1740.48,
+   1761.48
+  ]
+ },
+ {
+  "id": "madhavrao-i",
+  "title": "Peshwa Madhavrao I",
+  "subtitle": "Recovery after Panipat · 1761 – 1772",
+  "subject": "madhavrao",
+  "events": 12,
+  "series": "The Maratha Empire",
+  "order": 7,
+  "kind": null,
+  "range": [
+   1743,
+   1775
+  ],
+  "focus": [
+   1761.55,
+   1772.88
+  ]
+ },
+ {
+  "id": "nana-phadnavis",
+  "title": "Nana Phadnavis & Mahadji Shinde",
+  "subtitle": "The regency, the First Anglo-Maratha War and Maratha Delhi · 1772 – 1800",
+  "subject": "nana-phadnavis",
+  "events": 21,
+  "series": "The Maratha Empire",
+  "order": 8,
+  "kind": null,
+  "range": [
+   1770,
+   1803
+  ],
+  "focus": [
+   1772.88,
+   1800.2
+  ]
+ },
+ {
+  "id": "bajirao-ii",
+  "title": "Peshwa Bajirao II",
+  "subtitle": "Subsidiary alliance and the fall of the Peshwa state · 1796 – 1818",
+  "subject": "bajirao-ii",
+  "events": 23,
+  "series": "The Maratha Empire",
+  "order": 9,
+  "kind": null,
+  "range": [
+   1773,
+   1853
+  ],
+  "focus": [
+   1796.93,
+   1818.42
+  ]
+ }
+]

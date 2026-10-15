@@ -1,0 +1,101 @@
+{
+  "id": "madhavrao-i",
+  "title": "Peshwa Madhavrao I",
+  "subtitle": "Recovery after Panipat · 1761 – 1772",
+  "subject": "madhavrao",
+  "series": "The Maratha Empire", "order": 7,
+  "range": [1743, 1775],
+  "focus": [1761.55, 1772.88],
+  "intro": "Madhavrao became Peshwa at sixteen, months after Panipat, with his ambitious uncle Raghunathrao as regent and both the Nizam and Hyder Ali ready to take advantage. In eleven years he subdued his uncle, defeated the Nizam, checked Hyder Ali, and sent Maratha armies back to Delhi. He died of tuberculosis at 27, and many historians date the decline of the Peshwa state from his death.",
+  "lanes": [
+    { "id": "life",      "label": "Life & family" },
+    { "id": "military",  "label": "Battles & campaigns" },
+    { "id": "forts",     "label": "Expansion" },
+    { "id": "political", "label": "State & succession" },
+    { "id": "world",     "label": "Wider world" }
+  ],
+  "context": [
+    { "entity": "madhavrao",       "label": "Madhavrao I" },
+    { "entity": "madhavrao",       "label": "Madhavrao – Peshwa",       "from": 1761.55, "to": 1772.88 },
+    { "entity": "raghunathrao",    "label": "Raghunathrao (uncle)" },
+    { "entity": "nana-phadnavis",  "label": "Nana Phadnavis" },
+    { "entity": "mahadji",         "label": "Mahadji Shinde" },
+    { "entity": "hyder-ali",       "label": "Hyder Ali" },
+    { "entity": "nizam-ali",       "label": "Nizam Ali Khan – Hyderabad", "from": 1762.5, "to": 1803.4 },
+    { "entity": "shah-alam-ii",    "label": "Shah Alam II – Mughal reign", "from": 1759.9, "to": 1806.9 }
+  ],
+  "events": [
+    {
+      "id": "born", "date": "1745-02-14", "lane": "life",
+      "title": "Madhavrao born",
+      "summary": "Madhavrao is born to Peshwa Nanasaheb and Gopikabai, the second son after Vishwasrao.",
+      "people": ["madhavrao", "nanasaheb"], "see": "nanasaheb"
+    },
+    {
+      "id": "panipat", "date": "1761-01-14", "lane": "world", "major": true,
+      "title": "Disaster at Panipat",
+      "summary": "His elder brother Vishwasrao and his cousin Sadashivrao Bhau die at Panipat. A generation of Maratha commanders is lost.",
+      "people": ["vishwasrao", "sadashivrao-bhau", "abdali"], "places": ["panipat"], "polities": ["durrani-empire"], "wiki": "Third Battle of Panipat", "see": "nanasaheb"
+    },
+    {
+      "id": "peshwa", "date": "1761-07-20", "lane": "political", "major": true,
+      "title": "Peshwa at sixteen",
+      "summary": "After his father's death Madhavrao is invested as Peshwa, with his uncle Raghunathrao acting as regent.",
+      "people": ["madhavrao", "raghunathrao", "rajaram-ii"], "places": ["satara", "pune"], "concepts": ["peshwa"]
+    },
+    {
+      "id": "alegaon", "date": "1762-11", "lane": "political", "major": true,
+      "title": "Battle of Alegaon — prisoner of his uncle",
+      "summary": "Tensions with Raghunathrao turn into open war. Raghunathrao, allied with the Nizam, defeats Madhavrao's forces; Madhavrao surrenders and is briefly kept under Raghunathrao's control.",
+      "people": ["madhavrao", "raghunathrao", "nizam-ali"], "polities": ["hyderabad-state"], "wiki": "Battle of Alegaon"
+    },
+    {
+      "id": "rakshasbhuvan", "date": "1763-08-10", "lane": "military", "major": true,
+      "title": "Battle of Rakshasbhuvan",
+      "summary": "Madhavrao, now in command, crushes the Nizam's army on the Godavari after the Nizam had sacked Pune. The Nizam returns territory and the young Peshwa's reputation is made.",
+      "people": ["madhavrao", "nizam-ali", "raghunathrao"], "places": ["pune"], "polities": ["hyderabad-state"]
+    },
+    {
+      "id": "mysore-1764", "date": "1764", "end": "1765", "lane": "military",
+      "title": "First campaign against Hyder Ali",
+      "summary": "Madhavrao leads the army into Karnataka against Hyder Ali, the new ruler of Mysore, and forces him to give up territory and pay tribute.",
+      "people": ["madhavrao", "hyder-ali"], "polities": ["mysore-kingdom"], "concepts": ["maratha-mysore-wars"], "wiki": "Maratha–Mysore wars"
+    },
+    {
+      "id": "malharrao-dies", "date": "1766-05-20", "lane": "world",
+      "title": "Malharrao Holkar dies; Ahilyabai rules Indore",
+      "summary": "The veteran Malharrao Holkar dies. His daughter-in-law Ahilyabai takes charge of the Holkar state, with Madhavrao's support, and rules Indore for nearly thirty years.",
+      "people": ["malharrao-holkar", "ahilyabai", "madhavrao", "tukoji-holkar"], "places": ["indore"], "polities": ["indore-state"]
+    },
+    {
+      "id": "dhodap", "date": "1768-06", "lane": "political", "major": true,
+      "title": "Raghunathrao defeated at Dhodap",
+      "summary": "Raghunathrao rebels again. Madhavrao defeats him at Dhodap fort near Nashik and keeps him confined at Shaniwar Wada.",
+      "people": ["madhavrao", "raghunathrao"], "places": ["shaniwar-wada"]
+    },
+    {
+      "id": "mysore-1770", "date": "1770", "end": "1772", "lane": "military",
+      "title": "War with Hyder Ali — Moti Talav",
+      "summary": "A long Maratha campaign in Mysore culminates in a crushing defeat of Hyder Ali's army at Moti Talav (Chinkurali) in 1771. Hyder cedes territory and pays a large indemnity.",
+      "people": ["hyder-ali", "madhavrao"], "places": ["srirangapatna"], "polities": ["mysore-kingdom"], "concepts": ["maratha-mysore-wars"]
+    },
+    {
+      "id": "north-return", "date": "1771-02", "lane": "forts", "major": true,
+      "title": "Back in Delhi: Shah Alam restored",
+      "summary": "A Maratha army in the north, with Mahadji Shinde prominent among its leaders, retakes Delhi and escorts the exiled emperor Shah Alam II back to his capital (he enters in January 1772). Ten years after Panipat, the Marathas are again the power behind the Mughal throne.",
+      "people": ["mahadji", "shah-alam-ii", "tukoji-holkar"], "places": ["delhi"], "polities": ["mughal-empire"]
+    },
+    {
+      "id": "ram-shastri", "date": "1771", "approx": true, "lane": "political",
+      "title": "Ram Shastri and the courts",
+      "summary": "Madhavrao is remembered for reforming revenue collection and supporting an independent judiciary under the chief justice Ram Shastri Prabhune, who later condemns Raghunathrao over Narayanrao's murder.",
+      "people": ["ram-shastri", "madhavrao"], "places": ["pune"]
+    },
+    {
+      "id": "dies", "date": "1772-11-18", "lane": "life", "major": true,
+      "title": "Dies at Theur",
+      "summary": "Madhavrao dies of tuberculosis at Theur near Pune, aged 27. His wife Ramabai commits sati. His younger brother Narayanrao, 17, becomes Peshwa.",
+      "people": ["madhavrao", "narayanrao"], "places": ["theur"], "see": "nana-phadnavis"
+    }
+  ]
+}

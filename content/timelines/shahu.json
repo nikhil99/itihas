@@ -1,0 +1,168 @@
+{
+  "id": "shahu",
+  "title": "Chhatrapati Shahu",
+  "subtitle": "From Mughal captive to the rise of the Peshwas · 1682 – 1749",
+  "subject": "shahu",
+  "series": "The Maratha Empire", "order": 4,
+  "range": [1678, 1752],
+  "focus": [1708.0, 1749.96],
+  "intro": "Shahu, Sambhaji's son, spent his childhood as a prisoner in Aurangzeb's camp. Freed in 1707, he won the Maratha throne in a civil war and reigned for 41 years. He rarely went to war himself; instead he picked able men — above all the Peshwas Balaji Vishwanath and Bajirao — and under them the Marathas grew from a Deccan kingdom into the strongest power in India.",
+  "lanes": [
+    { "id": "life",      "label": "Life & family" },
+    { "id": "military",  "label": "Battles & campaigns" },
+    { "id": "forts",     "label": "Expansion" },
+    { "id": "political", "label": "State & diplomacy" },
+    { "id": "world",     "label": "Wider world" }
+  ],
+  "context": [
+    { "entity": "shahu",             "label": "Shahu" },
+    { "entity": "shahu",             "label": "Shahu – reign",              "from": 1708.03, "to": 1749.96 },
+    { "entity": "tarabai",           "label": "Tarabai" },
+    { "entity": "balaji-vishwanath", "label": "Balaji Vishwanath – Peshwa", "from": 1713.9, "to": 1720.25 },
+    { "entity": "bajirao",           "label": "Bajirao I – Peshwa",         "from": 1720.3, "to": 1740.32 },
+    { "entity": "nanasaheb",         "label": "Nanasaheb – Peshwa",         "from": 1740.48, "to": 1761.48 },
+    { "entity": "aurangzeb",         "label": "Aurangzeb – Mughal reign",   "from": 1658, "to": 1707.2 },
+    { "entity": "muhammad-shah",     "label": "Muhammad Shah – Mughal reign", "from": 1719.75, "to": 1748.3 },
+    { "entity": "nizam-ul-mulk",     "label": "Nizam-ul-Mulk" }
+  ],
+  "events": [
+    {
+      "id": "born", "date": "1682-05-18", "lane": "life", "major": true,
+      "title": "Shahu born",
+      "summary": "Shahu is born to Sambhaji and Yesubai, in the early years of his father's war with Aurangzeb.",
+      "people": ["shahu", "sambhaji", "yesubai"], "polities": ["bhonsle"]
+    },
+    {
+      "id": "captured", "date": "1689-11", "lane": "life", "major": true,
+      "title": "Captured at Raigad",
+      "summary": "When Raigad falls, seven-year-old Shahu and his mother Yesubai are taken prisoner. His father had been executed eight months earlier.",
+      "people": ["shahu", "yesubai", "zulfiqar-khan"], "places": ["raigad"], "polities": ["mughal-empire"], "see": "rajaram-tarabai"
+    },
+    {
+      "id": "captivity", "date": "1689-11", "end": "1707-05", "lane": "life",
+      "title": "Growing up in the Mughal camp",
+      "summary": "Shahu is raised in Aurangzeb's travelling camp, treated as a prisoner of rank. Aurangzeb's daughter Zinat-un-Nissa is said to have looked after him. He grows up knowing the Mughal court from the inside.",
+      "people": ["shahu", "aurangzeb", "yesubai"], "polities": ["mughal-empire"]
+    },
+    {
+      "id": "aurangzeb-dies", "date": "1707-03-03", "lane": "world", "major": true,
+      "title": "Aurangzeb dies",
+      "summary": "Aurangzeb's death ends the Deccan war and starts a Mughal succession struggle.",
+      "people": ["aurangzeb"], "places": ["ahmednagar"], "polities": ["mughal-empire"], "concepts": ["deccan-wars"]
+    },
+    {
+      "id": "released", "date": "1707-05", "lane": "political", "major": true,
+      "title": "Released by Azam Shah",
+      "summary": "Prince Azam Shah frees Shahu, partly to divide the Marathas. Yesubai is kept back as a hostage.",
+      "people": ["shahu", "azam-shah", "yesubai"], "polities": ["mughal-empire"]
+    },
+    {
+      "id": "khed", "date": "1707-10-12", "lane": "military", "major": true,
+      "title": "Battle of Khed",
+      "summary": "Tarabai's general Dhanaji Jadhav switches sides and Shahu wins the civil war's decisive battle.",
+      "people": ["shahu", "tarabai", "dhanaji"], "places": ["khed"], "wiki": "Battle of Khed", "see": "rajaram-tarabai"
+    },
+    {
+      "id": "coronation", "date": "1708-01-12", "lane": "political", "major": true,
+      "title": "Crowned at Satara",
+      "summary": "Shahu is crowned Chhatrapati at Satara, which remains his capital for the rest of his life.",
+      "people": ["shahu"], "places": ["satara"], "polities": ["maratha-empire"]
+    },
+    {
+      "id": "balaji-peshwa", "date": "1713-11-17", "lane": "political", "major": true,
+      "title": "Balaji Vishwanath made Peshwa",
+      "summary": "Shahu appoints Balaji Vishwanath, a Konkani Brahmin administrator who had helped him win over Maratha chiefs, as Peshwa (chief minister). The office will become hereditary in his family.",
+      "people": ["balaji-vishwanath", "shahu"], "places": ["satara"], "concepts": ["peshwa"]
+    },
+    {
+      "id": "angre", "date": "1714-02", "lane": "political",
+      "title": "Kanhoji Angre won over",
+      "summary": "Balaji Vishwanath negotiates the Treaty of Lonavala with Kanhoji Angre, the powerful Maratha admiral who had backed Tarabai. Angre accepts Shahu as Chhatrapati and keeps control of the coast.",
+      "people": ["kanhoji-angre", "balaji-vishwanath", "shahu"], "concepts": ["maratha-navy"]
+    },
+    {
+      "id": "delhi-1719", "date": "1719-03", "lane": "political", "major": true,
+      "title": "Mughal grants: chauth of the Deccan",
+      "summary": "Balaji Vishwanath marches to Delhi with a Maratha army to support the Sayyid brothers, kingmakers at the Mughal court. In return, imperial grants recognise Shahu's homeland (swarajya) and his right to collect chauth and sardeshmukhi across the six Mughal provinces of the Deccan.",
+      "people": ["balaji-vishwanath", "bajirao"], "places": ["delhi"], "polities": ["mughal-empire"], "concepts": ["chauth"]
+    },
+    {
+      "id": "yesubai-returns", "date": "1719", "approx": true, "lane": "life",
+      "title": "Yesubai comes home",
+      "summary": "Shahu's mother Yesubai, held hostage for thirty years, returns from Delhi with the Maratha army.",
+      "people": ["yesubai", "shahu"]
+    },
+    {
+      "id": "bajirao-peshwa", "date": "1720-04-17", "lane": "political", "major": true,
+      "title": "Bajirao appointed Peshwa",
+      "summary": "After Balaji Vishwanath's death, Shahu appoints his 19-year-old son Bajirao as Peshwa over the objections of older ministers.",
+      "people": ["bajirao", "shahu", "balaji-vishwanath"], "concepts": ["peshwa"], "see": "bajirao-i"
+    },
+    {
+      "id": "hyderabad", "date": "1724-10", "lane": "world",
+      "title": "Nizam-ul-Mulk founds Hyderabad state",
+      "summary": "The Mughal governor Nizam-ul-Mulk defeats a rival at Shakar Kheda and becomes effectively independent in the Deccan — the Marathas' main rival in the south for the rest of the century.",
+      "people": ["nizam-ul-mulk"], "polities": ["hyderabad-state", "mughal-empire"], "wiki": "Battle of Shakar Kheda"
+    },
+    {
+      "id": "palkhed", "date": "1728-02-28", "lane": "military", "major": true,
+      "title": "Battle of Palkhed",
+      "summary": "Bajirao outmanoeuvres the Nizam and traps his army without water near Palkhed. The Nizam has to accept Shahu's rights to chauth and sardeshmukhi.",
+      "people": ["bajirao", "nizam-ul-mulk"], "polities": ["hyderabad-state"], "concepts": ["chauth"], "see": "bajirao-i"
+    },
+    {
+      "id": "dabhoi", "date": "1731-04-01", "lane": "military",
+      "title": "Battle of Dabhoi",
+      "summary": "Bajirao defeats and kills Trimbakrao Dabhade, the Senapati who resented the Peshwa's growing power. Shahu reconciles with the Dabhade family, but the Peshwa's primacy is settled.",
+      "people": ["bajirao", "trimbakrao-dabhade", "shahu"], "places": ["dabhoi"], "wiki": "Battle of Dabhoi"
+    },
+    {
+      "id": "warna", "date": "1731-04-13", "lane": "political",
+      "title": "Treaty of Warna with Kolhapur",
+      "summary": "Shahu and his cousin Sambhaji II of Kolhapur divide the Maratha kingdom between them, ending two decades of rivalry.",
+      "people": ["shahu", "sambhaji-ii"], "places": ["kolhapur", "satara"], "polities": ["kolhapur-state"]
+    },
+    {
+      "id": "delhi-1737", "date": "1737-03-28", "lane": "military", "major": true,
+      "title": "Bajirao reaches Delhi",
+      "summary": "Bajirao rides to the outskirts of Delhi and defeats a Mughal force there, a demonstration of how far Maratha power now reaches.",
+      "people": ["bajirao", "muhammad-shah"], "places": ["delhi"], "polities": ["mughal-empire"], "see": "bajirao-i"
+    },
+    {
+      "id": "malwa", "date": "1738-01-07", "lane": "forts", "major": true,
+      "title": "Malwa ceded",
+      "summary": "After the Battle of Bhopal, the Nizam signs the Treaty of Doraha, promising to secure Malwa for the Marathas. Malwa becomes a Maratha province, later divided among the Shindes, Holkars and Pawars.",
+      "people": ["bajirao", "nizam-ul-mulk"], "places": ["bhopal", "malwa"], "polities": ["hyderabad-state", "mughal-empire"]
+    },
+    {
+      "id": "nader-shah", "date": "1739-02-24", "lane": "world",
+      "title": "Nader Shah sacks Delhi",
+      "summary": "The Persian ruler Nader Shah crushes the Mughal army at Karnal and sacks Delhi, carrying off the Peacock Throne. The Mughal empire's weakness is exposed to all.",
+      "people": ["nader-shah", "muhammad-shah"], "places": ["karnal", "delhi"], "polities": ["mughal-empire"]
+    },
+    {
+      "id": "vasai", "date": "1739-05", "lane": "military", "major": true,
+      "title": "Chimaji Appa takes Vasai",
+      "summary": "Bajirao's brother Chimaji Appa captures Vasai (Bassein) from the Portuguese after a long, costly siege, ending Portuguese power on the north Konkan coast.",
+      "people": ["chimaji"], "places": ["vasai"], "polities": ["portuguese-india"], "wiki": "Battle of Vasai"
+    },
+    {
+      "id": "nanasaheb-peshwa", "date": "1740-06-25", "lane": "political",
+      "title": "Nanasaheb becomes Peshwa",
+      "summary": "After Bajirao's sudden death, Shahu appoints his son Balaji Bajirao (Nanasaheb) as Peshwa.",
+      "people": ["nanasaheb", "shahu", "bajirao"], "concepts": ["peshwa"], "see": "nanasaheb"
+    },
+    {
+      "id": "bengal", "date": "1742", "end": "1751", "lane": "forts",
+      "title": "Raids into Bengal",
+      "summary": "Raghuji Bhonsle of Nagpur leads repeated invasions of Bengal. In 1751 Alivardi Khan agrees to pay chauth and cedes Orissa's revenue.",
+      "people": ["raghuji-bhonsle", "alivardi-khan"], "polities": ["bengal-subah", "nagpur-kingdom"], "wiki": "Maratha invasions of Bengal"
+    },
+    {
+      "id": "dies", "date": "1749-12-15", "lane": "life", "major": true,
+      "title": "Shahu dies at Satara",
+      "summary": "Shahu dies childless. Before his death he leaves the Peshwa in charge of the kingdom; real power moves from Satara to Pune.",
+      "people": ["shahu", "nanasaheb", "tarabai"], "places": ["satara", "pune"], "concepts": ["peshwa"]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "shivaji",
+  "title": "Chhatrapati Shivaji Maharaj",
+  "subtitle": "Founder of the Maratha state · 1630 – 1680",
+  "subject": "shivaji",
+  "series": "The Maratha Empire", "order": 1,
+  "range": [1625, 1685],
+  "lanes": [
+    { "id": "life",      "label": "Life & family" },
+    { "id": "military",  "label": "Battles & raids" },
+    { "id": "forts",     "label": "Forts & navy" },
+    { "id": "political", "label": "State & diplomacy" },
+    { "id": "world",     "label": "Wider world" }
+  ],
+  "context": [
+    { "entity": "shahaji",              "label": "Shahaji (father)" },
+    { "entity": "jijabai",              "label": "Jijabai (mother)" },
+    { "entity": "shivaji",              "label": "Shivaji" },
+    { "entity": "sambhaji",             "label": "Sambhaji (son)" },
+    { "entity": "shah-jahan",           "label": "Shah Jahan – Mughal reign",       "from": 1628, "to": 1658 },
+    { "entity": "aurangzeb",            "label": "Aurangzeb – Mughal reign",        "from": 1658, "to": 1707 },
+    { "entity": "mohammed-adil-shah",   "label": "Mohammed Adil Shah – Bijapur",    "from": 1627, "to": 1656 },
+    { "entity": "ali-adil-shah-ii",     "label": "Ali Adil Shah II – Bijapur",      "from": 1656, "to": 1672 },
+    { "entity": "abul-hasan-qutb-shah", "label": "Abul Hasan Qutb Shah – Golconda", "from": 1672, "to": 1687 },
+    { "entity": "maratha-empire",       "label": "Maratha state (crowned 1674)",    "from": 1674, "to": 1818 }
+  ],
+  "events": [
+    {
+      "id": "ahmadnagar-falls", "date": "1636", "lane": "world",
+      "title": "Ahmadnagar Sultanate ends; Shahaji joins Bijapur",
+      "summary": "The Mughals and Bijapur partition the Ahmadnagar Sultanate. Shahaji, who had fought for Ahmadnagar, enters Adil Shahi service and keeps his Pune jagir, while being posted far south in Karnataka.",
+      "people": ["shahaji", "shah-jahan", "mohammed-adil-shah"],
+      "places": ["pune", "bangalore"],
+      "polities": ["ahmadnagar-sultanate", "bijapur-sultanate", "mughal-empire"]
+    },
+    {
+      "id": "birth", "date": "1630-02-19", "lane": "life", "major": true,
+      "title": "Birth at Shivneri",
+      "summary": "Shivaji is born to Shahaji Bhosale and Jijabai in Shivneri fort above Junnar. (19 February 1630 is the date adopted by the Maharashtra government; some older accounts give 1627.)",
+      "people": ["shivaji", "shahaji", "jijabai"],
+      "places": ["shivneri", "junnar"],
+      "polities": ["bhonsle"]
+    },
+    {
+      "id": "pune-jagir", "date": "1642", "approx": true, "lane": "life",
+      "title": "Grows up in Pune under Jijabai",
+      "summary": "After some years with his father in Bangalore, the young Shivaji settles in the Pune jagir with his mother. The estate is administered by Dadoji Konddeo, and Shivaji grows up among the Maval hill people who later form the core of his army.",
+      "people": ["shivaji", "jijabai", "dadoji-konddeo", "shahaji"],
+      "places": ["pune", "lal-mahal", "bangalore"]
+    },
+    {
+      "id": "marriage-saibai", "date": "1640-05-16", "lane": "life",
+      "title": "Marriage to Saibai",
+      "summary": "Shivaji marries Saibai Nimbalkar at the Lal Mahal in Pune. Their son Sambhaji is born in 1657.",
+      "people": ["shivaji", "saibai"],
+      "places": ["lal-mahal"]
+    },
+    {
+      "id": "rohideshwar", "date": "1645", "approx": true, "lane": "political",
+      "title": "Oath of Swarajya (traditional)",
+      "summary": "Tradition holds that Shivaji and his Maval companions took an oath at the Rohideshwar temple to found a self-ruled state. A 1645 letter attributed to Shivaji uses the phrase 'Hindavi Swarajya'. Historians debate details of both.",
+      "people": ["shivaji"],
+      "places": ["pune"],
+      "concepts": ["hindavi-swarajya"]
+    },
+    {
+      "id": "torna", "date": "1646", "lane": "forts", "major": true,
+      "title": "Capture of Torna",
+      "summary": "At about 16, Shivaji takes Torna fort from Bijapur's control — his first major fort. Treasure reportedly found there funds the fortification of nearby Murumbdev, renamed Rajgad.",
+      "people": ["shivaji"],
+      "places": ["torna", "rajgad"],
+      "polities": ["bijapur-sultanate"],
+      "wiki": "Torna Fort"
+    },
+    {
+      "id": "rajgad-capital", "date": "1647", "approx": true, "lane": "forts",
+      "title": "Rajgad becomes the seat; Kondhana and Chakan secured",
+      "summary": "After Dadoji Konddeo's death Shivaji takes direct charge of the jagir. Kondhana (later Sinhagad) and Chakan come under his control, and Rajgad serves as his capital for the next ~25 years.",
+      "people": ["shivaji", "dadoji-konddeo"],
+      "places": ["rajgad", "sinhagad", "chakan"]
+    },
+    {
+      "id": "shahaji-arrest", "date": "1648-07-25", "lane": "political",
+      "title": "Shahaji arrested by Bijapur",
+      "summary": "Bijapur imprisons Shahaji to check his son's expansion. Shivaji defeats a Bijapuri force at Purandar, but secures his father's release in 1649 only by handing back Kondhana; he then keeps a low profile for several years.",
+      "people": ["shahaji", "shivaji", "mohammed-adil-shah"],
+      "places": ["purandar", "sinhagad", "bijapur"],
+      "polities": ["bijapur-sultanate"]
+    },
+    {
+      "id": "javali", "date": "1656-01", "lane": "military", "major": true,
+      "title": "Conquest of Javali",
+      "summary": "Shivaji overthrows Chandrarao More, the powerful Bijapuri vassal of Javali. The forested Javali valley opens the Konkan to him, and Pratapgad is built there under Moropant Pingle.",
+      "people": ["shivaji", "moropant-pingle"],
+      "places": ["javali", "pratapgad"],
+      "polities": ["bijapur-sultanate"]
+    },
+    {
+      "id": "raigad-taken", "date": "1656-04", "lane": "forts",
+      "title": "Rairi (Raigad) taken",
+      "summary": "The fort of Rairi, near Javali, is captured. Rebuilt and renamed Raigad, it later becomes the capital where Shivaji is crowned.",
+      "people": ["shivaji"],
+      "places": ["raigad"]
+    },
+    {
+      "id": "adil-shah-dies", "date": "1656-11-04", "lane": "world",
+      "title": "Mohammed Adil Shah dies",
+      "summary": "The young Ali Adil Shah II succeeds in Bijapur. The succession weakens the sultanate and invites Mughal pressure under Prince Aurangzeb, then viceroy of the Deccan.",
+      "people": ["mohammed-adil-shah", "ali-adil-shah-ii", "aurangzeb"],
+      "places": ["bijapur"],
+      "polities": ["bijapur-sultanate"]
+    },
+    {
+      "id": "junnar-raid", "date": "1657-04", "lane": "military",
+      "title": "First clash with the Mughals: Junnar raid",
+      "summary": "Shivaji raids Mughal-held Junnar and the Ahmadnagar region — his first open conflict with the Mughals. He makes peace with Aurangzeb soon after, as Aurangzeb leaves to fight for the throne.",
+      "people": ["shivaji", "aurangzeb"],
+      "places": ["junnar"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "sambhaji-born", "date": "1657-05-14", "lane": "life",
+      "title": "Sambhaji born",
+      "summary": "Saibai gives birth to Sambhaji, Shivaji's eldest son and successor, at Purandar fort.",
+      "people": ["sambhaji", "saibai", "shivaji"],
+      "places": ["purandar"]
+    },
+    {
+      "id": "kalyan", "date": "1657-10", "lane": "forts",
+      "title": "Kalyan and Bhiwandi captured — a navy begins",
+      "summary": "Taking the Konkan ports of Kalyan and Bhiwandi gives Shivaji a coastline. He begins building ships here, the start of the Maratha Navy.",
+      "people": ["shivaji"],
+      "places": ["kalyan"],
+      "concepts": ["maratha-navy"]
+    },
+    {
+      "id": "aurangzeb-accession", "date": "1658-07-31", "lane": "world",
+      "title": "Aurangzeb becomes Mughal emperor",
+      "summary": "After a war of succession and the confinement of Shah Jahan in Agra Fort, Aurangzeb takes the Mughal throne. He will be Shivaji's chief adversary for the rest of his life.",
+      "people": ["aurangzeb", "shah-jahan"],
+      "places": ["agra-fort"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "saibai-dies", "date": "1659-09-05", "lane": "life",
+      "title": "Saibai dies",
+      "summary": "Shivaji's first wife dies at Rajgad, two months before the Afzal Khan crisis.",
+      "people": ["saibai", "shivaji", "sambhaji"],
+      "places": ["rajgad"]
+    },
+    {
+      "id": "pratapgarh", "date": "1659-11-10", "lane": "military", "major": true,
+      "title": "Battle of Pratapgarh — Afzal Khan killed",
+      "summary": "Bijapur sends its senior general Afzal Khan with a large army. At a parley below Pratapgad, Shivaji kills him in close combat; the Marathas then rout the leaderless army hidden in the Javali forest. The victory makes Shivaji's reputation.",
+      "people": ["shivaji", "afzal-khan", "ali-adil-shah-ii"],
+      "places": ["pratapgad", "javali"],
+      "polities": ["bijapur-sultanate"],
+      "wiki": "Battle of Pratapgarh"
+    },
+    {
+      "id": "kolhapur-battle", "date": "1659-12-28", "lane": "military",
+      "title": "Battle of Kolhapur",
+      "summary": "Pressing his advantage, Shivaji defeats a second Bijapuri army under Rustam-e-Zaman near Kolhapur and takes Panhala.",
+      "people": ["shivaji", "netaji-palkar"],
+      "places": ["kolhapur", "panhala"],
+      "polities": ["bijapur-sultanate"]
+    },
+    {
+      "id": "panhala-siege", "date": "1660-03-02", "end": "1660-07-13", "lane": "military",
+      "title": "Siege of Panhala",
+      "summary": "Siddi Jauhar besieges Shivaji inside Panhala for over four months. Simultaneously a Mughal army under Shaista Khan advances on Pune from the north.",
+      "people": ["shivaji", "siddi-jauhar", "ali-adil-shah-ii"],
+      "places": ["panhala"],
+      "polities": ["bijapur-sultanate"],
+      "wiki": "Siege of Panhala (1660)"
+    },
+    {
+      "id": "pavan-khind", "date": "1660-07-13", "lane": "military", "major": true,
+      "title": "Escape from Panhala & Battle of Pavan Khind",
+      "summary": "Shivaji slips out of Panhala on a rainy night toward Vishalgad. Baji Prabhu Deshpande holds the narrow Ghod Khind pass with a few hundred men against the pursuers until Shivaji reaches safety, and dies there; the pass becomes Pavan Khind, the 'sacred pass'.",
+      "people": ["shivaji", "baji-prabhu", "siddi-jauhar"],
+      "places": ["panhala", "pavan-khind", "vishalgad"],
+      "concepts": ["ganimi-kava"],
+      "wiki": "Battle of Pavan Khind"
+    },
+    {
+      "id": "chakan", "date": "1660-06", "end": "1660-08", "lane": "military",
+      "title": "Siege of Chakan",
+      "summary": "Shaista Khan occupies Pune and besieges Chakan. Firangoji Narsala holds out for about two months before surrendering with honour.",
+      "people": ["shaista-khan", "firangoji"],
+      "places": ["chakan", "pune"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "umberkhind", "date": "1661-02", "lane": "military",
+      "title": "Battle of Umberkhind",
+      "summary": "A Mughal force under Kartalab Khan is trapped in a forested pass in the Sahyadris and forced to surrender — a textbook use of guerrilla terrain warfare.",
+      "people": ["shivaji"],
+      "polities": ["mughal-empire"],
+      "concepts": ["ganimi-kava"]
+    },
+    {
+      "id": "shaista-khan-raid", "date": "1663-04-05", "lane": "military", "major": true,
+      "title": "Night raid on Shaista Khan at Lal Mahal",
+      "summary": "Shivaji and a small band slip into Pune with a wedding procession and attack Shaista Khan in the Lal Mahal — Shivaji's own childhood home. Shaista Khan escapes with the loss of his fingers; Aurangzeb transfers him to Bengal in disgrace.",
+      "people": ["shivaji", "shaista-khan", "aurangzeb"],
+      "places": ["lal-mahal", "pune"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "surat-1664", "date": "1664-01-05", "end": "1664-01-10", "lane": "military", "major": true,
+      "title": "Sack of Surat",
+      "summary": "Shivaji raids Surat, the richest Mughal port, for several days, taking vast wealth to finance his state. The English and Dutch factories defend themselves.",
+      "people": ["shivaji"],
+      "places": ["surat"],
+      "polities": ["mughal-empire", "east-india-company"],
+      "wiki": "Sack of Surat"
+    },
+    {
+      "id": "shahaji-dies", "date": "1664-01-23", "lane": "life",
+      "title": "Shahaji dies",
+      "summary": "Shivaji's father dies in a hunting accident in Karnataka. His southern jagir passes to Shivaji's half-brother Ekoji (Venkoji), who later founds the Thanjavur Maratha line.",
+      "people": ["shahaji", "ekoji", "shivaji"]
+    },
+    {
+      "id": "sindhudurg", "date": "1664-11-25", "lane": "forts",
+      "title": "Foundation of Sindhudurg",
+      "summary": "Construction begins on Sindhudurg, a sea fort on an island off Malvan, to counter the Siddis of Janjira and European navies.",
+      "people": ["shivaji"],
+      "places": ["sindhudurg", "janjira"],
+      "polities": ["janjira-state", "portuguese-india"],
+      "concepts": ["maratha-navy"]
+    },
+    {
+      "id": "purandar-siege", "date": "1665-03", "end": "1665-06", "lane": "military",
+      "title": "Jai Singh besieges Purandar",
+      "summary": "Aurangzeb sends Mirza Raja Jai Singh with a massive army. Murarbaji Deshpande dies defending Purandar; with forts falling and the countryside ravaged, Shivaji negotiates.",
+      "people": ["jai-singh", "diler-khan", "murarbaji", "shivaji"],
+      "places": ["purandar"],
+      "polities": ["mughal-empire"],
+      "wiki": "Battle of Purandar"
+    },
+    {
+      "id": "treaty-purandar", "date": "1665-06-11", "lane": "political", "major": true,
+      "title": "Treaty of Purandar",
+      "summary": "Shivaji cedes 23 of his forts to the Mughals, keeps 12, and agrees to serve against Bijapur. His son Sambhaji is enrolled as a Mughal mansabdar.",
+      "people": ["shivaji", "jai-singh", "sambhaji"],
+      "places": ["purandar"],
+      "polities": ["mughal-empire"],
+      "wiki": "Treaty of Purandar (1665)"
+    },
+    {
+      "id": "agra-court", "date": "1666-05-12", "lane": "political", "major": true,
+      "title": "At Aurangzeb's court in Agra",
+      "summary": "Shivaji attends Aurangzeb's birthday durbar but is placed among lower-ranked nobles. He protests openly and is put under house arrest.",
+      "people": ["shivaji", "aurangzeb", "sambhaji", "jai-singh"],
+      "places": ["agra", "agra-fort"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "agra-escape", "date": "1666-08-17", "lane": "life", "major": true,
+      "title": "Escape from Agra",
+      "summary": "Shivaji and Sambhaji escape house arrest — in the famous account, hidden in baskets of sweets sent out as gifts. Sambhaji is left in hiding at Mathura while Shivaji returns to the Deccan in disguise.",
+      "people": ["shivaji", "sambhaji"],
+      "places": ["agra"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "return-rajgad", "date": "1666-09", "lane": "life",
+      "title": "Back at Rajgad",
+      "summary": "Shivaji reaches Rajgad after a months-long journey. A period of uneasy peace with the Mughals follows (1667–69), used to rebuild administration and finances.",
+      "people": ["shivaji", "jijabai"],
+      "places": ["rajgad"]
+    },
+    {
+      "id": "sinhagad", "date": "1670-02-04", "lane": "military", "major": true,
+      "title": "Battle of Sinhagad",
+      "summary": "Tanaji Malusare scales the cliffs of Kondhana at night and retakes it from the Mughal garrison, dying in the fight. 'Gad aala, pan Sinha gela' — the fort is won but the lion is lost.",
+      "people": ["tanaji", "shivaji"],
+      "places": ["sinhagad"],
+      "polities": ["mughal-empire"],
+      "wiki": "Battle of Sinhagad"
+    },
+    {
+      "id": "rajaram-born", "date": "1670-02-24", "lane": "life",
+      "title": "Rajaram born",
+      "summary": "Soyarabai gives birth to Rajaram at Rajgad. He later rules as the third Chhatrapati (1689–1700).",
+      "people": ["rajaram", "soyarabai", "shivaji"],
+      "places": ["rajgad"]
+    },
+    {
+      "id": "surat-1670", "date": "1670-10-03", "lane": "military",
+      "title": "Second sack of Surat",
+      "summary": "Shivaji raids Surat again and defeats a pursuing Mughal force at Vani-Dindori on the way home.",
+      "people": ["shivaji"],
+      "places": ["surat"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "salher", "date": "1672-02", "lane": "military", "major": true,
+      "title": "Battle of Salher",
+      "summary": "In one of the first large pitched battles won by the Marathas against the Mughals, forces under Prataprao Gujar and Moropant Pingle defeat a Mughal army besieging Salher.",
+      "people": ["prataprao-gujar", "moropant-pingle", "shivaji"],
+      "places": ["salher"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "panhala-retaken", "date": "1673-03", "lane": "forts",
+      "title": "Panhala recaptured",
+      "summary": "Panhala, lost after the 1660 siege, is taken back from Bijapur in a surprise assault.",
+      "people": ["shivaji"],
+      "places": ["panhala"],
+      "polities": ["bijapur-sultanate"]
+    },
+    {
+      "id": "nesari", "date": "1674-02-24", "lane": "military",
+      "title": "Battle of Nesari",
+      "summary": "Stung by Shivaji's rebuke for releasing the Bijapuri general Bahlol Khan, commander-in-chief Prataprao Gujar charges Bahlol's army with just six companions and is killed. Hambirrao Mohite succeeds him.",
+      "people": ["prataprao-gujar", "hambirrao-mohite", "shivaji"],
+      "places": ["nesari"],
+      "polities": ["bijapur-sultanate"]
+    },
+    {
+      "id": "coronation", "date": "1674-06-06", "lane": "political", "major": true,
+      "title": "Coronation at Raigad — Chhatrapati",
+      "summary": "Shivaji is crowned Chhatrapati at Raigad in a Vedic ceremony conducted by Gaga Bhatt of Varanasi, formally establishing a sovereign state. He institutes the eight-minister Ashta Pradhan council and a new era, the Rajyabhisheka Shaka.",
+      "people": ["shivaji", "gaga-bhatt", "jijabai", "sambhaji", "moropant-pingle"],
+      "places": ["raigad"],
+      "polities": ["maratha-empire"],
+      "concepts": ["ashta-pradhan", "hindavi-swarajya"]
+    },
+    {
+      "id": "jijabai-dies", "date": "1674-06-17", "lane": "life",
+      "title": "Jijabai dies",
+      "summary": "Shivaji's mother dies at Pachad below Raigad, eleven days after seeing her son crowned.",
+      "people": ["jijabai", "shivaji"],
+      "places": ["raigad"]
+    },
+    {
+      "id": "second-coronation", "date": "1674-09-24", "lane": "political",
+      "title": "Second (Tantric) coronation",
+      "summary": "A second coronation is performed by Nischalpuri Goswami, following Bengal-school Tantric rites, after the first was considered inauspicious by some.",
+      "people": ["shivaji"],
+      "places": ["raigad"]
+    },
+    {
+      "id": "southern-campaign", "date": "1676-10", "end": "1678-04", "lane": "military", "major": true,
+      "title": "Southern campaign (Dakshin Digvijay)",
+      "summary": "Allied with Golconda, Shivaji marches into the Carnatic, taking Gingee and Vellore and large parts of the south. He also tries to bring Ekoji's Thanjavur territory under his authority.",
+      "people": ["shivaji", "ekoji", "abul-hasan-qutb-shah"],
+      "places": ["gingee", "vellore", "golconda"],
+      "polities": ["golconda-sultanate"]
+    },
+    {
+      "id": "golconda-visit", "date": "1677-02", "approx": true, "lane": "political",
+      "title": "Alliance with Golconda",
+      "summary": "Shivaji is received with honour in Hyderabad by Abul Hasan Qutb Shah and his minister Madanna; Golconda funds the southern campaign in return for a share of conquests.",
+      "people": ["shivaji", "abul-hasan-qutb-shah"],
+      "places": ["golconda"],
+      "polities": ["golconda-sultanate"]
+    },
+    {
+      "id": "gingee", "date": "1677", "lane": "forts",
+      "title": "Gingee captured",
+      "summary": "The great hill fortress of Gingee falls to Shivaji. A decade later it becomes the Maratha refuge and capital under Rajaram during Aurangzeb's war.",
+      "people": ["shivaji", "rajaram"],
+      "places": ["gingee"]
+    },
+    {
+      "id": "vellore", "date": "1678-07", "lane": "forts",
+      "title": "Vellore captured",
+      "summary": "After a long siege, Vellore fort surrenders to the Marathas.",
+      "people": ["shivaji"],
+      "places": ["vellore"]
+    },
+    {
+      "id": "sambhaji-defects", "date": "1678-12", "end": "1679-12", "lane": "life",
+      "title": "Sambhaji defects to the Mughals",
+      "summary": "After disputes at court, Sambhaji goes over to the Mughal general Diler Khan. Disillusioned, he returns about a year later and is kept at Panhala.",
+      "people": ["sambhaji", "diler-khan", "shivaji"],
+      "places": ["panhala"],
+      "polities": ["mughal-empire"]
+    },
+    {
+      "id": "death", "date": "1680-04-03", "lane": "life", "major": true,
+      "title": "Death at Raigad",
+      "summary": "Shivaji dies at Raigad, aged about 50, after an illness. He leaves a state of some 300 forts, a navy and a working administration that will resist Mughal conquest for the next 27 years.",
+      "people": ["shivaji", "sambhaji", "rajaram", "soyarabai", "putalabai"],
+      "places": ["raigad"],
+      "polities": ["maratha-empire"]
+    },
+    {
+      "id": "sambhaji-crowned", "date": "1681-01-16", "lane": "world",
+      "title": "Sambhaji crowned",
+      "summary": "After a succession struggle against supporters of Rajaram, Sambhaji is crowned the second Chhatrapati at Raigad.",
+      "people": ["sambhaji", "rajaram", "hambirrao-mohite"],
+      "places": ["raigad"],
+      "polities": ["maratha-empire"]
+    }
+  ]
+}

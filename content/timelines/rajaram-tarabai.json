@@ -1,0 +1,199 @@
+{
+  "id": "rajaram-tarabai",
+  "title": "Rajaram & Tarabai",
+  "subtitle": "The war of independence against Aurangzeb · 1689 – 1707",
+  "subject": "tarabai",
+  "series": "The Maratha Empire", "order": 3,
+  "range": [1668, 1764],
+  "focus": [1689.1, 1707.2],
+  "intro": "After Sambhaji's execution in 1689, the Maratha state had no capital, no treasury to speak of and a Mughal emperor camped in the Deccan with his whole army. Rajaram held it together from distant Gingee; after his death in 1700, his widow Tarabai led the resistance until Aurangzeb himself died in 1707. Their 18-year war decided that the Marathas would survive.",
+  "lanes": [
+    { "id": "life",      "label": "Life & family" },
+    { "id": "military",  "label": "Battles & raids" },
+    { "id": "forts",     "label": "Forts & sieges" },
+    { "id": "political", "label": "State & succession" },
+    { "id": "world",     "label": "Wider world" }
+  ],
+  "context": [
+    { "entity": "rajaram",        "label": "Rajaram" },
+    { "entity": "tarabai",        "label": "Tarabai" },
+    { "entity": "sambhaji",       "label": "Sambhaji (half-brother)" },
+    { "entity": "shahu",          "label": "Shahu (nephew)" },
+    { "entity": "shivaji-ii",     "label": "Shivaji II (son)" },
+    { "entity": "rajaram",        "label": "Rajaram – reign",              "from": 1689.1, "to": 1700.2 },
+    { "entity": "tarabai",        "label": "Tarabai – regency",            "from": 1700.2, "to": 1707.8 },
+    { "entity": "aurangzeb",      "label": "Aurangzeb – Mughal reign",     "from": 1658, "to": 1707.2 },
+    { "entity": "santaji",        "label": "Santaji Ghorpade" },
+    { "entity": "dhanaji",        "label": "Dhanaji Jadhav" }
+  ],
+  "events": [
+    {
+      "id": "rajaram-born", "date": "1670-02-24", "lane": "life", "major": true,
+      "title": "Rajaram born at Rajgad",
+      "summary": "Rajaram is born to Shivaji and Soyarabai at Rajgad — Shivaji's younger son, thirteen years junior to Sambhaji.",
+      "people": ["rajaram", "shivaji", "soyarabai"], "places": ["rajgad"], "polities": ["bhonsle"]
+    },
+    {
+      "id": "tarabai-born", "date": "1675", "approx": true, "lane": "life",
+      "title": "Tarabai born",
+      "summary": "Tarabai is born into the Mohite family; her father is Hambirrao Mohite, Shivaji's commander-in-chief. She is later married to Rajaram as one of his wives.",
+      "people": ["tarabai", "hambirrao-mohite", "rajaram"]
+    },
+    {
+      "id": "installed-1680", "date": "1680-04", "lane": "political",
+      "title": "Briefly placed on the throne",
+      "summary": "On Shivaji's death Soyarabai's faction installs ten-year-old Rajaram at Raigad. Sambhaji takes Raigad within weeks, and Rajaram spends the next nine years under watch.",
+      "people": ["rajaram", "soyarabai", "sambhaji"], "places": ["raigad"], "see": "sambhaji"
+    },
+    {
+      "id": "proclaimed", "date": "1689-02", "lane": "political", "major": true,
+      "title": "Rajaram takes charge as Sambhaji is captured",
+      "summary": "With Sambhaji in Mughal hands, Yesubai and the ministers at Raigad make Rajaram head of the state, judging that a child ruler (Shahu) could not lead a war.",
+      "people": ["rajaram", "yesubai", "shahu", "sambhaji"], "places": ["raigad"], "polities": ["maratha-empire"]
+    },
+    {
+      "id": "sambhaji-executed", "date": "1689-03-11", "lane": "world",
+      "title": "Sambhaji executed at Tulapur",
+      "summary": "Sambhaji's execution by Aurangzeb leaves Rajaram as Chhatrapati in the middle of the Mughal–Maratha war.",
+      "people": ["sambhaji", "aurangzeb"], "places": ["tulapur"], "concepts": ["deccan-wars"], "see": "sambhaji"
+    },
+    {
+      "id": "flight-gingee", "date": "1689-04", "end": "1689-11", "lane": "life", "major": true,
+      "title": "Flight to Gingee",
+      "summary": "Rajaram slips out of Raigad before it is besieged and, moving via Pratapgad and Panhala and then in disguise across Karnataka, reaches Gingee in the far south. Moving the seat of government a thousand kilometres away forces Aurangzeb to fight on two fronts.",
+      "people": ["rajaram"], "places": ["raigad", "pratapgad", "panhala", "gingee"]
+    },
+    {
+      "id": "home-government", "date": "1689", "approx": true, "lane": "political",
+      "title": "Ramchandra Pant runs the homeland",
+      "summary": "In Rajaram's absence, Ramchandra Pant Amatya (with the title Hukumatpanah) and Shankaraji Narayan Sachiv govern Maharashtra, rewarding commanders with grants of land and revenue to keep the war going.",
+      "people": ["ramchandra-pant", "shankaraji-narayan", "rajaram"]
+    },
+    {
+      "id": "raigad-falls", "date": "1689-11", "lane": "forts", "major": true,
+      "title": "Raigad falls; Yesubai and Shahu captured",
+      "summary": "Zulfiqar Khan takes Raigad. Sambhaji's widow Yesubai and seven-year-old Shahu are taken into Aurangzeb's camp, where they will stay for 18 years.",
+      "people": ["zulfiqar-khan", "yesubai", "shahu"], "places": ["raigad"], "polities": ["mughal-empire"], "see": "shahu"
+    },
+    {
+      "id": "siege-gingee", "date": "1690-09", "end": "1698-01", "lane": "forts", "major": true,
+      "title": "Siege of Gingee",
+      "summary": "Zulfiqar Khan besieges Gingee for over seven years — less a tight siege than a long, half-hearted blockade, while Maratha armies outside harass the besiegers.",
+      "people": ["zulfiqar-khan", "rajaram"], "places": ["gingee"], "polities": ["mughal-empire"], "wiki": "Siege of Jinji"
+    },
+    {
+      "id": "santaji-dhanaji", "date": "1690", "end": "1697", "lane": "military",
+      "title": "Santaji and Dhanaji's mobile war",
+      "summary": "Santaji Ghorpade and Dhanaji Jadhav lead fast cavalry armies across the Deccan, cutting supply lines and defeating Mughal columns — guerrilla warfare on a continental scale.",
+      "people": ["santaji", "dhanaji"], "concepts": ["ganimi-kava", "deccan-wars"]
+    },
+    {
+      "id": "dodderi", "date": "1695-11", "lane": "military",
+      "title": "Battle of Dodderi",
+      "summary": "Santaji Ghorpade surrounds and destroys a large Mughal force under Qasim Khan at Dodderi in Karnataka — one of the worst Mughal defeats of the war.",
+      "people": ["santaji"], "polities": ["mughal-empire"], "wiki": "Battle of Dodderi"
+    },
+    {
+      "id": "shivaji-ii-born", "date": "1696-06-09", "lane": "life",
+      "title": "Tarabai's son Shivaji born",
+      "summary": "Tarabai gives birth to a son, Shivaji — later Shivaji II, in whose name she will rule.",
+      "people": ["shivaji-ii", "tarabai", "rajaram"], "places": ["gingee"]
+    },
+    {
+      "id": "santaji-killed", "date": "1697-06", "approx": true, "lane": "military",
+      "title": "Santaji Ghorpade killed",
+      "summary": "After a falling-out with Dhanaji and Rajaram, Santaji is defeated in a Maratha civil clash and later killed. Dhanaji becomes the leading commander.",
+      "people": ["santaji", "dhanaji", "rajaram"]
+    },
+    {
+      "id": "gingee-falls", "date": "1698-01", "lane": "forts", "major": true,
+      "title": "Gingee falls; Satara becomes capital",
+      "summary": "Rajaram escapes before Gingee is taken and returns to Maharashtra. Satara becomes the new seat of the Maratha state.",
+      "people": ["rajaram", "zulfiqar-khan"], "places": ["gingee", "satara", "vishalgad"], "polities": ["mughal-empire"]
+    },
+    {
+      "id": "satara-siege", "date": "1699-12", "end": "1700-04", "lane": "forts",
+      "title": "Aurangzeb besieges Satara",
+      "summary": "Aurangzeb, now over eighty, leads the siege of Satara in person. The fort holds out for months before surrendering.",
+      "people": ["aurangzeb"], "places": ["satara"], "polities": ["mughal-empire"]
+    },
+    {
+      "id": "rajaram-dies", "date": "1700-03-03", "lane": "life", "major": true,
+      "title": "Rajaram dies at Sinhagad",
+      "summary": "Rajaram dies at Sinhagad, aged 30, worn out by a decade of war and travel.",
+      "people": ["rajaram"], "places": ["sinhagad"]
+    },
+    {
+      "id": "tarabai-regent", "date": "1700-03", "lane": "political", "major": true,
+      "title": "Tarabai becomes regent",
+      "summary": "Tarabai sets aside the claims of Rajaram's other widow and proclaims her four-year-old son Shivaji II as Chhatrapati, with herself as regent. Contemporaries, including Mughal chroniclers, credit her with directing the war personally.",
+      "people": ["tarabai", "shivaji-ii", "ramchandra-pant"], "polities": ["maratha-empire"]
+    },
+    {
+      "id": "fort-war", "date": "1700", "end": "1705", "lane": "forts", "major": true,
+      "title": "Aurangzeb's war of forts",
+      "summary": "Aurangzeb spends five years besieging Maratha hill forts one by one — Parli, Panhala, Vishalgad, Sinhagad, Rajgad, Torna. Many are bought rather than stormed, and the Marathas retake several as soon as his army moves on.",
+      "people": ["aurangzeb", "tarabai"], "places": ["panhala", "vishalgad", "sinhagad", "rajgad", "torna"], "polities": ["mughal-empire"]
+    },
+    {
+      "id": "north-raids", "date": "1703", "approx": true, "lane": "military",
+      "title": "Raids beyond the Narmada",
+      "summary": "Under Tarabai the Marathas go on the offensive, raiding Mughal Berar, Malwa and later Gujarat — the first steps of the northward expansion that will define the 18th century.",
+      "people": ["tarabai", "dhanaji"], "places": ["malwa"], "polities": ["mughal-empire"]
+    },
+    {
+      "id": "aurangzeb-dies", "date": "1707-03-03", "lane": "world", "major": true,
+      "title": "Aurangzeb dies at Ahmednagar",
+      "summary": "Aurangzeb dies near Ahmednagar, aged 88, his Deccan war unwon. His sons fight for the throne and the Mughal empire begins to fragment.",
+      "people": ["aurangzeb", "azam-shah"], "places": ["ahmednagar"], "polities": ["mughal-empire"], "concepts": ["deccan-wars"]
+    },
+    {
+      "id": "shahu-released", "date": "1707-05", "lane": "political", "major": true,
+      "title": "Shahu released by the Mughals",
+      "summary": "Prince Azam Shah frees Shahu, expecting him to split the Marathas. Shahu returns to claim the throne as the son of Sambhaji.",
+      "people": ["shahu", "azam-shah", "tarabai"], "polities": ["mughal-empire"], "see": "shahu"
+    },
+    {
+      "id": "khed", "date": "1707-10-12", "lane": "military", "major": true,
+      "title": "Battle of Khed — Shahu defeats Tarabai's army",
+      "summary": "Dhanaji Jadhav goes over to Shahu and Tarabai's forces are beaten at Khed. Shahu is crowned at Satara in January 1708; Tarabai withdraws to Panhala.",
+      "people": ["shahu", "tarabai", "dhanaji"], "places": ["khed", "satara", "panhala"], "wiki": "Battle of Khed"
+    },
+    {
+      "id": "kolhapur-court", "date": "1710", "approx": true, "lane": "political",
+      "title": "A rival court at Kolhapur",
+      "summary": "Tarabai establishes a separate court for Shivaji II at Kolhapur and Panhala — the origin of the Kolhapur line of Chhatrapatis.",
+      "people": ["tarabai", "shivaji-ii"], "places": ["kolhapur", "panhala"], "polities": ["kolhapur-state"]
+    },
+    {
+      "id": "coup-1714", "date": "1714", "approx": true, "lane": "political",
+      "title": "Tarabai overthrown at Kolhapur",
+      "summary": "A palace revolution replaces Shivaji II with his half-brother Sambhaji II, son of Rajaram's wife Rajasbai. Tarabai and her son are imprisoned.",
+      "people": ["tarabai", "shivaji-ii", "sambhaji-ii"], "places": ["kolhapur"], "polities": ["kolhapur-state"]
+    },
+    {
+      "id": "warna", "date": "1731-04-13", "lane": "political",
+      "title": "Treaty of Warna",
+      "summary": "Shahu and Sambhaji II formally divide Maratha territory: Satara and Kolhapur become two separate states. Tarabai later moves to Satara under Shahu's protection.",
+      "people": ["shahu", "sambhaji-ii", "tarabai"], "places": ["satara", "kolhapur"], "polities": ["kolhapur-state", "maratha-empire"]
+    },
+    {
+      "id": "ramaraja", "date": "1749-12-15", "lane": "political",
+      "title": "Shahu dies; Tarabai produces an heir",
+      "summary": "At Shahu's death, Tarabai presents a young man, Ramaraja, as her grandson and he becomes Chhatrapati as Rajaram II. Real power has already passed to the Peshwa in Pune.",
+      "people": ["shahu", "tarabai", "rajaram-ii", "nanasaheb"], "places": ["satara"], "concepts": ["peshwa"]
+    },
+    {
+      "id": "tarabai-revolt", "date": "1750-11", "approx": true, "lane": "political",
+      "title": "Tarabai turns on Ramaraja and the Peshwa",
+      "summary": "When Ramaraja refuses to act against Peshwa Nanasaheb, Tarabai imprisons him in Satara fort and, with support from the Dabhades and Gaekwads, challenges the Peshwa. She later declares Ramaraja an impostor. The revolt fails, but she keeps Satara fort.",
+      "people": ["tarabai", "rajaram-ii", "nanasaheb"], "places": ["satara"], "concepts": ["peshwa"], "see": "nanasaheb"
+    },
+    {
+      "id": "tarabai-dies", "date": "1761-12-09", "lane": "life", "major": true,
+      "title": "Tarabai dies at Satara",
+      "summary": "Tarabai dies at about 86, months after the disaster at Panipat — having lived from Shivaji's lifetime into the age of the Peshwas.",
+      "people": ["tarabai"], "places": ["satara"]
+    }
+  ]
+}
