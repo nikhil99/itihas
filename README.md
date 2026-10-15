@@ -86,7 +86,7 @@ and short event descriptions are curated here. Where dates are contested
 
 ## Compare view
 
-`#/compare/<id>,<id>,<id>` puts up to three timelines on one axis (picker at `#/compare`, or the
+`#/compare/<id>,<id>,…` puts up to five timelines on one axis (picker at `#/compare`, or the
 "Compare with other timelines" button on any timeline). Each timeline keeps its own colour: its
 rulers (or, for a person, their lifetime) become ruler rows, its events one event row, and the
 years where they coincide are shaded and listed as overlaps. Built in `buildCompare()` in

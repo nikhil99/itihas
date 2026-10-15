@@ -13,6 +13,8 @@
   --lane-forts: #0f766e;
   --lane-political: #4338ca;
   --lane-world: #64748b;
+  --lane-cmp4: #be185d;
+  --lane-cmp5: #4d7c0f;
 
   --t-person: #4338ca;
   --t-place: #0f766e;
@@ -40,6 +42,8 @@
     --lane-forts: #2dd4bf;
     --lane-political: #8b93f8;
     --lane-world: #94a3b8;
+    --lane-cmp4: #f472b6;
+    --lane-cmp5: #a3e635;
     --t-person: #a5b4fc;
     --t-place: #5eead4;
     --t-polity: #fbbf24;
@@ -311,8 +315,9 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
 .cmp-title { font: 600 15px var(--serif); text-decoration: none; }
 .cmp-title:hover { color: var(--accent); }
 .cmp-years { font-size: 12px; color: var(--muted); }
-.cmp-overlaps { font-size: 13.5px; margin: 0; }
-.timeline .overlap-band { fill: color-mix(in srgb, var(--accent) 10%, transparent); stroke: color-mix(in srgb, var(--accent) 45%, transparent); stroke-dasharray: 4 3; }
+.cmp-overlaps { font-size: 13.5px; margin: 0; display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: baseline; }
+.cmp-ov { padding: 2px 9px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
+.timeline .overlap-band { --depth: 2; fill: color-mix(in srgb, var(--accent) calc((var(--depth) - 1) * 9%), transparent); stroke: color-mix(in srgb, var(--accent) 45%, transparent); stroke-dasharray: 4 3; }
 @media (max-width: 640px) { .cmp-select { min-width: 0; width: 100%; } .cmp-slot { width: 100%; } .topbar .tagline { display: none; } }
 
 /* ---------- Landing page ---------- */

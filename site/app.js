@@ -510,11 +510,12 @@ async function renderTimelinePage(id) {
 }
 
 // ---------- Compare ----------
-// Up to three timelines merged onto one axis: each keeps its own colour (lane), its rulers
+// Up to five timelines merged onto one axis: each keeps its own colour (lane), its rulers
 // (or, for a person, their reign/lifetime) become ruler rows, its events become one event
 // row, and the years where their spans coincide are shaded as overlaps.
-const CMP_LANES = ["life", "political", "forts"];
-const CMP_HUES = [24, 232, 168];
+const CMP_MAX = 5;
+const CMP_LANES = ["life", "political", "forts", "cmp4", "cmp5"];
+const CMP_HUES = [24, 232, 168, 333, 85];
 const shortTitle = (t) => t.title.replace(/^(The |Chhatrapati |Peshwa )/, "").replace(/ Maharaj$/, "");
 
 function timelineSpan(t, ents) {
@@ -530,7 +531,7 @@ function timelineSpan(t, ents) {
 }
 
 async function buildCompare(key, index, ents) {
-  const ids = [...new Set(key.split(",").filter((i) => index.some((t) => t.id === i)))].slice(0, 3);
+  const ids = [...new Set(key.split(",").filter((i) => index.some((t) => t.id === i)))].slice(0, CMP_MAX);
   const tls = await Promise.all(ids.map((i) => load(`data/timelines/${i}.json`)));
   const spans = tls.map((t) => timelineSpan(t, ents));
   const rulers = [], events = [], seen = new Set(), context = [], ctxSeen = new Set();
@@ -557,9 +558,19 @@ async function buildCompare(key, index, ents) {
     const from = Math.max(spans[i][0], spans[j][0]), to = Math.min(spans[i][1], spans[j][1]);
     if (to > from) overlaps.push({ from, to, label: `${shortTitle(tls[i])} & ${shortTitle(tls[j])}` });
   }
+  // Shaded bands: every stretch where two or more timelines run at once, darker the more there are
+  // (drawing each pair separately would stack up to ten dashed boxes).
+  const edges = [...new Set(spans.flat())].sort((p, q) => p - q), bands = [];
+  for (let k = 0; k + 1 < edges.length; k++) {
+    const n = spans.filter(([a, b]) => a <= edges[k] && b >= edges[k + 1]).length;
+    const last = bands[bands.length - 1];
+    if (n < 2) continue;
+    if (last && last.n === n && last.to === edges[k]) last.to = edges[k + 1];
+    else bands.push({ from: edges[k], to: edges[k + 1], n });
+  }
   const lo = Math.min(...spans.map((s) => s[0])), hi = Math.max(...spans.map((s) => s[1])), pad = Math.max(5, (hi - lo) * 0.04);
   return {
-    id: `compare/${ids.join(",")}`, compare: tls, spans, overlaps,
+    id: `compare/${ids.join(",")}`, compare: tls, spans, overlaps, bands,
     title: tls.length ? tls.map(shortTitle).join(" · ") : "Compare timelines",
     lanes: tls.map((t, i) => ({ id: CMP_LANES[i], label: shortTitle(t) })),
     rulers, events: events.sort((x, y) => (x.date < y.date ? -1 : 1)), context,
@@ -591,14 +602,14 @@ function compareHero(tl, index, ents) {
         el("div", { class: "cmp-years" }, `${yr(tl.spans[i][0])} – ${yr(tl.spans[i][1])}`)));
   });
   const overlapText = tl.compare.length < 2 ? "Pick at least one more timeline to see where they overlap."
-    : tl.overlaps.length ? tl.overlaps.map((o) => `${o.label}: ${yr(o.from)}–${yr(o.to)} (${Math.round(o.to - o.from)} years)`).join(" · ")
+    : tl.overlaps.length ? tl.overlaps.map((o) => el("span", { class: "cmp-ov" }, `${o.label}: ${yr(o.from)}–${yr(o.to)} (${Math.round(o.to - o.from)} years)`))
     : "These timelines don't overlap in time.";
   return el("section", { class: "compare-hero" },
     el("h1", {}, "Compare timelines"),
-    el("p", { class: "sub" }, "Put up to three people, empires or states on one axis to see who was contemporary with whom."),
-    el("div", { class: "cmp-pickers" }, [0, 1, 2].filter((slot) => slot <= chosen.length).map(picker)),
+    el("p", { class: "sub" }, `Put up to ${CMP_MAX} people, empires or states on one axis to see who was contemporary with whom.`),
+    el("div", { class: "cmp-pickers" }, [...Array(CMP_MAX).keys()].filter((slot) => slot <= chosen.length).map(picker)),
     cards.length ? el("div", { class: "cmp-cards" }, cards) : null,
-    el("p", { class: "cmp-overlaps" }, el("b", {}, "Overlaps: "), overlapText));
+    el("div", { class: "cmp-overlaps" }, el("b", {}, "Overlaps: "), overlapText));
 }
 
 // ---------- Inline entity links ----------
@@ -790,9 +801,9 @@ function setupTimeline(box) {
     // Subject's lifespan shading
     const subj = ents[tl.subject];
     const focus = tl.focus || (subj && entStart(subj) && entEnd(subj) && [parseDate(entStart(subj)).t, parseDate(entEnd(subj)).t]);
-    for (const o of tl.overlaps || []) {
+    for (const o of tl.bands || []) {
       const a = Math.max(GUTTER, x(o.from)), b = Math.min(W - PAD, x(o.to));
-      if (b > a) s.append(svg("rect", { class: "overlap-band", x: a, y: AXIS, width: b - a, height: H - AXIS }));
+      if (b > a) s.append(svg("rect", { class: "overlap-band", x: a, y: AXIS, width: b - a, height: H - AXIS, style: `--depth:${o.n}` }));
     }
     if (focus) {
       const a = x(focus[0]), b = x(focus[1]);
