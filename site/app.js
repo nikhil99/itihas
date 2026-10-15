@@ -104,7 +104,11 @@ async function renderHome() {
   state.tl = null;
   const [index, entities] = await Promise.all([load("data/index.json"), load("data/entities.json")]);
   document.title = "Itihas — Indian History Timelines";
-  const upcoming = ["Delhi Sultanate", "Vijayanagara", "The Deccan Sultanates", "The Maurya Empire", "The Cholas"];
+  // Placeholders for planned timelines; any that now exist drop out automatically.
+  const norm = (t) => t.toLowerCase().replace(/^the\s+/, "").replace(/\s+empire$/, "");
+  const existing = new Set(index.map((t) => norm(t.title)));
+  const upcoming = ["Delhi Sultanate", "Vijayanagara", "The Deccan Sultanates", "The Maurya Empire", "The Cholas"]
+    .filter((u) => !existing.has(norm(u)));
   const card = (t) => {
     const subj = entities[t.subject];
     return el("a", { class: `tl-card${t.kind === "empire" ? " overview" : ""}`, href: `#/${t.id}` },

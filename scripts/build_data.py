@@ -233,7 +233,9 @@ def main():
 
     (OUT / "entities.json").write_text(json.dumps(entities, ensure_ascii=False, indent=1))
     (OUT / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
-    (OUT / "entity-timelines.json").write_text(json.dumps(entity_timelines, ensure_ascii=False))
+    # Sorted so rebuilds are byte-identical and don't create spurious diffs/merge conflicts.
+    (OUT / "entity-timelines.json").write_text(
+        json.dumps({k: sorted(v) for k, v in sorted(entity_timelines.items())}, ensure_ascii=False))
     print(f"Wrote {len(entities)} entities, {len(timelines)} timeline(s) to {OUT.relative_to(ROOT)}/")
 
     if problems:
