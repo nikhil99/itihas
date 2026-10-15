@@ -34,42 +34,6 @@
  ],
  "context": [
   {
-   "entity": "sangama",
-   "label": "Sangama dynasty",
-   "from": 1336.3,
-   "to": 1485
-  },
-  {
-   "entity": "saluva",
-   "label": "Saluva dynasty",
-   "from": 1485,
-   "to": 1505
-  },
-  {
-   "entity": "tuluva",
-   "label": "Tuluva dynasty",
-   "from": 1505,
-   "to": 1570
-  },
-  {
-   "entity": "aravidu",
-   "label": "Aravidu dynasty",
-   "from": 1542,
-   "to": 1646
-  },
-  {
-   "entity": "deva-raya-ii",
-   "label": "Deva Raya II",
-   "from": 1424,
-   "to": 1446
-  },
-  {
-   "entity": "krishnadevaraya",
-   "label": "Krishnadevaraya",
-   "from": 1509.5,
-   "to": 1529.8
-  },
-  {
    "entity": "rama-raya",
    "label": "Rama Raya – regent",
    "from": 1542,
@@ -659,6 +623,181 @@
     "bijapur-sultanate",
     "golconda-sultanate",
     "aravidu"
+   ]
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Emperors",
+   "members": [
+    {
+     "entity": "harihara-i",
+     "from": 1336.3,
+     "to": 1356,
+     "group": "sangama"
+    },
+    {
+     "entity": "bukka",
+     "from": 1356,
+     "to": 1377,
+     "group": "sangama"
+    },
+    {
+     "entity": "harihara-ii",
+     "from": 1377,
+     "to": 1404,
+     "group": "sangama"
+    },
+    {
+     "entity": null,
+     "from": 1404,
+     "to": 1405,
+     "group": "sangama",
+     "name": "Virupaksha Raya I"
+    },
+    {
+     "entity": "bukka-ii",
+     "from": 1405,
+     "to": 1406,
+     "group": "sangama"
+    },
+    {
+     "entity": "deva-raya-i",
+     "from": 1406,
+     "to": 1422,
+     "group": "sangama"
+    },
+    {
+     "entity": null,
+     "from": 1422,
+     "to": 1424,
+     "group": "sangama",
+     "name": "Ramachandra Raya & Vira Vijaya Bukka Raya"
+    },
+    {
+     "entity": "deva-raya-ii",
+     "from": 1424,
+     "to": 1446,
+     "group": "sangama"
+    },
+    {
+     "entity": "mallikarjuna-raya",
+     "from": 1446,
+     "to": 1465,
+     "group": "sangama"
+    },
+    {
+     "entity": "virupaksha-raya-ii",
+     "from": 1465,
+     "to": 1485,
+     "group": "sangama"
+    },
+    {
+     "entity": "praudha-raya",
+     "from": 1485,
+     "to": 1485.4,
+     "group": "sangama"
+    },
+    {
+     "entity": "saluva-narasimha",
+     "from": 1485.4,
+     "to": 1491,
+     "group": "saluva"
+    },
+    {
+     "entity": "thimma-bhupala",
+     "from": 1491,
+     "to": 1491.5,
+     "group": "saluva"
+    },
+    {
+     "entity": "narasimha-raya-ii",
+     "from": 1491.5,
+     "to": 1505,
+     "group": "saluva",
+     "note": "Real power with the regent Tuluva Narasa Nayaka"
+    },
+    {
+     "entity": "viranarasimha-raya",
+     "from": 1505,
+     "to": 1509.5,
+     "group": "tuluva"
+    },
+    {
+     "entity": "krishnadevaraya",
+     "from": 1509.5,
+     "to": 1529.8,
+     "group": "tuluva"
+    },
+    {
+     "entity": "achyuta-raya",
+     "from": 1529.8,
+     "to": 1542,
+     "group": "tuluva"
+    },
+    {
+     "entity": "venkata-i",
+     "from": 1542,
+     "to": 1542.5,
+     "group": "tuluva"
+    },
+    {
+     "entity": "sadasiva-raya",
+     "from": 1542.5,
+     "to": 1570,
+     "group": "tuluva",
+     "note": "Aliya Rama Raya rules as regent until Talikota (1565)"
+    },
+    {
+     "entity": "tirumala-raya",
+     "from": 1570,
+     "to": 1572,
+     "group": "aravidu"
+    },
+    {
+     "entity": "sriranga-i",
+     "from": 1572,
+     "to": 1586,
+     "group": "aravidu"
+    },
+    {
+     "entity": "venkatapati-raya",
+     "from": 1586,
+     "to": 1614,
+     "group": "aravidu"
+    },
+    {
+     "entity": "sriranga-ii",
+     "from": 1614,
+     "to": 1614.3,
+     "group": "aravidu"
+    },
+    {
+     "entity": null,
+     "from": 1614.3,
+     "to": 1617,
+     "group": "aravidu",
+     "name": "Succession war"
+    },
+    {
+     "entity": "rama-deva-raya",
+     "from": 1617,
+     "to": 1632,
+     "group": "aravidu"
+    },
+    {
+     "entity": "peda-venkata",
+     "from": 1632,
+     "to": 1642,
+     "group": "aravidu"
+    },
+    {
+     "entity": "sriranga-iii",
+     "from": 1642,
+     "to": 1646,
+     "group": "aravidu",
+     "note": "Fugitive after 1646; claims the title until 1678"
+    }
    ]
   }
  ]

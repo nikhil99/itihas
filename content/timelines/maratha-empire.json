@@ -38,76 +38,10 @@
  ],
  "context": [
   {
-   "entity": "shivaji",
-   "label": "Shivaji – Chhatrapati",
-   "from": 1674.43,
-   "to": 1680.26
-  },
-  {
-   "entity": "sambhaji",
-   "label": "Sambhaji – Chhatrapati",
-   "from": 1681.04,
-   "to": 1689.19
-  },
-  {
-   "entity": "rajaram",
-   "label": "Rajaram – Chhatrapati",
-   "from": 1689.1,
-   "to": 1700.2
-  },
-  {
-   "entity": "tarabai",
-   "label": "Tarabai – regent",
-   "from": 1700.2,
-   "to": 1707.8
-  },
-  {
-   "entity": "shahu",
-   "label": "Shahu – Chhatrapati",
-   "from": 1708.03,
-   "to": 1749.96
-  },
-  {
-   "entity": "balaji-vishwanath",
-   "label": "Balaji Vishwanath – Peshwa",
-   "from": 1713.9,
-   "to": 1720.25
-  },
-  {
-   "entity": "bajirao",
-   "label": "Bajirao I – Peshwa",
-   "from": 1720.3,
-   "to": 1740.32
-  },
-  {
-   "entity": "nanasaheb",
-   "label": "Nanasaheb – Peshwa",
-   "from": 1740.48,
-   "to": 1761.48
-  },
-  {
-   "entity": "madhavrao",
-   "label": "Madhavrao I – Peshwa",
-   "from": 1761.55,
-   "to": 1772.88
-  },
-  {
    "entity": "nana-phadnavis",
    "label": "Nana Phadnavis – minister",
    "from": 1774.3,
    "to": 1800.2
-  },
-  {
-   "entity": "sawai-madhavrao",
-   "label": "Sawai Madhavrao – Peshwa",
-   "from": 1774.3,
-   "to": 1795.82
-  },
-  {
-   "entity": "bajirao-ii",
-   "label": "Bajirao II – Peshwa",
-   "from": 1796.93,
-   "to": 1818.42
   },
   {
    "entity": "aurangzeb",
@@ -1089,5 +1023,122 @@
    ]
   }
  ],
- "kind": "empire"
+ "kind": "empire",
+ "rulers": [
+  {
+   "label": "Chhatrapatis",
+   "members": [
+    {
+     "entity": "shivaji",
+     "from": 1674.43,
+     "to": 1680.26,
+     "group": "bhonsle"
+    },
+    {
+     "entity": "sambhaji",
+     "from": 1680.45,
+     "to": 1689.19,
+     "group": "bhonsle"
+    },
+    {
+     "entity": "rajaram",
+     "from": 1689.15,
+     "to": 1700.17,
+     "group": "bhonsle"
+    },
+    {
+     "entity": "tarabai",
+     "from": 1700.2,
+     "to": 1707.8,
+     "group": "bhonsle",
+     "name": "Tarabai (regent for Shivaji II)",
+     "note": "Shivaji II's line continues at Kolhapur"
+    },
+    {
+     "entity": "shahu",
+     "from": 1708.03,
+     "to": 1749.96,
+     "group": "bhonsle"
+    },
+    {
+     "entity": "rajaram-ii",
+     "from": 1749.96,
+     "to": 1777.94,
+     "group": "bhonsle",
+     "note": "Real power with the Peshwas"
+    },
+    {
+     "entity": "shahu-ii",
+     "from": 1777.94,
+     "to": 1808.34,
+     "group": "bhonsle",
+     "note": "Titular ruler at Satara"
+    },
+    {
+     "entity": "pratapsinh",
+     "from": 1808.34,
+     "to": 1839.7,
+     "group": "bhonsle",
+     "note": "Ruler of Satara state under the British from 1818"
+    }
+   ]
+  },
+  {
+   "label": "Peshwas",
+   "members": [
+    {
+     "entity": "balaji-vishwanath",
+     "from": 1713.88,
+     "to": 1720.3,
+     "group": "Peshwas (Bhat family)"
+    },
+    {
+     "entity": "bajirao",
+     "from": 1720.3,
+     "to": 1740.32,
+     "group": "Peshwas (Bhat family)"
+    },
+    {
+     "entity": "nanasaheb",
+     "from": 1740.48,
+     "to": 1761.48,
+     "group": "Peshwas (Bhat family)"
+    },
+    {
+     "entity": "madhavrao",
+     "from": 1761.55,
+     "to": 1772.88,
+     "group": "Peshwas (Bhat family)"
+    },
+    {
+     "entity": "narayanrao",
+     "from": 1772.95,
+     "to": 1773.66,
+     "group": "Peshwas (Bhat family)",
+     "note": "Murdered in Shaniwar Wada"
+    },
+    {
+     "entity": "raghunathrao",
+     "from": 1773.66,
+     "to": 1774.3,
+     "group": "Peshwas (Bhat family)",
+     "note": "Deposed by the Barbhai council"
+    },
+    {
+     "entity": "sawai-madhavrao",
+     "from": 1774.3,
+     "to": 1795.82,
+     "group": "Peshwas (Bhat family)",
+     "note": "Nana Phadnavis governs as regent"
+    },
+    {
+     "entity": "bajirao-ii",
+     "from": 1796.93,
+     "to": 1818.42,
+     "group": "Peshwas (Bhat family)",
+     "note": "Surrendered to the British in 1818"
+    }
+   ]
+  }
+ ]
 }

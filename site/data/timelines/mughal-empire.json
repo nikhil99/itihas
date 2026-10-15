@@ -34,72 +34,6 @@
  ],
  "context": [
   {
-   "entity": "babur",
-   "label": "Babur",
-   "from": 1526.3,
-   "to": 1530.98
-  },
-  {
-   "entity": "humayun",
-   "label": "Humayun",
-   "from": 1530.98,
-   "to": 1540.4
-  },
-  {
-   "entity": "sur-empire",
-   "label": "Sur Empire interregnum",
-   "from": 1540.4,
-   "to": 1555.5
-  },
-  {
-   "entity": "humayun",
-   "label": "Humayun (restored)",
-   "from": 1555.5,
-   "to": 1556.07
-  },
-  {
-   "entity": "akbar",
-   "label": "Akbar",
-   "from": 1556.12,
-   "to": 1605.82
-  },
-  {
-   "entity": "jahangir",
-   "label": "Jahangir",
-   "from": 1605.85,
-   "to": 1627.8
-  },
-  {
-   "entity": "shah-jahan",
-   "label": "Shah Jahan",
-   "from": 1628.12,
-   "to": 1658.45
-  },
-  {
-   "entity": "aurangzeb",
-   "label": "Aurangzeb",
-   "from": 1658.58,
-   "to": 1707.17
-  },
-  {
-   "entity": "muhammad-shah",
-   "label": "Muhammad Shah",
-   "from": 1719.75,
-   "to": 1748.3
-  },
-  {
-   "entity": "shah-alam-ii",
-   "label": "Shah Alam II",
-   "from": 1759.9,
-   "to": 1806.9
-  },
-  {
-   "entity": "bahadur-shah-zafar",
-   "label": "Bahadur Shah Zafar",
-   "from": 1837.74,
-   "to": 1857.72
-  },
-  {
    "entity": "maratha-empire",
    "label": "Maratha state",
    "from": 1674.43,
@@ -110,6 +44,18 @@
    "label": "East India Company rule",
    "from": 1757.5,
    "to": 1858.6
+  },
+  {
+   "entity": "sur-empire",
+   "label": "Sur Empire",
+   "from": 1540.37,
+   "to": 1556.9
+  },
+  {
+   "entity": "mewar",
+   "label": "Mewar (never fully subdued)",
+   "from": 1505,
+   "to": 1818
   }
  ],
  "events": [
@@ -1001,6 +947,141 @@
     "british-raj",
     "east-india-company",
     "mughal-empire"
+   ]
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Emperors",
+   "members": [
+    {
+     "entity": "babur",
+     "from": 1526.3,
+     "to": 1530.98,
+     "group": "Great Mughals"
+    },
+    {
+     "entity": "humayun",
+     "from": 1530.98,
+     "to": 1540.37,
+     "group": "Great Mughals",
+     "note": "Lost the throne to Sher Shah Suri"
+    },
+    {
+     "entity": "sur-empire",
+     "from": 1540.37,
+     "to": 1555.55,
+     "group": "sur-empire",
+     "name": "Sur interregnum",
+     "note": "North India ruled by the Sur dynasty; Humayun in exile"
+    },
+    {
+     "entity": "humayun",
+     "from": 1555.55,
+     "to": 1556.07,
+     "group": "Great Mughals",
+     "note": "Restored"
+    },
+    {
+     "entity": "akbar",
+     "from": 1556.12,
+     "to": 1605.82,
+     "group": "Great Mughals"
+    },
+    {
+     "entity": "jahangir",
+     "from": 1605.82,
+     "to": 1627.8,
+     "group": "Great Mughals"
+    },
+    {
+     "entity": "shah-jahan",
+     "from": 1628.12,
+     "to": 1658.58,
+     "group": "Great Mughals",
+     "note": "Deposed and confined by Aurangzeb"
+    },
+    {
+     "entity": "aurangzeb",
+     "from": 1658.58,
+     "to": 1707.17,
+     "group": "Great Mughals"
+    },
+    {
+     "entity": "muazzam",
+     "from": 1707.47,
+     "to": 1712.16,
+     "group": "Later Mughals",
+     "name": "Bahadur Shah I"
+    },
+    {
+     "entity": "jahandar-shah",
+     "from": 1712.24,
+     "to": 1713.11,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "farrukhsiyar",
+     "from": 1713.11,
+     "to": 1719.16,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "rafi-ud-darajat",
+     "from": 1719.16,
+     "to": 1719.43,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "shah-jahan-ii",
+     "from": 1719.43,
+     "to": 1719.71,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "muhammad-shah",
+     "from": 1719.74,
+     "to": 1748.32,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "ahmad-shah-bahadur",
+     "from": 1748.32,
+     "to": 1754.42,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "alamgir-ii",
+     "from": 1754.42,
+     "to": 1759.91,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "shah-jahan-iii",
+     "from": 1759.94,
+     "to": 1760.78,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "shah-alam-ii",
+     "from": 1760.78,
+     "to": 1806.88,
+     "group": "Later Mughals",
+     "note": "Under Maratha protection 1771–1803, then British"
+    },
+    {
+     "entity": "akbar-ii",
+     "from": 1806.88,
+     "to": 1837.74,
+     "group": "Later Mughals"
+    },
+    {
+     "entity": "bahadur-shah-zafar",
+     "from": 1837.74,
+     "to": 1857.72,
+     "group": "Later Mughals",
+     "note": "Deposed after the revolt of 1857; exiled to Rangoon"
+    }
    ]
   }
  ]

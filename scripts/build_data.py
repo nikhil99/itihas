@@ -147,6 +147,7 @@ def main():
     # Every entity referenced by a timeline must be registered.
     for tl in timelines:
         refs = {tl["subject"]} | {c["entity"] for c in tl.get("context", [])}
+        refs |= {m["entity"] for row in tl.get("rulers", []) for m in row["members"] if m.get("entity")}
         for ev in tl["events"]:
             for k in ("people", "places", "polities", "concepts"):
                 refs |= set(ev.get(k, []))
@@ -213,8 +214,15 @@ def main():
         for ev in tl["events"]:
             for k in ("people", "places", "polities", "concepts"):
                 refs |= set(ev.get(k, []))
+        refs |= {m["entity"] for row in tl.get("rulers", []) for m in row["members"] if m.get("entity")}
         for r in refs:
             entity_timelines.setdefault(r, []).append(tl["id"])
+        for row in tl.get("rulers", []):
+            for m in row["members"]:
+                if not (m.get("entity") or m.get("name")):
+                    problems.append(f"[{tl['id']}] ruler without entity or name in row {row['label']!r}")
+                if m["to"] <= m["from"]:
+                    problems.append(f"[{tl['id']}] ruler {m.get('entity') or m.get('name')!r} ends before it starts")
         tl["events"].sort(key=lambda ev: ev["date"])
         (OUT / "timelines" / f"{tl['id']}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1))
         index.append({"id": tl["id"], "title": tl["title"], "subtitle": tl.get("subtitle"),

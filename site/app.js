@@ -65,8 +65,8 @@ async function loadOptional(path, fallback) {
 }
 
 function loadExpanded() {
-  try { return { ctx: false, lanes: false, ...JSON.parse(localStorage.getItem("itihas.expanded") || "{}") }; }
-  catch { return { ctx: false, lanes: false }; }
+  try { return { ctx: false, lanes: false, events: false, ...JSON.parse(localStorage.getItem("itihas.expanded") || "{}") }; }
+  catch { return { ctx: false, lanes: false, events: false }; }
 }
 function saveExpanded() {
   try { localStorage.setItem("itihas.expanded", JSON.stringify(state.expanded)); } catch {}
@@ -322,6 +322,20 @@ function updateYearHeads() {
 }
 
 // ---------- SVG timeline ----------
+// Real text width (cached canvas), so labels truncate only when they actually don't fit.
+const measureCtx = document.createElement("canvas").getContext("2d");
+function textWidth(text, font = "600 11.5px Inter, system-ui, sans-serif") {
+  measureCtx.font = font;
+  return measureCtx.measureText(text).width;
+}
+function fitText(text, maxW, font) {
+  if (textWidth(text, font) <= maxW) return text;
+  for (let n = text.length - 1; n > 1; n--) {
+    const t = text.slice(0, n).trimEnd() + "…";
+    if (textWidth(t, font) <= maxW) return t;
+  }
+  return "";
+}
 function setupTimeline(box) {
   const tl = state.tl, ents = state.entities;
   const AXIS = 30, MAIN_H = 128, HEAD_H = 30, CTX_ROW = 20, LANE_H = 72, PAD = 14;
@@ -339,9 +353,23 @@ function setupTimeline(box) {
     const lanes = tl.lanes.filter((l) => state.lanesOn.has(l.id));
     const { ctx: ctxOpen, lanes: lanesOpen } = state.expanded;
 
-    // Vertical layout: axis, key-events track, then two collapsible sections
-    const mainTop = AXIS;
-    const ctxHead = mainTop + MAIN_H;
+    // Vertical layout. Empire timelines lead with their rulers (one row per line of rulers,
+    // e.g. Chhatrapatis and Peshwas) and fold the key-events track into a section below.
+    // Other timelines lead with the key-events track.
+    const R_STRIP = 18, R_BAR = 30, R_GAP = 10;
+    const rulerRows = tl.rulers || [];
+    let ry = AXIS + 6;
+    const rowGeom = rulerRows.map((row) => {
+      const hasGroups = row.members.some((m) => m.group);
+      const g = { strip: hasGroups ? ry : null, bar: ry + (hasGroups ? R_STRIP + 2 : 0) };
+      ry = g.bar + R_BAR + R_GAP;
+      return g;
+    });
+    const hasRulers = rulerRows.length > 0;
+    const eventsOpen = !hasRulers || state.expanded.events;
+    const eventsHead = hasRulers ? ry : null;
+    const mainTop = hasRulers ? eventsHead + HEAD_H : AXIS;
+    const ctxHead = eventsOpen ? mainTop + MAIN_H : mainTop;
     const ctxTop = ctxHead + HEAD_H + 6;
     const lanesHead = ctxOpen ? ctxTop + tl.context.length * CTX_ROW + 6 : ctxHead + HEAD_H;
     const lanesTop = lanesHead + HEAD_H;
@@ -483,11 +511,74 @@ function setupTimeline(box) {
       return { g, shown: kept.length, total: evs.length };
     }
 
+    // 0. Rulers: consecutive reigns as bars. Each dynasty/group gets its own hue and
+    // consecutive reigns alternate between two shades of it so neighbours stay distinct.
+    const HUES = [24, 232, 168, 352, 42, 280, 200];
+    rulerRows.forEach((row, ri) => {
+      const geo = rowGeom[ri];
+      const groups = [...new Set(row.members.map((m) => m.group || row.label))];
+      const hueOf = (gname) => (row.hue ?? HUES[(groups.indexOf(gname) + ri * 2) % HUES.length]);
+      const counts = {};
+      // dynasty strip
+      if (geo.strip != null) {
+        const runs = [];
+        for (const m of row.members) {
+          const gname = m.group || row.label, last = runs[runs.length - 1];
+          if (last && last.g === gname && m.from - last.to < 3) last.to = m.to;
+          else runs.push({ g: gname, from: m.from, to: m.to });
+        }
+        for (const r of runs) {
+          const x1 = Math.max(GUTTER, x(r.from)), x2 = Math.min(W - PAD, x(r.to));
+          if (x2 <= x1) continue;
+          const ent = ents[r.g];
+          const gEl = svg("g", { class: `dyn${ent ? " link" : ""}` });
+          gEl.append(svg("rect", { x: x1, y: geo.strip, width: x2 - x1, height: R_STRIP, rx: 3, fill: `hsl(${hueOf(r.g)} 60% 50% / .14)` }));
+          const label = ent?.title || r.g;
+          const t = svg("text", { class: "dyn-text", x: x1 + 6, y: geo.strip + 12.5, fill: `hsl(${hueOf(r.g)} 55% 38%)` });
+          t.textContent = fitText(label.toUpperCase(), x2 - x1 - 12, "700 10.5px Inter, system-ui, sans-serif");
+          gEl.append(t);
+          if (ent) gEl.addEventListener("click", () => go(entHref(r.g)));
+          gEl.addEventListener("mousemove", (ev) => showTip(ev, `<b>${esc(label)}</b><div class="tt-date">${Math.floor(r.from)} – ${Math.floor(r.to)}</div>`));
+          gEl.addEventListener("mouseleave", hideTip);
+          s.append(gEl);
+        }
+      }
+      // reign bars
+      for (const m of row.members) {
+        const gname = m.group || row.label;
+        const k = (counts[gname] = (counts[gname] || 0) + 1);
+        const x1 = Math.max(GUTTER, x(m.from)), x2 = Math.min(W - PAD, x(m.to));
+        if (x2 <= GUTTER || x1 >= W - PAD) continue;
+        const ent = m.entity && ents[m.entity];
+        const name = m.name || ent?.title || "?";
+        const gEl = svg("g", { class: `reign${ent ? " link" : ""}` });
+        gEl.append(svg("rect", { x: x1 + 0.5, y: geo.bar, width: Math.max(1.5, x2 - x1 - 1), height: R_BAR, rx: 4,
+          fill: `hsl(${hueOf(gname)} ${k % 2 ? 62 : 52}% ${k % 2 ? 46 : 60}%)` }));
+        const room = x2 - x1 - 12, short = name.replace(/\s*\(.*\)$/, "");
+        const label = textWidth(name) <= room ? name : fitText(short, room);
+        if (label && label.length > 2) {
+          const t = svg("text", { class: "reign-text", x: x1 + 6, y: geo.bar + R_BAR / 2 + 4 });
+          t.textContent = label;
+          gEl.append(t);
+        }
+        const yrs = `${Math.floor(m.from)} – ${Math.floor(m.to)}`;
+        gEl.addEventListener("mousemove", (ev) => showTip(ev,
+          `<b>${esc(name)}</b><div class="tt-date">${yrs}${ent?.description ? " · " + esc(ent.description) : ""}</div>${m.note ? `<div>${esc(m.note)}</div>` : ""}` +
+          (state.subjectTimeline?.[m.entity] ? `<div class="tt-date">◷ click to open timeline</div>` : "")));
+        gEl.addEventListener("mouseleave", hideTip);
+        if (ent) gEl.addEventListener("click", () => { hideTip(); go(entHref(m.entity)); });
+        s.append(gEl);
+      }
+    });
+
     // 1. Key events: everything, thinned by importance for the current zoom
     const mainMid = mainTop + MAIN_H / 2;
-    s.append(svg("line", { class: "track-line", x1: GUTTER, x2: W - PAD, y1: mainMid, y2: mainMid }));
-    const main = drawTrack(tl.events.filter(visible), mainMid, { rows: [-14, -33, 24, -52], spacing: 64, spanBand: 40 });
-    s.append(main.g);
+    let main = { shown: 0, total: 0 };
+    if (eventsOpen) {
+      s.append(svg("line", { class: "track-line", x1: GUTTER, x2: W - PAD, y1: mainMid, y2: mainMid }));
+      main = drawTrack(tl.events.filter(visible), mainMid, { rows: [-14, -33, 24, -52], spacing: 64, spanBand: 40 });
+      s.append(main.g);
+    }
 
     // 2. Collapsible: people & powers
     const head = (y, open, text, key) => {
@@ -541,8 +632,17 @@ function setupTimeline(box) {
       t.textContent = txt;
       s.append(t);
     };
-    rowLabel(main.shown < main.total ? "Key events" : "All events", mainMid - 2, 12);
-    if (main.total) {
+    rulerRows.forEach((row, ri) => {
+      rowLabel(row.label, rowGeom[ri].bar + R_BAR / 2 + 4, 12);
+      if (rowGeom[ri].strip != null) {
+        const t = svg("text", { class: "row-hint", x: 12, y: rowGeom[ri].strip + 12.5 });
+        t.textContent = "dynasty";
+        s.append(t);
+      }
+    });
+    if (hasRulers) s.append(head(eventsHead, eventsOpen, `Key events (${tl.events.filter((e) => e.major).length})`, "events"));
+    if (eventsOpen) rowLabel(main.shown < main.total ? "Key events" : "All events", mainMid - 2, 12);
+    if (eventsOpen && main.total) {
       const hint = svg("text", { class: "row-hint", x: 12, y: mainMid + 14 });
       hint.textContent = main.shown < main.total ? `${main.shown} of ${main.total} · zoom for more` : `${main.total} in view`;
       s.append(hint);
@@ -576,7 +676,7 @@ function setupTimeline(box) {
   // Pan (drag) and zoom (pinch / ctrl+wheel); horizontal wheel pans
   let drag = null;
   box.addEventListener("pointerdown", (e) => {
-    if (e.target.closest(".ev, .ctx-bar, .sec-head")) return;
+    if (e.target.closest(".ev, .ctx-bar, .sec-head, .reign.link, .dyn.link")) return;
     drag = { x: e.clientX, start: state.view.start, end: state.view.end };
     box.setPointerCapture(e.pointerId);
     box.classList.add("dragging");

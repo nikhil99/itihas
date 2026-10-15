@@ -363,5 +363,24 @@
   "ashtadiggajas": {"type": "concept", "wiki": "Ashtadiggajas", "aliases": ["Ashtadiggajas"]},
   "carnatic-music": {"type": "concept", "wiki": "Carnatic music", "aliases": ["Carnatic music"]},
   "madhura-vijayam": {"type": "concept", "wiki": "Madhura Vijayam", "aliases": ["Madhura Vijayam"]},
-  "vijayanagara-architecture": {"type": "concept", "wiki": "Vijayanagara architecture", "aliases": ["Vijayanagara architecture"]}
+  "vijayanagara-architecture": {"type": "concept", "wiki": "Vijayanagara architecture", "aliases": ["Vijayanagara architecture"]},
+
+  "ahmad-shah-bahadur": {"type": "person", "wiki": "Ahmad Shah Bahadur", "aliases": ["Ahmad Shah Bahadur"]},
+  "akbar-ii": {"type": "person", "wiki": "Akbar II", "aliases": ["Akbar II"]},
+  "rafi-ud-darajat": {"type": "person", "wiki": "Rafi ud-Darajat", "aliases": ["Rafi ud-Darajat"]},
+  "shah-jahan-ii": {"type": "person", "wiki": "Shah Jahan II", "aliases": ["Shah Jahan II"]},
+  "shah-jahan-iii": {"type": "person", "wiki": "Shah Jahan III", "aliases": ["Shah Jahan III"]},
+  "shahu-ii": {"type": "person", "wiki": "Shahu II of Satara", "name": "Shahu II", "aliases": ["Shahu II"]},
+  "bukka-ii": {"type": "person", "wiki": "Bukka Raya II", "aliases": ["Bukka Raya II"]},
+  "mallikarjuna-raya": {"type": "person", "wiki": "Mallikarjuna Raya", "aliases": ["Mallikarjuna Raya"]},
+  "virupaksha-raya-ii": {"type": "person", "wiki": "Virupaksha Raya II", "aliases": ["Virupaksha Raya II"]},
+  "praudha-raya": {"type": "person", "wiki": "Praudha Raya", "aliases": ["Praudha Raya"]},
+  "thimma-bhupala": {"type": "person", "wiki": "Thimma Bhupala", "aliases": ["Thimma Bhupala"]},
+  "narasimha-raya-ii": {"type": "person", "wiki": "Narasimha Raya II", "aliases": ["Narasimha Raya II", "Immadi Narasimha"]},
+  "tuluva-narasa": {"type": "person", "wiki": "Tuluva Narasa Nayaka", "aliases": ["Tuluva Narasa Nayaka", "Narasa Nayaka"]},
+  "viranarasimha-raya": {"type": "person", "wiki": "Viranarasimha Raya", "aliases": ["Viranarasimha Raya", "Vira Narasimha Raya"]},
+  "venkata-i": {"type": "person", "wiki": "Venkata I", "aliases": ["Venkata I"]},
+  "sriranga-i": {"type": "person", "wiki": "Sriranga Deva Raya", "name": "Sriranga I", "aliases": ["Sriranga I"]},
+  "sriranga-ii": {"type": "person", "wiki": "Sriranga II", "aliases": ["Sriranga II"]},
+  "rama-deva-raya": {"type": "person", "wiki": "Rama Deva Raya", "aliases": ["Rama Deva Raya"]}
 }

@@ -9130,5 +9130,481 @@
   },
   "mrUrl": null,
   "dates": {}
+ },
+ "ahmad-shah-bahadur": {
+  "id": "ahmad-shah-bahadur",
+  "type": "person",
+  "title": "Ahmad Shah Bahadur",
+  "description": "Mughal emperor from 1748 to 1754",
+  "extract": "Ahmad Shah Bahadur, also known as Mirza Ahmad Shah or Mujahid-ud-Din Ahmad Shah Ghazi, was the fourteenth Mughal emperor from 1748 to 1754. Born to Emperor Muhammad Shah, he succeeded his father to the throne in 1748, at the age of 22. When Ahmed Shah Bahadur came to power, the Mughal Empire was in decline. Furthermore, his administrative weakness eventually led to the rise of the usurping Imad-ul-Mulk.",
+  "url": "https://en.wikipedia.org/wiki/Ahmad_Shah_Bahadur",
+  "qid": "Q400807",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/AhmadShah.png/330px-AhmadShah.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/AhmadShah.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Ahmad Shah Bahadur"
+  ],
+  "labels": {
+   "hi": "अहमद शाह बहादुर"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1725-12-23",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1775-01-01",
+    "precision": "day"
+   }
+  }
+ },
+ "akbar-ii": {
+  "id": "akbar-ii",
+  "type": "person",
+  "title": "Akbar II",
+  "description": "Mughal emperor from 1806 to 1837",
+  "extract": "Akbar II, also known as Akbar Shah II, was the nineteenth Mughal emperor from 1806 to 1837. He was the second son of Shah Alam II and the father of Bahadur Shah II, who would eventually succeed him and become the last Mughal emperor.",
+  "url": "https://en.wikipedia.org/wiki/Akbar_II",
+  "qid": "Q2091579",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Akbar_Shah_II_of_India.jpg/330px-Akbar_Shah_II_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Akbar_Shah_II_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Akbar II"
+  ],
+  "labels": {
+   "hi": "अकबर शाह II"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1760-04-22",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1837-09-28",
+    "precision": "day"
+   }
+  }
+ },
+ "rafi-ud-darajat": {
+  "id": "rafi-ud-darajat",
+  "type": "person",
+  "title": "Rafi ud-Darajat",
+  "description": "Mughal emperor in 1719",
+  "extract": "Mirza Rafi Ul-Darjat ; 1 December 1699 – 6 June 1719) was briefly the eleventh Mughal emperor from 28 February 1719 until his death on 6 June 1719. He was the youngest son of Rafi-ush-Shan, the nephew of Azim-ush-Shan and a grandson of Bahadur Shah I.",
+  "url": "https://en.wikipedia.org/wiki/Rafi_ud-Darajat",
+  "qid": "Q3236324",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Rafi-ud-darjat.jpg/330px-Rafi-ud-darjat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Rafi-ud-darjat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Rafi ud-Darajat"
+  ],
+  "labels": {
+   "hi": "रफी उद-दर्जत"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1699-12-01",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1719-06-06",
+    "precision": "day"
+   }
+  }
+ },
+ "shah-jahan-ii": {
+  "id": "shah-jahan-ii",
+  "type": "person",
+  "title": "Shah Jahan II",
+  "description": "Mughal emperor in 1719",
+  "extract": "Shah Jahan II, born Mirza Rafi-ud-Daulah, was briefly the twelfth Mughal emperor in 1719.",
+  "url": "https://en.wikipedia.org/wiki/Shah_Jahan_II",
+  "qid": "Q3238719",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rafi-ud-daulah.png/330px-Rafi-ud-daulah.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rafi-ud-daulah.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shah Jahan II"
+  ],
+  "labels": {
+   "hi": "रफी उद-दौलत"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1696-06-07",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1719-09-19",
+    "precision": "day"
+   }
+  }
+ },
+ "shah-jahan-iii": {
+  "id": "shah-jahan-iii",
+  "type": "person",
+  "title": "Shah Jahan III",
+  "description": "Mughal emperor from 1759 to 1760",
+  "extract": "Shah Jahan III, also known as Mirza Muhi-ul-Millat, was the sixteenth Mughal emperor, albeit briefly. He was the son of Muhi us-Sunnat, the eldest son of Muhammad Kam Bakhsh who was the youngest son of Aurangzeb. He was placed on the Mughal throne in December 1759 as a result of the intrigues in Delhi with the help of Imad-ul-Mulk. He was later deposed by Mughal ministers, acting in the name of the exiled Mughal Emperor Shah Alam II.",
+  "url": "https://en.wikipedia.org/wiki/Shah_Jahan_III",
+  "qid": "Q2627138",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Muhi-ul-millat.png/330px-Muhi-ul-millat.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Muhi-ul-millat.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shah Jahan III"
+  ],
+  "labels": {
+   "hi": "शाहजहां तृतीय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1711",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1772",
+    "precision": "year"
+   }
+  }
+ },
+ "shahu-ii": {
+  "id": "shahu-ii",
+  "type": "person",
+  "title": "Shahu II",
+  "description": "Chhatrapati of the Marathas from 1777 to 1808",
+  "extract": "Shahu II was the seventh Chhatrapati of the Maratha Confederacy from 1777 until his death in 1808. During his reign, the Marathas won the First Anglo-Maratha War, but lost the Second Anglo-Maratha War. Mahadaji Shinde and the Peshwa were his closest counterparts. He died shortly afterwards.",
+  "url": "https://en.wikipedia.org/wiki/Shahu_II_of_Satara",
+  "qid": "Q16858248",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Rajah_Sahuji_of_the_Sisodya_Clan%2C_Who_Ruled_over_Sattara_in_the_Deccan.jpg/330px-Rajah_Sahuji_of_the_Sisodya_Clan%2C_Who_Ruled_over_Sattara_in_the_Deccan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Rajah_Sahuji_of_the_Sisodya_Clan%2C_Who_Ruled_over_Sattara_in_the_Deccan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shahu II"
+  ],
+  "labels": {
+   "hi": "शाहू द्वितीय",
+   "mr": "साताऱ्याचे दुसरे शाहू"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%A4%E0%A4%BE%E0%A4%B1%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9A%E0%A5%87_%E0%A4%A6%E0%A5%81%E0%A4%B8%E0%A4%B0%E0%A5%87_%E0%A4%B6%E0%A4%BE%E0%A4%B9%E0%A5%82",
+  "dates": {
+   "born": {
+    "value": "1763",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1808",
+    "precision": "year"
+   }
+  }
+ },
+ "bukka-ii": {
+  "id": "bukka-ii",
+  "type": "person",
+  "title": "Bukka Raya II",
+  "description": "Emperor of Vijayanagara from 1404 to 1406",
+  "extract": "Bukka Raya II was an emperor of the Vijayanagara Empire from the Sangama Dynasty from 1404 until his deposition in 1406.",
+  "url": "https://en.wikipedia.org/wiki/Bukka_Raya_II",
+  "qid": "Q2336290",
+  "aliases": [
+   "Bukka Raya II"
+  ],
+  "labels": {
+   "hi": "बुक्क राय २"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1350",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1406",
+    "precision": "year"
+   }
+  }
+ },
+ "mallikarjuna-raya": {
+  "id": "mallikarjuna-raya",
+  "type": "person",
+  "title": "Mallikarjuna Raya",
+  "description": "Emperor of Vijayanagara from 1446 to 1465",
+  "extract": "Mallikarjuna Raya, also known as Deva Raya III, was an Emperor of Vijayanagara from the Sangama Dynasty.",
+  "url": "https://en.wikipedia.org/wiki/Mallikarjuna_Raya",
+  "qid": "Q1452329",
+  "aliases": [
+   "Mallikarjuna Raya"
+  ],
+  "labels": {
+   "hi": "मल्लिकार्जुन राय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1446",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1465",
+    "precision": "year"
+   }
+  }
+ },
+ "virupaksha-raya-ii": {
+  "id": "virupaksha-raya-ii",
+  "type": "person",
+  "title": "Virupaksha Raya II",
+  "description": "Emperor of Vijayanagara from 1465 to 1485",
+  "extract": "Virupaksha Raya II was the Emperor of Vijayanagara from October 1465 until his death in 1485. from the Sangama dynasty.",
+  "url": "https://en.wikipedia.org/wiki/Virupaksha_Raya_II",
+  "qid": "Q1452366",
+  "aliases": [
+   "Virupaksha Raya II"
+  ],
+  "labels": {
+   "hi": "विरुपाक्ष राय द्वितीय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1465",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1485",
+    "precision": "year"
+   }
+  }
+ },
+ "praudha-raya": {
+  "id": "praudha-raya",
+  "type": "person",
+  "title": "Praudha Raya",
+  "description": "Emperor of Vijayanagara in 1485",
+  "extract": "Praudha Raya, also known as Praudha Deva Raya IV, was the last Sangama Emperor of Vijayanagara. The king belongs to odeya/ vodeya /vaddi /vadiyaraju's.",
+  "url": "https://en.wikipedia.org/wiki/Praudha_Raya",
+  "qid": "Q2572865",
+  "aliases": [
+   "Praudha Raya"
+  ],
+  "labels": {
+   "hi": "प्रौढ़ राय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1450",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1401",
+    "precision": "year"
+   }
+  }
+ },
+ "thimma-bhupala": {
+  "id": "thimma-bhupala",
+  "type": "person",
+  "title": "Thimma Bhupala",
+  "description": "Emperor of Vijayanagara in 1491",
+  "extract": "Thimma Bhupala was the elder son and heir-apparent of Saluva Narasimha Deva Raya, the Sovereign of the Vijayanagara Empire. During the reign of his father, he held the office of the Yuvaraja. Prince Thimma succeeded his father in 1491 but was soon assassinated by an army commander loyal to the Sangamas during a period of political unrest in Vijayanagara. He was succeeded by his younger brother Narasimha Raya II. The eldest son of his Saluva Narasimha Deva Raya's prime minister, Narasa Nayaka, had Narasimha Raya II assassinated and ascended to the throne himself in 1505, beginning the Tuluva dynasty, the third dynasty of the Vijayanagara Empire.",
+  "url": "https://en.wikipedia.org/wiki/Thimma_Bhupala",
+  "qid": "Q768088",
+  "aliases": [
+   "Thimma Bhupala"
+  ],
+  "labels": {
+   "hi": "थिम्म भूपाल"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1450",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1491",
+    "precision": "year"
+   }
+  }
+ },
+ "narasimha-raya-ii": {
+  "id": "narasimha-raya-ii",
+  "type": "person",
+  "title": "Narasimha Raya II",
+  "description": "Emperor of Vijayanagara from 1491 to 1505",
+  "extract": "Narasimha Raya II (1468–1505), also known as Narasimha II, Immadi Narasimha Raya and Dhamma Thimma Raya, was the third and last emperor from the Saluva dynasty, the second of the four dynasties to rule the Vijayanagara Empire.",
+  "url": "https://en.wikipedia.org/wiki/Narasimha_Raya_II",
+  "qid": "Q1452321",
+  "aliases": [
+   "Narasimha Raya II",
+   "Immadi Narasimha"
+  ],
+  "labels": {
+   "hi": "नृसिंह राय द्वितीय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1450",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1505",
+    "precision": "year"
+   }
+  }
+ },
+ "tuluva-narasa": {
+  "id": "tuluva-narasa",
+  "type": "person",
+  "title": "Tuluva Narasa Nayaka",
+  "description": "Regent of the Vijayanagara Empire from 1491 to 1503",
+  "extract": "Tuluva Narasa Nayaka was an Indian general and later an imperial regent who founded the Tuluva dynasty of the Vijayanagara Empire. He was the father of the emperors Viranarasimha Raya, Krishnadevaraya and Achyuta Deva Raya.",
+  "url": "https://en.wikipedia.org/wiki/Tuluva_Narasa_Nayaka",
+  "qid": "Q1452358",
+  "aliases": [
+   "Tuluva Narasa Nayaka",
+   "Narasa Nayaka"
+  ],
+  "labels": {
+   "hi": "तुलुव नरस नायक"
+  },
+  "mrUrl": null,
+  "dates": {
+   "died": {
+    "value": "1503",
+    "precision": "year"
+   }
+  }
+ },
+ "viranarasimha-raya": {
+  "id": "viranarasimha-raya",
+  "type": "person",
+  "title": "Viranarasimha Raya",
+  "description": "Emperor of Vijayanagara from 1505 to 1509",
+  "extract": "Vira Narasimha Raya, also known as  Vira Narasimha or Vira Narasimha III, became the Emperor of Vijayanagara after the death of his predecessor Narasimha Raya II. He was the older half-brother of Krishnadevaraya.",
+  "url": "https://en.wikipedia.org/wiki/Viranarasimha_Raya",
+  "qid": "Q1113900",
+  "aliases": [
+   "Viranarasimha Raya",
+   "Vira Narasimha Raya"
+  ],
+  "labels": {
+   "hi": "वीरनरसिंह राय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1450",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1509",
+    "precision": "year"
+   }
+  }
+ },
+ "venkata-i": {
+  "id": "venkata-i",
+  "type": "person",
+  "title": "Venkata I",
+  "description": "Emperor of Vijayanagara from 1542 to 1543",
+  "extract": "Venkata I, also known as Venkata Raya and Venkatadri Raya, was an Emperor of Vijayanagara from the Tuluva Dynasty. He was the son of Emperor Achyuta Deva Raya, whom he succeeded in 1542.",
+  "url": "https://en.wikipedia.org/wiki/Venkata_I",
+  "qid": "Q15711506",
+  "aliases": [
+   "Venkata I"
+  ],
+  "labels": {
+   "hi": "वेंकट प्रथम"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1550",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1542",
+    "precision": "year"
+   }
+  }
+ },
+ "sriranga-i": {
+  "id": "sriranga-i",
+  "type": "person",
+  "title": "Sriranga I",
+  "description": "Emperor of Vijayanagara from 1572 to 1586",
+  "extract": "Sriranga Deva Raya, also known as Sriranga I, was the second Emperor of Vijayanagara from the Aravidu Dynasty. He reigned from the fortress of Penukonda. Sriranga succeeded his father, Emperor Tirumala Deva Raya. After the fall of Vijayanagara to the Turko-Persian Sultanates of Deccan, he carried out the restoration of the empire from Penukonda. His reign was marred by repeated invasions and subsequent losses of territory to his Turko-Persian Muslim neighbours.",
+  "url": "https://en.wikipedia.org/wiki/Sriranga_Deva_Raya",
+  "qid": "Q1452348",
+  "aliases": [
+   "Sriranga I"
+  ],
+  "labels": {
+   "hi": "श्रीरंग प्रथम"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1550",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1586",
+    "precision": "year"
+   }
+  }
+ },
+ "sriranga-ii": {
+  "id": "sriranga-ii",
+  "type": "person",
+  "title": "Sriranga II",
+  "description": "Emperor of Vijayanagara from 1614 to 1615",
+  "extract": "Sriranga II, also known as Sriranga Chika Raya, was nominated in 1614 by Emperor Venkata II to succeed him as the Emperor of Vijayanagara. Sriranga was supported by a faction headed by Yachama Nayaka of Recherla Velama dynasty, one of the Venkata II's loyal viceroys and commanders and Nayak of Venkatagiri, but was not favored by a set of nobles headed by Gobburi Jagga Raya, brother of Venkata II's favourite consort, Empress Bayamma.",
+  "url": "https://en.wikipedia.org/wiki/Sriranga_II",
+  "qid": "Q707292",
+  "aliases": [
+   "Sriranga II"
+  ],
+  "labels": {
+   "hi": "श्रीरंग २"
+  },
+  "mrUrl": null,
+  "dates": {
+   "died": {
+    "value": "1614",
+    "precision": "year"
+   }
+  }
+ },
+ "rama-deva-raya": {
+  "id": "rama-deva-raya",
+  "type": "person",
+  "title": "Rama Deva Raya",
+  "description": "Emperor of Vijayanagara from 1617 to 1632",
+  "extract": "Rama Deva Raya ascended the throne after a gruesome war in 1617 as the Emperor of Vijaynagara. In 1614, his father Sriranga II, who was the preceding emperor, and his family were murdered by rival factions headed by Jagga Raya, who was one of their kins. Rama Deva himself was smuggled out of the prison by Yachama Naidu, a faithful commander and the viceroy of earlier emperor Venkata II.",
+  "url": "https://en.wikipedia.org/wiki/Rama_Deva_Raya",
+  "qid": "Q1452371",
+  "aliases": [
+   "Rama Deva Raya"
+  ],
+  "labels": {
+   "hi": "रामदेव अरविदु"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1614",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1632",
+    "precision": "year"
+   }
+  }
  }
 }
