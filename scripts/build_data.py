@@ -28,6 +28,33 @@ UA = "ItihasTimeline/0.1 (https://github.com/nikhil99/itihas; personal education
 REFRESH = False
 
 
+def load_registry():
+    """Merge content/entities/*.json into one registry.
+
+    The registry is split into topic files so that branches adding different
+    timelines edit different files instead of all appending to one.
+    """
+    legacy = CONTENT / "entities.json"
+    if legacy.exists():
+        sys.exit(f"{legacy.relative_to(ROOT)} is no longer used: move its entries into a file in "
+                 f"content/entities/ (e.g. content/entities/<topic>.json) and delete it.")
+    registry, origin = {}, {}
+    for path in sorted((CONTENT / "entities").glob("*.json")):
+        try:
+            data = json.loads(path.read_text())
+        except json.JSONDecodeError as e:
+            sys.exit(f"{path.relative_to(ROOT)}: invalid JSON: {e}")
+        for eid, spec in data.items():
+            if eid.startswith("_"):
+                continue
+            if eid in registry:
+                sys.exit(f"duplicate entity id {eid!r} in {path.name} and {origin[eid]}")
+            registry[eid], origin[eid] = spec, path.name
+    if not registry:
+        sys.exit("no entities found in content/entities/*.json")
+    return registry
+
+
 def fetch_json(url):
     CACHE.mkdir(exist_ok=True)
     key = CACHE / (hashlib.sha1(url.encode()).hexdigest() + ".json")
@@ -132,33 +159,6 @@ def wikidata(qids):
                 "coords": wd_coords(claims),
             }
     return out
-
-
-def load_registry():
-    """Merge content/entities/*.json into one registry.
-
-    The registry is split into topic files so that branches adding different
-    timelines edit different files instead of all appending to one.
-    """
-    legacy = CONTENT / "entities.json"
-    if legacy.exists():
-        sys.exit(f"{legacy.relative_to(ROOT)} is no longer used: move its entries into a file in "
-                 f"content/entities/ (e.g. content/entities/<topic>.json) and delete it.")
-    registry, origin = {}, {}
-    for path in sorted((CONTENT / "entities").glob("*.json")):
-        try:
-            data = json.loads(path.read_text())
-        except json.JSONDecodeError as e:
-            sys.exit(f"{path.relative_to(ROOT)}: invalid JSON: {e}")
-        for eid, spec in data.items():
-            if eid.startswith("_"):
-                continue
-            if eid in registry:
-                sys.exit(f"duplicate entity id {eid!r} in {path.name} and {origin[eid]}")
-            registry[eid], origin[eid] = spec, path.name
-    if not registry:
-        sys.exit("no entities found in content/entities/*.json")
-    return registry
 
 
 def main():
