@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build site data from curated content + Wikipedia/Wikidata.
 
-Reads   content/entities.json and content/timelines/*.json
+Reads   content/entities/*.json and content/timelines/*.json
 Fetches Wikipedia REST summaries (extract, image, coordinates) and
         Wikidata claims (birth/death, inception/dissolution, Marathi/Hindi names)
 Writes  site/data/entities.json, site/data/timelines/<id>.json, site/data/index.json
@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 OUT = ROOT / "site" / "data"
 CACHE = ROOT / ".cache"
-UA = "ItihasTimeline/0.1 (personal educational project; python-urllib)"
+UA = "ItihasTimeline/0.1 (https://github.com/nikhil99/itihas; personal educational project)"
 
 REFRESH = False
 
@@ -134,13 +134,40 @@ def wikidata(qids):
     return out
 
 
+def load_registry():
+    """Merge content/entities/*.json into one registry.
+
+    The registry is split into topic files so that branches adding different
+    timelines edit different files instead of all appending to one.
+    """
+    legacy = CONTENT / "entities.json"
+    if legacy.exists():
+        sys.exit(f"{legacy.relative_to(ROOT)} is no longer used: move its entries into a file in "
+                 f"content/entities/ (e.g. content/entities/<topic>.json) and delete it.")
+    registry, origin = {}, {}
+    for path in sorted((CONTENT / "entities").glob("*.json")):
+        try:
+            data = json.loads(path.read_text())
+        except json.JSONDecodeError as e:
+            sys.exit(f"{path.relative_to(ROOT)}: invalid JSON: {e}")
+        for eid, spec in data.items():
+            if eid.startswith("_"):
+                continue
+            if eid in registry:
+                sys.exit(f"duplicate entity id {eid!r} in {path.name} and {origin[eid]}")
+            registry[eid], origin[eid] = spec, path.name
+    if not registry:
+        sys.exit("no entities found in content/entities/*.json")
+    return registry
+
+
 def main():
     global REFRESH
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="ignore cached API responses")
     REFRESH = ap.parse_args().refresh
 
-    registry = {k: v for k, v in json.loads((CONTENT / "entities.json").read_text()).items() if not k.startswith("_")}
+    registry = load_registry()
     timelines = [json.loads(p.read_text()) for p in sorted((CONTENT / "timelines").glob("*.json"))]
     problems = []
 
@@ -189,7 +216,7 @@ def main():
         if registry[e["id"]].get("coords"):
             e["coords"] = registry[e["id"]]["coords"]
         if e["type"] == "place" and not e.get("coords"):
-            problems.append(f"place {e['id']!r} has no coordinates (add \"coords\" in entities.json)")
+            problems.append(f"place {e['id']!r} has no coordinates (add \"coords\" to its entry in content/entities/)")
 
     (OUT / "timelines").mkdir(parents=True, exist_ok=True)
     index = []

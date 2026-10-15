@@ -1,0 +1,16 @@
+{
+  "kanhoji-jedhe": {"type": "person", "wiki": "Kanhoji Jedhe"},
+  "bahirji-naik": {"type": "person", "wiki": "Bahirji Naik"},
+  "ramdas": {"type": "person", "wiki": "Samarth Ramdas"},
+  "tukaram": {"type": "person", "wiki": "Tukaram"},
+  "chikka-devaraja": {"type": "person", "wiki": "Chikka Devaraja", "aliases": ["Chikka Devaraja"]},
+  "salabat-jung": {"type": "person", "wiki": "Salabat Jung", "aliases": ["Salabat Jung"]},
+  "vijayanagara-city": {"type": "place", "wiki": "Vijayanagara", "name": "Vijayanagara (city)", "aliases": []},
+  "tuluva-narasa": {"type": "person", "wiki": "Tuluva Narasa Nayaka", "aliases": ["Tuluva Narasa Nayaka", "Narasa Nayaka"]},
+  "aligarh": {"type": "place", "wiki": "Aligarh", "aliases": ["Aligarh"]},
+  "mathura-v": {"type": "place", "wiki": "Vrindavan", "name": "Vrindavan", "aliases": ["Vrindavan"]},
+  "savarkar": {"type": "person", "wiki": "Vinayak Damodar Savarkar", "name": "V. D. Savarkar", "aliases": ["Savarkar"]},
+  "cellular-jail": {"type": "place", "wiki": "Cellular Jail", "aliases": ["Cellular Jail"]},
+  "cst": {"type": "place", "wiki": "Chhatrapati Shivaji Terminus", "aliases": ["Victoria Terminus"]},
+  "independence-movement": {"type": "concept", "wiki": "Indian independence movement", "aliases": ["independence movement"]}
+}
