@@ -202,5 +202,113 @@
    1796.93,
    1818.42
   ]
+ },
+ {
+  "id": "shinde-gwalior",
+  "title": "The Shindes of Gwalior",
+  "subtitle": "Scindia: from Bajirao's commander to rulers of north India · 1731 – 1948",
+  "subject": "gwalior-state",
+  "events": 21,
+  "series": "The Maratha confederacy",
+  "order": 1,
+  "kind": "state",
+  "range": [
+   1720,
+   1955
+  ],
+  "focus": [
+   1731,
+   1948.4
+  ]
+ },
+ {
+  "id": "holkar-indore",
+  "title": "The Holkars of Indore",
+  "subtitle": "From Malharrao and Ahilyabai to the princely state of Indore · 1733 – 1948",
+  "subject": "indore-state",
+  "events": 15,
+  "series": "The Maratha confederacy",
+  "order": 2,
+  "kind": "state",
+  "range": [
+   1720,
+   1955
+  ],
+  "focus": [
+   1733,
+   1948.4
+  ]
+ },
+ {
+  "id": "gaekwad-baroda",
+  "title": "The Gaekwads of Baroda",
+  "subtitle": "Marathas in Gujarat, and Sayajirao III's reforming state · 1721 – 1949",
+  "subject": "baroda-state",
+  "events": 13,
+  "series": "The Maratha confederacy",
+  "order": 3,
+  "kind": "state",
+  "range": [
+   1710,
+   1955
+  ],
+  "focus": [
+   1721,
+   1949.33
+  ]
+ },
+ {
+  "id": "bhonsle-nagpur",
+  "title": "The Bhonsles of Nagpur",
+  "subtitle": "The eastern arm of Maratha power · 1739 – 1853",
+  "subject": "nagpur-kingdom",
+  "events": 11,
+  "series": "The Maratha confederacy",
+  "order": 4,
+  "kind": "state",
+  "range": [
+   1730,
+   1870
+  ],
+  "focus": [
+   1739,
+   1853.95
+  ]
+ },
+ {
+  "id": "kolhapur",
+  "title": "The Bhonsles of Kolhapur",
+  "subtitle": "Tarabai's line, and Rajarshi Shahu's social reforms · 1710 – 1949",
+  "subject": "kolhapur-state",
+  "events": 13,
+  "series": "The Maratha confederacy",
+  "order": 5,
+  "kind": "state",
+  "range": [
+   1700,
+   1955
+  ],
+  "focus": [
+   1710,
+   1949.17
+  ]
+ },
+ {
+  "id": "thanjavur-marathas",
+  "title": "The Marathas of Thanjavur",
+  "subtitle": "A Maratha kingdom in the Tamil country · 1675 – 1855",
+  "subject": "thanjavur-maratha",
+  "events": 10,
+  "series": "The Maratha confederacy",
+  "order": 6,
+  "kind": "state",
+  "range": [
+   1665,
+   1865
+  ],
+  "focus": [
+   1675,
+   1855
+  ]
  }
 ]

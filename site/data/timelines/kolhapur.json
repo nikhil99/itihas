@@ -1,0 +1,342 @@
+{
+ "id": "kolhapur",
+ "order": 5,
+ "title": "The Bhonsles of Kolhapur",
+ "subtitle": "Tarabai's line, and Rajarshi Shahu's social reforms · 1710 – 1949",
+ "subject": "kolhapur-state",
+ "range": [
+  1700,
+  1955
+ ],
+ "focus": [
+  1710,
+  1949.17
+ ],
+ "intro": "Kolhapur began as the rival court Tarabai set up after losing the Maratha civil war to Shahu. The Treaty of Warna made it a separate kingdom in 1731, and it survived as a princely state under the British. It is best known for Shahu of Kolhapur (Rajarshi Shahu), whose reservations for backward classes and support for Ambedkar made him one of India's great social reformers.",
+ "rulers": [
+  {
+   "label": "Chhatrapatis",
+   "members": [
+    {
+     "entity": "tarabai",
+     "from": 1710,
+     "to": 1714.3,
+     "name": "Shivaji I (Tarabai regent)"
+    },
+    {
+     "entity": "sambhaji-ii",
+     "from": 1714.3,
+     "to": 1760
+    },
+    {
+     "entity": null,
+     "from": 1760,
+     "to": 1762,
+     "name": "Interregnum"
+    },
+    {
+     "entity": "shivaji-ii-kolhapur",
+     "from": 1762,
+     "to": 1813,
+     "note": "Adopted; his mother Jijabai is regent at first"
+    },
+    {
+     "entity": null,
+     "from": 1813,
+     "to": 1821,
+     "name": "Shambhu (Abasaheb)"
+    },
+    {
+     "entity": null,
+     "from": 1821,
+     "to": 1837,
+     "name": "Shahaji I (Bavasaheb)"
+    },
+    {
+     "entity": null,
+     "from": 1837,
+     "to": 1866,
+     "name": "Shivaji III"
+    },
+    {
+     "entity": null,
+     "from": 1866,
+     "to": 1870.9,
+     "name": "Rajaram II",
+     "note": "Died in Florence"
+    },
+    {
+     "entity": null,
+     "from": 1871,
+     "to": 1883,
+     "name": "Shivaji IV"
+    },
+    {
+     "entity": "shahu-kolhapur",
+     "from": 1884,
+     "to": 1922.35
+    },
+    {
+     "entity": null,
+     "from": 1922.35,
+     "to": 1940,
+     "name": "Rajaram III"
+    },
+    {
+     "entity": null,
+     "from": 1940,
+     "to": 1946,
+     "name": "Shivaji V"
+    },
+    {
+     "entity": null,
+     "from": 1947,
+     "to": 1949.17,
+     "name": "Shahaji II"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "maratha-empire",
+   "label": "Satara/Peshwa Maratha state",
+   "from": 1700,
+   "to": 1818.42
+  },
+  {
+   "entity": "east-india-company",
+   "label": "East India Company rule",
+   "from": 1757.5,
+   "to": 1858.6
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1858.6,
+   "to": 1947.6
+  }
+ ],
+ "events": [
+  {
+   "id": "court",
+   "date": "1710",
+   "lane": "political",
+   "title": "Tarabai's separate court",
+   "summary": "After losing to Shahu, Tarabai establishes a court for her son Shivaji at Panhala and Kolhapur.",
+   "people": [
+    "tarabai",
+    "shivaji-ii",
+    "shahu"
+   ],
+   "places": [
+    "panhala",
+    "kolhapur"
+   ],
+   "polities": [
+    "kolhapur-state"
+   ],
+   "approx": true,
+   "major": true,
+   "see": "rajaram-tarabai"
+  },
+  {
+   "id": "coup",
+   "date": "1714",
+   "lane": "life",
+   "title": "Sambhaji II replaces Tarabai's son",
+   "summary": "A palace revolution brings Rajaram's son by Rajasbai, Sambhaji II, to power; Tarabai and her son are imprisoned.",
+   "people": [
+    "sambhaji-ii",
+    "tarabai",
+    "shivaji-ii"
+   ],
+   "places": [
+    "kolhapur"
+   ],
+   "approx": true
+  },
+  {
+   "id": "warna",
+   "date": "1731-04-13",
+   "lane": "political",
+   "title": "Treaty of Warna",
+   "summary": "Shahu and Sambhaji II divide the Maratha kingdom: Kolhapur becomes a separate state south of the Warna river.",
+   "people": [
+    "shahu",
+    "sambhaji-ii"
+   ],
+   "places": [
+    "kolhapur",
+    "satara"
+   ],
+   "polities": [
+    "kolhapur-state"
+   ],
+   "major": true,
+   "see": "shahu"
+  },
+  {
+   "id": "capital",
+   "date": "1788",
+   "lane": "forts",
+   "title": "Capital moves to Kolhapur",
+   "summary": "The court moves from Panhala fort to the town of Kolhapur.",
+   "people": [
+    "shivaji-ii-kolhapur"
+   ],
+   "places": [
+    "kolhapur",
+    "panhala"
+   ],
+   "approx": true
+  },
+  {
+   "id": "british",
+   "date": "1812",
+   "lane": "political",
+   "title": "Treaty with the British",
+   "summary": "Kolhapur accepts British protection, avoiding the fate of the Peshwa's state in 1818.",
+   "polities": [
+    "kolhapur-state",
+    "east-india-company"
+   ],
+   "approx": true
+  },
+  {
+   "id": "1844",
+   "date": "1844",
+   "lane": "military",
+   "title": "Gadkari revolt",
+   "summary": "Fort garrisons (gadkaris) around Kolhapur rise against British-backed administrative changes; the revolt is suppressed and the state's forts dismantled.",
+   "places": [
+    "kolhapur",
+    "panhala"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "approx": true
+  },
+  {
+   "id": "shahu-crowned",
+   "date": "1894-04-02",
+   "lane": "life",
+   "title": "Shahu takes power",
+   "summary": "The adopted Shahu, aged 20, is invested with ruling powers.",
+   "people": [
+    "shahu-kolhapur"
+   ],
+   "places": [
+    "kolhapur"
+   ],
+   "major": true
+  },
+  {
+   "id": "reservation",
+   "date": "1902-07-26",
+   "lane": "political",
+   "title": "Reservation for backward classes",
+   "summary": "Shahu reserves 50% of posts in the state service for backward classes — among the earliest reservation orders in India.",
+   "people": [
+    "shahu-kolhapur"
+   ],
+   "polities": [
+    "kolhapur-state"
+   ],
+   "major": true
+  },
+  {
+   "id": "satyashodhak",
+   "date": "1911",
+   "lane": "political",
+   "title": "Satyashodhak movement",
+   "summary": "Shahu patronises the Satyashodhak Samaj founded by Jyotirao Phule, promoting education and challenging caste privilege.",
+   "people": [
+    "shahu-kolhapur",
+    "phule"
+   ],
+   "concepts": [
+    "satyashodhak"
+   ],
+   "approx": true
+  },
+  {
+   "id": "education",
+   "date": "1917",
+   "lane": "political",
+   "title": "Free compulsory primary education",
+   "summary": "Kolhapur makes primary education free and compulsory, and Shahu funds hostels for students of all castes.",
+   "people": [
+    "shahu-kolhapur"
+   ],
+   "polities": [
+    "kolhapur-state"
+   ]
+  },
+  {
+   "id": "mangaon",
+   "date": "1920-03",
+   "lane": "political",
+   "title": "Mangaon conference with Ambedkar",
+   "summary": "At a conference of depressed classes at Mangaon, Shahu presents B. R. Ambedkar as their future leader; he also helps fund Ambedkar's newspaper Mooknayak.",
+   "people": [
+    "shahu-kolhapur",
+    "ambedkar"
+   ],
+   "places": [
+    "mangaon"
+   ],
+   "major": true
+  },
+  {
+   "id": "shahu-dies",
+   "date": "1922-05-06",
+   "lane": "life",
+   "title": "Shahu dies",
+   "summary": "Shahu dies in Bombay, aged 48. His legacy as 'Rajarshi' (royal sage) shapes Maharashtra's social reform politics.",
+   "people": [
+    "shahu-kolhapur"
+   ]
+  },
+  {
+   "id": "merger",
+   "date": "1949-03-01",
+   "lane": "political",
+   "title": "Kolhapur merges into Bombay State",
+   "summary": "The Kolhapur state merges into Bombay State; its territory is now part of Maharashtra.",
+   "places": [
+    "kolhapur"
+   ],
+   "polities": [
+    "kolhapur-state",
+    "bombay-state"
+   ],
+   "major": true
+  }
+ ],
+ "series": "The Maratha confederacy",
+ "kind": "state",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Battles"
+  },
+  {
+   "id": "forts",
+   "label": "Territory & building"
+  },
+  {
+   "id": "political",
+   "label": "Treaties & reform"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ]
+}

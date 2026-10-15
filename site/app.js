@@ -121,7 +121,8 @@ async function renderHome() {
         el("h2", { class: "series-title" }, "Empires"),
         el("div", { class: "cards" }, empires.map(card))) : null,
       series.map((name) => el("div", { class: "series" },
-        el("h2", { class: "series-title" }, name === "Other" ? "Other timelines" : `People of ${name.replace(/^The /, "the ")}`),
+        el("h2", { class: "series-title" }, name === "Other" ? "Other timelines"
+          : index.some((t) => t.series === name && t.kind === "state") ? `${name.replace(/^The /, "")} — the great houses` : `People of ${name.replace(/^The /, "the ")}`),
         el("div", { class: "cards" }, index.filter((t) => t.kind !== "empire" && (t.series || "Other") === name).map(card)))),
       el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Coming later"),

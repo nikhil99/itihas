@@ -9606,5 +9606,1443 @@
     "precision": "year"
    }
   }
+ },
+ "jayappa-shinde": {
+  "id": "jayappa-shinde",
+  "type": "person",
+  "title": "Jayappa Shinde",
+  "description": "Maharaja of Gwalior from 1745 to 1755",
+  "extract": "Jayappaji Rao Shinde, also known as Jayappa Dadasahib, was a Maratha general and the Maharaja of Gwalior in northern India from 1745 to 1755, succeeding his father Ranoji Rao Scindia who had founded it.",
+  "url": "https://en.wikipedia.org/wiki/Jayappaji_Rao_Scindia",
+  "qid": "Q6167629",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Jayappaji_Rao_Shinde.jpg/330px-Jayappaji_Rao_Shinde.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Jayappaji_Rao_Shinde.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Jayappa Shinde",
+   "Jayappa"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1720",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1755-07-25",
+    "precision": "day"
+   }
+  }
+ },
+ "jankoji-shinde": {
+  "id": "jankoji-shinde",
+  "type": "person",
+  "title": "Jankoji Shinde",
+  "description": "Maharaja of Gwalior from 1755 to 1761",
+  "extract": "Jankoji Rao Shinde was the third Maharaja of Gwalior State from 1755 until his death in 1761. He became Maharaja of Gwalior after the death of his father, Jayappaji Rao Scindia, at the age of 10.",
+  "url": "https://en.wikipedia.org/wiki/Jankoji_Rao_Scindia",
+  "qid": "Q13117265",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Jankoji_Scindia_in_Battle_of_Panipat_%281761%29_fighting_Afghans.jpg/330px-Jankoji_Scindia_in_Battle_of_Panipat_%281761%29_fighting_Afghans.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Jankoji_Scindia_in_Battle_of_Panipat_%281761%29_fighting_Afghans.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Jankoji Shinde",
+   "Jankoji"
+  ],
+  "labels": {
+   "mr": "जनकोजी शिंदे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9C%E0%A4%A8%E0%A4%95%E0%A5%8B%E0%A4%9C%E0%A5%80_%E0%A4%B6%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1745",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1761",
+    "precision": "year"
+   }
+  }
+ },
+ "jankoji-shinde-ii": {
+  "id": "jankoji-shinde-ii",
+  "type": "person",
+  "title": "Jankoji Shinde II",
+  "description": "Maharaja of Gwalior from 1827 to 1843",
+  "extract": "Jankoji Rao Scindia II, was Maharaja of Gwalior from 1827 to 1843.",
+  "url": "https://en.wikipedia.org/wiki/Jankoji_Rao_Scindia_II",
+  "qid": "Q11927179",
+  "aliases": [
+   "Jankoji Shinde II"
+  ],
+  "labels": {
+   "hi": "जानकोजीराव सिंधिया द्वितीय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1805",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1843-02-07",
+    "precision": "day"
+   }
+  }
+ },
+ "baiza-bai": {
+  "id": "baiza-bai",
+  "type": "person",
+  "title": "Baiza Bai",
+  "description": "Maharani of Gwalior",
+  "extract": "Baiza Bai was one of the wives of Daulat Rao Scindia, the ruler of Gwalior princely state in India, and served as regent after his death.",
+  "url": "https://en.wikipedia.org/wiki/Baiza_Bai",
+  "qid": "Q28062331",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Bajibai_of_Gwalior%2C_watercolour_on_ivory%2C_c._1857.png/330px-Bajibai_of_Gwalior%2C_watercolour_on_ivory%2C_c._1857.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bajibai_of_Gwalior%2C_watercolour_on_ivory%2C_c._1857.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Baiza Bai"
+  ],
+  "labels": {
+   "mr": "बायजाबाई शिंदे",
+   "hi": "बाइजा बाई"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%AF%E0%A4%9C%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%88_%E0%A4%B6%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1784",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1863",
+    "precision": "year"
+   }
+  }
+ },
+ "jayajirao-scindia": {
+  "id": "jayajirao-scindia",
+  "type": "person",
+  "title": "Jayajirao Scindia",
+  "description": "Maharaja of Gwalior from 1843 to 1886",
+  "extract": "Jayajirao Scindia GCB, GCSI, CIE of the Scindia dynasty of Maratha Confederacy was the last independent ruling Maharaja of Gwalior State during the British rule from 1843 to 1886.",
+  "url": "https://en.wikipedia.org/wiki/Jayajirao_Scindia",
+  "qid": "Q3807515",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Jayaji_Rao_Scindia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Jayaji_Rao_Scindia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Jayajirao Scindia",
+   "Jayajirao"
+  ],
+  "labels": {
+   "hi": "जयाजीराव सिंधिया",
+   "mr": "जयाजीराव सिंधिया"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1835-01-19",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1886-06-20",
+    "precision": "day"
+   }
+  }
+ },
+ "madho-rao-scindia": {
+  "id": "madho-rao-scindia",
+  "type": "person",
+  "title": "Madho Rao Scindia",
+  "description": "Maharaja of Gwalior from 1886 to 1925",
+  "extract": "Maharaja Sir Madhorao Scindia I of Gwalior, was the 6th Maharaja of Gwalior belonging to the Scindia dynasty of the Marathas. He was one of the most visionary and progressive rulers of the Scindia Dynasty and an influential investor who invested his wealth in different companies more prominently TISCO that helped Tatas grow rapidly in their business expansion. He invested in multiple shares and hold dividends in many Indian companies which made him the only ruler having investments as shares and bonds in multiple companies during his era.",
+  "url": "https://en.wikipedia.org/wiki/Madho_Rao_Scindia",
+  "qid": "Q3842356",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Madhavrao_Shinde%2C_GCSI%2C_GCVO.jpg/330px-Madhavrao_Shinde%2C_GCSI%2C_GCVO.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Madhavrao_Shinde%2C_GCSI%2C_GCVO.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Madho Rao Scindia"
+  ],
+  "labels": {
+   "hi": "माधोराव सिंधिया"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1876",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1925",
+    "precision": "year"
+   }
+  }
+ },
+ "jiwajirao-scindia": {
+  "id": "jiwajirao-scindia",
+  "type": "person",
+  "title": "Jiwajirao Scindia",
+  "description": "Maharaja of Gwalior from 1925 to 1948",
+  "extract": "Sir George Jiwajirao Scindia KStJ was the monarch of the Gwalior state during the British Raj and later the Rajpramukh (Governor) of the Indian state of Madhya Bharat.\nJiwajirao was the Maharaja, of the princely state of Gwalior in central India from 1925 until 1947. After the state was absorbed into independent India, he was granted a privy purse, certain privileges, and the use of the title Maharaja of Gwalior by the Government of India, which he retained until his death in 1961. He also served as the rajpramukh (governor) of the state of Madhya Bharat until 1956.",
+  "url": "https://en.wikipedia.org/wiki/Jiwajirao_Scindia",
+  "qid": "Q3760549",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Jiwajirao_Scindia_of_Gwalior.jpg/330px-Jiwajirao_Scindia_of_Gwalior.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Jiwajirao_Scindia_of_Gwalior.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Jiwajirao Scindia",
+   "Jiwajirao"
+  ],
+  "labels": {
+   "hi": "जीवाजीराव सिंधिया",
+   "mr": "ग्वाल्हेरचे जिवाजीराव सिंधिया पहिला"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1916-06-26",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1961-07-16",
+    "precision": "day"
+   }
+  }
+ },
+ "tatya-tope": {
+  "id": "tatya-tope",
+  "type": "person",
+  "title": "Tatya Tope",
+  "description": "Leader of the Indian War of Independence in 1857",
+  "extract": "Tantia Tope was an Indian general in the Indian Rebellion of 1857 against the British East India Company.",
+  "url": "https://en.wikipedia.org/wiki/Tatya_Tope",
+  "qid": "Q983579",
+  "aliases": [
+   "Tatya Tope"
+  ],
+  "labels": {
+   "hi": "तात्या टोपे",
+   "mr": "तात्या टोपे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A4%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%BE_%E0%A4%9F%E0%A5%8B%E0%A4%AA%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1814",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1859-04-18",
+    "precision": "day"
+   }
+  }
+ },
+ "jai-vilas": {
+  "id": "jai-vilas",
+  "type": "place",
+  "title": "Jai Vilas Mahal",
+  "description": "Building in Gwalior, India",
+  "extract": "The Jai Vilas Palace is a nineteenth-century palace in Gwalior, India. It was built in 1874 by Jayajirao Scindia, the Maharaja of Gwalior in the British Raj. While the major part of the palace is now the \"Jiwajirao Scindia Museum\" which opened to the public in 1964, a part of it is still the residence of some of his descendants.",
+  "url": "https://en.wikipedia.org/wiki/Jai_Vilas_Mahal",
+  "qid": "Q6123487",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Jai_Vilas_Palace_%28_Scindia_Palace%29.jpg/330px-Jai_Vilas_Palace_%28_Scindia_Palace%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Jai_Vilas_Palace_%28_Scindia_Palace%29.jpg/3840px-Jai_Vilas_Palace_%28_Scindia_Palace%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 26.2047,
+   "lon": 78.1686
+  },
+  "aliases": [
+   "Jai Vilas Mahal",
+   "Jai Vilas Palace"
+  ],
+  "labels": {
+   "hi": "जयविलास महल, ग्वालियर"
+  },
+  "mrUrl": null,
+  "dates": {
+   "founded": {
+    "value": "1874",
+    "precision": "year"
+   }
+  }
+ },
+ "madhya-bharat": {
+  "id": "madhya-bharat",
+  "type": "polity",
+  "title": "Madhya Bharat",
+  "description": "Former state of India (1947–1957)",
+  "extract": "Madhya Bharat, also known as Malwa Union, was an Indian state in west-central India, created on 28 May 1948 from twenty-five princely states which until 1947 had been part of the Central India Agency, with Jiwajirao Scindia as its Rajpramukh.",
+  "url": "https://en.wikipedia.org/wiki/Madhya_Bharat",
+  "qid": "Q1308627",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Madhya_Bharat_in_India_%281951%29.svg/330px-Madhya_Bharat_in_India_%281951%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Madhya_Bharat_in_India_%281951%29.svg/1280px-Madhya_Bharat_in_India_%281951%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 26.22,
+   "lon": 78.17
+  },
+  "aliases": [
+   "Madhya Bharat"
+  ],
+  "labels": {
+   "hi": "मध्य भारत",
+   "mr": "मध्य भारत"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF_%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4_%28%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A5%8D%E0%A4%AF%29",
+  "dates": {
+   "founded": {
+    "value": "1948",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1956",
+    "precision": "year"
+   }
+  }
+ },
+ "male-rao-holkar": {
+  "id": "male-rao-holkar",
+  "type": "person",
+  "title": "Male Rao Holkar",
+  "description": "Maharaja of Indore from 1766 to 1767",
+  "extract": "Male Rao Holkar was the Maharaja of Indore from 1766 until his death in 1767.",
+  "url": "https://en.wikipedia.org/wiki/Male_Rao_Holkar",
+  "qid": "Q11934701",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Male_Rao_Holkar.png/330px-Male_Rao_Holkar.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Male_Rao_Holkar.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Male Rao Holkar",
+   "Male Rao"
+  ],
+  "labels": {
+   "hi": "मालेराव होलकर",
+   "mr": "मालेराव होळकर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A5%87%E0%A4%B0%E0%A4%BE%E0%A4%B5_%E0%A4%B9%E0%A5%8B%E0%A4%B3%E0%A4%95%E0%A4%B0",
+  "dates": {
+   "born": {
+    "value": "1745",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1767-04-05",
+    "precision": "day"
+   }
+  }
+ },
+ "kashi-rao-holkar": {
+  "id": "kashi-rao-holkar",
+  "type": "person",
+  "title": "Kashi Rao Holkar",
+  "description": "Maharaja of Indore from 1797 to 1799",
+  "extract": "Shrimant Sardar Kashi Rao Holkar V Subedar Bahadur, belonging to the Holkar dynasty of the Marathas, was the Maharaja of Indore from 1797 to 1799. He was the eldest son of Shrimant Sardar Tukoji Rao Holkar, from his first wife.",
+  "url": "https://en.wikipedia.org/wiki/Kashi_Rao_Holkar",
+  "qid": "Q13641070",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Kashi_Rao_Holkar.png/330px-Kashi_Rao_Holkar.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Kashi_Rao_Holkar.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Kashi Rao Holkar",
+   "Kashi Rao"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1767-04",
+    "precision": "month"
+   },
+   "died": {
+    "value": "1808",
+    "precision": "year"
+   }
+  }
+ },
+ "hari-rao-holkar": {
+  "id": "hari-rao-holkar",
+  "type": "person",
+  "title": "Hari Rao Holkar",
+  "description": "Maharaja of Indore from 1834 to 1843",
+  "extract": "Hari Rao Holkar (1795–1843), formally Maharajadhiraj Raj Rajeshwar Sawai Shri Hari Rao Holkar IX Bahadur, belonging to the Holkar dynasty of the Marathas was Maharaja Holkar of Indore from 17 April 1834 until his death at the Juna Rajwada Palace in Indore on 24 October 1843. He was the grandson of Tukoji Rao Holkar.",
+  "url": "https://en.wikipedia.org/wiki/Hari_Rao_Holkar",
+  "qid": "Q13635651",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Hari_Rao_Holkar.png/330px-Hari_Rao_Holkar.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Hari_Rao_Holkar.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Hari Rao Holkar"
+  ],
+  "labels": {
+   "mr": "हरिराव होळकर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B9%E0%A4%B0%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%B5_%E0%A4%B9%E0%A5%8B%E0%A4%B3%E0%A4%95%E0%A4%B0",
+  "dates": {
+   "born": {
+    "value": "1795",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1843-10-24",
+    "precision": "day"
+   }
+  }
+ },
+ "khande-rao-holkar-ii": {
+  "id": "khande-rao-holkar-ii",
+  "type": "person",
+  "title": "Khande Rao Holkar II",
+  "description": "Maharaja of Indore from 1843 to 1844",
+  "extract": "H.H.Maharajadhiraj Raj Rajeshwar Sawai Shri Khande Rao II Holkar X Bahadur, belonging to the Holkar dynasty of the Marathas was Maharaja of Indore. He was born at Jotsikhera in 1828, as the eldest son of Shrimant Sardar Bapuji Rao Holkar of Jotsikhera.",
+  "url": "https://en.wikipedia.org/wiki/Khande_Rao_Holkar_II",
+  "qid": "Q13641304",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Khande_Rao_Holkar_II.png/330px-Khande_Rao_Holkar_II.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Khande_Rao_Holkar_II.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Khande Rao Holkar II"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1828",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1844-03-17",
+    "precision": "day"
+   }
+  }
+ },
+ "tukojirao-holkar-ii": {
+  "id": "tukojirao-holkar-ii",
+  "type": "person",
+  "title": "Tukojirao Holkar II",
+  "description": "Maharaja of Indore from 1844 to 1886",
+  "extract": "Maharajadhiraj Raj Rajeshwar Sawai Shri Sir Tukoji Rao II Holkar XI Bahadur was the Maharaja of Indore and a member of the Maratha Holkar dynasty in the Indian subcontinent. His birth name was Shrimant Yukaji Jaswant Holkar. He was the son of Raja Shrimant Santoji Rao Holkar, from the collateral branch of the Holkar dynasty.",
+  "url": "https://en.wikipedia.org/wiki/Tukojirao_Holkar_II",
+  "qid": "Q7851859",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/His_Highness_the_Maharajah_Holkar_of_Indore_Central_India.jpg/330px-His_Highness_the_Maharajah_Holkar_of_Indore_Central_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/His_Highness_the_Maharajah_Holkar_of_Indore_Central_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Tukojirao Holkar II",
+   "Tukojirao II"
+  ],
+  "labels": {
+   "hi": "तुकोजीराव होलकर द्वितीय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1835-05-03",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1886-06-17",
+    "precision": "day"
+   }
+  }
+ },
+ "shivajirao-holkar": {
+  "id": "shivajirao-holkar",
+  "type": "person",
+  "title": "Shivajirao Holkar",
+  "description": "Maharaja of Indore from 1886 to 1903",
+  "extract": "Maharajadhiraja Raj Rajeshwar Sawai Shri Sir Shivaji Rao Holkar Bahadur XII was the Maharaja of Indore in British India from 1886 until he abdicated in 1903. He belonged to the Holkar dynasty of the Marathas.",
+  "url": "https://en.wikipedia.org/wiki/Shivajirao_Holkar",
+  "qid": "Q7499298",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/Shivajirao_Holkar_1859_1908.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Shivajirao_Holkar_1859_1908.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shivajirao Holkar"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1859-11-11",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1908-10-13",
+    "precision": "day"
+   }
+  }
+ },
+ "tukojirao-holkar-iii": {
+  "id": "tukojirao-holkar-iii",
+  "type": "person",
+  "title": "Tukojirao Holkar III",
+  "description": "Maharaja of Indore from 1903 to 1926",
+  "extract": "Maharajadhiraj Sir Raj Rajeshwar Sawai Shri Tukojirao III Holkar XIII Bahadur was the Maharaja of the Princely Indore State in central India between 1903 and 1926.",
+  "url": "https://en.wikipedia.org/wiki/Tukojirao_Holkar_III",
+  "qid": "Q7851860",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Tukojirao_III_Maharaja_Holkar_of_Indore.jpg/330px-Tukojirao_III_Maharaja_Holkar_of_Indore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Tukojirao_III_Maharaja_Holkar_of_Indore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Tukojirao Holkar III",
+   "Tukojirao III"
+  ],
+  "labels": {
+   "hi": "तुकोजीराव होलकर तृतीय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1890-11-26",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1978-05-21",
+    "precision": "day"
+   }
+  }
+ },
+ "yashwant-rao-holkar-ii": {
+  "id": "yashwant-rao-holkar-ii",
+  "type": "person",
+  "title": "Yashwant Rao Holkar II",
+  "description": "Maharaja of Indore from 1926 to 1948",
+  "extract": "Maharajadhiraj Raj Rajeshwar Sawai Yeshwant Rao II Holkar XIV Bahadur was the Maharaja of Indore belonging to the Holkar dynasty of the Marathas. With his first wife, Sanyogita Bai Sahib Holkar of Indore, he became known for a life of elegance and extravagance in the 1920s and 30s.",
+  "url": "https://en.wikipedia.org/wiki/Yashwant_Rao_Holkar_II",
+  "qid": "Q3572217",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Investiture_of_his_Highness_Maharaja_Yeshwant_Rao_Holkar_Bahadur_of_Indore_9th_May_1930.jpg/330px-Investiture_of_his_Highness_Maharaja_Yeshwant_Rao_Holkar_Bahadur_of_Indore_9th_May_1930.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Investiture_of_his_Highness_Maharaja_Yeshwant_Rao_Holkar_Bahadur_of_Indore_9th_May_1930.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Yashwant Rao Holkar II"
+  ],
+  "labels": {
+   "hi": "यशवंतराव होलकर द्वितीय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1908-09-06",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1961-12-05",
+    "precision": "day"
+   }
+  }
+ },
+ "maheshwar": {
+  "id": "maheshwar",
+  "type": "place",
+  "title": "Maheshwar",
+  "description": "Town in Madhya Pradesh, India",
+  "extract": "Maheshwar is a town in Khargone district of Madhya Pradesh state, in central India. It is located on State Highway-38 ,13.5 km east of National Highway 3 and 91 km from Indore, the commercial capital of the state. The town lies on the northern bank of the Narmada River. It was the kingdom of Kartavirya Arjuna a Heheya king. Centuries later, it served as the capital of the Malwa during the Maratha Holkar reign until 6 January 1818, when Malhar Rao Holkar III shifted the capital to Indore.",
+  "url": "https://en.wikipedia.org/wiki/Maheshwar",
+  "qid": "Q1023674",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Maheshwar_fort.JPG/330px-Maheshwar_fort.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Maheshwar_fort.JPG/3840px-Maheshwar_fort.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 22.11,
+   "lon": 75.35
+  },
+  "aliases": [
+   "Maheshwar"
+  ],
+  "labels": {
+   "hi": "महेश्वर",
+   "mr": "महेश्वर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0_%28%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A5%87%E0%A4%B6%29",
+  "dates": {}
+ },
+ "kashi-vishwanath": {
+  "id": "kashi-vishwanath",
+  "type": "place",
+  "title": "Kashi Vishwanath Temple",
+  "description": "Hindu temple in Varanasi, Uttar Pradesh, India",
+  "extract": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva. It is located in Vishwanath Gali, in Varanasi, Uttar Pradesh, India. The temple is a Hindu pilgrimage site and is one of the twelve Jyotirlinga shrines. The presiding deity is known by the names Vishwanath and Vishweshwara, meaning Lord of the Universe.",
+  "url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple",
+  "qid": "Q3675",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Kashi_Vishwanath.jpg/330px-Kashi_Vishwanath.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kashi_Vishwanath.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 25.310775,
+   "lon": 83.01061389
+  },
+  "aliases": [
+   "Kashi Vishwanath Temple",
+   "Kashi Vishwanath"
+  ],
+  "labels": {
+   "hi": "काशी विश्वनाथ मन्दिर",
+   "mr": "काशी विश्वेश्वर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A5%80_%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%A8%E0%A4%BE%E0%A4%A5_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0",
+  "dates": {}
+ },
+ "rajwada": {
+  "id": "rajwada",
+  "type": "place",
+  "title": "Rajwada",
+  "description": "Historic building in Indore, India",
+  "extract": "Rajwada, also known as the Holkar Palace or Old Palace, is a historical palace in Indore that was constructed by the Holkars of the Maratha empire around 2 centuries ago. An example of the architecture of the time, the palace is a 7-story structure that is placed near the Krishnapura Chhatri. The structure has gained the attention of tourists due to its size and age.",
+  "url": "https://en.wikipedia.org/wiki/Rajwada",
+  "qid": "Q7286493",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Indore_Rajwada01.jpg/330px-Indore_Rajwada01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Indore_Rajwada01.jpg/3840px-Indore_Rajwada01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 22.7184,
+   "lon": 75.8552
+  },
+  "aliases": [
+   "Rajwada"
+  ],
+  "labels": {
+   "hi": "राजवाड़ा, इंदौर"
+  },
+  "mrUrl": null,
+  "dates": {
+   "founded": {
+    "value": "1766",
+    "precision": "year"
+   }
+  }
+ },
+ "sayajirao-i": {
+  "id": "sayajirao-i",
+  "type": "person",
+  "title": "Sayajirao Gaekwad I",
+  "description": "Maharaja of Baroda from 1768 to 1778",
+  "extract": "Sayaji Rao Gaekwad was the Maharaja of Baroda from 1768 to 1778. He was the eldest son of Damaji Rao Gaekwad.",
+  "url": "https://en.wikipedia.org/wiki/Sayajirao_Gaekwad_I",
+  "qid": "Q16859306",
+  "aliases": [
+   "Sayajirao Gaekwad I",
+   "Sayajirao I"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "died": {
+    "value": "1792",
+    "precision": "year"
+   }
+  }
+ },
+ "sayajirao-ii": {
+  "id": "sayajirao-ii",
+  "type": "person",
+  "title": "Sayajirao Gaekwad II",
+  "description": "Maharaja of Baroda from 1819 to 1847",
+  "extract": "Sayaji Rao Gaekwad II was the eight Maharaja of Baroda State reigning from 1819 to 1847. He became Maharaja of Baroda after the death of Anand Rao Gaekwad. He was the third son of Govind Rao Gaekwad.",
+  "url": "https://en.wikipedia.org/wiki/Sayajirao_Gaekwad_II",
+  "qid": "Q16198665",
+  "aliases": [
+   "Sayajirao Gaekwad II",
+   "Sayajirao II"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1800-05-03",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1847-12-28",
+    "precision": "day"
+   }
+  }
+ },
+ "sayajirao-iii": {
+  "id": "sayajirao-iii",
+  "type": "person",
+  "title": "Sayajirao Gaekwad III",
+  "description": "Maharaja of Baroda from 1875 to 1939",
+  "extract": "Sayajirao Gaekwad III was the Maharaja of Baroda State from 1875 to 1939, and is remembered for reforming much of his state during his rule. He belonged to the royal Gaekwad dynasty of the Marathas which ruled parts of present-day Gujarat.",
+  "url": "https://en.wikipedia.org/wiki/Sayajirao_Gaekwad_III",
+  "qid": "Q2639585",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Sayajirao_Gaekwad_III%2C_Maharaja_of_Baroda%2C_1919.jpg/330px-Sayajirao_Gaekwad_III%2C_Maharaja_of_Baroda%2C_1919.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sayajirao_Gaekwad_III%2C_Maharaja_of_Baroda%2C_1919.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Sayajirao Gaekwad III",
+   "Sayajirao III"
+  ],
+  "labels": {
+   "mr": "तिसरे सयाजीराव गायकवाड",
+   "hi": "सयाजीराव गायकवाड़ तृतीय"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%AF%E0%A4%BE%E0%A4%9C%E0%A5%80%E0%A4%B0%E0%A4%BE%E0%A4%B5_%E0%A4%97%E0%A4%BE%E0%A4%AF%E0%A4%95%E0%A4%B5%E0%A4%BE%E0%A4%A1_%E0%A4%A4%E0%A5%83%E0%A4%A4%E0%A5%80%E0%A4%AF",
+  "dates": {
+   "born": {
+    "value": "1863-03-31",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1939-02-06",
+    "precision": "day"
+   }
+  }
+ },
+ "khanderao-gaekwad": {
+  "id": "khanderao-gaekwad",
+  "type": "person",
+  "title": "Khanderao Gaekwad",
+  "description": "Maharaja of Baroda from 1856 to 1870",
+  "extract": "Shrimant Maharaja Sir Khanderao II Gaekwad, Sena Khas Khel Shamsher Bahadur, GCSI (1828–1870) was the Maharaja of Baroda State from 1856 to 1870.",
+  "url": "https://en.wikipedia.org/wiki/Khanderao_II_Gaekwad",
+  "qid": "Q16065655",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Khande_Rao_Gaekwad.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Khande_Rao_Gaekwad.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Khanderao Gaekwad"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1828",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1870",
+    "precision": "year"
+   }
+  }
+ },
+ "lakshmi-vilas": {
+  "id": "lakshmi-vilas",
+  "type": "place",
+  "title": "Lakshmi Vilas Palace",
+  "description": "Palace in Gujarat, India",
+  "extract": "Lakshmi Vilas Palace is a historic palace and royal residence located in Vadodara, Gujarat, India. The palace was commissioned in 1878 by Sayajirao Gaekwad III, the ruler of Baroda State, and constructed in 1890 by British architects Charles Mant and Robert Chisholm. The royal family lived in the Maharaja Palace and the Nazarbaug Palace, before taking up residence in the Lakshmi Villas Palace. Named after Sayajirao's first wife Lakshmibai, it served as the royal residence of the Gaekwad dynasty, a Maratha family which ruled the princely state of Baroda until its accession to the Dominion of India in 1947. With a complex spanning over 500 acres, the palace is the world's largest private residence, and is a prominent example of Indo-Saracenic architecture, combining elements from Indo-Islamic and Renaissance architectural styles.",
+  "url": "https://en.wikipedia.org/wiki/Lakshmi_Vilas_Palace%2C_Vadodara",
+  "qid": "Q3360979",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Lakshmi_Vilas_Palace%2C_Vadodara.jpg/330px-Lakshmi_Vilas_Palace%2C_Vadodara.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Lakshmi_Vilas_Palace%2C_Vadodara.jpg/3840px-Lakshmi_Vilas_Palace%2C_Vadodara.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 22.2939,
+   "lon": 73.1914
+  },
+  "aliases": [
+   "Lakshmi Vilas Palace"
+  ],
+  "labels": {
+   "hi": "लक्ष्मी विलास महल",
+   "mr": "लक्ष्मीविलास पॅलेस"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AE%E0%A5%80%E0%A4%B5%E0%A4%BF%E0%A4%B2%E0%A4%BE%E0%A4%B8_%E0%A4%AA%E0%A5%85%E0%A4%B2%E0%A5%87%E0%A4%B8",
+  "dates": {
+   "founded": {
+    "value": "1890",
+    "precision": "year"
+   }
+  }
+ },
+ "ambedkar": {
+  "id": "ambedkar",
+  "type": "person",
+  "title": "B. R. Ambedkar",
+  "description": "Indian jurist, economist, politician and social reformer (1891–1956)",
+  "extract": "Bhimrao Ramji Ambedkar was an Indian jurist, economist, social reformer and politician who chaired the committee that drafted the Constitution of India based on the debates of the Constituent Assembly of India and the first draft of Sir Benegal Narsing Rau. Ambedkar served as Law and Justice minister in the first cabinet of Jawaharlal Nehru. He later renounced Hinduism and converted to Buddhism, inspiring the Dalit Buddhist movement.",
+  "url": "https://en.wikipedia.org/wiki/B._R._Ambedkar",
+  "qid": "Q231690",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dr._Bhimrao_Ambedkar.jpg/330px-Dr._Bhimrao_Ambedkar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Dr._Bhimrao_Ambedkar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "B. R. Ambedkar",
+   "Ambedkar"
+  ],
+  "labels": {
+   "hi": "भीमराव आम्बेडकर",
+   "mr": "बाबासाहेब आंबेडकर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%B9%E0%A5%87%E0%A4%AC_%E0%A4%86%E0%A4%82%E0%A4%AC%E0%A5%87%E0%A4%A1%E0%A4%95%E0%A4%B0",
+  "dates": {
+   "born": {
+    "value": "1891-04-14",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1956-12-06",
+    "precision": "day"
+   }
+  }
+ },
+ "songadh": {
+  "id": "songadh",
+  "type": "place",
+  "title": "Songadh",
+  "description": "City in Gujarat, India",
+  "extract": "Songadh is a taluka in Tapi district in the Indian state of Gujarat.",
+  "url": "https://en.wikipedia.org/wiki/Songadh",
+  "qid": "Q2734240",
+  "coords": {
+   "lat": 21.167,
+   "lon": 73.564
+  },
+  "aliases": [
+   "Songadh"
+  ],
+  "labels": {
+   "hi": "सोनगढ़"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "dakor": {
+  "id": "dakor",
+  "type": "place",
+  "title": "Dakor",
+  "description": "City in Gujarat, India",
+  "extract": "Dakor is a small city and a municipality in Kheda district in the state of Gujarat, India. It is prominent for its temple of Raṇchoḍrāyjī.",
+  "url": "https://en.wikipedia.org/wiki/Dakor",
+  "qid": "Q1192377",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Dakore_temple_-_By_Ashesh_Shah.jpg/330px-Dakore_temple_-_By_Ashesh_Shah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Dakore_temple_-_By_Ashesh_Shah.jpg/3840px-Dakore_temple_-_By_Ashesh_Shah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 22.75,
+   "lon": 73.15
+  },
+  "aliases": [
+   "Dakor"
+  ],
+  "labels": {
+   "hi": "डाकोर"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "bombay-state": {
+  "id": "bombay-state",
+  "type": "polity",
+  "title": "Bombay State",
+  "description": "Former state of India",
+  "extract": "Bombay State was a large Indian state created in 1950 from the erstwhile Bombay Province, with other regions being added to it in the succeeding years. Bombay Province was merged with the princely states of Baroda, Western India and Gujarat and the Deccan States.",
+  "url": "https://en.wikipedia.org/wiki/Bombay_State",
+  "qid": "Q2627082",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bombay_in_India_%281951%29.svg/330px-Bombay_in_India_%281951%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bombay_in_India_%281951%29.svg/1280px-Bombay_in_India_%281951%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 18.975,
+   "lon": 72.82583333
+  },
+  "aliases": [
+   "Bombay State"
+  ],
+  "labels": {
+   "hi": "बॉम्बे राज्य",
+   "mr": "मुंबई राज्य"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A5%89%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A5%87_%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8",
+  "dates": {
+   "founded": {
+    "value": "1947-08-15",
+    "precision": "day"
+   },
+   "dissolved": {
+    "value": "1960-05-01",
+    "precision": "day"
+   }
+  }
+ },
+ "janoji-bhonsle": {
+  "id": "janoji-bhonsle",
+  "type": "person",
+  "title": "Janoji Bhonsle",
+  "description": "Raja of Nagpur from 1755 to 1772",
+  "extract": "Janoji I was the second Maharaja of Nagpur from the Bhonsle dynasty. He was one of the four legitimate sons of Raghuji I. Following a succession dispute with his brothers, Janoji ascended the throne in 1755, succeeding his father as the ruler of Nagpur. He also participated in the conflict between Peshwa Madhavrao and the Nizam of Hyderabad, aligning himself with Raghunathrao. In 1765, both Madhavrao and Raghunathrao later turned against him and jointly sacked and burned the city of Nagpur. Janoji eventually agreed to pay tribute to Madhavrao. He died in 1772 without leaving an heir and was succeeded by his brother, Mudhoji I.",
+  "url": "https://en.wikipedia.org/wiki/Janoji_of_Nagpur",
+  "qid": "Q124791396",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Janoji_Bhosale%2C_Sena_Saheb_Subha%2C_1756-72.jpg/330px-Janoji_Bhosale%2C_Sena_Saheb_Subha%2C_1756-72.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Janoji_Bhosale%2C_Sena_Saheb_Subha%2C_1756-72.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Janoji Bhonsle",
+   "Janoji"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "died": {
+    "value": "1772-05-21",
+    "precision": "day"
+   }
+  }
+ },
+ "mudhoji-i": {
+  "id": "mudhoji-i",
+  "type": "person",
+  "title": "Mudhoji I Bhonsle",
+  "description": "Raja of Nagpur from 1772 to 1788",
+  "extract": "Mudhoji I was the ruler of the Nagpur kingdom from 1772 to 1788. During his regency the Maratha kingdom remained peaceful and prospered.",
+  "url": "https://en.wikipedia.org/wiki/Mudhoji_I",
+  "qid": "Q20101253",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Raja_Mudhoji_Bhonsle_of_Chandrapur.jpg/330px-Raja_Mudhoji_Bhonsle_of_Chandrapur.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Raja_Mudhoji_Bhonsle_of_Chandrapur.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Mudhoji I",
+   "Mudhoji"
+  ],
+  "labels": {
+   "mr": "मुधोजी भोसले"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%A7%E0%A5%8B%E0%A4%9C%E0%A5%80_%E0%A4%AD%E0%A5%8B%E0%A4%B8%E0%A4%B2%E0%A5%87",
+  "dates": {
+   "died": {
+    "value": "1788-05-19",
+    "precision": "day"
+   }
+  }
+ },
+ "raghoji-ii": {
+  "id": "raghoji-ii",
+  "type": "person",
+  "title": "Raghuji II Bhonsle",
+  "description": "Raja of Nagpur from 1788 to 1816",
+  "extract": "Raghuji II, or Raghuji was the Maratha ruler of the Kingdom of Nagpur in Central India from 1788 to 1816.",
+  "url": "https://en.wikipedia.org/wiki/Raghoji_II_of_Nagpur",
+  "qid": "Q7282977",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raghuji_Bhonsle_II_and_his_courtiers.jpg/330px-Raghuji_Bhonsle_II_and_his_courtiers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Raghuji_Bhonsle_II_and_his_courtiers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Raghuji II"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "died": {
+    "value": "1816-03-22",
+    "precision": "day"
+   }
+  }
+ },
+ "raghuji-iii": {
+  "id": "raghuji-iii",
+  "type": "person",
+  "title": "Raghuji III Bhonsle",
+  "description": "Raja of Nagpur from 1818 to 1853",
+  "extract": "Raghuji III or Raghuji, was the Maratha ruler of the Principal States of Nagpur in Central India from 1818 to 1853.",
+  "url": "https://en.wikipedia.org/wiki/Raghuji_III",
+  "qid": "Q11944485",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Raghuji_Bhosale_III.jpg/330px-Raghuji_Bhosale_III.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Raghuji_Bhosale_III.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Raghuji III"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1808",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1853-12-11",
+    "precision": "day"
+   }
+  }
+ },
+ "cuttack": {
+  "id": "cuttack",
+  "type": "place",
+  "title": "Cuttack",
+  "description": "City in Odisha, India",
+  "extract": "Cuttack, is the second largest city and the former capital of the Indian state of Odisha. It is also the headquarters of the Cuttack district. The name of the city is derived from the Odia and Sanskrit name Kataka, which literally means the fort, a reference to the ancient Barabati Fort around which the city initially developed. The Government of Odisha approved the restoration of the native spelling to reflect authentic Odia phonetics. Cuttack is known as the Millennium City as well as the Silver City due to its history of 1,000 years and famous silver filigree works respectively. The Orissa High Court and some other Odisha State Govt. offices are located there, and the city is the judicial capital of Odisha.",
+  "url": "https://en.wikipedia.org/wiki/Cuttack",
+  "qid": "Q207324",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2-barabati-stadium-cuttack-odisha-city-hero.jpg/330px-2-barabati-stadium-cuttack-odisha-city-hero.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2-barabati-stadium-cuttack-odisha-city-hero.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 20.52361111,
+   "lon": 85.78805556
+  },
+  "aliases": [
+   "Cuttack"
+  ],
+  "labels": {
+   "hi": "कटक",
+   "mr": "कटक"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%9F%E0%A4%95",
+  "dates": {}
+ },
+ "central-provinces": {
+  "id": "central-provinces",
+  "type": "polity",
+  "title": "Central Provinces",
+  "description": "Province of British India",
+  "extract": "The Central Provinces was a province of British India. It comprised British conquests from the Marathas in central India, and covered parts of present-day Madhya Pradesh, Chhattisgarh and Maharashtra states. Nagpur was the primary winter capital while Pachmarhi served as the regular summer retreat. It became the Central Provinces and Berar in 1903.",
+  "url": "https://en.wikipedia.org/wiki/Central_Provinces",
+  "qid": "Q521864",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/British_Raj_Red_Ensign.svg/330px-British_Raj_Red_Ensign.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/British_Raj_Red_Ensign.svg/960px-British_Raj_Red_Ensign.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 21.15,
+   "lon": 79.09
+  },
+  "aliases": [
+   "Central Provinces"
+  ],
+  "labels": {
+   "hi": "सेन्ट्रल प्रोविंस एंड बेरार"
+  },
+  "mrUrl": null,
+  "dates": {
+   "founded": {
+    "value": "1861",
+    "precision": "year"
+   }
+  }
+ },
+ "shahu-kolhapur": {
+  "id": "shahu-kolhapur",
+  "type": "person",
+  "title": "Rajarshi Shahu of Kolhapur",
+  "description": "Indian ruler and social reformer (1894 to 1922)",
+  "extract": "Shahu Maharaj, also known as Chhatrapati Rajarshi Shahu or Shahu IV, was the ruler of the princely state of Kolhapur in British India from 1894 to 1922. Born Yeshwantrao Ghatge into the Ghatge Maratha family of Kagal, he was adopted by the Kolhapur royal family on 17 March 1884 following the death of the childless Raja Shivaji IV. He received his education at Rajkumar College in Rajkot and was tutored in administrative affairs by Sir Stuart Fraser before ascending to the throne on 2 April 1894.",
+  "url": "https://en.wikipedia.org/wiki/Shahu_of_Kolhapur",
+  "qid": "Q7461433",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Maharajah_of_Kolhapur_1912.jpg/330px-Maharajah_of_Kolhapur_1912.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Maharajah_of_Kolhapur_1912.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Rajarshi Shahu",
+   "Shahu Maharaj"
+  ],
+  "labels": {
+   "mr": "चौथा शाहू",
+   "hi": "कोल्हापुर के शाहू चौथे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BE%E0%A4%B9%E0%A5%82_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%9C",
+  "dates": {
+   "born": {
+    "value": "1874-06-26",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1922-05-06",
+    "precision": "day"
+   }
+  }
+ },
+ "shivaji-ii-kolhapur": {
+  "id": "shivaji-ii-kolhapur",
+  "type": "person",
+  "title": "Shivaji II of Kolhapur",
+  "description": "Raja of Kolhapur from 1762 to 1813",
+  "extract": "Shivaji II of Kolhapur was a Raja of Kolhapur from 22 September 1762 until his death on 24 April 1813, belonging to the Bhonsle dynasty.",
+  "url": "https://en.wikipedia.org/wiki/Shivaji_II_of_Kolhapur",
+  "qid": "Q7499282",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Idol_of_Shivaji_II_of_Kolhapur.jpg/330px-Idol_of_Shivaji_II_of_Kolhapur.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Idol_of_Shivaji_II_of_Kolhapur.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shivaji II of Kolhapur"
+  ],
+  "labels": {
+   "mr": "करवीर छत्रपती दुसरे शिवाजी महाराज",
+   "hi": "कोल्हापुर के शिवाजी द्वितीय"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%9C%E0%A5%80_%E0%A4%A4%E0%A5%83%E0%A4%A4%E0%A5%80%E0%A4%AF",
+  "dates": {
+   "born": {
+    "value": "1756",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1813-04-24",
+    "precision": "day"
+   }
+  }
+ },
+ "mangaon": {
+  "id": "mangaon",
+  "type": "place",
+  "title": "Mangaon",
+  "description": "Sub District Town in Maharashtra, India",
+  "extract": "Mangaon is a Village and tehsil (council) in the Konkan Division, India. It is located in the Raigad district, 80 km (49.7 mi) from Alibaug headquarters, and 139 km (86.4 mi) from the capital city of Bombay (Mumbai). The area is located towards the Panjim side of Goa.",
+  "url": "https://en.wikipedia.org/wiki/Mangaon",
+  "qid": "Q6748809",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mangaon%2C_n%C3%A1dra%C5%BE%C3%AD.jpg/330px-Mangaon%2C_n%C3%A1dra%C5%BE%C3%AD.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mangaon%2C_n%C3%A1dra%C5%BE%C3%AD.jpg/3840px-Mangaon%2C_n%C3%A1dra%C5%BE%C3%AD.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 18.23333333,
+   "lon": 73.28333333
+  },
+  "aliases": [
+   "Mangaon"
+  ],
+  "labels": {
+   "mr": "माणगाव",
+   "hi": "माणगाँव"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%97%E0%A4%BE%E0%A4%B5",
+  "dates": {
+   "founded": {
+    "value": "2015",
+    "precision": "year"
+   }
+  }
+ },
+ "satyashodhak": {
+  "id": "satyashodhak",
+  "type": "concept",
+  "title": "Satyashodhak Samaj",
+  "description": "Social reform movement in India, 1873–1930s",
+  "extract": "Satyashodhak Samaj was a social reform society founded by Jyotiba Phule in Pune, Maharashtra, on 24 September 1873. The society endeavoured to mitigate the distress and sufferings of Dalits and women. It espoused a mission of education and increased social rights and political access for underprivileged groups, focused especially on women, peasants, and Dalits, in Maharashtra. Jyotirao's wife Savitribai was the head of women's section of the society. The Samaj disbanded during the 1930s as leaders left to join the Indian National Congress party.",
+  "url": "https://en.wikipedia.org/wiki/Satyashodhak_Samaj",
+  "qid": "Q4122129",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mphule.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mphule.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Satyashodhak Samaj"
+  ],
+  "labels": {
+   "hi": "सत्यशोधक समाज",
+   "mr": "सत्यशोधक समाज"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%95_%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%9C",
+  "dates": {}
+ },
+ "phule": {
+  "id": "phule",
+  "type": "person",
+  "title": "Jyotirao Phule",
+  "description": "Indian social activist and reformer (1827–1890)",
+  "extract": "Jyotirao Phule, also known as Jyotiba Phule, was an Indian social activist, businessman, anti-caste social reformer and writer from Maharashtra.",
+  "url": "https://en.wikipedia.org/wiki/Jyotirao_Phule",
+  "qid": "Q314394",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mahatma_Jotirao_Phule.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mahatma_Jotirao_Phule.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Jyotirao Phule",
+   "Phule"
+  ],
+  "labels": {
+   "hi": "ज्योतिराव गोविंदराव फुले",
+   "mr": "ज्योतिराव फुले"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%BE_%E0%A4%AB%E0%A5%81%E0%A4%B2%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1827-04-11",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1890-11-28",
+    "precision": "day"
+   }
+  }
+ },
+ "shahuji-i": {
+  "id": "shahuji-i",
+  "type": "person",
+  "title": "Shahuji I of Thanjavur",
+  "description": "Raja of Thanjavur Maratha kingdom from 1684–1712",
+  "extract": "Shahuji I (b.1672) also called Shahji of the Bhonsle dynasty was the second Maratha ruler of Thanjavur. He was the eldest son of Ekoji I, who was a half brother of Shivaji, the first Maratha ruler of Thanjavur. He reigned from 1684 to 1712.",
+  "url": "https://en.wikipedia.org/wiki/Shahuji_I",
+  "qid": "Q3959020",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Shahaji_of_Tanjore.jpg/330px-Shahaji_of_Tanjore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Shahaji_of_Tanjore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shahuji I"
+  ],
+  "labels": {
+   "hi": "शाहुजी प्रथम"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1672",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1712",
+    "precision": "year"
+   }
+  }
+ },
+ "serfoji-i": {
+  "id": "serfoji-i",
+  "type": "person",
+  "title": "Serfoji I",
+  "description": "Raja of Thanjavur Maratha kingdom from 1712–1728",
+  "extract": "Serfoji I (1675–1728), also spelt as Sarabhoji I Bhonsle, was the son of the Maratha ruler of Thanjavur Ekoji I and the Raja of Thanjavur from 1712 to 1728. He was the third Raja of the Bhonsle dynasty of Thanjavur. He consolidated the hold of Marathas over Thanjavur and patronised arts and literature.",
+  "url": "https://en.wikipedia.org/wiki/Serfoji_I",
+  "qid": "Q7453269",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Serfoji_I.jpg/330px-Serfoji_I.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Serfoji_I.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Serfoji I"
+  ],
+  "labels": {
+   "hi": "सर्फ़ोजी प्रथम"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1675",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1728",
+    "precision": "year"
+   }
+  }
+ },
+ "tukkoji": {
+  "id": "tukkoji",
+  "type": "person",
+  "title": "Tukkoji",
+  "description": "Raja of Thanjavur Maratha kingdom from 1728–1736",
+  "extract": "Tukkoji Bhonsle (1677–1736) was the fourth Maratha ruler of Thanjavur, located in South India. He was from the Bhonsle dynasty and was the son of Ekoji I as well as the younger brother of Shahuji I and Serfoji I. Tukkoji ruled Thanjavur from 1728 to 1736.",
+  "url": "https://en.wikipedia.org/wiki/Tukkoji",
+  "qid": "Q7851849",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Tukoji_Raje_Bhosale.jpg/330px-Tukoji_Raje_Bhosale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Tukoji_Raje_Bhosale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Tukkoji"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1677",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1736",
+    "precision": "year"
+   }
+  }
+ },
+ "pratap-singh-thanjavur": {
+  "id": "pratap-singh-thanjavur",
+  "type": "person",
+  "title": "Pratap Singh of Thanjavur",
+  "description": "Raja of Thanjavur Maratha kingdom from 1739–1763",
+  "extract": "Pratap Singh Bhonsle or Pratapsinha was the Maratha ruler of Thanjavur of the Bhonsle dynasty from 1739 to 1763. His rise to power followed three years of anarchy and civil war and restored the state to its previous greatness. His reign witnessed the Carnatic Wars and the Seven Years' War.",
+  "url": "https://en.wikipedia.org/wiki/Pratap_Singh_of_Thanjavur",
+  "qid": "Q7238606",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Pratapsinha_Raje_Bhosale.jpg/330px-Pratapsinha_Raje_Bhosale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pratapsinha_Raje_Bhosale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Pratap Singh"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1695",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1763-12-16",
+    "precision": "day"
+   }
+  }
+ },
+ "thuljaji": {
+  "id": "thuljaji",
+  "type": "person",
+  "title": "Thuljaji",
+  "description": "Raja of Thanjavur Maratha kingdom from 1763–1773 and 1776-1787",
+  "extract": "Thuljaji Bhonsle (1738–1787) was the eldest son of Pratap Singh and the ruler of Thanjavur Bhonsle dynasty from 1763 to 1773 and 1776 to 1787. He was a weak-hearted ruler despite being extremely generous. His period is known for the treaties which made Thanjavur subordinate to the British East India Company.",
+  "url": "https://en.wikipedia.org/wiki/Thuljaji",
+  "qid": "Q7798776",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Tulaji_Raje_Bhosale.jpg/330px-Tulaji_Raje_Bhosale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Tulaji_Raje_Bhosale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Thuljaji"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1738",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1787",
+    "precision": "year"
+   }
+  }
+ },
+ "amar-singh-thanjavur": {
+  "id": "amar-singh-thanjavur",
+  "type": "person",
+  "title": "Amar Singh",
+  "description": "Raja of Thanjavur Maratha kingdom from 1793 to 1798",
+  "extract": "Amar Singh or Ramaswami Amarasimha Bhonsle was the younger son of the Maratha Raja of Thanjavur Pratap Singh and served as the regent soon after the death of his brother Thuljaji II and ruled Thanjavur Maratha Kingdom in the name of Thulaja's minor son Serfoji II from 1787 to 1793.",
+  "url": "https://en.wikipedia.org/wiki/Amar_Singh_of_Thanjavur",
+  "qid": "Q7289086",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/Amar_Singh_of_Thanjavur.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Amar_Singh_of_Thanjavur.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Amar Singh"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1738",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1802-04-19",
+    "precision": "day"
+   }
+  }
+ },
+ "serfoji-ii": {
+  "id": "serfoji-ii",
+  "type": "person",
+  "title": "Serfoji II",
+  "description": "Raja of Thanjavur Maratha kingdom from 1787 to 1793 and 1798-1832",
+  "extract": "Serfoji II, also known as Sarabhoji II Bhonsle, was the last sovereign ruler of the Maratha principality of Thanjavur. He ruled from 1787 to 1793, and again from 1798 until his death in 1832. He was adopted by the previous ruler, Thulaja, and was subsequently nominated as his successor.",
+  "url": "https://en.wikipedia.org/wiki/Serfoji_II",
+  "qid": "Q3033318",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Serfoji_II.jpg/330px-Serfoji_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Serfoji_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Serfoji II"
+  ],
+  "labels": {
+   "mr": "सरफोजी महाराज दुसरे",
+   "hi": "शरभोजी राजे भोसले"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%B0%E0%A4%AB%E0%A5%8B%E0%A4%9C%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%9C_%E0%A4%A6%E0%A5%81%E0%A4%B8%E0%A4%B0%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1777-09-24",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1832-03-07",
+    "precision": "day"
+   }
+  }
+ },
+ "shivaji-thanjavur": {
+  "id": "shivaji-thanjavur",
+  "type": "person",
+  "title": "Shivaji of Thanjavur",
+  "description": "Last ruling Raja of Thanjavur Maratha kingdom from 1832–1855",
+  "extract": "Raja Shivaji of the Bhonsle dynasty of Thanjavur in India, was the son of Raja Serfoji II and ruled the fortress of Thanjavur and its surroundings from 1832 to 1855. He was the last Raja of Thanjavur known to wield any authority.",
+  "url": "https://en.wikipedia.org/wiki/Shivaji_of_Thanjavur",
+  "qid": "Q7499280",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/14/Choladesadhipati_Srimant_Rajasri_Maharaja_Kshatrapati_Sri_Shivaji_Raje_Sahib_Bhonsle_Chhatrapati_Maharaj.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Choladesadhipati_Srimant_Rajasri_Maharaja_Kshatrapati_Sri_Shivaji_Raje_Sahib_Bhonsle_Chhatrapati_Maharaj.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shivaji of Thanjavur"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1832-03-17",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1855-10-29",
+    "precision": "day"
+   }
+  }
+ },
+ "saraswathi-mahal": {
+  "id": "saraswathi-mahal",
+  "type": "place",
+  "title": "Saraswathi Mahal Library",
+  "description": "Library located in Thanjavur (Tanjore), Tamil Nadu, India",
+  "extract": "Saraswathi Mahal Library, also called Thanjavur Maharaja Serfoji's Saraswathi Mahal Library is a library located in Thanjavur (Tanjore), Tamil Nadu, India. It is one of the oldest subsisting libraries in Asia established during 16th century by the Nayak kings of Thanjavur and has on display a rare collection of Palm leaf manuscripts and paper written in Tamil and Sanskrit and a few other indigenous languages of india. The collection comprises well over 49,000 volumes, though only a tiny fraction of these are on display. The library has a complete catalog of holdings, which is being made available online. Some rare holdings can be viewed on site by prior arrangement. Encyclopedia Britannica mentions the library as the \"Most remarkable library of India\".",
+  "url": "https://en.wikipedia.org/wiki/Saraswathi_Mahal_Library",
+  "qid": "Q3135924",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2013-Sarasvati-Mahal-Library-101.JPG/330px-2013-Sarasvati-Mahal-Library-101.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/2013-Sarasvati-Mahal-Library-101.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 10.79138889,
+   "lon": 79.13611111
+  },
+  "aliases": [
+   "Saraswathi Mahal Library",
+   "Saraswathi Mahal"
+  ],
+  "labels": {
+   "hi": "सरस्वती महल ग्रन्थालय",
+   "mr": "सरस्वती महाल ग्रंथालय"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B2_%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%82%E0%A4%A5%E0%A4%BE%E0%A4%B2%E0%A4%AF",
+  "dates": {}
+ },
+ "brihadisvara": {
+  "id": "brihadisvara",
+  "type": "place",
+  "title": "Brihadisvara Temple",
+  "description": "11th-century temple and UNESCO World Heritage Site",
+  "extract": "Brihadisvara Temple, called Rajarajesvaram by its builder, and known locally as Thanjai Periya Kovil and Peruvudaiyar Kovil, is a Shaivite Hindu temple built in a Chola architectural style located on the south bank of the Cauvery river in Thanjavur, Tamil Nadu, India. It is one of the largest Hindu temples and an exemplar of Tamil architecture. It is also called Dakshina Meru. Built by Chola emperor Rajaraja I between 1003 and 1010 CE, the temple is a part of the UNESCO World Heritage Site known as the \"Great Living Chola Temples\", along with the Chola-era Gangaikonda Cholapuram temple and Airavatesvara temple, which are about 70 kilometres (43 mi) and 40 kilometres (25 mi) to its northeast respectively.",
+  "url": "https://en.wikipedia.org/wiki/Brihadisvara_Temple",
+  "qid": "Q916943",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/330px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/3840px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 10.78277778,
+   "lon": 79.13166667
+  },
+  "aliases": [
+   "Brihadisvara Temple",
+   "Brihadeeswarar"
+  ],
+  "labels": {
+   "hi": "बृहदेश्वर मन्दिर",
+   "mr": "बृहदेश्वर मंदिर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A5%83%E0%A4%B9%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0",
+  "dates": {
+   "founded": {
+    "value": "1010",
+    "precision": "year"
+   }
+  }
+ },
+ "schwarz": {
+  "id": "schwarz",
+  "type": "person",
+  "title": "Christian Friedrich Schwarz",
+  "description": "German missionary (1726–1798)",
+  "extract": "Christian Frederick Schwarz was a German Lutheran missionary to India. He was known for his linguistic skills, with knowledge of Latin, Greek, Hebrew, Sanskrit, Tamil, Urdu, Persian, Marathi, and Telugu. He served the British on diplomatic missions, including one to the court of Haider Ali in Mysore. Schwarz also worked alongside the Indian royal families, serving as a tutor to Raja Serfoji of Tanjore, and was influential in establishing Protestant Christianity in southern India.",
+  "url": "https://en.wikipedia.org/wiki/Christian_Friedrich_Schwarz",
+  "qid": "Q4516513",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/C_F_Schwartz_Steuer.jpg/330px-C_F_Schwartz_Steuer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/C_F_Schwartz_Steuer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Christian Friedrich Schwarz",
+   "Schwarz"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1726-10-08",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1798-02-13",
+    "precision": "day"
+   }
+  }
+ },
+ "thanjavur-maratha": {
+  "id": "thanjavur-maratha",
+  "type": "polity",
+  "title": "Thanjavur Maratha kingdom",
+  "description": "Principality in Southern India",
+  "extract": "The Thanjavur Maratha kingdom, ruled by the Bhonsle dynasty, was a South Indian Monarchy that governed the Kaveri delta from 1675 to 1855. It was established by Maratha general Ekoji I, with its capital at Thanjavur. The royal court patronized art and literature, with Thanjavur Marathi developing as the dialect of the administrative elite.",
+  "url": "https://en.wikipedia.org/wiki/Thanjavur_Maratha_kingdom",
+  "qid": "Q3530610",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Map_of_the_Thanjavur_Maratha_kingdom.jpg/330px-Map_of_the_Thanjavur_Maratha_kingdom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Map_of_the_Thanjavur_Maratha_kingdom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Thanjavur Maratha kingdom"
+  ],
+  "labels": {
+   "mr": "तंजावुरचे मराठा राज्य",
+   "hi": "तंजावुर मराठा राज्य"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A4%E0%A4%82%E0%A4%9C%E0%A4%BE%E0%A4%B5%E0%A5%82%E0%A4%B0_%E0%A4%AE%E0%A4%B0%E0%A4%BE%E0%A4%A0%E0%A4%BE_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A5%8D%E0%A4%AF",
+  "dates": {
+   "founded": {
+    "value": "1674",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1855",
+    "precision": "year"
+   }
+  }
  }
 }

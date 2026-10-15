@@ -1,0 +1,399 @@
+{
+ "id": "holkar-indore",
+ "order": 2,
+ "title": "The Holkars of Indore",
+ "subtitle": "From Malharrao and Ahilyabai to the princely state of Indore · 1733 – 1948",
+ "subject": "indore-state",
+ "range": [
+  1720,
+  1955
+ ],
+ "focus": [
+  1733,
+  1948.4
+ ],
+ "intro": "Malharrao Holkar, a shepherd's son who became one of Bajirao I's best cavalry commanders, founded the Holkar state in Malwa. His daughter-in-law Ahilyabai ruled it for nearly thirty years and is remembered across India for her temples and good government. Yashwantrao Holkar later fought the British on his own terms before Indore became a princely state in 1818.",
+ "rulers": [
+  {
+   "label": "Rulers",
+   "members": [
+    {
+     "entity": "malharrao-holkar",
+     "from": 1733,
+     "to": 1766.38
+    },
+    {
+     "entity": "male-rao-holkar",
+     "from": 1766.38,
+     "to": 1767.26
+    },
+    {
+     "entity": "ahilyabai",
+     "from": 1767.26,
+     "to": 1795.62,
+     "note": "Rules from Maheshwar; Tukoji Holkar commands the army"
+    },
+    {
+     "entity": "tukoji-holkar",
+     "from": 1795.62,
+     "to": 1797.62
+    },
+    {
+     "entity": "kashi-rao-holkar",
+     "from": 1797.62,
+     "to": 1798.5,
+     "note": "Ousted by his half-brother Yashwantrao"
+    },
+    {
+     "entity": "yashwantrao-holkar",
+     "from": 1798.5,
+     "to": 1811.82,
+     "note": "Rules at first in the name of his nephew Khanderao"
+    },
+    {
+     "entity": null,
+     "from": 1811.82,
+     "to": 1833.8,
+     "name": "Malhar Rao Holkar II",
+     "note": "A child at accession; Tulsabai is regent until her murder in 1817"
+    },
+    {
+     "entity": null,
+     "from": 1833.8,
+     "to": 1834.1,
+     "name": "Martand Rao Holkar"
+    },
+    {
+     "entity": "hari-rao-holkar",
+     "from": 1834.1,
+     "to": 1843.8
+    },
+    {
+     "entity": "khande-rao-holkar-ii",
+     "from": 1843.8,
+     "to": 1844.2
+    },
+    {
+     "entity": "tukojirao-holkar-ii",
+     "from": 1844.4,
+     "to": 1886.5
+    },
+    {
+     "entity": "shivajirao-holkar",
+     "from": 1886.5,
+     "to": 1903.1
+    },
+    {
+     "entity": "tukojirao-holkar-iii",
+     "from": 1903.1,
+     "to": 1926.15,
+     "note": "Abdicated in 1926"
+    },
+    {
+     "entity": "yashwant-rao-holkar-ii",
+     "from": 1926.15,
+     "to": 1948.4
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "maratha-empire",
+   "label": "Peshwa-led Maratha state",
+   "from": 1720,
+   "to": 1818.42
+  },
+  {
+   "entity": "east-india-company",
+   "label": "East India Company rule",
+   "from": 1757.5,
+   "to": 1858.6
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1858.6,
+   "to": 1947.6
+  }
+ ],
+ "events": [
+  {
+   "id": "indore",
+   "date": "1733",
+   "lane": "forts",
+   "title": "Malharrao receives Indore",
+   "summary": "Bajirao grants Malharrao Holkar a large share of Malwa, centred on Indore — the foundation of the Holkar state.",
+   "people": [
+    "malharrao-holkar",
+    "bajirao"
+   ],
+   "places": [
+    "indore",
+    "malwa"
+   ],
+   "polities": [
+    "indore-state"
+   ],
+   "major": true,
+   "see": "bajirao-i"
+  },
+  {
+   "id": "kumher",
+   "date": "1754-03",
+   "lane": "military",
+   "title": "Khanderao killed at Kumher",
+   "summary": "Malharrao's only son Khanderao is killed besieging the Jat fort of Kumher. Malharrao forbids his widow Ahilyabai from committing sati and trains her in administration.",
+   "people": [
+    "malharrao-holkar",
+    "ahilyabai"
+   ],
+   "places": [
+    "kumher"
+   ],
+   "see": "nanasaheb"
+  },
+  {
+   "id": "panipat",
+   "date": "1761-01-14",
+   "lane": "military",
+   "title": "Panipat",
+   "summary": "Malharrao leaves the field during the Third Battle of Panipat — a retreat that some contemporaries and later writers criticised and others defended as saving part of the army.",
+   "people": [
+    "malharrao-holkar",
+    "sadashivrao-bhau",
+    "abdali"
+   ],
+   "places": [
+    "panipat"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "wiki": "Third Battle of Panipat",
+   "see": "nanasaheb",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Third_Battle_of_Panipat",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/The_Third_battle_of_Panipat_13_January_1761.jpg/330px-The_Third_battle_of_Panipat_13_January_1761.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "malharrao-dies",
+   "date": "1766-05-20",
+   "lane": "life",
+   "title": "Malharrao dies",
+   "summary": "Malharrao dies after 33 years building the Holkar state. His grandson Male Rao survives him by less than a year.",
+   "people": [
+    "malharrao-holkar",
+    "male-rao-holkar"
+   ]
+  },
+  {
+   "id": "ahilyabai",
+   "date": "1767",
+   "lane": "life",
+   "title": "Ahilyabai rules from Maheshwar",
+   "summary": "With the Peshwa's backing Ahilyabai takes charge of the state, moving the court to Maheshwar on the Narmada. Tukoji Holkar commands the army.",
+   "people": [
+    "ahilyabai",
+    "tukoji-holkar",
+    "madhavrao"
+   ],
+   "places": [
+    "maheshwar"
+   ],
+   "polities": [
+    "indore-state"
+   ],
+   "major": true,
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "kashi-vishwanath",
+   "date": "1780",
+   "lane": "forts",
+   "title": "Kashi Vishwanath temple rebuilt",
+   "summary": "Ahilyabai builds the present Kashi Vishwanath temple in Varanasi — one of hundreds of temples, ghats, wells and rest-houses she funds from Somnath to Gaya.",
+   "people": [
+    "ahilyabai"
+   ],
+   "places": [
+    "kashi-vishwanath"
+   ],
+   "major": true
+  },
+  {
+   "id": "ahilyabai-dies",
+   "date": "1795-08-13",
+   "lane": "life",
+   "title": "Ahilyabai dies",
+   "summary": "Ahilyabai dies at Maheshwar, aged 70. Tukoji Holkar succeeds her.",
+   "people": [
+    "ahilyabai",
+    "tukoji-holkar"
+   ],
+   "places": [
+    "maheshwar"
+   ]
+  },
+  {
+   "id": "yashwantrao",
+   "date": "1798",
+   "lane": "life",
+   "title": "Yashwantrao seizes power",
+   "summary": "After Tukoji's death a succession war breaks out. His son Yashwantrao defeats his half-brother Kashi Rao and the Shindes who back him.",
+   "people": [
+    "yashwantrao-holkar",
+    "kashi-rao-holkar",
+    "daulatrao-shinde"
+   ],
+   "approx": true
+  },
+  {
+   "id": "poona",
+   "date": "1802-10-25",
+   "lane": "military",
+   "title": "Battle of Poona",
+   "summary": "Avenging his brother Vithoji's execution, Yashwantrao defeats the armies of the Peshwa and Shinde outside Pune. Bajirao II flees to the British.",
+   "people": [
+    "yashwantrao-holkar",
+    "bajirao-ii",
+    "daulatrao-shinde"
+   ],
+   "places": [
+    "hadapsar",
+    "pune"
+   ],
+   "wiki": "Battle of Poona",
+   "major": true,
+   "see": "bajirao-ii",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Poona"
+  },
+  {
+   "id": "british-war",
+   "date": "1804",
+   "lane": "military",
+   "title": "War with the British",
+   "summary": "Yashwantrao fights the Company alone, routing Monson's column in 1804 and holding out at Bharatpur, before making peace at the end of 1805 on comparatively good terms.",
+   "people": [
+    "yashwantrao-holkar"
+   ],
+   "places": [
+    "bharatpur"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "end": "1805-12",
+   "wiki": "Siege of Bharatpur (1805)",
+   "major": true,
+   "wikiUrl": "https://en.wikipedia.org/wiki/Siege_of_Bharatpur_(1805)",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Colonel_Maitland_at_Bhurtpore.jpg/330px-Colonel_Maitland_at_Bhurtpore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "yashwantrao-dies",
+   "date": "1811-10-28",
+   "lane": "life",
+   "title": "Yashwantrao dies",
+   "summary": "Yashwantrao dies at Bhanpura. His son Malhar Rao II is a child, and the court is torn by faction.",
+   "people": [
+    "yashwantrao-holkar"
+   ]
+  },
+  {
+   "id": "mahidpur",
+   "date": "1817-12-21",
+   "lane": "military",
+   "title": "Battle of Mahidpur",
+   "summary": "The regent Tulsabai, who favoured terms with the British, is murdered by army leaders; the Holkar army is then defeated at Mahidpur.",
+   "places": [
+    "mahidpur"
+   ],
+   "polities": [
+    "indore-state",
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Battle of Mahidpur",
+   "major": true,
+   "see": "bajirao-ii",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Mahidpur",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Battle_of_Mehidpoor_1st_position%2C_21_Dec_1817.jpg/330px-Battle_of_Mehidpoor_1st_position%2C_21_Dec_1817.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "mandsaur",
+   "date": "1818-01-06",
+   "lane": "political",
+   "title": "Treaty of Mandsaur",
+   "summary": "Indore becomes a princely state under British protection, losing territory. The capital moves from Maheshwar to Indore, where the Rajwada palace becomes the seat of government.",
+   "places": [
+    "indore",
+    "rajwada",
+    "maheshwar"
+   ],
+   "polities": [
+    "indore-state",
+    "east-india-company"
+   ],
+   "major": true
+  },
+  {
+   "id": "1857",
+   "date": "1857-07-01",
+   "lane": "world",
+   "title": "Revolt reaches Indore",
+   "summary": "Holkar troops join the revolt and attack the British Residency at Indore; Maharaja Tukojirao II stays aloof and keeps his throne.",
+   "people": [
+    "tukojirao-holkar-ii"
+   ],
+   "places": [
+    "indore"
+   ],
+   "concepts": [
+    "revolt-1857"
+   ]
+  },
+  {
+   "id": "madhya-bharat",
+   "date": "1948-05-28",
+   "lane": "political",
+   "title": "Merger into Madhya Bharat",
+   "summary": "Indore joins Madhya Bharat; Yashwant Rao Holkar II becomes its first Uprajpramukh (deputy head).",
+   "people": [
+    "yashwant-rao-holkar-ii"
+   ],
+   "polities": [
+    "madhya-bharat",
+    "indore-state"
+   ],
+   "major": true
+  }
+ ],
+ "series": "The Maratha confederacy",
+ "kind": "state",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Battles"
+  },
+  {
+   "id": "forts",
+   "label": "Territory & building"
+  },
+  {
+   "id": "political",
+   "label": "Treaties & reform"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ]
+}

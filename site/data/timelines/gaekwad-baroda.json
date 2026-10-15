@@ -1,0 +1,356 @@
+{
+ "id": "gaekwad-baroda",
+ "order": 3,
+ "title": "The Gaekwads of Baroda",
+ "subtitle": "Marathas in Gujarat, and Sayajirao III's reforming state · 1721 – 1949",
+ "subject": "baroda-state",
+ "range": [
+  1710,
+  1955
+ ],
+ "focus": [
+  1721,
+  1949.33
+ ],
+ "intro": "The Gaekwads began as commanders under the Dabhade Senapatis collecting tribute in Gujarat, and made Baroda (Vadodara) their capital. They allied with the British early, and as a princely state Baroda became known under Sayajirao III for compulsory education, social reform and patronage — including the scholarship that sent B. R. Ambedkar to Columbia.",
+ "rulers": [
+  {
+   "label": "Rulers",
+   "members": [
+    {
+     "entity": "pilaji-gaekwad",
+     "from": 1721,
+     "to": 1732.3,
+     "note": "Assassinated at Dakor"
+    },
+    {
+     "entity": "damaji-gaekwad",
+     "from": 1732.3,
+     "to": 1768
+    },
+    {
+     "entity": null,
+     "from": 1768,
+     "to": 1771,
+     "name": "Succession dispute"
+    },
+    {
+     "entity": "sayajirao-i",
+     "from": 1771,
+     "to": 1778,
+     "note": "Fatehsinhrao rules on his behalf"
+    },
+    {
+     "entity": null,
+     "from": 1778,
+     "to": 1789,
+     "name": "Fatehsinhrao Gaekwad I"
+    },
+    {
+     "entity": null,
+     "from": 1789,
+     "to": 1793,
+     "name": "Manajirao Gaekwad"
+    },
+    {
+     "entity": null,
+     "from": 1793,
+     "to": 1800,
+     "name": "Govindrao Gaekwad"
+    },
+    {
+     "entity": null,
+     "from": 1800,
+     "to": 1819,
+     "name": "Anandrao Gaekwad"
+    },
+    {
+     "entity": "sayajirao-ii",
+     "from": 1819,
+     "to": 1847
+    },
+    {
+     "entity": null,
+     "from": 1847,
+     "to": 1856,
+     "name": "Ganpatrao Gaekwad"
+    },
+    {
+     "entity": "khanderao-gaekwad",
+     "from": 1856,
+     "to": 1870
+    },
+    {
+     "entity": null,
+     "from": 1870,
+     "to": 1875.3,
+     "name": "Malharrao Gaekwad",
+     "note": "Deposed by the British"
+    },
+    {
+     "entity": "sayajirao-iii",
+     "from": 1875.4,
+     "to": 1939.1
+    },
+    {
+     "entity": null,
+     "from": 1939.1,
+     "to": 1949.33,
+     "name": "Pratapsinhrao Gaekwad"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "maratha-empire",
+   "label": "Peshwa-led Maratha state",
+   "from": 1710,
+   "to": 1818.42
+  },
+  {
+   "entity": "mughal-empire",
+   "label": "Mughal Gujarat",
+   "from": 1710,
+   "to": 1753
+  },
+  {
+   "entity": "east-india-company",
+   "label": "East India Company rule",
+   "from": 1757.5,
+   "to": 1858.6
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1858.6,
+   "to": 1947.6
+  }
+ ],
+ "events": [
+  {
+   "id": "songadh",
+   "date": "1719",
+   "lane": "forts",
+   "title": "A base at Songadh",
+   "summary": "Pilaji Gaekwad, an officer of the Dabhade Senapati, fortifies Songadh and begins raiding and collecting tribute in Mughal Gujarat.",
+   "people": [
+    "pilaji-gaekwad"
+   ],
+   "places": [
+    "songadh"
+   ],
+   "polities": [
+    "baroda-state",
+    "mughal-empire"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "dabhoi",
+   "date": "1731-04-01",
+   "lane": "military",
+   "title": "Defeat at Dabhoi",
+   "summary": "Pilaji fights alongside Trimbakrao Dabhade against Peshwa Bajirao and is defeated; the Gaekwads come to terms with the Peshwa.",
+   "people": [
+    "pilaji-gaekwad",
+    "trimbakrao-dabhade",
+    "bajirao"
+   ],
+   "places": [
+    "dabhoi"
+   ],
+   "wiki": "Battle of Dabhoi",
+   "see": "bajirao-i",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Dabhoi"
+  },
+  {
+   "id": "dakor",
+   "date": "1732",
+   "lane": "life",
+   "title": "Pilaji assassinated",
+   "summary": "Pilaji is murdered at Dakor by agents of the Mughal governor of Gujarat. His son Damaji succeeds.",
+   "people": [
+    "pilaji-gaekwad",
+    "damaji-gaekwad"
+   ],
+   "places": [
+    "dakor"
+   ]
+  },
+  {
+   "id": "baroda",
+   "date": "1734",
+   "lane": "forts",
+   "title": "Baroda taken",
+   "summary": "The Gaekwads take Baroda from the Mughals; it becomes their capital.",
+   "people": [
+    "damaji-gaekwad"
+   ],
+   "places": [
+    "vadodara"
+   ],
+   "polities": [
+    "baroda-state",
+    "mughal-empire"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "1751",
+   "date": "1751",
+   "lane": "political",
+   "title": "Damaji submits to the Peshwa",
+   "summary": "Damaji backs Tarabai against Peshwa Nanasaheb, is captured by treachery, and has to cede half his Gujarat revenues to the Peshwa.",
+   "people": [
+    "damaji-gaekwad",
+    "tarabai",
+    "nanasaheb"
+   ],
+   "see": "nanasaheb"
+  },
+  {
+   "id": "ahmedabad",
+   "date": "1753",
+   "lane": "forts",
+   "title": "Ahmedabad falls",
+   "summary": "The Marathas take Ahmedabad, ending Mughal rule in Gujarat.",
+   "people": [
+    "damaji-gaekwad"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "approx": true
+  },
+  {
+   "id": "panipat",
+   "date": "1761-01-14",
+   "lane": "military",
+   "title": "Panipat",
+   "summary": "Damaji fights at Panipat and is one of the commanders who escape the disaster.",
+   "people": [
+    "damaji-gaekwad",
+    "sadashivrao-bhau",
+    "abdali"
+   ],
+   "places": [
+    "panipat"
+   ],
+   "wiki": "Third Battle of Panipat",
+   "see": "nanasaheb",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Third_Battle_of_Panipat",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/The_Third_battle_of_Panipat_13_January_1761.jpg/330px-The_Third_battle_of_Panipat_13_January_1761.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "british-alliance",
+   "date": "1802",
+   "lane": "political",
+   "title": "Alliance with the British",
+   "summary": "Facing internal revolt, the Baroda government accepts British help and a subsidiary force — earlier than any other Maratha house.",
+   "polities": [
+    "baroda-state",
+    "east-india-company"
+   ],
+   "concepts": [
+    "subsidiary-alliance"
+   ],
+   "major": true
+  },
+  {
+   "id": "1875",
+   "date": "1875-04",
+   "lane": "political",
+   "title": "Malharrao deposed; Sayajirao III chosen",
+   "summary": "After being accused of trying to poison the British Resident, Malharrao is deposed. A 12-year-old boy from a distant branch of the family is adopted and becomes Sayajirao III.",
+   "people": [
+    "sayajirao-iii"
+   ],
+   "polities": [
+    "baroda-state",
+    "british-raj"
+   ],
+   "major": true
+  },
+  {
+   "id": "lakshmi-vilas",
+   "date": "1890",
+   "lane": "forts",
+   "title": "Lakshmi Vilas Palace",
+   "summary": "Sayajirao III completes the Lakshmi Vilas Palace in Baroda, one of the largest private residences ever built.",
+   "people": [
+    "sayajirao-iii"
+   ],
+   "places": [
+    "lakshmi-vilas",
+    "vadodara"
+   ]
+  },
+  {
+   "id": "education",
+   "date": "1906",
+   "lane": "political",
+   "title": "Free compulsory primary education",
+   "summary": "Sayajirao III makes primary education free and compulsory throughout Baroda state — among the first such measures in India — and builds libraries, a university and modern administration.",
+   "people": [
+    "sayajirao-iii"
+   ],
+   "polities": [
+    "baroda-state"
+   ],
+   "major": true
+  },
+  {
+   "id": "ambedkar",
+   "date": "1913",
+   "lane": "political",
+   "title": "Ambedkar's scholarship",
+   "summary": "A Baroda state scholarship sends the young B. R. Ambedkar to study at Columbia University in New York.",
+   "people": [
+    "ambedkar",
+    "sayajirao-iii"
+   ]
+  },
+  {
+   "id": "merger",
+   "date": "1949-05-01",
+   "lane": "political",
+   "title": "Baroda merges into Bombay State",
+   "summary": "Baroda state is merged into Bombay State; its territory is now in Gujarat.",
+   "places": [
+    "vadodara"
+   ],
+   "polities": [
+    "baroda-state",
+    "bombay-state"
+   ],
+   "major": true
+  }
+ ],
+ "series": "The Maratha confederacy",
+ "kind": "state",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Battles"
+  },
+  {
+   "id": "forts",
+   "label": "Territory & building"
+  },
+  {
+   "id": "political",
+   "label": "Treaties & reform"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ]
+}

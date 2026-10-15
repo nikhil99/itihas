@@ -1,0 +1,302 @@
+{
+ "id": "bhonsle-nagpur",
+ "order": 4,
+ "title": "The Bhonsles of Nagpur",
+ "subtitle": "The eastern arm of Maratha power · 1739 – 1853",
+ "subject": "nagpur-kingdom",
+ "range": [
+  1730,
+  1870
+ ],
+ "focus": [
+  1739,
+  1853.95
+ ],
+ "intro": "Raghuji Bhonsle — a distant relation of Shivaji's family — built a kingdom based at Nagpur that carried Maratha power east into Gondwana, Orissa and Bengal. After defeats by the British in 1803 and 1817 it survived as a dependent state until Lord Dalhousie annexed it in 1853.",
+ "rulers": [
+  {
+   "label": "Rulers",
+   "members": [
+    {
+     "entity": "raghuji-bhonsle",
+     "from": 1739,
+     "to": 1755.12
+    },
+    {
+     "entity": "janoji-bhonsle",
+     "from": 1755.12,
+     "to": 1772.4
+    },
+    {
+     "entity": null,
+     "from": 1772.4,
+     "to": 1775.05,
+     "name": "Sabaji Bhonsle",
+     "note": "Fights his brother Mudhoji for power; killed in battle"
+    },
+    {
+     "entity": "mudhoji-i",
+     "from": 1775.05,
+     "to": 1788.4,
+     "note": "Rules as regent for his son Raghuji II"
+    },
+    {
+     "entity": "raghoji-ii",
+     "from": 1788.4,
+     "to": 1816.25
+    },
+    {
+     "entity": null,
+     "from": 1816.25,
+     "to": 1817.1,
+     "name": "Parsoji Bhonsle",
+     "note": "Murdered"
+    },
+    {
+     "entity": "appasaheb-bhonsle",
+     "from": 1817.1,
+     "to": 1818.2,
+     "note": "Deposed after Sitabuldi"
+    },
+    {
+     "entity": "raghuji-iii",
+     "from": 1818.5,
+     "to": 1853.95,
+     "note": "A child at accession; British regency until 1830"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "maratha-empire",
+   "label": "Peshwa-led Maratha state",
+   "from": 1730,
+   "to": 1818.42
+  },
+  {
+   "entity": "bengal-subah",
+   "label": "Nawabs of Bengal",
+   "from": 1730,
+   "to": 1765
+  },
+  {
+   "entity": "east-india-company",
+   "label": "East India Company rule",
+   "from": 1757.5,
+   "to": 1858.6
+  }
+ ],
+ "events": [
+  {
+   "id": "nagpur",
+   "date": "1739",
+   "lane": "forts",
+   "title": "Raghuji Bhonsle at Nagpur",
+   "summary": "Raghuji establishes himself at Nagpur and absorbs the Gond kingdom of Deogarh, building a state across central India.",
+   "people": [
+    "raghuji-bhonsle"
+   ],
+   "places": [
+    "nagpur"
+   ],
+   "polities": [
+    "nagpur-kingdom"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "bengal",
+   "date": "1742",
+   "lane": "military",
+   "title": "Raids into Bengal",
+   "summary": "Raghuji's armies invade Bengal repeatedly; the 'bargi' raids are long remembered there.",
+   "people": [
+    "raghuji-bhonsle",
+    "alivardi-khan"
+   ],
+   "polities": [
+    "bengal-subah"
+   ],
+   "concepts": [
+    "chauth"
+   ],
+   "end": "1751",
+   "wiki": "Maratha invasions of Bengal",
+   "major": true,
+   "see": "nanasaheb"
+  },
+  {
+   "id": "orissa",
+   "date": "1751",
+   "lane": "forts",
+   "title": "Orissa gained",
+   "summary": "Alivardi Khan agrees to pay chauth and cedes the revenues of Orissa; Cuttack becomes a Bhonsle possession.",
+   "people": [
+    "raghuji-bhonsle",
+    "alivardi-khan"
+   ],
+   "places": [
+    "cuttack"
+   ],
+   "polities": [
+    "bengal-subah"
+   ],
+   "major": true
+  },
+  {
+   "id": "raghuji-dies",
+   "date": "1755-02",
+   "lane": "life",
+   "title": "Raghuji dies; Janoji succeeds",
+   "summary": "Raghuji dies at Nagpur. His son Janoji takes over, and a long rivalry with the Peshwas over Nagpur's independence follows.",
+   "people": [
+    "raghuji-bhonsle",
+    "janoji-bhonsle"
+   ]
+  },
+  {
+   "id": "civil-war",
+   "date": "1772",
+   "lane": "life",
+   "title": "Brothers at war",
+   "summary": "After Janoji's death his brothers Sabaji and Mudhoji fight for control; Sabaji is killed in 1775 and Mudhoji rules as regent for his son.",
+   "people": [
+    "mudhoji-i"
+   ],
+   "end": "1775"
+  },
+  {
+   "id": "argaon",
+   "date": "1803-11-29",
+   "lane": "military",
+   "title": "Battle of Argaon",
+   "summary": "In the Second Anglo-Maratha War Raghuji II's army is defeated by Arthur Wellesley at Argaon.",
+   "people": [
+    "raghoji-ii",
+    "wellesley"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Battle of Argaon"
+  },
+  {
+   "id": "deogaon",
+   "date": "1803-12-17",
+   "lane": "political",
+   "title": "Treaty of Deogaon",
+   "summary": "Raghuji II cedes Cuttack and Orissa to the Company and accepts a British Resident at Nagpur.",
+   "people": [
+    "raghoji-ii"
+   ],
+   "places": [
+    "cuttack"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "major": true
+  },
+  {
+   "id": "sitabuldi",
+   "date": "1817-11-26",
+   "lane": "military",
+   "title": "Battle of Sitabuldi",
+   "summary": "Appasaheb, who had seized power after murdering his cousin Parsoji, attacks the British Residency and is defeated at Sitabuldi hill.",
+   "people": [
+    "appasaheb-bhonsle"
+   ],
+   "places": [
+    "sitabuldi",
+    "nagpur"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "major": true,
+   "see": "bajirao-ii"
+  },
+  {
+   "id": "regency",
+   "date": "1818",
+   "lane": "political",
+   "title": "A child ruler under British regency",
+   "summary": "Appasaheb escapes; a child, Raghuji III, is placed on the throne with a British Resident governing until 1830.",
+   "people": [
+    "raghuji-iii",
+    "appasaheb-bhonsle"
+   ],
+   "polities": [
+    "east-india-company"
+   ]
+  },
+  {
+   "id": "annexed",
+   "date": "1853-12-11",
+   "lane": "political",
+   "title": "Annexed by the British",
+   "summary": "Raghuji III dies without a son; Dalhousie refuses to recognise an adopted heir and annexes Nagpur. The palace's contents are auctioned.",
+   "people": [
+    "raghuji-iii",
+    "dalhousie"
+   ],
+   "places": [
+    "nagpur"
+   ],
+   "polities": [
+    "nagpur-kingdom",
+    "east-india-company"
+   ],
+   "concepts": [
+    "doctrine-of-lapse"
+   ],
+   "major": true
+  },
+  {
+   "id": "cp",
+   "date": "1861",
+   "lane": "world",
+   "title": "Central Provinces",
+   "summary": "Nagpur becomes the capital of the new British province of the Central Provinces.",
+   "places": [
+    "nagpur"
+   ],
+   "polities": [
+    "central-provinces",
+    "british-raj"
+   ]
+  }
+ ],
+ "series": "The Maratha confederacy",
+ "kind": "state",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Battles"
+  },
+  {
+   "id": "forts",
+   "label": "Territory & building"
+  },
+  {
+   "id": "political",
+   "label": "Treaties & reform"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ]
+}

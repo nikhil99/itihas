@@ -1,0 +1,493 @@
+{
+ "id": "shinde-gwalior",
+ "order": 1,
+ "title": "The Shindes of Gwalior",
+ "subtitle": "Scindia: from Bajirao's commander to rulers of north India · 1731 – 1948",
+ "subject": "gwalior-state",
+ "range": [
+  1720,
+  1955
+ ],
+ "focus": [
+  1731,
+  1948.4
+ ],
+ "intro": "The Shinde (Scindia) family rose from service under Peshwa Bajirao I to become the most powerful house of the Maratha confederacy. Under Mahadji Shinde they controlled Delhi and the Mughal emperor; after defeat by the British in 1803 they ruled Gwalior as the largest princely state of central India until 1948.",
+ "rulers": [
+  {
+   "label": "Rulers",
+   "members": [
+    {
+     "entity": "ranoji-shinde",
+     "from": 1731,
+     "to": 1745.55,
+     "note": "Bajirao's commander; settles at Ujjain"
+    },
+    {
+     "entity": "jayappa-shinde",
+     "from": 1745.55,
+     "to": 1755.56,
+     "note": "Assassinated at Nagaur in Marwar"
+    },
+    {
+     "entity": "jankoji-shinde",
+     "from": 1755.56,
+     "to": 1761.04,
+     "note": "Dattaji Shinde leads the army until 1760; Jankoji is executed after Panipat"
+    },
+    {
+     "entity": null,
+     "from": 1761.04,
+     "to": 1768,
+     "name": "Disputed succession",
+     "note": "Kedarji and Manaji Shinde contest the headship"
+    },
+    {
+     "entity": "mahadji",
+     "from": 1768,
+     "to": 1794.12
+    },
+    {
+     "entity": "daulatrao-shinde",
+     "from": 1794.12,
+     "to": 1827.22
+    },
+    {
+     "entity": "jankoji-shinde-ii",
+     "from": 1827.4,
+     "to": 1843.1,
+     "note": "Daulatrao's widow Baiza Bai is regent until 1833"
+    },
+    {
+     "entity": "jayajirao-scindia",
+     "from": 1843.1,
+     "to": 1886.47
+    },
+    {
+     "entity": "madho-rao-scindia",
+     "from": 1886.47,
+     "to": 1925.43
+    },
+    {
+     "entity": "jiwajirao-scindia",
+     "from": 1925.43,
+     "to": 1948.4,
+     "note": "Rajpramukh of Madhya Bharat 1948–1956"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "maratha-empire",
+   "label": "Peshwa-led Maratha state",
+   "from": 1720,
+   "to": 1818.42
+  },
+  {
+   "entity": "mughal-empire",
+   "label": "Mughal emperors in Delhi",
+   "from": 1720,
+   "to": 1857.72
+  },
+  {
+   "entity": "east-india-company",
+   "label": "East India Company rule",
+   "from": 1757.5,
+   "to": 1858.6
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1858.6,
+   "to": 1947.6
+  }
+ ],
+ "events": [
+  {
+   "id": "ujjain",
+   "date": "1731",
+   "lane": "forts",
+   "title": "Ranoji Shinde settles at Ujjain",
+   "summary": "Bajirao divides the revenue of Malwa among his commanders. Ranoji Shinde, who began as a personal attendant of the Peshwa, makes Ujjain his base — the start of the Shinde state.",
+   "people": [
+    "ranoji-shinde",
+    "bajirao"
+   ],
+   "places": [
+    "ujjain",
+    "malwa"
+   ],
+   "polities": [
+    "gwalior-state"
+   ],
+   "approx": true,
+   "major": true,
+   "see": "bajirao-i"
+  },
+  {
+   "id": "ranoji-dies",
+   "date": "1745-07",
+   "lane": "life",
+   "title": "Ranoji dies; Jayappa succeeds",
+   "summary": "Ranoji dies on campaign. His son Jayappa takes over, with his brother Dattaji as a leading commander.",
+   "people": [
+    "ranoji-shinde",
+    "jayappa-shinde",
+    "dattaji-shinde"
+   ]
+  },
+  {
+   "id": "jayappa-killed",
+   "date": "1755-07",
+   "lane": "life",
+   "title": "Jayappa assassinated in Marwar",
+   "summary": "While intervening in a succession dispute in Marwar, Jayappa is murdered at Nagaur. His young son Jankoji succeeds, with Dattaji as guardian.",
+   "people": [
+    "jayappa-shinde",
+    "jankoji-shinde",
+    "dattaji-shinde"
+   ]
+  },
+  {
+   "id": "burari-ghat",
+   "date": "1760-01",
+   "lane": "military",
+   "title": "Dattaji Shinde killed at Burari Ghat",
+   "summary": "Defending the north against Ahmad Shah Abdali, Dattaji is killed near Delhi.",
+   "people": [
+    "dattaji-shinde",
+    "abdali",
+    "najib"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "major": true,
+   "see": "nanasaheb"
+  },
+  {
+   "id": "panipat",
+   "date": "1761-01-14",
+   "lane": "military",
+   "title": "Panipat: Jankoji executed, Mahadji crippled",
+   "summary": "At the Third Battle of Panipat the young Jankoji Shinde is captured and executed. Mahadji Shinde escapes with a wound that leaves him lame.",
+   "people": [
+    "jankoji-shinde",
+    "mahadji",
+    "abdali",
+    "sadashivrao-bhau"
+   ],
+   "places": [
+    "panipat"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "major": true,
+   "wiki": "Third Battle of Panipat",
+   "see": "nanasaheb",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Third_Battle_of_Panipat",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/The_Third_battle_of_Panipat_13_January_1761.jpg/330px-The_Third_battle_of_Panipat_13_January_1761.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "mahadji-head",
+   "date": "1768",
+   "lane": "life",
+   "title": "Mahadji Shinde takes charge",
+   "summary": "After years of disputed succession, Mahadji — Ranoji's youngest son — is recognised as head of the family.",
+   "people": [
+    "mahadji"
+   ],
+   "polities": [
+    "gwalior-state"
+   ],
+   "major": true
+  },
+  {
+   "id": "delhi-1771",
+   "date": "1771-02",
+   "lane": "forts",
+   "title": "Back in Delhi with Shah Alam II",
+   "summary": "Mahadji is among the leaders of the army that restores the exiled emperor Shah Alam II to Delhi.",
+   "people": [
+    "mahadji",
+    "shah-alam-ii"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "wadgaon",
+   "date": "1779-01-13",
+   "lane": "military",
+   "title": "Victory at Wadgaon",
+   "summary": "Mahadji's forces surround a British army marching on Pune, forcing the Convention of Wadgaon.",
+   "people": [
+    "mahadji",
+    "tukoji-holkar"
+   ],
+   "places": [
+    "wadgaon"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Battle of Wadgaon",
+   "see": "nana-phadnavis",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Wadgaon",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Maratha_British_Treaty.JPG/330px-Maratha_British_Treaty.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "salbai",
+   "date": "1782-05-17",
+   "lane": "political",
+   "title": "Treaty of Salbai",
+   "summary": "Mahadji negotiates the peace ending the First Anglo-Maratha War; the British recognise him as an independent power in the north.",
+   "people": [
+    "mahadji",
+    "warren-hastings"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "wiki": "Treaty of Salbai",
+   "major": true,
+   "see": "nana-phadnavis",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Treaty_of_Salbai"
+  },
+  {
+   "id": "regent",
+   "date": "1784-12",
+   "lane": "political",
+   "title": "Regent of the Mughal empire",
+   "summary": "Shah Alam II makes Mahadji his Vakil-ul-Mutlaq. The Shindes now control Delhi and the person of the emperor.",
+   "people": [
+    "mahadji",
+    "shah-alam-ii"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "major": true
+  },
+  {
+   "id": "de-boigne",
+   "date": "1790",
+   "lane": "military",
+   "title": "De Boigne's brigades",
+   "summary": "Mahadji's European-trained infantry under Benoît de Boigne win at Patan and Merta, making the Shinde army the strongest in north India.",
+   "people": [
+    "de-boigne",
+    "mahadji"
+   ]
+  },
+  {
+   "id": "mahadji-dies",
+   "date": "1794-02-12",
+   "lane": "life",
+   "title": "Mahadji dies near Pune",
+   "summary": "Mahadji dies at Wanavdi near Pune. His grand-nephew Daulatrao, about 15, inherits the army and lands.",
+   "people": [
+    "mahadji",
+    "daulatrao-shinde"
+   ],
+   "places": [
+    "pune"
+   ],
+   "major": true
+  },
+  {
+   "id": "assaye",
+   "date": "1803-09-23",
+   "lane": "military",
+   "title": "Assaye and Laswari",
+   "summary": "In the Second Anglo-Maratha War Daulatrao's armies are defeated by Arthur Wellesley at Assaye and by Gerard Lake at Delhi and Laswari.",
+   "people": [
+    "daulatrao-shinde",
+    "wellesley"
+   ],
+   "places": [
+    "assaye",
+    "delhi"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Battle of Assaye",
+   "major": true,
+   "see": "bajirao-ii",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Assaye",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Battle_of_Assaye.jpeg/330px-Battle_of_Assaye.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "surji-anjangaon",
+   "date": "1803-12-30",
+   "lane": "political",
+   "title": "Treaty of Surji-Anjangaon",
+   "summary": "Daulatrao cedes Delhi, Agra and his territories north of the Jumna and in Gujarat to the Company.",
+   "people": [
+    "daulatrao-shinde"
+   ],
+   "places": [
+    "delhi",
+    "agra"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "wiki": "Treaty of Surji-Anjangaon",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Treaty_of_Surji-Anjangaon"
+  },
+  {
+   "id": "lashkar",
+   "date": "1810",
+   "lane": "forts",
+   "title": "Capital at Gwalior",
+   "summary": "Daulatrao's camp (lashkar) below Gwalior fort becomes the permanent capital of the state.",
+   "people": [
+    "daulatrao-shinde"
+   ],
+   "places": [
+    "gwalior-fort"
+   ],
+   "polities": [
+    "gwalior-state"
+   ],
+   "approx": true
+  },
+  {
+   "id": "treaty-1817",
+   "date": "1817-11",
+   "lane": "political",
+   "title": "Neutral in the last war",
+   "summary": "Under a new treaty Daulatrao stays out of the Third Anglo-Maratha War; the Shinde state survives under British protection while the Peshwa falls.",
+   "people": [
+    "daulatrao-shinde"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ]
+  },
+  {
+   "id": "baiza-bai",
+   "date": "1827-03",
+   "lane": "life",
+   "title": "Baiza Bai's regency",
+   "summary": "After Daulatrao's death his widow Baiza Bai rules as regent for the adopted heir Jankoji II until she is pushed out in 1833.",
+   "people": [
+    "baiza-bai",
+    "jankoji-shinde-ii",
+    "daulatrao-shinde"
+   ]
+  },
+  {
+   "id": "maharajpur",
+   "date": "1843-12-29",
+   "lane": "military",
+   "title": "Maharajpur and Panniar",
+   "summary": "After a succession crisis the British invade. The Gwalior army is defeated in two battles on the same day; the state's army is reduced and placed under British supervision.",
+   "people": [
+    "jayajirao-scindia"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "wiki": "Gwalior campaign",
+   "major": true,
+   "wikiUrl": "https://en.wikipedia.org/wiki/Gwalior_campaign",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%27Death_of_Major_General_Churchill%2C_Gwalior%27%2C_1843.jpg/330px-%27Death_of_Major_General_Churchill%2C_Gwalior%27%2C_1843.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "1858",
+   "date": "1858-06",
+   "lane": "military",
+   "title": "Rani Lakshmibai and Tatya Tope at Gwalior",
+   "summary": "During the revolt of 1857 Rani Lakshmibai and Tatya Tope seize Gwalior; Jayajirao flees to Agra. Lakshmibai is killed fighting nearby on 18 June and the British retake the city.",
+   "people": [
+    "lakshmibai",
+    "tatya-tope",
+    "jayajirao-scindia"
+   ],
+   "places": [
+    "gwalior-fort"
+   ],
+   "concepts": [
+    "revolt-1857"
+   ],
+   "major": true
+  },
+  {
+   "id": "jai-vilas",
+   "date": "1874",
+   "lane": "forts",
+   "title": "Jai Vilas Mahal",
+   "summary": "Jayajirao builds the Jai Vilas palace in Gwalior in a European style.",
+   "people": [
+    "jayajirao-scindia"
+   ],
+   "places": [
+    "jai-vilas"
+   ]
+  },
+  {
+   "id": "madhya-bharat",
+   "date": "1948-05-28",
+   "lane": "political",
+   "title": "Merger into Madhya Bharat",
+   "summary": "Gwalior joins neighbouring states to form Madhya Bharat; Jiwajirao Scindia becomes its Rajpramukh (governor) until 1956.",
+   "people": [
+    "jiwajirao-scindia"
+   ],
+   "polities": [
+    "madhya-bharat",
+    "gwalior-state"
+   ],
+   "major": true
+  }
+ ],
+ "series": "The Maratha confederacy",
+ "kind": "state",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Battles"
+  },
+  {
+   "id": "forts",
+   "label": "Territory & building"
+  },
+  {
+   "id": "political",
+   "label": "Treaties & reform"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ]
+}
