@@ -12375,5 +12375,2622 @@
   },
   "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%86%E0%A4%B3%E0%A4%82%E0%A4%A6%E0%A5%80",
   "dates": {}
+ },
+ "elizabeth-i": {
+  "id": "elizabeth-i",
+  "type": "person",
+  "title": "Elizabeth I",
+  "description": "Queen of England and Ireland from 1558 to 1603",
+  "extract": "Elizabeth I was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor. Her eventful reign, and its effect on history and culture, gave name to the Elizabethan era.",
+  "url": "https://en.wikipedia.org/wiki/Elizabeth_I",
+  "qid": "Q7207",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/330px-Darnley_stage_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Darnley_stage_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Elizabeth I"
+  ],
+  "labels": {
+   "hi": "एलिज़ाबेथ प्रथम",
+   "mr": "पहिली एलिझाबेथ, इंग्लंड"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AA%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A5%80_%E0%A4%8F%E0%A4%B2%E0%A4%BF%E0%A4%9D%E0%A4%BE%E0%A4%AC%E0%A5%87%E0%A4%A5",
+  "dates": {
+   "born": {
+    "value": "1533-09-07",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1603-03-24",
+    "precision": "day"
+   }
+  }
+ },
+ "josiah-child": {
+  "id": "josiah-child",
+  "type": "person",
+  "title": "Josiah Child",
+  "description": "English merchant and politician",
+  "extract": "Sir Josiah Child, 1st Baronet, was an English economist, merchant and politician. He was an economist proponent of mercantilism and governor of the East India Company. He led the company in the Anglo-Mughal War.",
+  "url": "https://en.wikipedia.org/wiki/Josiah_Child",
+  "qid": "Q707695",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Sir_Josiah_Child%2C_Bt_by_John_Riley.jpg/330px-Sir_Josiah_Child%2C_Bt_by_John_Riley.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Sir_Josiah_Child%2C_Bt_by_John_Riley.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Josiah Child"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1630",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1699-06-22",
+    "precision": "day"
+   }
+  }
+ },
+ "job-charnock": {
+  "id": "job-charnock",
+  "type": "person",
+  "title": "Job Charnock",
+  "description": "17th-century East India Company administrator; disputed founder of Calcutta/Kolkata",
+  "extract": "Job Charnock was an English administrator with the East India Company. He is widely regarded by historians as the founder of the city of Calcutta (Kolkata); however, this view was challenged in court, and in 2003 the Calcutta High Court ruled that he ought not to be regarded as the sole founder.",
+  "url": "https://en.wikipedia.org/wiki/Job_Charnock",
+  "qid": "Q2985082",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Job_Charnock.jpg/330px-Job_Charnock.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Job_Charnock.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Job Charnock"
+  ],
+  "labels": {
+   "hi": "जॉब चार्नक"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1630",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1692-01-10",
+    "precision": "day"
+   }
+  }
+ },
+ "dupleix": {
+  "id": "dupleix",
+  "type": "person",
+  "title": "Dupleix",
+  "description": "Governor-General of French India from 1742 to 1754",
+  "extract": "Joseph François Dupleix was Governor-General of French India and rival of Robert Clive.",
+  "url": "https://en.wikipedia.org/wiki/Joseph_Fran%C3%A7ois_Dupleix",
+  "qid": "Q560071",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Joseph_Francois_Dupleix.jpg/330px-Joseph_Francois_Dupleix.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Joseph_Francois_Dupleix.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Dupleix"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1697-01-01",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1763-11-10",
+    "precision": "day"
+   }
+  }
+ },
+ "siraj-ud-daulah": {
+  "id": "siraj-ud-daulah",
+  "type": "person",
+  "title": "Siraj-ud-Daulah",
+  "description": "Last independent Nawab (ruler) of Bengal from 1756 to 1757",
+  "extract": "Mir Syed Jafar Ali Khan Mirza Muhammad Siraj-ud-Daulah, commonly known as Siraj-ud-Daulah or Siraj ud-Daula, was the last independent Nawab of the Bengal Subah. The end of his reign marked the start of the rule of the East India Company over Bengal and later almost all of the Indian subcontinent.",
+  "url": "https://en.wikipedia.org/wiki/Siraj-ud-Daulah",
+  "qid": "Q1998495",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Siraj_ud-Daulah.jpg/330px-Siraj_ud-Daulah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Siraj_ud-Daulah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Siraj-ud-Daulah"
+  ],
+  "labels": {
+   "hi": "सिराजुद्दौला",
+   "mr": "सिराज उद-दौला"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%9C_%E0%A4%89%E0%A4%A6-%E0%A4%A6%E0%A5%8C%E0%A4%B2%E0%A4%BE",
+  "dates": {
+   "born": {
+    "value": "1733",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1757-07-02",
+    "precision": "day"
+   }
+  }
+ },
+ "mir-jafar": {
+  "id": "mir-jafar",
+  "type": "person",
+  "title": "Mir Jafar",
+  "description": "Nawab of Bengal (r. 1757–1760, 1763–1765)",
+  "extract": "Mir Jafar was a commander-in-chief or general, who became the first dependent Nawab of Bengal within the support of the East India Company. His reign has been considered by many historians as the start of the expansion of British control of the Indian subcontinent in Indian history. He is notoriously known for his betrayal of Nawab Siraj-ud-Daulah in the Battle of Plassey.",
+  "url": "https://en.wikipedia.org/wiki/Mir_Jafar",
+  "qid": "Q3241725",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Mir_Jafar_%28left%29_and_Mir_Miran_%28right%29.jpg/330px-Mir_Jafar_%28left%29_and_Mir_Miran_%28right%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mir_Jafar_%28left%29_and_Mir_Miran_%28right%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Mir Jafar"
+  ],
+  "labels": {
+   "hi": "मीर जाफ़र"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1691",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1765-02-05",
+    "precision": "day"
+   }
+  }
+ },
+ "mir-qasim": {
+  "id": "mir-qasim",
+  "type": "person",
+  "title": "Mir Qasim",
+  "description": "Nawab of Bengal from 1760 to 1763",
+  "extract": "Mir Qasim was the Nawab of Bengal from 1760 to 1763. He was installed as Nawab with the support of the British East India Company, replacing Mir Jafar, his father-in-law, who had himself been supported earlier by the East India Company after his role in winning the Battle of Plassey for the British. However, Mir Jafar eventually ran into disputes with the East India Company and attempted to form an alliance with the Dutch East India Company instead. The British eventually defeated the Dutch at Chinsura and overthrew Mir Jafar, replacing him with Mir Qasim. Qasim too later fell out with the British and fought against them at Buxar. His defeat has been suggested as a key reason in the British becoming the dominant power in large parts of North and East India.",
+  "url": "https://en.wikipedia.org/wiki/Mir_Qasim",
+  "qid": "Q3595321",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Mir_Qasim.jpg/330px-Mir_Qasim.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Mir_Qasim.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Mir Qasim"
+  ],
+  "labels": {
+   "hi": "मीर कासिम"
+  },
+  "mrUrl": null,
+  "dates": {
+   "died": {
+    "value": "1777-05-08",
+    "precision": "day"
+   }
+  }
+ },
+ "cornwallis": {
+  "id": "cornwallis",
+  "type": "person",
+  "title": "Lord Cornwallis",
+  "description": "British Army officer (1738–1805)",
+  "extract": "General Charles Cornwallis, 1st Marquess Cornwallis was a British Army officer, Whig politician and colonial administrator. In the United States and United Kingdom, he is best known as one of the leading British general officers in the American War of Independence. His surrender in 1781 to a combined Franco-American force at the siege of Yorktown ended significant hostilities in North America. Cornwallis later served as a civil and military governor in Ireland, where he helped to bring about the Act of Union; and in India, where he helped to enact the Cornwallis Code and the Permanent Settlement.",
+  "url": "https://en.wikipedia.org/wiki/Charles_Cornwallis%2C_1st_Marquess_Cornwallis",
+  "qid": "Q164723",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Charles_Cornwallis%2C_1st_Marquess_Cornwallis.png/330px-Charles_Cornwallis%2C_1st_Marquess_Cornwallis.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Charles_Cornwallis%2C_1st_Marquess_Cornwallis.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Cornwallis"
+  ],
+  "labels": {
+   "hi": "लॉर्ड कॉर्नवालिस"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1738-12-31",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1805-10-05",
+    "precision": "day"
+   }
+  }
+ },
+ "bentinck": {
+  "id": "bentinck",
+  "type": "person",
+  "title": "Lord William Bentinck",
+  "description": "British military commander and politician (1774–1839)",
+  "extract": "Lieutenant-General Lord William Henry Cavendish-Bentinck better known as Lord William Bentinck, was a British military commander and colonial administrator, who served as the first governor-general of India from 1828 to 1835.",
+  "url": "https://en.wikipedia.org/wiki/Lord_William_Bentinck",
+  "qid": "Q138559",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Bentinck_william.png/330px-Bentinck_william.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Bentinck_william.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "William Bentinck",
+   "Bentinck"
+  ],
+  "labels": {
+   "hi": "विलियम बैन्टिक",
+   "mr": "लॉर्ड विल्यम बेंटिंक"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%A1_%E0%A4%B5%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AF%E0%A4%AE_%E0%A4%AC%E0%A5%87%E0%A4%82%E0%A4%9F%E0%A4%BF%E0%A4%82%E0%A4%95",
+  "dates": {
+   "born": {
+    "value": "1774-09-14",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1839-06-17",
+    "precision": "day"
+   }
+  }
+ },
+ "ram-mohan-roy": {
+  "id": "ram-mohan-roy",
+  "type": "person",
+  "title": "Ram Mohan Roy",
+  "description": "Indian reformer and writer (1772–1833)",
+  "extract": "Raja Ram Mohan Roy was an Indian social reformer and writer who was one of the founders of the Brahmo Sabha in 1828, the precursor of the Brahmo Samaj, a socio-religious reform movement in the Indian subcontinent. He has been dubbed the \"Father of the Indian Renaissance.\" He was given the title of Raja by Mughal emperor Akbar II.",
+  "url": "https://en.wikipedia.org/wiki/Raja_Ram_Mohan_Roy",
+  "qid": "Q335269",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Portrait_of_Raja_Ram_Mohun_Roy%2C_1833.jpg/330px-Portrait_of_Raja_Ram_Mohun_Roy%2C_1833.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Portrait_of_Raja_Ram_Mohun_Roy%2C_1833.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Ram Mohan Roy"
+  ],
+  "labels": {
+   "hi": "राजा राममोहन राय",
+   "mr": "राजा राममोहन रॉय"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BE_%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A4%AE%E0%A5%8B%E0%A4%B9%E0%A4%A8_%E0%A4%B0%E0%A5%89%E0%A4%AF",
+  "dates": {
+   "born": {
+    "value": "1772-05-22",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1833-09-27",
+    "precision": "day"
+   }
+  }
+ },
+ "macaulay": {
+  "id": "macaulay",
+  "type": "person",
+  "title": "Thomas Babington Macaulay",
+  "description": "British historian and politician (1800–1859)",
+  "extract": "Thomas Babington Macaulay, 1st Baron Macaulay was a British historian, poet and Whig politician who served as the Secretary at War between 1839 and 1841, and as the Paymaster General between 1846 and 1848. He is best known for his The History of England, a seminal example of Whig history, which expressed Macaulay's belief in the inevitability of sociopolitical progress and has been widely commended for its prose style. Whig historians, including Macaulay, supported the position of the Roundheads in the English Civil War of 1642 to 1651.",
+  "url": "https://en.wikipedia.org/wiki/Thomas_Babington_Macaulay",
+  "qid": "Q315989",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Thomas_Babington_Macaulay2.jpg/330px-Thomas_Babington_Macaulay2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Thomas_Babington_Macaulay2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Macaulay"
+  ],
+  "labels": {
+   "hi": "थोमस बैबिंगटन मैकाले",
+   "mr": "थॉमस मॅकॉले"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A5%E0%A5%89%E0%A4%AE%E0%A4%B8_%E0%A4%AE%E0%A5%87%E0%A4%95%E0%A5%89%E0%A4%B2%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1800-10-25",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1859-12-28",
+    "precision": "day"
+   }
+  }
+ },
+ "ranjit-singh": {
+  "id": "ranjit-singh",
+  "type": "person",
+  "title": "Ranjit Singh",
+  "description": "Sikh Maharaja from 1801 to 1839",
+  "extract": "Ranjit Singh was the founder and the first maharaja of the Sikh Empire, ruling from 1801 until his death in 1839. Starting as a local chieftain, by the time of his death he had expanded his kingdom from Ladakh in the north to the borders of Sindh, and from Khyber Pass in the west to the river Sutlej in the east.",
+  "url": "https://en.wikipedia.org/wiki/Ranjit_Singh",
+  "qid": "Q332620",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Maharaj_Ranjit_Singh.jpg/330px-Maharaj_Ranjit_Singh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Maharaj_Ranjit_Singh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Ranjit Singh"
+  ],
+  "labels": {
+   "hi": "महाराजा रणजीत सिंह",
+   "mr": "रणजितसिंग"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B0%E0%A4%A3%E0%A4%9C%E0%A4%BF%E0%A4%A4_%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9",
+  "dates": {
+   "born": {
+    "value": "1780-11-13",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1839-06-27",
+    "precision": "day"
+   }
+  }
+ },
+ "duleep-singh": {
+  "id": "duleep-singh",
+  "type": "person",
+  "title": "Duleep Singh",
+  "description": "Maharaja of Punjab, Kashmir and Jammu",
+  "extract": "Maharaja Sir Duleep Singh , also spelled Dalip Singh, and later in life nicknamed the \"Black Prince of Perthshire\", was the last Maharaja of the Sikh Empire. He was Maharaja Ranjit Singh's youngest son, the only child of Maharani Jind Kaur.",
+  "url": "https://en.wikipedia.org/wiki/Duleep_Singh",
+  "qid": "Q333140",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Maharajah_Duleep_Singh_dressed_for_a_State_function%2C_c._1875.jpg/330px-Maharajah_Duleep_Singh_dressed_for_a_State_function%2C_c._1875.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Maharajah_Duleep_Singh_dressed_for_a_State_function%2C_c._1875.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Duleep Singh"
+  ],
+  "labels": {
+   "hi": "दलीप सिंह"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1838-09-06",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1893-10-22",
+    "precision": "day"
+   }
+  }
+ },
+ "wajid-ali-shah": {
+  "id": "wajid-ali-shah",
+  "type": "person",
+  "title": "Wajid Ali Shah",
+  "description": "Nawab of Awadh from 1847 to 1856",
+  "extract": "Mirza Wajid Ali Shah was the eleventh and last King of Awadh, holding the position for 9 years, from 13 February 1847 to 11 February 1856.",
+  "url": "https://en.wikipedia.org/wiki/Wajid_Ali_Shah",
+  "qid": "Q3635804",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Vajid_Ali_Shah.jpg/330px-Vajid_Ali_Shah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Vajid_Ali_Shah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Wajid Ali Shah"
+  ],
+  "labels": {
+   "hi": "वाजिद अली शाह"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1822-07-30",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1887-09-21",
+    "precision": "day"
+   }
+  }
+ },
+ "mangal-pandey": {
+  "id": "mangal-pandey",
+  "type": "person",
+  "title": "Mangal Pandey",
+  "description": "Indian soldier and freedom fighter (1827–1857)",
+  "extract": "Mangal Pandey was an Indian soldier who played a key role in the events that led to the Indian Rebellion of 1857, which resulted in the dissolution of the East India Company and the beginning of the British Raj through the Government of India Act 1858. He was a sepoy in the 34th Regiment of the Bengal Native Infantry. In 1984, the Republic of India issued a postage stamp in his memory. His life and actions have also been portrayed in several Indian cinematic productions.",
+  "url": "https://en.wikipedia.org/wiki/Mangal_Pandey",
+  "qid": "Q382027",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Mangal_Pandey_1984_stamp_of_India.jpg/330px-Mangal_Pandey_1984_stamp_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Mangal_Pandey_1984_stamp_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Mangal Pandey"
+  ],
+  "labels": {
+   "hi": "मंगल पांडे",
+   "mr": "मंगल पांडे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%82%E0%A4%97%E0%A4%B2_%E0%A4%AA%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1827-07-19",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1857-04-07",
+    "precision": "day"
+   }
+  }
+ },
+ "canning": {
+  "id": "canning",
+  "type": "person",
+  "title": "Lord Canning",
+  "description": "English statesman and Governor-General of India",
+  "extract": "Charles John Canning, 1st Earl Canning, also styled Viscount Canning and referred to as \"Clemency Canning\", was a British politician and Governor-General of India during the Indian Rebellion of 1857. He was the first Viceroy of India after the transfer of power from the East India Company to the Crown of Queen Victoria in 1858 after the rebellion was crushed.",
+  "url": "https://en.wikipedia.org/wiki/Charles_Canning%2C_1st_Earl_Canning",
+  "qid": "Q335786",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Charles_Canning%2C_1st_Earl_Canning.jpg/330px-Charles_Canning%2C_1st_Earl_Canning.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Charles_Canning%2C_1st_Earl_Canning.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Canning"
+  ],
+  "labels": {
+   "hi": "लॉर्ड कैनिंग",
+   "mr": "लॉर्ड कॅनिंग"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%A1_%E0%A4%95%E0%A5%85%E0%A4%A8%E0%A4%BF%E0%A4%82%E0%A4%97",
+  "dates": {
+   "born": {
+    "value": "1812-12-14",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1862-06-17",
+    "precision": "day"
+   }
+  }
+ },
+ "queen-victoria": {
+  "id": "queen-victoria",
+  "type": "person",
+  "title": "Queen Victoria",
+  "description": "Queen of the United Kingdom from 1837 to 1901",
+  "extract": "Victoria was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901. Her reign of 63 years and 216 days, which was longer than those of any of her predecessors, constituted the Victorian era, a period of industrial, political, scientific, and military change within the United Kingdom marked by a great expansion of the British Empire. In 1876, the British parliament voted to grant her the additional title of Empress of India.",
+  "url": "https://en.wikipedia.org/wiki/Queen_Victoria",
+  "qid": "Q9439",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/330px-Queen_Victoria_by_Bassano.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Queen_Victoria_by_Bassano.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Queen Victoria",
+   "Victoria"
+  ],
+  "labels": {
+   "hi": "विक्टोरिया",
+   "mr": "व्हिक्टोरिया राणी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A5%8D%E0%A4%B9%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%B0%E0%A4%BE%E0%A4%A3%E0%A5%80",
+  "dates": {
+   "born": {
+    "value": "1819-05-24",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1901-01-22",
+    "precision": "day"
+   }
+  }
+ },
+ "catherine-braganza": {
+  "id": "catherine-braganza",
+  "type": "person",
+  "title": "Catherine of Braganza",
+  "description": "Queen of England, Scotland and Ireland from 1662 to 1685",
+  "extract": "Catherine of Braganza was Queen of England, Scotland and Ireland from 21 May 1662 to 6 February 1685, through her marriage to Charles II of England. After his death, Catherine returned to Portugal and served as regent for her brother Peter II in 1701, and again in 1704–1705.",
+  "url": "https://en.wikipedia.org/wiki/Catherine_of_Braganza",
+  "qid": "Q176253",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Sir_Peter_Lely_%281618-80%29_-_Catherine_of_Braganza_%281638-1705%29_-_RCIN_401214_-_Royal_Collection.jpg/330px-Sir_Peter_Lely_%281618-80%29_-_Catherine_of_Braganza_%281638-1705%29_-_RCIN_401214_-_Royal_Collection.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sir_Peter_Lely_%281618-80%29_-_Catherine_of_Braganza_%281638-1705%29_-_RCIN_401214_-_Royal_Collection.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Catherine of Braganza"
+  ],
+  "labels": {
+   "hi": "कैथरीन दे ब्रागान्ज़ा",
+   "mr": "ब्रगांझाची कॅथेरीन"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%97%E0%A4%BE%E0%A4%82%E0%A4%9D%E0%A4%BE%E0%A4%9A%E0%A5%80_%E0%A4%95%E0%A5%85%E0%A4%A5%E0%A5%87%E0%A4%B0%E0%A5%80%E0%A4%A8",
+  "dates": {
+   "born": {
+    "value": "1638-11-25",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1705-12-31",
+    "precision": "day"
+   }
+  }
+ },
+ "curzon": {
+  "id": "curzon",
+  "type": "person",
+  "title": "Lord Curzon",
+  "description": "Viceroy of India from 1899 to 1905",
+  "extract": "George Nathaniel Curzon, 1st Marquess Curzon of Kedleston, known as Lord Curzon, was a British statesman, Conservative politician, explorer and writer who served as Viceroy of India from 1899 to 1905 and Foreign Secretary from 1919 to 1924.",
+  "url": "https://en.wikipedia.org/wiki/George_Curzon%2C_1st_Marquess_Curzon_of_Kedleston",
+  "qid": "Q271878",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/George_Curzon2.jpg/330px-George_Curzon2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/George_Curzon2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Curzon"
+  ],
+  "labels": {
+   "hi": "लॉर्ड कर्जन",
+   "mr": "जॉर्ज नथानियेल कर्झन"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9C%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%9C_%E0%A4%A8%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%87%E0%A4%B2_%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%9D%E0%A4%A8",
+  "dates": {
+   "born": {
+    "value": "1859-01-11",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1925-03-20",
+    "precision": "day"
+   }
+  }
+ },
+ "ao-hume": {
+  "id": "ao-hume",
+  "type": "person",
+  "title": "Allan Octavian Hume",
+  "description": "British politician and civil servant (1829–1912)",
+  "extract": "Allan Octavian Hume was a British political reformer, ornithologist, civil servant and botanist who worked in British India and was the founding spirit and key founder of the Indian National Congress. He was a proponent of Indian self-rule and strongly supported the idea of Indian independence. He supported the idea of self-governance by Indians. A notable ornithologist, Hume has been called \"the Father of Indian Ornithology\" and, by those who found him dogmatic, \"the Pope of Indian Ornithology\".",
+  "url": "https://en.wikipedia.org/wiki/Allan_Octavian_Hume",
+  "qid": "Q455438",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/A_O_Hume.jpg/330px-A_O_Hume.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/A_O_Hume.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "A. O. Hume",
+   "Hume"
+  ],
+  "labels": {
+   "hi": "एलेन ह्यूम",
+   "mr": "ॲलन ऑक्टेवियन ह्यूम"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A5%B2%E0%A4%B2%E0%A4%A8_%E0%A4%91%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%87%E0%A4%B5%E0%A4%BF%E0%A4%AF%E0%A4%A8_%E0%A4%B9%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%AE",
+  "dates": {
+   "born": {
+    "value": "1829-06-04",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1912-07-31",
+    "precision": "day"
+   }
+  }
+ },
+ "dadabhai-naoroji": {
+  "id": "dadabhai-naoroji",
+  "type": "person",
+  "title": "Dadabhai Naoroji",
+  "description": "Indian politician, scholar and writer (1825–1917)",
+  "extract": "Dadabhai Naoroji was an Indian political leader, merchant, scholar, and writer who played a role in both Indian and British public life. He was among the founding members of the Indian National Congress and served as its President on three occasions, from 1886-87, 1893-94 and 1906-07. Naoroji's early career included serving as the Diwan of Baroda in 1874. Subsequently, he moved to England, where he continued to advocate for Indian interests. In 1892, he was elected to the House of Commons as a Liberal Party Member of Parliament, representing Finsbury Central until losing his seat to William Massey-Mainwaring at the 1895 general election. He was the second person of Asian descent to become a British MP following David Ochterlony Dyce Sombre, who was an Anglo Indian MP.",
+  "url": "https://en.wikipedia.org/wiki/Dadabhai_Naoroji",
+  "qid": "Q10240",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Dadabhai_Naoroji_1889.jpg/330px-Dadabhai_Naoroji_1889.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Dadabhai_Naoroji_1889.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Dadabhai Naoroji"
+  ],
+  "labels": {
+   "hi": "दादा भाई नौरोजी",
+   "mr": "दादाभाई नौरोजी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BE%E0%A4%AD%E0%A4%BE%E0%A4%88_%E0%A4%A8%E0%A5%8C%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A5%80",
+  "dates": {
+   "born": {
+    "value": "1825-09-04",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1917-06-30",
+    "precision": "day"
+   }
+  }
+ },
+ "gokhale": {
+  "id": "gokhale",
+  "type": "person",
+  "title": "Gopal Krishna Gokhale",
+  "description": "Indian political leader and social reformer (1866–1915)",
+  "extract": "Gopal Krishna Gokhale was an Indian political leader and a social reformer during the Indian independence movement, and political mentor of Indian freedom fighter Mahatma Gandhi. Gokhale was a senior leader of the Indian National Congress and the founder of the Servants of India Society. Through the Society as well as the Congress and other legislative bodies he served in, Gokhale campaigned for Indian self-rule and social reforms. He was the leader of the moderate faction of the Congress that advocated reforms by working with existing government institutions, and a major member of the Poona Association or the Poona Sarvajanik Sabha.",
+  "url": "https://en.wikipedia.org/wiki/Gopal_Krishna_Gokhale",
+  "qid": "Q313299",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/GKGokhale.jpg/330px-GKGokhale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/GKGokhale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Gopal Krishna Gokhale",
+   "Gokhale"
+  ],
+  "labels": {
+   "hi": "गोपाल कृष्ण गोखले",
+   "mr": "गोपाळ कृष्ण गोखले"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%AA%E0%A4%BE%E0%A4%B3_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A3_%E0%A4%97%E0%A5%8B%E0%A4%96%E0%A4%B2%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1866-05-09",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1915-02-19",
+    "precision": "day"
+   }
+  }
+ },
+ "tilak": {
+  "id": "tilak",
+  "type": "person",
+  "title": "Bal Gangadhar Tilak",
+  "description": "Indian self-rule activist (1856–1920)",
+  "extract": "Bal Gangadhar Tilak, was an Indian nationalist and self-rule activist in the Indian independence movement. He was one third of the Lal Bal Pal triumvirate. The honorific \"Lokmanya\" was applied to him by his supporters.",
+  "url": "https://en.wikipedia.org/wiki/Bal_Gangadhar_Tilak",
+  "qid": "Q312555",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Bal_Gangadhar_Tilak_%281856-1920%29.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Bal_Gangadhar_Tilak_%281856-1920%29.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Bal Gangadhar Tilak",
+   "Tilak"
+  ],
+  "labels": {
+   "hi": "लोकमान्य बाल गंगाधर तिलक",
+   "mr": "बाळ गंगाधर टिळक"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF_%E0%A4%9F%E0%A4%BF%E0%A4%B3%E0%A4%95",
+  "dates": {
+   "born": {
+    "value": "1856-07-23",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1920-09-01",
+    "precision": "day"
+   }
+  }
+ },
+ "chapekar-brothers": {
+  "id": "chapekar-brothers",
+  "type": "person",
+  "title": "Chapekar brothers",
+  "description": "Indian revolutionaries who assassinated a British official in Pune (1897)",
+  "extract": "The Chapekar Brothers, Damodar Hari Chapekar, Balkrishna Hari Chapekar and Vasudeo Hari Chapekar, also spelt Wasudeva or Wasudev, were Indian revolutionaries involved in assassinating W. C. Rand, the British Plague Commissioner of Poona, after the public of Poona were frustrated with the actions of officers and soldiers appointed by him. Mahadev Vinayak Ranade was also an accomplice in the assassination.",
+  "url": "https://en.wikipedia.org/wiki/Chapekar_brothers",
+  "qid": "Q3633211",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Revolutionary%2C_Damodar_Hari_Chapekar.jpg/330px-Revolutionary%2C_Damodar_Hari_Chapekar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Revolutionary%2C_Damodar_Hari_Chapekar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Chapekar brothers"
+  ],
+  "labels": {
+   "hi": "चाफेकर भाई",
+   "mr": "चाफेकर बंधू"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9A%E0%A4%BE%E0%A4%AB%E0%A5%87%E0%A4%95%E0%A4%B0_%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%82",
+  "dates": {}
+ },
+ "vivekananda": {
+  "id": "vivekananda",
+  "type": "person",
+  "title": "Swami Vivekananda",
+  "description": "Indian monk and philosopher (1863–1902)",
+  "extract": "Swami Vivekananda, born Narendranath Datta, was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna. Vivekananda was a major figure in the introduction of Vedanta and Yoga to the Western world during the late 19th century, and is credited with raising interfaith awareness and elevating Hinduism to the status of a major world religion.",
+  "url": "https://en.wikipedia.org/wiki/Swami_Vivekananda",
+  "qid": "Q47478",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Swami_Vivekananda-1893-09-signed.jpg/330px-Swami_Vivekananda-1893-09-signed.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Swami_Vivekananda-1893-09-signed.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Vivekananda"
+  ],
+  "labels": {
+   "hi": "स्वामी विवेकानन्द",
+   "mr": "स्वामी विवेकानंद"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%AE%E0%A5%80_%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%82%E0%A4%A6",
+  "dates": {
+   "born": {
+    "value": "1863-01-12",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1902-07-04",
+    "precision": "day"
+   }
+  }
+ },
+ "savitribai-phule": {
+  "id": "savitribai-phule",
+  "type": "person",
+  "title": "Savitribai Phule",
+  "description": "Indian educator and social reformer (1831–1897)",
+  "extract": "Savitribai Phule was an Indian educator, social reformer, and poet, widely regarded as the first Indian female teacher. Along with her husband, Jyotirao Phule, she took a pivotal role in advancing women's rights and education in Maharashtra, leaving a legacy that continues to influence social reform movements across India. She is also considered a front runner of India's feminist movement. She worked to abolish discrimination and the unfair treatment of people based on caste and gender. Savitribai Phule and her husband were trailblazers in women's education in India. In 1848, together with Jyotirao and Sagunabai Kshirsagar, she established the first school for girls at the residence of Tatyasaheb Bhide, known as Bhide Wada in Pune, on a progressive syllabus of mathematics, science, and social studies, in spite of strong opposition from society. By 1851, they had established three girls' schools in Pune, with around 150 students. In total, the couple opened 18 schools. Later, she also co-founded the Satyashodhak Samaj in 1873 and led its women's wing.",
+  "url": "https://en.wikipedia.org/wiki/Savitribai_Phule",
+  "qid": "Q2645692",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Savitribai_Phule_statue%2C_Maharashtra_sadan%2C_New_Delhi.jpg/330px-Savitribai_Phule_statue%2C_Maharashtra_sadan%2C_New_Delhi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Savitribai_Phule_statue%2C_Maharashtra_sadan%2C_New_Delhi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Savitribai Phule"
+  ],
+  "labels": {
+   "hi": "सावित्रीबाई फुले",
+   "mr": "सावित्रीबाई फुले"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AC%E0%A4%BE%E0%A4%88_%E0%A4%AB%E0%A5%81%E0%A4%B2%E0%A5%87",
+  "dates": {
+   "born": {
+    "value": "1831-01-03",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1897-03-10",
+    "precision": "day"
+   }
+  }
+ },
+ "gandhi": {
+  "id": "gandhi",
+  "type": "person",
+  "title": "Mahatma Gandhi",
+  "description": "Indian independence activist (1869–1948)",
+  "extract": "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and whose legacy would later inspire movements for civil rights and freedom across the world. The honorific Mahātmā, first applied to him in 1914 in South Africa, is now used throughout the world.",
+  "url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+  "qid": "Q1001",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/330px-Mahatma-Gandhi%2C_studio%2C_1931.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Mahatma Gandhi",
+   "Gandhi"
+  ],
+  "labels": {
+   "hi": "महात्मा गांधी",
+   "mr": "महात्मा गांधी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%BE_%E0%A4%97%E0%A4%BE%E0%A4%82%E0%A4%A7%E0%A5%80",
+  "dates": {
+   "born": {
+    "value": "1869-10-02",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1948-01-30",
+    "precision": "day"
+   }
+  }
+ },
+ "annie-besant": {
+  "id": "annie-besant",
+  "type": "person",
+  "title": "Annie Besant",
+  "description": "English writer and activist (1847–1933)",
+  "extract": "Annie Besant was an English socialist, theosophist, freemason, educationist, and activist involved in women's rights, Home Rule, and Indian nationalism. She gave support to both Irish and Indian self-rule. She had been the first female president of the Indian National Congress in 1917.",
+  "url": "https://en.wikipedia.org/wiki/Annie_Besant",
+  "qid": "Q464318",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Annie_Besant_-_portrait.jpg/330px-Annie_Besant_-_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Annie_Besant_-_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Annie Besant"
+  ],
+  "labels": {
+   "hi": "एनी बेसेन्ट",
+   "mr": "ऍनी बेझंट"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A5%B2%E0%A4%A8%E0%A5%80_%E0%A4%AC%E0%A5%87%E0%A4%9D%E0%A4%82%E0%A4%9F",
+  "dates": {
+   "born": {
+    "value": "1847-10-01",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1933-09-20",
+    "precision": "day"
+   }
+  }
+ },
+ "jinnah": {
+  "id": "jinnah",
+  "type": "person",
+  "title": "Muhammad Ali Jinnah",
+  "description": "Founder and 1st Governor-General of Pakistan (1876–1948)",
+  "extract": "Muhammad Ali Jinnah was a barrister, statesman, and the founder of Pakistan. He served as the leader of the All-India Muslim League from 1913 until the independence of Pakistan on 14 August 1947, and then as the first Governor-General of Pakistan until his death a year later in 1948.",
+  "url": "https://en.wikipedia.org/wiki/Muhammad_Ali_Jinnah",
+  "qid": "Q160554",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Jinnah1945c.jpg/330px-Jinnah1945c.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Jinnah1945c.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Jinnah"
+  ],
+  "labels": {
+   "hi": "मोहम्मद अली जिन्नाह",
+   "mr": "मोहम्मद अली जिन्ना"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A5%8B%E0%A4%B9%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%A6_%E0%A4%85%E0%A4%B2%E0%A5%80_%E0%A4%9C%E0%A4%BF%E0%A4%A8%E0%A4%BE",
+  "dates": {
+   "born": {
+    "value": "1876-12-25",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1948-09-11",
+    "precision": "day"
+   }
+  }
+ },
+ "nehru": {
+  "id": "nehru",
+  "type": "person",
+  "title": "Jawaharlal Nehru",
+  "description": "Prime Minister of India from 1947 to 1964",
+  "extract": "Jawaharlal Nehru was an Indian lawyer, anti-colonial nationalist, secular humanist, social democrat, and statesman who was a central figure in India during the middle of the 20th century. Nehru was a principal leader of the Indian nationalist movement in the 1930s and 1940s. Upon India's independence in 1947, he served as the country's first prime minister, holding office for 16 years and 286 days. Nehru promoted parliamentary democracy, secularism, and science and technology during the 1950s, powerfully influencing India's arc as a modern nation. In international affairs, he steered India clear of the two blocs of the Cold War. A well-regarded author, he wrote books such as Letters from a Father to His Daughter (1929), An Autobiography (1936) and The Discovery of India (1946), that have been read around the world.",
+  "url": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru",
+  "qid": "Q1047",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Nehru_in_the_Netherlands%2C_1957.jpg/330px-Nehru_in_the_Netherlands%2C_1957.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Nehru_in_the_Netherlands%2C_1957.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Jawaharlal Nehru",
+   "Nehru"
+  ],
+  "labels": {
+   "hi": "जवाहरलाल नेहरू",
+   "mr": "जवाहरलाल नेहरू"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9C%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%B0%E0%A4%B2%E0%A4%BE%E0%A4%B2_%E0%A4%A8%E0%A5%87%E0%A4%B9%E0%A4%B0%E0%A5%82",
+  "dates": {
+   "born": {
+    "value": "1889-11-14",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1964-05-27",
+    "precision": "day"
+   }
+  }
+ },
+ "patel": {
+  "id": "patel",
+  "type": "person",
+  "title": "Sardar Vallabhbhai Patel",
+  "description": "Indian independence activist (1875–1950)",
+  "extract": "Vallabhbhai Patel, commonly known as Sardar Patel, was a Gandhian Indian independence activist, lawyer and statesman who served as the first Deputy Prime Minister and Home Minister of India from 1947 to 1950. He was a senior leader of the Indian National Congress, who played a significant role in the Indian independence movement and India's political integration. In India and elsewhere, he was often called Sardar meaning \"chief\". He acted as the Home Minister during the political integration of India and the Indo-Pakistani War of 1947.",
+  "url": "https://en.wikipedia.org/wiki/Vallabhbhai_Patel",
+  "qid": "Q9455",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sardar_patel_%28cropped%29.jpg/330px-Sardar_patel_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sardar_patel_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Vallabhbhai Patel",
+   "Sardar Patel"
+  ],
+  "labels": {
+   "hi": "वल्लभ भाई पटेल",
+   "mr": "वल्लभभाई पटेल"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%AD%E0%A4%AD%E0%A4%BE%E0%A4%88_%E0%A4%AA%E0%A4%9F%E0%A5%87%E0%A4%B2",
+  "dates": {
+   "born": {
+    "value": "1875-10-31",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1950-12-15",
+    "precision": "day"
+   }
+  }
+ },
+ "subhas-bose": {
+  "id": "subhas-bose",
+  "type": "person",
+  "title": "Subhas Chandra Bose",
+  "description": "Indian nationalist leader (1897–1945)",
+  "extract": "Subhas Chandra Bose was an Indian anti-colonial nationalist whose defiance of British authority in India made him a hero among many Indians, but his wartime alliances with Nazi Germany and the Empire of Japan left a legacy vexed by authoritarianism, antisemitism, and military failure. The honorific Netaji was first applied to Bose in Germany in early 1942—by the Indian soldiers of the Indische Legion and by the German and Indian officials in the Special Bureau for India in Berlin. It is now used throughout India.",
+  "url": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose",
+  "qid": "Q2153",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Subhas_Chandra_Bose_NRB.jpg/330px-Subhas_Chandra_Bose_NRB.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Subhas_Chandra_Bose_NRB.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Subhas Chandra Bose"
+  ],
+  "labels": {
+   "hi": "सुभाष चन्द्र बोस",
+   "mr": "सुभाषचंद्र बोस"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A5%81%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0_%E0%A4%AC%E0%A5%8B%E0%A4%B8",
+  "dates": {
+   "born": {
+    "value": "1897-01-23",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1945-08-18",
+    "precision": "day"
+   }
+  }
+ },
+ "bhagat-singh": {
+  "id": "bhagat-singh",
+  "type": "person",
+  "title": "Bhagat Singh",
+  "description": "Indian revolutionary (1907–1931)",
+  "extract": "Bhagat Singh was an Indian anti-colonial revolutionary who participated in the mistaken murder of a junior British police officer in December 1928 in what was intended to be retaliation for the death of an Indian nationalist. He later took part in a largely symbolic bombing of the Central Legislative Assembly in Delhi and a hunger strike in jail, which—on the back of sympathetic coverage in Indian-owned newspapers—turned him into a household name in the Punjab region, and, after his execution at age 23, a martyr and folk hero in Northern India. Borrowing ideas from Bolshevism and anarchism, the charismatic Bhagat Singh electrified a growing militancy in India in the 1930s and prompted urgent introspection within the Indian National Congress's nonviolent, and eventually successful, campaign for India's independence.",
+  "url": "https://en.wikipedia.org/wiki/Bhagat_Singh",
+  "qid": "Q377808",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Lahore_conspiracy_case_poster_9th_Oct_193o_jindal_sunam_12x9_copy_%28cropped%29.jpg/330px-Lahore_conspiracy_case_poster_9th_Oct_193o_jindal_sunam_12x9_copy_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Lahore_conspiracy_case_poster_9th_Oct_193o_jindal_sunam_12x9_copy_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Bhagat Singh"
+  ],
+  "labels": {
+   "hi": "भगत सिंह",
+   "mr": "भगतसिंग"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%97%E0%A4%A4%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%97",
+  "dates": {
+   "born": {
+    "value": "1907-09-28",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1931-03-23",
+    "precision": "day"
+   }
+  }
+ },
+ "rajguru": {
+  "id": "rajguru",
+  "type": "person",
+  "title": "Shivaram Rajguru",
+  "description": "Indian anti-colonial revolutionary and independence activist (1908–1931)",
+  "extract": "Shivaram Hari Rajguru was an Indian anti-colonial revolutionary and independence activist. He is best known for his involvement in the 1928 assassination of a British police officer named John P. Saunders. He was an active member of the Hindustan Socialist Republican Association (HSRA) and on 23 March 1931, he was hanged by the British government along with his associates Bhagat Singh and Sukhdev Thapar.",
+  "url": "https://en.wikipedia.org/wiki/Shivaram_Rajguru",
+  "qid": "Q2721886",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Martyr_Shivram_Hari_Rajguru.jpg/330px-Martyr_Shivram_Hari_Rajguru.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Martyr_Shivram_Hari_Rajguru.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Rajguru"
+  ],
+  "labels": {
+   "hi": "शिवराम राजगुरु",
+   "mr": "शिवराम हरी राजगुरू"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%BE%E0%A4%AE_%E0%A4%B9%E0%A4%B0%E0%A5%80_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%97%E0%A5%81%E0%A4%B0%E0%A5%82",
+  "dates": {
+   "born": {
+    "value": "1908-08-24",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1931-03-23",
+    "precision": "day"
+   }
+  }
+ },
+ "dyer": {
+  "id": "dyer",
+  "type": "person",
+  "title": "Reginald Dyer",
+  "description": "British Indian Army officer (1864–1927)",
+  "extract": "Colonel Reginald Edward Harry Dyer, was a British military officer in the Bengal Army and later the newly constituted British Indian Army. His military career began in the regular British Army, but he soon transferred to the presidency armies of India.",
+  "url": "https://en.wikipedia.org/wiki/Reginald_Dyer",
+  "qid": "Q560470",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0d/General-Reginald-Dyer.jpg/330px-General-Reginald-Dyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/General-Reginald-Dyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Reginald Dyer",
+   "Dyer"
+  ],
+  "labels": {
+   "mr": "रेजिनाल्ड डायर",
+   "hi": "रेजिनाल्ड एडवर्ड डायर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B0%E0%A5%87%E0%A4%9C%E0%A4%BF%E0%A4%A8%E0%A4%BE%E0%A4%B2%E0%A5%8D%E0%A4%A1_%E0%A4%A1%E0%A4%BE%E0%A4%AF%E0%A4%B0",
+  "dates": {
+   "born": {
+    "value": "1864-10-09",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1927-07-23",
+    "precision": "day"
+   }
+  }
+ },
+ "mountbatten": {
+  "id": "mountbatten",
+  "type": "person",
+  "title": "Lord Mountbatten",
+  "description": "British statesman and admiral (1900–1979)",
+  "extract": "Louis Francis Albert Victor Nicholas Mountbatten, 1st Earl Mountbatten of Burma, commonly known as Lord Mountbatten, was a British statesman, naval officer, and member of the British royal family. A maternal uncle of Prince Philip and second cousin once removed of Queen Elizabeth II, he served in the Royal Navy during both world wars and rose to become Supreme Allied Commander, South East Asia Command, in the later stages of the Second World War. He subsequently oversaw the transition of British India to independence as the last Viceroy and the first governor-general of independent India. As the last viceroy of India, Mountbatten also oversaw its partition into the Dominions of India and Pakistan and the integration of the princely states into India.",
+  "url": "https://en.wikipedia.org/wiki/Lord_Mountbatten",
+  "qid": "Q157068",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Lord_Mountbatten_Naval_in_colour_Allan_Warren_%28cropped%29.jpg/330px-Lord_Mountbatten_Naval_in_colour_Allan_Warren_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Lord_Mountbatten_Naval_in_colour_Allan_Warren_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Mountbatten"
+  ],
+  "labels": {
+   "hi": "लुईस माउंटबेटन, बर्मा के पहले अर्ल माउंटबेटन",
+   "mr": "लुई माउंटबॅटन"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A5%81%E0%A4%88_%E0%A4%AE%E0%A4%BE%E0%A4%89%E0%A4%82%E0%A4%9F%E0%A4%AC%E0%A5%85%E0%A4%9F%E0%A4%A8",
+  "dates": {
+   "born": {
+    "value": "1900-06-25",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1979-08-27",
+    "precision": "day"
+   }
+  }
+ },
+ "savarkar": {
+  "id": "savarkar",
+  "type": "person",
+  "title": "V. D. Savarkar",
+  "description": "Indian politician and ideologue (1883–1966)",
+  "extract": "Vinayak Damodar Savarkar was an Indian politician and ideologue. He developed the Hindu nationalist political ideology of Hindutva in his 1923 pamphlet entitled Essentials of Hindutva, published while he was incarcerated at Ratnagiri.",
+  "url": "https://en.wikipedia.org/wiki/Vinayak_Damodar_Savarkar",
+  "qid": "Q471040",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Swatyantra_Vir_Savarkar.jpg/330px-Swatyantra_Vir_Savarkar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Swatyantra_Vir_Savarkar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Savarkar"
+  ],
+  "labels": {
+   "hi": "विनायक दामोदर सावरकर",
+   "mr": "विनायक दामोदर सावरकर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BE%E0%A4%AF%E0%A4%95_%E0%A4%A6%E0%A4%BE%E0%A4%AE%E0%A5%8B%E0%A4%A6%E0%A4%B0_%E0%A4%B8%E0%A4%BE%E0%A4%B5%E0%A4%B0%E0%A4%95%E0%A4%B0",
+  "dates": {
+   "born": {
+    "value": "1883-05-28",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1966-02-26",
+    "precision": "day"
+   }
+  }
+ },
+ "lajpat-rai": {
+  "id": "lajpat-rai",
+  "type": "person",
+  "title": "Lala Lajpat Rai",
+  "description": "Indian nationalist politician and independence activist (1865–1928)",
+  "extract": "Lala Lajpat Rai was an Indian nationalist revolutionary and author, popularly known as Punjab Kesari. He was one of the three members of the Lal Bal Pal trio. He died of severe trauma injuries sustained in October 1928 during a British-ordered baton charge by police in Lahore, when he led a peaceful protest march against the all-British Simon Commission.",
+  "url": "https://en.wikipedia.org/wiki/Lala_Lajpat_Rai",
+  "qid": "Q1395763",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Mahatma_Lala_Lajpat_Rai.jpg/330px-Mahatma_Lala_Lajpat_Rai.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Mahatma_Lala_Lajpat_Rai.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Lala Lajpat Rai"
+  ],
+  "labels": {
+   "hi": "लाला लाजपत राय",
+   "mr": "लाला लाजपत राय"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BE%E0%A4%B2%E0%A4%BE_%E0%A4%B2%E0%A4%9C%E0%A4%AA%E0%A4%A4_%E0%A4%B0%E0%A4%BE%E0%A4%AF",
+  "dates": {
+   "born": {
+    "value": "1865-01-28",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1928-11-17",
+    "precision": "day"
+   }
+  }
+ },
+ "kolkata": {
+  "id": "kolkata",
+  "type": "place",
+  "title": "Calcutta (Kolkata)",
+  "description": "Capital of West Bengal, India",
+  "extract": "Kolkata, also known as Calcutta, is the capital and largest city of the Indian state of West Bengal. It lies on the eastern bank of the Hooghly River, 80 km (50 mi) west of the border with Bangladesh. It is the primary financial and commercial centre of eastern India and one of the gateways to northeastern India. Kolkata is the seventh most populous city in India with an estimated city proper population of 4.5 million while its metropolitan region Kolkata Metropolitan Area is the third most populous metropolitan region of India with a metro population of over 15 million. Kolkata is regarded by many sources as the cultural capital of India and a historically and culturally significant city in the historic region of Bengal.",
+  "url": "https://en.wikipedia.org/wiki/Kolkata",
+  "qid": "Q1348",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Kolkata_maidan.jpg/330px-Kolkata_maidan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kolkata_maidan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 22.5675,
+   "lon": 88.37
+  },
+  "aliases": [
+   "Calcutta"
+  ],
+  "labels": {
+   "hi": "कोलकाता",
+   "mr": "कोलकाता"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B2%E0%A4%95%E0%A4%BE%E0%A4%A4%E0%A4%BE",
+  "dates": {}
+ },
+ "mumbai": {
+  "id": "mumbai",
+  "type": "place",
+  "title": "Bombay (Mumbai)",
+  "description": "Capital of Maharashtra, India",
+  "extract": "Mumbai, also known as Bombay, is the capital city of the Indian state of Maharashtra and the financial capital of India. Located on the Konkan coast along the west coast of India, it has a deep natural harbour. As per the 2011 Census of India, it is the most populous city proper in India, with a population of almost 12.5 million, while the Mumbai Metropolitan Region, which is among the most populous metropolitan areas in the world, has a population of over 20 million. The city forms part of the Mumbai City and Mumbai Suburban districts and is administered by the Brihanmumbai Municipal Corporation, which was established in 1888.",
+  "url": "https://en.wikipedia.org/wiki/Mumbai",
+  "qid": "Q1156",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mumbai_Bandra-Worli_Sea_Link.jpg/330px-Mumbai_Bandra-Worli_Sea_Link.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mumbai_Bandra-Worli_Sea_Link.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 19.07611111,
+   "lon": 72.8775
+  },
+  "aliases": [
+   "Bombay"
+  ],
+  "labels": {
+   "hi": "मुम्बई",
+   "mr": "मुंबई"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%82%E0%A4%AC%E0%A4%88",
+  "dates": {
+   "founded": {
+    "value": "1507",
+    "precision": "year"
+   }
+  }
+ },
+ "fort-william": {
+  "id": "fort-william",
+  "type": "place",
+  "title": "Fort William",
+  "description": "Historic military fort in Kolkata, India",
+  "extract": "Fort William, officially Vijay Durg, is a fort in Hastings, Calcutta (Kolkata). It was built during the early years of Britain's administration of Bengal. It sits on the eastern banks of the River Hooghly, the major distributary of the River Ganga. One of Kolkata's most enduring British-era military fortifications, it extends over an area of seventy hectares.",
+  "url": "https://en.wikipedia.org/wiki/Fort_William%2C_West_Bengal",
+  "qid": "Q2750027",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Fortwilliam1828.jpg/330px-Fortwilliam1828.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Fortwilliam1828.jpg/3840px-Fortwilliam1828.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 22.5577,
+   "lon": 88.338
+  },
+  "aliases": [
+   "Fort William"
+  ],
+  "labels": {
+   "hi": "फोर्ट विलियम"
+  },
+  "mrUrl": null,
+  "dates": {
+   "founded": {
+    "value": "1696",
+    "precision": "year"
+   }
+  }
+ },
+ "arcot": {
+  "id": "arcot",
+  "type": "place",
+  "title": "Arcot",
+  "description": "Town in Ranipet",
+  "extract": "Arcot is a Town and Taluk of Ranipet district in the Indian state of Tamil Nadu. Located on the southern banks of Palar River, the city straddles a trade route between Chennai and Bangalore and Salem, between the Mysore Ghat and the Javadi Hills.",
+  "url": "https://en.wikipedia.org/wiki/Arcot%2C_Tamil_Nadu",
+  "qid": "Q589185",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Delhi_gate_-_river_side_view.jpg/330px-Delhi_gate_-_river_side_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Delhi_gate_-_river_side_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 12.9047,
+   "lon": 79.3238
+  },
+  "aliases": [
+   "Arcot"
+  ],
+  "labels": {
+   "hi": "आर्कोट"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "wandiwash": {
+  "id": "wandiwash",
+  "type": "place",
+  "title": "Wandiwash (Vandavasi)",
+  "description": "Town in Tiruvannamalai district, Tamil Nadu, India",
+  "extract": "Vandavasi, historically rendered in English as Wandiwash, is a municipality in Vandavasi taluk of Tiruvannamalai district in Tamil Nadu, India. The taluk is administered within the Cheyyar revenue division and is recorded as containing 161 revenue villages. An area of 9.71 km² is listed for the municipality, within which a population of 31,320 was recorded in the 2011 census, comprising 15,566 males and 15,754 females distributed among 24 wards.",
+  "url": "https://en.wikipedia.org/wiki/Vandavasi",
+  "qid": "Q2465640",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Vandavasi_Fort.jpg/330px-Vandavasi_Fort.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Vandavasi_Fort.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 12.5,
+   "lon": 79.62
+  },
+  "aliases": [
+   "Wandiwash"
+  ],
+  "labels": {
+   "hi": "वंदावसी"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "plassey": {
+  "id": "plassey",
+  "type": "place",
+  "title": "Plassey (Palashi)",
+  "description": "Town in West Bengal, India",
+  "extract": "Palashi or Plassey is a town on the east bank of Bhagirathi River, located approximately 50 kilometres north of the city of Krishnanagar in Kaliganj CD Block in the Nadia district of West Bengal, India.",
+  "url": "https://en.wikipedia.org/wiki/Palashi",
+  "qid": "Q3346548",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Plassey_Railway_Station_display.jpg/330px-Plassey_Railway_Station_display.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Plassey_Railway_Station_display.jpg/3840px-Plassey_Railway_Station_display.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 23.8,
+   "lon": 88.25
+  },
+  "aliases": [
+   "Plassey"
+  ],
+  "labels": {
+   "hi": "पलाशी",
+   "mr": "पलाशी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AA%E0%A4%B2%E0%A4%BE%E0%A4%B6%E0%A5%80",
+  "dates": {}
+ },
+ "meerut": {
+  "id": "meerut",
+  "type": "place",
+  "title": "Meerut",
+  "description": "Metropolis in Uttar Pradesh, India",
+  "extract": "Meerut is a city that serves as the administrative headquarters of the Meerut district in the Indian state of Uttar Pradesh. The city lies in western Uttar Pradesh and is part of the Indian National Capital Region (NCR). Meerut is located 80 km (50 mi) northeast of the national capital, New Delhi, and 480 km (300 mi) northwest of the state capital, Lucknow. As of 2025, Meerut's urban (metro) population is estimated at ≈ 1.875 million. The population of Meerut Municipal Corporation is projected to be about 1.907 million, while the wider Meerut metropolitan region is estimated at approximately 2.077 million. Meerut is the second or third-most populous city in NCR, after Delhi and Ghaziabad.",
+  "url": "https://en.wikipedia.org/wiki/Meerut",
+  "qid": "Q200237",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Mustafa_Castle_--_night_shot.jpg/330px-Mustafa_Castle_--_night_shot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mustafa_Castle_--_night_shot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 28.98,
+   "lon": 77.71
+  },
+  "aliases": [
+   "Meerut"
+  ],
+  "labels": {
+   "hi": "मेरठ",
+   "mr": "मेरठ"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A4%A0",
+  "dates": {}
+ },
+ "lucknow": {
+  "id": "lucknow",
+  "type": "place",
+  "title": "Lucknow",
+  "description": "Capital of Uttar Pradesh, India",
+  "extract": "Lucknow is a metropolis and the second largest city of the Indian state of Uttar Pradesh where it serves as the capital and the administrative headquarters of the eponymous district and division. The city had a population of 2.8 million according to the 2011 census, making it the eleventh most populous city and the twelfth-most populous urban agglomeration of India. It is an important centre of education, commerce, aerospace, finance, pharmaceuticals, information technology, design, gastronomy, literature, arts, tourism, music, and poetry. Lucknow, along with Agra and Varanasi, forms the backbone of the Uttar Pradesh Heritage Arc.",
+  "url": "https://en.wikipedia.org/wiki/Lucknow",
+  "qid": "Q47916",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Harzratganj_Market%2C_Lucknow.jpg/330px-Harzratganj_Market%2C_Lucknow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Harzratganj_Market%2C_Lucknow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 26.85,
+   "lon": 80.95
+  },
+  "aliases": [
+   "Lucknow"
+  ],
+  "labels": {
+   "hi": "लखनऊ",
+   "mr": "लखनौ"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A4%96%E0%A4%A8%E0%A5%8C",
+  "dates": {}
+ },
+ "kanpur": {
+  "id": "kanpur",
+  "type": "place",
+  "title": "Kanpur (Cawnpore)",
+  "description": "Metropolis in Uttar Pradesh, India",
+  "extract": "Kanpur, originally named Kanhapur and formerly anglicized as Cawnpore, is a large city in the Indian state of Uttar Pradesh. Founded by Rajput ruler Hindu Singh Chandel, Kanpur became one of the most important commercial and military stations of British Raj.",
+  "url": "https://en.wikipedia.org/wiki/Kanpur",
+  "qid": "Q66568",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/J.K._Temple_%28cropped%29.jpg/330px-J.K._Temple_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/J.K._Temple_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 26.449923,
+   "lon": 80.331874
+  },
+  "aliases": [
+   "Kanpur",
+   "Cawnpore"
+  ],
+  "labels": {
+   "hi": "कानपुर",
+   "mr": "कानपूर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%AA%E0%A5%82%E0%A4%B0",
+  "dates": {}
+ },
+ "jallianwala": {
+  "id": "jallianwala",
+  "type": "place",
+  "title": "Jallianwala Bagh",
+  "description": "Garden and memorial in Punjab, India",
+  "extract": "Jallianwala Bagh is a historic garden and memorial of national importance close to the Golden Temple complex in Amritsar, Punjab, India, preserved in the memory of those wounded and killed in the Jallianwala Bagh Massacre that took place on the site on the festival of Baisakhi Day, 13 April 1919. The 7-acre (28,000 m2) site houses a museum, gallery and several memorial structures. It is managed by the Jallianwala Bagh National Memorial Trust, and will be renovated between 2025 and 2027.",
+  "url": "https://en.wikipedia.org/wiki/Jallianwala_Bagh",
+  "qid": "Q10904104",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Jallianwala_Bagh%2C_Amritsar_01.jpg/330px-Jallianwala_Bagh%2C_Amritsar_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Jallianwala_Bagh%2C_Amritsar_01.jpg/3840px-Jallianwala_Bagh%2C_Amritsar_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 31.620521,
+   "lon": 74.880565
+  },
+  "aliases": [
+   "Jallianwala Bagh"
+  ],
+  "labels": {
+   "mr": "जलियांवाला बाग",
+   "hi": "jalianwala bagh"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A4%BE_%E0%A4%AC%E0%A4%BE%E0%A4%97",
+  "dates": {}
+ },
+ "amritsar": {
+  "id": "amritsar",
+  "type": "place",
+  "title": "Amritsar",
+  "description": "Metropolis in Punjab, India",
+  "extract": "Amritsar, also known as Ambarsar, is the second-largest city in the Indian state of Punjab, after Ludhiana. Located in the Majha region, it is a major cultural, transportation and economic centre. The city is the administrative headquarters of the Amritsar district. It is situated 217 km (135 mi) north-west of Chandigarh, and 455 km (283 mi) north-west of New Delhi. It is 28 km (17.4 mi) from the India-Pakistan border, and 47 km (29 mi) north-east of Lahore, Pakistan.",
+  "url": "https://en.wikipedia.org/wiki/Amritsar",
+  "qid": "Q48403",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Golden_Temple_Amritsar_Gurudwara_%28cropped%29.jpg/330px-Golden_Temple_Amritsar_Gurudwara_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Golden_Temple_Amritsar_Gurudwara_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 31.64,
+   "lon": 74.86
+  },
+  "aliases": [
+   "Amritsar"
+  ],
+  "labels": {
+   "hi": "अमृतसर",
+   "mr": "अमृतसर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%AE%E0%A5%83%E0%A4%A4%E0%A4%B8%E0%A4%B0",
+  "dates": {
+   "founded": {
+    "value": "1574",
+    "precision": "year"
+   }
+  }
+ },
+ "dandi": {
+  "id": "dandi",
+  "type": "place",
+  "title": "Dandi",
+  "description": "Village in Gujarat, India",
+  "extract": "Dandi is a village in the Jalalpore taluka, Navsari District, Gujarat, India. It is located on the coast of the Arabian Sea near the city of Navsari.",
+  "url": "https://en.wikipedia.org/wiki/Dandi%2C_Navsari",
+  "qid": "Q1026197",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/NATIONAL_SALT_SATYAGRAHA_MEMORIAL_AT_DANDI.jpg/330px-NATIONAL_SALT_SATYAGRAHA_MEMORIAL_AT_DANDI.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/NATIONAL_SALT_SATYAGRAHA_MEMORIAL_AT_DANDI.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 20.88647222,
+   "lon": 72.80094444
+  },
+  "aliases": [
+   "Dandi"
+  ],
+  "labels": {
+   "mr": "दांडी, नवसारी",
+   "hi": "दांडी, नवसारी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A6%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A5%80_%28%E0%A4%A8%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%80%29",
+  "dates": {}
+ },
+ "sabarmati": {
+  "id": "sabarmati",
+  "type": "place",
+  "title": "Sabarmati Ashram",
+  "description": "Residence of Mahatma Gandhi (1917–1930)",
+  "extract": "Sabarmati Ashram is located in the Sabarmati suburb of Ahmedabad, Gujarat, adjoining Ashram Road, on the banks of the Sabarmati River, 4 miles (6.4 km) from the town hall. This was one of the many residences of Mahatma Gandhi, who lived at Sabarmati (Gujarat) and Sevagram when he was not travelling across India or in prison. He lived in Sabarmati or Wardha for a total of twelve years with his wife, Kasturba Gandhi and followers, including Vinoba Bhave. The Bhagavad Gita was recited here daily as part of the ashram schedule.",
+  "url": "https://en.wikipedia.org/wiki/Sabarmati_Ashram",
+  "qid": "Q1410702",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/GANDHI_ASHRAM_03.jpg/330px-GANDHI_ASHRAM_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/GANDHI_ASHRAM_03.jpg/3840px-GANDHI_ASHRAM_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Sabarmati Ashram",
+   "Sabarmati"
+  ],
+  "labels": {
+   "hi": "साबरमती आश्रम",
+   "mr": "साबरमती आश्रम"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%AC%E0%A4%B0%E0%A4%AE%E0%A4%A4%E0%A5%80_%E0%A4%86%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE",
+  "dates": {
+   "founded": {
+    "value": "1915-06-25",
+    "precision": "day"
+   }
+  },
+  "coords": {
+   "lat": 23.06,
+   "lon": 72.580833
+  }
+ },
+ "chauri-chaura": {
+  "id": "chauri-chaura",
+  "type": "place",
+  "title": "Chauri Chaura",
+  "description": "Town in Uttar Pradesh, India",
+  "extract": "Chauri Chaura is a town near Gorakhpur, Uttar Pradesh, India. The town is located at a distance of 16 km from Gorakhpur, on the State Highway between Gorakhpur and Deoria. The town railway station is located 25 km south-east of Gorakhpur Junction.",
+  "url": "https://en.wikipedia.org/wiki/Chauri_Chaura",
+  "qid": "Q2600301",
+  "coords": {
+   "lat": 26.651,
+   "lon": 83.581
+  },
+  "aliases": [
+   "Chauri Chaura"
+  ],
+  "labels": {
+   "hi": "चौरी चौरा",
+   "mr": "चौरी चौरा"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9A%E0%A5%8C%E0%A4%B0%E0%A5%80_%E0%A4%9A%E0%A5%8C%E0%A4%B0%E0%A4%BE",
+  "dates": {}
+ },
+ "yerawada": {
+  "id": "yerawada",
+  "type": "place",
+  "title": "Yerawada Central Jail",
+  "description": "Prison located near Pune, India",
+  "extract": "Yerwada Central Jail is a noted high-security prison in Yerwada, Pune in Maharashtra. This is the largest prison in the state of Maharashtra, and also one of the largest prisons in South Asia, housing over 5,000 prisoners (2017) spread over various barracks and security zones, besides an open jail just outside its premises. Many well known nationalist fighters individuals including Mahatma Gandhi and \nJawaharlal Nehru have been jailed here.",
+  "url": "https://en.wikipedia.org/wiki/Yerawada_Central_Jail",
+  "qid": "Q142534",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Yerwada_jail.JPG/330px-Yerwada_jail.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Yerwada_jail.JPG/3840px-Yerwada_jail.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 18.564575,
+   "lon": 73.889651
+  },
+  "aliases": [
+   "Yerawada"
+  ],
+  "labels": {
+   "hi": "यरवदा केंद्रीय कारागार",
+   "mr": "येरवडा मध्यवर्ती कारागृह"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AF%E0%A5%87%E0%A4%B0%E0%A4%B5%E0%A4%A1%E0%A4%BE_%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80_%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%97%E0%A5%83%E0%A4%B9",
+  "dates": {
+   "founded": {
+    "value": "1871",
+    "precision": "year"
+   }
+  }
+ },
+ "gowalia-tank": {
+  "id": "gowalia-tank",
+  "type": "place",
+  "title": "Gowalia Tank (August Kranti Maidan)",
+  "description": "Park in South Mumbai, India",
+  "extract": "Gowalia Tank Maidan, officially renamed August Kranti Maidan, is a park in Grant Road West, in South Mumbai, in which Mahatma Gandhi issued the Quit India speech on 8 August 1942. It decreed that unless the British left India immediately, mass agitations would take place.",
+  "url": "https://en.wikipedia.org/wiki/Gowalia_Tank",
+  "qid": "Q5589979",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/People_teargassed_at_Gowalia_Tank_Maidan.jpg/330px-People_teargassed_at_Gowalia_Tank_Maidan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/People_teargassed_at_Gowalia_Tank_Maidan.jpg/3840px-People_teargassed_at_Gowalia_Tank_Maidan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 18.96245,
+   "lon": 72.80970278
+  },
+  "aliases": [
+   "Gowalia Tank"
+  ],
+  "labels": {
+   "mr": "gowalia tank",
+   "hi": "गोवालिया टैंक"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "mandalay": {
+  "id": "mandalay",
+  "type": "place",
+  "title": "Mandalay",
+  "description": "City in Mandalay Region, Myanmar",
+  "extract": "Mandalay is the second-largest city in Myanmar, after Yangon. It is located on the east bank of the Irrawaddy River, 631 km (392 mi) north of Yangon. In 2014, the city had a population of 1,225,553.",
+  "url": "https://en.wikipedia.org/wiki/Mandalay",
+  "qid": "Q185518",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Mandalay_-_The_worship_of_Buddha.jpg/330px-Mandalay_-_The_worship_of_Buddha.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Mandalay_-_The_worship_of_Buddha.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 21.98305556,
+   "lon": 96.08444444
+  },
+  "aliases": [
+   "Mandalay"
+  ],
+  "labels": {
+   "hi": "माण्डले",
+   "mr": "मांडले"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%82%E0%A4%A1%E0%A4%BE%E0%A4%B2%E0%A5%87",
+  "dates": {}
+ },
+ "cellular-jail": {
+  "id": "cellular-jail",
+  "type": "place",
+  "title": "Cellular Jail",
+  "description": "British colonial prison in modern day India",
+  "extract": "The Cellular Jail, also known as 'Kālā Pānī', is a former British colonial prison in the Andaman and Nicobar Islands. The prison was used by the colonial government of India for the purpose of exiling insurgents and political prisoners. Many notable independence activists were imprisoned there during the struggle for India's independence. Today, the complex serves as a national memorial monument.",
+  "url": "https://en.wikipedia.org/wiki/Cellular_Jail",
+  "qid": "Q3345501",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/330px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/3840px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Cellular Jail"
+  ],
+  "labels": {
+   "hi": "सेल्यूलर जेल",
+   "mr": "सेल्युलर जेल"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A5%87%E0%A4%B2%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%B2%E0%A4%B0_%E0%A4%9C%E0%A5%87%E0%A4%B2",
+  "dates": {
+   "founded": {
+    "value": "1906",
+    "precision": "year"
+   }
+  },
+  "coords": {
+   "lat": 11.675,
+   "lon": 92.748
+  }
+ },
+ "dhaka": {
+  "id": "dhaka",
+  "type": "place",
+  "title": "Dhaka",
+  "description": "Capital and largest city of Bangladesh",
+  "extract": "Dhaka, formerly spelled as Dacca, is the capital and largest city of Bangladesh. With an estimated population of 36.6 million, Dhaka is the second largest city by population in the world, and is widely considered to be the most densely populated built-up urban area in the world. Dhaka is an important cultural, economic, and scientific hub of Eastern South Asia. Dhaka ranks fourth in South Asia and 55th in the world in terms of GDP. Lying on the Ganges Delta, it is bounded by the Buriganga, Turag, Dhaleshwari and Shitalakshya rivers. It is also the largest Bengali-speaking city in the world.",
+  "url": "https://en.wikipedia.org/wiki/Dhaka",
+  "qid": "Q1354",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Tejgaon_Commercial_Area.jpg/330px-Tejgaon_Commercial_Area.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Tejgaon_Commercial_Area.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 23.76444444,
+   "lon": 90.38888889
+  },
+  "aliases": [
+   "Dhaka"
+  ],
+  "labels": {
+   "hi": "ढाका",
+   "mr": "ढाका"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A2%E0%A4%BE%E0%A4%95%E0%A4%BE",
+  "dates": {}
+ },
+ "new-delhi": {
+  "id": "new-delhi",
+  "type": "place",
+  "title": "New Delhi",
+  "description": "Capital city of India",
+  "extract": "New Delhi is a city and the capital city of India and a part of the National Capital Territory of Delhi (NCT). New Delhi is the seat of all three branches of the Government of India, hosting the Rashtrapati Bhavan, Sansad Bhavan, and the Supreme Court. New Delhi is a municipality within the NCT, administered by the New Delhi Municipal Council (NDMC), which covers mostly Lutyens' Delhi and a few adjacent areas. The municipal area is part of a larger administrative district, the New Delhi district.",
+  "url": "https://en.wikipedia.org/wiki/New_Delhi",
+  "qid": "Q987",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/330px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 28.6139,
+   "lon": 77.2089
+  },
+  "aliases": [
+   "New Delhi"
+  ],
+  "labels": {
+   "hi": "नई दिल्ली",
+   "mr": "नवी दिल्ली"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A8%E0%A4%B5%E0%A5%80_%E0%A4%A6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%80",
+  "dates": {
+   "founded": {
+    "value": "1911",
+    "precision": "year"
+   }
+  }
+ },
+ "cst": {
+  "id": "cst",
+  "type": "place",
+  "title": "Chhatrapati Shivaji Terminus",
+  "description": "Historic terminal train station in Mumbai, India",
+  "extract": "Chhatrapati Shivaji Terminus (CST), officially Chhatrapati Shivaji Maharaj Terminus (CSMT), and also known as Victoria Terminus (VT), its official name until 1996, is a historic railway terminus and UNESCO World Heritage Site in Mumbai (Bombay), Maharashtra, India.",
+  "url": "https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Terminus",
+  "qid": "Q235884",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chhatrapati_shivaji_terminus%2C_esterno_01.jpg/330px-Chhatrapati_shivaji_terminus%2C_esterno_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chhatrapati_shivaji_terminus%2C_esterno_01.jpg/3840px-Chhatrapati_shivaji_terminus%2C_esterno_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 18.93985,
+   "lon": 72.83544
+  },
+  "aliases": [
+   "Victoria Terminus"
+  ],
+  "labels": {
+   "hi": "छत्रपति शिवाजी महाराज टर्मिनस",
+   "mr": "छत्रपती शिवाजी महाराज टर्मिनस"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%A4%E0%A5%80_%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%9C%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%9C_%E0%A4%9F%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%BF%E0%A4%A8%E0%A4%B8",
+  "dates": {}
+ },
+ "french-india": {
+  "id": "french-india",
+  "type": "polity",
+  "title": "French India",
+  "description": "French colony on the Indian subcontinent (1664–1954)",
+  "extract": "French India, formally the Établissements français dans l'Inde, was a French colony comprising five geographically separated enclaves on the Indian subcontinent that had initially been factories of the French East India Company. They were de facto incorporated into the Republic of India in 1950 and 1954. The enclaves were Pondichéry, Karikal, Yanaon on the Coromandel Coast, Mahé on the Malabar Coast and Chandernagor in Bengal. The French also possessed several loges inside other towns, but after 1816, the British denied all French claims to these, which were not reoccupied.",
+  "url": "https://en.wikipedia.org/wiki/French_India",
+  "qid": "Q646374",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Royal_Standard_of_the_King_of_France.svg/330px-Royal_Standard_of_the_King_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Royal_Standard_of_the_King_of_France.svg/1280px-Royal_Standard_of_the_King_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "French East India Company",
+   "French"
+  ],
+  "labels": {
+   "mr": "फ्रेंच भारत",
+   "hi": "फ्रांसीसी भारत"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AB%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%82%E0%A4%9A_%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4",
+  "dates": {
+   "founded": {
+    "value": "1668",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1954-11-01",
+    "precision": "day"
+   }
+  }
+ },
+ "awadh": {
+  "id": "awadh",
+  "type": "polity",
+  "title": "Awadh",
+  "description": "Polity in the Awadh region of North India (1732–1856)",
+  "extract": "The Oudh State was a Mughal subah, then an independent kingdom, and lastly a British protectorate in the Awadh region of North India until its annexation by the British East India Company in 1856. The name Oudh, now obsolete, was once the anglicized name of the state, also written historically as Oudhe.",
+  "url": "https://en.wikipedia.org/wiki/Oudh_State",
+  "qid": "Q18129046",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/1857_Flag_of_Princely_state_of_Oudh_%28Awadh%29%2C_during_the_siege_of_Lucknow_in_1857.png/330px-1857_Flag_of_Princely_state_of_Oudh_%28Awadh%29%2C_during_the_siege_of_Lucknow_in_1857.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1857_Flag_of_Princely_state_of_Oudh_%28Awadh%29%2C_during_the_siege_of_Lucknow_in_1857.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 26.78,
+   "lon": 82.13
+  },
+  "aliases": [
+   "Awadh",
+   "Oudh"
+  ],
+  "labels": {
+   "hi": "अवध रियासत"
+  },
+  "mrUrl": null,
+  "dates": {
+   "founded": {
+    "value": "1732",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1859",
+    "precision": "year"
+   }
+  }
+ },
+ "dominion-india": {
+  "id": "dominion-india",
+  "type": "polity",
+  "title": "Dominion of India",
+  "description": "British dominion in South Asia from 1947 to 1950",
+  "extract": "The Dominion of India, officially the Union of India, was an independent dominion in the British Commonwealth of Nations existing between 15 August 1947 and 26 January 1950. Until its independence, India had been ruled as an informal empire by the United Kingdom. The empire, also called the British Raj and sometimes the British Indian Empire, consisted of regions, collectively called British India, that were directly administered by the British government, and regions, called the princely states, that were ruled by Indian rulers under a system of paramountcy, in favour of the British. The Dominion of India was formalised by the passage of the Indian Independence Act 1947. This same Act also formalised an independent Dominion of Pakistan, which was composed of the two regions of British India that are today Pakistan and Bangladesh. The Dominion of India was also referred to as \"India\" in common parlance, but it differed from British India in that it was now independent and geographically smaller: large swathes of the former territory now formed the also newly created but now distinct Dominion of Pakistan. Under the Act, the King remained the monarch in right of new dominions, but the British government relinquished all responsibility for the governing of its former territories. The British Government also revoked its treaty rights and obligations with the rulers of the more than 500 princely states within the region, and instead advised them to join in a political union with either India or Pakistan. Accordingly, the use of one of the British monarch's regnal titles, \"Emperor of India\", was abandoned.",
+  "url": "https://en.wikipedia.org/wiki/Dominion_of_India",
+  "qid": "Q1775277",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/330px-Flag_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/960px-Flag_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Dominion of India"
+  ],
+  "labels": {
+   "hi": "भारतीय अधिराज्य",
+   "mr": "भारतीय अधिराज्य"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A5%8D%E0%A4%AF",
+  "dates": {
+   "founded": {
+    "value": "1947-08-15",
+    "precision": "day"
+   },
+   "dissolved": {
+    "value": "1950-01-26",
+    "precision": "day"
+   }
+  }
+ },
+ "dominion-pakistan": {
+  "id": "dominion-pakistan",
+  "type": "polity",
+  "title": "Pakistan",
+  "description": "British dominion in South Asia from 1947 to 1956",
+  "extract": "The Dominion of Pakistan, officially Pakistan, was the Pakistani state between 1947 and 1956, when it existed as an independent federal dominion in the British Commonwealth of Nations. It was established on 14 August 1947 when it was created from British India under the Indian Independence Act 1947 of the British parliament, which also established an independent Dominion of India on 15 August. The dominion ceased to exist on 23 March 1956, when the Constituent Assembly of Pakistan adopted a constitution which established Pakistan as a republic.",
+  "url": "https://en.wikipedia.org/wiki/Dominion_of_Pakistan",
+  "qid": "Q2006542",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/330px-Flag_of_Pakistan.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/960px-Flag_of_Pakistan.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Pakistan"
+  ],
+  "labels": {
+   "hi": "पाकिस्तान अधिराज्य"
+  },
+  "mrUrl": null,
+  "dates": {
+   "founded": {
+    "value": "1947",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1956",
+    "precision": "year"
+   }
+  }
+ },
+ "congress": {
+  "id": "congress",
+  "type": "concept",
+  "title": "Indian National Congress",
+  "description": "Indian political party",
+  "extract": "The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India. It is one of the two major Indian political parties alongside the Bharatiya Janata Party, and the oldest party in India. Founded on 28 December 1885, it was the first modern nationalist movement to emerge in the British Empire in Asia and Africa. From the late 19th century, and especially after 1920, under the leadership of Mahatma Gandhi, the Congress became the principal leader of the Indian independence movement. The Congress was one of the parties who led India to independence from the United Kingdom, and significantly influenced other anti-colonial nationalist movements in the British Empire.",
+  "url": "https://en.wikipedia.org/wiki/Indian_National_Congress",
+  "qid": "Q10225",
+  "aliases": [
+   "Indian National Congress",
+   "Congress"
+  ],
+  "labels": {
+   "hi": "भारतीय राष्ट्रीय कांग्रेस",
+   "mr": "भारतीय राष्ट्रीय काँग्रेस"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF_%E0%A4%95%E0%A4%BE%E0%A4%81%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B8",
+  "dates": {
+   "founded": {
+    "value": "1885-12-28",
+    "precision": "day"
+   }
+  }
+ },
+ "muslim-league": {
+  "id": "muslim-league",
+  "type": "concept",
+  "title": "Muslim League",
+  "description": "Muslim political party in British India",
+  "extract": "The All-India Muslim League was a political party in British India active between 1906 and 1947 that advocated for Muslim interests. The party emerged from the Aligarh Movement and the broader Islamic modernist and communalist traditions, which sought to preserve the distinct social and political identity of Muslims against the more secular policies of the Indian National Congress. In December 1906, following the successful Simla Deputation in October, the All-India Muslim League was founded in the 20th session of the All-India Muhammadan Educational Conference in Dacca. It created and spearheaded the movement for the creation of Pakistan based upon the two-nation theory of the Indian scholar Syed Ahmad Khan.",
+  "url": "https://en.wikipedia.org/wiki/All-India_Muslim_League",
+  "qid": "Q223898",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pakistan_Star%26Crescent.svg/330px-Pakistan_Star%26Crescent.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pakistan_Star%26Crescent.svg/250px-Pakistan_Star%26Crescent.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Muslim League"
+  ],
+  "labels": {
+   "hi": "अखिल भारतीय मुस्लिम लीग",
+   "mr": "अखिल भारतीय मुस्लिम लीग"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%96%E0%A4%BF%E0%A4%B2_%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%AE%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%AE_%E0%A4%B2%E0%A5%80%E0%A4%97",
+  "dates": {
+   "founded": {
+    "value": "1906-12-30",
+    "precision": "day"
+   },
+   "dissolved": {
+    "value": "1947-08-14",
+    "precision": "day"
+   }
+  }
+ },
+ "ina": {
+  "id": "ina",
+  "type": "concept",
+  "title": "Indian National Army",
+  "description": "Army of Indian POWs taken Japan in WW2 and enlisting civilians",
+  "extract": "The Indian National Army was a Japanese-allied and -supported armed force constituted in Southeast Asia during World War II and led by Indian anti-colonial nationalist Subhas Chandra Bose. It consisted primarily of British Indian Army POWs taken by Japan. Indian civilians in the region were also enlisted, with around 18,000 joining. The INA aimed to liberate India from British rule. After winning Japanese assent for its goal, the INA furnished support to the Japanese Army. The Japanese and INA forces invaded India from Rangoon in 1944, and Bose's nominal Provisional Government of Azad Hind declared war on Britain. Losses inflicted by the British in the Battle of Imphal in Manipur caused the invasion to be halted. A long and exhausting withdrawal, accompanied by a lack of supplies, malnutrition, and death, ensued, some victorious soldiers in the Indian Army not taking INA battlefield surrender kindly. The remaining INA was driven down the Malay Peninsula and surrendered to Allied forces in August 1945.",
+  "url": "https://en.wikipedia.org/wiki/Indian_National_Army",
+  "qid": "Q156062",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/INA_Insignia.svg/330px-INA_Insignia.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/INA_Insignia.svg/960px-INA_Insignia.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Indian National Army"
+  ],
+  "labels": {
+   "hi": "आज़ाद हिन्द फ़ौज",
+   "mr": "आझाद हिंद फौज"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%86%E0%A4%9D%E0%A4%BE%E0%A4%A6_%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6_%E0%A4%AB%E0%A5%8C%E0%A4%9C",
+  "dates": {
+   "founded": {
+    "value": "1942",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1945",
+    "precision": "year"
+   }
+  }
+ },
+ "independence-movement": {
+  "id": "independence-movement",
+  "type": "concept",
+  "title": "Indian independence movement",
+  "description": "Movement to end British rule in India",
+  "extract": "The Indian independence movement was a series of political efforts from the mid-1880s to 1947 that took place in the Indian subcontinent with the aim of ending British colonial rule.",
+  "url": "https://en.wikipedia.org/wiki/Indian_independence_movement",
+  "qid": "Q12444025",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/India%2C_by_British_Information_Services%2C_1944_restored_version.jpg/330px-India%2C_by_British_Information_Services%2C_1944_restored_version.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/India%2C_by_British_Information_Services%2C_1944_restored_version.jpg/3840px-India%2C_by_British_Information_Services%2C_1944_restored_version.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "independence movement"
+  ],
+  "labels": {
+   "hi": "भारतीय स्वतन्त्रता आन्दोलन",
+   "mr": "भारतीय स्वातंत्र्यलढा"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A4%BE%E0%A4%9A%E0%A4%BE_%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A4%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B2%E0%A4%A2%E0%A4%BE",
+  "dates": {
+   "start": {
+    "value": "1757",
+    "precision": "year"
+   },
+   "end": {
+    "value": "1947-08-15",
+    "precision": "day"
+   }
+  }
+ },
+ "carnatic-wars": {
+  "id": "carnatic-wars",
+  "type": "concept",
+  "title": "Carnatic wars",
+  "description": "18th-century wars between the French and the British",
+  "extract": "The Carnatic wars were a series of military conflicts in the middle of the 18th century in India's coastal Carnatic region, a dependency of Hyderabad State, India. The first Carnatic wars were fought between 1740 and 1748.",
+  "url": "https://en.wikipedia.org/wiki/Carnatic_wars",
+  "qid": "Q976827",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg/330px-Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Carnatic Wars"
+  ],
+  "labels": {
+   "mr": "कर्नाटक युद्धे",
+   "hi": "कर्नाटक युद्ध"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A8%E0%A4%BE%E0%A4%9F%E0%A4%95_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A5%87",
+  "dates": {
+   "start": {
+    "value": "1746",
+    "precision": "year"
+   },
+   "end": {
+    "value": "1763",
+    "precision": "year"
+   }
+  }
+ },
+ "anglo-mysore-wars": {
+  "id": "anglo-mysore-wars",
+  "type": "concept",
+  "title": "Anglo-Mysore wars",
+  "description": "1767-1799 armed conflicts in India",
+  "extract": "The Anglo-Mysore wars were a series of four wars fought during the last three decades of the 18th century between the Sultanate of Mysore on the one hand, and the British East India Company, Maratha Empire, Kingdom of Travancore, and the Kingdom of Hyderabad on the other. Hyder Ali and his succeeding son Tipu Sultan fought the wars on four fronts: with the British attacking from the west, south and east and the Nizam's forces attacking from the north. The fourth war resulted in the overthrow of the house of Hyder Ali and Tipu, and the dismantlement of Mysore to the benefit of the East India Company, which took control of much of the Indian subcontinent.",
+  "url": "https://en.wikipedia.org/wiki/Anglo-Mysore_wars",
+  "qid": "Q617321",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/330px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/1280px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Anglo-Mysore War",
+   "Anglo-Mysore wars"
+  ],
+  "labels": {
+   "hi": "आंग्ल-मैसूर युद्ध",
+   "mr": "आंग्ल-म्हैसूर युद्धे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%87%E0%A4%82%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%9C-%E0%A4%AE%E0%A5%88%E0%A4%B8%E0%A5%82%E0%A4%B0_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A5%87",
+  "dates": {
+   "start": {
+    "value": "1767",
+    "precision": "year"
+   },
+   "end": {
+    "value": "1799",
+    "precision": "year"
+   }
+  }
+ },
+ "permanent-settlement": {
+  "id": "permanent-settlement",
+  "type": "concept",
+  "title": "Permanent Settlement",
+  "description": "Agreement between the East India Company and landlords of Bengal",
+  "extract": "The Permanent Settlement, also known as the Permanent Settlement of Bengal, was an agreement between the East India Company and landlords of Bengal to fix revenues to be raised from land. It had far-reaching consequences for both agricultural methods and productivity in the entire British Empire and the political realities of the Indian countryside. It was concluded in 1793 by the Company administration headed by Charles, Earl Cornwallis. It formed one part of a larger body of legislation that later came to be called the Cornwallis Code. The Cornwallis Code of 1793 divided the East India Company's service personnel into three branches: revenue, judicial, and commercial. Revenues were collected by zamindars, native Indians who were treated as landowners. This division created an Indian landed class that supported British authority.",
+  "url": "https://en.wikipedia.org/wiki/Permanent_Settlement",
+  "qid": "Q569762",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fc/Pope1880BengalPres2.jpg/330px-Pope1880BengalPres2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Pope1880BengalPres2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Permanent Settlement"
+  ],
+  "labels": {
+   "hi": "सदा के लिए भुगतान"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "sati-regulation": {
+  "id": "sati-regulation",
+  "type": "concept",
+  "title": "Abolition of sati (1829)",
+  "description": "Law which made the burning of widows illegal in India",
+  "extract": "The Bengal Sati Regulation, or Regulation XVII, A. D. 1829 of the Bengal Code was a legal act promulgated in British India under East India Company rule, by the then Governor-General Lord William Bentinck. The act made the practice of sati—or the immolation of a Hindu widow on the funeral pyre of her deceased husband—illegal in all jurisdictions of British India and subject to legal prosecution.",
+  "url": "https://en.wikipedia.org/wiki/Bengal_Sati_Regulation%2C_1829",
+  "qid": "Q4887658",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3c/Preparation_for_Suttee.jpg/330px-Preparation_for_Suttee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Preparation_for_Suttee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "sati"
+  ],
+  "labels": {
+   "hi": "बंगाल सती विनियमन, 1829"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "english-education-act": {
+  "id": "english-education-act",
+  "type": "concept",
+  "title": "English Education Act, 1835",
+  "description": "Legislative Act of the Council of India",
+  "extract": "The English Education Act of 1835 was a legislative act of the Council of India, which gave effect to a decision in 1835 by Lord William Bentinck, the then Governor-General of the British East India Company, to reallocate funds for education and literature in the regions governed by the British East India Company. Previously, they had given limited support to traditional Muslim and Hindu education and the publication of literature in traditional languages of education in India including Sanskrit and Persian; henceforward they intended to support establishments teaching a Western curriculum with English as the language of instruction. Together with other measures promoting English as the language of administration and of the higher law courts, this led eventually to English becoming one of the languages of India, rather than simply the native tongue of its foreign rulers.",
+  "url": "https://en.wikipedia.org/wiki/English_Education_Act%2C_1835",
+  "qid": "Q5378238",
+  "aliases": [
+   "English Education Act"
+  ],
+  "labels": {
+   "hi": "prachaya pashtaya vivad"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "regulating-act": {
+  "id": "regulating-act",
+  "type": "concept",
+  "title": "Regulating Act 1773",
+  "description": "Act of the Parliament of Great Britain",
+  "extract": "The East India Company Act 1772 was an act of the Parliament of Great Britain intended to overhaul the management of the East India Company's affairs in India (Bengal). The act did not prove to be a long-term solution to concerns over the company's affairs.",
+  "url": "https://en.wikipedia.org/wiki/Regulating_Act_1773",
+  "qid": "Q4392047",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Great_Britain_%281714%E2%80%931801%29.svg/330px-Coat_of_arms_of_Great_Britain_%281714%E2%80%931801%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Great_Britain_%281714%E2%80%931801%29.svg/960px-Coat_of_arms_of_Great_Britain_%281714%E2%80%931801%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Regulating Act"
+  ],
+  "labels": {
+   "mr": "रेग्युलेटिंग अ ॅक्ट १७७३",
+   "hi": "regulating act of 1773"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B0%E0%A5%87%E0%A4%97%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%B2%E0%A5%87%E0%A4%9F%E0%A4%BF%E0%A4%82%E0%A4%97_%E0%A4%85%E2%80%8D%E0%A5%85%E0%A4%95%E0%A5%8D%E0%A4%9F_%E0%A5%A7%E0%A5%AD%E0%A5%AD%E0%A5%A9",
+  "dates": {}
+ },
+ "pitts-india-act": {
+  "id": "pitts-india-act",
+  "type": "concept",
+  "title": "Pitt's India Act",
+  "description": "Act of the Parliament of Great Britain",
+  "extract": "The East India Company Act 1784, also known as Pitt's India Act, was an act of the Parliament of the United Kingdom intended to address the shortcomings of the East India Company Act 1772 by bringing the East India Company's rule in India under the control of the British Government. Named for British prime minister William Pitt the Younger, the act provided for the appointment of a Board of Control, and provided for a joint government of British India by the company and the Crown with the government holding the ultimate authority. A six-member board of control was set up for political activities and court of directors for financial/commercial activities. As the 1772 act had many defects, it was necessary to pass another act to remove these defects.",
+  "url": "https://en.wikipedia.org/wiki/Pitt's_India_Act",
+  "qid": "Q1507433",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Great_Britain_%281714%E2%80%931801%29.svg/330px-Coat_of_arms_of_Great_Britain_%281714%E2%80%931801%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Great_Britain_%281714%E2%80%931801%29.svg/960px-Coat_of_arms_of_Great_Britain_%281714%E2%80%931801%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Pitt's India Act"
+  ],
+  "labels": {
+   "hi": "पिट का भारत अधिनियम",
+   "mr": "पिटचा भारत कायदा"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%9A%E0%A4%BE_%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4_%E0%A4%95%E0%A4%BE%E0%A4%AF%E0%A4%A6%E0%A4%BE",
+  "dates": {}
+ },
+ "charter-act-1813": {
+  "id": "charter-act-1813",
+  "type": "concept",
+  "title": "Charter Act 1813",
+  "description": "Act of the Parliament of the United Kingdom",
+  "extract": "The East India Company Act 1813, also known as the Charter Act 1813, was an act of the Parliament of the United Kingdom that renewed the charter issued to the British East India Company, and continued the Company's rule in India. However, the Company's commercial monopoly was ended, except for the tea and opium trade and the trade with China, this reflecting the growth of British power in India. Napoleon’s Berlin Decree of 1806 and the Milan Decree of 1807 established the Continental System across Europe as it barred the import of British goods into Europe. Due to these restrictions, the British traders pressed for the dissolution of the East India Company’s trade monopoly and sought greater access to Asian markets, which was the circumstance leading to the passing of this Act. India was made into a source of raw materials as well as a market for Britain’s finished products, through the economic and cultural changes brought about by this Act.",
+  "url": "https://en.wikipedia.org/wiki/Charter_Act_1813",
+  "qid": "Q5086721",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Coat_of_Arms_of_the_United_Kingdom_%281801-1816%29.svg/330px-Coat_of_Arms_of_the_United_Kingdom_%281801-1816%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Coat_of_Arms_of_the_United_Kingdom_%281801-1816%29.svg/1920px-Coat_of_Arms_of_the_United_Kingdom_%281801-1816%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Charter Act"
+  ],
+  "labels": {
+   "mr": "चार्टर अ ॅक्ट १८१३",
+   "hi": "चार्टर अधिनियम 1813"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9A%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%B0_%E0%A4%85%E2%80%8D%E0%A5%85%E0%A4%95%E0%A5%8D%E0%A4%9F_%E0%A5%A7%E0%A5%AE%E0%A5%A7%E0%A5%A9",
+  "dates": {}
+ },
+ "goi-act-1858": {
+  "id": "goi-act-1858",
+  "type": "concept",
+  "title": "Government of India Act 1858",
+  "description": "United Kingdom legislation transferring India from company to imperial rule",
+  "extract": "The Government of India Act 1858 was an act of the Parliament of the United Kingdom passed on 2 August 1858. Its provisions called for the liquidation of the East India Company and the transferral of its functions to the British Crown.",
+  "url": "https://en.wikipedia.org/wiki/Government_of_India_Act_1858",
+  "qid": "Q1359529",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Coat_of_arms_of_the_United_Kingdom_%281837%29.svg/330px-Coat_of_arms_of_the_United_Kingdom_%281837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Coat_of_arms_of_the_United_Kingdom_%281837%29.svg/1920px-Coat_of_arms_of_the_United_Kingdom_%281837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Government of India Act 1858"
+  ],
+  "labels": {
+   "mr": "गव्हर्नमेंट ऑफ इंडिया अ‍ॅक्ट १८५८",
+   "hi": "गवर्न्मेंट आफ इंडिया एक्ट १८५८"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4_%E0%A4%B8%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0_%E0%A4%95%E0%A4%BE%E0%A4%AF%E0%A4%A6%E0%A4%BE_%E0%A5%A7%E0%A5%AE%E0%A5%AB%E0%A5%AE",
+  "dates": {
+   "start": {
+    "value": "1858-11-01",
+    "precision": "day"
+   }
+  }
+ },
+ "goi-act-1935": {
+  "id": "goi-act-1935",
+  "type": "concept",
+  "title": "Government of India Act 1935",
+  "description": "UK legislation for the colonial government of India",
+  "extract": "The Government of India Act 1935, also referred to as the Constitution Act between 1935 and 1947, was an act of the Parliament of the United Kingdom, serving as the constitution and governing document of British India in its final years until its independence and partition into the dominions of India and Pakistan.",
+  "url": "https://en.wikipedia.org/wiki/Government_of_India_Act_1935",
+  "qid": "Q3241445",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Coat_of_arms_of_the_United_Kingdom_%281901%E2%80%931952%29.svg/330px-Coat_of_arms_of_the_United_Kingdom_%281901%E2%80%931952%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Coat_of_arms_of_the_United_Kingdom_%281901%E2%80%931952%29.svg/1920px-Coat_of_arms_of_the_United_Kingdom_%281901%E2%80%931952%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Government of India Act 1935"
+  ],
+  "labels": {
+   "hi": "1935 का भारत सरकार अधिनियम",
+   "mr": "गव्हर्नमेंट ऑफ इंडिया अ ॅक्ट १९३५"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4_%E0%A4%B8%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0_%E0%A4%95%E0%A4%BE%E0%A4%AF%E0%A4%A6%E0%A4%BE_%E0%A5%A7%E0%A5%AF%E0%A5%A9%E0%A5%AB",
+  "dates": {}
+ },
+ "ics": {
+  "id": "ics",
+  "type": "concept",
+  "title": "Indian Civil Service",
+  "description": "Civil service of the British Raj (1858–1947)",
+  "extract": "\n\nThe Indian Civil Service was the higher civil service of the British Raj in the period between 1858 and 1947.",
+  "url": "https://en.wikipedia.org/wiki/Indian_Civil_Service",
+  "qid": "Q1661231",
+  "aliases": [
+   "Indian Civil Service"
+  ],
+  "labels": {
+   "mr": "भारतीय नागरी सेवा",
+   "hi": "भारतीय लोक सेवा (ब्रिटिश राज)"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%80_%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE",
+  "dates": {
+   "founded": {
+    "value": "1858",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1947",
+    "precision": "year"
+   }
+  }
+ },
+ "delhi-durbar": {
+  "id": "delhi-durbar",
+  "type": "concept",
+  "title": "Delhi Durbar",
+  "description": "Assembly organised by the British Raj",
+  "extract": "The Delhi Durbar was the imperial mass assembly organized by the British Raj at Coronation Park, Delhi, India, to mark the accession of an Emperor or Empress of India. The ceremonial name was derived from the Persian term, durbar. Also known as the Imperial Durbar, it was held three times, in 1877, 1903, and 1911, at the height of the British Empire. The 1911 Durbar was the only one that a sovereign, George V, attended; at the earlier Durbars, the monarch was represented by their viceroy. A Durbar was contemplated in 1937 or 1938 for George VI, the last emperor, but was deferred, primarily on account of the burgeoning independence movement festering in the British Raj. The Durbar was rendered obsolete by the emergence of India and Pakistan as independent nations following World War II.",
+  "url": "https://en.wikipedia.org/wiki/Delhi_Durbar",
+  "qid": "Q761614",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Delhi_Durbar%2C_1911.jpg/330px-Delhi_Durbar%2C_1911.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Delhi_Durbar%2C_1911.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 28.7235,
+   "lon": 77.1968
+  },
+  "aliases": [
+   "Delhi Durbar"
+  ],
+  "labels": {
+   "hi": "दिल्ली दरबार",
+   "mr": "दिल्ली दरबार"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%80_%E0%A4%A6%E0%A4%B0%E0%A4%AC%E0%A4%BE%E0%A4%B0",
+  "dates": {}
+ },
+ "bengal-partition-1905": {
+  "id": "bengal-partition-1905",
+  "type": "concept",
+  "title": "Partition of Bengal (1905)",
+  "description": "Territorial partition in British India",
+  "extract": "The Partition of Bengal in 1905, also known as the First Partition of Bengal, was a territorial reorganization of the Bengal Presidency in British India, implemented by the authorities of the British Raj. Announced on 16 October 1905 by Lord Curzon, then Viceroy of India, the reorganization separated the largely Muslim eastern areas from the largely Hindu western areas, creating West Bengal for Hindus and East Bengal for Muslims. The reorganization was undone a mere six years later.",
+  "url": "https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)",
+  "qid": "Q2047143",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fc/Pope1880BengalPres2.jpg/330px-Pope1880BengalPres2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Pope1880BengalPres2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "partition of Bengal"
+  ],
+  "labels": {
+   "hi": "बंगाल का विभाजन",
+   "mr": "बंगालची फाळणी (१९०५)"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A4%82%E0%A4%97%E0%A4%BE%E0%A4%B2%E0%A4%9A%E0%A5%80_%E0%A4%AB%E0%A4%BE%E0%A4%B3%E0%A4%A3%E0%A5%80_%28%E0%A5%A7%E0%A5%AF%E0%A5%A6%E0%A5%AB%29",
+  "dates": {}
+ },
+ "swadeshi": {
+  "id": "swadeshi",
+  "type": "concept",
+  "title": "Swadeshi movement",
+  "description": "1905–1947 Indian movement for domestic cloth production",
+  "extract": "The Swadeshi movement was a self-sufficiency movement that was part of the Indian independence movement and contributed to the development of Indian nationalism.",
+  "url": "https://en.wikipedia.org/wiki/Swadeshi_movement",
+  "qid": "Q2093226",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Concentrate_on_Charkha_and_Swadeshi_bazaar_art.jpg/330px-Concentrate_on_Charkha_and_Swadeshi_bazaar_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Concentrate_on_Charkha_and_Swadeshi_bazaar_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Swadeshi"
+  ],
+  "labels": {
+   "hi": "स्वदेशी आन्दोलन",
+   "mr": "स्वदेशी चळवळ"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%80_%E0%A4%9A%E0%A4%B3%E0%A4%B5%E0%A4%B3",
+  "dates": {
+   "founded": {
+    "value": "1850",
+    "precision": "year"
+   }
+  }
+ },
+ "non-cooperation": {
+  "id": "non-cooperation",
+  "type": "concept",
+  "title": "Non-cooperation movement",
+  "description": "Indian freedom movement (1921-22)",
+  "extract": "The non-cooperation movement was a political campaign launched on 4 September 1920 by Mahatma Gandhi to encourage Indians to withdraw their cooperation from the British government, with the aim of persuading them to grant self-governance.",
+  "url": "https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)",
+  "qid": "Q1479381",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/India%2C_by_British_Information_Services%2C_1944_restored_version.jpg/330px-India%2C_by_British_Information_Services%2C_1944_restored_version.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/India%2C_by_British_Information_Services%2C_1944_restored_version.jpg/3840px-India%2C_by_British_Information_Services%2C_1944_restored_version.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Non-cooperation"
+  ],
+  "labels": {
+   "mr": "असहकार आंदोलन",
+   "hi": "असहयोग आन्दोलन"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%B8%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0_%E0%A4%86%E0%A4%82%E0%A4%A6%E0%A5%8B%E0%A4%B2%E0%A4%A8",
+  "dates": {}
+ },
+ "salt-march": {
+  "id": "salt-march",
+  "type": "concept",
+  "title": "Salt March",
+  "description": "1930 Indian protest led by Mahatma Gandhi",
+  "extract": "The Salt March, also known as the Salt Satyagraha, Dandi March, and the Dandi Satyagraha, was an act of nonviolent civil disobedience in colonial India, led by Mahatma Gandhi. The 24-day march (padayatra) lasted from 12 March 1930 to 6 April 1930 as a direct action campaign of tax resistance and nonviolent protest against the British salt monopoly. Another reason for this march was that the Civil Disobedience Movement needed a strong inauguration that would inspire more people to follow Gandhi's example. Gandhi started this march with 78 of his trusted volunteers. The march spanned 387 kilometres (240 mi), from Sabarmati Ashram to Dandi, which was called Navsari at that time. Growing numbers of Indians joined them along the way. When Gandhi broke the British Raj salt laws at 8:30 am on 6 April 1930, it sparked large-scale acts of civil disobedience against the salt laws by millions of Indians.",
+  "url": "https://en.wikipedia.org/wiki/Salt_March",
+  "qid": "Q239344",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Marche_sel.jpg/330px-Marche_sel.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Marche_sel.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Salt March"
+  ],
+  "labels": {
+   "hi": "दांडी मार्च",
+   "mr": "मिठाचा सत्याग्रह"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%BF%E0%A4%A0%E0%A4%BE%E0%A4%9A%E0%A4%BE_%E0%A4%B8%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%B9",
+  "dates": {
+   "end": {
+    "value": "1930-04-06",
+    "precision": "day"
+   }
+  }
+ },
+ "quit-india": {
+  "id": "quit-india",
+  "type": "concept",
+  "title": "Quit India Movement",
+  "description": "1942-45 Indian independence movement against British rule",
+  "extract": "The Quit India Movement was a political campaign launched at the Bombay session of the All India Congress Committee by Mahatma Gandhi on 8 August 1942, during World War II, demanding an end to British rule in India. After Britain failed to secure Indian support for the British war effort with the Cripps Mission, Gandhi made a call to Do or Die in his Quit India speech delivered in Bombay on 8 August 1942 at the Gowalia Tank Maidan. Viceroy Linlithgow described the movement as \"by far the most serious rebellion since 1857\".",
+  "url": "https://en.wikipedia.org/wiki/Quit_India_Movement",
+  "qid": "Q1992677",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Quit_india_Movement_Collage.png/330px-Quit_india_Movement_Collage.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Quit_india_Movement_Collage.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Quit India"
+  ],
+  "labels": {
+   "hi": "भारत छोड़ो आन्दोलन",
+   "mr": "भारत छोडो आंदोलन"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4_%E0%A4%9B%E0%A5%8B%E0%A4%A1%E0%A5%8B_%E0%A4%86%E0%A4%82%E0%A4%A6%E0%A5%8B%E0%A4%B2%E0%A4%A8",
+  "dates": {
+   "start": {
+    "value": "1942-08-09",
+    "precision": "day"
+   }
+  }
+ },
+ "poona-pact": {
+  "id": "poona-pact",
+  "type": "concept",
+  "title": "Poona Pact",
+  "description": "1932 political truce between Indian independence leaders",
+  "extract": "The Poona Pact of September 1932 was a negotiated settlement between Mahatma Gandhi and B. R. Ambedkar that increased the political representation of the depressed classes, now known as Scheduled Castes (SC). The Poona Pact was an agreement between nominal Hindus and the Depressed Classes and was signed by 23 people including Madan Mohan Malaviya, on behalf of Hindus and Gandhi, and Dr Bhimrao Ramji Ambedkar on behalf of The Depressed Classes.",
+  "url": "https://en.wikipedia.org/wiki/Poona_Pact",
+  "qid": "Q3764034",
+  "aliases": [
+   "Poona Pact"
+  ],
+  "labels": {
+   "mr": "पुणे करार",
+   "hi": "पुना संधि"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%A3%E0%A5%87_%E0%A4%95%E0%A4%B0%E0%A4%BE%E0%A4%B0",
+  "dates": {}
+ },
+ "partition-of-india": {
+  "id": "partition-of-india",
+  "type": "concept",
+  "title": "Partition of India",
+  "description": "1947 division of British India",
+  "extract": "The partition of India in 1947 was the division of British India into two independent dominion states, the Union of India and Dominion of Pakistan. The Union of India is today the Republic of India, and the Dominion of Pakistan is the Islamic Republic of Pakistan and the People's Republic of Bangladesh. The partition involved the division of two provinces, Bengal and the Punjab, based on district-wide non-Muslim or Muslim majorities. It also involved the division of the British Indian Army, the Royal Indian Navy, the Indian Civil Service, the railways, and the central treasury, between the two new dominions. The partition was set forth in the Indian Independence Act 1947 and resulted in the end of the British Raj, or Crown rule in India. The two self-governing countries of India and Pakistan legally came into existence at midnight on 14–15 August 1947.",
+  "url": "https://en.wikipedia.org/wiki/Partition_of_India",
+  "qid": "Q129053",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Brit_IndianEmpireReligions3.jpg/330px-Brit_IndianEmpireReligions3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Brit_IndianEmpireReligions3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Partition"
+  ],
+  "labels": {
+   "hi": "भारत का विभाजन",
+   "mr": "भारताची फाळणी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A4%BE%E0%A4%9A%E0%A5%80_%E0%A4%AB%E0%A4%BE%E0%A4%B3%E0%A4%A3%E0%A5%80",
+  "dates": {}
+ },
+ "famine-1770": {
+  "id": "famine-1770",
+  "type": "concept",
+  "title": "Great Bengal famine of 1770",
+  "description": "Famine affecting lower regions of India in 1770",
+  "extract": "The Great Bengal famine of 1770 struck Bengal and Bihar between 1769 and 1770 and affected some 30 million people, which was about one third of the current population of the area. It occurred during a period of dual governance in Bengal. This existed after the East India Company had been granted the diwani, or the right to collect revenue, in Bengal by the Mughal emperor in Delhi, but before it had wrested the nizamat, or control of civil administration, which continued to lie with the Mughal governor, the Nawab of Bengal, Najmuddin Ali Khan (Nazm-ud-Daula) (1765–72).",
+  "url": "https://en.wikipedia.org/wiki/Great_Bengal_famine_of_1770",
+  "qid": "Q2477522",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/dd/IGI1908India1765a.jpg/330px-IGI1908India1765a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/IGI1908India1765a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "labels": {
+   "hi": "बंगाल का भीषण अकाल"
+  },
+  "mrUrl": null,
+  "dates": {
+   "start": {
+    "value": "1767",
+    "precision": "year"
+   },
+   "end": {
+    "value": "1773",
+    "precision": "year"
+   }
+  }
+ },
+ "famine-1876": {
+  "id": "famine-1876",
+  "type": "concept",
+  "title": "Great Famine of 1876–1878",
+  "description": "Famine in India under Crown rule",
+  "extract": "The Great Famine of 1876–1878 was a famine in India under British Crown rule. It began in 1876 after an intense drought resulted in crop failure in the Deccan Plateau. It affected north, south and Southwestern India—the British-administered presidencies of Madras, Punjab, Bombay, and the princely states of Mysore and Hyderabad—for a period of two years. In 1877, famine came to affect regions northward, including parts of the Central Provinces and the North-Western Provinces. The famine ultimately affected an area of 670,000 square kilometres (257,000 sq mi) and caused distress to a population totalling 58,500,000. The excess mortality in the famine has been estimated in the range of 5.6 million - 9.6 million human deaths, and a careful recent demographic estimate yielded 8.2 million deaths. The famine is also known as the Southern India famine of 1876–1878 and the Madras famine of 1877.",
+  "url": "https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%931878",
+  "qid": "Q3534685",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/FaminesMapOfIndia1800-1885.jpg/330px-FaminesMapOfIndia1800-1885.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/FaminesMapOfIndia1800-1885.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "labels": {
+   "hi": "Great Famine of 1876–1878"
+  },
+  "mrUrl": null,
+  "dates": {
+   "start": {
+    "value": "1876",
+    "precision": "year"
+   },
+   "end": {
+    "value": "1878",
+    "precision": "year"
+   }
+  }
+ },
+ "famine-1943": {
+  "id": "famine-1943",
+  "type": "concept",
+  "title": "Bengal famine of 1943",
+  "description": "Famine in British India during World War II",
+  "extract": "The Bengal famine of 1943 was a famine during World War II in the Bengal Province and Orissa Province of British India. An estimated 800,000–3.8 million people died, in the Bengal region, from starvation, malaria and other diseases aggravated by malnutrition, population displacement, unsanitary conditions, poor British wartime policies, and lack of health care. Millions were impoverished as the crisis overwhelmed large segments of the economy and catastrophically disrupted the social fabric. Eventually, families disintegrated; men sold their small farms and left home to look for work or to join the British Indian Army, and women and children became homeless migrants, often travelling to Calcutta or other large cities in search of organised relief.",
+  "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+  "qid": "Q522837",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Dead_or_dying_children_on_a_Calcutta_street_%28the_Statesman_22_August_1943%29.jpg/330px-Dead_or_dying_children_on_a_Calcutta_street_%28the_Statesman_22_August_1943%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Dead_or_dying_children_on_a_Calcutta_street_%28the_Statesman_22_August_1943%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "labels": {
+   "hi": "१९४३ का बंगाल का अकाल"
+  },
+  "mrUrl": null,
+  "dates": {
+   "start": {
+    "value": "1943",
+    "precision": "year"
+   },
+   "end": {
+    "value": "1944",
+    "precision": "year"
+   }
+  }
+ },
+ "rowlatt-act": {
+  "id": "rowlatt-act",
+  "type": "concept",
+  "title": "Rowlatt Act",
+  "description": "Government act passed in 1919 by the British in India",
+  "extract": "The Rowlatt Act, officially known by its parliamentary short title as the Anarchical and Revolutionary Crimes Act 1919, was an act passed by the Imperial Legislative Council in Delhi on 18 March 1919 to strong opposition of its Indian members, indefinitely extending the emergency measures of preventive indefinite detention, imprisonment without trial and judicial review enacted in the Defence of India Act, 1915 during the First World War. It was enacted in the light of a perceived threat from revolutionary nationalists of re-engaging in similar conspiracies as had occurred during the war which the government felt the lapse of the Defence of India Act, 1915 would enable.\n",
+  "url": "https://en.wikipedia.org/wiki/Rowlatt_Act",
+  "qid": "Q2006357",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Star_of_the_Order_of_the_Star_of_India_%28gold%29.svg/330px-Star_of_the_Order_of_the_Star_of_India_%28gold%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Star_of_the_Order_of_the_Star_of_India_%28gold%29.svg/500px-Star_of_the_Order_of_the_Star_of_India_%28gold%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Rowlatt Act"
+  ],
+  "labels": {
+   "hi": "रौलेट एक्ट"
+  },
+  "mrUrl": null,
+  "dates": {
+   "start": {
+    "value": "1919-03-10",
+    "precision": "day"
+   },
+   "end": {
+    "value": "1922-03",
+    "precision": "month"
+   }
+  }
+ },
+ "lucknow-pact": {
+  "id": "lucknow-pact",
+  "type": "concept",
+  "title": "Lucknow Pact",
+  "description": "1916 Indian Hindu-Muslim agreement",
+  "extract": "The Lucknow Pact was an agreement reached between the Indian National Congress and the Muslim League (AIML) at a joint session of both the parties held in Lucknow in December 1916. Through the pact, the two parties agreed to allow representation to religious minorities in the provincial legislatures. The Muslim League leaders agreed to join the Congress movement demanding Indian autonomy. Scholars cite this as an example of a consociational practice in Indian politics. Bal Gangadhar Tilak represented the Congress while framing the deal, and Muhammad Ali Jinnah participated in this event.",
+  "url": "https://en.wikipedia.org/wiki/Lucknow_Pact",
+  "qid": "Q1481906",
+  "aliases": [
+   "Lucknow Pact"
+  ],
+  "labels": {
+   "hi": "लखनऊ समझौता",
+   "mr": "लखनौ करार"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A4%96%E0%A4%A8%E0%A5%8C_%E0%A4%95%E0%A4%B0%E0%A4%BE%E0%A4%B0",
+  "dates": {}
+ },
+ "home-rule": {
+  "id": "home-rule",
+  "type": "concept",
+  "title": "Home Rule movement",
+  "description": "Anti-colonial movement in British India",
+  "extract": "The Indian Home Rule movement was a movement in British India on the lines of the Irish Home Rule movement and other home rule movements. The movement lasted around two years between 1916–1918 and is believed to have set the stage for the Indian independence movement under the leadership of Annie Besant and Bal Gangadhar Tilak to the educated English-speaking upper class Indians. In 1920, All India Home Rule League changed its name to Swarajya Sabha.",
+  "url": "https://en.wikipedia.org/wiki/Indian_Home_Rule_movement",
+  "qid": "Q6020526",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Bal_Gangadhar_Tilak_in_Madras_1917.jpg/330px-Bal_Gangadhar_Tilak_in_Madras_1917.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Bal_Gangadhar_Tilak_in_Madras_1917.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Home Rule"
+  ],
+  "labels": {
+   "hi": "होम रूल आन्दोलन",
+   "mr": "होम रुल चळवळ"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B9%E0%A5%8B%E0%A4%AE%E0%A4%B0%E0%A5%81%E0%A4%B2_%E0%A4%9A%E0%A4%B3%E0%A4%B5%E0%A4%B3",
+  "dates": {
+   "founded": {
+    "value": "1916",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1918",
+    "precision": "year"
+   }
+  }
+ },
+ "purna-swaraj": {
+  "id": "purna-swaraj",
+  "type": "concept",
+  "title": "Purna Swaraj",
+  "description": "Proclamation of Indian independence from the British Empire published on 26 Jan. 1930",
+  "extract": "The Declaration of Purna Swaraj or Declaration of the Independence of India was a resolution which was passed by the Indian National Congress in 1930 because of the dissatisfaction among the Indian masses regarding the British offer of Dominion status to India. The word Purna Swaraj was derived from Sanskrit  पूर्ण (Pūrṇa) 'Complete'. It was promulgated by the Indian National Congress, resolving the Congress and Indian nationalists to fight for Purna Swaraj, or complete self-rule/total independence from the British rule.",
+  "url": "https://en.wikipedia.org/wiki/Purna_Swaraj",
+  "qid": "Q2723918",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/The_Indian_National_Congress_moves_toward_independence.cropped.jpg/330px-The_Indian_National_Congress_moves_toward_independence.cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/The_Indian_National_Congress_moves_toward_independence.cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Purna Swaraj"
+  ],
+  "labels": {
+   "hi": "पूर्ण स्वराज्य",
+   "mr": "पूर्ण स्वराज्य"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "simon-commission": {
+  "id": "simon-commission",
+  "type": "concept",
+  "title": "Simon Commission",
+  "description": "Report on possible constitutional reform in British India",
+  "extract": "The Indian Statutory Commission, also known as the Simon Commission, was a group of seven members of the British Parliament under the chairmanship of John Simon. The commission arrived in the Indian subcontinent in 1928 to study constitutional reform in British India. One of its members was Clement Attlee, who would later become the Prime Minister of the United Kingdom (1945–1951).",
+  "url": "https://en.wikipedia.org/wiki/Simon_Commission",
+  "qid": "Q1642187",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/79/The_simon_commission.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/The_simon_commission.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Simon Commission"
+  ],
+  "labels": {
+   "hi": "साइमन कमीशन",
+   "mr": "सायमन कमिशन"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%AF%E0%A4%AE%E0%A4%A8_%E0%A4%95%E0%A4%AE%E0%A4%BF%E0%A4%B6%E0%A4%A8",
+  "dates": {
+   "founded": {
+    "value": "1928",
+    "precision": "year"
+   }
+  }
+ },
+ "rin-mutiny": {
+  "id": "rin-mutiny",
+  "type": "concept",
+  "title": "Royal Indian Navy mutiny",
+  "description": "1946 revolt by British Indian sailors",
+  "extract": "The Royal Indian Navy mutiny was a failed insurrection of Indian naval ratings, soldiers, police personnel and civilians against the British government in India in February 1946. From the initial flashpoint in Bombay, the revolt spread and found support throughout British India, from Karachi to Calcutta, and ultimately came to involve over 10,000 sailors in 56 ships and shore establishments. The mutiny failed to turn into a revolution because sailors were asked to surrender after the British authorities had assembled superior forces to suppress the mutiny.",
+  "url": "https://en.wikipedia.org/wiki/Royal_Indian_Navy_mutiny",
+  "qid": "Q3519518",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e6/RIN_HMIS_Hindustan.jpg/330px-RIN_HMIS_Hindustan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/en/e/e6/RIN_HMIS_Hindustan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Royal Indian Navy mutiny"
+  ],
+  "labels": {
+   "hi": "जलसेना विद्रोह",
+   "mr": "भारतीय नाविक बंड"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%A8%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%95_%E0%A4%AC%E0%A4%82%E0%A4%A1",
+  "dates": {
+   "start": {
+    "value": "1946-02-18",
+    "precision": "day"
+   },
+   "end": {
+    "value": "1946-02-23",
+    "precision": "day"
+   }
+  }
+ },
+ "indian-railways": {
+  "id": "indian-railways",
+  "type": "concept",
+  "title": "Indian Railways",
+  "description": "State railway company of India",
+  "extract": "Indian Railways is a state-owned enterprise organised as a departmental undertaking of the Ministry of Railways of the Government of India and operates India's national railway system. As of 2024, it manages the fourth largest national railway system by size, with a track length of 135,207 km (84,014 mi), running track length of 109,748 km (68,194 mi) and route length of 69,181 km (42,987 mi), of which 66,820 km (41,520 mi) is 1,676 mm broad-gauge. As of October 2025, approximately 99.1% of the broad-gauge railway network had been electrified. With more than 1.2 million employees, it is the ninth-largest employer of the world and the second largest employer of India.",
+  "url": "https://en.wikipedia.org/wiki/Indian_Railways",
+  "qid": "Q819425",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Indian_railways_18_star_logo.jpg/330px-Indian_railways_18_star_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Indian_railways_18_star_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "railway"
+  ],
+  "labels": {
+   "hi": "भारतीय रेल",
+   "mr": "भारतीय रेल्वे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%B0%E0%A5%87%E0%A4%B2%E0%A5%8D%E0%A4%B5%E0%A5%87",
+  "dates": {
+   "founded": {
+    "value": "1845-05-08",
+    "precision": "day"
+   }
+  }
+ },
+ "india-ww1": {
+  "id": "india-ww1",
+  "type": "concept",
+  "title": "India in the First World War",
+  "description": "",
+  "extract": "The Indian Army, also called the British Indian Army, was involved in World War I as part of the British Empire. More than one million Indian troops served overseas, of whom more than 60,000 died during the war.",
+  "url": "https://en.wikipedia.org/wiki/Indian_Army_during_World_War_I",
+  "qid": "Q2605509",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/British_Raj_Red_Ensign.svg/330px-British_Raj_Red_Ensign.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/British_Raj_Red_Ensign.svg/960px-British_Raj_Red_Ensign.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "First World War"
+  ],
+  "labels": {
+   "hi": "प्रथम विश्व युद्ध के दौरान भारतीय सेना"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "india-ww2": {
+  "id": "india-ww2",
+  "type": "concept",
+  "title": "India in the Second World War",
+  "description": "",
+  "extract": "During the Second World War (1939–1945), India was a part of the British Empire. British India officially declared war on Nazi Germany in September 1939. India, as a part of the Allied Nations, sent over two and a half million soldiers to fight under British command against the Axis powers. India was also used as the base for American operations in support of China in the China Burma India Theater.",
+  "url": "https://en.wikipedia.org/wiki/India_in_World_War_II",
+  "qid": "Q6019652",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/1-5MahrattaLightInfantryFlorence1944.jpg/330px-1-5MahrattaLightInfantryFlorence1944.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/1-5MahrattaLightInfantryFlorence1944.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Second World War"
+  ],
+  "labels": {
+   "hi": "द्वितीय विश्वयुद्ध में भारत"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "princely-integration": {
+  "id": "princely-integration",
+  "type": "concept",
+  "title": "Political integration of India",
+  "description": "1947–1956 integration of Indian princely states",
+  "extract": "Before it gained independence in 1947, India was divided into two sets of territories, one under direct British rule, and the other consisting of princely states under the suzerainty of the British Crown, with control over their internal affairs remaining to varying degrees in the hands of their hereditary rulers. The latter included 562 princely states which had different types of revenue-sharing arrangements with the British, often depending on their size, population and local conditions. In addition, there were several colonial enclaves controlled by France and Portugal. After independence, the political integration of these territories into an Indian Union was a declared objective of the Indian National Congress, and the Government of India pursued this over the next decade.",
+  "url": "https://en.wikipedia.org/wiki/Political_integration_of_India",
+  "qid": "Q3519674",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg/330px-British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "integration of the princely states"
+  ],
+  "labels": {
+   "hi": "भारत का राजनीतिक एकीकरण",
+   "mr": "संस्थानांचे विलीनीकरण"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%82%E0%A4%9A%E0%A5%87_%E0%A4%B5%E0%A4%BF%E0%A4%B2%E0%A5%80%E0%A4%A8%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3",
+  "dates": {
+   "founded": {
+    "value": "1947",
+    "precision": "year"
+   }
+  }
+ },
+ "richard-wellesley": {
+  "id": "richard-wellesley",
+  "type": "person",
+  "title": "Richard Wellesley",
+  "description": "British politician (1760–1842)",
+  "extract": "Richard Colley Wellesley, 1st Marquess Wellesley, was an Anglo-Irish politician and colonial administrator. He was styled as Viscount Wellesley until 1781, when he succeeded his father as 2nd Earl of Mornington. In 1799, he was granted the Irish peerage title of Marquess Wellesley of Norragh. He was also Baron Wellesley in the Peerage of Great Britain. He was a great-great-great-grandfather of Queen Elizabeth II.",
+  "url": "https://en.wikipedia.org/wiki/Richard_Wellesley%2C_1st_Marquess_Wellesley",
+  "qid": "Q335205",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sir_Thomas_Lawrence_%281769-1830%29_-_Richard_Colley_Wellesley%2C_Marquess_Wellesley_%281760-1842%29_-_RCIN_400643_-_Royal_Collection.jpg/330px-Sir_Thomas_Lawrence_%281769-1830%29_-_Richard_Colley_Wellesley%2C_Marquess_Wellesley_%281760-1842%29_-_RCIN_400643_-_Royal_Collection.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sir_Thomas_Lawrence_%281769-1830%29_-_Richard_Colley_Wellesley%2C_Marquess_Wellesley_%281760-1842%29_-_RCIN_400643_-_Royal_Collection.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Richard Wellesley"
+  ],
+  "labels": {
+   "mr": "लॉर्ड वेलस्ली",
+   "hi": "लॉर्ड वैलेस्ली"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%B0%E0%A5%8D%E0%A4%A1_%E0%A4%B5%E0%A5%87%E0%A4%B2%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%80_%28%E0%A4%AA%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A4%BE_%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%B8_%E0%A4%B5%E0%A5%87%E0%A4%B2%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%80%29",
+  "dates": {
+   "born": {
+    "value": "1760-06-20",
+    "precision": "day"
+   },
+   "died": {
+    "value": "1842-09-26",
+    "precision": "day"
+   }
+  }
  }
 }

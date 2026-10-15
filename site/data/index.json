@@ -60,6 +60,50 @@
   ]
  },
  {
+  "id": "east-india-company",
+  "title": "The East India Company in India",
+  "subtitle": "From a London trading company to the ruler of India · 1600 – 1874",
+  "subject": "east-india-company",
+  "events": 36,
+  "series": null,
+  "order": 5,
+  "kind": "empire",
+  "range": [
+   1595,
+   1880
+  ],
+  "focus": [
+   1757.47,
+   1858.6
+  ],
+  "span": [
+   1757.47,
+   1858.6
+  ]
+ },
+ {
+  "id": "british-raj",
+  "title": "The British Raj",
+  "subtitle": "Crown rule and the freedom movement · 1858 – 1947",
+  "subject": "british-raj",
+  "events": 36,
+  "series": null,
+  "order": 6,
+  "kind": "empire",
+  "range": [
+   1855,
+   1952
+  ],
+  "focus": [
+   1858.83,
+   1947.62
+  ],
+  "span": [
+   1858.83,
+   1947.62
+  ]
+ },
+ {
   "id": "maratha-empire",
   "title": "The Maratha Empire",
   "subtitle": "From Shivaji's first fort to the last Peshwa, and the confederacy states after · 1646 – 1818",
