@@ -157,7 +157,7 @@ async function renderHome() {
           el("b", {}, uniqueEvents), " events")),
       el("section", { class: "home-block" },
         el("div", { class: "block-head" }, el("h2", {}, "All of it, at a glance"),
-          el("span", { class: "block-hint" }, "Hover to see who lived at the same time · click to open · drag or ⌘/Ctrl+scroll to move and zoom")),
+          el("span", { class: "block-hint" }, "Hover to see which empires coexisted · click to open · drag or ⌘/Ctrl+scroll to move and zoom")),
         riverBox),
       el("div", { class: "home-two" },
         el("section", { class: "home-block" }, onThisDay(search, index)),
@@ -323,17 +323,15 @@ function featuredComparisons(index, ents) {
 }
 
 // ---------- Home: river of time ----------
-// Every empire and person on one axis, packed into rows by kind (the Maratha states are left
-// out to keep it uncluttered; they are reached from the Maratha Empire and the cards below). Hovering one highlights everything
+// Every empire on one axis, packed into rows (Maratha states and people are left out to keep it
+// uncluttered; they are reached from the empire timelines and the cards below). Hovering one highlights everything
 // that overlapped it in time. Indian powers are drawn in warm saffron–red shades, powers of
 // foreign origin (content: "origin": "foreign") in cool blue–violet ones.
 const ORIGIN_HUES = { indian: [24, 44, 8, 34, 54, 0], foreign: [222, 262, 196, 285] };
 function setupRiver(box, index, ents) {
   const GROUPS = [
-    { label: "Empires", h: 26, pick: (t) => t.kind === "empire", cycle: true },
-    { label: "People", h: 17, pick: (t) => !t.kind, cycle: false },
+    { label: "Empires", h: 26, pick: (t) => t.kind === "empire" },
   ];
-  const SERIES_HUE = { "The Maratha Empire": 24, "The Maratha confederacy": 40 };
   const items = [];
   GROUPS.forEach((g, gi) => {
     const rows = [], used = { indian: 0, foreign: 0 };
@@ -343,7 +341,7 @@ function setupRiver(box, index, ents) {
         if (r === -1) { r = rows.length; rows.push(0); }
         rows[r] = it.b;
         const o = it.t.origin === "foreign" ? "foreign" : "indian", pal = ORIGIN_HUES[o];
-        const hue = g.cycle || o === "foreign" ? pal[used[o]++ % pal.length] : SERIES_HUE[it.t.series] ?? pal[0];
+        const hue = pal[used[o]++ % pal.length];
         items.push({ ...it, g: gi, row: r, hue });
       });
     g.rows = rows.length;
@@ -378,7 +376,7 @@ function setupRiver(box, index, ents) {
       if (x2 <= GUT || x1 >= W - PAD) continue;
       const co = hover && it.a < hover.b && it.b > hover.a;
       const n = svg("g", { class: `ri${co ? " co" : ""}${hover === it ? " me" : ""}`, tabindex: 0, role: "link", "aria-label": it.t.title });
-      n.append(svg("rect", { x: x1, y: top, width: Math.max(3, x2 - x1), height: g.h, rx: g.h / 2.6, fill: `hsl(${it.hue} 58% ${GROUPS[it.g].label === "People" ? 52 : 46}%)` }));
+      n.append(svg("rect", { x: x1, y: top, width: Math.max(3, x2 - x1), height: g.h, rx: g.h / 2.6, fill: `hsl(${it.hue} 58% 46%)` }));
       const label = fitText(shortTitle(it.t), x2 - x1 - 10, `600 ${it.g === 0 ? 12 : 11}px Inter, system-ui, sans-serif`);
       if (label.length > 2) {
         const t = svg("text", { class: "ri-text", x: x1 + 6, y: top + g.h / 2 + 4, "font-size": it.g === 0 ? 12 : 11 });
