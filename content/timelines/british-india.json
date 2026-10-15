@@ -1,0 +1,1610 @@
+{
+ "id": "british-india",
+ "aliases": [
+  "east-india-company",
+  "british-raj"
+ ],
+ "kind": "empire",
+ "order": 5,
+ "title": "British India: the Company and the Raj",
+ "subtitle": "From a London trading company to Independence · 1600 – 1947",
+ "subject": "company-rule",
+ "range": [
+  1595,
+  1955
+ ],
+ "focus": [
+  1757.47,
+  1947.62
+ ],
+ "intro": "Chartered in London in 1600 to trade spices, the East India Company spent its first 150 years as one of several European traders at the edges of the Mughal world. Plassey (1757) and Buxar (1764) made it the ruler of Bengal, and over the next century it defeated Mysore, the Marathas and the Sikhs. After the revolt of 1857 the British Crown took over, ruling through a Viceroy until 1947 — decades that brought famines, railways and English education, and a national movement from the early Congress through Tilak and Gandhi to the Indian National Army. Independence came with the partition of India.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Company, Crown & governors"
+  },
+  {
+   "id": "military",
+   "label": "Wars & violence"
+  },
+  {
+   "id": "forts",
+   "label": "Territory, laws & reforms"
+  },
+  {
+   "id": "political",
+   "label": "Resistance & the freedom movement"
+  },
+  {
+   "id": "world",
+   "label": "Indian powers, society & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Governors & Viceroys",
+   "members": [
+    {
+     "from": 1773.8,
+     "to": 1785.08,
+     "group": "Company",
+     "entity": "warren-hastings"
+    },
+    {
+     "from": 1785.08,
+     "to": 1786.7,
+     "group": "Company",
+     "name": "John Macpherson (acting)"
+    },
+    {
+     "from": 1786.7,
+     "to": 1793.82,
+     "group": "Company",
+     "entity": "cornwallis"
+    },
+    {
+     "from": 1793.82,
+     "to": 1798.2,
+     "group": "Company",
+     "entity": "john-shore"
+    },
+    {
+     "from": 1798.38,
+     "to": 1805.58,
+     "group": "Company",
+     "entity": "richard-wellesley"
+    },
+    {
+     "from": 1805.58,
+     "to": 1805.76,
+     "group": "Company",
+     "entity": "cornwallis",
+     "note": "Second term; died in office"
+    },
+    {
+     "from": 1805.76,
+     "to": 1807.56,
+     "group": "Company",
+     "entity": "george-barlow",
+     "note": "Acting"
+    },
+    {
+     "from": 1807.56,
+     "to": 1813.76,
+     "group": "Company",
+     "entity": "minto-i"
+    },
+    {
+     "from": 1813.76,
+     "to": 1823.03,
+     "group": "Company",
+     "entity": "hastings-moira"
+    },
+    {
+     "from": 1823.58,
+     "to": 1828.2,
+     "group": "Company",
+     "entity": "amherst"
+    },
+    {
+     "from": 1828.5,
+     "to": 1835.22,
+     "group": "Company",
+     "entity": "bentinck",
+     "note": "First Governor-General of India from 1833"
+    },
+    {
+     "from": 1835.22,
+     "to": 1836.17,
+     "group": "Company",
+     "name": "Charles Metcalfe (acting)"
+    },
+    {
+     "from": 1836.17,
+     "to": 1842.16,
+     "group": "Company",
+     "entity": "auckland"
+    },
+    {
+     "from": 1842.16,
+     "to": 1844.46,
+     "group": "Company",
+     "entity": "ellenborough"
+    },
+    {
+     "from": 1844.56,
+     "to": 1848.03,
+     "group": "Company",
+     "entity": "hardinge-i"
+    },
+    {
+     "from": 1848.03,
+     "to": 1856.16,
+     "group": "Company",
+     "entity": "dalhousie"
+    },
+    {
+     "from": 1856.16,
+     "to": 1858.83,
+     "group": "Company",
+     "entity": "canning",
+     "note": "Governor-General; became the first Viceroy in 1858"
+    },
+    {
+     "from": 1858.83,
+     "to": 1862.22,
+     "group": "Crown",
+     "entity": "canning",
+     "note": "First Viceroy"
+    },
+    {
+     "from": 1862.22,
+     "to": 1863.89,
+     "group": "Crown",
+     "entity": "elgin-i"
+    },
+    {
+     "from": 1864.03,
+     "to": 1869.03,
+     "group": "Crown",
+     "entity": "john-lawrence"
+    },
+    {
+     "from": 1869.03,
+     "to": 1872.11,
+     "group": "Crown",
+     "entity": "mayo",
+     "note": "Assassinated in the Andamans"
+    },
+    {
+     "from": 1872.34,
+     "to": 1876.28,
+     "group": "Crown",
+     "entity": "northbrook"
+    },
+    {
+     "from": 1876.28,
+     "to": 1880.44,
+     "group": "Crown",
+     "entity": "lytton"
+    },
+    {
+     "from": 1880.44,
+     "to": 1884.95,
+     "group": "Crown",
+     "entity": "ripon"
+    },
+    {
+     "from": 1884.95,
+     "to": 1888.95,
+     "group": "Crown",
+     "entity": "dufferin"
+    },
+    {
+     "from": 1888.95,
+     "to": 1894.05,
+     "group": "Crown",
+     "entity": "lansdowne"
+    },
+    {
+     "from": 1894.05,
+     "to": 1899.02,
+     "group": "Crown",
+     "entity": "elgin-ii"
+    },
+    {
+     "from": 1899.02,
+     "to": 1905.88,
+     "group": "Crown",
+     "entity": "curzon"
+    },
+    {
+     "from": 1905.88,
+     "to": 1910.89,
+     "group": "Crown",
+     "entity": "minto-ii"
+    },
+    {
+     "from": 1910.89,
+     "to": 1916.26,
+     "group": "Crown",
+     "entity": "hardinge-ii"
+    },
+    {
+     "from": 1916.26,
+     "to": 1921.26,
+     "group": "Crown",
+     "entity": "chelmsford"
+    },
+    {
+     "from": 1921.26,
+     "to": 1926.26,
+     "group": "Crown",
+     "entity": "reading"
+    },
+    {
+     "from": 1926.26,
+     "to": 1931.3,
+     "group": "Crown",
+     "entity": "irwin"
+    },
+    {
+     "from": 1931.3,
+     "to": 1936.3,
+     "group": "Crown",
+     "entity": "willingdon"
+    },
+    {
+     "from": 1936.3,
+     "to": 1943.75,
+     "group": "Crown",
+     "entity": "linlithgow"
+    },
+    {
+     "from": 1943.75,
+     "to": 1947.15,
+     "group": "Crown",
+     "entity": "wavell"
+    },
+    {
+     "from": 1947.15,
+     "to": 1947.62,
+     "group": "Crown",
+     "entity": "mountbatten",
+     "note": "Last Viceroy"
+    }
+   ]
+  },
+  {
+   "label": "British monarchs",
+   "members": [
+    {
+     "from": 1858.83,
+     "to": 1901.06,
+     "entity": "queen-victoria",
+     "note": "Empress of India from 1877"
+    },
+    {
+     "from": 1901.06,
+     "to": 1910.35,
+     "entity": "edward-vii"
+    },
+    {
+     "from": 1910.35,
+     "to": 1936.05,
+     "entity": "george-v"
+    },
+    {
+     "from": 1936.05,
+     "to": 1936.95,
+     "entity": "edward-viii",
+     "note": "Abdicated"
+    },
+    {
+     "from": 1936.95,
+     "to": 1947.62,
+     "entity": "george-vi"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "east-india-company",
+   "label": "Company as traders",
+   "from": 1600.99,
+   "to": 1757.47
+  },
+  {
+   "entity": "company-rule",
+   "label": "Company rule",
+   "from": 1757.47,
+   "to": 1858.6
+  },
+  {
+   "entity": "british-raj",
+   "label": "Crown rule",
+   "from": 1858.83,
+   "to": 1947.62
+  },
+  {
+   "entity": "mughal-empire",
+   "label": "Mughal Empire",
+   "from": 1595,
+   "to": 1857.72
+  },
+  {
+   "entity": "maratha-empire",
+   "label": "Maratha state",
+   "from": 1674.43,
+   "to": 1818.42
+  },
+  {
+   "entity": "mysore-kingdom",
+   "label": "Mysore under Hyder & Tipu",
+   "from": 1761,
+   "to": 1799.34
+  },
+  {
+   "entity": "sikh-empire",
+   "label": "Sikh Empire",
+   "from": 1799,
+   "to": 1849.24
+  },
+  {
+   "entity": "congress",
+   "label": "Indian National Congress",
+   "from": 1885.99,
+   "to": 1955
+  },
+  {
+   "entity": "muslim-league",
+   "label": "Muslim League",
+   "from": 1906.99,
+   "to": 1947.62
+  },
+  {
+   "entity": "tilak",
+   "label": "Bal Gangadhar Tilak"
+  },
+  {
+   "entity": "gandhi",
+   "label": "Mahatma Gandhi"
+  },
+  {
+   "entity": "ambedkar",
+   "label": "B. R. Ambedkar"
+  }
+ ],
+ "events": [
+  {
+   "id": "charter",
+   "date": "1600-12-31",
+   "lane": "life",
+   "major": true,
+   "title": "Royal charter",
+   "summary": "Elizabeth I grants a group of London merchants a monopoly on English trade east of the Cape of Good Hope. The East India Company's early target is the spice trade of the East Indies, not India.",
+   "people": [
+    "elizabeth-i"
+   ],
+   "polities": [
+    "east-india-company"
+   ]
+  },
+  {
+   "id": "swally",
+   "date": "1612-11",
+   "lane": "military",
+   "title": "Battle of Swally — a foothold at Surat",
+   "summary": "Company ships defeat a Portuguese squadron off Surat. Jahangir's court, impressed, allows the English a factory (trading post) at Surat, the Mughal empire's chief port.",
+   "people": [
+    "jahangir"
+   ],
+   "places": [
+    "surat"
+   ],
+   "polities": [
+    "portuguese-india",
+    "mughal-empire"
+   ],
+   "wiki": "Battle of Swally"
+  },
+  {
+   "id": "roe",
+   "date": "1615",
+   "end": "1619",
+   "lane": "life",
+   "title": "Sir Thomas Roe at Jahangir's court",
+   "summary": "James I's ambassador spends four years following the Mughal court to secure better trading terms. The Company is still a petitioner, one trader among many.",
+   "people": [
+    "thomas-roe",
+    "jahangir"
+   ],
+   "places": [
+    "ajmer",
+    "surat"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "see": "mughal-empire"
+  },
+  {
+   "id": "amboyna",
+   "date": "1623-02",
+   "lane": "world",
+   "title": "Amboyna: pushed out of the spice islands",
+   "summary": "The Dutch execute English traders at Amboyna in the Moluccas. Squeezed out of the spice trade, the Company turns to Indian cotton textiles, indigo and saltpetre.",
+   "wiki": "Amboyna massacre"
+  },
+  {
+   "id": "madras",
+   "date": "1639-08-22",
+   "lane": "forts",
+   "major": true,
+   "title": "Madras and Fort St. George",
+   "summary": "Under a grant issued in the name of the Vijayanagara emperor, Francis Day acquires a strip of the Coromandel coast. Fort St. George is completed in 1644 and the town of Madras grows around it.",
+   "people": [
+    "francis-day",
+    "peda-venkata"
+   ],
+   "places": [
+    "chennai",
+    "fort-st-george"
+   ],
+   "polities": [
+    "vijayanagara-empire"
+   ],
+   "see": "vijayanagara-empire"
+  },
+  {
+   "id": "bombay",
+   "date": "1668-03-27",
+   "lane": "forts",
+   "major": true,
+   "title": "Bombay leased to the Company",
+   "summary": "Bombay, which came to Charles II in 1661 as part of Catherine of Braganza's dowry from Portugal, is leased to the Company for £10 a year. It replaces Surat — raided twice by Shivaji — as the Company's west coast base.",
+   "people": [
+    "catherine-braganza",
+    "shivaji"
+   ],
+   "places": [
+    "mumbai",
+    "surat"
+   ],
+   "polities": [
+    "portuguese-india"
+   ],
+   "see": "shivaji"
+  },
+  {
+   "id": "childs-war",
+   "date": "1686",
+   "end": "1690",
+   "lane": "military",
+   "title": "Child's War — defeat by the Mughals",
+   "summary": "Under governor Sir Josiah Child the Company attacks Mughal shipping and ports. Aurangzeb's forces besiege Bombay and seize Company factories; the English must beg for pardon and pay a fine. Military conquest is shelved for half a century.",
+   "people": [
+    "josiah-child",
+    "aurangzeb"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "wiki": "Anglo-Mughal war (1686–1690)"
+  },
+  {
+   "id": "calcutta",
+   "date": "1690-08-24",
+   "lane": "forts",
+   "major": true,
+   "title": "Job Charnock at Sutanuti — Calcutta",
+   "summary": "Job Charnock re-establishes the Company's Bengal trading post at Sutanuti on the Hooghly. In 1698 the Company buys the rights to three villages — Sutanuti, Gobindapur and Kalikata — and builds Fort William: the beginnings of Calcutta.",
+   "people": [
+    "job-charnock"
+   ],
+   "places": [
+    "kolkata",
+    "fort-william"
+   ],
+   "polities": [
+    "bengal-subah"
+   ]
+  },
+  {
+   "id": "farman-1717",
+   "date": "1717",
+   "lane": "forts",
+   "title": "Farrukhsiyar's farman",
+   "summary": "The emperor Farrukhsiyar grants the Company duty-free trade in Bengal. Abuse of these privileges by Company servants trading privately becomes a long-running grievance of the Bengal nawabs.",
+   "people": [
+    "farrukhsiyar"
+   ],
+   "polities": [
+    "mughal-empire",
+    "bengal-subah"
+   ],
+   "see": "mughal-empire"
+  },
+  {
+   "id": "carnatic",
+   "date": "1746",
+   "end": "1763",
+   "lane": "military",
+   "major": true,
+   "title": "Carnatic Wars with the French",
+   "summary": "The British and French companies, under Dupleix on the French side, fight through Indian allies for control of the Carnatic. Robert Clive makes his name defending Arcot (1751); the French are decisively beaten at Wandiwash (1760).",
+   "people": [
+    "dupleix",
+    "robert-clive"
+   ],
+   "places": [
+    "arcot",
+    "wandiwash",
+    "chennai"
+   ],
+   "polities": [
+    "french-india"
+   ],
+   "concepts": [
+    "carnatic-wars"
+   ],
+   "wiki": "Battle of Wandiwash"
+  },
+  {
+   "id": "calcutta-1756",
+   "date": "1756-06-20",
+   "lane": "military",
+   "title": "Siraj-ud-Daulah takes Calcutta",
+   "summary": "The young Nawab of Bengal, angered by fortification work and trade abuses, captures Calcutta. British prisoners die overnight in a cramped guardroom — the 'Black Hole', whose death toll was later greatly exaggerated in British accounts.",
+   "people": [
+    "siraj-ud-daulah"
+   ],
+   "places": [
+    "kolkata",
+    "fort-william"
+   ],
+   "polities": [
+    "bengal-subah"
+   ],
+   "wiki": "Black Hole of Calcutta"
+  },
+  {
+   "id": "plassey",
+   "date": "1757-06-23",
+   "lane": "military",
+   "major": true,
+   "title": "Battle of Plassey",
+   "summary": "Clive retakes Calcutta and, having secretly agreed to make the Nawab's commander Mir Jafar the new nawab, defeats Siraj-ud-Daulah at Plassey when much of the Nawab's army stays out of the fight. The Company becomes kingmaker in India's richest province.",
+   "people": [
+    "robert-clive",
+    "siraj-ud-daulah",
+    "mir-jafar"
+   ],
+   "places": [
+    "plassey",
+    "kolkata"
+   ],
+   "polities": [
+    "bengal-subah"
+   ],
+   "wiki": "Battle of Plassey"
+  },
+  {
+   "id": "buxar",
+   "date": "1764-10-22",
+   "lane": "military",
+   "major": true,
+   "title": "Battle of Buxar",
+   "summary": "Mir Qasim, the nawab who tried to curb Company abuses, allies with Shuja-ud-Daula of Awadh and Emperor Shah Alam II. The Company defeats all three.",
+   "people": [
+    "mir-qasim",
+    "shuja-ud-daula",
+    "shah-alam-ii"
+   ],
+   "places": [
+    "buxar"
+   ],
+   "polities": [
+    "awadh",
+    "mughal-empire"
+   ],
+   "wiki": "Battle of Buxar",
+   "see": "mughal-empire"
+  },
+  {
+   "id": "diwani",
+   "date": "1765-08-12",
+   "lane": "forts",
+   "major": true,
+   "title": "The Diwani of Bengal",
+   "summary": "By the Treaty of Allahabad, Shah Alam II grants the Company the right to collect the land revenue of Bengal, Bihar and Orissa. Bengal's revenue now pays for the Company's trade and armies.",
+   "people": [
+    "robert-clive",
+    "shah-alam-ii"
+   ],
+   "polities": [
+    "bengal-subah",
+    "mughal-empire"
+   ],
+   "wiki": "Treaty of Allahabad"
+  },
+  {
+   "id": "mysore-wars",
+   "date": "1767",
+   "end": "1799",
+   "lane": "military",
+   "major": true,
+   "title": "Anglo-Mysore Wars",
+   "summary": "Hyder Ali and his son Tipu Sultan, with modernised armies and rockets, fight four wars against the Company. Hyder reaches the outskirts of Madras (1769); Tipu is killed when Srirangapatna is stormed in 1799.",
+   "people": [
+    "hyder-ali",
+    "tipu"
+   ],
+   "places": [
+    "srirangapatna",
+    "chennai"
+   ],
+   "polities": [
+    "mysore-kingdom"
+   ],
+   "concepts": [
+    "anglo-mysore-wars"
+   ],
+   "wiki": "Siege of Seringapatam (1799)"
+  },
+  {
+   "id": "famine-1770",
+   "date": "1769",
+   "end": "1770",
+   "lane": "world",
+   "major": true,
+   "title": "Great Bengal famine",
+   "summary": "Drought, harsh revenue collection and hoarding combine in a famine that kills perhaps a third of Bengal's population — estimates run to many millions.",
+   "places": [
+    "kolkata"
+   ],
+   "polities": [
+    "bengal-subah"
+   ],
+   "concepts": [
+    "famine-1770"
+   ]
+  },
+  {
+   "id": "regulating-act",
+   "date": "1773",
+   "lane": "forts",
+   "title": "Regulating Act; Warren Hastings Governor-General",
+   "summary": "Parliament begins to oversee the Company. Warren Hastings, governor of Bengal, becomes the first Governor-General, with authority over Madras and Bombay.",
+   "people": [
+    "warren-hastings"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "concepts": [
+    "regulating-act"
+   ]
+  },
+  {
+   "id": "anglo-maratha-1",
+   "date": "1775",
+   "end": "1782",
+   "lane": "military",
+   "title": "First Anglo-Maratha War",
+   "summary": "The Company backs Raghunathrao's claim to be Peshwa and is defeated at Wadgaon (1779). The Treaty of Salbai restores the pre-war position.",
+   "people": [
+    "raghunathrao",
+    "nana-phadnavis",
+    "mahadji",
+    "warren-hastings"
+   ],
+   "places": [
+    "wadgaon"
+   ],
+   "polities": [
+    "maratha-empire"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "First Anglo-Maratha War",
+   "see": "nana-phadnavis"
+  },
+  {
+   "id": "pitts-act",
+   "date": "1784",
+   "lane": "forts",
+   "title": "Pitt's India Act",
+   "summary": "A government Board of Control in London is set over the Company's directors: the start of dual Company–Crown government of India.",
+   "concepts": [
+    "pitts-india-act"
+   ]
+  },
+  {
+   "id": "hastings-trial",
+   "date": "1788",
+   "end": "1795",
+   "lane": "life",
+   "title": "Impeachment of Warren Hastings",
+   "summary": "Edmund Burke leads the impeachment of Hastings for corruption and abuse of power in a seven-year trial that becomes a public debate over the Company's conduct. Hastings is acquitted.",
+   "people": [
+    "warren-hastings"
+   ]
+  },
+  {
+   "id": "permanent-settlement",
+   "date": "1793",
+   "lane": "forts",
+   "title": "Permanent Settlement",
+   "summary": "Lord Cornwallis fixes Bengal's land revenue in perpetuity with zamindars, creating a landlord class loyal to British rule while leaving cultivators exposed.",
+   "people": [
+    "cornwallis"
+   ],
+   "polities": [
+    "bengal-subah"
+   ],
+   "concepts": [
+    "permanent-settlement"
+   ]
+  },
+  {
+   "id": "wellesley",
+   "date": "1798",
+   "end": "1805",
+   "lane": "forts",
+   "major": true,
+   "title": "Wellesley's expansion",
+   "summary": "Governor-General Richard Wellesley uses subsidiary alliances — Hyderabad 1798, the Peshwa at Bassein 1802 — and wars against Mysore and the Marathas. His brother Arthur wins at Assaye; the Company takes Delhi and the Mughal emperor under its protection.",
+   "people": [
+    "richard-wellesley",
+    "wellesley",
+    "bajirao-ii",
+    "shah-alam-ii"
+   ],
+   "places": [
+    "assaye",
+    "delhi",
+    "vasai"
+   ],
+   "polities": [
+    "hyderabad-state",
+    "maratha-empire"
+   ],
+   "concepts": [
+    "subsidiary-alliance",
+    "anglo-maratha-wars"
+   ],
+   "see": "bajirao-ii"
+  },
+  {
+   "id": "charter-1813",
+   "date": "1813",
+   "lane": "forts",
+   "title": "End of the trade monopoly",
+   "summary": "The Charter Act of 1813 ends the Company's monopoly of trade with India (keeping tea and China) and allows missionaries in. The Company is becoming a government more than a business.",
+   "concepts": [
+    "charter-act-1813"
+   ]
+  },
+  {
+   "id": "anglo-maratha-3",
+   "date": "1817-11-05",
+   "end": "1818-06-03",
+   "lane": "military",
+   "major": true,
+   "title": "Third Anglo-Maratha War — the Peshwa falls",
+   "summary": "The last Peshwa, Bajirao II, is defeated and exiled; the Holkars, Shindes and Bhonsles become subordinate princely states. The Company is now the paramount power in India.",
+   "people": [
+    "bajirao-ii",
+    "elphinstone",
+    "john-malcolm"
+   ],
+   "places": [
+    "khadki",
+    "koregaon",
+    "pune"
+   ],
+   "polities": [
+    "maratha-empire"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Third Anglo-Maratha War",
+   "see": "bajirao-ii"
+  },
+  {
+   "id": "burma",
+   "date": "1824",
+   "end": "1826",
+   "lane": "military",
+   "title": "First Anglo-Burmese War",
+   "summary": "A costly war in the east adds Assam, Manipur and Arakan to Company territory.",
+   "wiki": "First Anglo-Burmese War"
+  },
+  {
+   "id": "sati",
+   "date": "1829-12-04",
+   "lane": "forts",
+   "major": true,
+   "title": "Sati abolished",
+   "summary": "Governor-General William Bentinck outlaws sati in Bengal, after years of campaigning by reformers such as Ram Mohan Roy.",
+   "people": [
+    "bentinck",
+    "ram-mohan-roy"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "concepts": [
+    "sati-regulation"
+   ]
+  },
+  {
+   "id": "charter-1833",
+   "date": "1833",
+   "lane": "forts",
+   "title": "The Company stops trading",
+   "summary": "The Charter Act of 1833 ends the Company's remaining commercial activities. It becomes purely an administrator of India on behalf of the Crown; the Governor-General of Bengal becomes Governor-General of India.",
+   "people": [
+    "bentinck"
+   ]
+  },
+  {
+   "id": "english-education",
+   "date": "1835",
+   "lane": "forts",
+   "title": "English education",
+   "summary": "After Macaulay's notorious minute dismissing Indian learning, the Company directs its education funding to teaching in English — creating the English-educated class that later leads the nationalist movement.",
+   "people": [
+    "macaulay",
+    "bentinck"
+   ],
+   "concepts": [
+    "english-education-act"
+   ]
+  },
+  {
+   "id": "afghan",
+   "date": "1839",
+   "end": "1842",
+   "lane": "military",
+   "title": "First Anglo-Afghan War",
+   "summary": "An invasion to install a friendly ruler in Kabul ends in the destruction of the retreating British-Indian army in January 1842.",
+   "places": [
+    "kabul"
+   ],
+   "wiki": "First Anglo-Afghan War"
+  },
+  {
+   "id": "sikh-wars",
+   "date": "1845-12",
+   "end": "1849-03-29",
+   "lane": "military",
+   "major": true,
+   "title": "Anglo-Sikh Wars — Punjab annexed",
+   "summary": "After Ranjit Singh's death (1839) the Sikh Empire weakens. Two hard-fought wars end with the annexation of the Punjab in 1849; the boy maharaja Duleep Singh is exiled to Britain.",
+   "people": [
+    "ranjit-singh",
+    "duleep-singh",
+    "dalhousie"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "polities": [
+    "sikh-empire"
+   ],
+   "wiki": "Second Anglo-Sikh War"
+  },
+  {
+   "id": "lapse",
+   "date": "1848",
+   "end": "1856",
+   "lane": "forts",
+   "major": true,
+   "title": "Dalhousie's annexations",
+   "summary": "Under the Doctrine of Lapse Dalhousie annexes states whose rulers die without natural heirs — Satara (1848), Jhansi (1853), Nagpur (1854) — and in 1856 annexes Awadh for 'misgovernment', deposing Wajid Ali Shah.",
+   "people": [
+    "dalhousie",
+    "lakshmibai",
+    "wajid-ali-shah"
+   ],
+   "places": [
+    "satara",
+    "jhansi",
+    "nagpur",
+    "lucknow"
+   ],
+   "polities": [
+    "satara-state",
+    "nagpur-kingdom",
+    "awadh"
+   ],
+   "concepts": [
+    "doctrine-of-lapse"
+   ],
+   "see": "maratha-empire"
+  },
+  {
+   "id": "phule-school",
+   "date": "1848-01-01",
+   "lane": "world",
+   "title": "The Phules' school for girls in Pune",
+   "summary": "Jyotirao and Savitribai Phule open one of the first schools for girls run by Indians, in Pune — the start of their lifelong work against caste and gender discrimination.",
+   "people": [
+    "phule",
+    "savitribai-phule"
+   ],
+   "places": [
+    "pune"
+   ]
+  },
+  {
+   "id": "railway",
+   "date": "1853-04-16",
+   "lane": "world",
+   "title": "First passenger train",
+   "summary": "India's first passenger train runs from Bombay to Thane. Railways and the telegraph spread rapidly under Dalhousie.",
+   "people": [
+    "dalhousie"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "concepts": [
+    "indian-railways"
+   ]
+  },
+  {
+   "id": "revolt",
+   "date": "1857-05-10",
+   "end": "1858-07",
+   "lane": "political",
+   "major": true,
+   "title": "Revolt of 1857",
+   "summary": "After Mangal Pandey's attack on officers at Barrackpore in March, sepoys mutiny at Meerut and march to Delhi, proclaiming Bahadur Shah Zafar emperor. The uprising spreads across north India — Kanpur, Lucknow, Jhansi — led by figures such as Nana Sahib, Rani Lakshmibai and Tatya Tope, and is crushed with great brutality.",
+   "people": [
+    "mangal-pandey",
+    "bahadur-shah-zafar",
+    "nana-sahib",
+    "lakshmibai",
+    "tatya-tope"
+   ],
+   "places": [
+    "meerut",
+    "delhi",
+    "kanpur",
+    "lucknow",
+    "jhansi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "concepts": [
+    "revolt-1857"
+   ],
+   "wiki": "Indian Rebellion of 1857"
+  },
+  {
+   "id": "crown",
+   "date": "1858-08-02",
+   "lane": "forts",
+   "title": "The Crown takes over",
+   "summary": "The Government of India Act transfers the Company's territories, army and powers to the British Crown. The Governor-General becomes Viceroy.",
+   "people": [
+    "queen-victoria",
+    "canning"
+   ],
+   "polities": [
+    "british-raj",
+    "company-rule"
+   ],
+   "concepts": [
+    "goi-act-1858"
+   ]
+  },
+  {
+   "id": "proclamation",
+   "date": "1858-11-01",
+   "lane": "life",
+   "major": true,
+   "title": "Queen Victoria's Proclamation",
+   "summary": "Lord Canning, the first Viceroy, reads Queen Victoria's proclamation at Allahabad: the Crown takes over from the East India Company, promises not to interfere in religion, and abandons annexation of the princely states.",
+   "people": [
+    "queen-victoria",
+    "canning"
+   ],
+   "polities": [
+    "british-raj",
+    "east-india-company"
+   ],
+   "concepts": [
+    "goi-act-1858"
+   ]
+  },
+  {
+   "id": "ics",
+   "date": "1864",
+   "approx": true,
+   "lane": "forts",
+   "title": "The Indian Civil Service",
+   "summary": "Recruited by examination held in London, the ICS becomes the 'steel frame' of British rule. Satyendranath Tagore becomes its first Indian member in 1864; the London-only exam keeps Indians a small minority for decades.",
+   "concepts": [
+    "ics"
+   ]
+  },
+  {
+   "id": "gandhi-born",
+   "date": "1869-10-02",
+   "lane": "world",
+   "title": "Gandhi born at Porbandar",
+   "summary": "Mohandas Karamchand Gandhi is born in Porbandar, Gujarat. The Suez Canal opens the same year, bringing India much closer to Britain.",
+   "people": [
+    "gandhi"
+   ]
+  },
+  {
+   "id": "satyashodhak",
+   "date": "1873-09-24",
+   "lane": "world",
+   "title": "Satyashodhak Samaj",
+   "summary": "In Pune, Jyotirao Phule founds the Satyashodhak Samaj (Society of Truth-seekers) to challenge caste hierarchy and Brahmin dominance.",
+   "people": [
+    "phule",
+    "savitribai-phule"
+   ],
+   "places": [
+    "pune"
+   ],
+   "concepts": [
+    "satyashodhak"
+   ]
+  },
+  {
+   "id": "dissolved",
+   "date": "1874-06-01",
+   "lane": "life",
+   "major": true,
+   "title": "The Company is dissolved",
+   "summary": "With its remaining dividend obligations paid off, the East India Company is formally wound up.",
+   "polities": [
+    "east-india-company"
+   ]
+  },
+  {
+   "id": "famine-1876",
+   "date": "1876",
+   "end": "1878",
+   "lane": "world",
+   "major": true,
+   "title": "The Great Famine",
+   "summary": "Drought across south and west India turns into a famine killing millions, while grain exports continue and relief is kept deliberately meagre. It is the first of several devastating late-19th-century famines.",
+   "concepts": [
+    "famine-1876"
+   ]
+  },
+  {
+   "id": "empress",
+   "date": "1877-01-01",
+   "lane": "life",
+   "major": true,
+   "title": "Victoria proclaimed Empress of India",
+   "summary": "At the Delhi Durbar of 1877, held while famine raged in the south, Queen Victoria is proclaimed Kaisar-i-Hind, Empress of India.",
+   "people": [
+    "queen-victoria"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "concepts": [
+    "delhi-durbar"
+   ]
+  },
+  {
+   "id": "congress",
+   "date": "1885-12-28",
+   "lane": "political",
+   "major": true,
+   "title": "Indian National Congress founded",
+   "summary": "Seventy-two delegates meet in Bombay, encouraged by the retired official A. O. Hume. Early leaders like Dadabhai Naoroji — whose 'drain of wealth' theory indicts British economic policy — petition for reform within the empire.",
+   "people": [
+    "ao-hume",
+    "dadabhai-naoroji"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "concepts": [
+    "congress"
+   ]
+  },
+  {
+   "id": "vivekananda",
+   "date": "1893-09-11",
+   "lane": "world",
+   "title": "Vivekananda at Chicago",
+   "summary": "Swami Vivekananda's address to the World's Parliament of Religions makes him famous and becomes a source of national self-confidence.",
+   "people": [
+    "vivekananda"
+   ]
+  },
+  {
+   "id": "chapekar",
+   "date": "1897-06-22",
+   "lane": "political",
+   "major": true,
+   "title": "Plague in Pune: the Chapekar brothers kill Rand",
+   "summary": "Harsh plague-control measures in Pune — forced house searches and removals — lead the Chapekar brothers to shoot the plague commissioner W. C. Rand. Tilak, whose newspaper Kesari had denounced the measures, is jailed for sedition.",
+   "people": [
+    "chapekar-brothers",
+    "tilak"
+   ],
+   "places": [
+    "pune"
+   ]
+  },
+  {
+   "id": "bengal-partition",
+   "date": "1905-10-16",
+   "lane": "forts",
+   "major": true,
+   "title": "Partition of Bengal and the Swadeshi movement",
+   "summary": "Viceroy Curzon divides Bengal along largely religious lines. The protest movement boycotts British goods (Swadeshi) and turns nationalism into a mass cause.",
+   "people": [
+    "curzon"
+   ],
+   "places": [
+    "kolkata",
+    "dhaka"
+   ],
+   "concepts": [
+    "bengal-partition-1905",
+    "swadeshi"
+   ]
+  },
+  {
+   "id": "muslim-league",
+   "date": "1906-12-30",
+   "lane": "political",
+   "title": "All-India Muslim League founded",
+   "summary": "Muslim leaders meeting at Dhaka found the Muslim League to represent Muslim interests; the 1909 reforms give it separate electorates.",
+   "places": [
+    "dhaka"
+   ],
+   "concepts": [
+    "muslim-league"
+   ]
+  },
+  {
+   "id": "surat-split",
+   "date": "1907-12",
+   "lane": "political",
+   "title": "Congress splits at Surat",
+   "summary": "The Congress session at Surat breaks up in chaos as the Moderates, led by Gokhale, and the Extremists, led by Tilak, Lala Lajpat Rai and Bipin Chandra Pal, part ways.",
+   "people": [
+    "gokhale",
+    "tilak",
+    "lajpat-rai"
+   ],
+   "places": [
+    "surat"
+   ],
+   "concepts": [
+    "congress"
+   ],
+   "wiki": "Surat Split"
+  },
+  {
+   "id": "tilak-mandalay",
+   "date": "1908-07",
+   "lane": "political",
+   "title": "Tilak sentenced to Mandalay",
+   "summary": "Tilak is convicted of sedition and spends six years in prison at Mandalay in Burma, where he writes the Gita Rahasya.",
+   "people": [
+    "tilak"
+   ],
+   "places": [
+    "mandalay"
+   ]
+  },
+  {
+   "id": "delhi-capital",
+   "date": "1911-12-12",
+   "lane": "life",
+   "major": true,
+   "title": "Capital moves to Delhi",
+   "summary": "At the Delhi Durbar, George V announces that the capital will move from Calcutta to Delhi and that the partition of Bengal is annulled. New Delhi is inaugurated in 1931.",
+   "places": [
+    "delhi",
+    "new-delhi",
+    "kolkata"
+   ],
+   "concepts": [
+    "delhi-durbar",
+    "bengal-partition-1905"
+   ]
+  },
+  {
+   "id": "ww1",
+   "date": "1914-08",
+   "end": "1918-11",
+   "lane": "military",
+   "title": "First World War",
+   "summary": "More than a million Indian soldiers serve overseas — in France, Mesopotamia, East Africa and Gallipoli — and over 70,000 die. Indian leaders expect self-government in return.",
+   "concepts": [
+    "india-ww1"
+   ]
+  },
+  {
+   "id": "gandhi-returns",
+   "date": "1915-01-09",
+   "lane": "political",
+   "title": "Gandhi returns from South Africa",
+   "summary": "After two decades leading the Indian community's struggle in South Africa, Gandhi returns to India, travels widely on Gokhale's advice, and founds an ashram at Ahmedabad.",
+   "people": [
+    "gandhi",
+    "gokhale"
+   ],
+   "places": [
+    "sabarmati"
+   ]
+  },
+  {
+   "id": "home-rule",
+   "date": "1916",
+   "lane": "political",
+   "title": "Home Rule and the Lucknow Pact",
+   "summary": "Tilak and Annie Besant launch Home Rule Leagues — 'Swaraj is my birthright, and I shall have it'. At Lucknow the Congress and the Muslim League agree a joint scheme for reform.",
+   "people": [
+    "tilak",
+    "annie-besant",
+    "jinnah"
+   ],
+   "places": [
+    "lucknow"
+   ],
+   "concepts": [
+    "home-rule",
+    "lucknow-pact"
+   ]
+  },
+  {
+   "id": "jallianwala",
+   "date": "1919-04-13",
+   "lane": "military",
+   "major": true,
+   "title": "Jallianwala Bagh massacre",
+   "summary": "In Amritsar, after protests against the repressive Rowlatt Act, General Reginald Dyer orders troops to fire without warning on a crowd in an enclosed garden, killing hundreds. It turns much of India against British rule.",
+   "people": [
+    "dyer"
+   ],
+   "places": [
+    "jallianwala",
+    "amritsar"
+   ],
+   "concepts": [
+    "rowlatt-act"
+   ],
+   "wiki": "Jallianwala Bagh massacre"
+  },
+  {
+   "id": "non-cooperation",
+   "date": "1920-08-01",
+   "end": "1922-02",
+   "lane": "political",
+   "major": true,
+   "title": "Non-cooperation movement",
+   "summary": "On the day Tilak dies, Gandhi launches non-cooperation: boycott of British goods, schools, courts and titles, alongside the Khilafat movement. After a mob kills policemen at Chauri Chaura in February 1922, Gandhi calls it off.",
+   "people": [
+    "gandhi",
+    "tilak"
+   ],
+   "places": [
+    "chauri-chaura"
+   ],
+   "concepts": [
+    "non-cooperation",
+    "congress"
+   ],
+   "wiki": "Chauri Chaura incident"
+  },
+  {
+   "id": "simon",
+   "date": "1928",
+   "lane": "political",
+   "title": "Simon Commission boycotted",
+   "summary": "An all-British commission to review the constitution is met with protests of 'Simon, go back'. Lala Lajpat Rai dies after being beaten in a police lathi charge in Lahore.",
+   "people": [
+    "lajpat-rai"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "simon-commission"
+   ]
+  },
+  {
+   "id": "purna-swaraj",
+   "date": "1929-12-31",
+   "lane": "political",
+   "title": "Purna Swaraj",
+   "summary": "At Lahore, under Jawaharlal Nehru's presidency, the Congress declares complete independence its goal; 26 January 1930 is celebrated as Independence Day.",
+   "people": [
+    "nehru"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "purna-swaraj",
+    "congress"
+   ]
+  },
+  {
+   "id": "salt-march",
+   "date": "1930-03-12",
+   "end": "1930-04-06",
+   "lane": "political",
+   "major": true,
+   "title": "Salt March",
+   "summary": "Gandhi walks 390 km from Sabarmati Ashram to Dandi to make salt in defiance of the salt tax, starting a civil disobedience movement in which tens of thousands are jailed.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "sabarmati",
+    "dandi"
+   ],
+   "concepts": [
+    "salt-march"
+   ]
+  },
+  {
+   "id": "bhagat-singh",
+   "date": "1931-03-23",
+   "lane": "political",
+   "major": true,
+   "title": "Bhagat Singh, Rajguru and Sukhdev hanged",
+   "summary": "The three revolutionaries are executed in Lahore for the killing of a police officer in revenge for Lajpat Rai's death. Rajguru was from Khed near Pune, today renamed Rajgurunagar in his honour.",
+   "people": [
+    "bhagat-singh",
+    "rajguru",
+    "lajpat-rai"
+   ],
+   "places": [
+    "lahore",
+    "khed"
+   ]
+  },
+  {
+   "id": "poona-pact",
+   "date": "1932-09-24",
+   "lane": "political",
+   "major": true,
+   "title": "Poona Pact",
+   "summary": "Gandhi fasts in Yerawada jail against separate electorates for the Depressed Classes, which Ambedkar had won. Ambedkar agrees to reserved seats within joint electorates instead — a compromise he later criticised.",
+   "people": [
+    "gandhi",
+    "ambedkar"
+   ],
+   "places": [
+    "yerawada",
+    "pune"
+   ],
+   "concepts": [
+    "poona-pact"
+   ]
+  },
+  {
+   "id": "goi-1935",
+   "date": "1935",
+   "lane": "forts",
+   "title": "Government of India Act 1935",
+   "summary": "Provincial autonomy and a wider franchise; Congress wins most provinces in the 1937 elections. Much of the Act later shapes India's constitution.",
+   "concepts": [
+    "goi-act-1935",
+    "congress"
+   ]
+  },
+  {
+   "id": "ww2",
+   "date": "1939-09-03",
+   "end": "1945-08",
+   "lane": "military",
+   "title": "Second World War",
+   "summary": "The Viceroy declares India at war without consulting Indian leaders; Congress ministries resign. About 2.5 million Indians serve in the largest volunteer army in history.",
+   "concepts": [
+    "india-ww2",
+    "congress"
+   ]
+  },
+  {
+   "id": "lahore-resolution",
+   "date": "1940-03-23",
+   "lane": "political",
+   "title": "Lahore Resolution",
+   "summary": "The Muslim League, led by Jinnah, calls for independent states in the Muslim-majority regions — the demand for Pakistan.",
+   "people": [
+    "jinnah"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "muslim-league"
+   ]
+  },
+  {
+   "id": "quit-india",
+   "date": "1942-08-08",
+   "lane": "political",
+   "major": true,
+   "title": "Quit India",
+   "summary": "At Gowalia Tank in Bombay, Gandhi calls on the British to 'Quit India' — 'Do or die'. The Congress leadership is arrested the next morning and a largely leaderless uprising is suppressed.",
+   "people": [
+    "gandhi",
+    "nehru",
+    "patel"
+   ],
+   "places": [
+    "gowalia-tank",
+    "mumbai"
+   ],
+   "concepts": [
+    "quit-india",
+    "congress"
+   ]
+  },
+  {
+   "id": "famine-1943",
+   "date": "1943",
+   "lane": "world",
+   "major": true,
+   "title": "Bengal famine",
+   "summary": "Wartime shortages, the loss of Burmese rice, hoarding and government policy produce a famine in which about three million people die.",
+   "places": [
+    "kolkata"
+   ],
+   "concepts": [
+    "famine-1943"
+   ]
+  },
+  {
+   "id": "ina",
+   "date": "1943-10-21",
+   "lane": "military",
+   "title": "Bose and the Indian National Army",
+   "summary": "Subhas Chandra Bose proclaims a Provisional Government of Free India in Singapore and leads the INA alongside Japan. The 1945–46 Red Fort trials of INA officers spark nationwide sympathy.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "red-fort"
+   ],
+   "concepts": [
+    "ina"
+   ]
+  },
+  {
+   "id": "rin-mutiny",
+   "date": "1946-02-18",
+   "lane": "military",
+   "title": "Royal Indian Navy mutiny",
+   "summary": "Sailors in Bombay strike and seize ships, joined by thousands across the country — a sign that Britain can no longer count on its Indian forces.",
+   "places": [
+    "mumbai"
+   ],
+   "concepts": [
+    "rin-mutiny"
+   ],
+   "wiki": "Royal Indian Navy mutiny"
+  },
+  {
+   "id": "direct-action",
+   "date": "1946-08-16",
+   "lane": "military",
+   "title": "Direct Action Day — the Calcutta killings",
+   "summary": "A Muslim League call for protest turns into days of communal killing in Calcutta, followed by violence in Noakhali and Bihar. Partition comes to look unavoidable.",
+   "people": [
+    "jinnah"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "concepts": [
+    "muslim-league"
+   ],
+   "wiki": "Direct Action Day"
+  },
+  {
+   "id": "integration",
+   "date": "1947",
+   "end": "1949",
+   "lane": "forts",
+   "title": "Integration of the princely states",
+   "summary": "Sardar Patel and V. P. Menon bring over 550 princely states — including the Maratha states of Gwalior, Indore, Baroda and Kolhapur — into the Indian Union.",
+   "people": [
+    "patel"
+   ],
+   "polities": [
+    "gwalior-state",
+    "indore-state",
+    "baroda-state",
+    "kolhapur-state",
+    "hyderabad-state"
+   ],
+   "concepts": [
+    "princely-integration"
+   ],
+   "see": "maratha-empire"
+  },
+  {
+   "id": "independence",
+   "date": "1947-08-15",
+   "lane": "life",
+   "major": true,
+   "title": "Independence and Partition",
+   "summary": "Under Mountbatten's plan British India is divided into two dominions, India and Pakistan. Nehru becomes Prime Minister. The partition displaces some 15 million people and is accompanied by killing on a massive scale, with estimates of the dead running from several hundred thousand to two million.",
+   "people": [
+    "mountbatten",
+    "nehru",
+    "jinnah",
+    "gandhi",
+    "patel"
+   ],
+   "places": [
+    "delhi",
+    "red-fort",
+    "lahore"
+   ],
+   "polities": [
+    "dominion-india",
+    "dominion-pakistan",
+    "british-raj"
+   ],
+   "concepts": [
+    "partition-of-india"
+   ],
+   "wiki": "Partition of India"
+  },
+  {
+   "id": "gandhi-killed",
+   "date": "1948-01-30",
+   "lane": "world",
+   "title": "Gandhi assassinated",
+   "summary": "Gandhi is shot dead in Delhi by Nathuram Godse, a Hindu nationalist.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "wiki": "Assassination of Mahatma Gandhi"
+  },
+  {
+   "id": "republic",
+   "date": "1950-01-26",
+   "lane": "life",
+   "major": true,
+   "title": "India becomes a republic",
+   "summary": "The Constitution, drafted by a committee chaired by B. R. Ambedkar, comes into force — on the anniversary of the 1930 Purna Swaraj day.",
+   "people": [
+    "ambedkar",
+    "nehru"
+   ],
+   "polities": [
+    "dominion-india"
+   ],
+   "concepts": [
+    "purna-swaraj"
+   ]
+  }
+ ]
+}

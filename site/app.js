@@ -90,6 +90,17 @@ function showError(err) {
 
 async function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
+  // Old ids of merged or renamed timelines (index "aliases") redirect to the current one.
+  if (parts.length) {
+    const alias = Object.fromEntries((await loadOptional("data/index.json", [])).flatMap((t) => (t.aliases || []).map((a) => [a, t.id])));
+    const fixed = parts[0] === "compare"
+      ? [parts[0], ...(parts[1] ? [parts[1].split(",").map((i) => alias[i] || i).join(",")] : []), ...parts.slice(2)]
+      : [alias[parts[0]] || parts[0], ...parts.slice(1)];
+    if (fixed.join("/") !== parts.join("/")) {
+      history.replaceState(null, "", `#/${fixed.join("/")}`);
+      parts.splice(0, parts.length, ...fixed);
+    }
+  }
   let tlId, kind, id;
   if (parts[0] === "compare") {
     // a bare "#/compare" has no list part; a list part never contains "e"/"ev" alone

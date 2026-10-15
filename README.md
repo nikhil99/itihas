@@ -66,6 +66,7 @@ titles, places with no coordinates) so mistakes surface right away.
 | `range` | initial visible years |
 | `focus` | `[from, to]` years to shade (defaults to the subject's lifespan) |
 | `intro` | optional text replacing the Wikipedia summary in the header |
+| `aliases` | old ids of timelines merged into or renamed to this one; links to them redirect here |
 | `context` | bars in the "People & powers" section; `from`/`to` override Wikidata dates (e.g. reigns) |
 
 Event-level `"see": "<timeline-id>"` adds an "Open the full timeline →" link to that card.
