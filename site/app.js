@@ -474,6 +474,7 @@ async function renderTimelinePage(id) {
       el("p", { class: "sub" }, tl.subtitle),
       (() => { const p = linked("p", "extract", tl.intro || subj.extract, [], { skip: tl.subject }); p.append(" ", el("a", { href: `#/${tl.id}/e/${tl.subject}` }, "More →")); return p; })(),
       el("a", { class: "compare-btn", href: `#/compare/${tl.id}` }, "⇆ Compare with other timelines"),
+      askAI({ subject: subj.title, type: subj.type, context: timelineContext(tl) }),
     ),
   );
 
@@ -617,7 +618,51 @@ function compareHero(tl, index, ents) {
     el("p", { class: "sub" }, `Put up to ${CMP_MAX} people, empires or states on one axis to see who was contemporary with whom.`),
     el("div", { class: "cmp-pickers" }, [...Array(CMP_MAX).keys()].filter((slot) => slot <= chosen.length).map(picker)),
     cards.length ? el("div", { class: "cmp-cards" }, cards) : null,
-    el("div", { class: "cmp-overlaps" }, el("b", {}, "Overlaps: "), overlapText));
+    el("div", { class: "cmp-overlaps" }, el("b", {}, "Overlaps: "), overlapText),
+    tl.compare.length >= 2 ? askAI({ subject: tl.compare.map(shortTitle).join(", "), type: "compare",
+      context: tl.compare.map((t, i) => `${t.title} (${yr(tl.spans[i][0])}–${yr(tl.spans[i][1])}): ${t.subtitle || ""}`).join("\n") +
+        (tl.overlaps.length ? `\nOverlaps: ${tl.overlaps.map((o) => `${o.label} ${yr(o.from)}–${yr(o.to)}`).join("; ")}` : "") }) : null);
+}
+
+// ---------- Ask AI ----------
+// The site is static, so questions go to Claude or ChatGPT in a new tab, prefilled with the
+// question plus what this page knows (dates, description, key events) as grounding context.
+const AI_TARGETS = [["Claude", "https://claude.ai/new?q="], ["ChatGPT", "https://chatgpt.com/?q="]];
+const AI_SUGGEST = {
+  person: (n) => [`Why is ${n} important in Indian history?`, `What were ${n}'s greatest achievements and failures?`, `How do historians view ${n} today?`],
+  polity: (n) => [`Why did the ${n} rise and fall?`, `How was the ${n} governed and financed?`, `What was life like for ordinary people under the ${n}?`],
+  place: (n) => [`What happened at ${n}, and why did it matter?`, `What is there to see at ${n} today?`],
+  concept: (n) => [`Explain ${n} in simple terms.`, `How did ${n} work in practice?`],
+  compare: () => ["How did these powers interact with each other?", "Who was stronger, and when did that change?", "What did each one inherit from the others?"],
+};
+const evLine = (ev) => `${fmtDate(ev.date, ev.approx)}: ${ev.title}`;
+
+function askAI({ subject, type, context }) {
+  subject = subject.replace(/\s*\(.*\)$/, ""); // "Afzal Khan (general)" → "Afzal Khan"
+  const suggestions = (AI_SUGGEST[type] || AI_SUGGEST.concept)(subject);
+  const input = el("input", { class: "ask-input", type: "text", placeholder: "Type a question…", "aria-label": `Question about ${subject}` });
+  const send = ([, base]) => {
+    const q = input.value.trim() || suggestions[0];
+    let prompt = `I'm exploring Indian history on Itihas (itihas.vokalglobe.com), looking at: ${subject}.\n\nBackground from the site:\n${context}`;
+    const tail = `\n\nMy question: ${q}\n\nPlease answer as a careful historian: give dates, say where sources or historians disagree, and suggest further reading.`;
+    prompt = prompt.slice(0, 1800 - tail.length) + tail; // keep the URL a safe length
+    window.open(base + encodeURIComponent(prompt), "_blank", "noopener");
+  };
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") send(AI_TARGETS[0]); });
+  return el("div", { class: "ask-ai" },
+    el("div", { class: "ask-head" }, el("span", { class: "ask-spark", "aria-hidden": "true" }, "✦"), `Ask AI about ${subject}`),
+    el("div", { class: "ask-row" }, input,
+      AI_TARGETS.map((t) => el("button", { class: "ask-btn", onclick: () => send(t) }, `${t[0]} ↗`))),
+    el("div", { class: "ask-sugg" }, suggestions.map((q) =>
+      el("button", { class: "chip ask-chip", onclick: () => { input.value = q; input.focus(); } }, q))));
+}
+
+function timelineContext(tl) {
+  const key = tl.events.filter((ev) => (ev.importance ?? (ev.major ? 3 : 1)) >= 3).slice(0, 14);
+  const rulers = (tl.rulers || []).flatMap((r) => r.members).map((m) => m.name || state.entities[m.entity]?.title).filter(Boolean);
+  return [`${tl.title} — ${tl.subtitle || ""}`.trim(),
+    rulers.length ? `Rulers: ${[...new Set(rulers)].slice(0, 30).join(", ")}.` : "",
+    key.length ? `Key events:\n${key.map(evLine).join("\n")}` : ""].filter(Boolean).join("\n");
 }
 
 // ---------- Inline entity links ----------
@@ -1262,6 +1307,11 @@ async function openEntity(id) {
       e.mrUrl && el("a", { href: e.mrUrl, target: "_blank", rel: "noopener" }, "विकिपीडिया (मराठी) ↗"),
       e.coords && el("a", { href: "#", onclick: (ev) => { ev.preventDefault(); closeDrawer(true); highlightPlaces([id]); $("#map").scrollIntoView({ behavior: "smooth", block: "center" }); } }, "Show on map"),
     ),
+    askAI({ subject: e.title, type: e.type, context: [
+      `${e.title}${e.description ? ` — ${e.description}` : ""}${dateLine ? ` (${dateLine})` : ""}`,
+      e.extract ? e.extract.slice(0, 600) : "",
+      evs.length ? `In the timeline "${tl.title}":\n${evs.slice(0, 10).map(evLine).join("\n")}` : "",
+    ].filter(Boolean).join("\n") }),
     evs.length ? el("h3", {}, `In this timeline (${evs.length})`) : "",
     el("ul", { class: "d-events" }, evs.map((ev) =>
       el("li", { onclick: () => go(`#/${tl.id}/ev/${ev.id}`) }, el("span", { class: "d-ev-date" }, fmtDate(ev.date, ev.approx)), el("span", {}, ev.title)))),
