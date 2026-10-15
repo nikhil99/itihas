@@ -513,9 +513,163 @@ async function renderTimelinePage(id) {
     el("div", { class: "map-caption" }, "Select an event to see where it happened. Click a marker for details."));
 
   if (tl.compare && tl.compare.length === 0) { $("#app").replaceChildren(hero); state.renderTimeline = () => {}; return; }
-  $("#app").replaceChildren(...[seriesNav, hero, toolbar].filter(Boolean), tlBox, el("div", { class: "below" }, story, mapWrap));
+  $("#app").replaceChildren(...[seriesNav, hero, toolbar].filter(Boolean), tlBox, ...[familySection(tl)].filter(Boolean), el("div", { class: "below" }, story, mapWrap));
   state.renderTimeline = setupTimeline(tlBox);
   setupMap();
+}
+
+// ---------- Family tree ----------
+// Built at build time from Wikidata (+ content/families.json). Rulers are gold and numbered
+// in order of succession; the line the throne passed down is drawn gold, adoptions dashed,
+// spouses sit beside their partner, and heirs who never reigned get a dashed gold outline.
+function familySection(tl) {
+  if (!tl.family?.length) return null;
+  const rulers = tl.family.reduce((n, r) => n + r.nodes.filter((x) => x.reigns).length, 0);
+  const wrap = el("details", { class: "family", open: true },
+    el("summary", {}, el("span", { class: "fam-title" }, "Family tree"),
+      el("span", { class: "fam-sub" }, `Who inherited the throne · ${rulers} rulers`)),
+    el("div", { class: "fam-legend" },
+      el("span", {}, el("i", { class: "lg ruler" }, "1"), "Ruled (number = order of succession)"),
+      el("span", {}, el("i", { class: "lg heir" }), "Heir who never ruled"),
+      el("span", {}, el("i", { class: "lg line" }), "Throne passed down"),
+      el("span", {}, el("i", { class: "lg adopted" }), "Adopted"),
+      el("span", {}, el("i", { class: "lg spouse" }, "="), "Married")),
+    tl.family.map((row) => el("div", { class: "fam-row" },
+      tl.family.length > 1 ? el("h3", {}, row.label) : null,
+      el("div", { class: "fam-scroll" }, familyTree(row)),
+      el("div", { class: "fam-hint" }, "Scroll sideways for the rest of the family →"))));
+  // Show the sideways hint only where a tree is wider than its box
+  requestAnimationFrame(() => wrap.querySelectorAll(".fam-scroll").forEach((sc) => {
+    sc.nextElementSibling.hidden = sc.scrollWidth <= sc.clientWidth + 2;
+  }));
+  return wrap;
+}
+
+function familyTree(row) {
+  const ents = state.entities;
+  const W = 148, H = 50, SW = 120, GAP = 16, LEVEL = 96, PAD = 12;
+  const nodes = Object.fromEntries(row.nodes.map((n, i) => [n.id, { ...n, i }]));
+  const kids = {}, spouses = {};
+  for (const n of Object.values(nodes)) {
+    if (n.spouseOf && nodes[n.spouseOf]) (spouses[n.spouseOf] ||= []).push(n);
+    else if (n.parent && nodes[n.parent]) (kids[n.parent] ||= []).push(n);
+  }
+  // Order siblings and separate families by who reigned first, so numbers read left to right.
+  const first = {};
+  const firstOf = (n) => first[n.id] ??= Math.min(n.n?.[0] ?? 1e9, ...(kids[n.id] || []).map(firstOf), n.i + 1e6);
+  const byFirst = (a, b) => firstOf(a) - firstOf(b);
+  const unitW = (n) => W + (spouses[n.id] || []).length * (SW + 10);
+  const width = {};
+  const widthOf = (n) => width[n.id] ??= Math.max(unitW(n), (kids[n.id] || []).reduce((s, k) => s + widthOf(k), 0) + GAP * Math.max(0, (kids[n.id] || []).length - 1));
+  const pos = {};
+  let maxDepth = 0;
+  function place(n, left, depth) {
+    maxDepth = Math.max(maxDepth, depth);
+    const ks = (kids[n.id] || []).sort(byFirst);
+    const total = widthOf(n);
+    let x = left + (total - (ks.reduce((s, k) => s + widthOf(k), 0) + GAP * Math.max(0, ks.length - 1))) / 2;
+    const kx = [];
+    for (const k of ks) { place(k, x, depth + 1); kx.push(pos[k.id].x + W / 2); x += widthOf(k) + GAP; }
+    const cx = ks.length ? (kx[0] + kx[kx.length - 1]) / 2 : left + total / 2;
+    const ux = Math.max(left, Math.min(left + total - unitW(n), cx - W / 2));
+    pos[n.id] = { x: ux, y: depth * LEVEL };
+    (spouses[n.id] || []).forEach((s, j) => { pos[s.id] = { x: ux + W + 10 + j * (SW + 10), y: depth * LEVEL, spouse: true }; });
+  }
+  const roots = Object.values(nodes).filter((n) => !(n.spouseOf && nodes[n.spouseOf]) && !(n.parent && nodes[n.parent])).sort(byFirst);
+  // Several dynasties in one row (Delhi Sultanate): label each run of families by dynasty.
+  const groupOf = (n) => n.group || (kids[n.id] || []).map(groupOf).find(Boolean);
+  const labels = [];
+  const TOP = row.nodes.some((n) => n.group) ? 26 : 0;
+  let x = PAD;
+  for (const r of roots) {
+    const gname = groupOf(r);
+    if (gname && labels.at(-1)?.name === gname) labels.at(-1).to = x + widthOf(r);
+    else if (gname) labels.push({ name: gname, from: x, to: x + widthOf(r) });
+    place(r, x, 0);
+    x += widthOf(r) + GAP * 2;
+  }
+  const TW = x - GAP * 2 + PAD, TH = (maxDepth + 1) * LEVEL - (LEVEL - H) + PAD * 2 + TOP;
+  const k = window.innerWidth < 600 ? 0.72 : 1; // phones: smaller, still readable, scroll sideways
+  const s = svg("svg", { width: TW * k, height: TH * k, viewBox: `0 0 ${TW} ${TH}`, class: "fam-svg" });
+  for (const l of labels) {
+    s.append(svg("line", { x1: l.from, x2: l.to, y1: 20, y2: 20, class: "fam-group-line" }));
+    const t = svg("text", { x: l.from, y: 13, class: "fam-group" });
+    t.textContent = fitText(l.name.toUpperCase(), l.to - l.from, "600 10px Inter, system-ui, sans-serif");
+    s.append(t);
+  }
+  const g = svg("g", { transform: `translate(0 ${PAD + TOP})` });
+  s.append(g);
+
+  // Links: parent → child elbows (gold when the throne passed along it), spouse bars
+  for (const n of Object.values(nodes)) {
+    if (n.spouseOf && nodes[n.spouseOf] && pos[n.id]) {
+      const a = pos[n.spouseOf], b = pos[n.id];
+      g.append(svg("line", { x1: a.x + W, y1: a.y + H / 2, x2: b.x, y2: b.y + H / 2, class: "fam-spouse" }));
+      continue;
+    }
+    if (!(n.parent && nodes[n.parent])) continue;
+    const p = pos[n.parent], c = pos[n.id], mid = p.y + H + (LEVEL - H) / 2;
+    const throne = nodes[n.parent].reigns && n.reigns;
+    g.append(svg("path", {
+      d: `M${p.x + W / 2},${p.y + H} V${mid} H${c.x + W / 2} V${c.y}`,
+      class: `fam-link${throne ? " throne" : ""}${n.kind === "adopted" ? " adopted" : ""}`,
+    }));
+  }
+  // Gold links on top of plain ones where they share a trunk
+  [...g.querySelectorAll(".fam-link.throne")].forEach((l) => g.append(l));
+
+  const tip = $("#tooltip");
+  for (const n of Object.values(nodes)) {
+    const p = pos[n.id];
+    if (!p) continue;
+    const e = ents[n.id];
+    const name = n.name || e?.title?.replace(/^Chhatrapati /, "") || n.id;
+    const short = name.replace(/\s*\(.*\)$/, "").replace(/ (?:of|Peshwa) .*$/, "").replace(/ Maharaj$/, "");
+    const w = p.spouse ? SW : W;
+    const reign = n.reigns?.map(([a, b]) => `${Math.floor(a)}–${Math.floor(b)}`).join(", ");
+    const life = e && (entStart(e) || entEnd(e)) ? `${entStart(e) ? parseDate(entStart(e)).y : "?"}–${entEnd(e) ? parseDate(entEnd(e)).y : "?"}` : "";
+    const sub = reign ? `r. ${reign}` : n.heir ? "heir" : life;
+    const cls = `fam-node${n.reigns ? " ruler" : ""}${n.heir ? " heir" : ""}${p.spouse ? " spouse" : ""}${e ? " link" : ""}`;
+    const node = svg("g", { class: cls, transform: `translate(${p.x} ${p.y})`, tabindex: e ? 0 : null, role: e ? "link" : null });
+    node.append(svg("rect", { width: w, height: H, rx: 9 }));
+    const t1 = svg("text", { x: w / 2, y: sub ? 21 : 29, "text-anchor": "middle", class: "fam-name" });
+    t1.textContent = fitText(short, w - (n.n ? 30 : 14), "600 12.5px Inter, system-ui, sans-serif");
+    node.append(t1);
+    if (sub) {
+      const t2 = svg("text", { x: w / 2, y: 38, "text-anchor": "middle", class: "fam-sub" });
+      t2.textContent = fitText(sub, w - 12, "400 11px Inter, system-ui, sans-serif");
+      node.append(t2);
+    }
+    if (n.n) {
+      const label = n.n.join("·");
+      const bw = Math.max(20, label.length * 7 + 10);
+      node.append(svg("rect", { x: -6, y: -8, width: bw, height: 18, rx: 9, class: "fam-badge" }));
+      const bt = svg("text", { x: -6 + bw / 2, y: 5, "text-anchor": "middle", class: "fam-badge-t" });
+      bt.textContent = label;
+      node.append(bt);
+    }
+    const html = `<b>${esc(name)}</b>` +
+      (reign ? `<div class="tt-date">Reigned ${esc(reign)}${n.n ? ` · ruler no. ${n.n.join(" & ")}` : ""}</div>` : "") +
+      (life && !reign ? `<div class="tt-date">${esc(life)}</div>` : "") +
+      (n.heir ? `<div>${esc(n.heir)}</div>` : "") +
+      (n.kind === "adopted" ? `<div>Adopted</div>` : "") +
+      (n.note ? `<div>${esc(n.note)}</div>` : "") +
+      (e?.description ? `<div class="pv-desc">${esc(e.description)}</div>` : "");
+    node.addEventListener("mousemove", (ev) => {
+      tip.innerHTML = html;
+      tip.classList.add("show");
+      const r = tip.getBoundingClientRect();
+      tip.style.left = Math.min(window.innerWidth - r.width - 8, ev.clientX + 14) + "px";
+      tip.style.top = Math.max(8, ev.clientY - r.height - 10) + "px";
+    });
+    node.addEventListener("mouseleave", () => tip.classList.remove("show"));
+    if (e) {
+      node.addEventListener("click", () => { tip.classList.remove("show"); go(entHref(n.id)); });
+      node.addEventListener("keydown", (ev) => { if (ev.key === "Enter") go(entHref(n.id)); });
+    }
+    g.append(node);
+  }
+  return s;
 }
 
 // ---------- Compare ----------
