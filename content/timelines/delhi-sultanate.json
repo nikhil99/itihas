@@ -1,0 +1,886 @@
+{
+ "id": "delhi-sultanate",
+ "kind": "empire",
+ "order": 1,
+ "title": "The Delhi Sultanate",
+ "subtitle": "Five dynasties that ruled from Delhi · 1206 – 1526",
+ "subject": "delhi-sultanate",
+ "range": [
+  1180,
+  1540
+ ],
+ "focus": [
+  1206.45,
+  1526.3
+ ],
+ "intro": "For 320 years a succession of Turkic and Afghan dynasties ruled north India from Delhi — the Mamluks, Khaljis, Tughlaqs, Sayyids and Lodis. They held off the Mongols, carried their armies to the far south under Alauddin Khalji and Muhammad bin Tughlaq, and built the Qutb Minar and the early cities of Delhi. Overstretch, revolts and Timur's sack of Delhi in 1398 broke their power, and Babur ended the Sultanate at Panipat in 1526.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Battles & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Building & cities"
+  },
+  {
+   "id": "political",
+   "label": "State, religion & culture"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Sultans",
+   "members": [
+    {
+     "entity": "qutb-aibak",
+     "from": 1206.45,
+     "to": 1210.8,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": "aram-shah",
+     "from": 1210.8,
+     "to": 1211.4,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": "iltutmish",
+     "from": 1211.4,
+     "to": 1236.33,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": "ruknuddin-firuz",
+     "from": 1236.33,
+     "to": 1236.8,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": "razia",
+     "from": 1236.8,
+     "to": 1240.8,
+     "group": "mamluk-delhi",
+     "note": "The only woman to rule the Delhi Sultanate"
+    },
+    {
+     "entity": "bahram-shah",
+     "from": 1240.8,
+     "to": 1242.4,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": "masud-shah",
+     "from": 1242.4,
+     "to": 1246.45,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": null,
+     "from": 1246.45,
+     "to": 1266.1,
+     "group": "mamluk-delhi",
+     "name": "Nasiruddin Mahmud",
+     "note": "Balban governs as his deputy"
+    },
+    {
+     "entity": "balban",
+     "from": 1266.1,
+     "to": 1287,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": "qaiqabad",
+     "from": 1287,
+     "to": 1290.1,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": "kayumars",
+     "from": 1290.1,
+     "to": 1290.45,
+     "group": "mamluk-delhi"
+    },
+    {
+     "entity": "jalaluddin-khalji",
+     "from": 1290.45,
+     "to": 1296.55,
+     "group": "khalji"
+    },
+    {
+     "entity": "alauddin",
+     "from": 1296.55,
+     "to": 1316.05,
+     "group": "khalji"
+    },
+    {
+     "entity": null,
+     "from": 1316.05,
+     "to": 1316.3,
+     "group": "khalji",
+     "name": "Shihabuddin Umar"
+    },
+    {
+     "entity": "mubarak-shah",
+     "from": 1316.3,
+     "to": 1320.3,
+     "group": "khalji"
+    },
+    {
+     "entity": "khusrau-khan",
+     "from": 1320.3,
+     "to": 1320.7,
+     "group": "khalji",
+     "note": "Overthrown by Ghazi Malik (Ghiyasuddin Tughlaq)"
+    },
+    {
+     "entity": "ghiyath-tughluq",
+     "from": 1320.7,
+     "to": 1325.1,
+     "group": "tughlaq"
+    },
+    {
+     "entity": "muhammad-tughlaq",
+     "from": 1325.1,
+     "to": 1351.2,
+     "group": "tughlaq"
+    },
+    {
+     "entity": "firuz-tughlaq",
+     "from": 1351.2,
+     "to": 1388.75,
+     "group": "tughlaq"
+    },
+    {
+     "entity": null,
+     "from": 1388.75,
+     "to": 1394.3,
+     "group": "tughlaq",
+     "name": "Short reigns",
+     "note": "Ghiyasuddin Tughlaq II, Abu Bakr Shah, Muhammad Shah III, Ala ud-din Sikandar Shah"
+    },
+    {
+     "entity": null,
+     "from": 1394.3,
+     "to": 1412.1,
+     "group": "tughlaq",
+     "name": "Nasiruddin Mahmud Shah",
+     "note": "Rival sultan Nusrat Shah 1394–1398; Timur sacks Delhi in 1398"
+    },
+    {
+     "entity": null,
+     "from": 1412.1,
+     "to": 1414.4,
+     "group": "tughlaq",
+     "name": "Daulat Khan Lodi",
+     "note": "Not a Tughlaq; holds Delhi until Khizr Khan takes it"
+    },
+    {
+     "entity": "khizr-khan",
+     "from": 1414.4,
+     "to": 1421.4,
+     "group": "sayyid"
+    },
+    {
+     "entity": "mubarak-shah-ii",
+     "from": 1421.4,
+     "to": 1434.1,
+     "group": "sayyid"
+    },
+    {
+     "entity": "muhammad-shah-iv",
+     "from": 1434.1,
+     "to": 1445,
+     "group": "sayyid"
+    },
+    {
+     "entity": "alam-shah",
+     "from": 1445,
+     "to": 1451.3,
+     "group": "sayyid"
+    },
+    {
+     "entity": "bahlul-lodi",
+     "from": 1451.3,
+     "to": 1489.5,
+     "group": "lodi-dynasty"
+    },
+    {
+     "entity": "sikandar-lodi",
+     "from": 1489.5,
+     "to": 1517.9,
+     "group": "lodi-dynasty"
+    },
+    {
+     "entity": "ibrahim-lodi",
+     "from": 1517.9,
+     "to": 1526.3,
+     "group": "lodi-dynasty"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "ghurid",
+   "label": "Ghurids",
+   "from": 1180,
+   "to": 1215
+  },
+  {
+   "entity": "mongol-empire",
+   "label": "Mongol Empire & Chagatai Khanate",
+   "from": 1206,
+   "to": 1370
+  },
+  {
+   "entity": "kakatiya",
+   "label": "Kakatiyas",
+   "from": 1180,
+   "to": 1323
+  },
+  {
+   "entity": "seuna",
+   "label": "Yadavas of Devagiri",
+   "from": 1187,
+   "to": 1317
+  },
+  {
+   "entity": "hoysala",
+   "label": "Hoysalas",
+   "from": 1180,
+   "to": 1343
+  },
+  {
+   "entity": "vijayanagara-empire",
+   "label": "Vijayanagara",
+   "from": 1336.3,
+   "to": 1540
+  },
+  {
+   "entity": "bahmani",
+   "label": "Bahmani Sultanate",
+   "from": 1347.6,
+   "to": 1527
+  },
+  {
+   "entity": "timurid",
+   "label": "Timurid Empire",
+   "from": 1370,
+   "to": 1507
+  },
+  {
+   "entity": "mughal-empire",
+   "label": "Mughal Empire",
+   "from": 1526.3,
+   "to": 1540
+  }
+ ],
+ "events": [
+  {
+   "id": "tarain-2",
+   "date": "1192",
+   "lane": "military",
+   "title": "Second Battle of Tarain",
+   "summary": "Muhammad of Ghor defeats Prithviraj Chauhan, a year after losing to him on the same field. The Ghurids take Delhi and Ajmer, and Muhammad leaves his slave-general Qutb ud-Din Aibak in charge of his Indian conquests.",
+   "people": [
+    "muhammad-ghori",
+    "prithviraj",
+    "qutb-aibak"
+   ],
+   "places": [
+    "taraori",
+    "delhi"
+   ],
+   "polities": [
+    "ghurid",
+    "chahamanas"
+   ],
+   "wiki": "Second Battle of Tarain",
+   "major": true
+  },
+  {
+   "id": "qutb-minar",
+   "date": "1199",
+   "lane": "forts",
+   "title": "Qutb Minar begun",
+   "summary": "Aibak begins the Quwwat-ul-Islam mosque, built partly from the material of demolished temples, and the Qutb Minar beside it. Iltutmish completes the tower's upper storeys.",
+   "people": [
+    "qutb-aibak",
+    "iltutmish"
+   ],
+   "places": [
+    "qutb-minar",
+    "qutb-complex",
+    "delhi"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "founding",
+   "date": "1206",
+   "lane": "life",
+   "title": "Aibak becomes Sultan",
+   "summary": "After Muhammad of Ghor is assassinated, Aibak rules his Indian territories independently from Lahore — the start of the Delhi Sultanate and of the 'Mamluk' or Slave dynasty, named for its founders' origins as military slaves.",
+   "people": [
+    "qutb-aibak",
+    "muhammad-ghori"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "polities": [
+    "delhi-sultanate",
+    "mamluk-delhi",
+    "ghurid"
+   ],
+   "major": true
+  },
+  {
+   "id": "aibak-dies",
+   "date": "1210",
+   "lane": "life",
+   "title": "Aibak dies; Iltutmish takes the throne",
+   "summary": "Aibak dies after a fall from his horse while playing polo at Lahore. His son-in-law Iltutmish, governor of Badaun, sets aside Aibak's son Aram Shah and makes Delhi the capital.",
+   "people": [
+    "qutb-aibak",
+    "aram-shah",
+    "iltutmish"
+   ],
+   "places": [
+    "lahore",
+    "delhi"
+   ]
+  },
+  {
+   "id": "genghis",
+   "date": "1221",
+   "lane": "world",
+   "title": "The Mongols at the Indus",
+   "summary": "Genghis Khan defeats Jalal al-Din Mangburni at the Indus. Iltutmish declines to shelter the fugitive prince, and the Mongols turn back — the first of many Mongol threats to the Sultanate.",
+   "people": [
+    "genghis-khan",
+    "jalal-mangburni",
+    "iltutmish"
+   ],
+   "polities": [
+    "mongol-empire"
+   ],
+   "concepts": [
+    "mongol-invasions"
+   ],
+   "wiki": "Battle of the Indus",
+   "major": true
+  },
+  {
+   "id": "caliph",
+   "date": "1229",
+   "lane": "political",
+   "title": "Recognised by the Caliph",
+   "summary": "Iltutmish receives a robe of investiture from the Abbasid caliph in Baghdad, confirming him as sovereign Sultan. He organises revenue grants (iqta) to his officers and a coinage of silver tankas.",
+   "people": [
+    "iltutmish"
+   ],
+   "polities": [
+    "abbasid",
+    "delhi-sultanate"
+   ],
+   "concepts": [
+    "iqta"
+   ]
+  },
+  {
+   "id": "razia",
+   "date": "1236",
+   "lane": "life",
+   "title": "Razia Sultan",
+   "summary": "Iltutmish names his daughter Razia as his heir. After her brother's brief reign she rules for four years, appearing in public in a man's dress, before nobles depose and kill her in 1240.",
+   "people": [
+    "razia",
+    "iltutmish",
+    "ruknuddin-firuz"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "end": "1240",
+   "major": true
+  },
+  {
+   "id": "balban",
+   "date": "1266",
+   "lane": "life",
+   "title": "Balban's iron rule",
+   "summary": "Balban, long the power behind the throne, becomes Sultan. He breaks the power of the Turkish nobles, insists on elaborate court ceremony and the Sultan's divine authority, and fortifies the north-west against the Mongols.",
+   "people": [
+    "balban"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mamluk-delhi"
+   ],
+   "concepts": [
+    "mongol-invasions"
+   ],
+   "major": true
+  },
+  {
+   "id": "khalji",
+   "date": "1290",
+   "lane": "life",
+   "title": "The Khalji revolution",
+   "summary": "Jalaluddin Khalji overthrows the last Mamluk sultans, opening the Sultanate's ruling class to non-Turkish nobles.",
+   "people": [
+    "jalaluddin-khalji",
+    "kayumars"
+   ],
+   "polities": [
+    "khalji",
+    "mamluk-delhi"
+   ],
+   "major": true
+  },
+  {
+   "id": "devagiri",
+   "date": "1296",
+   "lane": "military",
+   "title": "Alauddin's raid on Devagiri",
+   "summary": "Alauddin, Jalaluddin's nephew, makes a surprise raid on the Yadava capital of Devagiri. With its treasure he murders his uncle and takes the throne.",
+   "people": [
+    "alauddin",
+    "jalaluddin-khalji",
+    "ramachandra-devagiri"
+   ],
+   "places": [
+    "devagiri"
+   ],
+   "polities": [
+    "seuna",
+    "khalji"
+   ],
+   "wiki": "Alauddin Khalji's raid on Devagiri",
+   "major": true,
+   "see": "yadavas-devagiri"
+  },
+  {
+   "id": "kili",
+   "date": "1299",
+   "lane": "military",
+   "title": "Battle of Kili",
+   "summary": "A large Chagatai Mongol army reaches the outskirts of Delhi; Alauddin's army forces it to withdraw. Further invasions in 1303 and 1305 are also repelled.",
+   "people": [
+    "alauddin"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "chagatai",
+    "mongol-empire"
+   ],
+   "concepts": [
+    "mongol-invasions"
+   ],
+   "wiki": "Battle of Kili"
+  },
+  {
+   "id": "ranthambore",
+   "date": "1301",
+   "lane": "military",
+   "title": "Ranthambore taken",
+   "summary": "After a long siege Alauddin takes Ranthambore from Hammir Dev Chauhan.",
+   "people": [
+    "alauddin",
+    "hammiradeva"
+   ],
+   "places": [
+    "ranthambore"
+   ],
+   "wiki": "Alauddin Khalji's conquest of Ranthambore"
+  },
+  {
+   "id": "chittor",
+   "date": "1303",
+   "lane": "military",
+   "title": "Siege of Chittorgarh",
+   "summary": "Alauddin captures Chittor from Ratnasimha. The later poem Padmavat (1540) built the famous legend of Rani Padmini around this siege; contemporary chronicles do not mention her.",
+   "people": [
+    "alauddin",
+    "ratnasimha",
+    "rani-padmini"
+   ],
+   "places": [
+    "chittor"
+   ],
+   "polities": [
+    "mewar"
+   ],
+   "wiki": "Siege of Chittorgarh (1303)",
+   "major": true
+  },
+  {
+   "id": "reforms",
+   "date": "1303",
+   "lane": "political",
+   "title": "Alauddin's market and revenue reforms",
+   "summary": "To pay a huge standing army against the Mongols, Alauddin fixes prices in Delhi's markets, raises land revenue to half the produce, and builds the new city of Siri.",
+   "people": [
+    "alauddin"
+   ],
+   "places": [
+    "siri-fort",
+    "delhi"
+   ],
+   "polities": [
+    "khalji"
+   ],
+   "approx": true
+  },
+  {
+   "id": "kafur",
+   "date": "1308",
+   "lane": "military",
+   "title": "Malik Kafur's southern campaigns",
+   "summary": "Alauddin's general Malik Kafur leads armies against Devagiri (1308), the Kakatiyas at Warangal (1310), the Hoysalas (1311) and Madurai (1311), returning with vast plunder and tribute.",
+   "people": [
+    "malik-kafur",
+    "alauddin",
+    "ramachandra-devagiri",
+    "veera-ballala-iii"
+   ],
+   "places": [
+    "devagiri",
+    "warangal",
+    "madurai"
+   ],
+   "polities": [
+    "seuna",
+    "kakatiya",
+    "hoysala"
+   ],
+   "end": "1311",
+   "wiki": "Siege of Warangal (1310)",
+   "major": true
+  },
+  {
+   "id": "alai-darwaza",
+   "date": "1311",
+   "lane": "forts",
+   "title": "Alai Darwaza",
+   "summary": "Alauddin adds the Alai Darwaza, a domed gateway with true arches and red-sandstone and marble decoration, to the Qutb complex.",
+   "people": [
+    "alauddin"
+   ],
+   "places": [
+    "alai-darwaza",
+    "qutb-complex"
+   ]
+  },
+  {
+   "id": "khusrau",
+   "date": "1300",
+   "lane": "political",
+   "title": "Amir Khusrau and Nizamuddin Auliya",
+   "summary": "The poet and musician Amir Khusrau, who served several sultans, and his master, the Sufi saint Nizamuddin Auliya, make Delhi a centre of Persian and Hindavi poetry and Sufi devotion.",
+   "people": [
+    "amir-khusrau",
+    "nizamuddin"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "approx": true
+  },
+  {
+   "id": "tughlaq",
+   "date": "1320",
+   "lane": "life",
+   "title": "The Tughlaqs take power",
+   "summary": "Ghazi Malik, the frontier governor, overthrows the usurper Khusrau Khan and becomes Sultan as Ghiyasuddin Tughlaq. He builds the fortress-city of Tughlaqabad.",
+   "people": [
+    "ghiyath-tughluq",
+    "khusrau-khan"
+   ],
+   "places": [
+    "tughlaqabad"
+   ],
+   "polities": [
+    "tughlaq",
+    "khalji"
+   ],
+   "major": true
+  },
+  {
+   "id": "warangal",
+   "date": "1323",
+   "lane": "military",
+   "title": "Kakatiya kingdom annexed",
+   "summary": "Prince Ulugh Khan, the future Muhammad bin Tughlaq, takes Warangal and annexes the Kakatiya kingdom.",
+   "people": [
+    "muhammad-tughlaq"
+   ],
+   "places": [
+    "warangal"
+   ],
+   "polities": [
+    "kakatiya",
+    "tughlaq"
+   ],
+   "wiki": "Siege of Warangal (1323)"
+  },
+  {
+   "id": "mbt",
+   "date": "1325",
+   "lane": "life",
+   "title": "Muhammad bin Tughlaq",
+   "summary": "Muhammad bin Tughlaq comes to the throne — learned, ambitious and erratic. Under him the Sultanate reaches its greatest extent.",
+   "people": [
+    "muhammad-tughlaq",
+    "ghiyath-tughluq"
+   ],
+   "polities": [
+    "tughlaq"
+   ],
+   "major": true
+  },
+  {
+   "id": "daulatabad",
+   "date": "1327",
+   "lane": "forts",
+   "title": "The capital moved to Daulatabad",
+   "summary": "Muhammad orders Delhi's elite and much of its population to move to Devagiri, renamed Daulatabad, to govern the Deccan. The experiment is abandoned within a few years.",
+   "people": [
+    "muhammad-tughlaq"
+   ],
+   "places": [
+    "devagiri",
+    "delhi"
+   ],
+   "polities": [
+    "tughlaq"
+   ],
+   "major": true,
+   "see": "yadavas-devagiri"
+  },
+  {
+   "id": "token",
+   "date": "1330",
+   "lane": "political",
+   "title": "Token currency",
+   "summary": "Muhammad issues copper and brass coins with the value of silver. Mass forgery forces him to withdraw them and redeem the tokens from the treasury.",
+   "people": [
+    "muhammad-tughlaq"
+   ],
+   "polities": [
+    "tughlaq"
+   ],
+   "approx": true
+  },
+  {
+   "id": "battuta",
+   "date": "1334",
+   "lane": "world",
+   "title": "Ibn Battuta in Delhi",
+   "summary": "The Moroccan traveller Ibn Battuta arrives in Delhi and serves Muhammad as a judge for several years; his account is a vivid source on the court.",
+   "people": [
+    "ibn-battuta",
+    "muhammad-tughlaq"
+   ],
+   "places": [
+    "delhi"
+   ]
+  },
+  {
+   "id": "breakup",
+   "date": "1335",
+   "lane": "world",
+   "title": "Provinces break away",
+   "summary": "Revolts follow one another: the Madurai Sultanate (1335), the Vijayanagara kingdom (1336), Bengal and the Bahmani Sultanate of the Deccan (1347) all become independent.",
+   "people": [
+    "muhammad-tughlaq",
+    "harihara-i",
+    "bukka"
+   ],
+   "places": [
+    "madurai"
+   ],
+   "polities": [
+    "madurai-sultanate",
+    "vijayanagara-empire",
+    "bahmani",
+    "bengal-sultanate"
+   ],
+   "end": "1347",
+   "major": true,
+   "see": "vijayanagara-empire"
+  },
+  {
+   "id": "firuz",
+   "date": "1351",
+   "lane": "life",
+   "title": "Firuz Shah Tughlaq",
+   "summary": "Firuz Shah gives up further conquests and concentrates on administration: canals, new towns, and the palace-city of Firozabad (Feroz Shah Kotla). He also extends the jizya to Brahmins.",
+   "people": [
+    "firuz-tughlaq"
+   ],
+   "places": [
+    "feroz-shah-kotla"
+   ],
+   "polities": [
+    "tughlaq"
+   ],
+   "major": true
+  },
+  {
+   "id": "topra",
+   "date": "1356",
+   "lane": "forts",
+   "title": "An Ashokan pillar moved to Delhi",
+   "summary": "Firuz Shah has an Ashokan pillar brought from Topra in the Punjab and erected at Firozabad — its Brahmi inscription unreadable to anyone at the time.",
+   "people": [
+    "firuz-tughlaq"
+   ],
+   "places": [
+    "topra-pillar",
+    "feroz-shah-kotla"
+   ],
+   "approx": true
+  },
+  {
+   "id": "hauz-khas",
+   "date": "1352",
+   "lane": "forts",
+   "title": "Hauz Khas madrasa",
+   "summary": "Firuz Shah builds a madrasa and his own tomb beside Alauddin's reservoir at Hauz Khas.",
+   "people": [
+    "firuz-tughlaq"
+   ],
+   "places": [
+    "hauz-khas"
+   ],
+   "approx": true
+  },
+  {
+   "id": "timur",
+   "date": "1398-12",
+   "lane": "military",
+   "title": "Timur sacks Delhi",
+   "summary": "Timur defeats the Tughlaq army outside Delhi and sacks the city for days, killing much of its population. The Sultanate never recovers its former power; regional sultanates in Jaunpur, Gujarat and Malwa rise.",
+   "people": [
+    "timur"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "timurid",
+    "tughlaq",
+    "jaunpur-sultanate",
+    "gujarat-sultanate",
+    "malwa-sultanate"
+   ],
+   "wiki": "Sack of Delhi (1398)",
+   "major": true
+  },
+  {
+   "id": "sayyid",
+   "date": "1414",
+   "lane": "life",
+   "title": "The Sayyid dynasty",
+   "summary": "Khizr Khan, who had served Timur as governor of Multan, takes Delhi. The Sayyids rule a shrunken kingdom for under forty years.",
+   "people": [
+    "khizr-khan"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "sayyid",
+    "timurid"
+   ],
+   "major": true
+  },
+  {
+   "id": "lodi",
+   "date": "1451",
+   "lane": "life",
+   "title": "The Lodis",
+   "summary": "Bahlul Lodi, an Afghan noble from the Punjab, takes power and conquers the Jaunpur Sultanate, partly restoring the Sultanate in the north.",
+   "people": [
+    "bahlul-lodi",
+    "alam-shah"
+   ],
+   "polities": [
+    "lodi-dynasty",
+    "sayyid",
+    "jaunpur-sultanate"
+   ],
+   "major": true
+  },
+  {
+   "id": "agra",
+   "date": "1504",
+   "lane": "forts",
+   "title": "Sikandar Lodi founds Agra",
+   "summary": "Sikandar Lodi founds a new capital at Agra, later the Mughals' first capital.",
+   "people": [
+    "sikandar-lodi"
+   ],
+   "places": [
+    "agra"
+   ],
+   "polities": [
+    "lodi-dynasty"
+   ],
+   "approx": true
+  },
+  {
+   "id": "lodi-tombs",
+   "date": "1517",
+   "lane": "forts",
+   "title": "Lodi tombs",
+   "summary": "The Sayyid and Lodi sultans are buried in domed tombs in what are now Delhi's Lodi Gardens.",
+   "people": [
+    "sikandar-lodi",
+    "muhammad-shah-iv"
+   ],
+   "places": [
+    "lodi-gardens"
+   ],
+   "approx": true
+  },
+  {
+   "id": "panipat",
+   "date": "1526-04-21",
+   "lane": "military",
+   "title": "First Battle of Panipat",
+   "summary": "Babur, invited by disaffected Lodi nobles, defeats and kills Ibrahim Lodi at Panipat. The Delhi Sultanate ends and the Mughal Empire begins.",
+   "people": [
+    "babur",
+    "ibrahim-lodi"
+   ],
+   "places": [
+    "panipat"
+   ],
+   "polities": [
+    "lodi-dynasty",
+    "mughal-empire",
+    "timurid"
+   ],
+   "wiki": "First Battle of Panipat",
+   "major": true,
+   "see": "mughal-empire"
+  }
+ ]
+}
