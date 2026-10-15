@@ -1,9 +1,18 @@
-# Deploys site/ to GitHub Pages on every push to main.
-name: Deploy site
+# Builds site/data from content/ (Wikipedia + Wikidata) and deploys site/ to GitHub Pages.
+#
+# - Pull requests: build only. The build validates content (unknown entity ids, bad
+#   Wikipedia titles, missing coordinates, duplicate ids) and fails the check on problems.
+# - Pushes to main: build, then deploy.
+#
+# site/data is generated here and is not committed, so branches never conflict over it.
+# Wikipedia/Wikidata responses are cached between runs; a cold cache takes a while
+# because Wikimedia rate-limits bursts (the script waits and retries).
+name: Build and deploy site
 
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -12,20 +21,52 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Restore Wikipedia/Wikidata response cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: wiki-cache-${{ github.run_id }}
+          restore-keys: wiki-cache-
+
+      - name: Build site data
+        run: python3 scripts/build_data.py
+
+      # Saved even if the build fails or times out, so a cold cache fills up across runs.
+      - name: Save response cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: wiki-cache-${{ github.run_id }}
+
+      - name: Upload site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
   deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
       - id: deployment
         uses: actions/deploy-pages@v4
