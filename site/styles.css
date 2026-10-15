@@ -402,3 +402,17 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
   .portraits a { margin-left: -9px; }
   .home-block { padding: 14px 12px; }
 }
+
+/* Ask AI */
+.ask-ai { margin-top: 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); max-width: 680px; }
+.ask-head { font-size: 12.5px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
+.ask-spark { color: var(--accent); margin-right: 6px; }
+.ask-row { display: flex; gap: 6px; flex-wrap: wrap; }
+.ask-input { flex: 1 1 220px; min-width: 0; font: inherit; font-size: 14px; padding: 8px 11px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); }
+.ask-input:focus { outline: 2px solid color-mix(in srgb, var(--accent) 50%, transparent); border-color: var(--accent); }
+.ask-btn { font: inherit; font-size: 13px; font-weight: 600; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer; }
+.ask-btn + .ask-btn { background: transparent; color: var(--accent); }
+.ask-btn:hover { filter: brightness(1.08); }
+.ask-sugg { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.ask-chip { font: inherit; font-size: 12px; cursor: pointer; text-align: left; white-space: normal; max-width: 100%; }
+.drawer .ask-ai { margin: 14px 0 6px; }
