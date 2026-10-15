@@ -76,3 +76,11 @@ Copy `content/timelines/shivaji.json` and register any new people or places in
 Summaries and images come from Wikipedia (CC BY-SA) and Wikidata (CC0). The event selection
 and short event descriptions are curated here. Where dates are contested
 (Shivaji's birth year, the Rohideshwar oath), the event text says so.
+
+## Publishing
+
+Live at **https://itihas.vokalglobe.com**. Every push to `main` deploys `site/` to GitHub Pages
+(`.github/workflows/pages.yml`). Rebuild `site/data/` with `scripts/build_data.py` and commit it
+before pushing — the workflow publishes the committed files as they are.
+
+DNS: `itihas.vokalglobe.com` is a CNAME to `nikhil99.github.io` (DigitalOcean DNS for vokalglobe.com).

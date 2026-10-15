@@ -1,6 +1,7 @@
 {
  "id": "vijayanagara-empire",
  "kind": "empire",
+ "order": 3,
  "title": "The Vijayanagara Empire",
  "subtitle": "The great south Indian empire of Hampi · 1336 – 1646",
  "subject": "vijayanagara-empire",
@@ -8,7 +9,7 @@
   1320,
   1680
  ],
- "intro": "Founded on the Tungabhadra in the 14th century by the Sangama brothers, Vijayanagara grew into the dominant power of south India for over two centuries. Its capital at Hampi astonished Persian and European visitors; its kings patronised Telugu, Kannada, Sanskrit and Tamil literature and music; and its long rivalry with the Bahmani and Deccan sultanates shaped the Deccan. After the defeat at Talikota in 1565 the capital was abandoned, and the empire slowly broke up into the Nayak kingdoms and Mysore.",
+ "intro": "Founded on the banks of the Tungabhadra in 1336, Vijayanagara grew into the dominant power of south India for over two centuries. Its capital at Hampi, which foreign visitors compared to Rome, was one of the largest cities in the world. Ruled by four successive dynasties, the empire reached its height under Krishnadevaraya, was shattered at Talikota in 1565, and lingered on further south until the 1640s; its governors, the Nayaks and Wodeyars, inherited its lands.",
  "lanes": [
   {
    "id": "life",
@@ -16,19 +17,19 @@
   },
   {
    "id": "military",
-   "label": "Battles & campaigns"
+   "label": "Battles"
   },
   {
    "id": "forts",
-   "label": "Capital, temples & building"
+   "label": "Capital & building"
   },
   {
    "id": "political",
-   "label": "Culture & society"
+   "label": "Culture & religion"
   },
   {
    "id": "world",
-   "label": "Rivals & visitors"
+   "label": "Rivals & the wider world"
   }
  ],
  "context": [
@@ -53,7 +54,7 @@
   {
    "entity": "aravidu",
    "label": "Aravidu dynasty",
-   "from": 1570,
+   "from": 1542,
    "to": 1646
   },
   {
@@ -66,13 +67,13 @@
    "entity": "krishnadevaraya",
    "label": "Krishnadevaraya",
    "from": 1509.5,
-   "to": 1529
+   "to": 1529.8
   },
   {
    "entity": "rama-raya",
    "label": "Rama Raya – regent",
    "from": 1542,
-   "to": 1565.07
+   "to": 1565.06
   },
   {
    "entity": "bahmani",
@@ -84,12 +85,12 @@
    "entity": "deccan-sultanates",
    "label": "Deccan sultanates",
    "from": 1490,
-   "to": 1687.7
+   "to": 1687
   },
   {
    "entity": "portuguese-india",
-   "label": "Portuguese Goa",
-   "from": 1510.9,
+   "label": "Portuguese in India",
+   "from": 1505,
    "to": 1680
   },
   {
@@ -106,8 +107,8 @@
    "approx": true,
    "lane": "life",
    "major": true,
-   "title": "Founding by Harihara and Bukka",
-   "summary": "The brothers Harihara I and Bukka Raya I of the Sangama family found a kingdom on the Tungabhadra after the Delhi Sultanate's raids into the south. Tradition credits the sage Vidyaranya of Sringeri as their guide and gives 18 April 1336 as the founding date; historians still debate the brothers' origins.",
+   "title": "Founding of Vijayanagara",
+   "summary": "The brothers Harihara I and Bukka Raya I of the Sangama family found a kingdom on the Tungabhadra, in the wake of the Delhi Sultanate's raids into the south. Tradition credits the sage Vidyaranya of Sringeri with guiding them; 18 April 1336 is the traditional founding date.",
    "people": [
     "harihara-i",
     "bukka",
@@ -118,33 +119,35 @@
     "sringeri"
    ],
    "polities": [
+    "vijayanagara-empire",
     "sangama",
     "delhi-sultanate"
    ]
   },
   {
-   "id": "hoysalas",
+   "id": "hoysala",
    "date": "1343",
    "end": "1346",
    "approx": true,
-   "lane": "military",
+   "lane": "world",
    "title": "Hoysala lands absorbed",
-   "summary": "After the death of the last major Hoysala king, the Sangama brothers take over the Hoysala territories, making Vijayanagara the main Hindu power south of the Krishna.",
+   "summary": "After the last Hoysala king is killed fighting the Madurai Sultanate, Vijayanagara takes over the old Hoysala territory and becomes the leading power south of the Krishna.",
    "people": [
     "harihara-i",
     "bukka"
    ],
    "polities": [
-    "hoysala"
+    "hoysala",
+    "madurai-sultanate"
    ]
   },
   {
-   "id": "bahmani-founded",
+   "id": "bahmani",
    "date": "1347-08-03",
    "lane": "world",
    "major": true,
    "title": "Bahmani Sultanate founded",
-   "summary": "Rebel officers of the Delhi Sultanate found the Bahmani Sultanate in the northern Deccan, with its capital at Gulbarga (later Bidar). Wars between the two over the fertile Raichur Doab between the Krishna and Tungabhadra rivers recur for two centuries.",
+   "summary": "Rebel officers of the Delhi Sultanate found the Bahmani Sultanate at Gulbarga. For the next 150 years the two states fight repeatedly over the fertile Raichur Doab between the Krishna and Tungabhadra rivers.",
    "places": [
     "gulbarga",
     "raichur"
@@ -157,11 +160,10 @@
   {
    "id": "madurai",
    "date": "1371",
-   "end": "1378",
    "approx": true,
    "lane": "military",
-   "title": "Conquest of the Madurai Sultanate",
-   "summary": "Bukka's son Kumara Kampana conquers the Madurai Sultanate in the Tamil country. His wife Gangadevi celebrates the campaign in the Sanskrit poem Madhura Vijayam.",
+   "title": "Kumara Kampana conquers Madurai",
+   "summary": "Bukka's son Kumara Kampana destroys the Madurai Sultanate and extends Vijayanagara rule to the far south. His wife Gangadevi celebrates the campaign in the Sanskrit poem Madhura Vijayam.",
    "people": [
     "kumara-kampana",
     "gangadevi",
@@ -182,9 +184,10 @@
    "date": "1377",
    "lane": "life",
    "title": "Harihara II takes the imperial title",
-   "summary": "Under Bukka's son Harihara II, the Sangama rulers style themselves emperors and control most of south India.",
+   "summary": "Bukka's son Harihara II is the first ruler to style himself emperor, reflecting a kingdom that now spans most of the peninsula.",
    "people": [
-    "harihara-ii"
+    "harihara-ii",
+    "bukka"
    ],
    "polities": [
     "sangama"
@@ -196,10 +199,9 @@
    "approx": true,
    "lane": "world",
    "title": "Niccolò de' Conti visits",
-   "summary": "The Venetian merchant Niccolò de' Conti describes a great city sixty miles around, with tens of thousands of men under arms.",
+   "summary": "The Venetian traveller Niccolò de' Conti describes the city's great circuit of walls and its huge population.",
    "people": [
-    "niccolo-conti",
-    "deva-raya-i"
+    "niccolo-conti"
    ],
    "places": [
     "hampi"
@@ -211,10 +213,13 @@
    "end": "1446",
    "lane": "life",
    "major": true,
-   "title": "Deva Raya II",
-   "summary": "The high point of the Sangama dynasty. Deva Raya II recruits Muslim archers and cavalry into his army, campaigns as far as Sri Lanka's tributaries, and patronises Kannada and Telugu poets.",
+   "title": "Deva Raya II — the Sangama peak",
+   "summary": "Deva Raya II modernises the army, recruiting Turkish archers and cavalry, and patronises Kannada and Telugu literature. Visitors describe a vast, wealthy capital.",
    "people": [
     "deva-raya-ii"
+   ],
+   "places": [
+    "hampi"
    ],
    "polities": [
     "sangama"
@@ -225,7 +230,7 @@
    "date": "1443",
    "lane": "world",
    "title": "Abdur Razzaq's account",
-   "summary": "The Persian envoy Abdur Razzaq visits the court of Deva Raya II and writes that 'the eye has seen nothing like it' — describing seven concentric walls, bazaars and the Mahanavami festival.",
+   "summary": "The Persian envoy Abdur Razzaq writes that Vijayanagara had no equal in the world for its size and its markets.",
    "people": [
     "abdur-razzaq",
     "deva-raya-ii"
@@ -238,27 +243,26 @@
    "id": "saluva",
    "date": "1485",
    "lane": "life",
-   "title": "Saluva Narasimha seizes the throne",
-   "summary": "With the Sangama line weakened and Gajapati armies from Odisha pressing south, the general Saluva Narasimha takes power — the first of the empire's usurpations.",
+   "title": "Saluva Narasimha takes the throne",
+   "summary": "After decades of weak Sangama rulers and losses to the Gajapatis of Odisha and the Bahmanis, the general Saluva Narasimha seizes power, founding the short-lived Saluva dynasty.",
    "people": [
     "saluva-narasimha"
    ],
    "polities": [
     "saluva",
+    "sangama",
     "gajapati"
    ]
   },
   {
-   "id": "bahmani-breakup",
+   "id": "bahmani-splits",
    "date": "1490",
    "end": "1527",
    "lane": "world",
    "title": "The Bahmani Sultanate breaks up",
-   "summary": "The Bahmani kingdom splits into five Deccan sultanates — Bijapur, Ahmadnagar, Golconda, Bidar and Berar. Their rivalries let Vijayanagara play one against another.",
+   "summary": "The Bahmani state splits into five Deccan sultanates — Bijapur, Ahmadnagar, Golconda, Bidar and Berar — whose rivalries Vijayanagara exploits for decades.",
    "places": [
     "bijapur",
-    "ahmednagar",
-    "golconda",
     "bidar"
    ],
    "polities": [
@@ -275,9 +279,10 @@
    "date": "1505",
    "lane": "life",
    "title": "Tuluva dynasty",
-   "summary": "The Tuluva family, commanders under the Saluvas, take the throne in turn.",
+   "summary": "Vira Narasimha Raya founds the Tuluva dynasty, the third to rule Vijayanagara.",
    "polities": [
-    "tuluva"
+    "tuluva",
+    "saluva"
    ]
   },
   {
@@ -286,39 +291,23 @@
    "lane": "life",
    "major": true,
    "title": "Krishnadevaraya crowned",
-   "summary": "Krishnadevaraya begins a twenty-year reign usually seen as the empire's golden age, in military power, architecture and literature alike.",
+   "summary": "Krishnadevaraya begins a 20-year reign remembered as the empire's golden age — undefeated in battle, a poet himself, and a great builder.",
    "people": [
     "krishnadevaraya"
+   ],
+   "places": [
+    "hampi"
    ],
    "polities": [
     "tuluva"
    ]
   },
   {
-   "id": "temples",
-   "date": "1510",
-   "end": "1529",
-   "lane": "forts",
-   "title": "Building the capital",
-   "summary": "Krishnadevaraya adds gopurams and halls to the Virupaksha Temple, builds the Krishna and Hazara Rama temples and begins the great Vittala temple; he also endows the Tirumala temple, where his statue still stands.",
-   "people": [
-    "krishnadevaraya"
-   ],
-   "places": [
-    "virupaksha",
-    "hampi",
-    "tirumala-temple"
-   ],
-   "concepts": [
-    "vijayanagara-architecture"
-   ]
-  },
-  {
    "id": "goa",
    "date": "1510-11",
    "lane": "world",
-   "title": "The Portuguese take Goa",
-   "summary": "Afonso de Albuquerque captures Goa from Bijapur. The Portuguese become Vijayanagara's partners in the horse trade — warhorses from Arabia and Persia, essential for its cavalry.",
+   "title": "Portuguese take Goa",
+   "summary": "Afonso de Albuquerque captures Goa from Bijapur. Vijayanagara and the Portuguese become trading partners; Portuguese-supplied Arabian and Persian horses are vital to Vijayanagara's cavalry.",
    "people": [
     "albuquerque",
     "krishnadevaraya"
@@ -337,8 +326,8 @@
    "end": "1518",
    "lane": "military",
    "major": true,
-   "title": "Campaigns against the Gajapatis",
-   "summary": "Krishnadevaraya takes the Gajapati strongholds of Udayagiri (1513) and Kondaveedu (1515) and pushes into coastal Andhra. The war ends with a treaty and his marriage to a Gajapati princess.",
+   "title": "War with the Gajapatis",
+   "summary": "Krishnadevaraya takes the Gajapati strongholds of Udayagiri and Kondaveedu and pushes north to the Godavari. Peace is sealed by his marriage to a daughter of Prataparudra Gajapati.",
    "people": [
     "krishnadevaraya",
     "prataparudra"
@@ -352,16 +341,34 @@
    ]
   },
   {
+   "id": "temples",
+   "date": "1513",
+   "end": "1529",
+   "lane": "forts",
+   "title": "Building at Hampi and Tirumala",
+   "summary": "Krishnadevaraya adds great gateway towers and halls to the Virupaksha Temple and other shrines at Hampi, and makes rich gifts to the Tirumala temple — monuments of Vijayanagara architecture.",
+   "people": [
+    "krishnadevaraya"
+   ],
+   "places": [
+    "virupaksha",
+    "hampi",
+    "tirumala-temple"
+   ],
+   "concepts": [
+    "vijayanagara-architecture"
+   ]
+  },
+  {
    "id": "paes",
    "date": "1520",
    "end": "1522",
    "approx": true,
    "lane": "world",
-   "title": "Domingo Paes in Vijayanagara",
-   "summary": "The Portuguese visitor Domingo Paes describes the capital as 'as large as Rome' and gives a vivid portrait of Krishnadevaraya. Fernão Nunes adds a chronicle of the kings a decade later.",
+   "title": "Domingo Paes describes the capital",
+   "summary": "The Portuguese visitor Domingo Paes writes that the city is as large as Rome and very beautiful — the most detailed eyewitness description of Hampi at its height.",
    "people": [
     "domingo-paes",
-    "fernao-nunes",
     "krishnadevaraya"
    ],
    "places": [
@@ -374,8 +381,8 @@
    "approx": true,
    "lane": "political",
    "major": true,
-   "title": "Amuktamalyada and the Ashtadiggajas",
-   "summary": "Krishnadevaraya writes the Telugu poem Amuktamalyada, which includes advice on kingship. His court is remembered for eight great Telugu poets, the Ashtadiggajas, led by Allasani Peddana — and for the jester-poet Tenali Rama of popular stories.",
+   "title": "Court of the Ashtadiggajas",
+   "summary": "Krishnadevaraya writes the Telugu poem Amuktamalyada and gathers the 'eight elephants' of Telugu poetry, the Ashtadiggajas, led by Allasani Peddana. Popular tradition adds the witty Tenali Rama. Kannada, Tamil and Sanskrit writers are also patronised.",
    "people": [
     "krishnadevaraya",
     "allasani-peddana",
@@ -392,7 +399,7 @@
    "lane": "military",
    "major": true,
    "title": "Battle of Raichur",
-   "summary": "Krishnadevaraya defeats Ismail Adil Shah of Bijapur and takes the fortress of Raichur, winning control of the long-disputed Doab.",
+   "summary": "Krishnadevaraya defeats Ismail Adil Shah of Bijapur and captures the fortress of Raichur, ending the long contest for the Raichur Doab in Vijayanagara's favour. Portuguese mercenaries fight on his side.",
    "people": [
     "krishnadevaraya",
     "ismail-adil-shah"
@@ -401,25 +408,24 @@
     "raichur"
    ],
    "polities": [
-    "bijapur-sultanate"
+    "bijapur-sultanate",
+    "portuguese-india"
    ],
    "wiki": "Battle of Raichur",
    "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Raichur",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Raichur_Fort_1.jpg/330px-Raichur_Fort_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
-   "id": "music",
+   "id": "haridasas",
    "date": "1525",
    "approx": true,
    "lane": "political",
-   "title": "Purandara Dasa and Carnatic music",
-   "summary": "The saint-composer Purandara Dasa, a disciple of Vyasatirtha who was the royal guru, lays down the teaching method of Carnatic music while living in Hampi.",
+   "title": "Vyasatirtha and Purandara Dasa",
+   "summary": "The philosopher Vyasatirtha, Krishnadevaraya's spiritual adviser, inspires the Haridasa movement. His disciple Purandara Dasa is later honoured as the father of Carnatic music.",
    "people": [
+    "vyasatirtha",
     "purandara-dasa",
-    "vyasatirtha"
-   ],
-   "places": [
-    "hampi"
+    "krishnadevaraya"
    ],
    "concepts": [
     "carnatic-music"
@@ -429,12 +435,26 @@
    "id": "krishnadevaraya-dies",
    "date": "1529",
    "lane": "life",
-   "title": "Krishnadevaraya dies; Achyuta Raya succeeds",
-   "summary": "Krishnadevaraya is succeeded by his half-brother Achyuta Deva Raya, whose reign is troubled by rivalry with the king's powerful son-in-law, Rama Raya.",
+   "title": "Krishnadevaraya dies",
+   "summary": "His half-brother Achyuta Deva Raya succeeds him and holds the empire together amid factional strife.",
    "people": [
     "krishnadevaraya",
-    "achyuta-raya",
-    "rama-raya"
+    "achyuta-raya"
+   ],
+   "polities": [
+    "tuluva"
+   ]
+  },
+  {
+   "id": "nunes",
+   "date": "1535",
+   "approx": true,
+   "lane": "world",
+   "title": "Fernão Nunes's chronicle",
+   "summary": "The Portuguese horse trader Fernão Nunes writes a history of the kings of Vijayanagara.",
+   "people": [
+    "fernao-nunes",
+    "achyuta-raya"
    ]
   },
   {
@@ -442,34 +462,32 @@
    "date": "1542",
    "lane": "life",
    "major": true,
-   "title": "Rama Raya takes control",
-   "summary": "Sadasiva Raya is placed on the throne but kept as a figurehead. Rama Raya rules in his name and intervenes skilfully — and later, arrogantly — in the quarrels of the Deccan sultans.",
+   "title": "Sadasiva Raya enthroned; Rama Raya rules",
+   "summary": "Sadasiva Raya becomes emperor, but real power passes to Krishnadevaraya's son-in-law Aliya Rama Raya. He plays the Deccan sultanates against each other, intervening in their wars.",
    "people": [
+    "sadasiva-raya",
     "rama-raya",
-    "sadasiva-raya"
+    "tirumala-raya"
    ],
    "polities": [
+    "tuluva",
     "aravidu",
     "deccan-sultanates"
    ]
   },
   {
-   "id": "penukonda",
+   "id": "sack-of-hampi",
    "date": "1565",
-   "end": "1570",
-   "approx": true,
-   "lane": "life",
-   "title": "Tirumala moves to Penukonda; Aravidu dynasty",
-   "summary": "Rama Raya's brother Tirumala Deva Raya escapes with the treasury and the puppet king, makes Penukonda his capital and founds the Aravidu dynasty.",
-   "people": [
-    "tirumala-raya",
-    "sadasiva-raya"
-   ],
+   "lane": "forts",
+   "major": true,
+   "title": "Sack of Hampi",
+   "summary": "The victors plunder and burn the undefended capital for months. The city is abandoned; its ruins survive today as Hampi, a UNESCO World Heritage Site.",
    "places": [
-    "penukonda"
+    "hampi",
+    "virupaksha"
    ],
    "polities": [
-    "aravidu"
+    "deccan-sultanates"
    ]
   },
   {
@@ -478,7 +496,7 @@
    "lane": "military",
    "major": true,
    "title": "Battle of Talikota",
-   "summary": "Bijapur, Ahmadnagar, Golconda and Bidar unite against Vijayanagara. At the battle near Talikota (Rakkasa-Tangadi) the Vijayanagara army breaks after two of its Muslim commanders reportedly change sides; Rama Raya is captured and beheaded.",
+   "summary": "Bijapur, Ahmadnagar, Golconda and Bidar unite against Rama Raya. The Vijayanagara army is defeated, the elderly Rama Raya is captured and beheaded, and the army collapses. Also known as the battle of Rakkasa-Tangadi.",
    "people": [
     "rama-raya",
     "hussain-nizam-shah",
@@ -499,20 +517,20 @@
    "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Talikota"
   },
   {
-   "id": "hampi-sacked",
-   "date": "1565-02",
-   "end": "1565-08",
+   "id": "penukonda",
+   "date": "1570",
    "approx": true,
-   "lane": "forts",
-   "major": true,
-   "title": "Hampi sacked and abandoned",
-   "summary": "The victorious armies plunder the undefended capital for months. Vijayanagara city is never reoccupied; its ruins at Hampi are today a UNESCO World Heritage Site.",
+   "lane": "life",
+   "title": "Aravidu dynasty at Penukonda",
+   "summary": "Rama Raya's brother Tirumala Deva Raya moves the court to Penukonda and founds the Aravidu dynasty, the fourth and last.",
+   "people": [
+    "tirumala-raya"
+   ],
    "places": [
-    "hampi",
-    "virupaksha"
+    "penukonda"
    ],
    "polities": [
-    "deccan-sultanates"
+    "aravidu"
    ]
   },
   {
@@ -520,25 +538,25 @@
    "date": "1586",
    "end": "1614",
    "lane": "life",
-   "title": "Revival under Venkatapati Raya",
-   "summary": "Venkatapati Raya restores much of the empire's authority, moves the capital to Chandragiri, and resists Golconda.",
+   "title": "Venkatapati Raya's revival",
+   "summary": "Venkatapati Raya restores some of the empire's strength and moves the capital further south to Chandragiri.",
    "people": [
     "venkatapati-raya"
    ],
    "places": [
-    "chandragiri"
+    "chandragiri",
+    "penukonda"
    ],
    "polities": [
-    "aravidu",
-    "golconda-sultanate"
+    "aravidu"
    ]
   },
   {
    "id": "mysore",
    "date": "1610",
    "lane": "world",
-   "title": "Mysore's Wodeyars take Srirangapatna",
-   "summary": "Raja Wodeyar takes Srirangapatna from the Vijayanagara viceroy — the start of the independent Kingdom of Mysore, later ruled by Hyder Ali and Tipu Sultan.",
+   "title": "Raja Wodeyar takes Srirangapatna",
+   "summary": "Raja Wodeyar of Mysore takes Srirangapatna from Vijayanagara's viceroy — the Mysore kingdom begins its rise as one of the empire's successor states.",
    "people": [
     "raja-wodeyar"
    ],
@@ -552,16 +570,56 @@
   {
    "id": "toppur",
    "date": "1616",
+   "approx": true,
    "lane": "military",
    "title": "Battle of Toppur — civil war",
-   "summary": "A succession dispute after Venkatapati's death leads to a ruinous civil war. The Nayaks of Madurai and Thanjavur, nominally governors, act more and more independently.",
+   "summary": "After Venkatapati's death, rival claimants and the Nayaks fight a succession war. The empire's authority over its governors never recovers.",
    "polities": [
+    "aravidu",
     "madurai-nayaks",
-    "thanjavur-nayaks",
-    "aravidu"
+    "thanjavur-nayaks"
    ],
    "wiki": "Battle of Toppur",
    "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Toppur"
+  },
+  {
+   "id": "nayaks",
+   "date": "1620",
+   "approx": true,
+   "lane": "world",
+   "title": "The Nayaks become kings",
+   "summary": "The Nayaks of Madurai, Thanjavur, Gingee and Keladi — originally Vijayanagara governors — rule as independent kings, continuing its style of courts and temples.",
+   "places": [
+    "madurai",
+    "thanjavur",
+    "gingee"
+   ],
+   "polities": [
+    "madurai-nayaks",
+    "thanjavur-nayaks",
+    "keladi"
+   ]
+  },
+  {
+   "id": "marathas-south",
+   "date": "1638",
+   "end": "1675",
+   "lane": "world",
+   "title": "The Marathas in the old Vijayanagara lands",
+   "summary": "Bijapur's campaigns in the former Vijayanagara lands bring Shahaji Bhosale south, with a jagir at Bangalore. In 1675 his son Ekoji takes Thanjavur from its Nayaks, founding the Thanjavur Maratha line.",
+   "people": [
+    "shahaji",
+    "ekoji"
+   ],
+   "places": [
+    "bangalore",
+    "thanjavur"
+   ],
+   "polities": [
+    "bijapur-sultanate",
+    "thanjavur-nayaks"
+   ],
+   "see": "shivaji"
   },
   {
    "id": "madras",
@@ -569,7 +627,7 @@
    "lane": "world",
    "major": true,
    "title": "Madras granted to the English",
-   "summary": "Under the authority of the Vijayanagara emperor Venkata III, a local Nayaka grants Francis Day of the East India Company a strip of coast, where Fort St. George and the city of Madras (Chennai) grow.",
+   "summary": "Francis Day of the East India Company obtains a strip of coast from a local Nayak under the Vijayanagara emperor Venkata III. Fort St. George is built there — the origin of Chennai.",
    "people": [
     "francis-day",
     "peda-venkata"
@@ -583,60 +641,25 @@
    ]
   },
   {
-   "id": "shahaji-south",
-   "date": "1640",
-   "end": "1664",
-   "approx": true,
-   "lane": "world",
-   "title": "Shahaji in the former Vijayanagara lands",
-   "summary": "Bijapur's conquests in the old Vijayanagara south are led partly by Shahaji Bhosale, Shivaji's father, who holds Bangalore as his base.",
-   "people": [
-    "shahaji"
-   ],
-   "places": [
-    "bangalore"
-   ],
-   "polities": [
-    "bijapur-sultanate"
-   ],
-   "see": "shivaji"
-  },
-  {
    "id": "end",
    "date": "1646",
    "approx": true,
    "lane": "life",
    "major": true,
    "title": "End of the empire",
-   "summary": "Sriranga III, the last emperor, loses his remaining territory to Bijapur and Golconda and to his own Nayaks; he dies in exile. The successor states — Mysore, Madurai, Thanjavur, Keladi — carry on Vijayanagara's traditions.",
+   "summary": "Bijapur and Golconda overrun the last Vijayanagara territories. Sriranga III, the last emperor, spends his final years as a fugitive.",
    "people": [
     "sriranga-iii"
+   ],
+   "places": [
+    "vellore",
+    "chandragiri"
    ],
    "polities": [
     "bijapur-sultanate",
     "golconda-sultanate",
-    "madurai-nayaks",
-    "thanjavur-nayaks",
-    "keladi",
-    "mysore-kingdom"
+    "aravidu"
    ]
-  },
-  {
-   "id": "thanjavur-marathas",
-   "date": "1675",
-   "lane": "world",
-   "title": "Marathas in Thanjavur",
-   "summary": "Shivaji's half-brother Ekoji (Venkoji) replaces the Nayaks of Thanjavur, beginning a Maratha dynasty there that lasts until 1855.",
-   "people": [
-    "ekoji"
-   ],
-   "places": [
-    "thanjavur"
-   ],
-   "polities": [
-    "thanjavur-nayaks"
-   ],
-   "see": "shivaji"
   }
  ]
 }

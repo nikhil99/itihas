@@ -279,3 +279,6 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
 .timeline .cluster:hover circle { stroke: var(--text); }
 .timeline .cluster-n { fill: #fff; font-size: 10px; font-weight: 700; pointer-events: none; }
 .timeline .row-hint { fill: var(--muted); font-size: 10.5px; }
+.timeline .span rect { opacity: .7; }
+.timeline .span:hover rect, .timeline .span.sel rect { opacity: 1; }
+.timeline .span-tick { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 2 2; opacity: .5; }

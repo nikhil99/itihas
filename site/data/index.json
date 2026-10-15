@@ -6,7 +6,7 @@
   "subject": "mughal-empire",
   "events": 48,
   "series": null,
-  "order": 0,
+  "order": 2,
   "kind": "empire",
   "range": [
    1505,
@@ -19,9 +19,9 @@
   "title": "The Vijayanagara Empire",
   "subtitle": "The great south Indian empire of Hampi · 1336 – 1646",
   "subject": "vijayanagara-empire",
-  "events": 31,
+  "events": 32,
   "series": null,
-  "order": 0,
+  "order": 3,
   "kind": "empire",
   "range": [
    1320,

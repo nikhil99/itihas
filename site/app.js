@@ -82,8 +82,6 @@ const state = {
 // #/<timeline>            timeline
 // #/<timeline>/e/<id>     timeline + entity drawer
 // #/<timeline>/ev/<id>    timeline + selected event
-window.addEventListener("hashchange", () => route().catch(showError));
-route().catch(showError);
 function showError(err) {
   console.error(err);
   const box = el("div", { class: "load-error" }, `Something went wrong loading this page (${err.message}). Try reloading.`);
@@ -113,7 +111,7 @@ async function renderHome() {
       subj?.thumb && el("img", { src: subj.thumb, alt: "" }),
       el("div", {}, el("h3", {}, t.title), el("p", {}, t.subtitle), el("p", {}, `${t.events} events`)));
   };
-  const empires = index.filter((t) => t.kind === "empire");
+  const empires = index.filter((t) => t.kind === "empire").sort((a, b) => a.order - b.order);
   const series = [...new Set(index.filter((t) => t.kind !== "empire").map((t) => t.series || "Other"))];
   $("#app").replaceChildren(
     el("section", { class: "home" },
@@ -326,7 +324,7 @@ function updateYearHeads() {
 // ---------- SVG timeline ----------
 function setupTimeline(box) {
   const tl = state.tl, ents = state.entities;
-  const AXIS = 30, MAIN_H = 124, HEAD_H = 30, CTX_ROW = 20, LANE_H = 64, PAD = 14;
+  const AXIS = 30, MAIN_H = 128, HEAD_H = 30, CTX_ROW = 20, LANE_H = 72, PAD = 14;
   let GUTTER = 168;
   const tooltip = $("#tooltip");
   const majors = tl.events.filter((e) => e.major).length;
@@ -392,17 +390,24 @@ function setupTimeline(box) {
     // events fit (about one per `spacing` px) is shown; anything closer than CLUSTER px
     // merges into a numbered cluster that zooms in when clicked. Labels go to the most
     // important events first and only where they don't collide.
-    function drawTrack(evs, mid, { rows, spacing }) {
+    function drawTrack(evs, mid, { rows, spacing, spanBand }) {
       const g = svg("g");
       let tier = 3;
       for (const t of [1, 2]) if (evs.filter((e) => importance(e) >= t).length <= trackW / spacing) { tier = t; break; }
       const kept = evs.filter((e) => importance(e) >= tier);
 
-      // Spans as bars
-      for (const ev of kept.filter((e) => e._te)) {
-        const x1 = x(ev._t), x2 = Math.max(x(ev._te), x1 + 6), h = importance(ev) >= 3 ? 10 : 7;
-        const n = svg("g", { class: `ev${state.selected === ev.id ? " sel" : ""}`, "data-ev": ev.id });
-        n.append(svg("rect", { x: x1, y: mid - h / 2, width: x2 - x1, height: h, rx: h / 2, fill: `var(--lane-${ev.lane})`, opacity: 0.5 }));
+      // Spans: thin bars in a band below the line, stacked so overlapping periods never
+      // sit on top of each other; a small tick on the line marks where each one starts.
+      const spanRows = [];
+      for (const ev of kept.filter((e) => e._te).sort((a, b) => a._t - b._t)) {
+        const x1 = x(ev._t), x2 = Math.max(x(ev._te), x1 + 6);
+        let row = spanRows.findIndex((endX) => x1 > endX + 4);
+        if (row === -1) { row = spanRows.length; spanRows.push(0); }
+        spanRows[row] = x2;
+        const y = mid + spanBand + row * 7;
+        const n = svg("g", { class: `ev span${state.selected === ev.id ? " sel" : ""}`, "data-ev": ev.id });
+        n.append(svg("line", { class: "span-tick", x1, x2: x1, y1: mid, y2: y }));
+        n.append(svg("rect", { x: x1, y: y - 2.5, width: x2 - x1, height: 5, rx: 2.5, fill: `var(--lane-${ev.lane})` }));
         bindEv(n, ev); g.append(n);
       }
 
@@ -421,14 +426,12 @@ function setupTimeline(box) {
 
       // Labels: one per group or span, most important first; fewer rows when zoomed far out
       const items = [...groups.map((gr) => ({ ev: gr.top, cx: gr.cx, n: gr.evs.length })),
-                     ...kept.filter((e) => e._te).map((ev) => ({ ev, cx: x((ev._t + ev._te) / 2), n: 1 }))];
+                     ...kept.filter((e) => e._te).map((ev) => ({ ev, cx: x(ev._t), n: 1 }))];
       const useRows = span > 40 ? rows.slice(0, 2) : span > 15 ? rows.slice(0, 3) : rows;
-      const minLabel = pxPerYear > 60 ? 1 : pxPerYear > 15 ? 2 : 3;
       const taken = Object.fromEntries(useRows.map((r) => [r, []]));
       const fits = (r, a, b) => !taken[r].some(([s2, e2]) => a < e2 + 10 && b > s2 - 10);
       const placed = [];
       for (const it of items.sort((a, b) => importance(b.ev) - importance(a.ev) || a.ev._t - b.ev._t)) {
-        if (importance(it.ev) < minLabel) continue;
         const text = it.n > 1 ? `${it.ev.title}  +${it.n - 1}` : it.ev.title;
         const w = text.length * (importance(it.ev) >= 3 ? 6.9 : 6.3);
         let a = it.cx - w / 2, b = it.cx + w / 2;
@@ -483,7 +486,7 @@ function setupTimeline(box) {
     // 1. Key events: everything, thinned by importance for the current zoom
     const mainMid = mainTop + MAIN_H / 2;
     s.append(svg("line", { class: "track-line", x1: GUTTER, x2: W - PAD, y1: mainMid, y2: mainMid }));
-    const main = drawTrack(tl.events.filter(visible), mainMid, { rows: [-14, 24, -33, 43], spacing: 64 });
+    const main = drawTrack(tl.events.filter(visible), mainMid, { rows: [-14, -33, 24, -52], spacing: 64, spanBand: 40 });
     s.append(main.g);
 
     // 2. Collapsible: people & powers
@@ -527,7 +530,7 @@ function setupTimeline(box) {
       lanes.forEach((lane, li) => {
         const top = lanesTop + li * LANE_H;
         s.append(svg("line", { class: "grid", x1: 0, x2: W, y1: top, y2: top }));
-        s.append(drawTrack(tl.events.filter((e) => e.lane === lane.id && visible(e)), top + LANE_H / 2, { rows: [-12, 22], spacing: 40 }).g);
+        s.append(drawTrack(tl.events.filter((e) => e.lane === lane.id && visible(e)), top + LANE_H / 2, { rows: [-10, -25], spacing: 40, spanBand: 13 }).g);
       });
     }
 
@@ -752,3 +755,8 @@ function lifeBar(e) {
       el("span", { class: "lb-ent", style: `left:${pct(a)}%;width:${Math.max(1, pct(b) - pct(a))}%` })),
     el("div", { class: "life-legend" }, el("span", {}, r0), el("span", {}, `shaded: ${subj.title.replace("Chhatrapati ", "")}`), el("span", {}, r1)));
 }
+
+// ---------- Start ----------
+// Last, so every module-level binding (drawer, state, …) exists before the first route runs.
+window.addEventListener("hashchange", () => route().catch(showError));
+route().catch(showError);
