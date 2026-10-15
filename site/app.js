@@ -90,7 +90,13 @@ function showError(err) {
 
 async function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
-  const [tlId, kind, id] = parts;
+  let tlId, kind, id;
+  if (parts[0] === "compare") {
+    // a bare "#/compare" has no list part; a list part never contains "e"/"ev" alone
+    const list = parts[1] && !["e", "ev"].includes(parts[1]) ? parts[1] : "";
+    tlId = `compare/${list}`;
+    [kind, id] = parts.slice(list ? 2 : 1);
+  } else [tlId, kind, id] = parts;
   if (!tlId) { closeDrawer(false); return renderHome(); }
   if (state.tl?.id !== tlId) { await renderTimelinePage(tlId); window.scrollTo(0, 0); }
   if (kind === "e" && id) openEntity(id);
@@ -137,7 +143,9 @@ async function renderHome() {
 
 // ---------- Timeline page ----------
 async function renderTimelinePage(id) {
-  const [tl, entities, index] = await Promise.all([load(`data/timelines/${id}.json`), load("data/entities.json"), load("data/index.json")]);
+  const [entities, index] = await Promise.all([load("data/entities.json"), load("data/index.json")]);
+  const tl = id.startsWith("compare/") ? await buildCompare(id.slice(8), index, entities) : await load(`data/timelines/${id}.json`);
+  if (tl.compare && tl.id !== id) history.replaceState(null, "", `#/${tl.id}`); // dropped unknown ids
   state.subjectTimeline = Object.fromEntries(index.filter((t) => t.id !== tl.id).map((t) => [t.subject, t.id]));
   state.tl = tl;
   state.entities = entities;
@@ -148,13 +156,14 @@ async function renderTimelinePage(id) {
   document.title = `${tl.title} — Itihas`;
 
   const subj = entities[tl.subject];
-  const hero = el("section", { class: "hero" },
+  const hero = tl.compare ? compareHero(tl, index, entities) : el("section", { class: "hero" },
     subj.thumb ? el("img", { src: subj.thumb, alt: subj.title }) : el("div"),
     el("div", {},
       el("h1", {}, tl.title),
       subj.labels?.mr && el("div", { class: "dev" }, subj.labels.mr),
       el("p", { class: "sub" }, tl.subtitle),
       (() => { const p = linked("p", "extract", tl.intro || subj.extract, [], { skip: tl.subject }); p.append(" ", el("a", { href: `#/${tl.id}/e/${tl.subject}` }, "More →")); return p; })(),
+      el("a", { class: "compare-btn", href: `#/compare/${tl.id}` }, "⇆ Compare with other timelines"),
     ),
   );
 
@@ -192,9 +201,102 @@ async function renderTimelinePage(id) {
   const mapWrap = el("section", { class: "map-wrap" }, el("h2", {}, "Places"), el("div", { id: "map" }),
     el("div", { class: "map-caption" }, "Select an event to see where it happened. Click a marker for details."));
 
+  if (tl.compare && tl.compare.length === 0) { $("#app").replaceChildren(hero); state.renderTimeline = () => {}; return; }
   $("#app").replaceChildren(...[seriesNav, hero, toolbar].filter(Boolean), tlBox, el("div", { class: "below" }, story, mapWrap));
   state.renderTimeline = setupTimeline(tlBox);
   setupMap();
+}
+
+// ---------- Compare ----------
+// Up to three timelines merged onto one axis: each keeps its own colour (lane), its rulers
+// (or, for a person, their reign/lifetime) become ruler rows, its events become one event
+// row, and the years where their spans coincide are shaded as overlaps.
+const CMP_LANES = ["life", "political", "forts"];
+const CMP_HUES = [24, 232, 168];
+const shortTitle = (t) => t.title.replace(/^(The |Chhatrapati |Peshwa )/, "").replace(/ Maharaj$/, "");
+
+function timelineSpan(t, ents) {
+  // People: their lifetime (who was alive at the same time). States/empires: their period.
+  const subj = ents[t.subject];
+  if (subj?.type === "person" && !t.rulers && entStart(subj) && entEnd(subj)) return [parseDate(entStart(subj)).t, parseDate(entEnd(subj)).t];
+  if (t.focus) return t.focus;
+  const ms = (t.rulers || []).flatMap((r) => r.members);
+  if (ms.length) return [Math.min(...ms.map((m) => m.from)), Math.max(...ms.map((m) => m.to))];
+  const e = ents[t.subject];
+  if (e && entStart(e) && entEnd(e)) return [parseDate(entStart(e)).t, parseDate(entEnd(e)).t];
+  return t.range;
+}
+
+async function buildCompare(key, index, ents) {
+  const ids = [...new Set(key.split(",").filter((i) => index.some((t) => t.id === i)))].slice(0, 3);
+  const tls = await Promise.all(ids.map((i) => load(`data/timelines/${i}.json`)));
+  const spans = tls.map((t) => timelineSpan(t, ents));
+  const rulers = [], events = [], seen = new Set(), context = [], ctxSeen = new Set();
+  tls.forEach((t, i) => {
+    const name = shortTitle(t), [a, b] = spans[i];
+    if (t.rulers?.length) t.rulers.forEach((row) => rulers.push({ ...row, hue: CMP_HUES[i], label: t.rulers.length > 1 ? `${name}: ${row.label}` : name }));
+    else {
+      const inPower = t.focus && (t.focus[0] !== a || t.focus[1] !== b) ? ` In power ${Math.floor(t.focus[0])}–${Math.floor(t.focus[1])}.` : "";
+      rulers.push({ label: name, hue: CMP_HUES[i], members: [{ entity: t.subject, from: a, to: b, name: t.title, note: `${t.subtitle}.${inPower}` }] });
+    }
+    for (const ev of t.events) {
+      const k = `${ev.date}|${ev.wiki || ev.title}`; // the same event in two timelines is shown once
+      if (seen.has(k)) continue;
+      seen.add(k);
+      events.push({ ...ev, id: `${t.id}~${ev.id}`, lane: CMP_LANES[i] });
+    }
+    for (const c of t.context || []) {
+      const k = `${c.entity}|${c.from}|${c.to}`;
+      if (!ctxSeen.has(k)) { ctxSeen.add(k); context.push(c); }
+    }
+  });
+  const overlaps = [];
+  for (let i = 0; i < tls.length; i++) for (let j = i + 1; j < tls.length; j++) {
+    const from = Math.max(spans[i][0], spans[j][0]), to = Math.min(spans[i][1], spans[j][1]);
+    if (to > from) overlaps.push({ from, to, label: `${shortTitle(tls[i])} & ${shortTitle(tls[j])}` });
+  }
+  const lo = Math.min(...spans.map((s) => s[0])), hi = Math.max(...spans.map((s) => s[1])), pad = Math.max(5, (hi - lo) * 0.04);
+  return {
+    id: `compare/${ids.join(",")}`, compare: tls, spans, overlaps,
+    title: tls.length ? tls.map(shortTitle).join(" · ") : "Compare timelines",
+    lanes: tls.map((t, i) => ({ id: CMP_LANES[i], label: shortTitle(t) })),
+    rulers, events: events.sort((x, y) => (x.date < y.date ? -1 : 1)), context,
+    range: tls.length ? [Math.floor(lo - pad), Math.ceil(hi + pad)] : [0, 1],
+  };
+}
+
+function compareHero(tl, index, ents) {
+  const chosen = tl.compare.map((t) => t.id);
+  const goTo = (list) => go(`#/compare/${list.filter(Boolean).join(",")}`);
+  const groups = [["Empires", index.filter((t) => t.kind === "empire")],
+    ...[...new Set(index.filter((t) => t.kind !== "empire").map((t) => t.series || "Other"))]
+      .map((sname) => [sname, index.filter((t) => t.kind !== "empire" && (t.series || "Other") === sname)])];
+  const picker = (slot) => {
+    const sel = el("select", { class: "cmp-select", "aria-label": `Timeline ${slot + 1}`,
+      onchange: (e) => { const next = [...chosen]; next[slot] = e.target.value; goTo(next); } },
+      el("option", { value: "" }, slot < chosen.length ? "— remove —" : "＋ add a timeline…"),
+      groups.map(([g, list]) => el("optgroup", { label: g }, list.map((t) => el("option", { value: t.id, disabled: chosen.includes(t.id) && chosen[slot] !== t.id }, t.title)))));
+    sel.value = chosen[slot] || "";
+    return el("div", { class: "cmp-slot", style: `--cmp:var(--lane-${CMP_LANES[slot]})` }, sel);
+  };
+  const yr = (v) => (v < 0 ? `${Math.round(-v)} BCE` : `${Math.floor(v)}`);
+  const cards = tl.compare.map((t, i) => {
+    const subj = ents[t.subject];
+    return el("div", { class: "cmp-card", style: `--cmp:var(--lane-${CMP_LANES[i]})` },
+      subj?.thumb && el("img", { src: subj.thumb, alt: "" }),
+      el("div", {},
+        el("a", { class: "cmp-title", href: `#/${t.id}` }, t.title),
+        el("div", { class: "cmp-years" }, `${yr(tl.spans[i][0])} – ${yr(tl.spans[i][1])}`)));
+  });
+  const overlapText = tl.compare.length < 2 ? "Pick at least one more timeline to see where they overlap."
+    : tl.overlaps.length ? tl.overlaps.map((o) => `${o.label}: ${yr(o.from)}–${yr(o.to)} (${Math.round(o.to - o.from)} years)`).join(" · ")
+    : "These timelines don't overlap in time.";
+  return el("section", { class: "compare-hero" },
+    el("h1", {}, "Compare timelines"),
+    el("p", { class: "sub" }, "Put up to three people, empires or states on one axis to see who was contemporary with whom."),
+    el("div", { class: "cmp-pickers" }, [0, 1, 2].filter((slot) => slot <= chosen.length).map(picker)),
+    cards.length ? el("div", { class: "cmp-cards" }, cards) : null,
+    el("p", { class: "cmp-overlaps" }, el("b", {}, "Overlaps: "), overlapText));
 }
 
 // ---------- Inline entity links ----------
@@ -356,7 +458,9 @@ function setupTimeline(box) {
     const x = (t) => GUTTER + ((t - start) / span) * (W - GUTTER - PAD);
     const visible = (e) => state.lanesOn.has(e.lane) && (e._te ?? e._t) >= start - 1 && e._t <= end + 1;
     const lanes = tl.lanes.filter((l) => state.lanesOn.has(l.id));
-    const { ctx: ctxOpen, lanes: lanesOpen } = state.expanded;
+    const ctxOpen = state.expanded.ctx;
+    const lanesKey = tl.compare ? "cmpLanes" : "lanes";
+    const lanesOpen = tl.compare ? state.expanded.cmpLanes !== false : state.expanded.lanes;
 
     // Vertical layout. Empire timelines lead with their rulers (one row per line of rulers,
     // e.g. Chhatrapatis and Peshwas) and fold the key-events track into a section below.
@@ -383,7 +487,11 @@ function setupTimeline(box) {
 
     // Subject's lifespan shading
     const subj = ents[tl.subject];
-    const focus = tl.focus || (entStart(subj) && entEnd(subj) && [parseDate(entStart(subj)).t, parseDate(entEnd(subj)).t]);
+    const focus = tl.focus || (subj && entStart(subj) && entEnd(subj) && [parseDate(entStart(subj)).t, parseDate(entEnd(subj)).t]);
+    for (const o of tl.overlaps || []) {
+      const a = Math.max(GUTTER, x(o.from)), b = Math.min(W - PAD, x(o.to));
+      if (b > a) s.append(svg("rect", { class: "overlap-band", x: a, y: AXIS, width: b - a, height: H - AXIS }));
+    }
     if (focus) {
       const a = x(focus[0]), b = x(focus[1]);
       s.append(svg("rect", { class: "subject-span", x: a, y: AXIS, width: Math.max(0, b - a), height: H - AXIS }));
@@ -592,7 +700,7 @@ function setupTimeline(box) {
       const t = svg("text", { class: "sec-head-text", x: 12, y: y + HEAD_H / 2 + 4 });
       t.textContent = `${open ? "▾" : "▸"}  ${text}`;
       g.append(t);
-      const toggle = () => { state.expanded[key] = !state.expanded[key]; saveExpanded(); render(); };
+      const toggle = () => { state.expanded[key] = !open; saveExpanded(); render(); };
       g.addEventListener("click", toggle);
       g.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } });
       return g;
@@ -638,7 +746,7 @@ function setupTimeline(box) {
       s.append(t);
     };
     rulerRows.forEach((row, ri) => {
-      rowLabel(row.label, rowGeom[ri].bar + R_BAR / 2 + 4, 12);
+      rowLabel(fitText(row.label, GUTTER - 18, "500 12px Inter, system-ui, sans-serif"), rowGeom[ri].bar + R_BAR / 2 + 4, 12);
       if (rowGeom[ri].strip != null) {
         const t = svg("text", { class: "row-hint", x: 12, y: rowGeom[ri].strip + 12.5 });
         t.textContent = "dynasty";
@@ -658,7 +766,8 @@ function setupTimeline(box) {
       const full = (ents[c.entity]?.title || "").length > 22 ? c.label.split(" – ")[0].split(" (")[0] : ents[c.entity]?.title || c.label;
       rowLabel(W < 600 && full.length > 15 ? full.slice(0, 14) + "…" : full, ctxTop + i * CTX_ROW + 11, W < 600 ? 10 : 11);
     });
-    s.append(head(lanesHead, lanesOpen, `All ${tl.events.length} events by category${lanesOpen ? "" : ` (+${minorCount} more)`}`, "lanes"));
+    s.append(head(lanesHead, lanesOpen, tl.compare ? `Events by timeline (${tl.events.length})`
+      : `All ${tl.events.length} events by category${lanesOpen ? "" : ` (+${minorCount} more)`}`, lanesKey));
     if (lanesOpen) lanes.forEach((lane, li) => rowLabel(W < 600 ? lane.label.split(" ")[0] : lane.label, lanesTop + li * LANE_H + LANE_H / 2 + 4, 12));
 
     box.replaceChildren(s);
@@ -853,12 +962,13 @@ function lifeBar(e) {
   const pct = (t) => Math.min(100, Math.max(0, ((t - r0) / (r1 - r0)) * 100));
   const a = s ? parseDate(s).t : r0, b = en ? parseDate(en).t : r1;
   if (b < r0 || a > r1) return null;
-  const sa = parseDate(entStart(subj)).t, sb = parseDate(entEnd(subj)).t;
+  const hasSubj = subj && entStart(subj) && entEnd(subj);
+  const sa = hasSubj ? parseDate(entStart(subj)).t : r0, sb = hasSubj ? parseDate(entEnd(subj)).t : r0;
   return el("div", {},
     el("div", { class: "life-bar" },
-      el("span", { class: "lb-subj", style: `left:${pct(sa)}%;width:${pct(sb) - pct(sa)}%`, title: subj.title }),
+      hasSubj ? el("span", { class: "lb-subj", style: `left:${pct(sa)}%;width:${pct(sb) - pct(sa)}%`, title: subj.title }) : null,
       el("span", { class: "lb-ent", style: `left:${pct(a)}%;width:${Math.max(1, pct(b) - pct(a))}%` })),
-    el("div", { class: "life-legend" }, el("span", {}, r0), el("span", {}, `shaded: ${subj.title.replace("Chhatrapati ", "")}`), el("span", {}, r1)));
+    el("div", { class: "life-legend" }, el("span", {}, r0), el("span", {}, hasSubj ? `shaded: ${subj.title.replace("Chhatrapati ", "")}` : ""), el("span", {}, r1)));
 }
 
 // ---------- Start ----------

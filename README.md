@@ -77,6 +77,15 @@ Summaries and images come from Wikipedia (CC BY-SA) and Wikidata (CC0). The even
 and short event descriptions are curated here. Where dates are contested
 (Shivaji's birth year, the Rohideshwar oath), the event text says so.
 
+## Compare view
+
+`#/compare/<id>,<id>,<id>` puts up to three timelines on one axis (picker at `#/compare`, or the
+"Compare with other timelines" button on any timeline). Each timeline keeps its own colour: its
+rulers (or, for a person, their lifetime) become ruler rows, its events one event row, and the
+years where they coincide are shaded and listed as overlaps. Built in `buildCompare()` in
+`site/app.js` by merging the timelines into one synthetic timeline, so all the normal timeline,
+story, map and panel code is reused.
+
 ## Publishing
 
 Live at **https://itihas.vokalglobe.com**. Every push to `main` deploys `site/` to GitHub Pages
