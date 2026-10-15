@@ -1,6 +1,7 @@
 {
  "id": "mughal-empire",
  "kind": "empire",
+ "origin": "foreign",
  "order": 2,
  "title": "The Mughal Empire",
  "subtitle": "From Babur at Panipat to the last emperor in Rangoon · 1526 – 1857",

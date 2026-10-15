@@ -324,23 +324,27 @@ function featuredComparisons(index, ents) {
 
 // ---------- Home: river of time ----------
 // Every timeline on one axis, packed into rows by kind. Hovering one highlights everything
-// that overlapped it in time.
+// that overlapped it in time. Indian powers are drawn in warm saffron–red shades, powers of
+// foreign origin (content: "origin": "foreign") in cool blue–violet ones.
+const ORIGIN_HUES = { indian: [24, 44, 8, 34, 54, 0], foreign: [222, 262, 196, 285] };
 function setupRiver(box, index, ents) {
   const GROUPS = [
-    { label: "Empires", h: 26, pick: (t) => t.kind === "empire", hues: [24, 232, 168, 352, 42, 280] },
-    { label: "Maratha states", h: 20, pick: (t) => t.kind === "state", hues: [200, 330, 42, 120, 280, 12] },
-    { label: "People", h: 17, pick: (t) => !t.kind, hues: null },
+    { label: "Empires", h: 26, pick: (t) => t.kind === "empire", cycle: true },
+    { label: "Maratha states", h: 20, pick: (t) => t.kind === "state", cycle: true },
+    { label: "People", h: 17, pick: (t) => !t.kind, cycle: false },
   ];
-  const SERIES_HUE = { "The Maratha Empire": 24, "The Maratha confederacy": 200 };
+  const SERIES_HUE = { "The Maratha Empire": 24, "The Maratha confederacy": 40 };
   const items = [];
   GROUPS.forEach((g, gi) => {
-    const rows = [];
+    const rows = [], used = { indian: 0, foreign: 0 };
     index.filter(g.pick).map((t) => ({ t, a: (t.span || t.range)[0], b: (t.span || t.range)[1] }))
-      .sort((p, q) => p.a - q.a).forEach((it, k) => {
+      .sort((p, q) => p.a - q.a).forEach((it) => {
         let r = rows.findIndex((end) => it.a > end + 2);
         if (r === -1) { r = rows.length; rows.push(0); }
         rows[r] = it.b;
-        items.push({ ...it, g: gi, row: r, hue: g.hues ? g.hues[k % g.hues.length] : SERIES_HUE[it.t.series] ?? 280 });
+        const o = it.t.origin === "foreign" ? "foreign" : "indian", pal = ORIGIN_HUES[o];
+        const hue = g.cycle || o === "foreign" ? pal[used[o]++ % pal.length] : SERIES_HUE[it.t.series] ?? pal[0];
+        items.push({ ...it, g: gi, row: r, hue });
       });
     g.rows = rows.length;
   });
@@ -402,7 +406,7 @@ function setupRiver(box, index, ents) {
       t.textContent = W < 600 ? g.label.split(" ").pop() : g.label;
       svgEl.append(t);
     });
-    box.replaceChildren(svgEl, controls);
+    box.replaceChildren(svgEl, controls, legend);
   }
   const zoom = (f, frac = 0.5) => {
     const sp = Math.min(home.end - home.start + 200, Math.max(20, (view.end - view.start) * f));
@@ -410,6 +414,10 @@ function setupRiver(box, index, ents) {
     view = { start: pivot - sp * frac, end: pivot + sp * (1 - frac) };
     render();
   };
+  const swatches = (o) => el("span", { class: "sw-set" }, ORIGIN_HUES[o].slice(0, 4).map((h) => el("i", { style: `background:hsl(${h} 58% 46%)` })));
+  const legend = el("div", { class: "river-legend" },
+    el("span", {}, swatches("indian"), "Indian powers"),
+    el("span", {}, swatches("foreign"), "Powers of foreign origin (Delhi Sultanate, Mughals, British)"));
   const controls = el("div", { class: "river-controls" },
     el("button", { class: "zoom-btn", title: "Zoom in", onclick: () => zoom(0.6) }, "+"),
     el("button", { class: "zoom-btn", title: "Zoom out", onclick: () => zoom(1 / 0.6) }, "−"),

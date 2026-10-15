@@ -291,6 +291,7 @@ def main():
         index.append({"id": tl["id"], "title": tl["title"], "subtitle": tl.get("subtitle"),
                       "subject": tl["subject"], "events": len(tl["events"]),
                       "series": tl.get("series"), "order": tl.get("order", 0), "kind": tl.get("kind"),
+                      "origin": tl.get("origin", "indian"),
                       "range": tl["range"], "focus": tl.get("focus"), "span": span_of(tl, entities),
                       "aliases": tl.get("aliases", [])})
     index.sort(key=lambda t: (t["series"] or "", t["order"]))
