@@ -53,6 +53,11 @@ jobs:
           path: .cache
           key: wiki-cache-${{ github.run_id }}
 
+      # Version the app's own JS/CSS URLs so a reload after a deploy never runs stale code
+      # (GitHub Pages lets browsers cache files for 10 minutes).
+      - name: Stamp asset versions
+        run: sed -i -E 's/(app\.js|styles\.css)"/\1?v=${{ github.sha }}"/' site/index.html
+
       - name: Upload site
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
