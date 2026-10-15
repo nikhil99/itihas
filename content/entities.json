@@ -442,5 +442,18 @@
   "ochterlony": {"type": "person", "wiki": "David Ochterlony", "aliases": ["David Ochterlony", "Ochterlony"]},
   "gerard-lake": {"type": "person", "wiki": "Gerard Lake, 1st Viscount Lake", "name": "Gerard Lake", "aliases": ["Gerard Lake", "Lord Lake"]},
   "bhanpura": {"type": "place", "wiki": "Bhanpura", "aliases": ["Bhanpura"]},
-  "deeg": {"type": "place", "wiki": "Deeg", "aliases": ["Deeg"]}
+  "deeg": {"type": "place", "wiki": "Deeg", "aliases": ["Deeg"]},
+
+  "khanderao-holkar": {"type": "person", "wiki": "Khanderao Holkar", "aliases": ["Khanderao Holkar", "Khanderao"]},
+  "chondi": {"type": "place", "wiki": "Chondi", "aliases": ["Chondi"]},
+  "somnath": {"type": "place", "wiki": "Somnath Temple", "aliases": ["Somnath"]},
+  "grishneshwar": {"type": "place", "wiki": "Ghrishneshwar Temple", "name": "Grishneshwar Temple", "aliases": ["Grishneshwar", "Ghrishneshwar"]},
+  "vishnupad": {"type": "place", "wiki": "Vishnupad Temple", "aliases": ["Vishnupad Temple", "Vishnupad"]},
+  "varanasi": {"type": "place", "wiki": "Varanasi", "aliases": ["Varanasi", "Kashi"]},
+  "gaya": {"type": "place", "wiki": "Gaya, India", "name": "Gaya", "aliases": ["Gaya"]},
+  "kanherkhed": {"type": "place", "wiki": "Kanherkhed", "aliases": ["Kanherkhed"]},
+  "ismail-beg": {"type": "person", "wiki": "Isma'il Beg", "name": "Ismail Beg", "aliases": ["Ismail Beg"]},
+  "aligarh": {"type": "place", "wiki": "Aligarh", "aliases": ["Aligarh"]},
+  "shinde-chhatri": {"type": "place", "wiki": "Shinde Chhatri", "aliases": ["Shinde Chhatri"]},
+  "mathura-v": {"type": "place", "wiki": "Vrindavan", "name": "Vrindavan", "aliases": ["Vrindavan"]}
 }

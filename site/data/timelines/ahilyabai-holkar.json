@@ -1,0 +1,336 @@
+{
+ "id": "ahilyabai-holkar",
+ "series": "The Maratha confederacy",
+ "order": 2.2,
+ "title": "Ahilyabai Holkar",
+ "subtitle": "The philosopher-queen of Malwa · 1725 – 1795",
+ "subject": "ahilyabai",
+ "range": [
+  1720,
+  1800
+ ],
+ "focus": [
+  1767.26,
+  1795.62
+ ],
+ "intro": "Married into the Holkar family as a girl, widowed at 29 and then bereaved of her father-in-law and only son, Ahilyabai persuaded the Peshwa to let her rule the Holkar state herself. For 28 years she governed from Maheshwar on the Narmada, keeping Malwa peaceful and prosperous while funding temples, ghats, wells and rest-houses across India — from the Kashi Vishwanath temple in Varanasi to Somnath.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Life & family"
+  },
+  {
+   "id": "military",
+   "label": "Military"
+  },
+  {
+   "id": "forts",
+   "label": "Temples & building"
+  },
+  {
+   "id": "political",
+   "label": "Rule & administration"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ],
+ "context": [
+  {
+   "entity": "malharrao-holkar",
+   "label": "Malharrao Holkar (father-in-law)"
+  },
+  {
+   "entity": "ahilyabai",
+   "label": "Ahilyabai"
+  },
+  {
+   "entity": "ahilyabai",
+   "label": "Ahilyabai – rules the Holkar state",
+   "from": 1767.26,
+   "to": 1795.62
+  },
+  {
+   "entity": "tukoji-holkar",
+   "label": "Tukoji Holkar (army commander)"
+  },
+  {
+   "entity": "madhavrao",
+   "label": "Madhavrao I – Peshwa",
+   "from": 1761.55,
+   "to": 1772.88
+  },
+  {
+   "entity": "mahadji",
+   "label": "Mahadji Shinde"
+  }
+ ],
+ "events": [
+  {
+   "id": "born",
+   "date": "1725-05-31",
+   "lane": "life",
+   "title": "Born at Chondi",
+   "summary": "Ahilyabai is born in the village of Chondi, near Jamkhed in today's Ahilyanagar (Ahmednagar) district, to Mankoji Shinde, the village headman. Her father teaches her to read and write — rare for a girl at the time.",
+   "people": [
+    "ahilyabai"
+   ],
+   "places": [
+    "chondi",
+    "ahmednagar"
+   ],
+   "major": true
+  },
+  {
+   "id": "marriage",
+   "date": "1733",
+   "lane": "life",
+   "title": "Married to Khanderao Holkar",
+   "summary": "Malharrao Holkar, passing through Chondi, is said to have been struck by the eight-year-old girl's character and arranged her marriage to his son Khanderao.",
+   "people": [
+    "ahilyabai",
+    "khanderao-holkar",
+    "malharrao-holkar"
+   ],
+   "polities": [
+    "indore-state"
+   ],
+   "approx": true
+  },
+  {
+   "id": "children",
+   "date": "1745",
+   "lane": "life",
+   "title": "Son Male Rao born",
+   "summary": "Her son Male Rao is born in 1745 and her daughter Muktabai in 1748.",
+   "people": [
+    "ahilyabai",
+    "male-rao-holkar"
+   ],
+   "approx": true
+  },
+  {
+   "id": "kumher",
+   "date": "1754-03",
+   "lane": "military",
+   "title": "Widowed at Kumher",
+   "summary": "Khanderao is killed by a cannonball at the siege of the Jat fort of Kumher. Malharrao forbids Ahilyabai from committing sati and begins to train her in administration and military affairs.",
+   "people": [
+    "khanderao-holkar",
+    "malharrao-holkar",
+    "ahilyabai"
+   ],
+   "places": [
+    "kumher"
+   ],
+   "major": true,
+   "see": "nanasaheb"
+  },
+  {
+   "id": "malharrao-dies",
+   "date": "1766-05-20",
+   "lane": "life",
+   "title": "Malharrao dies",
+   "summary": "Malharrao dies; Ahilyabai's son Male Rao succeeds him.",
+   "people": [
+    "malharrao-holkar",
+    "male-rao-holkar",
+    "ahilyabai"
+   ]
+  },
+  {
+   "id": "claim",
+   "date": "1767",
+   "lane": "political",
+   "title": "Ahilyabai claims the right to rule",
+   "summary": "Facing courtiers — and, in the traditional account, Raghunathrao — who expect to take over the Holkar lands, Ahilyabai petitions Peshwa Madhavrao I to rule in her own right and readies her troops. Madhavrao grants the request.",
+   "people": [
+    "ahilyabai",
+    "madhavrao",
+    "raghunathrao"
+   ],
+   "polities": [
+    "indore-state"
+   ],
+   "concepts": [
+    "peshwa"
+   ],
+   "major": true,
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "maheshwar",
+   "date": "1767",
+   "lane": "forts",
+   "title": "Court at Maheshwar",
+   "summary": "She makes Maheshwar on the Narmada her capital, building its fort-palace and riverside ghats, and encourages the weaving industry for which Maheshwar is still known.",
+   "people": [
+    "ahilyabai"
+   ],
+   "places": [
+    "maheshwar"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "male-rao-dies",
+   "date": "1767-04-05",
+   "lane": "life",
+   "title": "Her son dies",
+   "summary": "Male Rao dies within a year of his accession, leaving the Holkar state without a male heir.",
+   "people": [
+    "male-rao-holkar",
+    "ahilyabai"
+   ]
+  },
+  {
+   "id": "tukoji",
+   "date": "1767-12",
+   "lane": "political",
+   "title": "Partnership with Tukoji Holkar",
+   "summary": "Ahilyabai keeps civil government and finances; Tukoji Holkar, a kinsman, commands the Holkar army in the field. The arrangement lasts until her death.",
+   "people": [
+    "ahilyabai",
+    "tukoji-holkar"
+   ],
+   "polities": [
+    "indore-state"
+   ]
+  },
+  {
+   "id": "justice",
+   "date": "1770",
+   "lane": "political",
+   "title": "Government and justice",
+   "summary": "Contemporaries and later British writers such as John Malcolm describe her daily public audiences, low taxes, protection of trade, and efforts to settle the Bhils and Gonds of the hill country.",
+   "people": [
+    "ahilyabai",
+    "john-malcolm"
+   ],
+   "places": [
+    "maheshwar",
+    "malwa"
+   ],
+   "approx": true
+  },
+  {
+   "id": "rampura",
+   "date": "1771",
+   "lane": "military",
+   "title": "Revolt at Rampura suppressed",
+   "summary": "A revolt of Chandrawat Rajput chiefs in the Holkar territory of Rampura is put down by her forces.",
+   "people": [
+    "ahilyabai",
+    "tukoji-holkar"
+   ],
+   "approx": true
+  },
+  {
+   "id": "kashi",
+   "date": "1780",
+   "lane": "forts",
+   "title": "Kashi Vishwanath temple",
+   "summary": "She builds the present Kashi Vishwanath temple in Varanasi, more than a century after the earlier temple was destroyed on Aurangzeb's orders.",
+   "people": [
+    "ahilyabai"
+   ],
+   "places": [
+    "kashi-vishwanath",
+    "varanasi"
+   ],
+   "major": true
+  },
+  {
+   "id": "somnath",
+   "date": "1783",
+   "lane": "forts",
+   "title": "Temple at Somnath",
+   "summary": "She builds a temple at Somnath beside the ruins of the old one, for worship to continue at the site.",
+   "people": [
+    "ahilyabai"
+   ],
+   "places": [
+    "somnath"
+   ],
+   "approx": true
+  },
+  {
+   "id": "pilgrimage",
+   "date": "1785",
+   "lane": "forts",
+   "title": "Temples, ghats and rest-houses across India",
+   "summary": "Her grants build or restore the Grishneshwar temple near Ellora, the Vishnupad temple at Gaya, ghats at Varanasi and elsewhere, and dharmashalas and wells along pilgrim routes from the Himalayas to the far south.",
+   "people": [
+    "ahilyabai"
+   ],
+   "places": [
+    "grishneshwar",
+    "vishnupad",
+    "gaya",
+    "varanasi"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "muktabai",
+   "date": "1792",
+   "lane": "life",
+   "title": "Death of her daughter",
+   "summary": "Her daughter Muktabai commits sati on her husband's death, despite Ahilyabai's pleas — a grief recorded by her contemporaries.",
+   "people": [
+    "ahilyabai"
+   ],
+   "approx": true
+  },
+  {
+   "id": "lakheri",
+   "date": "1793",
+   "lane": "world",
+   "title": "Holkar and Shinde at war",
+   "summary": "Tukoji Holkar's army is defeated by Mahadji Shinde's de Boigne brigades at Lakheri — a sign of the rivalries splitting the confederacy.",
+   "people": [
+    "tukoji-holkar",
+    "mahadji",
+    "de-boigne"
+   ],
+   "polities": [
+    "gwalior-state",
+    "indore-state"
+   ],
+   "see": "mahadji-shinde"
+  },
+  {
+   "id": "dies",
+   "date": "1795-08-13",
+   "lane": "life",
+   "title": "Dies at Maheshwar",
+   "summary": "Ahilyabai dies at Maheshwar, aged 70. Tukoji Holkar succeeds her.",
+   "people": [
+    "ahilyabai",
+    "tukoji-holkar"
+   ],
+   "places": [
+    "maheshwar"
+   ],
+   "major": true,
+   "see": "holkar-indore"
+  },
+  {
+   "id": "legacy",
+   "date": "2024",
+   "lane": "world",
+   "title": "Remembered",
+   "summary": "She is commemorated across India; Indore's airport bears her name, and in 2024 Ahmednagar, the district of her birth, was renamed Ahilyanagar.",
+   "people": [
+    "ahilyabai"
+   ],
+   "places": [
+    "ahmednagar",
+    "indore"
+   ]
+  }
+ ]
+}

@@ -222,6 +222,24 @@
   ]
  },
  {
+  "id": "mahadji-shinde",
+  "title": "Mahadji Shinde",
+  "subtitle": "The Maratha master of Delhi · c. 1730 – 1794",
+  "subject": "mahadji",
+  "events": 18,
+  "series": "The Maratha confederacy",
+  "order": 1.5,
+  "kind": null,
+  "range": [
+   1726,
+   1798
+  ],
+  "focus": [
+   1768,
+   1794.12
+  ]
+ },
+ {
   "id": "holkar-indore",
   "title": "The Holkars of Indore",
   "subtitle": "From Malharrao and Ahilyabai to the princely state of Indore · 1733 – 1948",
@@ -237,6 +255,24 @@
   "focus": [
    1733,
    1948.4
+  ]
+ },
+ {
+  "id": "ahilyabai-holkar",
+  "title": "Ahilyabai Holkar",
+  "subtitle": "The philosopher-queen of Malwa · 1725 – 1795",
+  "subject": "ahilyabai",
+  "events": 18,
+  "series": "The Maratha confederacy",
+  "order": 2.2,
+  "kind": null,
+  "range": [
+   1720,
+   1800
+  ],
+  "focus": [
+   1767.26,
+   1795.62
   ]
  },
  {

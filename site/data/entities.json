@@ -11174,5 +11174,295 @@
   },
   "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A1%E0%A5%80%E0%A4%97_%28%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%29",
   "dates": {}
+ },
+ "khanderao-holkar": {
+  "id": "khanderao-holkar",
+  "type": "person",
+  "title": "Khanderao Holkar",
+  "description": "Maratha nobleman and warrior (1723–1754)",
+  "extract": "Khanderao Holkar was the only son of Malhar Rao Holkar, the founder of the Holkar dynasty of Indore, and Gautama Bai Holkar. He was the husband of Ahilyabai Holkar. He served as a Maratha Sardar and fought several campaigns on behest of the Maratha empire.",
+  "url": "https://en.wikipedia.org/wiki/Khanderao_Holkar",
+  "qid": "Q29981868",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/N1e7q0RtD6yUC22o.jpg/330px-N1e7q0RtD6yUC22o.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/N1e7q0RtD6yUC22o.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Khanderao Holkar",
+   "Khanderao"
+  ],
+  "labels": {
+   "mr": "खंडेराव होळकर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%96%E0%A4%82%E0%A4%A1%E0%A5%87%E0%A4%B0%E0%A4%BE%E0%A4%B5_%E0%A4%B9%E0%A5%8B%E0%A4%B3%E0%A4%95%E0%A4%B0",
+  "dates": {
+   "born": {
+    "value": "1723",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1754",
+    "precision": "year"
+   }
+  }
+ },
+ "chondi": {
+  "id": "chondi",
+  "type": "place",
+  "title": "Chondi",
+  "description": "Village in Maharashtra, India",
+  "extract": "The village Chondi or Chaundi, the birthplace of Punyashlok Rajmata Ahilyadevi Holkar, is in Jamkhed taluka of district Ahilyanagar. The state government of Maharashtra has decided to develop Chondi as a national memorial.",
+  "url": "https://en.wikipedia.org/wiki/Chondi",
+  "qid": "Q112577951",
+  "coords": {
+   "lat": 18.72,
+   "lon": 75.32
+  },
+  "aliases": [
+   "Chondi"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {}
+ },
+ "somnath": {
+  "id": "somnath",
+  "type": "place",
+  "title": "Somnath Temple",
+  "description": "Hindu temple in Gujarat, India",
+  "extract": "Somanatha Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites, or Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. The date of construction of the earliest Somnath temple remains uncertain, with estimates varying between the early centuries of the 1st millennium and about the 9th century CE. Various texts, including the Mahabharata and Bhagavata Purana, mention a tirtha at Prabhas Patan on the coastline of Saurashtra, where the later temple would eventually be built, but archaeology has not found traces of an early temple, though there was a settlement there.",
+  "url": "https://en.wikipedia.org/wiki/Somnath_Temple",
+  "qid": "Q1143887",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Somanath_mandir_%28cropped%29.jpg/330px-Somanath_mandir_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Somanath_mandir_%28cropped%29.jpg/3840px-Somanath_mandir_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 20.88802778,
+   "lon": 70.40138889
+  },
+  "aliases": [
+   "Somnath"
+  ],
+  "labels": {
+   "hi": "सोमनाथ मन्दिर",
+   "mr": "सोरठी सोमनाथ"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8B%E0%A4%AE%E0%A4%A8%E0%A4%BE%E0%A4%A5_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0",
+  "dates": {}
+ },
+ "grishneshwar": {
+  "id": "grishneshwar",
+  "type": "place",
+  "title": "Grishneshwar Temple",
+  "description": "Shrine dedicated to Lord Shiva",
+  "extract": "Ghrishneshwar Jyotirlinga, also known as Grishneswhar, is a Hindu temple of Shiva in Verul village of Aurangabad district, Maharashtra. It is one of the 12 Jyotirlinga mandirs. The mandir is a national protected site, one and a half kilometers away from the Ellora Caves, 30 kilometres north-west of the Aurangabad, and 300 kilometres east-northeast far from Mumbai. Ghrishneshwar is mentioned in the Shiva Purana, the Skanda Purana, the Ramayana and the Mahabharata.",
+  "url": "https://en.wikipedia.org/wiki/Ghrishneshwar_Temple",
+  "qid": "Q1092799",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Grishneshwar_temple_in_Aurangabad_district.jpg/330px-Grishneshwar_temple_in_Aurangabad_district.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Grishneshwar_temple_in_Aurangabad_district.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 20.02497222,
+   "lon": 75.16991667
+  },
+  "aliases": [
+   "Grishneshwar",
+   "Ghrishneshwar"
+  ],
+  "labels": {
+   "hi": "घृष्णेश्वर मन्दिर",
+   "mr": "घृष्णेश्वर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%98%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0",
+  "dates": {}
+ },
+ "vishnupad": {
+  "id": "vishnupad",
+  "type": "place",
+  "title": "Vishnupad Temple",
+  "description": "Hindu temple in Bihar, India",
+  "extract": "Vishnupad Temple is a Hindu temple in Gaya, Bihar, dedicated to Vishnu. Located on the banks of Phalgu river, the temple is believed to be built upon the site where Vishnu had purportedly killed the demon Gayasura and/or eternally pinned him underground. The temple features a 40-cm footprint purported to be of Vishnu incised into a block of basalt, known as Dharmasila which was retained when the deity stepped on Gayasura's chest before pinning him underground.",
+  "url": "https://en.wikipedia.org/wiki/Vishnupad_Temple",
+  "qid": "Q7935996",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Vishnupad_Temple%2CUpdated.jpg/330px-Vishnupad_Temple%2CUpdated.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Vishnupad_Temple%2CUpdated.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 24.61027778,
+   "lon": 85.00916667
+  },
+  "aliases": [
+   "Vishnupad Temple",
+   "Vishnupad"
+  ],
+  "labels": {
+   "hi": "विष्णुपद मंदिर",
+   "mr": "विष्णुपद मंदिर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A3%E0%A5%81%E0%A4%AA%E0%A4%A6_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0",
+  "dates": {}
+ },
+ "varanasi": {
+  "id": "varanasi",
+  "type": "place",
+  "title": "Varanasi",
+  "description": "Metropolis in Uttar Pradesh, India",
+  "extract": "Varanasi, or Kashi, is a holy city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourning in the Hindu world. The city also has a syncretic tradition of Islamic artisanship that underpins its religious tourism. Located in the middle-Ganges valley in the southeastern part of the state of Uttar Pradesh, Varanasi lies on the left bank of the river. It is 692 kilometres (430 mi) to the southeast of India's capital New Delhi and 320 kilometres (200 mi) to the southeast of the state capital, Lucknow. It lies 121 kilometres (75 mi) downstream of Prayagraj, where the confluence with the Yamuna river is another major Hindu pilgrimage site.",
+  "url": "https://en.wikipedia.org/wiki/Varanasi",
+  "qid": "Q79980",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Manikarnika_Ghat%2C_Varanasi%2C_Uttar_Pradesh%2C_India_%282011%29_5.jpg/330px-Manikarnika_Ghat%2C_Varanasi%2C_Uttar_Pradesh%2C_India_%282011%29_5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Manikarnika_Ghat%2C_Varanasi%2C_Uttar_Pradesh%2C_India_%282011%29_5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 25.31888889,
+   "lon": 83.01277778
+  },
+  "aliases": [
+   "Varanasi",
+   "Kashi"
+  ],
+  "labels": {
+   "hi": "वाराणसी",
+   "mr": "वाराणसी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%A3%E0%A4%B8%E0%A5%80",
+  "dates": {}
+ },
+ "gaya": {
+  "id": "gaya",
+  "type": "place",
+  "title": "Gaya",
+  "description": "City in Bihar, India",
+  "extract": "Gaya is a city, municipal corporation and the administrative headquarters of Gaya district and Magadh division of the Indian state of Bihar. Gaya is 116 kilometres (72 mi) south of Patna and is the state's second-largest city, with a population of 470,839. The city is surrounded on three sides by small, rocky hills, with the Phalgu River on its eastern side.",
+  "url": "https://en.wikipedia.org/wiki/Gaya%2C_India",
+  "qid": "Q251329",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Vishnupad_temple_gaya_bihar.jpg/330px-Vishnupad_temple_gaya_bihar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Vishnupad_temple_gaya_bihar.jpg/3840px-Vishnupad_temple_gaya_bihar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 24.75,
+   "lon": 85.01
+  },
+  "aliases": [
+   "Gaya"
+  ],
+  "labels": {
+   "hi": "गया",
+   "mr": "गया"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%97%E0%A4%AF%E0%A4%BE",
+  "dates": {}
+ },
+ "kanherkhed": {
+  "id": "kanherkhed",
+  "type": "place",
+  "title": "Kanherkhed",
+  "description": "Village in Maharashtra",
+  "extract": "\nKanherkhed is a village in Satara district, Maharashtra, India. It was the home village of Scindia family that later ruled the Gwalior State. Scindia's are Deshmukh's of Kanherkhed Village.",
+  "url": "https://en.wikipedia.org/wiki/Kanherkhed",
+  "qid": "Q6363000",
+  "coords": {
+   "lat": 17.64694444,
+   "lon": 74.22972222
+  },
+  "aliases": [
+   "Kanherkhed"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {}
+ },
+ "ismail-beg": {
+  "id": "ismail-beg",
+  "type": "person",
+  "title": "Ismail Beg",
+  "description": "Mughal military commander (died 1794)",
+  "extract": "Mirza Ismail Beg Hamdani was a Mughal military commander of Persian origin. A son of Mirza Munim Beg and a kinsman of Mirza Najaf Khan, he along with his family fled Persia after the rise of Nadir Shah.",
+  "url": "https://en.wikipedia.org/wiki/Isma'il_Beg",
+  "qid": "Q6084473",
+  "aliases": [
+   "Ismail Beg"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1738",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1794-03",
+    "precision": "month"
+   }
+  }
+ },
+ "aligarh": {
+  "id": "aligarh",
+  "type": "place",
+  "title": "Aligarh",
+  "description": "City in Uttar Pradesh, India",
+  "extract": "Aligarh is a city in the state of Uttar Pradesh, India. It is the administrative headquarters of Aligarh district and lies 342 kilometres (213 mi) northwest of state capital Lucknow and approximately 130 kilometres (81 mi) southeast of the capital, New Delhi. The cities and districts which adjoin Aligarh are: Gautam Buddha Nagar, Bulandshahr, Sambhal, Badaun, Kasganj, Hathras, Etah and Mathura, as well as Palwal district of Haryana. As of 2011, Aligarh is the 53rd most populous city in India.",
+  "url": "https://en.wikipedia.org/wiki/Aligarh",
+  "qid": "Q201832",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Wisdom_public_school.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Wisdom_public_school.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 27.88833333,
+   "lon": 78.07305556
+  },
+  "aliases": [
+   "Aligarh"
+  ],
+  "labels": {
+   "hi": "अलीगढ़",
+   "mr": "अलीगढ"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%B2%E0%A5%80%E0%A4%97%E0%A4%A2",
+  "dates": {
+   "founded": {
+    "value": "1753",
+    "precision": "year"
+   }
+  }
+ },
+ "shinde-chhatri": {
+  "id": "shinde-chhatri",
+  "type": "place",
+  "title": "Shinde Chhatri",
+  "description": "Historic structure in Pune, India",
+  "extract": "Shinde Chhatri at Wanawadi in Pune, India is a memorial dedicated to the 18th century Maratha military leader Mahadji Shinde who served as the commander-in-chief of the Maratha army under the Peshwas from 1760 to 1780. It is one of the most significant landmarks in the city and is reminiscent of the Maratha rule. It is a hall that marks the spot of Mahadji Shinde's cremation on 12 February 1794.",
+  "url": "https://en.wikipedia.org/wiki/Shinde_Chhatri",
+  "qid": "Q7497295",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Mahadji_Shinde_Chattri.jpg/330px-Mahadji_Shinde_Chattri.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Mahadji_Shinde_Chattri.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shinde Chhatri"
+  ],
+  "labels": {
+   "mr": "शिंद्यांची छत्री"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%82%E0%A4%9A%E0%A5%80_%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%80",
+  "dates": {},
+  "coords": {
+   "lat": 18.49154,
+   "lon": 73.89731
+  }
+ },
+ "mathura-v": {
+  "id": "mathura-v",
+  "type": "place",
+  "title": "Vrindavan",
+  "description": "City in Uttar Pradesh, India",
+  "extract": "Vrindavan, also spelt Vrindaban and Brindaban, is a historic city in the Mathura district of Uttar Pradesh, India. It is located in the Braj Bhoomi region and holds religious significance for Hindus, who believe that Krishna, one of the main Gods in Hinduism, spent most of his childhood in this city. Vrindavan has about 5,500 temples dedicated to the worship of Krishna and his chief consort, Radha. It is one of the most sacred places for Vaishnava traditions.",
+  "url": "https://en.wikipedia.org/wiki/Vrindavan",
+  "qid": "Q688281",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Iskon_Temple%2C_Vrindawan.jpg/330px-Iskon_Temple%2C_Vrindawan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Iskon_Temple%2C_Vrindawan.jpg/3840px-Iskon_Temple%2C_Vrindawan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 27.58,
+   "lon": 77.7
+  },
+  "aliases": [
+   "Vrindavan"
+  ],
+  "labels": {
+   "hi": "वृन्दावन",
+   "mr": "वृंदावन"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A5%83%E0%A4%82%E0%A4%A6%E0%A4%BE%E0%A4%B5%E0%A4%A8",
+  "dates": {}
  }
 }

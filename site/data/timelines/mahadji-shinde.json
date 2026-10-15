@@ -1,0 +1,397 @@
+{
+ "id": "mahadji-shinde",
+ "series": "The Maratha confederacy",
+ "order": 1.5,
+ "title": "Mahadji Shinde",
+ "subtitle": "The Maratha master of Delhi · c. 1730 – 1794",
+ "subject": "mahadji",
+ "range": [
+  1726,
+  1798
+ ],
+ "focus": [
+  1768,
+  1794.12
+ ],
+ "intro": "The youngest son of Ranoji Shinde survived Panipat crippled, rebuilt his family's fortunes, defeated the British at Wadgaon, brokered the Treaty of Salbai, and became regent of the Mughal empire — with a European-trained army that made him the strongest power in north India. He died at the height of his power, while trying to consolidate it at the Peshwa's court in Pune.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Life & family"
+  },
+  {
+   "id": "military",
+   "label": "Battles"
+  },
+  {
+   "id": "forts",
+   "label": "The north & Delhi"
+  },
+  {
+   "id": "political",
+   "label": "Politics & treaties"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ],
+ "context": [
+  {
+   "entity": "ranoji-shinde",
+   "label": "Ranoji Shinde (father)"
+  },
+  {
+   "entity": "mahadji",
+   "label": "Mahadji Shinde"
+  },
+  {
+   "entity": "mahadji",
+   "label": "Mahadji – head of the Shinde house",
+   "from": 1768,
+   "to": 1794.12
+  },
+  {
+   "entity": "nana-phadnavis",
+   "label": "Nana Phadnavis"
+  },
+  {
+   "entity": "shah-alam-ii",
+   "label": "Shah Alam II – Mughal reign",
+   "from": 1759.9,
+   "to": 1806.9
+  },
+  {
+   "entity": "warren-hastings",
+   "label": "Warren Hastings"
+  }
+ ],
+ "events": [
+  {
+   "id": "born",
+   "date": "1730",
+   "lane": "life",
+   "title": "Born to Ranoji Shinde",
+   "summary": "Mahadji is born, the youngest son of Ranoji Shinde, one of Bajirao I's leading commanders.",
+   "people": [
+    "mahadji",
+    "ranoji-shinde"
+   ],
+   "places": [
+    "kanherkhed"
+   ],
+   "polities": [
+    "gwalior-state"
+   ],
+   "approx": true,
+   "major": true,
+   "see": "shinde-gwalior"
+  },
+  {
+   "id": "apprentice",
+   "date": "1750",
+   "lane": "military",
+   "title": "Campaigns with his brothers",
+   "summary": "He learns war in north India alongside his brothers Jayappa and Dattaji.",
+   "people": [
+    "mahadji",
+    "jayappa-shinde",
+    "dattaji-shinde"
+   ],
+   "approx": true
+  },
+  {
+   "id": "dattaji",
+   "date": "1760-01",
+   "lane": "military",
+   "title": "Dattaji killed",
+   "summary": "His brother Dattaji is killed fighting the Afghans at Burari Ghat.",
+   "people": [
+    "dattaji-shinde",
+    "abdali"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "see": "nanasaheb"
+  },
+  {
+   "id": "panipat",
+   "date": "1761-01-14",
+   "lane": "military",
+   "title": "Wounded at Panipat",
+   "summary": "At the Third Battle of Panipat Mahadji is badly wounded and escapes, lamed for life — rescued, by tradition, by a water-carrier who later served him as a trusted officer. His nephew Jankoji is captured and executed.",
+   "people": [
+    "mahadji",
+    "jankoji-shinde",
+    "abdali",
+    "sadashivrao-bhau"
+   ],
+   "places": [
+    "panipat"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "wiki": "Third Battle of Panipat",
+   "major": true,
+   "see": "nanasaheb",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Third_Battle_of_Panipat",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/The_Third_battle_of_Panipat_13_January_1761.jpg/330px-The_Third_battle_of_Panipat_13_January_1761.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "head",
+   "date": "1768",
+   "lane": "life",
+   "title": "Head of the Shinde house",
+   "summary": "After years of disputed succession, Mahadji is recognised as head of the Shinde family and its lands in Malwa.",
+   "people": [
+    "mahadji"
+   ],
+   "places": [
+    "ujjain"
+   ],
+   "polities": [
+    "gwalior-state"
+   ],
+   "major": true
+  },
+  {
+   "id": "delhi-1771",
+   "date": "1771-02",
+   "lane": "forts",
+   "title": "Back in Delhi",
+   "summary": "With Tukoji Holkar and Visaji Krishna, Mahadji retakes Delhi and escorts the exiled emperor Shah Alam II back to his capital.",
+   "people": [
+    "mahadji",
+    "shah-alam-ii",
+    "tukoji-holkar"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "major": true,
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "barbhai",
+   "date": "1774",
+   "lane": "political",
+   "title": "With Nana against Raghunathrao",
+   "summary": "After Narayanrao's murder Mahadji supports the regency council for the infant Peshwa — in an uneasy partnership with Nana Phadnavis that lasts the rest of his life.",
+   "people": [
+    "mahadji",
+    "nana-phadnavis",
+    "raghunathrao",
+    "sawai-madhavrao"
+   ],
+   "places": [
+    "pune"
+   ],
+   "see": "nana-phadnavis"
+  },
+  {
+   "id": "wadgaon",
+   "date": "1779-01-13",
+   "lane": "military",
+   "title": "Battle of Wadgaon",
+   "summary": "Mahadji's forces surround a British army marching on Pune with Raghunathrao and force it to sign the Convention of Wadgaon.",
+   "people": [
+    "mahadji",
+    "raghunathrao",
+    "tukoji-holkar"
+   ],
+   "places": [
+    "wadgaon"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Battle of Wadgaon",
+   "major": true,
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Wadgaon",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Maratha_British_Treaty.JPG/330px-Maratha_British_Treaty.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "id": "gwalior-lost",
+   "date": "1780-08",
+   "lane": "military",
+   "title": "Gwalior fort lost",
+   "summary": "A Company force storms Gwalior fort by night; in 1781 another British column inflicts a defeat on Mahadji in central India, and both sides look for peace.",
+   "people": [
+    "mahadji",
+    "warren-hastings"
+   ],
+   "places": [
+    "gwalior-fort"
+   ],
+   "polities": [
+    "east-india-company"
+   ]
+  },
+  {
+   "id": "salbai",
+   "date": "1782-05-17",
+   "lane": "political",
+   "title": "Treaty of Salbai",
+   "summary": "Mahadji negotiates peace between the Peshwa's government and the Company. The British recognise him as an independent power, and Gwalior is returned.",
+   "people": [
+    "mahadji",
+    "warren-hastings",
+    "nana-phadnavis"
+   ],
+   "places": [
+    "gwalior-fort"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-maratha-wars"
+   ],
+   "wiki": "Treaty of Salbai",
+   "major": true,
+   "wikiUrl": "https://en.wikipedia.org/wiki/Treaty_of_Salbai"
+  },
+  {
+   "id": "de-boigne",
+   "date": "1784",
+   "lane": "military",
+   "title": "A European-trained army",
+   "summary": "Mahadji hires the Savoyard officer Benoît de Boigne to raise infantry brigades and artillery on European lines — soon the most effective army of any Indian state.",
+   "people": [
+    "mahadji",
+    "de-boigne"
+   ],
+   "approx": true
+  },
+  {
+   "id": "regent",
+   "date": "1784-12",
+   "lane": "forts",
+   "title": "Regent of the Mughal empire",
+   "summary": "Shah Alam II names the Peshwa his Vakil-ul-Mutlaq with Mahadji as his deputy — in practice making Mahadji master of Delhi, Agra and the emperor's household.",
+   "people": [
+    "mahadji",
+    "shah-alam-ii"
+   ],
+   "places": [
+    "delhi",
+    "agra"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "major": true
+  },
+  {
+   "id": "lalsot",
+   "date": "1787-07",
+   "lane": "military",
+   "title": "Setback at Lalsot",
+   "summary": "Fighting the Rajputs of Jaipur and Jodhpur at Lalsot, Mahadji is deserted by many Mughal troops and forced to retreat; he loses control of Delhi for a time.",
+   "people": [
+    "mahadji",
+    "ismail-beg"
+   ],
+   "places": [
+    "lalsot"
+   ],
+   "wiki": "Battle of Lalsot",
+   "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Lalsot"
+  },
+  {
+   "id": "ghulam-qadir",
+   "date": "1788-10",
+   "lane": "forts",
+   "title": "Delhi retaken; Ghulam Qadir punished",
+   "summary": "The Rohilla chief Ghulam Qadir seizes Delhi and blinds Shah Alam II. Mahadji's army retakes the city, captures Ghulam Qadir and executes him, and restores the blind emperor.",
+   "people": [
+    "mahadji",
+    "ghulam-qadir",
+    "shah-alam-ii",
+    "ismail-beg"
+   ],
+   "places": [
+    "delhi",
+    "red-fort"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "major": true
+  },
+  {
+   "id": "patan-merta",
+   "date": "1790",
+   "lane": "military",
+   "title": "Patan and Merta",
+   "summary": "De Boigne's brigades crush the Rajput armies and Ismail Beg at Patan (June) and Merta (September), leaving Mahadji supreme in north India.",
+   "people": [
+    "mahadji",
+    "de-boigne",
+    "ismail-beg"
+   ],
+   "end": "1790-09"
+  },
+  {
+   "id": "pune",
+   "date": "1792-06",
+   "lane": "political",
+   "title": "Return to Pune",
+   "summary": "Mahadji comes south to Pune with great ceremony, presenting the young Peshwa with imperial honours — and seeking a larger role at court, which Nana Phadnavis resists.",
+   "people": [
+    "mahadji",
+    "sawai-madhavrao",
+    "nana-phadnavis"
+   ],
+   "places": [
+    "pune"
+   ],
+   "major": true
+  },
+  {
+   "id": "lakheri",
+   "date": "1793",
+   "lane": "military",
+   "title": "Holkar defeated at Lakheri",
+   "summary": "De Boigne's brigades defeat Tukoji Holkar's army — Maratha fighting Maratha in the north.",
+   "people": [
+    "mahadji",
+    "tukoji-holkar",
+    "de-boigne"
+   ],
+   "polities": [
+    "indore-state",
+    "gwalior-state"
+   ],
+   "see": "ahilyabai-holkar"
+  },
+  {
+   "id": "dies",
+   "date": "1794-02-12",
+   "lane": "life",
+   "title": "Dies at Wanavdi",
+   "summary": "Mahadji dies at his camp at Wanavdi near Pune, aged about 64. His memorial, the Shinde Chhatri, stands there. His young grand-nephew Daulatrao inherits his army.",
+   "people": [
+    "mahadji",
+    "daulatrao-shinde"
+   ],
+   "places": [
+    "shinde-chhatri",
+    "pune"
+   ],
+   "major": true,
+   "see": "shinde-gwalior"
+  }
+ ]
+}
