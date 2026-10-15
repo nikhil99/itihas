@@ -11464,5 +11464,916 @@
   },
   "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A5%83%E0%A4%82%E0%A4%A6%E0%A4%BE%E0%A4%B5%E0%A4%A8",
   "dates": {}
+ },
+ "seuna": {
+  "id": "seuna",
+  "type": "polity",
+  "title": "Yadavas of Devagiri (Seuna dynasty)",
+  "description": "Indian dynasty (c. 1187–1317)",
+  "extract": "The Seuna, Sevuna, or Yadavas of Devagiri was a medieval Indian dynasty, which at its peak ruled a realm stretching from the Narmada river in the north to the Tungabhadra river in the south, in the western part of the Deccan region. Its territory included present-day Maharashtra, northern Karnataka and parts of Madhya Pradesh, from its capital at Devagiri.",
+  "url": "https://en.wikipedia.org/wiki/Seuna_dynasty",
+  "qid": "Q5790",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Yadavas_of_Devagiri._Bhillama_V._1185-1193.jpg/330px-Yadavas_of_Devagiri._Bhillama_V._1185-1193.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Yadavas_of_Devagiri._Bhillama_V._1185-1193.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Seuna dynasty",
+   "Yadavas of Devagiri",
+   "Seunas",
+   "Yadavas"
+  ],
+  "labels": {
+   "mr": "देवगिरीचे यादव",
+   "hi": "देवगिरि के यादव"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%97%E0%A4%BF%E0%A4%B0%E0%A5%80%E0%A4%9A%E0%A5%87_%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%B5",
+  "dates": {
+   "founded": {
+    "value": "1187",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1317",
+    "precision": "year"
+   }
+  }
+ },
+ "devagiri": {
+  "id": "devagiri",
+  "type": "place",
+  "title": "Devagiri (Daulatabad)",
+  "description": "12th-century fort in Maharashtra, India",
+  "extract": "Daulatabad Fort, originally Devagiri Fort, is a historic fortified citadel located in Daulatabad village near Aurangabad, Maharashtra, India. It was the capital of the Yadavas, for a brief time the capital of the Delhi Sultanate (1327–1334), and later a secondary capital of the Ahmadnagar Sultanate (1499–1636).",
+  "url": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
+  "qid": "Q88667786",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Daulatabad_Fort_a_view.JPG/330px-Daulatabad_Fort_a_view.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Daulatabad_Fort_a_view.JPG/3840px-Daulatabad_Fort_a_view.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 19.942724,
+   "lon": 75.213164
+  },
+  "aliases": [
+   "Devagiri",
+   "Daulatabad"
+  ],
+  "labels": {
+   "hi": "दौलताबाद दुर्ग",
+   "mr": "दौलताबाद किल्ला"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A6%E0%A5%8C%E0%A4%B2%E0%A4%A4%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%A6_%E0%A4%95%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE",
+  "dates": {}
+ },
+ "dridhaprahara": {
+  "id": "dridhaprahara",
+  "type": "person",
+  "title": "Dridhaprahara",
+  "description": "1st ruler of Seuna (Yadava) dynasty",
+  "extract": "Dridhaprahara is the earliest historically attested ruler of the Seuna (Yadava) dynasty that ruled the western Deccan region in present-day India.",
+  "url": "https://en.wikipedia.org/wiki/Dridhaprahara",
+  "qid": "Q55610008",
+  "aliases": [
+   "Dridhaprahara"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {}
+ },
+ "bhillama-ii": {
+  "id": "bhillama-ii",
+  "type": "person",
+  "title": "Bhillama II",
+  "description": "Mahasamanta",
+  "extract": "Bhillama II was a ruler of the Seuna (Yadava) dynasty of Deccan region in India. He was a vassal of the Kalyani Chalukya ruler Tailapa II, and played an important role in Tailapa's victory against the Paramara king Munja.",
+  "url": "https://en.wikipedia.org/wiki/Bhillama_II",
+  "qid": "Q55605352",
+  "aliases": [
+   "Bhillama II"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {}
+ },
+ "bhillama-v": {
+  "id": "bhillama-v",
+  "type": "person",
+  "title": "Bhillama V",
+  "description": "Yadava ruler from 1175 to 1191",
+  "extract": "Bhillama V was the first sovereign ruler of the Seuna (Yadava) dynasty of Deccan region in India. A grandson of the Yadava king Mullagi, he carved out a principality in present-day Maharashtra by capturing forts in and around the Konkan region. Around 1175 CE, he grabbed the Yadava throne, supplanting the descendants of his uncle and an usurper. Over the next decade, he ruled as a nominal vassal of the Chalukyas of Kalyani, raiding the Gujarat Chaulukya and Paramara territories. After the fall of the Chalukya power, he declared sovereignty around 1187 CE, and fought with the Hoysala king Ballala II for control of the former Chalukya territory in present-day Karnataka. Around 1189 CE, he defeated Ballala in a battle at Soratur, but two years later, Ballala defeated him decisively.",
+  "url": "https://en.wikipedia.org/wiki/Bhillama_V",
+  "qid": "Q28173146",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Yadavas_of_Devagiri._Bhillama_V._1185-1193.jpg/330px-Yadavas_of_Devagiri._Bhillama_V._1185-1193.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Yadavas_of_Devagiri._Bhillama_V._1185-1193.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Bhillama V",
+   "Bhillama"
+  ],
+  "labels": {
+   "mr": "पाचवा भिल्लम यादव",
+   "hi": "भिल्लम पंचम"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%9A%E0%A4%B5%E0%A4%BE_%E0%A4%AD%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%AE_%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%B5",
+  "dates": {}
+ },
+ "jaitugi": {
+  "id": "jaitugi",
+  "type": "person",
+  "title": "Jaitugi",
+  "description": "Yadava king",
+  "extract": "Jaitugi (1165–1200), also known as Jaitrapala, was a ruler of the Seuna (Yadava) dynasty from 1191 to 1200.",
+  "url": "https://en.wikipedia.org/wiki/Jaitugi",
+  "qid": "Q28169241",
+  "aliases": [
+   "Jaitugi"
+  ],
+  "labels": {
+   "hi": "जैतुगी"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "simhana": {
+  "id": "simhana",
+  "type": "person",
+  "title": "Simhana",
+  "description": "Yadava-narayana, Paramabhattaraka, Parameshvara, Maharajadhiraja",
+  "extract": "Simhana (IAST: Siṃhaṇa, also transliterated as Singhana; r. c. 1210-1246 was the most powerful ruler of the Seuna dynasty of the Deccan region of India. He expanded his kingdom to the south at the expense of the Hoysalas, and fought the Chaulukyas and the Vaghelas for the control of the Lata region in the north. He also defeated the Paramaras of Malwa, the Shilaharas of Kolhapur and the Rattas of Belgaum. His generals subjugated several insubordinate feudatory chiefs, and the Yadava territory reached its greatest extent during his reign.",
+  "url": "https://en.wikipedia.org/wiki/Simhana",
+  "qid": "Q16977582",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/A_virgal_%28herostone%29_in_Kaitabhesvara_temple_at_Kubatur.JPG/330px-A_virgal_%28herostone%29_in_Kaitabhesvara_temple_at_Kubatur.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/A_virgal_%28herostone%29_in_Kaitabhesvara_temple_at_Kubatur.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Simhana"
+  ],
+  "labels": {
+   "hi": "सिंघण,शिंगण"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "ramachandra-devagiri": {
+  "id": "ramachandra-devagiri",
+  "type": "person",
+  "title": "Ramachandra (Ramadeva)",
+  "description": "Yadava ruler from 1271 to 1311",
+  "extract": "Ramachandra, also known as Ramadeva, was a ruler of the Seuna (Yadava) dynasty of Deccan region in India. He seized the throne from his cousin Ammana, after staging a coup in the capital Devagiri. He expanded the Yadava realm by fighting his neighbours such as the Paramaras, the Vaghelas, the Hoysalas, and the Kakatiyas.",
+  "url": "https://en.wikipedia.org/wiki/Ramachandra_of_Devagiri",
+  "qid": "Q30636513",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Seuna_%28Yadava%29._Ramachandra._1270-1311_Central_lotus_blossom%2C_two_%C5%9Bri%2C_conch%2C_and_%E2%80%9C%C5%9Bri_rama%E2%80%9D_in_Devanagari_above_standard_left%2C_each_in_incuse.jpg/330px-Seuna_%28Yadava%29._Ramachandra._1270-1311_Central_lotus_blossom%2C_two_%C5%9Bri%2C_conch%2C_and_%E2%80%9C%C5%9Bri_rama%E2%80%9D_in_Devanagari_above_standard_left%2C_each_in_incuse.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Seuna_%28Yadava%29._Ramachandra._1270-1311_Central_lotus_blossom%2C_two_%C5%9Bri%2C_conch%2C_and_%E2%80%9C%C5%9Bri_rama%E2%80%9D_in_Devanagari_above_standard_left%2C_each_in_incuse.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Ramachandra",
+   "Ramadeva"
+  ],
+  "labels": {
+   "hi": "देवगिरि का रामचन्द्र",
+   "mr": "रामचंद्र यादव"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0_%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%B5",
+  "dates": {
+   "died": {
+    "value": "1311",
+    "precision": "year"
+   }
+  }
+ },
+ "hemadpant": {
+  "id": "hemadpant",
+  "type": "person",
+  "title": "Hemadpant",
+  "description": "Prime Minister of the Seuna dynasty from 1259 to 1274",
+  "extract": "Hemādri Paṇḍita, popularly known as Hemāḍapanta, was a polymath and a prime minister from 1259 to 1274 during the reign of Mahādeva and Ramachandra of the Seuna (Yadava) dynasty, which ruled the western and southern part of India. Hemadpant is also the creator of Hemadpanti architecture.",
+  "url": "https://en.wikipedia.org/wiki/Hemadpant",
+  "qid": "Q11684693",
+  "aliases": [
+   "Hemadpant",
+   "Hemadri"
+  ],
+  "labels": {
+   "hi": "हेमाद्रिपंत",
+   "mr": "हेमाद्रि पंडित"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B9%E0%A5%87%E0%A4%AE%E0%A4%BE%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%BF_%E0%A4%AA%E0%A4%82%E0%A4%A1%E0%A4%BF%E0%A4%A4",
+  "dates": {
+   "died": {
+    "value": "1309",
+    "precision": "year"
+   }
+  }
+ },
+ "dnyaneshwar": {
+  "id": "dnyaneshwar",
+  "type": "person",
+  "title": "Dnyaneshwar",
+  "description": "13th century Marathi saint",
+  "extract": "Sant Dnyaneshwar, , also referred to as Jñāneśvara, Jñānadeva, Dnyandev or Mauli or Dnyandev Vitthal Kulkarni, was a 13th-century Indian Marathi saint, poet, philosopher and yogi of the Nath and Varkari tradition. In his short life of 21 years, he authored Dnyaneshwari and Amrutanubhav. These are the oldest surviving literary works in the Marathi language, and considered to be milestones in Marathi literature. Sant Dnyaneshwar's ideas reflect the non-dualistic Advaita Vedanta philosophy and an emphasis on Yoga and bhakti towards Vithoba, an incarnation of Vishnu. His legacy inspired saint-poets such as Eknath and Tukaram, and he is one of the founders of the Varkari (Vithoba-Krishna) Bhakti movement tradition of Hinduism in Maharashtra. Dnyaneshwar undertook samadhi at Alandi in 1296 by entombing himself in an underground chamber.",
+  "url": "https://en.wikipedia.org/wiki/Dnyaneshwar",
+  "qid": "Q1033695",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Dnyaneshwar2.jpg/330px-Dnyaneshwar2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Dnyaneshwar2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Dnyaneshwar",
+   "Sant Dnyaneshwar"
+  ],
+  "labels": {
+   "mr": "ज्ञानेश्वर",
+   "hi": "संत ज्ञानेश्वर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0",
+  "dates": {
+   "born": {
+    "value": "1275",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1296",
+    "precision": "year"
+   }
+  }
+ },
+ "dnyaneshwari": {
+  "id": "dnyaneshwari",
+  "type": "concept",
+  "title": "Dnyaneshwari",
+  "description": "Commentary on the Bhagavad Gita written by Sant Dnyaneshwar",
+  "extract": "The Dnyaneshwari, also referred to as Jnanesvari, Jnaneshwari or Bhavartha Deepika, is a commentary on the Bhagavad Gita written by the Marathi saint and poet Sant Dnyaneshwar in 1290 CE. Dnyaneshwar lived a short life of 22 years, and this commentary is notable to have been composed in his teens. The text is the oldest surviving literary work in the Marathi language, one that inspired major Bhakti movement saint-poets such as Eknath and Tukaram of the Varkari (Vithoba) tradition. The Dnyaneshwari interprets the Bhagavad Gita in the Advaita Vedanta tradition of Hinduism. The philosophical depth of the text has been praised for its aesthetic as well as scholarly value.",
+  "url": "https://en.wikipedia.org/wiki/Dnyaneshwari",
+  "qid": "Q2722359",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/1765_Saka%2C_1843_CE%2C_Jnanesvari_Jnandeva_Dnyaneshwar_manuscript_page_1_and_2%2C_Devanagari_Marathi.jpg/330px-1765_Saka%2C_1843_CE%2C_Jnanesvari_Jnandeva_Dnyaneshwar_manuscript_page_1_and_2%2C_Devanagari_Marathi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/1765_Saka%2C_1843_CE%2C_Jnanesvari_Jnandeva_Dnyaneshwar_manuscript_page_1_and_2%2C_Devanagari_Marathi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Dnyaneshwari"
+  ],
+  "labels": {
+   "hi": "ज्ञानेश्वरी",
+   "mr": "ज्ञानेश्वरी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%80",
+  "dates": {}
+ },
+ "namdev": {
+  "id": "namdev",
+  "type": "person",
+  "title": "Namdev",
+  "description": "Hindu Bhakti Saint (1270–1350)",
+  "extract": "Namdev, also transliterated as Namdeo was a Marathi Vaishnava saint from Narsi, Hingoli, Maharashtra, Medieval India within the Varkari tradition of Hinduism. He was a devotee of the deity Vithoba of Pandharpur.",
+  "url": "https://en.wikipedia.org/wiki/Namdev",
+  "qid": "Q2602417",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Oleograph_of_Namdev%2C_ca.1920.jpg/330px-Oleograph_of_Namdev%2C_ca.1920.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Oleograph_of_Namdev%2C_ca.1920.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Namdev"
+  ],
+  "labels": {
+   "mr": "नामदेव",
+   "hi": "सन्त् नाम्देव्"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%AE%E0%A4%A6%E0%A5%87%E0%A4%B5",
+  "dates": {
+   "born": {
+    "value": "1270",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1350",
+    "precision": "year"
+   }
+  }
+ },
+ "chakradhar": {
+  "id": "chakradhar",
+  "type": "person",
+  "title": "Chakradhar Swami",
+  "description": "Indian philosopher, Founder of Mahanubhava Sector in Hindu",
+  "extract": "Chakradhara was an Indian Hindu saint and philosopher, who was the founder of Mahanubhava sect of Krishnaism. Chakradhara advocated worship of the god Krishna and preached a distinct philosophy based on Bhakti. He was an exponent of the Dvaita philosophy within Hinduism.",
+  "url": "https://en.wikipedia.org/wiki/Chakradhar_Swami",
+  "qid": "Q5068400",
+  "aliases": [
+   "Chakradhar Swami",
+   "Chakradhar"
+  ],
+  "labels": {
+   "mr": "चक्रधरस्वामी",
+   "hi": "Chakradhar Swami"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%9A%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%A7%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%AE%E0%A5%80",
+  "dates": {}
+ },
+ "mahanubhava": {
+  "id": "mahanubhava",
+  "type": "concept",
+  "title": "Mahanubhava",
+  "description": "Krishnaite Vaishnava denomination",
+  "extract": "Mahanubhava is a Krishnaite Hindu denomination in India that is generally described to be founded by Chakradhara Swami. Some sources list the founders as Chakrapani and Govinda Prabhu with Chakradhara Swami as the first \"apostle\" and propagator of Mahanubhava Pantha. Mahanubhava Sampradaya was formally formed in the modern-day Varhad region of Maharashtra in 1267 CE. It has different names such as Jai Krishni Pantha in Punjab and Achyuta Pantha in Gujarat. Mahanubhava Pantha was also known as Paramarga by its followers in the 13th century. Nagadevacharya, also known as Bhatobas, became the head of Sampradaya after Chakradhara.",
+  "url": "https://en.wikipedia.org/wiki/Mahanubhava",
+  "qid": "Q6733166",
+  "aliases": [
+   "Mahanubhava"
+  ],
+  "labels": {
+   "mr": "महानुभाव पंथ",
+   "hi": "महानुभाव_पन्थ"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A5%81%E0%A4%AD%E0%A4%BE%E0%A4%B5_%E0%A4%AA%E0%A4%82%E0%A4%A5",
+  "dates": {}
+ },
+ "mhaimbhat": {
+  "id": "mhaimbhat",
+  "type": "person",
+  "title": "Mhaimbhat",
+  "description": "Writer of the first biography in Marathi Language",
+  "extract": "Mhaimbhat was one of the earliest followers of Chakradhar Swami and the Mahanubhava sect, and author of Leela Charitra, the first biography written in the Marathi language.",
+  "url": "https://en.wikipedia.org/wiki/Mhaimbhat",
+  "qid": "Q46617585",
+  "aliases": [
+   "Mhaimbhat"
+  ],
+  "labels": {
+   "mr": "म्हाइंभट"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%87%E0%A4%82%E0%A4%AD%E0%A4%9F_%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B3%E0%A5%87%E0%A4%95%E0%A4%B0",
+  "dates": {
+   "died": {
+    "value": "1300",
+    "precision": "year"
+   }
+  }
+ },
+ "sharngadeva": {
+  "id": "sharngadeva",
+  "type": "person",
+  "title": "Sharngadeva",
+  "description": "Indian musicologist (1175–1247)",
+  "extract": "Śārṅgadeva (1175–1247), also spelled Sharngadeva or Sarnga Deva, was a 13th-century Indian musicologist who authored Sangita Ratnakara – a Sanskrit text on music and drama. It is considered to be the authoritative treatise on Indian classical music by both the Hindustani and Carnatic music traditions.",
+  "url": "https://en.wikipedia.org/wiki/%C5%9A%C4%81r%E1%B9%85gadeva",
+  "qid": "Q3632913",
+  "aliases": [
+   "Sharngadeva"
+  ],
+  "labels": {
+   "hi": "शार्ङ्गदेव",
+   "mr": "शारंगदेव"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BE%E0%A4%B0%E0%A4%82%E0%A4%97%E0%A4%A6%E0%A5%87%E0%A4%B5",
+  "dates": {
+   "born": {
+    "value": "1210",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1247",
+    "precision": "year"
+   }
+  }
+ },
+ "sangita-ratnakara": {
+  "id": "sangita-ratnakara",
+  "type": "concept",
+  "title": "Sangita Ratnakara",
+  "description": "Sanskrit musicological text",
+  "extract": "The Sangita-Ratnakara, संगीतरत्नाकर,, literally \"Ocean of Music \n\", is one of the most important musicological texts from India. Composed by Śārṅgadeva (शार्ङ्गदेव) in Sanskrit during the 13th century, both Carnatic music and Hindustani music traditions of Indian classical music regard it as a definitive text. The author was a part of the court of King Simhana of the Yādava dynasty whose capital was Devagiri, Maharashtra.",
+  "url": "https://en.wikipedia.org/wiki/Sangita_Ratnakara",
+  "qid": "Q7418021",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/13th_century_Sangita_Ratnakara_Hindu_text_on_music_in_Sanskrit.jpg/330px-13th_century_Sangita_Ratnakara_Hindu_text_on_music_in_Sanskrit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/13th_century_Sangita_Ratnakara_Hindu_text_on_music_in_Sanskrit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Sangita Ratnakara"
+  ],
+  "labels": {
+   "hi": "संगीतरत्नाकर",
+   "mr": "संगीत रत्‍नाकर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%97%E0%A5%80%E0%A4%A4_%E0%A4%B0%E0%A4%A4%E0%A5%8D%E2%80%8D%E0%A4%A8%E0%A4%BE%E0%A4%95%E0%A4%B0",
+  "dates": {}
+ },
+ "bhaskara-ii": {
+  "id": "bhaskara-ii",
+  "type": "person",
+  "title": "Bhaskaracharya (Bhaskara II)",
+  "description": "Indian mathematician and astronomer (1114–1185)",
+  "extract": "Bhāskara II, commonly known as Bhāskarāchārya, was an Indian polymath, mathematician, and astronomer whose works represent the zenith of the classical Siddhānta school of Jyotiṣa. From verses in his main work, Siddhānta Śiromaṇi, it can be inferred that he was born in 1114 in Vijjadavida (Vijjalavida) and living in the Satamala mountain ranges of Western Ghats, believed to be the town of Patana in Chalisgaon, located in present-day Khandesh region of Maharashtra by scholars. In a temple in Maharashtra, an inscription, supposedly created by his grandson Changadeva, lists Bhaskaracharya's ancestral lineage for several generations before him as well as two generations after him.Henry Colebrooke who was the first European to translate (1817) Bhaskaracharya's mathematical classics refers to the family as Maharashtrian Brahmins residing on the banks of the Godavari.",
+  "url": "https://en.wikipedia.org/wiki/Bh%C4%81skara_II",
+  "qid": "Q213385",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7b/%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A4%BE%E0%A4%9A%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A4%BE%E0%A4%9A%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Bhaskaracharya",
+   "Bhaskara II"
+  ],
+  "labels": {
+   "hi": "श्री भास्कर द्वितीय (भास्कराचार्य)",
+   "mr": "भास्कराचार्य द्वितीय"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A4%BE%E0%A4%9A%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF_%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%80%E0%A4%AF",
+  "dates": {
+   "born": {
+    "value": "1114",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1185",
+    "precision": "year"
+   }
+  }
+ },
+ "alauddin": {
+  "id": "alauddin",
+  "type": "person",
+  "title": "Alauddin Khalji",
+  "description": "Sultan of Delhi from 1296 to 1316",
+  "extract": "Ala al-Din Muhammad Shah better known as Alauddin Khalji was the Khalji dynasty Sultan of Delhi from 1296 until his death in 1316. Alauddin instituted a number of significant administrative changes in the Delhi Sultanate, related to revenues, price controls, and society. He also successfully fended off several Mongol invasions of India.",
+  "url": "https://en.wikipedia.org/wiki/Alauddin_Khalji",
+  "qid": "Q335362",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/The_Execution_of_Jalal-al-Din_Firuzshah_II_%28r1290-96%29%2C_Jami_al-Tawarikh_%28Alauddin_Khalji_detail%29.jpg/330px-The_Execution_of_Jalal-al-Din_Firuzshah_II_%28r1290-96%29%2C_Jami_al-Tawarikh_%28Alauddin_Khalji_detail%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/The_Execution_of_Jalal-al-Din_Firuzshah_II_%28r1290-96%29%2C_Jami_al-Tawarikh_%28Alauddin_Khalji_detail%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Alauddin Khalji",
+   "Alauddin"
+  ],
+  "labels": {
+   "hi": "अलाउद्दीन खिलजी",
+   "mr": "अल्लाउद्दीन खिलजी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%89%E0%A4%A6%E0%A5%8D%E0%A4%A6%E0%A5%80%E0%A4%A8_%E0%A4%96%E0%A4%BF%E0%A4%B2%E0%A4%9C%E0%A5%80",
+  "dates": {
+   "born": {
+    "value": "1266",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1316-01-04",
+    "precision": "day"
+   }
+  }
+ },
+ "malik-kafur": {
+  "id": "malik-kafur",
+  "type": "person",
+  "title": "Malik Kafur",
+  "description": "General of Delhi Sultanate",
+  "extract": "Malik Kafur, also known as Taj al-Din Izz al-Dawla, was a prominent general of the Delhi Sultanate ruler Alauddin Khalji. He was captured by Alauddin's general Nusrat Khan during the 1299 invasion of Gujarat, and rose to prominence around 1305.",
+  "url": "https://en.wikipedia.org/wiki/Malik_Kafur",
+  "qid": "Q3181417",
+  "aliases": [
+   "Malik Kafur",
+   "Kafur"
+  ],
+  "labels": {
+   "hi": "मलिक काफूर"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1250",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1316",
+    "precision": "year"
+   }
+  }
+ },
+ "mubarak-shah": {
+  "id": "mubarak-shah",
+  "type": "person",
+  "title": "Qutbuddin Mubarak Shah",
+  "description": "Sultan of Delhi from 1316 to 1320",
+  "extract": "Qutb-ud-din Mubarak Shah I was a ruler of the Delhi Sultanate of present-day India. A member of the Khalji dynasty, he was a son of Alauddin Khalji.",
+  "url": "https://en.wikipedia.org/wiki/Qutbuddin_Mubarak_Shah",
+  "qid": "Q3179907",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Islamic_Sultanates._Delhi._Qutb_al-Din_Mubarark._AH_716-720_AD_1316-1320.jpg/330px-Islamic_Sultanates._Delhi._Qutb_al-Din_Mubarark._AH_716-720_AD_1316-1320.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Islamic_Sultanates._Delhi._Qutb_al-Din_Mubarark._AH_716-720_AD_1316-1320.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Mubarak Shah",
+   "Qutbuddin Mubarak Shah"
+  ],
+  "labels": {
+   "hi": "मुबारक खिलजी"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1299",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1320-06",
+    "precision": "month"
+   }
+  }
+ },
+ "muhammad-tughlaq": {
+  "id": "muhammad-tughlaq",
+  "type": "person",
+  "title": "Muhammad bin Tughlaq",
+  "description": "Sultan of Delhi from 1325 to 1351",
+  "extract": "Fakhr-ud-Din Muhammad Shah, better known as Muhammad bin Tughluq, or Muhammad III, also known by his epithets, The Eccentric Prince, and The Mad Sultan, was the eighteenth Sultan of Delhi. He reigned from February 1325 until his death in March 1351. Muhammad was the eldest son of Ghiyath al-Din Tughluq, founder of the Tughlaq dynasty. In 1321, the young Muhammad was sent by his father to the Deccan Plateau to fight a military campaign against the Kakatiya dynasty. In 1323, the future sultan successfully laid siege upon the Kakatiya capital in Warangal. This victory over King Prataparudra ended the Kakatiya dynasty.",
+  "url": "https://en.wikipedia.org/wiki/Muhammad_bin_Tughluq",
+  "qid": "Q381830",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Muhammad_bin_Tughlaq_crop.jpg/330px-Muhammad_bin_Tughlaq_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Muhammad_bin_Tughlaq_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Muhammad bin Tughlaq"
+  ],
+  "labels": {
+   "hi": "मुहम्मद बिन तुग़लक़",
+   "mr": "मुहम्मद बिन तुघलक"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%B9%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%A6_%E0%A4%AC%E0%A4%BF%E0%A4%A8_%E0%A4%A4%E0%A5%81%E0%A4%98%E0%A4%B2%E0%A4%95",
+  "dates": {
+   "born": {
+    "value": "1290",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1351-03-20",
+    "precision": "day"
+   }
+  }
+ },
+ "khalji": {
+  "id": "khalji",
+  "type": "polity",
+  "title": "Khalji dynasty",
+  "description": "1290–1320 Turco-Afghan dynasty of the Delhi Sultanate",
+  "extract": "The Khalji or Khilji dynasty was the second ruling house of the Delhi Sultanate, covering large parts of the Indian subcontinent for nearly three decades between 1290 and 1320. Founded by Jalal-ud-Din Khalji, it is best known for the reign of Alauddin Khalji, under whom the Sultanate reached its greatest territorial extent and underwent significant military, administrative, and economic reforms.",
+  "url": "https://en.wikipedia.org/wiki/Khalji_dynasty",
+  "qid": "Q919071",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Map_of_the_Khalji_Sultanate.png/330px-Map_of_the_Khalji_Sultanate.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Map_of_the_Khalji_Sultanate.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Khalji dynasty",
+   "Khaljis"
+  ],
+  "labels": {
+   "hi": "ख़िलजी वंश",
+   "mr": "खिलजी घराणे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%96%E0%A4%BF%E0%A4%B2%E0%A4%9C%E0%A5%80_%E0%A4%98%E0%A4%B0%E0%A4%BE%E0%A4%A3%E0%A5%87",
+  "dates": {
+   "founded": {
+    "value": "1290",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1320",
+    "precision": "year"
+   }
+  }
+ },
+ "tughlaq": {
+  "id": "tughlaq",
+  "type": "polity",
+  "title": "Tughlaq dynasty",
+  "description": "Dynasty in South Asia from 1320 to 1413",
+  "extract": "The Tughlaq dynasty was the third dynasty to rule over the Delhi Sultanate in the medieval Indian subcontinent. The dynasty came to power in 1320 when Ghazi Malik assumed the throne in Delhi under the title of Ghiyath al-Din Tughluq, and ended in 1413.",
+  "url": "https://en.wikipedia.org/wiki/Tughlaq_dynasty",
+  "qid": "Q1124402",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Map_of_the_Tughlaqs.png/330px-Map_of_the_Tughlaqs.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Map_of_the_Tughlaqs.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Tughlaq dynasty",
+   "Tughlaqs"
+  ],
+  "labels": {
+   "hi": "तुग़लक़ वंश",
+   "mr": "तुघलक घराणे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A4%E0%A5%81%E0%A4%98%E0%A4%B2%E0%A4%95_%E0%A4%98%E0%A4%B0%E0%A4%BE%E0%A4%A3%E0%A5%87",
+  "dates": {
+   "founded": {
+    "value": "1320",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1413",
+    "precision": "year"
+   }
+  }
+ },
+ "western-chalukya": {
+  "id": "western-chalukya",
+  "type": "polity",
+  "title": "Western Chalukyas",
+  "description": "Empire in western Deccan, South India (957–1184)",
+  "extract": "The Western Chalukya Empire ruled most of the western Deccan, South India, between the 10th and 12th centuries. This Kannada dynasty is sometimes called the Kalyani Chalukya after its regal capital at Kalyani, today's Basavakalyan in the modern Bidar district of Karnataka state, and alternatively the Later Chalukya from its theoretical relationship to the 6th-century Chalukya dynasty of Badami. The dynasty is called Western Chalukyas to differentiate from the contemporaneous Eastern Chalukyas of Vengi, a separate dynasty. Before the rise of these Chalukyas, the Rashtrakuta Empire of Manyakheta controlled most of the Deccan Plateau and Central India for over two centuries. In 973, seeing confusion in the Rashtrakuta empire after a successful invasion of their capital by the ruler of the Paramara dynasty of Malwa, Tailapa II, a feudatory of the Rashtrakuta dynasty ruling from Bijapur region defeated his overlords and made Manyakheta his capital. The dynasty quickly rose to power and grew into an empire under Someshvara I who moved the capital to Kalyani.",
+  "url": "https://en.wikipedia.org/wiki/Western_Chalukya_Empire",
+  "qid": "Q14624218",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Indian_Western_Chalukya_Empire_map.svg/330px-Indian_Western_Chalukya_Empire_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Indian_Western_Chalukya_Empire_map.svg/1920px-Indian_Western_Chalukya_Empire_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Western Chalukyas",
+   "Western Chalukya"
+  ],
+  "labels": {
+   "hi": "प्रतीच्य चालुक्य",
+   "mr": "पश्चिम चालुक्य राजघराणे"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AA%E0%A4%B6%E0%A5%8D%E0%A4%9A%E0%A4%BF%E0%A4%AE_%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%AF_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%98%E0%A4%B0%E0%A4%BE%E0%A4%A3%E0%A5%87",
+  "dates": {
+   "founded": {
+    "value": "973",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1189",
+    "precision": "year"
+   }
+  }
+ },
+ "rashtrakuta": {
+  "id": "rashtrakuta",
+  "type": "polity",
+  "title": "Rashtrakutas",
+  "description": "Early medieval Indian dynasty (753–982)",
+  "extract": "The Rashtrakuta Empire was an early medieval Indian empire ruling large parts of the Indian subcontinent between the 6th and 10th centuries. At their peak the Rashtrakutas of Manyakheta ruled a vast empire stretching from the Ganges River and Yamuna River doab in the north to Kanyakumari in the south, a fruitful time of political expansion, architectural achievements and famous literary contributions.",
+  "url": "https://en.wikipedia.org/wiki/Rashtrakuta_Empire",
+  "qid": "Q856691",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Map_of_Rashtrakuta_Empire_around_790_A.D.png/330px-Map_of_Rashtrakuta_Empire_around_790_A.D.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Map_of_Rashtrakuta_Empire_around_790_A.D.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Rashtrakutas",
+   "Rashtrakuta"
+  ],
+  "labels": {
+   "hi": "राष्ट्रकूट राजवंश",
+   "mr": "राष्ट्रकूट"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%82%E0%A4%9F_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%98%E0%A4%B0%E0%A4%BE%E0%A4%A3%E0%A5%87",
+  "dates": {
+   "founded": {
+    "value": "753",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "982",
+    "precision": "year"
+   }
+  }
+ },
+ "kakatiya": {
+  "id": "kakatiya",
+  "type": "polity",
+  "title": "Kakatiyas",
+  "description": "South Indian dynasty (1163–1323)",
+  "extract": "The Kakatiya dynasty was a Telugu dynasty that ruled most of eastern Deccan region in present-day India between 12th and 14th centuries. Their territory comprised much of the present day Telangana and Andhra Pradesh, parts of eastern Karnataka, northern Tamil Nadu, and southern Odisha. Their capital was Orugallu, now known as Warangal.",
+  "url": "https://en.wikipedia.org/wiki/Kakatiya_dynasty",
+  "qid": "Q2086556",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Map_of_the_Kakatiyas.png/330px-Map_of_the_Kakatiyas.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Map_of_the_Kakatiyas.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Kakatiyas",
+   "Kakatiya"
+  ],
+  "labels": {
+   "hi": "काकतीय वंश",
+   "mr": "काकतीय"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%95%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B5%E0%A4%82%E0%A4%B6",
+  "dates": {
+   "founded": {
+    "value": "1163",
+    "precision": "year"
+   },
+   "dissolved": {
+    "value": "1323",
+    "precision": "year"
+   }
+  }
+ },
+ "paramara": {
+  "id": "paramara",
+  "type": "polity",
+  "title": "Paramaras of Malwa",
+  "description": "Indian dynasty (948–1305)",
+  "extract": "The Paramara dynasty was an Indian dynasty that ruled Malwa and surrounding areas in west-central India between 948 and 1305. They belonged to the Paramara clan of the Rajputs.",
+  "url": "https://en.wikipedia.org/wiki/Paramara_dynasty",
+  "qid": "Q7135130",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Map_of_the_Paramaras.png/330px-Map_of_the_Paramaras.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Map_of_the_Paramaras.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Paramaras",
+   "Paramara"
+  ],
+  "labels": {
+   "hi": "परमार वंश"
+  },
+  "mrUrl": null,
+  "dates": {
+   "dissolved": {
+    "value": "1305",
+    "precision": "year"
+   }
+  }
+ },
+ "vaghela": {
+  "id": "vaghela",
+  "type": "polity",
+  "title": "Vaghelas of Gujarat",
+  "description": "Dynasty of medieval India (1244–1304)",
+  "extract": "The Vaghela dynasty ruled the Kingdom of Gujarat in India in the 13th century CE, with their capital at Dholka. They were the last dynasty to rule Gujarat before the Muslim conquest of the region.",
+  "url": "https://en.wikipedia.org/wiki/Vaghela_dynasty",
+  "qid": "Q7908475",
+  "aliases": [
+   "Vaghelas"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {}
+ },
+ "shilahara": {
+  "id": "shilahara",
+  "type": "polity",
+  "title": "Shilaharas",
+  "description": "8th-13th century Indian dynasty",
+  "extract": "Shilahara dynasty was a royal house that ruled parts of western India between the 8th and 13th centuries CE. Originally vassals of the powerful Rashtrakuta Empire, the Shilaharas rose to prominence and established three semi-independent branches that governed over North Konkan, South Konkan, and the Kolhapur region of present-day Maharashtra. Their rule was marked by regional consolidation, temple patronage, and the promotion of religious pluralism—especially Jainism.",
+  "url": "https://en.wikipedia.org/wiki/Shilahara_dynasty",
+  "qid": "Q1748614",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Shilaharas_Coins_25-07-20_15-25-17-821.png/330px-Shilaharas_Coins_25-07-20_15-25-17-821.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Shilaharas_Coins_25-07-20_15-25-17-821.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Shilaharas",
+   "Shilahara"
+  ],
+  "labels": {
+   "hi": "सिल्हारा राजवंश",
+   "mr": "शिलाहार वंश"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%BE%E0%A4%B0_%E0%A4%B5%E0%A4%82%E0%A4%B6",
+  "dates": {}
+ },
+ "veera-ballala-ii": {
+  "id": "veera-ballala-ii",
+  "type": "person",
+  "title": "Veera Ballala II",
+  "description": "Hoysala King from 1173 to 1220",
+  "extract": "Veera Ballāla II was the most notable king of the Hoysala Kingdom. His successes against the Yadavas of Devagiri, the Southern Kalachuris, the Pandyas of Madurai and the waning Western Chalukya Empire, and his domination over the diminishing Cholas of Tanjore took the Hoysalas to the peak of their power. The historian Chaurasia claims that by the end of the 12th century, Ballala II's conquests had made the Hoysalas the most powerful dynasty of Deccan. According to historian Derrett, Ballala II was \"the most outstanding among Hoysala kings\", and historian William Coelho in comparing Ballala II to King Vishnuvardhana writes, \"he vied in glory with his grandfather\".",
+  "url": "https://en.wikipedia.org/wiki/Veera_Ballala_II",
+  "qid": "Q2318607",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Profile_of_Amrutesvara_temple_at_Amruthapura_in_Chikkamagaluru_district.JPG/330px-Profile_of_Amrutesvara_temple_at_Amruthapura_in_Chikkamagaluru_district.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Profile_of_Amrutesvara_temple_at_Amruthapura_in_Chikkamagaluru_district.JPG/3840px-Profile_of_Amrutesvara_temple_at_Amruthapura_in_Chikkamagaluru_district.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "aliases": [
+   "Veera Ballala II"
+  ],
+  "labels": {
+   "hi": "वीर बल्लाल २"
+  },
+  "mrUrl": null,
+  "dates": {}
+ },
+ "ganapati-kakatiya": {
+  "id": "ganapati-kakatiya",
+  "type": "person",
+  "title": "Ganapati Kakatiya",
+  "description": "Kakatiya emperor from 1199 to 1262",
+  "extract": "Ganapati-deva was the longest reigning monarch of the Kakatiya dynasty of southern India. He brought most of the Telugu-speaking region in present-day Andhra Pradesh and Telangana under the Kakatiya influence by war or diplomacy.",
+  "url": "https://en.wikipedia.org/wiki/Ganapati_(Kakatiya_dynasty)",
+  "qid": "Q15697615",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Warangal_fort.jpg/330px-Warangal_fort.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Warangal_fort.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Ganapati Kakatiya"
+  ],
+  "labels": {},
+  "mrUrl": null,
+  "dates": {}
+ },
+ "veera-ballala-iii": {
+  "id": "veera-ballala-iii",
+  "type": "person",
+  "title": "Veera Ballala III",
+  "description": "Hoysala King from 1292 to 1342",
+  "extract": "Veera Ballala III was the last great king of the Hoysala Empire. During his rule, the northern and southern branches of the Hoysala empire were consolidated and administered from Halebidu. During his rule, he fought numerous wars with the Yadavas of Devagiri, the Pandyan Dynasty of Madurai and other minor dynasties of South India. But it was his conflict with the invading forces of Alauddin Khalji, and later those of Muhammad bin Tughluq, the Sultan of Delhi, that would alter the course of history of South India. For his courage and fortitude, the historians Suryanath Kamath, Chopra, Ravindran and Subrahmanian have called him a \"great ruler\". With his death in c. 1343, South India saw the rise of a new Hindu empire, the Vijayanagara Empire. In the words of the historian Sen \"the Hoysalas were the greatest among those who claim to be the makers of modern Mysore\". Harihara I and Bukka Raya I, the brothers who founded the Vijayanagara Empire had served the king in a military capacity.",
+  "url": "https://en.wikipedia.org/wiki/Veera_Ballala_III",
+  "qid": "Q3632884",
+  "aliases": [
+   "Veera Ballala III"
+  ],
+  "labels": {
+   "hi": "वीर बल्लाला तृतीय"
+  },
+  "mrUrl": null,
+  "dates": {
+   "born": {
+    "value": "1291",
+    "precision": "year"
+   },
+   "died": {
+    "value": "1343",
+    "precision": "year"
+   }
+  }
+ },
+ "nevasa": {
+  "id": "nevasa",
+  "type": "place",
+  "title": "Nevasa",
+  "description": "Town in Maharashtra, India",
+  "extract": "Nevasa is a city in Nevasa tehsil of Ahmednagar district in the Indian state of Maharashtra.",
+  "url": "https://en.wikipedia.org/wiki/Nevasa",
+  "qid": "Q7003750",
+  "coords": {
+   "lat": 19.55138889,
+   "lon": 74.92777778
+  },
+  "aliases": [
+   "Nevasa"
+  ],
+  "labels": {
+   "mr": "नेवासा",
+   "hi": "नेवासा"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%A8%E0%A5%87%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A4%BE",
+  "dates": {}
+ },
+ "gondeshwar": {
+  "id": "gondeshwar",
+  "type": "place",
+  "title": "Gondeshwar Temple",
+  "description": "11th-12th century Shiva temple",
+  "extract": "The Gondeshwar Temple is an 11th-12th century Hindu temple located in Sinnar, a town in the Nashik district of Maharashtra, India. It features a panchayatana plan; with a main shrine dedicated to Shiva; and four subsidiary shrines dedicated to Surya, Vishnu, Parvati, and Ganesha.",
+  "url": "https://en.wikipedia.org/wiki/Gondeshwar_Temple%2C_Sinnar",
+  "qid": "Q19806529",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Gondeshwar_temple.jpg/330px-Gondeshwar_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Gondeshwar_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "coords": {
+   "lat": 19.8514,
+   "lon": 74.0019
+  },
+  "aliases": [
+   "Gondeshwar"
+  ],
+  "labels": {
+   "mr": "गोंदेश्वर मंदिर, सिन्नर"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%82%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0_%28%E0%A4%B8%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%B0%29",
+  "dates": {}
+ },
+ "hemadpanti": {
+  "id": "hemadpanti",
+  "type": "concept",
+  "title": "Hemadpanti architecture",
+  "description": "Historic site",
+  "extract": "Hemadpanti architecture is an architectural style that originated in the 13th century in the Deccan region of India, under the patronage of the Seuna (Yadava) dynasty. Named after Hemadri Pandit, who was the prime minister of the Mahādeva and Ramachandra of the Seuna (Yadava) dynasty, which ruled the western and southern part of India. The style is characterized by its use of dry masonry construction, relying on locally sourced black basalt and lime, rather than mortar. This construction technique, involving the precise interlocking of stones through tenon and mortise joints, provided both durability and seismic resistance.",
+  "url": "https://en.wikipedia.org/wiki/Hemadpanti_architecture",
+  "qid": "Q5710911",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ratangad_temple.jpg/330px-Ratangad_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ratangad_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Hemadpanti"
+  ],
+  "labels": {
+   "mr": "Hemadpanti architecture",
+   "hi": "हेमाडपंथी वास्तुकला"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%B9%E0%A5%87%E0%A4%AE%E0%A4%BE%E0%A4%A1%E0%A4%AA%E0%A4%82%E0%A4%A4%E0%A5%80_%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%95%E0%A4%B2%E0%A4%BE",
+  "dates": {}
+ },
+ "modi-script": {
+  "id": "modi-script",
+  "type": "concept",
+  "title": "Modi script",
+  "description": "Historical script used in the Maratha Empire",
+  "extract": "Mōḍī is an old handwritten cursive abugida script used to write the Marathi language, which is the primary language spoken in the state of Maharashtra, India. The Mōḍī script was used alongside the Devanāgarī script to write Marathi, particularly during the reign of the Maratha Empire, until the 20th century when the Balbodh style of the Devanāgarī script was promoted as the standard writing system for Marathi. Numerous archival records, official documents and correspondences written in this script exist, and there have been attempts to revive the usage of Mōḍī in Maharashtra.",
+  "url": "https://en.wikipedia.org/wiki/Modi_script",
+  "qid": "Q1703713",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Modi_Varnamala.png/330px-Modi_Varnamala.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Modi_Varnamala.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "aliases": [
+   "Modi script"
+  ],
+  "labels": {
+   "hi": "मोडी",
+   "mr": "मोडी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A5%8B%E0%A4%A1%E0%A5%80_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A5%80",
+  "dates": {
+   "founded": {
+    "value": "1200",
+    "precision": "year"
+   }
+  }
+ },
+ "alandi": {
+  "id": "alandi",
+  "type": "place",
+  "title": "Alandi",
+  "description": "Town in Maharashtra, India",
+  "extract": "Alandi is a town and a municipal council in the Pune district in the state of Maharashtra, India. The town is popular as a place of pilgrimage and for being the resting place of the 13th century Marathi saint Sant Dnyaneshwar.",
+  "url": "https://en.wikipedia.org/wiki/Alandi",
+  "qid": "Q589653",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Aalandi_sidew_view_from_insie.JPG/330px-Aalandi_sidew_view_from_insie.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Aalandi_sidew_view_from_insie.JPG/3840px-Aalandi_sidew_view_from_insie.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "coords": {
+   "lat": 18.677,
+   "lon": 73.897
+  },
+  "aliases": [
+   "Alandi"
+  ],
+  "labels": {
+   "mr": "आळंदी (देवाची)",
+   "hi": "आलन्दी"
+  },
+  "mrUrl": "https://mr.wikipedia.org/wiki/%E0%A4%86%E0%A4%B3%E0%A4%82%E0%A4%A6%E0%A5%80",
+  "dates": {}
  }
 }

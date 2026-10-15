@@ -1,0 +1,586 @@
+{
+ "id": "yadavas-devagiri",
+ "kind": "empire",
+ "title": "The Yadavas of Devagiri",
+ "subtitle": "The Seuna dynasty of the northern Deccan · c. 860 – 1317",
+ "subject": "seuna",
+ "range": [
+  840,
+  1345
+ ],
+ "focus": [
+  1187,
+  1317
+ ],
+ "intro": "The Yadavas, also called the Seunas, began as feudatories of the Rashtrakutas and then the Western Chalukyas in the Nashik–Khandesh region. Around 1187 Bhillama V made them independent, with a new capital at the hill fortress of Devagiri. For over a century they ruled the northern Deccan, and their reign saw the first great flowering of Marathi literature — Dnyaneshwar, Namdev and the Mahanubhavas. Alauddin Khalji's raid on Devagiri in 1296 began the Delhi Sultanate's conquest of the Deccan, completed in 1317.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Battles & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Territory & building"
+  },
+  {
+   "id": "political",
+   "label": "Literature, religion & science"
+  },
+  {
+   "id": "world",
+   "label": "Wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Rulers",
+   "members": [
+    {
+     "entity": "dridhaprahara",
+     "from": 860,
+     "to": 880,
+     "group": "Feudatory period",
+     "note": "Dates approximate; founds Chandradityapura (Chandor) near Nashik"
+    },
+    {
+     "entity": null,
+     "from": 880,
+     "to": 900,
+     "group": "Feudatory period",
+     "name": "Seunachandra I",
+     "note": "The region is named Seunadesha after him; dates approximate"
+    },
+    {
+     "entity": null,
+     "from": 900,
+     "to": 1173,
+     "group": "Feudatory period",
+     "name": "Later feudatory rulers",
+     "note": "About fifteen rulers, first under the Rashtrakutas and from 973 under the Western Chalukyas — among them Bhillama II"
+    },
+    {
+     "entity": "bhillama-v",
+     "from": 1173,
+     "to": 1192,
+     "group": "Kingdom of Devagiri",
+     "note": "Declares independence c. 1187 and founds Devagiri"
+    },
+    {
+     "entity": "jaitugi",
+     "from": 1192,
+     "to": 1210,
+     "group": "Kingdom of Devagiri"
+    },
+    {
+     "entity": "simhana",
+     "from": 1210,
+     "to": 1246,
+     "group": "Kingdom of Devagiri",
+     "note": "The dynasty at its height"
+    },
+    {
+     "entity": null,
+     "from": 1246,
+     "to": 1261,
+     "group": "Kingdom of Devagiri",
+     "name": "Krishna (Kannara)"
+    },
+    {
+     "entity": null,
+     "from": 1261,
+     "to": 1270,
+     "group": "Kingdom of Devagiri",
+     "name": "Mahadeva"
+    },
+    {
+     "entity": null,
+     "from": 1270,
+     "to": 1271,
+     "group": "Kingdom of Devagiri",
+     "name": "Ammana",
+     "note": "Deposed by his cousin Ramachandra"
+    },
+    {
+     "entity": "ramachandra-devagiri",
+     "from": 1271,
+     "to": 1311,
+     "group": "Kingdom of Devagiri",
+     "note": "Tributary of the Delhi Sultanate from 1296"
+    },
+    {
+     "entity": null,
+     "from": 1311,
+     "to": 1313,
+     "group": "Kingdom of Devagiri",
+     "name": "Shankaradeva (Simhana III)",
+     "note": "Stops tribute; killed by Malik Kafur"
+    },
+    {
+     "entity": null,
+     "from": 1313,
+     "to": 1317.5,
+     "group": "Kingdom of Devagiri",
+     "name": "Harapaladeva",
+     "note": "Leads a last revolt; captured and executed"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "rashtrakuta",
+   "label": "Rashtrakutas",
+   "from": 840,
+   "to": 982
+  },
+  {
+   "entity": "western-chalukya",
+   "label": "Western Chalukyas",
+   "from": 973,
+   "to": 1189
+  },
+  {
+   "entity": "paramara",
+   "label": "Paramaras of Malwa",
+   "from": 840,
+   "to": 1305
+  },
+  {
+   "entity": "hoysala",
+   "label": "Hoysalas",
+   "from": 1000,
+   "to": 1343
+  },
+  {
+   "entity": "kakatiya",
+   "label": "Kakatiyas",
+   "from": 1163,
+   "to": 1323
+  },
+  {
+   "entity": "delhi-sultanate",
+   "label": "Delhi Sultanate",
+   "from": 1206,
+   "to": 1345
+  },
+  {
+   "entity": "khalji",
+   "label": "Khalji sultans",
+   "from": 1290,
+   "to": 1320
+  },
+  {
+   "entity": "tughlaq",
+   "label": "Tughlaq sultans",
+   "from": 1320,
+   "to": 1345
+  }
+ ],
+ "events": [
+  {
+   "id": "chandor",
+   "date": "860",
+   "lane": "forts",
+   "title": "Dridhaprahara founds Chandradityapura",
+   "summary": "The first known ruler of the family, Dridhaprahara, a feudatory of the Rashtrakutas, builds his seat at Chandradityapura — today's Chandor near Nashik.",
+   "people": [
+    "dridhaprahara"
+   ],
+   "polities": [
+    "seuna",
+    "rashtrakuta"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "seunadesha",
+   "date": "880",
+   "lane": "life",
+   "title": "Seunadesha",
+   "summary": "Under his son Seunachandra the family's territory, roughly Nashik and Khandesh, becomes known as Seunadesha — the source of the name Seuna.",
+   "polities": [
+    "seuna"
+   ],
+   "approx": true
+  },
+  {
+   "id": "chalukyas",
+   "date": "973",
+   "lane": "world",
+   "title": "Rashtrakutas fall; Chalukyas rise",
+   "summary": "Tailapa II overthrows the Rashtrakutas and founds the Western Chalukya empire. The Yadavas transfer their allegiance to the new overlords.",
+   "polities": [
+    "rashtrakuta",
+    "western-chalukya",
+    "seuna"
+   ],
+   "major": true
+  },
+  {
+   "id": "munja",
+   "date": "995",
+   "lane": "military",
+   "title": "Bhillama II against the Paramaras",
+   "summary": "Bhillama II fights for Tailapa II against the Paramara king Munja of Malwa, who is captured and killed.",
+   "people": [
+    "bhillama-ii"
+   ],
+   "polities": [
+    "paramara",
+    "western-chalukya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "bhaskara",
+   "date": "1150",
+   "lane": "political",
+   "title": "Bhaskaracharya",
+   "summary": "The mathematician-astronomer Bhaskara II completes the Siddhanta Shiromani, including the Lilavati. A century later his grandson serves as court astrologer to Simhana and founds a school to teach his works.",
+   "people": [
+    "bhaskara-ii",
+    "simhana"
+   ],
+   "approx": true
+  },
+  {
+   "id": "independence",
+   "date": "1187",
+   "lane": "life",
+   "title": "Bhillama V declares independence",
+   "summary": "As Western Chalukya power collapses, Bhillama V proclaims himself king and builds a new capital at Devagiri, a fortress on a sheer-sided hill.",
+   "people": [
+    "bhillama-v"
+   ],
+   "places": [
+    "devagiri"
+   ],
+   "polities": [
+    "seuna",
+    "western-chalukya"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "hoysalas",
+   "date": "1190",
+   "lane": "military",
+   "title": "Defeat by the Hoysalas",
+   "summary": "Bhillama V's push south collides with the Hoysala king Veera Ballala II, who defeats the Yadavas and fixes the Krishna river as the frontier for a generation.",
+   "people": [
+    "bhillama-v",
+    "veera-ballala-ii"
+   ],
+   "polities": [
+    "hoysala"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "kakatiyas",
+   "date": "1199",
+   "lane": "military",
+   "title": "Jaitugi and the Kakatiyas",
+   "summary": "Jaitugi defeats the Kakatiyas, killing their king; the young prince Ganapati is held at Devagiri and later sent back to rule Warangal as a friendly king.",
+   "people": [
+    "jaitugi",
+    "ganapati-kakatiya"
+   ],
+   "polities": [
+    "kakatiya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "simhana",
+   "date": "1210",
+   "lane": "life",
+   "title": "Simhana's reign begins",
+   "summary": "Simhana's 36-year reign is the high point of Yadava power: he fights the Hoysalas, Paramaras, Kakatiyas and the kings of Gujarat, and annexes the Shilaharas of Kolhapur.",
+   "people": [
+    "simhana"
+   ],
+   "places": [
+    "devagiri",
+    "kolhapur"
+   ],
+   "polities": [
+    "seuna",
+    "hoysala",
+    "paramara",
+    "shilahara",
+    "vaghela"
+   ],
+   "major": true
+  },
+  {
+   "id": "expansion",
+   "date": "1215",
+   "lane": "forts",
+   "title": "Simhana's conquests",
+   "summary": "Yadava armies push south across the Krishna into Hoysala lands, raid Gujarat repeatedly and campaign in Malwa. The kingdom reaches its greatest extent.",
+   "people": [
+    "simhana"
+   ],
+   "places": [
+    "kolhapur"
+   ],
+   "polities": [
+    "hoysala",
+    "vaghela",
+    "paramara",
+    "shilahara"
+   ],
+   "end": "1240",
+   "approx": true
+  },
+  {
+   "id": "sangita",
+   "date": "1230",
+   "lane": "political",
+   "title": "Sangita Ratnakara",
+   "summary": "At Simhana's court Sharngadeva writes the Sangita Ratnakara, a treatise on music and dance that remains a foundation of both Hindustani and Carnatic music.",
+   "people": [
+    "sharngadeva",
+    "simhana"
+   ],
+   "places": [
+    "devagiri"
+   ],
+   "concepts": [
+    "sangita-ratnakara"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "konkan",
+   "date": "1265",
+   "lane": "forts",
+   "title": "North Konkan annexed",
+   "summary": "Mahadeva conquers the Shilaharas of the north Konkan, extending the kingdom to the coast.",
+   "polities": [
+    "shilahara",
+    "seuna"
+   ],
+   "approx": true
+  },
+  {
+   "id": "hemadpant",
+   "date": "1265",
+   "lane": "political",
+   "title": "Hemadpant, minister and scholar",
+   "summary": "Hemadri (Hemadpant), minister under Mahadeva and Ramachandra, writes encyclopaedic works on dharma. Tradition credits him with the Modi script and gives his name to the 'Hemadpanti' style of mortarless stone temples.",
+   "people": [
+    "hemadpant",
+    "ramachandra-devagiri"
+   ],
+   "places": [
+    "gondeshwar"
+   ],
+   "concepts": [
+    "hemadpanti",
+    "modi-script"
+   ],
+   "approx": true,
+   "major": true
+  },
+  {
+   "id": "mahanubhava",
+   "date": "1267",
+   "lane": "political",
+   "title": "Chakradhar Swami and the Mahanubhavas",
+   "summary": "Chakradhar Swami founds the Mahanubhava sect, which uses Marathi rather than Sanskrit. In 1278 his disciple Mhaimbhat writes the Lilacharitra, his biography — often called the first prose work in Marathi.",
+   "people": [
+    "chakradhar",
+    "mhaimbhat"
+   ],
+   "concepts": [
+    "mahanubhava"
+   ],
+   "approx": true
+  },
+  {
+   "id": "ramachandra",
+   "date": "1271",
+   "lane": "life",
+   "title": "Ramachandra seizes the throne",
+   "summary": "Ramachandra, son of Krishna, overthrows his cousin Ammana in a palace coup and begins a 40-year reign.",
+   "people": [
+    "ramachandra-devagiri"
+   ],
+   "places": [
+    "devagiri"
+   ]
+  },
+  {
+   "id": "dnyaneshwari",
+   "date": "1290",
+   "lane": "political",
+   "title": "The Dnyaneshwari",
+   "summary": "At Nevasa, the young saint Dnyaneshwar completes his Marathi commentary on the Bhagavad Gita, naming Ramachandra as the reigning king. It becomes a founding text of Marathi literature and of the Varkari tradition.",
+   "people": [
+    "dnyaneshwar",
+    "ramachandra-devagiri"
+   ],
+   "places": [
+    "nevasa"
+   ],
+   "concepts": [
+    "dnyaneshwari"
+   ],
+   "major": true
+  },
+  {
+   "id": "raid-1296",
+   "date": "1296",
+   "lane": "military",
+   "title": "Alauddin Khalji raids Devagiri",
+   "summary": "Alauddin Khalji, then governor of Kara, makes a surprise raid across the Vindhyas while the Yadava army is away. Ramachandra is forced to pay a vast ransom and tribute — the first Delhi Sultanate attack on the Deccan.",
+   "people": [
+    "alauddin",
+    "ramachandra-devagiri"
+   ],
+   "places": [
+    "devagiri"
+   ],
+   "polities": [
+    "khalji",
+    "delhi-sultanate"
+   ],
+   "wiki": "Alauddin Khalji's raid on Devagiri",
+   "major": true
+  },
+  {
+   "id": "alauddin-sultan",
+   "date": "1296-07",
+   "lane": "world",
+   "title": "Alauddin becomes Sultan",
+   "summary": "With the wealth taken from Devagiri, Alauddin murders his uncle Jalaluddin and seizes the Delhi throne.",
+   "people": [
+    "alauddin"
+   ],
+   "polities": [
+    "khalji",
+    "delhi-sultanate"
+   ]
+  },
+  {
+   "id": "samadhi",
+   "date": "1296",
+   "lane": "political",
+   "title": "Dnyaneshwar's samadhi",
+   "summary": "Dnyaneshwar takes samadhi at Alandi, aged about 21. His contemporary Namdev carries the Varkari tradition across India.",
+   "people": [
+    "dnyaneshwar",
+    "namdev"
+   ],
+   "places": [
+    "alandi"
+   ],
+   "approx": true
+  },
+  {
+   "id": "kafur-1308",
+   "date": "1308",
+   "lane": "military",
+   "title": "Malik Kafur takes Devagiri",
+   "summary": "After Ramachandra stops paying tribute, Alauddin's general Malik Kafur defeats him and takes him to Delhi. Ramachandra is treated with honour, made a vassal with the title Rai Rayan, and sent back to rule.",
+   "people": [
+    "malik-kafur",
+    "ramachandra-devagiri",
+    "alauddin"
+   ],
+   "places": [
+    "devagiri",
+    "delhi"
+   ],
+   "polities": [
+    "khalji"
+   ],
+   "major": true
+  },
+  {
+   "id": "south",
+   "date": "1310",
+   "lane": "world",
+   "title": "A base for conquering the south",
+   "summary": "As a loyal vassal Ramachandra supplies Malik Kafur's armies on their way to Warangal (1310) and the Hoysala capital (1311).",
+   "people": [
+    "ramachandra-devagiri",
+    "malik-kafur",
+    "veera-ballala-iii"
+   ],
+   "places": [
+    "devagiri"
+   ],
+   "polities": [
+    "kakatiya",
+    "hoysala",
+    "khalji"
+   ],
+   "end": "1311"
+  },
+  {
+   "id": "shankaradeva",
+   "date": "1313",
+   "lane": "military",
+   "title": "Shankaradeva defeated",
+   "summary": "Ramachandra's son Shankaradeva stops the tribute; Malik Kafur returns and kills him, and Devagiri comes under direct Sultanate control.",
+   "people": [
+    "malik-kafur"
+   ],
+   "places": [
+    "devagiri"
+   ],
+   "polities": [
+    "khalji"
+   ]
+  },
+  {
+   "id": "end",
+   "date": "1317",
+   "lane": "military",
+   "title": "Harapaladeva's revolt crushed",
+   "summary": "After Alauddin's death, Harapaladeva leads a last Yadava revolt. Sultan Qutbuddin Mubarak Shah marches south, captures and executes him, and annexes the kingdom.",
+   "people": [
+    "mubarak-shah"
+   ],
+   "places": [
+    "devagiri"
+   ],
+   "polities": [
+    "khalji",
+    "delhi-sultanate",
+    "seuna"
+   ],
+   "major": true
+  },
+  {
+   "id": "daulatabad",
+   "date": "1327",
+   "lane": "world",
+   "title": "Devagiri becomes Daulatabad",
+   "summary": "Muhammad bin Tughlaq renames Devagiri Daulatabad and orders much of Delhi's population to move there as a second capital — an experiment abandoned within a few years.",
+   "people": [
+    "muhammad-tughlaq"
+   ],
+   "places": [
+    "devagiri",
+    "delhi"
+   ],
+   "polities": [
+    "tughlaq",
+    "delhi-sultanate"
+   ],
+   "major": true
+  }
+ ]
+}

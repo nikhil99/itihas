@@ -1,5 +1,23 @@
 [
  {
+  "id": "yadavas-devagiri",
+  "title": "The Yadavas of Devagiri",
+  "subtitle": "The Seuna dynasty of the northern Deccan · c. 860 – 1317",
+  "subject": "seuna",
+  "events": 24,
+  "series": null,
+  "order": 0,
+  "kind": "empire",
+  "range": [
+   840,
+   1345
+  ],
+  "focus": [
+   1187,
+   1317
+  ]
+ },
+ {
   "id": "mughal-empire",
   "title": "The Mughal Empire",
   "subtitle": "From Babur at Panipat to the last emperor in Rangoon · 1526 – 1857",
