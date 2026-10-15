@@ -323,14 +323,14 @@ function featuredComparisons(index, ents) {
 }
 
 // ---------- Home: river of time ----------
-// Every timeline on one axis, packed into rows by kind. Hovering one highlights everything
+// Every empire and person on one axis, packed into rows by kind (the Maratha states are left
+// out to keep it uncluttered; they are reached from the Maratha Empire and the cards below). Hovering one highlights everything
 // that overlapped it in time. Indian powers are drawn in warm saffron–red shades, powers of
 // foreign origin (content: "origin": "foreign") in cool blue–violet ones.
 const ORIGIN_HUES = { indian: [24, 44, 8, 34, 54, 0], foreign: [222, 262, 196, 285] };
 function setupRiver(box, index, ents) {
   const GROUPS = [
     { label: "Empires", h: 26, pick: (t) => t.kind === "empire", cycle: true },
-    { label: "Maratha states", h: 20, pick: (t) => t.kind === "state", cycle: true },
     { label: "People", h: 17, pick: (t) => !t.kind, cycle: false },
   ];
   const SERIES_HUE = { "The Maratha Empire": 24, "The Maratha confederacy": 40 };
@@ -378,7 +378,7 @@ function setupRiver(box, index, ents) {
       if (x2 <= GUT || x1 >= W - PAD) continue;
       const co = hover && it.a < hover.b && it.b > hover.a;
       const n = svg("g", { class: `ri${co ? " co" : ""}${hover === it ? " me" : ""}`, tabindex: 0, role: "link", "aria-label": it.t.title });
-      n.append(svg("rect", { x: x1, y: top, width: Math.max(3, x2 - x1), height: g.h, rx: g.h / 2.6, fill: `hsl(${it.hue} 58% ${it.g === 2 ? 52 : 46}%)` }));
+      n.append(svg("rect", { x: x1, y: top, width: Math.max(3, x2 - x1), height: g.h, rx: g.h / 2.6, fill: `hsl(${it.hue} 58% ${GROUPS[it.g].label === "People" ? 52 : 46}%)` }));
       const label = fitText(shortTitle(it.t), x2 - x1 - 10, `600 ${it.g === 0 ? 12 : 11}px Inter, system-ui, sans-serif`);
       if (label.length > 2) {
         const t = svg("text", { class: "ri-text", x: x1 + 6, y: top + g.h / 2 + 4, "font-size": it.g === 0 ? 12 : 11 });
