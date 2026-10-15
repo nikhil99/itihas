@@ -246,6 +246,17 @@ def main():
     (OUT / "timelines").mkdir(parents=True, exist_ok=True)
     index = []
     timeline_ids = {tl["id"] for tl in timelines}
+    # Old ids of merged or renamed timelines; the site redirects them so links keep working.
+    alias_owner = {}
+    for tl in timelines:
+        for a in tl.get("aliases", []):
+            if a in timeline_ids or a in alias_owner:
+                problems.append(f"[{tl['id']}] alias {a!r} is already a timeline id or another timeline's alias")
+            alias_owner[a] = tl["id"]
+    # Drop generated files for timelines that no longer exist (merged, renamed, deleted).
+    for stale in (OUT / "timelines").glob("*.json"):
+        if stale.stem not in timeline_ids:
+            stale.unlink()
     entity_timelines = {}
     for tl in timelines:
         for ev in tl["events"]:
@@ -280,7 +291,8 @@ def main():
         index.append({"id": tl["id"], "title": tl["title"], "subtitle": tl.get("subtitle"),
                       "subject": tl["subject"], "events": len(tl["events"]),
                       "series": tl.get("series"), "order": tl.get("order", 0), "kind": tl.get("kind"),
-                      "range": tl["range"], "focus": tl.get("focus"), "span": span_of(tl, entities)})
+                      "range": tl["range"], "focus": tl.get("focus"), "span": span_of(tl, entities),
+                      "aliases": tl.get("aliases", [])})
     index.sort(key=lambda t: (t["series"] or "", t["order"]))
 
     (OUT / "entities.json").write_text(json.dumps(entities, ensure_ascii=False, indent=1))
