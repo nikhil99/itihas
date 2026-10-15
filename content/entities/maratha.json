@@ -100,7 +100,7 @@
   "shankaraji-narayan": {"type": "person", "wiki": "Shankaraji Narayan Gandekar", "name": "Shankaraji Narayan", "aliases": ["Shankaraji Narayan"]},
   "azam-shah": {"type": "person", "wiki": "Muhammad Azam Shah", "name": "Azam Shah", "aliases": ["Azam Shah"]},
   "shivaji-ii": {"type": "person", "wiki": "Shivaji I of Kolhapur", "name": "Shivaji II", "aliases": ["Shivaji II"]},
-  "sambhaji-ii": {"type": "person", "wiki": "Sambhaji II of Kolhapur", "name": "Sambhaji II", "aliases": ["Sambhaji II"]},
+  "sambhaji-ii": {"type": "person", "wiki": "Sambhaji I of Kolhapur", "name": "Sambhaji II", "aliases": ["Sambhaji II", "Sambhaji of Kolhapur"]},
   "rajaram-ii": {"type": "person", "wiki": "Rajaram II of Satara", "name": "Rajaram II (Ramaraja)", "aliases": ["Ramaraja", "Rajaram II"]},
   "balaji-vishwanath": {"type": "person", "wiki": "Balaji Vishwanath", "aliases": ["Balaji Vishwanath"]},
   "kanhoji-angre": {"type": "person", "wiki": "Kanhoji Angre", "aliases": ["Kanhoji Angre"]},
@@ -343,5 +343,6 @@
   "sabaji-bhonsle": {"type": "person", "wiki": null, "name": "Sabaji Bhonsle", "description": "Son of Raghoji I of Nagpur; fought his brother Mudhoji for the regency and was killed in 1775", "aliases": ["Sabaji Bhonsle", "Sabaji"]},
   "tailapa-ii": {"type": "person", "wiki": "Tailapa II", "aliases": ["Tailapa II"]},
   "bhagavad-gita": {"type": "concept", "wiki": "Bhagavad Gita", "aliases": ["Bhagavad Gita", "Gita"]},
-  "kingdom-amber": {"type": "polity", "wiki": "Kingdom of Amber", "aliases": ["Amber", "Rajputs of Jaipur", "Jaipur"]}
+  "kingdom-amber": {"type": "polity", "wiki": "Kingdom of Amber", "aliases": ["Amber", "Rajputs of Jaipur", "Jaipur"]},
+  "abasaheb-kolhapur": {"type": "person", "wiki": "Sambhaji II of Kolhapur", "name": "Shambhu (Abasaheb) of Kolhapur", "aliases": ["Abasaheb"]}
 }

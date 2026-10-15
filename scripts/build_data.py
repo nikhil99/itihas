@@ -19,6 +19,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from families import family_for, kin_graph
+
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 OUT = ROOT / "site" / "data"
@@ -157,6 +159,8 @@ def wikidata(qids):
                 if "mrwiki" in sl else None,
                 "dates": dates,
                 "coords": wd_coords(claims),
+                "kin": {rel: [c["mainsnak"].get("datavalue", {}).get("value", {}).get("id") for c in claims.get(prop, [])]
+                        for rel, prop in [("father", "P22"), ("mother", "P25"), ("spouse", "P26"), ("child", "P40")]},
             }
     return out
 
@@ -243,6 +247,9 @@ def main():
         if e["type"] == "place" and not e.get("coords"):
             problems.append(f"place {e['id']!r} has no coordinates (add \"coords\" to its entry in content/entities/)")
 
+    families_cfg = json.loads((CONTENT / "families.json").read_text())
+    kin = kin_graph(entities, {q: v["kin"] for q, v in wd.items()}, families_cfg, problems)
+
     (OUT / "timelines").mkdir(parents=True, exist_ok=True)
     index = []
     timeline_ids = {tl["id"] for tl in timelines}
@@ -286,6 +293,9 @@ def main():
                     problems.append(f"[{tl['id']}] ruler without entity or name in row {row['label']!r}")
                 if m["to"] <= m["from"]:
                     problems.append(f"[{tl['id']}] ruler {m.get('entity') or m.get('name')!r} ends before it starts")
+        family = family_for(tl, entities, kin, families_cfg)
+        if family:
+            tl["family"] = family
         tl["events"].sort(key=lambda ev: ev["date"])
         (OUT / "timelines" / f"{tl['id']}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1))
         index.append({"id": tl["id"], "title": tl["title"], "subtitle": tl.get("subtitle"),

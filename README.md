@@ -78,6 +78,14 @@ Copy `content/timelines/shivaji.json` and register any new people or places in
 `content/entities/` — use a new `<topic>.json` file for a new topic. Entity ids must be
 unique across all files (the build checks this). It shows up on the home page after a rebuild.
 
+### Family trees
+
+Any timeline with a `rulers` row whose rulers are mostly related gets a family tree under
+its timeline. The build reads father, mother, child and spouse links from Wikidata for
+registered people, and `content/families.json` corrects them: name-only connectors
+(`people`), wrong links (`remove`), missing or adopted links (`add`), heirs who never
+ruled (`heirs`) and short card notes (`notes`).
+
 ## Sources and licence
 
 Summaries and images come from Wikipedia (CC BY-SA) and Wikidata (CC0). The event selection
