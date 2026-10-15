@@ -42,7 +42,7 @@
   "kondaveedu": {"type": "place", "wiki": "Kondaveedu Fort", "aliases": ["Kondaveedu", "Kondavidu"]},
   "udayagiri": {"type": "place", "wiki": "Udayagiri Fort", "aliases": ["Udayagiri"]},
   "virupaksha": {"type": "place", "wiki": "Virupaksha Temple, Hampi", "name": "Virupaksha Temple", "aliases": ["Virupaksha Temple", "Virupaksha"]},
-  "chennai": {"type": "place", "wiki": "Chennai", "name": "Madras (Chennai)", "aliases": ["Madras"]},
+  "chennai": {"type": "place", "wiki": "Chennai", "name": "Madras (Chennai)", "aliases": ["Madras", "Chennai"]},
   "fort-st-george": {"type": "place", "wiki": "Fort St. George", "aliases": ["Fort St. George"]},
   "gulbarga": {"type": "place", "wiki": "Kalaburagi", "name": "Gulbarga", "aliases": ["Gulbarga"]},
   "bidar": {"type": "place", "wiki": "Bidar", "aliases": ["Bidar"]},
@@ -73,5 +73,11 @@
   "venkata-i": {"type": "person", "wiki": "Venkata I", "aliases": ["Venkata I"]},
   "sriranga-i": {"type": "person", "wiki": "Sriranga Deva Raya", "name": "Sriranga I", "aliases": ["Sriranga I"]},
   "sriranga-ii": {"type": "person", "wiki": "Sriranga II", "aliases": ["Sriranga II"]},
-  "rama-deva-raya": {"type": "person", "wiki": "Rama Deva Raya", "aliases": ["Rama Deva Raya"]}
+  "rama-deva-raya": {"type": "person", "wiki": "Rama Deva Raya", "aliases": ["Rama Deva Raya"]},
+  "battle-toppur": {"type": "concept", "wiki": "Battle of Toppur", "aliases": ["Battle of Toppur"]},
+  "haridasa": {"type": "concept", "wiki": "Haridasa", "aliases": ["Haridasa"]},
+  "kannada": {"type": "concept", "wiki": "Kannada", "aliases": ["Kannada"]},
+  "telugu": {"type": "concept", "wiki": "Telugu language", "aliases": ["Telugu"]},
+  "raichur-doab": {"type": "place", "wiki": "Raichur Doab", "aliases": ["Raichur Doab"], "coords": {"lat": 16.0, "lon": 76.8}},
+  "wadiyar": {"type": "polity", "wiki": "Wadiyar dynasty", "aliases": ["Wodeyars", "Wadiyars"]}
 }

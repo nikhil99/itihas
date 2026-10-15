@@ -616,39 +616,67 @@ function compareHero(tl, index, ents) {
 // A name with its own timeline links straight to that timeline; anything else opens its side panel.
 const entHref = (id) => state.subjectTimeline?.[id] ? `#/${state.subjectTimeline[id]}` : `#/${state.tl.id}/e/${id}`;
 // Like Wikipedia: names of people, places and states become links wherever they appear.
-// Entities referenced by an event match on all their names; other entities match only on
-// names that are unambiguous across the whole registry (so "Nizam" or "Bijapur" never
-// guess wrong), and generic lower-case aliases ("navy", "chauth") only when referenced.
-const GLOBAL_STOP = new Set(["Akbar", "Nizam", "Bhau", "Mughal", "Mughals", "Marathas", "Maratha state", "English", "Afghan", "Bengal", "Hyderabad", "Shindes", "Holkars", "Gwalior", "Bhosale"]);
+// Entities referenced by an event match on all their names, plus the single words of a
+// person's name ("Dattaji" for Dattaji Shinde) when no other referenced entity shares them.
+// Other entities match on names that are unambiguous across the whole registry; a name two
+// entities share goes to the one with its own timeline, else to the only state among them
+// ("Bijapur" → the sultanate, not the city). Generic lower-case aliases ("navy", "chauth")
+// match only when referenced, and a person's single first name globally only when unique.
+const GLOBAL_STOP = new Set(["Akbar", "Nizam", "Bhau", "English", "Afghan", "Bengal", "Hyderabad", "Bhosale"]);
+// Words that are titles or too common to stand for one person on their own
+const TOKEN_STOP = new Set(["Raja", "Rani", "Rao", "Shah", "Khan", "Sultan", "Prince", "Princess", "Lord", "Lady", "Mir", "Sir", "King", "Queen", "Emperor",
+  "Chhatrapati", "Peshwa", "Maharaj", "Maharaja", "Nawab", "Nizam", "Mughal", "Maratha", "Guru", "Swami", "Saint", "Bai", "Begum", "Muhammad", "Ali", "Ahmad",
+  "Singh", "Baji", "Balaji", "Nana", "Bhau", "Appa", "Saheb", "Sahib", "Bhonsle", "Bhosale", "Holkar", "Shinde", "Scindia", "Gaekwad", "Pawar", "Patwardhan",
+  "Lodi", "Tughlaq", "Tughluq", "Khalji", "Sayyid", "Ghori", "Adil", "Qutb", "Nizam", "Deva", "Raya", "Rama", "Krishna", "Hari", "Great", "First", "Second",
+  "Shivaji", "Sambhaji", "Rajaram", "Shahu", "Bajirao", "Madhavrao", "Raghunathrao", "Narayanrao", "Malhar", "Tukoji", "Yashwant", "Vithoji", "Duke", "Earl", "Marquess", "Viscount", "Baron"]);
 const reEsc = (n) => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const nameRe = (n) => new RegExp(`(?<![\\p{L}])${reEsc(n)}(?![\\p{L}])`, "u");
 const namesOf = (e) => [...new Set([...(e.aliases || []), e.title, e.title?.replace(/\s*\(.*\)$/, "")])].filter((n) => n && n.length > 2);
+// (only the words before "of", so "Shivaji II of Kolhapur" never claims "Kolhapur")
+const tokensOf = (e) => e.type !== "person" ? [] : [...new Set(namesOf(e).flatMap((n) => n.split(/\s+of\s+|\s*\(/)[0].replace(/,/g, " ").split(/\s+/)))]
+  .filter((w) => w.length > 3 && /^\p{Lu}\p{Ll}/u.test(w) && !TOKEN_STOP.has(w));
 
 function globalNames() {
-  if (state._globalFor === state.entities) return state._global;
-  const owners = {};
-  for (const [id, e] of Object.entries(state.entities)) for (const n of namesOf(e)) (owners[n] ||= new Set()).add(id);
+  if (state._globalFor === state.entities && state._globalTl === state.subjectTimeline) return state._global;
+  const owners = {}, firsts = {}, tokens = {};
+  for (const [id, e] of Object.entries(state.entities)) {
+    for (const n of namesOf(e)) (owners[n] ||= new Set()).add(id);
+    for (const w of tokensOf(e)) (tokens[w] ||= new Set()).add(id);
+    const first = e.type === "person" && tokensOf(e)[0];
+    if (first && namesOf(e).some((n) => n.startsWith(first + " "))) (firsts[first] ||= new Set()).add(id);
+  }
   const list = [];
-  for (const [n, ids] of Object.entries(owners)) {
-    if (ids.size !== 1 || GLOBAL_STOP.has(n) || !/^\p{Lu}/u.test(n)) continue;
-    list.push({ id: [...ids][0], n, re: new RegExp(`(?<![\\p{L}])${reEsc(n)}(?![\\p{L}])`, "u") });
+  for (const [n, set] of Object.entries(owners)) {
+    if (GLOBAL_STOP.has(n) || !/^\p{Lu}/u.test(n)) continue;
+    let ids = [...set];
+    if (ids.length > 1) { const tl = ids.filter((i) => state.subjectTimeline?.[i]); if (tl.length) ids = tl; }
+    if (ids.length > 1) ids = ids.filter((i) => state.entities[i].type === "polity");
+    if (ids.length === 1) list.push({ id: ids[0], n, re: nameRe(n) });
+  }
+  // a first name no other entity uses in any of its names ("Dattaji", "Daulatrao")
+  for (const [w, set] of Object.entries(firsts)) {
+    if (set.size === 1 && tokens[w].size === 1 && !owners[w]) list.push({ id: [...set][0], n: w, re: nameRe(w) });
   }
   state._globalFor = state.entities;
+  state._globalTl = state.subjectTimeline;
   state._global = list;
   return list;
 }
 
-function linkify(text, ids = [], { skip } = {}) {
+// `done` (a Set) can be shared between texts, so a card's title and summary link a name once.
+function linkify(text, ids = [], { skip, done = new Set() } = {}) {
   if (!text) return "";
   const ents = state.entities;
   const names = [];
-  for (const id of ids) {
-    const e = ents[id];
-    if (!e) continue;
-    for (const n of namesOf(e)) names.push({ id, n, re: new RegExp(`(?<![\\p{L}])${reEsc(n)}(?![\\p{L}])`, "u") });
-  }
+  const refs = ids.filter((id) => ents[id]);
+  for (const id of refs) for (const n of namesOf(ents[id])) names.push({ id, n, re: nameRe(n) });
+  const tokenOwners = {};
+  for (const id of refs) for (const w of tokensOf(ents[id])) (tokenOwners[w] ||= []).push(id);
+  for (const [w, owners] of Object.entries(tokenOwners)) if (owners.length === 1) names.push({ id: owners[0], n: w, re: nameRe(w) });
   names.push(...globalNames());
-  names.sort((a, b) => b.n.length - a.n.length);
-  const taken = [], done = new Set(skip ? [skip] : []);
+  names.sort((a, b) => b.n.length - a.n.length); // stable: an event's own references win ties
+  const taken = [];
+  if (skip) done.add(skip);
   for (const { id, n, re } of names) {
     if (done.has(id)) continue;
     let from = 0;
@@ -717,7 +745,9 @@ function buildStory() {
   for (const ev of tl.events) {
     const y = parseDate(ev.date).y;
     if (y !== lastYear) { wrap.append(el("div", { class: "year-head", "data-year": y }, String(y))); lastYear = y; }
-    const p = linked("p", null, ev.summary, evRefs(ev));
+    const done = new Set();
+    const h = linked("h3", null, ev.title, evRefs(ev), { done });
+    const p = linked("p", null, ev.summary, evRefs(ev), { done });
     wrap.append(el("article", {
       class: `card${ev.major ? " major" : ""}`, id: `card-${ev.id}`, "data-lane": ev.lane, "data-year": y,
       style: `--lane:var(--lane-${ev.lane})`,
@@ -725,7 +755,7 @@ function buildStory() {
     },
       ev.thumb && el("img", { class: "thumb", src: ev.thumb, alt: "", loading: "lazy" }),
       el("div", { class: "meta" }, el("span", { class: "lane-tag" }, laneLabel[ev.lane]), el("span", {}, fmtRange(ev))),
-      el("h3", {}, ev.title),
+      h,
       p,
       el("div", { class: "chips" }, evRefs(ev).map(chip)),
       el("div", { class: "card-links" },
@@ -1242,7 +1272,7 @@ async function openEntity(id) {
     el("div", { class: `d-type t-${e.type}` }, TYPE_LABEL[e.type]),
     el("h2", {}, e.title),
     e.labels?.mr && el("div", { class: "d-dev" }, e.labels.mr),
-    e.description && el("p", { class: "d-desc" }, e.description),
+    e.description && linked("p", "d-desc", e.description, [], { skip: id }),
     dateLine && el("div", { class: "d-dates" }, dateLine),
     ownTimeline && el("a", { class: "own-tl", href: `#/${ownTimeline.id}` }, `Open the ${ownTimeline.title} timeline →`),
     otherTimelines.length ? el("div", { class: "d-tls" }, el("span", { class: "d-tls-label" }, ownTimeline ? "Also in" : "Appears in"),

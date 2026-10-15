@@ -2,7 +2,7 @@
   "babur": {"type": "person", "wiki": "Babur", "aliases": ["Babur"]},
   "humayun": {"type": "person", "wiki": "Humayun", "aliases": ["Humayun"]},
   "akbar": {"type": "person", "wiki": "Akbar", "name": "Akbar", "aliases": ["Emperor Akbar"]},
-  "jahangir": {"type": "person", "wiki": "Jahangir", "aliases": ["Jahangir"]},
+  "jahangir": {"type": "person", "wiki": "Jahangir", "aliases": ["Jahangir", "Prince Salim", "Salim"]},
   "farrukhsiyar": {"type": "person", "wiki": "Farrukhsiyar", "aliases": ["Farrukhsiyar"]},
   "jahandar-shah": {"type": "person", "wiki": "Jahandar Shah", "aliases": ["Jahandar Shah"]},
   "bahadur-shah-zafar": {"type": "person", "wiki": "Bahadur Shah Zafar", "aliases": ["Bahadur Shah Zafar", "Bahadur Shah II"]},
@@ -58,5 +58,17 @@
   "akbar-ii": {"type": "person", "wiki": "Akbar II", "aliases": ["Akbar II"]},
   "rafi-ud-darajat": {"type": "person", "wiki": "Rafi ud-Darajat", "aliases": ["Rafi ud-Darajat"]},
   "shah-jahan-ii": {"type": "person", "wiki": "Shah Jahan II", "aliases": ["Shah Jahan II"]},
-  "shah-jahan-iii": {"type": "person", "wiki": "Shah Jahan III", "aliases": ["Shah Jahan III"]}
+  "shah-jahan-iii": {"type": "person", "wiki": "Shah Jahan III", "aliases": ["Shah Jahan III"]},
+  "baburnama": {"type": "concept", "wiki": "Baburnama", "aliases": ["Baburnama"]},
+  "battle-samugarh": {"type": "concept", "wiki": "Battle of Samugarh", "aliases": ["Samugarh"]},
+  "battle-saraighat": {"type": "concept", "wiki": "Battle of Saraighat", "aliases": ["Battle of Saraighat", "Saraighat"]},
+  "battle-jajau": {"type": "concept", "wiki": "Battle of Jajau", "aliases": ["Jajau"]},
+  "guru-gobind-singh": {"type": "person", "wiki": "Guru Gobind Singh", "aliases": ["Guru Gobind Singh"]},
+  "khalsa": {"type": "concept", "wiki": "Khalsa", "aliases": ["Khalsa"]},
+  "murshid-quli-khan": {"type": "person", "wiki": "Murshid Quli Khan", "aliases": ["Murshid Quli Khan"]},
+  "koh-i-noor": {"type": "concept", "wiki": "Koh-i-Noor", "aliases": ["Koh-i-Noor"]},
+  "peacock-throne": {"type": "concept", "wiki": "Peacock Throne", "aliases": ["Peacock Throne"]},
+  "adi-granth": {"type": "concept", "wiki": "Guru Granth Sahib", "aliases": ["Adi Granth"], "name": "Adi Granth"},
+  "shahjahanabad": {"type": "place", "wiki": "Shahjahanabad", "aliases": ["Shahjahanabad"]},
+  "upanishads": {"type": "concept", "wiki": "Upanishads", "aliases": ["Upanishads"]}
 }

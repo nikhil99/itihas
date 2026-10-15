@@ -1,5 +1,5 @@
 {
-  "seuna": {"type": "polity", "wiki": "Seuna dynasty", "name": "Yadavas of Devagiri (Seuna dynasty)", "aliases": ["Seuna dynasty", "Yadavas of Devagiri", "Seunas", "Yadavas"], "dates": {"founded": "1187", "dissolved": "1317"}},
+  "seuna": {"type": "polity", "wiki": "Seuna dynasty", "name": "Yadavas of Devagiri (Seuna dynasty)", "aliases": ["Seuna dynasty", "Yadavas of Devagiri", "Seunas", "Yadavas", "Seuna"], "dates": {"founded": "1187", "dissolved": "1317"}},
   "devagiri": {"type": "place", "wiki": "Daulatabad Fort", "name": "Devagiri (Daulatabad)", "aliases": ["Devagiri", "Daulatabad"]},
   "dridhaprahara": {"type": "person", "wiki": "Dridhaprahara", "aliases": ["Dridhaprahara"]},
   "bhillama-ii": {"type": "person", "wiki": "Bhillama II", "aliases": ["Bhillama II"]},
@@ -20,7 +20,7 @@
   "alauddin": {"type": "person", "wiki": "Alauddin Khalji", "aliases": ["Alauddin Khalji", "Alauddin"]},
   "malik-kafur": {"type": "person", "wiki": "Malik Kafur", "aliases": ["Malik Kafur", "Kafur"]},
   "mubarak-shah": {"type": "person", "wiki": "Qutbuddin Mubarak Shah", "aliases": ["Mubarak Shah", "Qutbuddin Mubarak Shah"]},
-  "muhammad-tughlaq": {"type": "person", "wiki": "Muhammad bin Tughluq", "name": "Muhammad bin Tughlaq", "aliases": ["Muhammad bin Tughlaq"]},
+  "muhammad-tughlaq": {"type": "person", "wiki": "Muhammad bin Tughluq", "name": "Muhammad bin Tughlaq", "aliases": ["Muhammad bin Tughlaq", "Prince Ulugh Khan"]},
   "khalji": {"type": "polity", "wiki": "Khalji dynasty", "aliases": ["Khalji dynasty", "Khaljis"]},
   "tughlaq": {"type": "polity", "wiki": "Tughlaq dynasty", "aliases": ["Tughlaq dynasty", "Tughlaqs"]},
   "western-chalukya": {"type": "polity", "wiki": "Western Chalukya Empire", "name": "Western Chalukyas", "aliases": ["Western Chalukyas", "Western Chalukya"]},
@@ -36,5 +36,9 @@
   "gondeshwar": {"type": "place", "wiki": "Gondeshwar Temple, Sinnar", "name": "Gondeshwar Temple", "aliases": ["Gondeshwar"]},
   "hemadpanti": {"type": "concept", "wiki": "Hemadpanti architecture", "aliases": ["Hemadpanti"]},
   "modi-script": {"type": "concept", "wiki": "Modi script", "aliases": ["Modi script"]},
-  "alandi": {"type": "place", "wiki": "Alandi", "aliases": ["Alandi"]}
+  "alandi": {"type": "place", "wiki": "Alandi", "aliases": ["Alandi"]},
+  "lilavati": {"type": "concept", "wiki": "Līlāvatī", "aliases": ["Lilavati"], "name": "Lilavati"},
+  "siddhanta-shiromani": {"type": "concept", "wiki": "Siddhānta Shiromani", "aliases": ["Siddhanta Shiromani"], "name": "Siddhanta Shiromani"},
+  "lilacharitra": {"type": "concept", "wiki": null, "name": "Lilacharitra", "description": "1278 biography of Chakradhar Swami by Mhaimbhat, the first prose work in Marathi", "aliases": ["Lilacharitra"]},
+  "sankardev": {"type": "person", "wiki": "Sankardev", "aliases": ["Shankaradeva", "Sankardev"]}
 }
