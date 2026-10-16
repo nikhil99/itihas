@@ -27,6 +27,13 @@
     { "entity": "dhanaji",        "label": "Dhanaji Jadhav" }
   ],
   "events": [
+    {"id": "gingee-relief", "date": "1692-12", "lane": "military", "title": "Santaji breaks the Gingee siege lines", "summary": "Santaji Ghorpade and Dhanaji Jadhav fall on the Mughal besiegers of Gingee and capture several of their commanders.", "approx": true, "people": ["santaji", "dhanaji", "zulfiqar-khan"], "places": ["gingee"], "polities": ["mughal-empire"]},
+    {"id": "satara-falls", "date": "1700-04", "lane": "forts", "title": "Satara surrenders to Aurangzeb", "summary": "A month after Rajaram's death the Satara garrison gives up the fort after a long siege.", "approx": true, "people": ["aurangzeb"], "places": ["satara"], "polities": ["mughal-empire"]},
+    {"id": "panhala-1701", "date": "1701-05", "lane": "forts", "title": "Panhala falls", "summary": "Aurangzeb takes Panhala; but forts bought or starved into surrender are often lost again within months.", "approx": true, "people": ["aurangzeb"], "places": ["panhala"], "polities": ["mughal-empire"]},
+    {"id": "sinhagad-1703", "date": "1703-04", "lane": "forts", "title": "Sinhagad surrenders", "summary": "Sinhagad, where Rajaram died, is surrendered to the Mughals.", "approx": true, "people": ["aurangzeb"], "places": ["sinhagad"], "polities": ["mughal-empire"]},
+    {"id": "rajgad-torna", "date": "1704-02", "lane": "forts", "title": "Rajgad and Torna fall", "summary": "The old Maratha capital Rajgad and then Torna are taken — among Aurangzeb's last conquests.", "approx": true, "people": ["aurangzeb"], "places": ["rajgad", "torna"], "polities": ["mughal-empire"]},
+    {"id": "gujarat-1706", "date": "1706", "lane": "military", "title": "Raid into Gujarat", "summary": "Dhanaji Jadhav's cavalry raids deep into Gujarat, while other Maratha bands retake forts in the Sahyadris behind the aging emperor.", "approx": true, "people": ["dhanaji", "tarabai"], "places": ["gujarat", "sahyadri"], "polities": ["mughal-empire"]},
+    {"id": "tarabai-peshwa-peace", "date": "1752-09", "lane": "political", "title": "Tarabai makes peace with the Peshwa", "summary": "Tarabai's revolt fails and she comes to terms with Nanasaheb, though she keeps Rajaram II under her watch at Satara.", "approx": true, "people": ["tarabai", "nanasaheb", "rajaram-ii"], "places": ["satara"]},
     {
       "id": "rajaram-born", "date": "1670-02-24", "lane": "life", "major": true,
       "title": "Rajaram born at Rajgad",

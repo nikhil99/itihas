@@ -26,6 +26,11 @@
     { "entity": "nizam-ul-mulk",     "label": "Nizam-ul-Mulk" }
   ],
   "events": [
+    {"id": "kanhoji-dies", "date": "1729-07-04", "lane": "life", "title": "Kanhoji Angre dies", "summary": "The admiral who held the Konkan coast for Shahu dies; his sons divide and quarrel over the fleet.", "approx": true, "people": ["kanhoji-angre"], "places": ["konkan", "vijaydurg"], "polities": ["maratha-navy"]},
+    {"id": "bajirao-dies", "date": "1740-04-28", "lane": "life", "title": "Bajirao dies on campaign", "summary": "Shahu's great Peshwa dies of fever at Raverkhedi on the Narmada, aged thirty-nine.", "people": ["bajirao"], "places": ["raverkhedi", "narmada"]},
+    {"id": "chimaji-dies", "date": "1740-12-17", "lane": "life", "title": "Chimaji Appa dies", "summary": "Bajirao's brother, the conqueror of Vasai, dies months after him.", "approx": true, "people": ["chimaji"], "places": ["pune"]},
+    {"id": "bhonsle-peshwa", "date": "1743", "lane": "political", "title": "Shahu divides the spheres", "summary": "Shahu settles the quarrel between the Peshwa and Raghuji Bhonsle: Bengal and the east to Nagpur, Malwa and the north to the Peshwa.", "approx": true, "people": ["shahu", "nanasaheb", "raghuji-bhonsle"], "polities": ["nagpur-kingdom"]},
+    {"id": "shahu-will", "date": "1749-12", "lane": "political", "title": "Shahu's last instructions", "summary": "Childless, Shahu leaves the state in the Peshwa's hands and accepts Tarabai's claimed grandson Ramaraja as heir.", "approx": true, "people": ["shahu", "nanasaheb", "rajaram-ii", "tarabai"], "places": ["satara"]},
     {
       "id": "born", "date": "1682-05-18", "lane": "life", "major": true,
       "title": "Shahu born",

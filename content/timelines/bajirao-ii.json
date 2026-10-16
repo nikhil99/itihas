@@ -25,6 +25,11 @@
     { "entity": "east-india-company",  "label": "Company rule in Pune",   "from": 1818.3, "to": 1858 }
   ],
   "events": [
+    {"id": "sawai-dies-b", "date": "1795-10-27", "lane": "life", "title": "Sawai Madhavrao dies", "summary": "The young Peshwa's death opens the way for Raghunathrao's son, kept under guard at Shivneri and Junnar.", "people": ["sawai-madhavrao"], "places": ["shaniwar-wada"]},
+    {"id": "nana-arrested", "date": "1797-12-31", "lane": "political", "title": "Nana Phadnavis arrested", "summary": "Bajirao and Daulatrao Shinde have Nana seized and held at Ahmednagar fort; he is released the next year.", "approx": true, "people": ["nana-phadnavis", "daulatrao-shinde", "bajirao-ii"], "places": ["ahmednagar"]},
+    {"id": "trimbakji-escape", "date": "1816-09", "lane": "political", "title": "Trimbakji escapes from Thane", "summary": "Bajirao's favourite Trimbakji Dengle, handed over to the British over the Gangadhar Shastri murder, escapes from Thane jail and raises troops.", "approx": true, "people": ["trimbakji-dengle", "bajirao-ii"], "places": ["thane"], "polities": ["east-india-company"]},
+    {"id": "bithur-settled", "date": "1818-08", "lane": "life", "title": "Settled at Bithur", "summary": "On a British pension of eight lakhs a year, Bajirao is sent to live at Bithur near Kanpur.", "approx": true, "people": ["bajirao-ii", "john-malcolm"], "places": ["bithoor", "kanpur"], "polities": ["east-india-company"]},
+    {"id": "nana-sahib-adopted", "date": "1827", "lane": "life", "title": "Nana Sahib adopted", "summary": "Bajirao adopts Dhondu Pant, later famous as Nana Sahib of 1857.", "approx": true, "people": ["bajirao-ii", "nana-sahib"], "places": ["bithoor"]},
     {
       "id": "born", "date": "1775-01-10", "lane": "life",
       "title": "Bajirao born",

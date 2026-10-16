@@ -67,6 +67,11 @@
   }
  ],
  "events": [
+  {"id": "zabita-khan", "date": "1772", "lane": "military", "title": "Rohilla lands ravaged", "summary": "With Shah Alam restored, Mahadji and Tukoji Holkar defeat Zabita Khan, son of Najib, and sack his stronghold — revenge for Panipat.", "approx": true, "people": ["mahadji", "tukoji-holkar"]},
+  {"id": "sipri", "date": "1781-02", "lane": "military", "title": "Surprised at Sipri", "summary": "A British column under Camac turns on Mahadji's pursuing army near Sipri — a setback that pushes him toward peace.", "approx": true, "people": ["mahadji"], "polities": ["east-india-company"]},
+  {"id": "agra-aligarh", "date": "1785", "lane": "forts", "title": "Agra and Aligarh taken", "summary": "As regent of the empire, Mahadji takes the forts of Agra and Aligarh.", "approx": true, "people": ["mahadji", "shah-alam-ii"], "places": ["agra", "aligarh"]},
+  {"id": "vakil-ul-mutlaq", "date": "1792-06", "lane": "political", "title": "The Mughal title for the Peshwa", "summary": "At a grand durbar in Pune, Mahadji presents the young Peshwa with the emperor's patent naming him Vakil-ul-Mutlaq, regent of the empire.", "approx": true, "people": ["mahadji", "sawai-madhavrao", "shah-alam-ii"], "places": ["pune"]},
+  {"id": "wanavdi-chhatri", "date": "1794", "lane": "forts", "title": "The Shinde Chhatri", "summary": "A memorial is raised where Mahadji was cremated at Wanavdi near Pune.", "approx": true, "people": ["mahadji"], "places": ["shinde-chhatri", "pune"]},
   {
    "id": "born",
    "date": "1730",
