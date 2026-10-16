@@ -104,7 +104,7 @@ async function route() {
   let tlId, kind, id;
   if (parts[0] === "compare") {
     // a bare "#/compare" has no list part; a list part never contains "e"/"ev" alone
-    const list = parts[1] && !["e", "ev"].includes(parts[1]) ? parts[1] : "";
+    const list = parts[1] && !["e", "ev", "f"].includes(parts[1]) ? parts[1] : "";
     tlId = `compare/${list}`;
     [kind, id] = parts.slice(list ? 2 : 1);
   } else [tlId, kind, id] = parts;
@@ -112,6 +112,7 @@ async function route() {
   if (state.tl?.id !== tlId) { await renderTimelinePage(tlId); window.scrollTo(0, 0); }
   if (kind === "e" && id) openEntity(id);
   else closeDrawer(false);
+  if (kind === "f" && id) focusFamily(id, { scroll: true });
   if (kind === "ev" && id) selectEvent(id, { scroll: true });
 }
 const go = (hash) => { if (location.hash !== hash) location.hash = hash; else route(); };
@@ -523,9 +524,11 @@ async function renderTimelinePage(id) {
 function familySection(tl) {
   if (!tl.family?.length) return null;
   const rulers = tl.family.reduce((n, r) => n + r.nodes.filter((x) => x.reigns).length, 0);
+  const from = tl.family[0].from; // a person's timeline shows their dynasty's tree
   const wrap = el("details", { class: "family", open: true },
     el("summary", {}, el("span", { class: "fam-title" }, "Family tree"),
-      el("span", { class: "fam-sub" }, `Who inherited the throne · ${rulers} rulers`)),
+      from ? el("span", { class: "fam-sub" }, `${tl.family[0].label} of `, el("a", { href: `#/${from}`, onclick: (e) => e.stopPropagation() }, tl.family[0].fromTitle))
+        : el("span", { class: "fam-sub" }, `Who inherited the throne · ${rulers} rulers`)),
     el("div", { class: "fam-legend" },
       el("span", {}, el("i", { class: "lg ruler" }, "1"), "Ruled (number = order of succession)"),
       el("span", {}, el("i", { class: "lg heir" }), "Heir who never ruled"),
@@ -533,13 +536,14 @@ function familySection(tl) {
       el("span", {}, el("i", { class: "lg adopted" }), "Adopted"),
       el("span", {}, el("i", { class: "lg spouse" }, "="), "Married")),
     tl.family.map((row) => el("div", { class: "fam-row" },
-      tl.family.length > 1 ? el("h3", {}, row.label) : null,
+      tl.family.length > 1 && !from ? el("h3", {}, row.label) : null,
       el("div", { class: "fam-scroll" }, familyTree(row)),
       el("div", { class: "fam-hint" }, "Scroll sideways for the rest of the family →"))));
   // Show the sideways hint only where a tree is wider than its box
-  requestAnimationFrame(() => wrap.querySelectorAll(".fam-scroll").forEach((sc) => {
-    sc.nextElementSibling.hidden = sc.scrollWidth <= sc.clientWidth + 2;
-  }));
+  requestAnimationFrame(() => {
+    wrap.querySelectorAll(".fam-scroll").forEach((sc) => { sc.nextElementSibling.hidden = sc.scrollWidth <= sc.clientWidth + 2; });
+    if (from) focusFamily(tl.subject);
+  });
   return wrap;
 }
 
@@ -628,7 +632,7 @@ function familyTree(row) {
     const life = e && (entStart(e) || entEnd(e)) ? `${entStart(e) ? parseDate(entStart(e)).y : "?"}–${entEnd(e) ? parseDate(entEnd(e)).y : "?"}` : "";
     const sub = reign ? `r. ${reign}` : n.heir ? "heir" : life;
     const cls = `fam-node${n.reigns ? " ruler" : ""}${n.heir ? " heir" : ""}${p.spouse ? " spouse" : ""}${e ? " link" : ""}`;
-    const node = svg("g", { class: cls, transform: `translate(${p.x} ${p.y})`, tabindex: e ? 0 : null, role: e ? "link" : null });
+    const node = svg("g", { class: cls, "data-id": n.id, transform: `translate(${p.x} ${p.y})`, tabindex: e ? 0 : null, role: e ? "link" : null });
     node.append(svg("rect", { width: w, height: H, rx: 9 }));
     const t1 = svg("text", { x: w / 2, y: sub ? 21 : 29, "text-anchor": "middle", class: "fam-name" });
     t1.textContent = fitText(short, w - (n.n ? 30 : 14), "600 12.5px Inter, system-ui, sans-serif");
@@ -668,6 +672,20 @@ function familyTree(row) {
     g.append(node);
   }
   return s;
+}
+
+// Highlight one person in the tree and bring them into view (sideways, and on the page if asked).
+function focusFamily(id, { scroll } = {}) {
+  const fam = $(".family");
+  if (!fam) return;
+  fam.open = true;
+  fam.querySelectorAll(".fam-node.focus").forEach((n) => n.classList.remove("focus"));
+  const node = fam.querySelector(`.fam-node[data-id="${CSS.escape(id)}"]`);
+  if (!node) return;
+  node.classList.add("focus");
+  const sc = node.closest(".fam-scroll"), nb = node.getBoundingClientRect(), sb = sc.getBoundingClientRect();
+  sc.scrollLeft += nb.left - sb.left - (sb.width - nb.width) / 2;
+  if (scroll) node.closest(".fam-row").scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 // ---------- Compare ----------
@@ -801,12 +819,14 @@ function askAI({ subject, type, context }) {
     window.open(base + encodeURIComponent(prompt), "_blank", "noopener");
   };
   input.addEventListener("keydown", (e) => { if (e.key === "Enter") send(AI_TARGETS[0]); });
-  return el("div", { class: "ask-ai" },
-    el("div", { class: "ask-head" }, el("span", { class: "ask-spark", "aria-hidden": "true" }, "✦"), `Ask AI about ${subject}`),
-    el("div", { class: "ask-row" }, input,
-      AI_TARGETS.map((t) => el("button", { class: "ask-btn", onclick: () => send(t) }, `${t[0]} ↗`))),
-    el("div", { class: "ask-sugg" }, suggestions.map((q) =>
-      el("button", { class: "chip ask-chip", onclick: () => { input.value = q; input.focus(); } }, q))));
+  // A quiet one-line link; the question box opens only when asked for.
+  return el("details", { class: "ask-ai", ontoggle: (e) => { if (e.currentTarget.open) input.focus(); } },
+    el("summary", {}, el("span", { class: "ask-spark", "aria-hidden": "true" }, "✦"), `Ask AI about ${subject}`),
+    el("div", { class: "ask-body" },
+      el("div", { class: "ask-row" }, input,
+        AI_TARGETS.map((t) => el("button", { class: "ask-btn", onclick: () => send(t) }, `${t[0]} ↗`))),
+      el("div", { class: "ask-sugg" }, suggestions.map((q) =>
+        el("button", { class: "ask-chip", onclick: () => { input.value = q; input.focus(); } }, q)))));
 }
 
 function timelineContext(tl) {
@@ -1456,7 +1476,9 @@ function closeDrawer(updateHash) {
 async function openEntity(id) {
   const e = state.entities[id], tl = state.tl;
   if (!e) return;
-  const [index, entTl] = await Promise.all([loadOptional("data/index.json", []), loadOptional("data/entity-timelines.json", {})]);
+  const [index, entTl, famIdx] = await Promise.all([loadOptional("data/index.json", []), loadOptional("data/entity-timelines.json", {}),
+    loadOptional("data/family-index.json", {})]);
+  const fam = famIdx[id];
   const ownTimeline = index.find((t) => t.subject === id && t.id !== tl.id);
   const otherTimelines = (entTl[id] || []).filter((t) => t !== tl.id && t !== ownTimeline?.id)
     .map((t) => index.find((i) => i.id === t)).filter(Boolean);
@@ -1482,6 +1504,8 @@ async function openEntity(id) {
     ownTimeline && el("a", { class: "own-tl", href: `#/${ownTimeline.id}` }, `Open the ${ownTimeline.title} timeline →`),
     otherTimelines.length ? el("div", { class: "d-tls" }, el("span", { class: "d-tls-label" }, ownTimeline ? "Also in" : "Appears in"),
       otherTimelines.map((t) => el("a", { class: "chip tl-chip", href: `#/${t.id}` }, t.title))) : null,
+    fam && el("a", { class: "fam-link-btn", href: `#/${fam.tl}/f/${id}`, onclick: () => closeDrawer(false) },
+      el("span", { "aria-hidden": "true" }, "⧉ "), `Family tree · ${fam.label}${fam.tl === tl.id ? "" : ` of ${fam.title}`} →`),
     lifeBar(e),
     e.extract && linked("p", "d-extract", e.extract, [], { skip: id }),
     el("div", { class: "d-links" },
