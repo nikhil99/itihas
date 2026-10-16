@@ -1,0 +1,1529 @@
+{
+ "id": "meiji-restoration",
+ "kind": "empire",
+ "region": "Japan",
+ "order": 0,
+ "title": "The Meiji Restoration",
+ "subtitle": "How Japan modernised · 1853 – 1912",
+ "subject": "meiji-restoration",
+ "range": [
+  1850,
+  1915
+ ],
+ "focus": [
+  1868,
+  1912.58
+ ],
+ "intro": "In 1853 American warships forced open a Japan that had kept the world at arm's length for two centuries. The shock brought down the Tokugawa shogunate, and in 1868 a group of young samurai from Satsuma and Chōshū restored power to the teenage Emperor Meiji. In barely forty years they abolished the feudal domains and the samurai class, built railways, factories, schools and a conscript army, adopted a constitution and parliament, overturned the unequal treaties, and defeated both China and Russia — turning Japan into the first non-Western industrial great power, and an empire.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Emperors, shoguns & leaders"
+  },
+  {
+   "id": "military",
+   "label": "Wars & rebellions"
+  },
+  {
+   "id": "forts",
+   "label": "Industry & infrastructure"
+  },
+  {
+   "id": "political",
+   "label": "Government, law & society"
+  },
+  {
+   "id": "world",
+   "label": "Japan and the world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Emperors",
+   "members": [
+    {
+     "entity": "emperor-komei",
+     "from": 1846,
+     "to": 1867.08,
+     "group": "imperial-court-kyoto"
+    },
+    {
+     "entity": "emperor-meiji",
+     "from": 1867.08,
+     "to": 1912.58,
+     "group": "empire-of-japan",
+     "note": "Throne name Meiji, 'enlightened rule'; personal name Mutsuhito"
+    }
+   ]
+  },
+  {
+   "label": "Shoguns",
+   "members": [
+    {
+     "entity": "tokugawa-iesada",
+     "from": 1853.9,
+     "to": 1858.6,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-iemochi",
+     "from": 1858.6,
+     "to": 1866.66,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-yoshinobu",
+     "from": 1867.03,
+     "to": 1868.01,
+     "group": "tokugawa-shogunate",
+     "note": "Last shogun; lived quietly until 1913"
+    }
+   ]
+  },
+  {
+   "label": "Prime ministers",
+   "members": [
+    {
+     "entity": "ito-hirobumi",
+     "from": 1885.97,
+     "to": 1888.33,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "kuroda-kiyotaka",
+     "from": 1888.33,
+     "to": 1889.82,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "yamagata-aritomo",
+     "from": 1889.98,
+     "to": 1891.33,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "matsukata-masayoshi",
+     "from": 1891.33,
+     "to": 1892.6,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "ito-hirobumi",
+     "from": 1892.6,
+     "to": 1896.67,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "matsukata-masayoshi",
+     "from": 1896.7,
+     "to": 1898.03,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "ito-hirobumi",
+     "from": 1898.03,
+     "to": 1898.5,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "okuma-shigenobu",
+     "from": 1898.5,
+     "to": 1898.86,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "yamagata-aritomo",
+     "from": 1898.86,
+     "to": 1900.8,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "ito-hirobumi",
+     "from": 1900.8,
+     "to": 1901.35,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "katsura-taro",
+     "from": 1901.45,
+     "to": 1906.02,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "saionji-kinmochi",
+     "from": 1906.02,
+     "to": 1908.53,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "katsura-taro",
+     "from": 1908.53,
+     "to": 1911.66,
+     "group": "empire-of-japan"
+    },
+    {
+     "entity": "saionji-kinmochi",
+     "from": 1911.66,
+     "to": 1912.97,
+     "group": "empire-of-japan"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "tokugawa-shogunate",
+   "label": "Tokugawa shogunate",
+   "from": 1850,
+   "to": 1868
+  },
+  {
+   "entity": "satsuma-domain",
+   "label": "Satsuma Domain",
+   "from": 1850,
+   "to": 1871.66
+  },
+  {
+   "entity": "choshu-domain",
+   "label": "Chōshū Domain",
+   "from": 1850,
+   "to": 1871.66
+  },
+  {
+   "entity": "republic-of-ezo",
+   "label": "Republic of Ezo",
+   "from": 1869.07,
+   "to": 1869.49
+  },
+  {
+   "entity": "ryukyu-kingdom",
+   "label": "Ryukyu Kingdom",
+   "from": 1850,
+   "to": 1879.26
+  },
+  {
+   "entity": "qing-china",
+   "label": "Qing China",
+   "from": 1850,
+   "to": 1912.12
+  },
+  {
+   "entity": "joseon-korea",
+   "label": "Joseon Korea",
+   "from": 1850,
+   "to": 1897.8
+  },
+  {
+   "entity": "korean-empire",
+   "label": "Korean Empire",
+   "from": 1897.8,
+   "to": 1910.66
+  },
+  {
+   "entity": "russian-empire",
+   "label": "Russian Empire",
+   "from": 1850,
+   "to": 1915
+  }
+ ],
+ "events": [
+  {
+   "id": "perry",
+   "date": "1853-07-08",
+   "lane": "world",
+   "title": "Perry's 'Black Ships' at Uraga",
+   "summary": "Commodore Matthew Perry steams into Edo Bay with four warships and delivers a letter from the American president demanding that Japan open its ports. After two centuries of sakoku the shogunate has no navy to resist him and, unusually, asks the daimyo and the court for advice — weakening its own authority.",
+   "people": [
+    "matthew-perry"
+   ],
+   "places": [
+    "uraga",
+    "tokyo"
+   ],
+   "polities": [
+    "united-states",
+    "tokugawa-shogunate"
+   ],
+   "concepts": [
+    "sakoku"
+   ],
+   "wiki": "Perry Expedition",
+   "major": true
+  },
+  {
+   "id": "iesada",
+   "date": "1853-11-23",
+   "lane": "life",
+   "title": "Tokugawa Iesada becomes shogun",
+   "summary": "The sickly Iesada succeeds his father, who died days after Perry left. Real power lies with the senior councillors, and the question of who will succeed the childless Iesada splits the shogunate.",
+   "people": [
+    "tokugawa-iesada"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ]
+  },
+  {
+   "id": "kanagawa",
+   "date": "1854-03-31",
+   "lane": "world",
+   "title": "Convention of Kanagawa",
+   "summary": "Perry returns with a larger fleet and the shogunate signs Japan's first modern treaty. Shimoda and Hakodate open to American ships for supplies, and an American consul may live in Japan. Britain, Russia and the Netherlands soon win similar terms.",
+   "people": [
+    "matthew-perry"
+   ],
+   "places": [
+    "yokohama",
+    "shimoda",
+    "hakodate"
+   ],
+   "polities": [
+    "united-states",
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Convention of Kanagawa",
+   "major": true
+  },
+  {
+   "id": "harris-treaty",
+   "date": "1858-07-29",
+   "lane": "world",
+   "title": "Harris Treaty and the 'unequal treaties'",
+   "summary": "Townsend Harris wins a full commercial treaty: Yokohama, Nagasaki and other ports open to trade, foreigners get extraterritoriality, and Japan loses control of its own tariffs. Ii Naosuke signs without the consent of Emperor Kōmei, and four European powers follow with the same terms. Revising these unequal treaties becomes the central goal of Japanese diplomacy for the next fifty years.",
+   "people": [
+    "townsend-harris",
+    "ii-naosuke",
+    "emperor-komei"
+   ],
+   "places": [
+    "yokohama",
+    "nagasaki"
+   ],
+   "polities": [
+    "united-states",
+    "tokugawa-shogunate"
+   ],
+   "concepts": [
+    "unequal-treaties",
+    "extraterritoriality"
+   ],
+   "wiki": "Treaty of Amity and Commerce (United States–Japan)",
+   "major": true
+  },
+  {
+   "id": "iemochi",
+   "date": "1858-08",
+   "lane": "life",
+   "title": "Iemochi named shogun",
+   "summary": "Iesada dies and Ii Naosuke installs the twelve-year-old Tokugawa Iemochi, defeating the faction that wanted the able Hitotsubashi Yoshinobu.",
+   "people": [
+    "tokugawa-iemochi",
+    "ii-naosuke",
+    "tokugawa-yoshinobu"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ]
+  },
+  {
+   "id": "ansei-purge",
+   "date": "1858-10",
+   "end": "1860-03",
+   "lane": "political",
+   "title": "Ansei Purge",
+   "summary": "Ii Naosuke crushes critics of the treaties and of his choice of shogun. Lords are confined, courtiers dismissed and about a hundred people punished. The teacher Yoshida Shōin, whose pupils include Itō Hirobumi and Yamagata Aritomo, is executed in Edo in 1859.",
+   "people": [
+    "ii-naosuke",
+    "yoshida-shoin",
+    "ito-hirobumi",
+    "yamagata-aritomo"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Ansei Purge"
+  },
+  {
+   "id": "sakuradamon",
+   "date": "1860-03-24",
+   "lane": "political",
+   "title": "Ii Naosuke assassinated at the Sakurada Gate",
+   "summary": "Ronin from Mito and Satsuma cut down Ii Naosuke in the snow outside Edo Castle. The killing of the shogunate's strongman shows that its authority can be defied, and the cry of sonnō jōi — 'revere the emperor, expel the barbarians' — spreads among young samurai.",
+   "people": [
+    "ii-naosuke"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "concepts": [
+    "sonno-joi"
+   ],
+   "wiki": "Sakuradamon Incident (1860)",
+   "major": true
+  },
+  {
+   "id": "namamugi",
+   "date": "1862-09-14",
+   "lane": "world",
+   "title": "Namamugi Incident",
+   "summary": "Satsuma retainers kill the British merchant Charles Richardson on the road near Yokohama for failing to give way to their lord's procession. Britain demands an indemnity from the shogunate and the punishment of the killers from Satsuma.",
+   "places": [
+    "yokohama"
+   ],
+   "polities": [
+    "satsuma-domain",
+    "united-kingdom"
+   ],
+   "wiki": "Namamugi Incident"
+  },
+  {
+   "id": "choshu-five",
+   "date": "1863-06",
+   "lane": "world",
+   "title": "The Chōshū Five sail for London",
+   "summary": "Even as Chōshū calls for expelling foreigners, it secretly sends five young samurai, among them Itō Hirobumi and Inoue Kaoru, to study at University College London. They return as convinced modernisers and later run Japan's government, railways, mint and engineering schools.",
+   "people": [
+    "ito-hirobumi",
+    "inoue-kaoru"
+   ],
+   "places": [
+    "london"
+   ],
+   "polities": [
+    "choshu-domain"
+   ],
+   "wiki": "Chōshū Five"
+  },
+  {
+   "id": "shimonoseki-campaign",
+   "date": "1863-06-25",
+   "end": "1864-09-06",
+   "lane": "military",
+   "title": "Chōshū fires on foreign ships at Shimonoseki",
+   "summary": "Taking the court's order to expel the barbarians literally, Chōshū's batteries shell Western ships in the Shimonoseki Strait. In 1864 a British, French, Dutch and American fleet destroys the forts — teaching Chōshū that Japan must learn Western military technology before it can resist the West.",
+   "places": [
+    "shimonoseki"
+   ],
+   "polities": [
+    "choshu-domain",
+    "united-kingdom",
+    "united-states"
+   ],
+   "concepts": [
+    "sonno-joi"
+   ],
+   "wiki": "Shimonoseki campaign"
+  },
+  {
+   "id": "kagoshima",
+   "date": "1863-08-15",
+   "lane": "military",
+   "title": "Royal Navy bombards Kagoshima",
+   "summary": "When Satsuma refuses to hand over Richardson's killers, a British squadron shells Kagoshima. Satsuma pays up, but rather than resenting Britain it begins buying British ships and guns and sends students to Britain in 1865.",
+   "places": [
+    "kagoshima"
+   ],
+   "polities": [
+    "satsuma-domain",
+    "united-kingdom"
+   ],
+   "wiki": "Bombardment of Kagoshima"
+  },
+  {
+   "id": "kinmon",
+   "date": "1864-08-20",
+   "lane": "military",
+   "title": "Kinmon Incident in Kyoto",
+   "summary": "Chōshū troops try to seize the emperor's palace and are driven off by Aizu and Satsuma. The shogunate brands Chōshū an enemy of the court and sends a punitive army against it.",
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "choshu-domain",
+    "aizu-domain",
+    "satsuma-domain",
+    "tokugawa-shogunate"
+   ],
+   "concepts": [
+    "shinsengumi"
+   ],
+   "wiki": "Kinmon incident"
+  },
+  {
+   "id": "satcho",
+   "date": "1866-03-07",
+   "lane": "political",
+   "title": "Satsuma–Chōshū Alliance",
+   "summary": "Brokered by the Tosa ronin Sakamoto Ryōma, the old rivals Satsuma and Chōshū secretly agree to stand together against the shogunate. Saigō Takamori and Kido Takayoshi seal the pact that will overthrow the Tokugawa.",
+   "people": [
+    "sakamoto-ryoma",
+    "saigo-takamori",
+    "kido-takayoshi"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "satsuma-domain",
+    "choshu-domain"
+   ],
+   "wiki": "Satchō Alliance",
+   "major": true
+  },
+  {
+   "id": "second-choshu",
+   "date": "1866-07",
+   "end": "1866-10",
+   "lane": "military",
+   "title": "Second Chōshū expedition fails",
+   "summary": "The shogunate's second army against Chōshū is beaten by Chōshū's modern, partly commoner rifle units while Satsuma refuses to help. When Shogun Iemochi dies in Osaka in August the campaign is called off — a humiliating defeat for the Tokugawa.",
+   "people": [
+    "tokugawa-iemochi"
+   ],
+   "places": [
+    "osaka"
+   ],
+   "polities": [
+    "choshu-domain",
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Second Chōshū expedition"
+  },
+  {
+   "id": "yoshinobu",
+   "date": "1867-01-10",
+   "lane": "life",
+   "title": "Tokugawa Yoshinobu, the last shogun",
+   "summary": "Yoshinobu becomes the fifteenth Tokugawa shogun and launches French-assisted reforms of the army and government — too late to save the regime.",
+   "people": [
+    "tokugawa-yoshinobu"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Tokugawa Yoshinobu"
+  },
+  {
+   "id": "komei-dies",
+   "date": "1867-01-30",
+   "lane": "life",
+   "title": "Death of Emperor Kōmei; Mutsuhito succeeds",
+   "summary": "Kōmei, who hated foreigners but supported the shogunate, dies of smallpox at 35. His fourteen-year-old son Mutsuhito, the future Emperor Meiji, takes the throne on 13 February, and the anti-Tokugawa courtier Iwakura Tomomi returns to influence.",
+   "people": [
+    "emperor-komei",
+    "emperor-meiji",
+    "iwakura-tomomi"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "imperial-court-kyoto"
+   ],
+   "major": true
+  },
+  {
+   "id": "taisei-hokan",
+   "date": "1867-11-09",
+   "lane": "political",
+   "title": "Yoshinobu returns power to the emperor",
+   "summary": "Urged by Tosa, Yoshinobu formally hands his governing authority back to the court, hoping to lead a council of lords under the emperor. A month later Sakamoto Ryōma, who had drafted a plan for just such a council, is murdered in Kyoto.",
+   "people": [
+    "tokugawa-yoshinobu",
+    "sakamoto-ryoma",
+    "emperor-meiji"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "tokugawa-shogunate",
+    "tosa-domain"
+   ]
+  },
+  {
+   "id": "restoration",
+   "date": "1868-01-03",
+   "lane": "political",
+   "title": "Restoration of imperial rule",
+   "summary": "Satsuma and allied troops seize the palace gates in Kyoto, and Iwakura Tomomi has the young emperor proclaim the restoration of direct imperial rule. The shogunate is abolished and Yoshinobu is ordered to give up his lands — the moment from which the Meiji Restoration is dated.",
+   "people": [
+    "emperor-meiji",
+    "iwakura-tomomi",
+    "saigo-takamori",
+    "okubo-toshimichi",
+    "tokugawa-yoshinobu"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "imperial-court-kyoto",
+    "satsuma-domain",
+    "tokugawa-shogunate"
+   ],
+   "concepts": [
+    "meiji-restoration"
+   ],
+   "wiki": "Meiji Restoration",
+   "major": true
+  },
+  {
+   "id": "toba-fushimi",
+   "date": "1868-01-27",
+   "lane": "military",
+   "title": "Battle of Toba–Fushimi; the Boshin War begins",
+   "summary": "Tokugawa troops marching on Kyoto are routed by smaller Satsuma and Chōshū forces carrying the imperial banner. Yoshinobu flees to Edo by ship, and many domains go over to the new government.",
+   "people": [
+    "tokugawa-yoshinobu",
+    "saigo-takamori"
+   ],
+   "places": [
+    "kyoto",
+    "osaka"
+   ],
+   "polities": [
+    "satsuma-domain",
+    "choshu-domain",
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Battle of Toba–Fushimi",
+   "major": true
+  },
+  {
+   "id": "charter-oath",
+   "date": "1868-04-06",
+   "lane": "political",
+   "title": "The Charter Oath",
+   "summary": "The emperor swears five principles before the court and lords: affairs decided by public discussion, all classes united, every person free to pursue a calling, 'evil customs of the past' abandoned, and 'knowledge sought throughout the world' to strengthen imperial rule. It becomes the founding charter of modern Japan.",
+   "people": [
+    "emperor-meiji",
+    "kido-takayoshi"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "empire-of-japan"
+   ],
+   "wiki": "Charter Oath",
+   "major": true
+  },
+  {
+   "id": "edo-surrender",
+   "date": "1868-05-03",
+   "lane": "military",
+   "title": "Edo Castle surrenders without a fight",
+   "summary": "Saigō Takamori and the shogunate's Katsu Kaishū negotiate the peaceful handover of Edo Castle, sparing a city of a million people from a battle.",
+   "people": [
+    "saigo-takamori",
+    "katsu-kaishu"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Fall of Edo"
+  },
+  {
+   "id": "aizu",
+   "date": "1868-10-08",
+   "end": "1868-11-06",
+   "lane": "military",
+   "title": "Siege of Aizu",
+   "summary": "The northern alliance's stronghold holds out for a month. The suicide of teenage samurai of the Byakkotai, who thought the castle had fallen, becomes a lasting symbol of loyalty.",
+   "places": [
+    "aizuwakamatsu"
+   ],
+   "polities": [
+    "aizu-domain"
+   ],
+   "concepts": [
+    "byakkotai"
+   ],
+   "wiki": "Battle of Aizu"
+  },
+  {
+   "id": "meiji-era",
+   "date": "1868-10-23",
+   "lane": "life",
+   "title": "The Meiji era is proclaimed",
+   "summary": "The era name Meiji, 'enlightened rule', is adopted, and from now on each emperor will have just one era. Edo has already been renamed Tokyo, 'eastern capital', and the emperor moves into the former shogun's castle, which becomes the Imperial Palace.",
+   "people": [
+    "emperor-meiji"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "polities": [
+    "empire-of-japan"
+   ],
+   "wiki": "Meiji (era)",
+   "major": true
+  },
+  {
+   "id": "hakodate",
+   "date": "1869-06-27",
+   "lane": "military",
+   "title": "Fall of Hakodate ends the Boshin War",
+   "summary": "Admiral Enomoto Takeaki had sailed the shogunate fleet north and set up the Republic of Ezo, with French officers and Hijikata Toshizō of the Shinsengumi. It surrenders at Hakodate after Hijikata is killed, and Japan is united under the emperor. Enomoto is pardoned and later serves as a minister.",
+   "people": [
+    "enomoto-takeaki",
+    "hijikata-toshizo"
+   ],
+   "places": [
+    "hakodate",
+    "hokkaido"
+   ],
+   "polities": [
+    "republic-of-ezo"
+   ],
+   "concepts": [
+    "shinsengumi"
+   ],
+   "wiki": "Battle of Hakodate",
+   "major": true
+  },
+  {
+   "id": "hanseki-hokan",
+   "date": "1869-07-25",
+   "lane": "political",
+   "title": "The domains return their registers",
+   "summary": "Led by Satsuma, Chōshū, Tosa and Hizen, the daimyo hand their land and population registers to the emperor and are reappointed as governors. The court nobles and lords are merged into a single nobility, the kazoku, and ordinary samurai become shizoku.",
+   "polities": [
+    "satsuma-domain",
+    "choshu-domain",
+    "tosa-domain",
+    "hizen-domain"
+   ],
+   "concepts": [
+    "han-system",
+    "kazoku",
+    "shizoku"
+   ]
+  },
+  {
+   "id": "hokkaido",
+   "date": "1869-09",
+   "lane": "political",
+   "title": "Ezo becomes Hokkaido",
+   "summary": "The northern island is renamed Hokkaido and a Colonisation Office is set up to settle it, often with former samurai as farmer-soldiers, at the expense of the Ainu.",
+   "places": [
+    "hokkaido"
+   ],
+   "wiki": "Hokkaidō Development Commission"
+  },
+  {
+   "id": "postal",
+   "date": "1871-04-20",
+   "lane": "forts",
+   "title": "National postal service",
+   "summary": "Maejima Hisoka launches a government post between Tokyo, Kyoto and Osaka on the British model, replacing private couriers; it covers the country within a few years.",
+   "people": [
+    "maejima-hisoka"
+   ],
+   "places": [
+    "tokyo",
+    "kyoto",
+    "osaka"
+   ]
+  },
+  {
+   "id": "yen",
+   "date": "1871-06-27",
+   "lane": "political",
+   "title": "The yen is introduced",
+   "summary": "The New Currency Act replaces the confusing mix of domain and shogunate money with a decimal currency, the yen, minted at a new Osaka mint with British machinery.",
+   "places": [
+    "osaka"
+   ],
+   "concepts": [
+    "yen"
+   ]
+  },
+  {
+   "id": "haihan-chiken",
+   "date": "1871-08-29",
+   "lane": "political",
+   "title": "Domains abolished, prefectures created",
+   "summary": "With 10,000 Satsuma, Chōshū and Tosa troops at its back, the government abolishes the 260-odd feudal domains in a single decree and replaces them with prefectures run by governors from Tokyo. The former lords are pensioned off to the capital. In one stroke a feudal patchwork becomes a centralised state.",
+   "people": [
+    "saigo-takamori",
+    "okubo-toshimichi",
+    "kido-takayoshi"
+   ],
+   "polities": [
+    "empire-of-japan"
+   ],
+   "concepts": [
+    "han-system",
+    "prefectures"
+   ],
+   "wiki": "Abolition of the han system",
+   "major": true
+  },
+  {
+   "id": "iwakura-mission",
+   "date": "1871-12-23",
+   "end": "1873-09-13",
+   "lane": "world",
+   "title": "The Iwakura Mission",
+   "summary": "Iwakura Tomomi leads nearly fifty officials — Ōkubo, Kido and Itō among them — and sixty students on a journey through the United States and Europe. They fail to revise the treaties but study factories, parliaments, schools and armies, and come home convinced that Japan must build its strength before it confronts the West.",
+   "people": [
+    "iwakura-tomomi",
+    "okubo-toshimichi",
+    "kido-takayoshi",
+    "ito-hirobumi"
+   ],
+   "places": [
+    "yokohama",
+    "london"
+   ],
+   "polities": [
+    "united-states",
+    "united-kingdom"
+   ],
+   "wiki": "Iwakura Mission",
+   "major": true
+  },
+  {
+   "id": "encouragement-of-learning",
+   "date": "1872-02",
+   "end": "1876",
+   "lane": "political",
+   "title": "Fukuzawa's An Encouragement of Learning",
+   "summary": "Fukuzawa Yukichi, founder of Keiō Gijuku, opens with the line that 'heaven does not create one person above another'. His essays on independence and practical learning sell hundreds of thousands of copies and define the 'civilisation and enlightenment' movement.",
+   "people": [
+    "fukuzawa-yukichi"
+   ],
+   "concepts": [
+    "encouragement-of-learning",
+    "keio"
+   ]
+  },
+  {
+   "id": "gakusei",
+   "date": "1872-09-04",
+   "lane": "political",
+   "title": "Universal education ordered",
+   "summary": "The Education System Order, modelled on France, aims at 'no community with an illiterate family'. Primary schools spread across the country; by 1905 almost all children of school age are enrolled.",
+   "polities": [
+    "empire-of-japan"
+   ],
+   "wiki": "Education in the Empire of Japan"
+  },
+  {
+   "id": "tomioka",
+   "date": "1872-10-04",
+   "lane": "forts",
+   "title": "Tomioka Silk Mill opens",
+   "summary": "A model state factory with French machinery and engineers trains young women from across Japan in mechanised silk reeling. Raw silk becomes Japan's biggest export and pays for much of its industrialisation.",
+   "places": [
+    "tomioka-silk-mill"
+   ],
+   "concepts": [
+    "oyatoi"
+   ],
+   "wiki": "Tomioka Silk Mill"
+  },
+  {
+   "id": "railway",
+   "date": "1872-10-14",
+   "lane": "forts",
+   "title": "First railway, Shimbashi to Yokohama",
+   "summary": "The emperor opens Japan's first railway, 29 km between Tokyo and the treaty port of Yokohama, built with British engineers and loans. Telegraph lines and lighthouses go up in the same years, much of it the work of foreign experts hired by the government.",
+   "people": [
+    "emperor-meiji"
+   ],
+   "places": [
+    "tokyo",
+    "yokohama"
+   ],
+   "concepts": [
+    "oyatoi"
+   ],
+   "wiki": "Rail transport in Japan",
+   "major": true
+  },
+  {
+   "id": "calendar",
+   "date": "1873-01-01",
+   "lane": "political",
+   "title": "Japan adopts the Western calendar",
+   "summary": "The lunar calendar is dropped: the 3rd day of the 12th month of Meiji 5 becomes 1 January 1873. Western dress, haircuts, beef and newspapers become emblems of the new age.",
+   "wiki": "Japanese calendar"
+  },
+  {
+   "id": "conscription",
+   "date": "1873-01-10",
+   "lane": "military",
+   "title": "Universal conscription",
+   "summary": "Yamagata Aritomo's conscription law makes every man liable for three years' service regardless of class, ending the samurai's monopoly of arms. The new army, trained first on French and later German lines, is built from peasants.",
+   "people": [
+    "yamagata-aritomo"
+   ],
+   "concepts": [
+    "imperial-japanese-army",
+    "samurai",
+    "fukoku-kyohei"
+   ],
+   "major": true
+  },
+  {
+   "id": "first-bank",
+   "date": "1873-07",
+   "lane": "political",
+   "title": "First National Bank founded",
+   "summary": "Shibusawa Eiichi, a former shogunate retainer, founds Japan's first modern bank. He goes on to help start some five hundred companies — railways, shipping, paper, textiles, insurance — and is called the father of Japanese capitalism.",
+   "people": [
+    "shibusawa-eiichi"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "wiki": "Dai-Ichi Bank"
+  },
+  {
+   "id": "land-tax",
+   "date": "1873-07-28",
+   "lane": "political",
+   "title": "Land Tax Reform",
+   "summary": "Feudal rice dues are replaced by a cash tax of 3% on the assessed value of land, and farmers receive title deeds. The tax gives the state a steady income for its reforms, though protests force a cut to 2.5% in 1877.",
+   "polities": [
+    "empire-of-japan"
+   ],
+   "wiki": "Land Tax Reform (Japan 1873)"
+  },
+  {
+   "id": "seikanron",
+   "date": "1873-10",
+   "lane": "political",
+   "title": "The Korea debate splits the government",
+   "summary": "While the Iwakura Mission was abroad, Saigō Takamori and Itagaki Taisuke planned to force Korea open, by war if needed. The returning Ōkubo and Iwakura insist that reform at home must come first; Saigō, Itagaki and Etō Shinpei resign.",
+   "people": [
+    "saigo-takamori",
+    "itagaki-taisuke",
+    "eto-shinpei",
+    "okubo-toshimichi",
+    "iwakura-tomomi"
+   ],
+   "polities": [
+    "joseon-korea"
+   ],
+   "wiki": "Seikanron"
+  },
+  {
+   "id": "peoples-rights",
+   "date": "1874-01-17",
+   "lane": "political",
+   "title": "Freedom and People's Rights Movement",
+   "summary": "Itagaki Taisuke petitions for an elected assembly, launching a nationwide movement of political societies, newspapers and draft constitutions. It pushes the oligarchs to promise a constitution.",
+   "people": [
+    "itagaki-taisuke"
+   ],
+   "wiki": "Freedom and People's Rights Movement"
+  },
+  {
+   "id": "saga",
+   "date": "1874-02",
+   "lane": "military",
+   "title": "Saga Rebellion",
+   "summary": "Etō Shinpei leads discontented samurai in Saga; the uprising is crushed within weeks and Etō is executed. It is the first of several samurai revolts.",
+   "people": [
+    "eto-shinpei",
+    "okubo-toshimichi"
+   ],
+   "places": [
+    "saga-city"
+   ],
+   "polities": [
+    "hizen-domain"
+   ],
+   "concepts": [
+    "shizoku"
+   ],
+   "wiki": "Saga Rebellion"
+  },
+  {
+   "id": "taiwan-expedition",
+   "date": "1874-05",
+   "lane": "world",
+   "title": "Expedition to Taiwan",
+   "summary": "After Ryukyuan sailors are killed by Taiwanese aborigines, Japan sends troops to Taiwan — its first overseas expedition. China pays an indemnity, implicitly accepting Japan's claim to the Ryukyus.",
+   "places": [
+    "taiwan"
+   ],
+   "polities": [
+    "qing-china",
+    "ryukyu-kingdom"
+   ],
+   "wiki": "Japanese invasion of Taiwan (1874)"
+  },
+  {
+   "id": "sakhalin-kurils",
+   "date": "1875-05-07",
+   "lane": "world",
+   "title": "Treaty of Saint Petersburg",
+   "summary": "Japan gives up its claims to Sakhalin in exchange for all of the Kuril Islands, fixing its northern border with Russia.",
+   "places": [
+    "sakhalin",
+    "kuril-islands"
+   ],
+   "polities": [
+    "russian-empire"
+   ],
+   "wiki": "Treaty of Saint Petersburg (1875)"
+  },
+  {
+   "id": "ganghwa",
+   "date": "1876-02-26",
+   "lane": "world",
+   "title": "Japan forces Korea open",
+   "summary": "After a naval clash off Ganghwa Island, Japan imposes on Korea the same kind of unequal treaty the West had imposed on Japan — ports, extraterritoriality and a denial of Chinese overlordship.",
+   "places": [
+    "ganghwa",
+    "seoul"
+   ],
+   "polities": [
+    "joseon-korea",
+    "qing-china"
+   ],
+   "concepts": [
+    "unequal-treaties"
+   ],
+   "wiki": "Japan–Korea Treaty of 1876"
+  },
+  {
+   "id": "samurai-end",
+   "date": "1876-03",
+   "end": "1876-08",
+   "lane": "political",
+   "title": "End of samurai privileges",
+   "summary": "The Haitōrei edict bans the wearing of swords in public, and samurai stipends are converted into government bonds. The samurai class loses both its symbol and its income.",
+   "concepts": [
+    "samurai",
+    "shizoku"
+   ],
+   "wiki": "Haitōrei Edict"
+  },
+  {
+   "id": "satsuma-rebellion",
+   "date": "1877-01-29",
+   "end": "1877-09-24",
+   "lane": "military",
+   "title": "Satsuma Rebellion",
+   "summary": "Saigō Takamori, the hero of the Restoration, leads some 40,000 Satsuma samurai against the government he helped create. The conscript army, supplied by steamship and telegraph, wins; Saigō dies at Shiroyama above Kagoshima. It is the last samurai uprising and proves the peasant army.",
+   "people": [
+    "saigo-takamori",
+    "yamagata-aritomo",
+    "okubo-toshimichi"
+   ],
+   "places": [
+    "kagoshima"
+   ],
+   "polities": [
+    "satsuma-domain"
+   ],
+   "concepts": [
+    "imperial-japanese-army",
+    "samurai"
+   ],
+   "wiki": "Satsuma Rebellion",
+   "major": true
+  },
+  {
+   "id": "todai",
+   "date": "1877-04-12",
+   "lane": "political",
+   "title": "University of Tokyo founded",
+   "summary": "Several government colleges merge into Japan's first modern university, staffed at first largely by foreign professors. In 1886 it becomes the Imperial University, training the country's bureaucrats.",
+   "places": [
+    "tokyo"
+   ],
+   "concepts": [
+    "university-of-tokyo",
+    "oyatoi"
+   ],
+   "wiki": "University of Tokyo"
+  },
+  {
+   "id": "okubo-killed",
+   "date": "1878-05-14",
+   "lane": "life",
+   "title": "Ōkubo Toshimichi assassinated",
+   "summary": "The architect of the early Meiji state is killed in Tokyo by samurai who blame him for Saigō's death. With Kido dead of illness in 1877, leadership passes to younger men — Itō Hirobumi above all.",
+   "people": [
+    "okubo-toshimichi",
+    "kido-takayoshi",
+    "ito-hirobumi"
+   ],
+   "places": [
+    "tokyo"
+   ]
+  },
+  {
+   "id": "ryukyu",
+   "date": "1879-04-04",
+   "lane": "world",
+   "title": "Ryukyu annexed as Okinawa Prefecture",
+   "summary": "The Ryukyu Kingdom, which had paid tribute to both China and Japan, is abolished and its king removed to Tokyo.",
+   "places": [
+    "okinawa"
+   ],
+   "polities": [
+    "ryukyu-kingdom",
+    "qing-china"
+   ],
+   "wiki": "Ryukyu Disposition"
+  },
+  {
+   "id": "matsukata",
+   "date": "1881-10",
+   "end": "1885",
+   "lane": "political",
+   "title": "Matsukata deflation and the Bank of Japan",
+   "summary": "Finance Minister Matsukata Masayoshi cuts spending, sells off state factories to private firms and founds the Bank of Japan (1882). The sell-offs to Mitsui, Mitsubishi and others help create the zaibatsu.",
+   "people": [
+    "matsukata-masayoshi"
+   ],
+   "concepts": [
+    "bank-of-japan",
+    "zaibatsu"
+   ]
+  },
+  {
+   "id": "crisis-1881",
+   "date": "1881-10-12",
+   "lane": "political",
+   "title": "A constitution promised by 1890",
+   "summary": "Ōkuma Shigenobu, who wanted a British-style parliament soon, is forced out, and an imperial edict promises a constitution and an assembly by 1890. Itagaki founds the Liberal Party and Ōkuma the Constitutional Reform Party, Japan's first national parties.",
+   "people": [
+    "okuma-shigenobu",
+    "itagaki-taisuke",
+    "ito-hirobumi"
+   ],
+   "concepts": [
+    "jiyuto",
+    "rikken-kaishinto"
+   ]
+  },
+  {
+   "id": "ito-europe",
+   "date": "1882-03",
+   "end": "1883-08",
+   "lane": "world",
+   "title": "Itō studies constitutions in Europe",
+   "summary": "Itō Hirobumi spends over a year in Berlin and Vienna learning from Rudolf von Gneist and Lorenz von Stein, and decides on a Prussian-style constitution that keeps strong powers for the emperor.",
+   "people": [
+    "ito-hirobumi"
+   ],
+   "polities": [
+    "empire-of-japan"
+   ]
+  },
+  {
+   "id": "rokumeikan",
+   "date": "1883-11-28",
+   "lane": "forts",
+   "title": "The Rokumeikan opens",
+   "summary": "A Western-style hall in Tokyo where the elite hold balls and banquets for foreign diplomats, meant to show Japan is 'civilised' enough for equal treaties. It becomes a symbol — mocked by many — of the rush to Westernise.",
+   "people": [
+    "inoue-kaoru"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "concepts": [
+    "rokumeikan"
+   ],
+   "wiki": "Rokumeikan"
+  },
+  {
+   "id": "cabinet",
+   "date": "1885-12-22",
+   "lane": "political",
+   "title": "Cabinet system; Itō the first prime minister",
+   "summary": "The old Council of State gives way to a European-style cabinet, and Itō Hirobumi becomes Japan's first prime minister. A modern civil service examination follows in 1887.",
+   "people": [
+    "ito-hirobumi"
+   ],
+   "polities": [
+    "empire-of-japan"
+   ],
+   "wiki": "Cabinet of Japan",
+   "major": true
+  },
+  {
+   "id": "constitution",
+   "date": "1889-02-11",
+   "lane": "political",
+   "title": "The Meiji Constitution",
+   "summary": "The emperor grants Asia's first modern constitution as a gift to his subjects. It sets up a two-chamber Imperial Diet with an elected lower house and rights 'within the limits of law', but the emperor commands the army and navy and ministers answer to him, not to parliament.",
+   "people": [
+    "emperor-meiji",
+    "ito-hirobumi",
+    "kuroda-kiyotaka"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "polities": [
+    "empire-of-japan"
+   ],
+   "concepts": [
+    "imperial-diet"
+   ],
+   "wiki": "Meiji Constitution",
+   "major": true
+  },
+  {
+   "id": "rescript-education",
+   "date": "1890-10-30",
+   "lane": "political",
+   "title": "Imperial Rescript on Education",
+   "summary": "A short text on loyalty to the emperor, filial piety and duty to the state, read aloud in every school before the emperor's portrait. It shapes Japanese schooling until 1945.",
+   "people": [
+    "emperor-meiji",
+    "yamagata-aritomo"
+   ],
+   "wiki": "Imperial Rescript on Education"
+  },
+  {
+   "id": "diet",
+   "date": "1890-11-29",
+   "lane": "political",
+   "title": "The first Imperial Diet meets",
+   "summary": "After the first general election in July — in which about 1% of the people, tax-paying men, could vote — the Diet opens. Its lower house soon uses its budget power to fight the oligarchs' cabinets.",
+   "people": [
+    "yamagata-aritomo"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "concepts": [
+    "imperial-diet"
+   ],
+   "major": true
+  },
+  {
+   "id": "otsu",
+   "date": "1891-05-11",
+   "lane": "world",
+   "title": "Ōtsu Incident",
+   "summary": "A police guard attacks the visiting Russian heir, Tsarevich Nicholas, with a sword. The government wants the attacker executed to appease Russia, but the Supreme Court insists on the law and gives life imprisonment — an early test of judicial independence.",
+   "people": [
+    "nicholas-ii",
+    "emperor-meiji"
+   ],
+   "places": [
+    "otsu"
+   ],
+   "polities": [
+    "russian-empire"
+   ],
+   "wiki": "Ōtsu incident"
+  },
+  {
+   "id": "treaty-revision",
+   "date": "1894-07-16",
+   "lane": "world",
+   "title": "Britain agrees to end extraterritoriality",
+   "summary": "Foreign Minister Mutsu Munemitsu signs a treaty with Britain under which foreign consular courts will close in 1899; the other powers follow. Japan becomes the first non-Western country to escape the unequal treaties.",
+   "people": [
+    "mutsu-munemitsu"
+   ],
+   "polities": [
+    "united-kingdom"
+   ],
+   "concepts": [
+    "extraterritoriality",
+    "unequal-treaties"
+   ],
+   "wiki": "Anglo-Japanese Treaty of Commerce and Navigation",
+   "major": true
+  },
+  {
+   "id": "sino-japanese-war",
+   "date": "1894-07-25",
+   "end": "1895-04-17",
+   "lane": "military",
+   "title": "First Sino-Japanese War",
+   "summary": "Japan and China fight over Korea. Japan's modern army and navy win on land at Pyongyang and at sea off the Yalu, then take Port Arthur and Weihaiwei. The world is stunned that the 'pupil' has crushed the old Asian giant.",
+   "people": [
+    "ito-hirobumi",
+    "yamagata-aritomo",
+    "li-hongzhang"
+   ],
+   "places": [
+    "port-arthur",
+    "seoul"
+   ],
+   "polities": [
+    "qing-china",
+    "joseon-korea"
+   ],
+   "concepts": [
+    "imperial-japanese-army",
+    "imperial-japanese-navy"
+   ],
+   "wiki": "First Sino-Japanese War",
+   "major": true
+  },
+  {
+   "id": "shimonoseki-treaty",
+   "date": "1895-04-17",
+   "lane": "world",
+   "title": "Treaty of Shimonoseki and the Triple Intervention",
+   "summary": "China recognises Korea's independence, cedes Taiwan and the Liaodong Peninsula and pays a huge indemnity. Six days later Russia, Germany and France force Japan to give back Liaodong — which Russia then leases for itself. The humiliation fuels a decade of naval and military build-up.",
+   "people": [
+    "ito-hirobumi",
+    "mutsu-munemitsu",
+    "li-hongzhang"
+   ],
+   "places": [
+    "shimonoseki",
+    "taiwan",
+    "liaodong"
+   ],
+   "polities": [
+    "qing-china",
+    "russian-empire"
+   ],
+   "wiki": "Treaty of Shimonoseki",
+   "major": true
+  },
+  {
+   "id": "gold-standard",
+   "date": "1897-10-01",
+   "lane": "political",
+   "title": "Japan joins the gold standard",
+   "summary": "Using the Chinese indemnity as reserves, Matsukata puts the yen on gold, linking Japan to the London capital market and making foreign borrowing cheaper.",
+   "people": [
+    "matsukata-masayoshi"
+   ],
+   "concepts": [
+    "yen"
+   ]
+  },
+  {
+   "id": "treaties-in-force",
+   "date": "1899-07-17",
+   "lane": "world",
+   "title": "Extraterritoriality ends",
+   "summary": "The revised treaties take effect: foreigners in Japan become subject to Japanese courts, and the treaty-port settlements are absorbed into Japanese cities.",
+   "places": [
+    "yokohama",
+    "nagasaki"
+   ],
+   "concepts": [
+    "extraterritoriality"
+   ]
+  },
+  {
+   "id": "yawata",
+   "date": "1901-02-05",
+   "lane": "forts",
+   "title": "Yawata Steel Works fires its first blast furnace",
+   "summary": "The state steelworks in northern Kyushu, built partly with the Chinese indemnity and near the Chikuhō coalfields, begins producing iron and steel for rails, ships and guns. Heavy industry joins textiles as a pillar of the economy.",
+   "places": [
+    "yawata"
+   ],
+   "concepts": [
+    "fukoku-kyohei"
+   ],
+   "wiki": "Yahata Steel Works",
+   "major": true
+  },
+  {
+   "id": "anglo-japanese-alliance",
+   "date": "1902-01-30",
+   "lane": "world",
+   "title": "Anglo-Japanese Alliance",
+   "summary": "Britain, the world's leading power, makes an alliance with Japan — its first with an Asian nation — aimed at Russia. If Japan fights one power, Britain stays neutral; if two, Britain joins.",
+   "people": [
+    "komura-jutaro",
+    "katsura-taro"
+   ],
+   "polities": [
+    "united-kingdom",
+    "russian-empire"
+   ],
+   "wiki": "Anglo-Japanese Alliance",
+   "major": true
+  },
+  {
+   "id": "russo-japanese-war",
+   "date": "1904-02-08",
+   "end": "1905-09-05",
+   "lane": "military",
+   "title": "Russo-Japanese War",
+   "summary": "Japan strikes the Russian fleet at Port Arthur. General Nogi takes the fortress after a costly siege, the armies meet at Mukden in one of the largest battles before 1914, and Admiral Tōgō destroys Russia's Baltic Fleet at Tsushima in May 1905. An Asian nation has defeated a European great power, to wide excitement across Asia.",
+   "people": [
+    "togo-heihachiro",
+    "nogi-maresuke",
+    "nicholas-ii"
+   ],
+   "places": [
+    "port-arthur",
+    "mukden",
+    "tsushima-strait"
+   ],
+   "polities": [
+    "russian-empire"
+   ],
+   "concepts": [
+    "imperial-japanese-navy",
+    "imperial-japanese-army"
+   ],
+   "wiki": "Russo-Japanese War",
+   "major": true
+  },
+  {
+   "id": "tsushima",
+   "date": "1905-05-27",
+   "lane": "military",
+   "title": "Battle of Tsushima",
+   "summary": "Tōgō Heihachirō's fleet annihilates the Russian Baltic Fleet after its voyage halfway round the world, losing only three torpedo boats. It is one of the most complete naval victories in history.",
+   "people": [
+    "togo-heihachiro"
+   ],
+   "places": [
+    "tsushima-strait"
+   ],
+   "polities": [
+    "russian-empire"
+   ],
+   "concepts": [
+    "imperial-japanese-navy"
+   ],
+   "wiki": "Battle of Tsushima"
+  },
+  {
+   "id": "portsmouth",
+   "date": "1905-09-05",
+   "lane": "world",
+   "title": "Treaty of Portsmouth",
+   "summary": "Mediated by Theodore Roosevelt, Russia hands Japan the Port Arthur lease, the southern Manchurian railway and southern Sakhalin, and recognises Japan's interests in Korea. There is no indemnity, and angry crowds riot in Tokyo's Hibiya Park.",
+   "people": [
+    "theodore-roosevelt",
+    "komura-jutaro"
+   ],
+   "places": [
+    "portsmouth-nh",
+    "sakhalin",
+    "port-arthur",
+    "tokyo"
+   ],
+   "polities": [
+    "russian-empire",
+    "united-states"
+   ],
+   "concepts": [
+    "south-manchuria-railway"
+   ],
+   "wiki": "Treaty of Portsmouth"
+  },
+  {
+   "id": "korea-protectorate",
+   "date": "1905-11-17",
+   "lane": "world",
+   "title": "Korea made a protectorate",
+   "summary": "Japan takes control of Korea's foreign affairs, and Itō Hirobumi becomes the first Resident-General in Seoul.",
+   "people": [
+    "ito-hirobumi"
+   ],
+   "places": [
+    "seoul"
+   ],
+   "polities": [
+    "korean-empire"
+   ],
+   "wiki": "Japan–Korea Treaty of 1905"
+  },
+  {
+   "id": "railway-nationalisation",
+   "date": "1906-03",
+   "lane": "forts",
+   "title": "Main railways nationalised",
+   "summary": "The government buys up seventeen private lines to create a national network of about 7,000 km, and the South Manchuria Railway Company is formed to run the lines won from Russia.",
+   "concepts": [
+    "south-manchuria-railway"
+   ],
+   "wiki": "Japanese Government Railways"
+  },
+  {
+   "id": "ito-killed",
+   "date": "1909-10-26",
+   "lane": "life",
+   "title": "Itō Hirobumi assassinated at Harbin",
+   "summary": "The four-time prime minister and author of the constitution is shot on the station platform at Harbin by the Korean nationalist An Jung-geun.",
+   "people": [
+    "ito-hirobumi",
+    "an-jung-geun"
+   ],
+   "places": [
+    "harbin"
+   ],
+   "polities": [
+    "korean-empire"
+   ],
+   "wiki": "Assassination of Itō Hirobumi"
+  },
+  {
+   "id": "annexation",
+   "date": "1910-08-22",
+   "lane": "world",
+   "title": "Annexation of Korea",
+   "summary": "Korea is annexed and ruled by a Japanese governor-general until 1945. With Taiwan, southern Sakhalin and Kwantung, Japan is now a colonial empire.",
+   "places": [
+    "seoul"
+   ],
+   "polities": [
+    "korean-empire"
+   ],
+   "wiki": "Japan–Korea Treaty of 1910",
+   "major": true
+  },
+  {
+   "id": "tariff-autonomy",
+   "date": "1911-02-21",
+   "lane": "world",
+   "title": "Tariff autonomy regained",
+   "summary": "Foreign Minister Komura Jutarō signs a new treaty with the United States, followed by the other powers, restoring Japan's right to set its own customs duties. The last of the unequal treaties is gone — the goal set in 1858 is reached.",
+   "people": [
+    "komura-jutaro"
+   ],
+   "polities": [
+    "united-states"
+   ],
+   "concepts": [
+    "unequal-treaties"
+   ],
+   "major": true
+  },
+  {
+   "id": "meiji-dies",
+   "date": "1912-07-30",
+   "lane": "life",
+   "title": "Death of Emperor Meiji",
+   "summary": "The emperor dies at 59 after a reign that took Japan from feudal isolation to a constitutional, industrial great power with an empire. His son becomes the Taishō Emperor. On the day of the funeral in September, General Nogi Maresuke and his wife take their own lives to follow their lord.",
+   "people": [
+    "emperor-meiji",
+    "nogi-maresuke"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "polities": [
+    "empire-of-japan"
+   ],
+   "wiki": "Emperor Meiji",
+   "major": true
+  }
+ ]
+}

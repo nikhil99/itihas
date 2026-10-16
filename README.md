@@ -63,6 +63,7 @@ titles, places with no coordinates) so mistakes surface right away.
 |---|---|
 | `subject` | entity whose portrait and summary head the page |
 | `series`, `order` | groups timelines on the home page and drives the ← → links (`order: 0` = the series overview) |
+| `region` | defaults to `India`; any other value (e.g. `Japan`) gets its own home-page section and stays out of the Indian river, "On this day" and series lists |
 | `range` | initial visible years |
 | `focus` | `[from, to]` years to shade (defaults to the subject's lifespan) |
 | `intro` | optional text replacing the Wikipedia summary in the header |
