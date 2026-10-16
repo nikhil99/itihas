@@ -93,6 +93,8 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
 .tl-card p { margin: 0; color: var(--muted); font-size: 13px; }
 .series { margin-bottom: 28px; }
 .series-title { font: 600 20px var(--serif); margin: 0 0 12px; }
+.region { border-top: 1px solid var(--line); padding-top: 20px; }
+.region .block-hint { font-family: inherit; font-weight: 400; margin-left: 10px; }
 .tl-card.overview { border-color: var(--accent); background: linear-gradient(90deg, var(--accent-soft), var(--surface) 60%); }
 .series-nav {
   display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: -6px 0 18px;

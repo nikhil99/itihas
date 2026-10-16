@@ -1,6 +1,7 @@
 {
  "id": "meiji-restoration",
  "kind": "empire",
+ "region": "Japan",
  "order": 0,
  "title": "The Meiji Restoration",
  "subtitle": "How Japan modernised · 1853 – 1912",

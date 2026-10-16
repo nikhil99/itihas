@@ -120,11 +120,14 @@ const go = (hash) => { if (location.hash !== hash) location.hash = hash; else ro
 // ---------- Home ----------
 async function renderHome() {
   state.tl = null;
-  const [index, entities, search] = await Promise.all([load("data/index.json"), load("data/entities.json"),
+  const [all, entities, search] = await Promise.all([load("data/index.json"), load("data/entities.json"),
     loadOptional("data/search.json", { entities: [], events: [] })]);
   state.entities = entities;
-  state.subjectTimeline = Object.fromEntries(index.map((t) => [t.subject, t.id]));
+  state.subjectTimeline = Object.fromEntries(all.map((t) => [t.subject, t.id]));
   document.title = "Itihas — Indian History Timelines";
+  // Timelines outside India (content: "region": "Japan") get their own section and stay out of
+  // the Indian river, "On this day" and series lists.
+  const index = all.filter((t) => t.region === "India");
   // Placeholders for planned timelines; any that now exist drop out automatically.
   const norm = (t) => t.toLowerCase().replace(/^the\s+/, "").replace(/\s+empire$/, "");
   const existing = new Set(index.map((t) => norm(t.title)));
@@ -136,6 +139,8 @@ async function renderHome() {
       subj?.thumb && el("img", { src: subj.thumb, alt: "" }),
       el("div", {}, el("h3", {}, t.title), el("p", {}, t.subtitle), el("p", {}, `${t.events} events`)));
   };
+  const indianIds = new Set(index.map((t) => t.id));
+  const regions = [...new Set(all.map((t) => t.region).filter((r) => r !== "India"))];
   const empires = index.filter((t) => t.kind === "empire").sort((a, b) => a.order - b.order);
   const series = [...new Set(index.filter((t) => t.kind !== "empire").map((t) => t.series || "Other"))];
   const uniqueEvents = new Set(search.events.map((e) => `${e.d}|${e.t}`)).size;
@@ -154,14 +159,14 @@ async function renderHome() {
         el("p", { class: "lead" }, "Explore people, empires and places on interactive timelines. Every name is a link; summaries and portraits come from Wikipedia."),
         searchBox,
         el("p", { class: "stats" },
-          el("b", {}, index.length), " timelines · ", el("b", {}, search.entities.length), " people, places & powers · ",
+          el("b", {}, all.length), " timelines · ", el("b", {}, search.entities.length), " people, places & powers · ",
           el("b", {}, uniqueEvents), " events")),
       el("section", { class: "home-block" },
         el("div", { class: "block-head" }, el("h2", {}, "All of it, at a glance"),
           el("span", { class: "block-hint" }, "Hover to see which empires coexisted · click to open · drag or ⌘/Ctrl+scroll to move and zoom")),
         riverBox),
       el("div", { class: "home-two" },
-        el("section", { class: "home-block" }, onThisDay(search, index)),
+        el("section", { class: "home-block" }, onThisDay({ ...search, events: search.events.filter((e) => indianIds.has(e.tl)) }, index)),
         el("section", { class: "home-block" }, featuredComparisons(index, entities))),
       empires.length ? el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Empires"),
@@ -173,9 +178,12 @@ async function renderHome() {
       upcoming.length ? el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Coming later"),
         el("div", { class: "cards" }, upcoming.map((u) => el("div", { class: "tl-card soon" }, el("div", {}, el("h3", {}, u), el("p", {}, "Not started yet")))))) : null,
+      regions.map((r) => el("div", { class: "series region" },
+        el("h2", { class: "series-title" }, r, el("span", { class: "block-hint" }, "Beyond India")),
+        el("div", { class: "cards" }, all.filter((t) => t.region === r).sort((a, b) => a.order - b.order).map(card)))),
     ),
   );
-  setupSearch(searchBox, search, index);
+  setupSearch(searchBox, search, all);
   setupRiver(riverBox, index, entities);
 }
 
@@ -760,9 +768,12 @@ async function buildCompare(key, index, ents) {
 function compareHero(tl, index, ents) {
   const chosen = tl.compare.map((t) => t.id);
   const goTo = (list) => go(`#/compare/${list.filter(Boolean).join(",")}`);
-  const groups = [["Empires", index.filter((t) => t.kind === "empire")],
-    ...[...new Set(index.filter((t) => t.kind !== "empire").map((t) => t.series || "Other"))]
-      .map((sname) => [sname, index.filter((t) => t.kind !== "empire" && (t.series || "Other") === sname)])];
+  const indian = index.filter((t) => t.region === "India");
+  const groups = [["Empires", indian.filter((t) => t.kind === "empire")],
+    ...[...new Set(indian.filter((t) => t.kind !== "empire").map((t) => t.series || "Other"))]
+      .map((sname) => [sname, indian.filter((t) => t.kind !== "empire" && (t.series || "Other") === sname)]),
+    ...[...new Set(index.map((t) => t.region).filter((r) => r !== "India"))]
+      .map((r) => [r, index.filter((t) => t.region === r)])];
   const picker = (slot) => {
     const sel = el("select", { class: "cmp-select", "aria-label": `Timeline ${slot + 1}`,
       onchange: (e) => { const next = [...chosen]; next[slot] = e.target.value; goTo(next); } },
@@ -799,12 +810,14 @@ function compareHero(tl, index, ents) {
 // question plus what this page knows (dates, description, key events) as grounding context.
 const AI_TARGETS = [["Claude", "https://claude.ai/new?q="], ["ChatGPT", "https://chatgpt.com/?q="]];
 const AI_SUGGEST = {
-  person: (n) => [`Why is ${n} important in Indian history?`, `What were ${n}'s greatest achievements and failures?`, `How do historians view ${n} today?`],
+  person: (n) => [`Why is ${n} important in ${historyOf()}?`, `What were ${n}'s greatest achievements and failures?`, `How do historians view ${n} today?`],
   polity: (n) => [`Why did the ${n} rise and fall?`, `How was the ${n} governed and financed?`, `What was life like for ordinary people under the ${n}?`],
   place: (n) => [`What happened at ${n}, and why did it matter?`, `What is there to see at ${n} today?`],
   concept: (n) => [`Explain ${n} in simple terms.`, `How did ${n} work in practice?`],
   compare: () => ["How did these powers interact with each other?", "Who was stronger, and when did that change?", "What did each one inherit from the others?"],
 };
+const REGION_ADJ = { India: "Indian", Japan: "Japanese" };
+const historyOf = () => { const r = state.tl?.region || "India"; return REGION_ADJ[r] ? `${REGION_ADJ[r]} history` : `the history of ${r}`; };
 const evLine = (ev) => `${fmtDate(ev.date, ev.approx)}: ${ev.title}`;
 
 function askAI({ subject, type, context }) {
@@ -813,7 +826,7 @@ function askAI({ subject, type, context }) {
   const input = el("input", { class: "ask-input", type: "text", placeholder: "Type a question…", "aria-label": `Question about ${subject}` });
   const send = ([, base]) => {
     const q = input.value.trim() || suggestions[0];
-    let prompt = `I'm exploring Indian history on Itihas (itihas.vokalglobe.com), looking at: ${subject}.\n\nBackground from the site:\n${context}`;
+    let prompt = `I'm exploring ${historyOf()} on Itihas (itihas.vokalglobe.com), looking at: ${subject}.\n\nBackground from the site:\n${context}`;
     const tail = `\n\nMy question: ${q}\n\nPlease answer as a careful historian: give dates, say where sources or historians disagree, and suggest further reading.`;
     prompt = prompt.slice(0, 1800 - tail.length) + tail; // keep the URL a safe length
     window.open(base + encodeURIComponent(prompt), "_blank", "noopener");
