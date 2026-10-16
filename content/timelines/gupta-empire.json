@@ -1,0 +1,763 @@
+{
+ "id": "gupta-empire",
+ "kind": "empire",
+ "order": 0,
+ "title": "The Gupta Empire",
+ "subtitle": "The classical age of north India · c. 240 – 550",
+ "subject": "gupta-empire",
+ "range": [
+  220,
+  580
+ ],
+ "focus": [
+  319.1,
+  550
+ ],
+ "intro": "From a small kingdom in Magadha, Chandragupta I and his son Samudragupta built an empire across north India in the 4th century; Chandragupta II carried it to the Arabian Sea. Under Gupta rule Sanskrit literature, sculpture, temple architecture, mathematics and astronomy flourished — the age of Kalidasa, Aryabhata, the Ajanta-era art and the founding of Nalanda — and it is often called India's classical or golden age. Hun invasions, rival claimants and powerful governors broke the empire apart by the mid-6th century.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Temples, art & building"
+  },
+  {
+   "id": "political",
+   "label": "State, learning & faith"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Emperors",
+   "members": [
+    {
+     "entity": "sri-gupta",
+     "from": 240,
+     "to": 280,
+     "group": "gupta-empire",
+     "note": "Founder; known only from later inscriptions and the pilgrim Yijing"
+    },
+    {
+     "entity": "ghatotkacha-gupta",
+     "from": 280,
+     "to": 319,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "chandragupta-i",
+     "from": 319,
+     "to": 335,
+     "group": "gupta-empire",
+     "note": "First to take the title Maharajadhiraja, 'great king of kings'"
+    },
+    {
+     "entity": "samudragupta",
+     "from": 335,
+     "to": 375,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "ramagupta",
+     "from": 375,
+     "to": 380,
+     "group": "gupta-empire",
+     "note": "Historicity once doubted; now attested by coins and Vidisha inscriptions"
+    },
+    {
+     "entity": "chandragupta-ii",
+     "from": 380,
+     "to": 415,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "kumaragupta-i",
+     "from": 415,
+     "to": 455,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "skandagupta",
+     "from": 455,
+     "to": 467,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "purugupta",
+     "from": 467,
+     "to": 473,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "kumaragupta-ii",
+     "from": 473,
+     "to": 476,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "budhagupta",
+     "from": 476,
+     "to": 495,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "narasimhagupta",
+     "from": 495,
+     "to": 530,
+     "group": "gupta-empire",
+     "note": "Rival kings Vainyagupta and Bhanugupta held parts of the realm c. 507–510"
+    },
+    {
+     "entity": "kumaragupta-iii",
+     "from": 530,
+     "to": 540,
+     "group": "gupta-empire"
+    },
+    {
+     "entity": "vishnugupta-gupta",
+     "from": 540,
+     "to": 550,
+     "group": "gupta-empire",
+     "note": "Last recognised Gupta emperor"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "kushan-empire",
+   "label": "Kushans (late)",
+   "from": 220,
+   "to": 375
+  },
+  {
+   "entity": "western-satraps",
+   "label": "Western Satraps",
+   "from": 220,
+   "to": 409
+  },
+  {
+   "entity": "vakataka",
+   "label": "Vakatakas",
+   "from": 250,
+   "to": 500
+  },
+  {
+   "entity": "pallava",
+   "label": "Pallavas",
+   "from": 275,
+   "to": 580
+  },
+  {
+   "entity": "kidarites",
+   "label": "Kidarites",
+   "from": 350,
+   "to": 500
+  },
+  {
+   "entity": "alchon-huns",
+   "label": "Alchon Huns",
+   "from": 400,
+   "to": 580
+  },
+  {
+   "entity": "sasanian",
+   "label": "Sasanian Persia",
+   "from": 224,
+   "to": 580
+  },
+  {
+   "entity": "maukhari",
+   "label": "Maukharis",
+   "from": 510,
+   "to": 580
+  }
+ ],
+ "events": [
+  {
+   "id": "sri-gupta",
+   "date": "0240",
+   "lane": "life",
+   "title": "Sri Gupta founds the dynasty",
+   "summary": "Sri Gupta, a minor king somewhere in Magadha or Bengal, founds the line. The Chinese pilgrim Yijing later records that a king 'Che-li-ki-to' built a temple for Chinese monks five hundred years before his visit.",
+   "people": [
+    "sri-gupta"
+   ],
+   "polities": [
+    "gupta-empire"
+   ],
+   "approx": true
+  },
+  {
+   "id": "ghatotkacha",
+   "date": "0280",
+   "lane": "life",
+   "title": "Ghatotkacha succeeds",
+   "summary": "Sri Gupta's son Ghatotkacha rules a small kingdom; like his father he is styled only Maharaja.",
+   "people": [
+    "ghatotkacha-gupta"
+   ],
+   "approx": true
+  },
+  {
+   "id": "chandragupta-i",
+   "date": "0319",
+   "lane": "life",
+   "title": "Chandragupta I takes the imperial title",
+   "summary": "Chandragupta I calls himself Maharajadhiraja, 'great king of kings', and extends Gupta rule over Magadha, Prayaga and Saketa. The Gupta era, used to date inscriptions for centuries, is counted from 319–320.",
+   "people": [
+    "chandragupta-i"
+   ],
+   "places": [
+    "pataliputra"
+   ],
+   "polities": [
+    "gupta-empire"
+   ],
+   "concepts": [
+    "gupta-era"
+   ],
+   "wiki": "Chandragupta I",
+   "major": true
+  },
+  {
+   "id": "licchavi-marriage",
+   "date": "0320",
+   "lane": "political",
+   "title": "Marriage with the Licchavi princess Kumaradevi",
+   "summary": "Chandragupta I marries Kumaradevi of the ancient Licchavi clan. Gold coins show the king and queen together, and Samudragupta proudly calls himself 'son of the daughter of the Licchavis'.",
+   "people": [
+    "chandragupta-i",
+    "kumaradevi",
+    "samudragupta"
+   ],
+   "polities": [
+    "licchavi"
+   ],
+   "approx": true
+  },
+  {
+   "id": "samudragupta",
+   "date": "0335",
+   "lane": "life",
+   "title": "Samudragupta succeeds",
+   "summary": "The Allahabad inscription says Chandragupta I embraced Samudragupta before the court and chose him as heir over other princes.",
+   "people": [
+    "samudragupta",
+    "chandragupta-i"
+   ],
+   "wiki": "Samudragupta",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "aryavarta-campaigns",
+   "date": "0340",
+   "end": "0350",
+   "lane": "military",
+   "title": "Conquests in the north (Aryavarta)",
+   "summary": "Samudragupta 'violently uproots' nine kings of the Ganges plain and annexes their lands. Forest chiefs of central India become his servants, and frontier states from Samatata to Nepal pay tribute.",
+   "people": [
+    "samudragupta"
+   ],
+   "polities": [
+    "gupta-empire"
+   ],
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "dakshinapatha",
+   "date": "0350",
+   "lane": "military",
+   "title": "Southern expedition",
+   "summary": "Samudragupta marches down the east coast as far as Kanchi, defeating twelve southern kings including Vishnugopa the Pallava. He captures them and then reinstates them as tributaries rather than annexing their lands.",
+   "people": [
+    "samudragupta",
+    "vishnugopa"
+   ],
+   "places": [
+    "kanchipuram"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "approx": true
+  },
+  {
+   "id": "allahabad-prashasti",
+   "date": "0360",
+   "lane": "political",
+   "title": "Harisena's Allahabad Pillar inscription",
+   "summary": "The court poet Harisena carves a eulogy of Samudragupta onto an Ashokan pillar at Prayaga. It is the main source for the reign: conquests, tributaries, and the king's skill in poetry and music.",
+   "people": [
+    "harishena-poet",
+    "samudragupta"
+   ],
+   "places": [
+    "allahabad-pillar",
+    "allahabad"
+   ],
+   "wiki": "Allahabad pillar",
+   "approx": true
+  },
+  {
+   "id": "ashvamedha",
+   "date": "0365",
+   "lane": "political",
+   "title": "Samudragupta's horse sacrifice",
+   "summary": "Samudragupta performs the ancient Vedic ashvamedha to proclaim universal sovereignty, and issues gold coins showing the sacrificial horse.",
+   "people": [
+    "samudragupta"
+   ],
+   "concepts": [
+    "ashvamedha"
+   ],
+   "approx": true
+  },
+  {
+   "id": "ramagupta",
+   "date": "0375",
+   "lane": "life",
+   "title": "Ramagupta and the Devichandraguptam story",
+   "summary": "According to the play Devichandraguptam, the weak Ramagupta agreed to surrender his queen Dhruvadevi to a Shaka king. His brother Chandragupta went to the Shaka camp disguised as the queen, killed the king, and later replaced Ramagupta and married Dhruvadevi. Coins and Jain images from Vidisha confirm that Ramagupta existed.",
+   "people": [
+    "ramagupta",
+    "chandragupta-ii",
+    "dhruvadevi"
+   ],
+   "places": [
+    "vidisha"
+   ],
+   "polities": [
+    "western-satraps"
+   ],
+   "concepts": [
+    "devichandraguptam"
+   ],
+   "approx": true
+  },
+  {
+   "id": "chandragupta-ii",
+   "date": "0380",
+   "lane": "life",
+   "title": "Chandragupta II Vikramaditya",
+   "summary": "Chandragupta II takes the throne. Under him the empire reaches its height, and later legend remembers him as the wise king Vikramaditya.",
+   "people": [
+    "chandragupta-ii"
+   ],
+   "polities": [
+    "gupta-empire"
+   ],
+   "wiki": "Chandragupta II",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "vakataka-alliance",
+   "date": "0385",
+   "lane": "political",
+   "title": "Alliance with the Vakatakas",
+   "summary": "Chandragupta II marries his daughter Prabhavatigupta to the Vakataka king Rudrasena II. After Rudrasena's early death she rules the Deccan kingdom as regent, making it a close Gupta ally.",
+   "people": [
+    "chandragupta-ii",
+    "prabhavatigupta",
+    "rudrasena-ii"
+   ],
+   "polities": [
+    "vakataka"
+   ],
+   "approx": true
+  },
+  {
+   "id": "western-satraps",
+   "date": "0395",
+   "end": "0409",
+   "lane": "military",
+   "title": "Conquest of the Western Satraps",
+   "summary": "Chandragupta II overthrows Rudrasimha III and annexes Malwa, Gujarat and Saurashtra, ending three centuries of Shaka rule. The empire now reaches the Arabian Sea and its ports, and he issues silver coins for the new provinces.",
+   "people": [
+    "chandragupta-ii",
+    "rudrasimha-iii"
+   ],
+   "places": [
+    "ujjain",
+    "gujarat",
+    "malwa"
+   ],
+   "polities": [
+    "western-satraps"
+   ],
+   "wiki": "Western Satraps",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "iron-pillar",
+   "date": "0400",
+   "lane": "forts",
+   "title": "The Iron Pillar",
+   "summary": "A seven-metre wrought-iron pillar is raised for Vishnu by a king called Chandra, probably Chandragupta II. It has barely rusted in sixteen centuries and now stands in Delhi's Qutb complex.",
+   "people": [
+    "chandragupta-ii"
+   ],
+   "places": [
+    "iron-pillar"
+   ],
+   "wiki": "Iron pillar of Delhi",
+   "approx": true
+  },
+  {
+   "id": "udayagiri",
+   "date": "0401",
+   "lane": "forts",
+   "title": "Udayagiri caves and the Varaha panel",
+   "summary": "Rock-cut shrines near Vidisha are dedicated during Chandragupta II's reign; one inscription is dated 401. The great relief of Vishnu's boar avatar, Varaha, lifting the earth is a landmark of Gupta sculpture.",
+   "people": [
+    "chandragupta-ii"
+   ],
+   "places": [
+    "udayagiri-caves",
+    "vidisha"
+   ],
+   "wiki": "Udayagiri Caves"
+  },
+  {
+   "id": "kalidasa",
+   "date": "0400",
+   "lane": "political",
+   "title": "Kalidasa, the greatest Sanskrit poet",
+   "summary": "Kalidasa, traditionally one of the 'Nine Gems' at Vikramaditya's court, probably wrote around this time. His works include the play Abhijnanashakuntalam and the poem Meghaduta, in which a cloud carries a message across India.",
+   "people": [
+    "kalidasa",
+    "chandragupta-ii"
+   ],
+   "concepts": [
+    "shakuntala",
+    "meghaduta",
+    "navaratnas"
+   ],
+   "wiki": "Kalidasa",
+   "approx": true
+  },
+  {
+   "id": "faxian",
+   "date": "0405",
+   "end": "0411",
+   "lane": "world",
+   "title": "The Chinese pilgrim Faxian",
+   "summary": "The monk Faxian travels through the Gupta lands collecting Buddhist texts. He describes a peaceful, prosperous country with light taxes, free hospitals in Pataliputra and few harsh punishments.",
+   "people": [
+    "faxian"
+   ],
+   "places": [
+    "pataliputra"
+   ],
+   "wiki": "Faxian",
+   "approx": true
+  },
+  {
+   "id": "kumaragupta-i",
+   "date": "0415",
+   "lane": "life",
+   "title": "Kumaragupta I succeeds",
+   "summary": "Chandragupta II's son Kumaragupta I rules for forty years of mostly peaceful prosperity, and performs a horse sacrifice of his own.",
+   "people": [
+    "kumaragupta-i"
+   ],
+   "wiki": "Kumaragupta I"
+  },
+  {
+   "id": "nalanda",
+   "date": "0427",
+   "lane": "political",
+   "title": "Nalanda founded",
+   "summary": "Nalanda monastery is founded, traditionally by Kumaragupta I (Shakraditya). It grows into the greatest university of ancient Asia, with thousands of students, until its destruction around 1200.",
+   "people": [
+    "kumaragupta-i"
+   ],
+   "places": [
+    "nalanda"
+   ],
+   "wiki": "Nalanda mahavihara",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "pushyamitras",
+   "date": "0450",
+   "lane": "military",
+   "title": "Crisis at the end of Kumaragupta's reign",
+   "summary": "The Bhitari inscription says the dynasty's fortunes 'tottered' when the Pushyamitras and others attacked. Prince Skandagupta spent a night on the bare ground before restoring the situation.",
+   "people": [
+    "kumaragupta-i",
+    "skandagupta"
+   ],
+   "places": [
+    "bhitari"
+   ],
+   "approx": true
+  },
+  {
+   "id": "skandagupta",
+   "date": "0455",
+   "lane": "life",
+   "title": "Skandagupta succeeds",
+   "summary": "Skandagupta takes the throne, possibly after a succession fight with his brother Purugupta.",
+   "people": [
+    "skandagupta",
+    "purugupta"
+   ],
+   "wiki": "Skandagupta",
+   "approx": true
+  },
+  {
+   "id": "huna-war",
+   "date": "0456",
+   "lane": "military",
+   "title": "Skandagupta defeats the Hunas",
+   "summary": "Central Asian Huns invade from the north-west. Skandagupta defeats them, a victory celebrated in the Bhitari pillar inscription, and keeps them out of India for a generation.",
+   "people": [
+    "skandagupta"
+   ],
+   "places": [
+    "bhitari"
+   ],
+   "polities": [
+    "kidarites",
+    "alchon-huns"
+   ],
+   "wiki": "Bhitari pillar inscription of Skandagupta",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "sudarshana-lake",
+   "date": "0456",
+   "end": "0457",
+   "lane": "forts",
+   "title": "The Sudarshana lake dam is rebuilt",
+   "summary": "A dam near Girnar, first built under the Mauryas, bursts in a storm. Skandagupta's governor Parnadatta and his son Chakrapalita rebuild it, recording the work on the same rock as Ashoka's edicts.",
+   "people": [
+    "skandagupta",
+    "parnadatta"
+   ],
+   "places": [
+    "junagadh"
+   ],
+   "approx": true
+  },
+  {
+   "id": "bhitargaon",
+   "date": "0460",
+   "lane": "forts",
+   "title": "Bhitargaon brick temple",
+   "summary": "A tall temple of moulded brick and terracotta panels is built at Bhitargaon. Gupta temples like it and Deogarh are among the earliest free-standing Hindu temples to survive.",
+   "places": [
+    "bhitargaon"
+   ],
+   "wiki": "Bhitargaon",
+   "approx": true
+  },
+  {
+   "id": "ajanta",
+   "date": "0460",
+   "end": "0480",
+   "lane": "world",
+   "title": "Vakataka Ajanta caves",
+   "summary": "Under the Vakataka king Harishena, the Gupta allies in the Deccan, the second phase of the Ajanta caves is excavated and painted with the finest surviving murals of ancient India.",
+   "people": [
+    "harishena-vakataka"
+   ],
+   "places": [
+    "ajanta"
+   ],
+   "polities": [
+    "vakataka"
+   ],
+   "wiki": "Ajanta Caves",
+   "approx": true
+  },
+  {
+   "id": "skandagupta-dies",
+   "date": "0467",
+   "lane": "life",
+   "title": "Skandagupta dies",
+   "summary": "After Skandagupta, short reigns follow: Purugupta, then Kumaragupta II. The central government weakens.",
+   "people": [
+    "skandagupta",
+    "purugupta",
+    "kumaragupta-ii"
+   ],
+   "approx": true
+  },
+  {
+   "id": "rome-falls",
+   "date": "0476",
+   "lane": "world",
+   "title": "The Western Roman Empire ends",
+   "summary": "Odoacer deposes the last emperor in Rome. Gold from Roman trade with India had helped fund the Gupta gold coinage.",
+   "polities": [
+    "western-roman-empire"
+   ],
+   "wiki": "Fall of the Western Roman Empire"
+  },
+  {
+   "id": "budhagupta",
+   "date": "0476",
+   "lane": "life",
+   "title": "Budhagupta, the last strong emperor",
+   "summary": "Budhagupta rules for about twenty years, from Bengal to Malwa, and is the last Gupta whose authority is recognised across the empire.",
+   "people": [
+    "budhagupta"
+   ],
+   "wiki": "Budhagupta",
+   "approx": true
+  },
+  {
+   "id": "hephthalites-persia",
+   "date": "0484",
+   "lane": "world",
+   "title": "The Huns defeat Persia",
+   "summary": "The Hephthalites kill the Sasanian king Peroz in battle and make Persia pay tribute. Huna power is now at its height on India's frontier.",
+   "polities": [
+    "hephthalites",
+    "sasanian"
+   ]
+  },
+  {
+   "id": "deogarh",
+   "date": "0500",
+   "lane": "forts",
+   "title": "Dashavatara Temple, Deogarh",
+   "summary": "The stone temple to Vishnu at Deogarh is built, with carved panels of Vishnu sleeping on the serpent Shesha. It is one of the earliest Hindu temples with a tower.",
+   "places": [
+    "deogarh-temple"
+   ],
+   "wiki": "Dashavatara Temple, Deogarh",
+   "approx": true
+  },
+  {
+   "id": "aryabhata",
+   "date": "0499",
+   "lane": "political",
+   "title": "Aryabhata writes the Aryabhatiya",
+   "summary": "Aged 23, Aryabhata of Kusumapura (Pataliputra) writes the Aryabhatiya. It uses a place-value system, gives pi as 3.1416, and argues that the earth turns on its axis.",
+   "people": [
+    "aryabhata"
+   ],
+   "places": [
+    "pataliputra"
+   ],
+   "concepts": [
+    "aryabhatiya"
+   ],
+   "wiki": "Aryabhata",
+   "major": true
+  },
+  {
+   "id": "toramana",
+   "date": "0500",
+   "lane": "military",
+   "title": "Toramana's Huns take Malwa",
+   "summary": "The Alchon Hun king Toramana conquers the western provinces as far as Malwa. His inscription appears on a great boar statue at Eran.",
+   "people": [
+    "toramana"
+   ],
+   "places": [
+    "eran",
+    "malwa"
+   ],
+   "polities": [
+    "alchon-huns"
+   ],
+   "wiki": "Toramana",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "eran-510",
+   "date": "0510",
+   "lane": "military",
+   "title": "Battle of Eran",
+   "summary": "Bhanugupta fights at Eran, where his general Goparaja is killed. Goparaja's wife's death on his funeral pyre is the earliest dated record of sati.",
+   "people": [
+    "bhanugupta",
+    "goparaja"
+   ],
+   "places": [
+    "eran"
+   ],
+   "polities": [
+    "alchon-huns"
+   ],
+   "concepts": [
+    "sati"
+   ]
+  },
+  {
+   "id": "mihirakula",
+   "date": "0515",
+   "lane": "military",
+   "title": "Mihirakula",
+   "summary": "Toramana's son Mihirakula rules from Sialkot. Buddhist sources remember him as a destroyer of monasteries.",
+   "people": [
+    "mihirakula"
+   ],
+   "polities": [
+    "alchon-huns"
+   ],
+   "wiki": "Mihirakula",
+   "approx": true
+  },
+  {
+   "id": "sondani",
+   "date": "0528",
+   "lane": "military",
+   "title": "The Hunas are driven out",
+   "summary": "Yashodharman of Mandsaur, an Aulikara king, defeats Mihirakula. Narasimhagupta is also credited with defeating him. Yashodharman's victory pillars at Sondani claim that Mihirakula bowed at his feet.",
+   "people": [
+    "yashodharman",
+    "mihirakula",
+    "narasimhagupta"
+   ],
+   "places": [
+    "mandsaur"
+   ],
+   "polities": [
+    "aulikara",
+    "alchon-huns"
+   ],
+   "wiki": "Yashodharman",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "end",
+   "date": "0550",
+   "lane": "life",
+   "title": "End of the imperial Guptas",
+   "summary": "Vishnugupta is the last recognised emperor. The empire breaks into regional kingdoms: the Later Guptas in Magadha, the Maukharis at Kannauj and the Maitrakas at Valabhi. Harsha unites much of the north again sixty years later.",
+   "people": [
+    "vishnugupta-gupta"
+   ],
+   "polities": [
+    "gupta-empire",
+    "later-guptas",
+    "maukhari",
+    "maitraka"
+   ],
+   "major": true,
+   "approx": true
+  }
+ ]
+}
