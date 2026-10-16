@@ -24,6 +24,14 @@
     { "entity": "maratha-empire",       "label": "Maratha state (from 1674)",        "from": 1674, "to": 1818 }
   ],
   "events": [
+    {"id": "shringarpur", "date": "1677", "lane": "life", "title": "Sent to Shringarpur", "summary": "Amid quarrels at court, Shivaji posts Sambhaji to Shringarpur in the Konkan, away from Raigad.", "approx": true, "people": ["sambhaji", "shivaji"], "places": ["konkan"]},
+    {"id": "soyarabai-dies", "date": "1681", "lane": "life", "title": "Soyarabai dies", "summary": "Rajaram's mother, accused of plotting against Sambhaji, dies soon after the conspiracy is crushed.", "approx": true, "people": ["soyarabai", "sambhaji"], "places": ["raigad"]},
+    {"id": "kavi-kalash", "date": "1681", "lane": "political", "title": "Kavi Kalash at court", "summary": "Sambhaji's friend and minister Kavi Kalash, a Kanauji Brahmin poet, rises to great influence, resented by older officials.", "approx": true, "people": ["kavi-kalash", "sambhaji"], "places": ["raigad"]},
+    {"id": "goa-1683", "date": "1683-11", "lane": "military", "title": "At the gates of Goa", "summary": "Sambhaji's forces take the island of Santo Estêvão and threaten Goa itself; the Portuguese viceroy narrowly escapes.", "approx": true, "people": ["sambhaji"], "places": ["goa"], "polities": ["portuguese-india"]},
+    {"id": "muazzam-konkan", "date": "1684-01", "lane": "military", "title": "Mughal army in the Konkan", "summary": "Prince Muazzam's army forces its way into the Konkan, and Sambhaji must break off the Portuguese war.", "approx": true, "people": ["muazzam", "sambhaji"], "places": ["konkan"], "polities": ["mughal-empire"]},
+    {"id": "mysore-1686", "date": "1686", "lane": "military", "title": "Campaign against Mysore", "summary": "Maratha forces fight Chikka Devaraja Wodeyar of Mysore over the southern lands Shivaji had won.", "approx": true, "people": ["chikka-devaraja"], "polities": ["mysore-kingdom"]},
+    {"id": "kalash-executed", "date": "1689-03-11", "lane": "life", "title": "Kavi Kalash executed with him", "summary": "Captured with Sambhaji at Sangameshwar, Kavi Kalash is tortured and killed beside him at Tulapur.", "people": ["kavi-kalash", "sambhaji"], "places": ["tulapur"]},
+    {"id": "vadhu-samadhi", "date": "1689-03", "lane": "life", "title": "Samadhi at Vadhu Budruk", "summary": "Villagers of Vadhu Budruk gather Sambhaji's remains and cremate them; his samadhi stands there today.", "approx": true, "people": ["sambhaji"], "places": ["vadhu-budruk"]},
     {
       "id": "birth", "date": "1657-05-14", "lane": "life", "major": true,
       "title": "Birth at Purandar",
