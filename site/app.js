@@ -1043,7 +1043,11 @@ function setupTimeline(box) {
       return g;
     });
     const hasRulers = rulerRows.length > 0;
-    const eventsOpen = !hasRulers || state.expanded.events;
+    // Under ruler rows the events track starts collapsed, but opens by itself once the reader
+    // zooms in past half the range (unless they closed it) so detail keeps appearing.
+    const zoomedIn = span < (tl.range[1] - tl.range[0]) * 0.5;
+    // ("evTrack" is unset until the reader toggles it; the old "events" key was saved by default.)
+    const eventsOpen = !hasRulers || state.expanded.evTrack || (zoomedIn && state.expanded.evTrack !== false);
     const eventsHead = hasRulers ? ry : null;
     const mainTop = hasRulers ? eventsHead + HEAD_H : AXIS;
     const ctxHead = eventsOpen ? mainTop + MAIN_H : mainTop;
@@ -1321,7 +1325,7 @@ function setupTimeline(box) {
         s.append(t);
       }
     });
-    if (hasRulers) s.append(head(eventsHead, eventsOpen, `Key events (${tl.events.filter((e) => e.major).length})`, "events"));
+    if (hasRulers) s.append(head(eventsHead, eventsOpen, `Key events (${tl.events.filter((e) => e.major).length})`, "evTrack"));
     if (eventsOpen) rowLabel(main.shown < main.total ? "Key events" : "All events", mainMid - 2, 12);
     if (eventsOpen && main.total) {
       const hint = svg("text", { class: "row-hint", x: 12, y: mainMid + 14 });

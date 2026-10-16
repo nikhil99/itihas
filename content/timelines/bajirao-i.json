@@ -24,6 +24,11 @@
     { "entity": "ranoji-shinde",     "label": "Ranoji Shinde" }
   ],
   "events": [
+    {"id": "karnataka-1725", "date": "1725-11", "lane": "military", "title": "Expedition into Karnataka", "summary": "Bajirao's first southern expedition collects tribute from the chiefs of Chitradurga and Srirangapatna.", "approx": true, "people": ["bajirao"], "places": ["karnataka", "srirangapatna"]},
+    {"id": "mungi-shevgaon", "date": "1728-03-06", "lane": "political", "title": "Treaty of Mungi Shevgaon", "summary": "Beaten at Palkhed, the Nizam signs the Treaty of Mungi Shevgaon: he recognises Shahu as sole Chhatrapati and his right to chauth and sardeshmukhi in the Deccan.", "people": ["nizam-ul-mulk", "shahu", "bajirao"], "polities": ["hyderabad-state"], "concepts": ["treaty-mungi-shevgaon", "chauth"]},
+    {"id": "warna-1731", "date": "1731-04", "lane": "political", "title": "Treaty of Warna", "summary": "Shahu and Sambhaji II of Kolhapur settle their quarrel: the Bhonsle line is formally split into Satara and Kolhapur.", "approx": true, "people": ["shahu", "sambhaji-ii"], "places": ["kolhapur", "satara"], "polities": ["kolhapur-state"], "concepts": ["treaty-warna"]},
+    {"id": "doraha", "date": "1738-01", "lane": "political", "title": "Treaty of Doraha", "summary": "Trapped near Bhopal, the Nizam signs the Treaty of Doraha, promising to secure Malwa and the land between the Narmada and Chambal for the Marathas.", "people": ["nizam-ul-mulk", "bajirao"], "places": ["bhopal", "malwa"], "polities": ["hyderabad-state"], "concepts": ["treaty-doraha"]},
+    {"id": "nasir-jung", "date": "1740-02", "lane": "military", "title": "Last campaign: Nasir Jung", "summary": "Bajirao's final campaign forces the Nizam's son Nasir Jung to cede the districts of Handia and Khargone on the Narmada.", "approx": true, "people": ["bajirao"], "places": ["narmada"], "polities": ["hyderabad-state"]},
     {
       "id": "born", "date": "1700-08-18", "lane": "life", "major": true,
       "title": "Bajirao born",

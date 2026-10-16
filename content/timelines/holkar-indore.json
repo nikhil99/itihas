@@ -118,6 +118,18 @@
   }
  ],
  "events": [
+  {"id": "malharrao-born", "date": "1693-03-16", "lane": "life", "title": "Malharrao Holkar born", "summary": "Born to a family of shepherds at Hol near Jejuri, Malharrao rises as a cavalry commander under Bajirao I.", "people": ["malharrao-holkar"]},
+  {"id": "ahilyabai-born", "date": "1725-05-31", "lane": "life", "title": "Ahilyabai born at Chondi", "summary": "Ahilyabai, daughter of the village headman Mankoji Shinde, is born at Chondi near Jamkhed; Malharrao later chooses her as his son's bride.", "people": ["ahilyabai"], "places": ["chondi", "jamkhed"]},
+  {"id": "ahilyabai-marries", "date": "1733", "lane": "life", "title": "Ahilyabai marries Khanderao", "summary": "Eight-year-old Ahilyabai is married to Malharrao's son Khanderao.", "approx": true, "people": ["ahilyabai", "khanderao-holkar", "malharrao-holkar"]},
+  {"id": "malhar-ii-killed", "date": "1797-09", "lane": "political", "title": "Succession war after Tukoji", "summary": "Tukoji's sons fight over the throne; Daulatrao Shinde backs Kashi Rao and his troops kill the rival claimant Malhar Rao.", "approx": true, "people": ["kashi-rao-holkar", "daulatrao-shinde", "yashwantrao-holkar"]},
+  {"id": "vithoji-executed", "date": "1801-04", "lane": "political", "title": "Vithoji Holkar executed", "summary": "Bajirao II has Yashwantrao's brother Vithoji trampled by an elephant in Pune; Yashwantrao vows revenge.", "approx": true, "people": ["vithoji-holkar", "bajirao-ii", "yashwantrao-holkar"], "places": ["pune"]},
+  {"id": "indore-sacked", "date": "1801-10", "lane": "military", "title": "Indore sacked by Shinde's army", "summary": "Sarje Rao Ghatge's army defeats Yashwantrao and plunders Indore.", "approx": true, "people": ["yashwantrao-holkar", "daulatrao-shinde"], "places": ["indore"], "polities": ["gwalior-state"]},
+  {"id": "monson-retreat", "date": "1804-07", "lane": "military", "title": "Monson's retreat", "summary": "Yashwantrao turns on Colonel Monson's column and harries it through the monsoon from the Mukundra pass back to Agra.", "approx": true, "people": ["yashwantrao-holkar"], "places": ["agra"], "polities": ["east-india-company"]},
+  {"id": "deeg-1804", "date": "1804-11-13", "lane": "military", "title": "Battle of Deeg", "summary": "Lake's army defeats Holkar's infantry at Deeg, though Yashwantrao's cavalry escapes.", "people": ["yashwantrao-holkar", "gerard-lake"], "places": ["deeg"], "polities": ["east-india-company"]},
+  {"id": "bharatpur-1805", "date": "1805-01", "lane": "military", "title": "Bharatpur holds out", "summary": "Lake's four assaults on Bharatpur, where Holkar had taken refuge, all fail.", "approx": true, "people": ["gerard-lake", "yashwantrao-holkar"], "places": ["bharatpur"], "polities": ["east-india-company"]},
+  {"id": "rajghat", "date": "1805-12-24", "lane": "political", "title": "Treaty of Rajghat", "summary": "Yashwantrao makes peace with the British on the Beas, keeping most of his lands.", "approx": true, "people": ["yashwantrao-holkar", "gerard-lake"], "polities": ["east-india-company"]},
+  {"id": "indore-capital", "date": "1818", "lane": "forts", "title": "Indore becomes the capital", "summary": "After the Treaty of Mandsaur the Holkar court settles at Indore, where the Rajwada palace becomes the centre of the state.", "approx": true, "places": ["indore", "rajwada"]},
+  {"id": "tukoji-iii-abdicates", "date": "1926-02", "lane": "political", "title": "Tukojirao III abdicates", "summary": "Implicated in the Bawla murder case in Bombay, Tukojirao Holkar III abdicates in favour of his son Yashwant Rao II.", "approx": true, "people": ["tukojirao-holkar-iii", "yashwant-rao-holkar-ii"]},
   {
    "id": "indore",
    "date": "1733",

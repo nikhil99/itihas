@@ -101,6 +101,13 @@
   }
  ],
  "events": [
+  {"id": "serfoji-i-1712", "date": "1712", "lane": "life", "title": "Serfoji I succeeds", "summary": "Shahuji I dies; his brother Serfoji I becomes king.", "approx": true, "people": ["serfoji-i", "shahuji-i"]},
+  {"id": "tukkoji-1728", "date": "1728", "lane": "life", "title": "Tukkoji succeeds", "summary": "The third of Ekoji's sons, Tukkoji, takes the throne; he is also remembered as a writer on music.", "approx": true, "people": ["tukkoji", "serfoji-i"]},
+  {"id": "pratap-singh-1739", "date": "1739", "lane": "life", "title": "Pratap Singh takes the throne", "summary": "After a succession struggle Pratap Singh becomes king and steers between the French, the British and the Nawab of Arcot.", "approx": true, "people": ["pratap-singh-thanjavur"], "places": ["arcot"]},
+  {"id": "thuljaji-1763", "date": "1763", "lane": "life", "title": "Thuljaji succeeds", "summary": "Pratap Singh's son Thuljaji becomes king; within ten years the Nawab of Arcot captures Thanjavur.", "approx": true, "people": ["thuljaji", "pratap-singh-thanjavur"]},
+  {"id": "thuljaji-restored", "date": "1776", "lane": "political", "title": "Thuljaji restored", "summary": "The Company's directors order Thanjavur returned to Thuljaji, but he rules under British protection.", "approx": true, "people": ["thuljaji"], "places": ["thanjavur"], "polities": ["east-india-company"]},
+  {"id": "serfoji-ii-enthroned", "date": "1798", "lane": "political", "title": "Serfoji II placed on the throne", "summary": "With Schwarz's support the British set aside Amar Singh and install Thuljaji's adopted son Serfoji II.", "approx": true, "people": ["serfoji-ii", "amar-singh-thanjavur", "schwarz"], "places": ["thanjavur"], "polities": ["east-india-company"]},
+  {"id": "serfoji-ii-dies", "date": "1832-03", "lane": "life", "title": "Serfoji II dies", "summary": "Serfoji II, scholar, printer and patron, dies; his son Shivaji is the last king of Thanjavur.", "approx": true, "people": ["serfoji-ii", "shivaji-thanjavur"]},
   {
    "id": "conquest",
    "date": "1675",

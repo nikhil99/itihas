@@ -25,6 +25,12 @@
     { "entity": "shah-alam-ii",    "label": "Shah Alam II – Mughal reign", "from": 1759.9, "to": 1806.9 }
   ],
   "events": [
+    {"id": "marries-ramabai", "date": "1758", "lane": "life", "title": "Married to Ramabai", "summary": "As a boy of about thirteen Madhavrao is married to Ramabai, who stays devoted to him through his short reign.", "approx": true, "people": ["madhavrao"], "places": ["pune"]},
+    {"id": "pune-burnt", "date": "1763-05", "lane": "military", "title": "The Nizam burns Pune", "summary": "While Madhavrao's army is away, Nizam Ali's forces plunder and burn Pune — the humiliation that the victory at Rakshasbhuvan avenges a few months later.", "approx": true, "people": ["nizam-ali", "madhavrao"], "places": ["pune"], "polities": ["hyderabad-state"]},
+    {"id": "second-mysore", "date": "1767", "lane": "military", "title": "Second campaign against Hyder Ali", "summary": "Madhavrao leads another army into Mysore territory; Hyder Ali buys peace with tribute and the return of districts north of the Tungabhadra.", "approx": true, "people": ["madhavrao", "hyder-ali"], "places": ["tungabhadra"], "polities": ["mysore-kingdom"]},
+    {"id": "kanakpur", "date": "1769-03", "lane": "political", "title": "Nagpur brought to heel", "summary": "A campaign against Janoji Bhonsle of Nagpur, who had sided with the Nizam, ends with the Treaty of Kanakpur: Janoji promises service and loyalty to the Peshwa.", "approx": true, "people": ["madhavrao", "janoji-bhonsle"], "places": ["nagpur"], "polities": ["nagpur-kingdom"]},
+    {"id": "north-expedition", "date": "1769", "lane": "forts", "title": "Back across the Narmada", "summary": "Madhavrao sends a northern army under Visaji Krishna, with Mahadji Shinde and Tukoji Holkar, to recover Maratha power in Hindustan for the first time since Panipat.", "approx": true, "people": ["visaji-krishna", "mahadji", "tukoji-holkar"], "places": ["narmada"]},
+    {"id": "ramabai-sati", "date": "1772-11-18", "lane": "life", "title": "Ramabai dies with him at Theur", "summary": "Ramabai commits sati on Madhavrao's pyre at Theur; a memorial marks the spot beside the Chintamani temple.", "people": ["madhavrao"], "places": ["theur"]},
     {
       "id": "born", "date": "1745-02-14", "lane": "life",
       "title": "Madhavrao born",
