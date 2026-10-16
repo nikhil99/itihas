@@ -1,0 +1,729 @@
+{
+ "id": "maurya-empire",
+ "kind": "empire",
+ "order": -1,
+ "title": "The Maurya Empire",
+ "subtitle": "India's first great empire · c. 322 – 185 BCE",
+ "subject": "maurya-empire",
+ "range": [
+  -335,
+  -160
+ ],
+ "focus": [
+  -322,
+  -185
+ ],
+ "intro": "Chandragupta Maurya, guided by his minister Chanakya, overthrew the Nandas of Magadha and drove out Alexander's garrisons, building the first empire to cover most of the subcontinent. His grandson Ashoka, horrified by the slaughter of the Kalinga War, turned to Buddhism and a policy of dhamma that he carved on rocks and pillars from Afghanistan to Karnataka — the earliest deciphered writing of India's history. Within fifty years of Ashoka's death the empire had shrunk and broken up, and in 185 BCE the last Maurya was killed by his own general.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Monuments & building"
+  },
+  {
+   "id": "political",
+   "label": "State, dhamma & faith"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Emperors",
+   "members": [
+    {
+     "entity": "chandragupta-maurya",
+     "from": -322,
+     "to": -298,
+     "group": "maurya-empire",
+     "note": "Abdicated, by Jain tradition, to become a monk"
+    },
+    {
+     "entity": "bindusara",
+     "from": -298,
+     "to": -273,
+     "group": "maurya-empire"
+    },
+    {
+     "entity": null,
+     "from": -273,
+     "to": -269,
+     "group": "maurya-empire",
+     "name": "Succession struggle",
+     "note": "Four years before Ashoka's coronation; Buddhist texts tell of a fight among Bindusara's sons"
+    },
+    {
+     "entity": "ashoka",
+     "from": -269,
+     "to": -232,
+     "group": "maurya-empire"
+    },
+    {
+     "entity": "dasharatha-maurya",
+     "from": -232,
+     "to": -224,
+     "group": "maurya-empire",
+     "note": "The empire may have split, with Samprati ruling the west"
+    },
+    {
+     "entity": "samprati",
+     "from": -224,
+     "to": -215,
+     "group": "maurya-empire"
+    },
+    {
+     "entity": "shalishuka",
+     "from": -215,
+     "to": -202,
+     "group": "maurya-empire"
+    },
+    {
+     "entity": "devavarman-maurya",
+     "from": -202,
+     "to": -195,
+     "group": "maurya-empire"
+    },
+    {
+     "entity": "shatadhanvan",
+     "from": -195,
+     "to": -187,
+     "group": "maurya-empire"
+    },
+    {
+     "entity": "brihadratha",
+     "from": -187,
+     "to": -185,
+     "group": "maurya-empire",
+     "note": "Assassinated by his general Pushyamitra Shunga"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "nanda-empire",
+   "label": "Nanda Empire",
+   "from": -335,
+   "to": -322
+  },
+  {
+   "entity": "macedonian-empire",
+   "label": "Alexander & the Macedonians",
+   "from": -330,
+   "to": -316
+  },
+  {
+   "entity": "seleucid-empire",
+   "label": "Seleucid Empire",
+   "from": -312,
+   "to": -160
+  },
+  {
+   "entity": "greco-bactrian",
+   "label": "Greco-Bactrians",
+   "from": -256,
+   "to": -160
+  },
+  {
+   "entity": "anuradhapura",
+   "label": "Anuradhapura (Sri Lanka)",
+   "from": -335,
+   "to": -160
+  },
+  {
+   "entity": "satavahana",
+   "label": "Satavahanas",
+   "from": -230,
+   "to": -160
+  },
+  {
+   "entity": "shunga-empire",
+   "label": "Shungas",
+   "from": -185,
+   "to": -160
+  }
+ ],
+ "events": [
+  {
+   "id": "alexander-hydaspes",
+   "date": "-0326",
+   "lane": "world",
+   "title": "Alexander defeats Porus at the Hydaspes",
+   "summary": "Alexander the Great crosses into the Punjab and defeats King Porus on the Jhelum. His army mutinies at the Beas and turns back. Greek writers later say a young Sandrokottos, Chandragupta, met Alexander.",
+   "people": [
+    "alexander",
+    "porus",
+    "chandragupta-maurya"
+   ],
+   "places": [
+    "hydaspes",
+    "indus"
+   ],
+   "polities": [
+    "macedonian-empire"
+   ],
+   "wiki": "Battle of the Hydaspes",
+   "major": true
+  },
+  {
+   "id": "chanakya-chandragupta",
+   "date": "-0325",
+   "lane": "life",
+   "title": "Chanakya and the young Chandragupta",
+   "summary": "According to legend, the Brahmin teacher Chanakya of Taxila, insulted at the Nanda court, finds the boy Chandragupta and trains him to overthrow the Nandas. Greek, Buddhist, Jain and Hindu sources all tell versions of the story.",
+   "people": [
+    "chanakya",
+    "chandragupta-maurya",
+    "dhana-nanda"
+   ],
+   "places": [
+    "taxila"
+   ],
+   "polities": [
+    "nanda-empire"
+   ],
+   "approx": true
+  },
+  {
+   "id": "punjab-revolt",
+   "date": "-0323",
+   "lane": "military",
+   "title": "Greek garrisons driven from the Punjab",
+   "summary": "After Alexander's death in Babylon, Chandragupta raises an army in the north-west and expels or absorbs the Macedonian garrisons left in the Indus region.",
+   "people": [
+    "chandragupta-maurya"
+   ],
+   "places": [
+    "indus"
+   ],
+   "polities": [
+    "macedonian-empire"
+   ],
+   "approx": true
+  },
+  {
+   "id": "nanda-overthrow",
+   "date": "-0322",
+   "lane": "military",
+   "title": "Overthrow of the Nandas",
+   "summary": "Chandragupta and Chanakya take Pataliputra and overthrow Dhana Nanda, ruler of the rich kingdom of Magadha. The Maurya Empire is founded.",
+   "people": [
+    "chandragupta-maurya",
+    "chanakya",
+    "dhana-nanda"
+   ],
+   "places": [
+    "pataliputra"
+   ],
+   "polities": [
+    "nanda-empire",
+    "magadha",
+    "maurya-empire"
+   ],
+   "wiki": "Maurya Empire",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "arthashastra",
+   "date": "-0300",
+   "lane": "political",
+   "title": "The Arthashastra",
+   "summary": "A treatise on statecraft, economics, law, spies and war is attributed to Chanakya (Kautilya). The surviving text was probably revised over centuries, but it is the classic picture of the Mauryan state.",
+   "people": [
+    "chanakya"
+   ],
+   "concepts": [
+    "arthashastra"
+   ],
+   "wiki": "Arthashastra",
+   "approx": true
+  },
+  {
+   "id": "seleucid-war",
+   "date": "-0305",
+   "end": "-0303",
+   "lane": "military",
+   "title": "War and treaty with Seleucus",
+   "summary": "Seleucus I, Alexander's successor in the east, invades and is held off. In the settlement Chandragupta gains Arachosia, Gedrosia and Paropamisadae (much of today's Afghanistan and Baluchistan). In return Seleucus gets 500 war elephants and a marriage alliance.",
+   "people": [
+    "chandragupta-maurya",
+    "seleucus"
+   ],
+   "places": [
+    "kandahar"
+   ],
+   "polities": [
+    "seleucid-empire"
+   ],
+   "wiki": "Seleucid–Mauryan war",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "megasthenes",
+   "date": "-0302",
+   "lane": "world",
+   "title": "Megasthenes at Pataliputra",
+   "summary": "Seleucus sends the ambassador Megasthenes to Chandragupta's court. His Indica, preserved only in quotations, describes Pataliputra's great timber walls, the king's bodyguard of women, and Indian society divided into seven classes.",
+   "people": [
+    "megasthenes",
+    "chandragupta-maurya",
+    "seleucus"
+   ],
+   "places": [
+    "pataliputra"
+   ],
+   "concepts": [
+    "indica"
+   ],
+   "wiki": "Megasthenes",
+   "approx": true
+  },
+  {
+   "id": "sudarshana-dam",
+   "date": "-0300",
+   "lane": "forts",
+   "title": "The Sudarshana lake dam at Girnar",
+   "summary": "Chandragupta's governor Pushyagupta dams a river near Girnar to create the Sudarshana lake; Ashoka's officials later add canals. The dam is repaired by Rudradaman in 150 CE and again under Skandagupta in 456.",
+   "people": [
+    "chandragupta-maurya"
+   ],
+   "places": [
+    "junagadh"
+   ],
+   "approx": true
+  },
+  {
+   "id": "chandragupta-abdicates",
+   "date": "-0298",
+   "lane": "life",
+   "title": "Chandragupta abdicates",
+   "summary": "Jain tradition says Chandragupta gave up the throne during a twelve-year famine and followed the monk Bhadrabahu south to Shravanabelagola. There he fasted to death, the Jain practice of sallekhana.",
+   "people": [
+    "chandragupta-maurya",
+    "bhadrabahu",
+    "bindusara"
+   ],
+   "places": [
+    "shravanabelagola"
+   ],
+   "wiki": "Chandragupta Maurya",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "bindusara",
+   "date": "-0298",
+   "lane": "life",
+   "title": "Bindusara succeeds",
+   "summary": "Chandragupta's son Bindusara, called Amitrochates ('slayer of foes') by the Greeks, extends Maurya rule into the Deccan. Greek writers say he asked the Seleucid king for sweet wine, dried figs and a philosopher.",
+   "people": [
+    "bindusara"
+   ],
+   "wiki": "Bindusara",
+   "approx": true
+  },
+  {
+   "id": "ashoka-taxila",
+   "date": "-0285",
+   "lane": "life",
+   "title": "Prince Ashoka as viceroy",
+   "summary": "Ashoka puts down a revolt at Taxila for his father and then governs from Ujjain, where, by Buddhist tradition, he meets his first wife Devi of Vidisha, mother of Mahinda and Sanghamitta.",
+   "people": [
+    "ashoka",
+    "bindusara",
+    "mahinda",
+    "sanghamitta"
+   ],
+   "places": [
+    "taxila",
+    "ujjain",
+    "vidisha"
+   ],
+   "approx": true
+  },
+  {
+   "id": "succession",
+   "date": "-0273",
+   "lane": "life",
+   "title": "Bindusara dies; the succession struggle",
+   "summary": "Bindusara dies. Buddhist chronicles say Ashoka fought his brothers, including the heir Susima, for the throne. He is crowned about four years later.",
+   "people": [
+    "bindusara",
+    "ashoka"
+   ],
+   "approx": true
+  },
+  {
+   "id": "ashoka-crowned",
+   "date": "-0269",
+   "lane": "life",
+   "title": "Ashoka is crowned",
+   "summary": "Ashoka is consecrated as king. His later inscriptions date events from this coronation, calling him Devanampiya Piyadasi, 'Beloved of the Gods, He who looks with kindness'.",
+   "people": [
+    "ashoka"
+   ],
+   "polities": [
+    "maurya-empire"
+   ],
+   "wiki": "Ashoka",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "kalinga-war",
+   "date": "-0261",
+   "lane": "military",
+   "title": "The Kalinga War",
+   "summary": "In the eighth year of his reign Ashoka conquers Kalinga on the east coast. His own Rock Edict XIII says 150,000 people were deported, 100,000 killed and many more died. The suffering filled him with remorse.",
+   "people": [
+    "ashoka"
+   ],
+   "places": [
+    "dhauli"
+   ],
+   "polities": [
+    "kalinga"
+   ],
+   "wiki": "Kalinga War",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "ashoka-buddhism",
+   "date": "-0260",
+   "lane": "political",
+   "title": "Ashoka turns to Buddhism and dhamma",
+   "summary": "After Kalinga Ashoka becomes a Buddhist lay follower. He proclaims a policy of dhamma: non-violence, tolerance of all sects, respect for elders, kindness to servants and animals, and fewer royal hunts.",
+   "people": [
+    "ashoka"
+   ],
+   "concepts": [
+    "dhamma"
+   ],
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "rock-edicts",
+   "date": "-0257",
+   "lane": "political",
+   "title": "The Major Rock Edicts",
+   "summary": "Ashoka has his messages carved on rocks at the edges of the empire, from Kandahar (in Greek and Aramaic) to Girnar, Dhauli and the Deccan. Written in Prakrit in the Brahmi script, they are the earliest deciphered royal inscriptions in India.",
+   "people": [
+    "ashoka"
+   ],
+   "places": [
+    "kandahar",
+    "junagadh",
+    "dhauli"
+   ],
+   "concepts": [
+    "edicts-of-ashoka",
+    "brahmi"
+   ],
+   "wiki": "Edicts of Ashoka",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "barabar",
+   "date": "-0257",
+   "lane": "forts",
+   "title": "The Barabar caves",
+   "summary": "Ashoka dedicates polished rock-cut caves in the Barabar hills to the Ajivika ascetics. They are the oldest surviving rock-cut caves in India, polished to a mirror finish.",
+   "people": [
+    "ashoka"
+   ],
+   "places": [
+    "barabar-caves"
+   ],
+   "wiki": "Barabar Caves",
+   "approx": true
+  },
+  {
+   "id": "missions",
+   "date": "-0256",
+   "lane": "world",
+   "title": "Dhamma missions to the Greek kings",
+   "summary": "Rock Edict XIII claims that Ashoka's dhamma has reached five Greek kings, Antiochus, Ptolemy, Antigonus, Magas and Alexander, and lands as far south as Sri Lanka.",
+   "people": [
+    "ashoka"
+   ],
+   "polities": [
+    "seleucid-empire",
+    "ptolemaic-kingdom"
+   ],
+   "concepts": [
+    "edicts-of-ashoka"
+   ],
+   "approx": true
+  },
+  {
+   "id": "third-council",
+   "date": "-0250",
+   "lane": "political",
+   "title": "The Third Buddhist Council",
+   "summary": "Buddhist tradition says the monk Moggaliputta-Tissa presides over a council at Pataliputra under Ashoka's patronage. It purifies the order and sends missionaries to Gandhara, Kashmir, the Himalaya, Suvarnabhumi and Sri Lanka.",
+   "people": [
+    "moggaliputta-tissa",
+    "ashoka"
+   ],
+   "places": [
+    "pataliputra"
+   ],
+   "concepts": [
+    "third-buddhist-council"
+   ],
+   "wiki": "Third Buddhist council",
+   "approx": true
+  },
+  {
+   "id": "lumbini",
+   "date": "-0249",
+   "lane": "political",
+   "title": "Ashoka's pilgrimage to Lumbini",
+   "summary": "Twenty years after his coronation Ashoka visits the Buddha's birthplace, erects a pillar and cuts the village's taxes. He also visits Bodh Gaya and other sites of the Buddha's life.",
+   "people": [
+    "ashoka"
+   ],
+   "places": [
+    "lumbini",
+    "rummindei-pillar",
+    "bodh-gaya"
+   ],
+   "wiki": "Lumbini",
+   "approx": true
+  },
+  {
+   "id": "sri-lanka",
+   "date": "-0250",
+   "lane": "world",
+   "title": "Mahinda and Sanghamitta in Sri Lanka",
+   "summary": "Ashoka's son Mahinda converts King Devanampiya Tissa of Anuradhapura to Buddhism. His daughter Sanghamitta brings a cutting of the Bodhi tree, which still grows at Anuradhapura as the Sri Maha Bodhi.",
+   "people": [
+    "mahinda",
+    "sanghamitta",
+    "devanampiya-tissa",
+    "ashoka"
+   ],
+   "polities": [
+    "anuradhapura"
+   ],
+   "concepts": [
+    "bodhi-tree"
+   ],
+   "wiki": "Mahinda (Buddhist monk)",
+   "approx": true
+  },
+  {
+   "id": "sanchi",
+   "date": "-0250",
+   "lane": "forts",
+   "title": "The Great Stupa at Sanchi",
+   "summary": "Ashoka builds a brick stupa over relics of the Buddha at Sanchi near Vidisha, with a pillar beside it. Enlarged in stone and given carved gateways by later dynasties, it is the best-preserved early stupa in India.",
+   "people": [
+    "ashoka"
+   ],
+   "places": [
+    "sanchi",
+    "vidisha"
+   ],
+   "wiki": "Sanchi",
+   "approx": true
+  },
+  {
+   "id": "pillars",
+   "date": "-0243",
+   "lane": "forts",
+   "title": "Pillar edicts and the Lion Capital",
+   "summary": "Polished sandstone pillars crowned with animals are raised across the Ganges plain, and later edicts are carved on them. The four-lion capital from Sarnath is now India's national emblem, and its wheel is on the national flag.",
+   "people": [
+    "ashoka"
+   ],
+   "places": [
+    "sarnath"
+   ],
+   "concepts": [
+    "lion-capital",
+    "edicts-of-ashoka"
+   ],
+   "wiki": "Pillars of Ashoka",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "ashoka-dies",
+   "date": "-0232",
+   "lane": "life",
+   "title": "Ashoka dies",
+   "summary": "Ashoka dies after about 37 years on the throne. Later legend says that in his last years his ministers stopped his lavish gifts to the Buddhist order.",
+   "people": [
+    "ashoka"
+   ],
+   "approx": true
+  },
+  {
+   "id": "dasharatha",
+   "date": "-0232",
+   "lane": "life",
+   "title": "Dasharatha succeeds",
+   "summary": "Ashoka's grandson Dasharatha succeeds and, like Ashoka, dedicates caves to the Ajivikas, in the Nagarjuni hills. The western provinces may have broken away under his cousin Samprati.",
+   "people": [
+    "dasharatha-maurya",
+    "samprati",
+    "kunala"
+   ],
+   "places": [
+    "barabar-caves"
+   ],
+   "approx": true
+  },
+  {
+   "id": "samprati",
+   "date": "-0224",
+   "lane": "political",
+   "title": "Samprati, the Jain emperor",
+   "summary": "Jain tradition remembers Samprati, son of the blinded prince Kunala, as a great patron of Jainism who sent Jain monks across India, much as Ashoka had sent Buddhist ones.",
+   "people": [
+    "samprati",
+    "kunala"
+   ],
+   "places": [
+    "ujjain"
+   ],
+   "approx": true
+  },
+  {
+   "id": "qin",
+   "date": "-0221",
+   "lane": "world",
+   "title": "China is unified under Qin",
+   "summary": "Qin Shi Huang conquers the warring Chinese states and proclaims himself First Emperor. He links walls on the northern frontier into an early Great Wall.",
+   "people": [
+    "qin-shi-huang"
+   ],
+   "polities": [
+    "qin-dynasty"
+   ],
+   "concepts": [
+    "great-wall"
+   ],
+   "wiki": "Qin dynasty"
+  },
+  {
+   "id": "hannibal",
+   "date": "-0218",
+   "lane": "world",
+   "title": "Hannibal crosses the Alps",
+   "summary": "In the Second Punic War Hannibal of Carthage marches war elephants over the Alps into Italy against the Roman Republic.",
+   "people": [
+    "hannibal"
+   ],
+   "polities": [
+    "roman-republic"
+   ],
+   "wiki": "Second Punic War"
+  },
+  {
+   "id": "antiochus",
+   "date": "-0206",
+   "lane": "military",
+   "title": "Antiochus III in the Kabul valley",
+   "summary": "The Seleucid king Antiochus III crosses the Hindu Kush and renews friendship with a local Indian king, Sophagasenus, taking elephants from him. The north-west is now beyond effective Maurya control.",
+   "people": [
+    "antiochus-iii",
+    "sophagasenus"
+   ],
+   "polities": [
+    "seleucid-empire"
+   ],
+   "wiki": "Sophagasenus",
+   "approx": true
+  },
+  {
+   "id": "decline",
+   "date": "-0200",
+   "lane": "political",
+   "title": "A shrinking empire",
+   "summary": "Under the last Mauryas the empire shrinks to Magadha and the Ganges heartland. The Satavahanas rise in the Deccan, Kalinga breaks away, and Bactrian Greeks press on the north-west.",
+   "people": [
+    "shalishuka",
+    "devavarman-maurya",
+    "shatadhanvan"
+   ],
+   "polities": [
+    "satavahana",
+    "kalinga",
+    "greco-bactrian"
+   ],
+   "approx": true
+  },
+  {
+   "id": "pushyamitra",
+   "date": "-0185",
+   "lane": "life",
+   "title": "Pushyamitra kills the last Maurya",
+   "summary": "While reviewing the army, the commander Pushyamitra Shunga assassinates Brihadratha, the last Maurya king, and founds the Shunga dynasty at Pataliputra.",
+   "people": [
+    "pushyamitra",
+    "brihadratha"
+   ],
+   "places": [
+    "pataliputra"
+   ],
+   "polities": [
+    "shunga-empire",
+    "maurya-empire"
+   ],
+   "wiki": "Shunga Empire",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "demetrius",
+   "date": "-0180",
+   "lane": "world",
+   "title": "The Indo-Greeks enter India",
+   "summary": "Demetrius I of Bactria invades the north-west, founding the Indo-Greek kingdoms that rule parts of the Punjab for the next two centuries.",
+   "people": [
+    "demetrius-i"
+   ],
+   "polities": [
+    "greco-bactrian",
+    "indo-greek"
+   ],
+   "wiki": "Indo-Greek Kingdom",
+   "approx": true
+  },
+  {
+   "id": "kharavela",
+   "date": "-0170",
+   "lane": "world",
+   "title": "Kharavela of Kalinga",
+   "summary": "In the Hathigumpha inscription, the Jain king Kharavela of Kalinga boasts of raiding Magadha and bringing back a Jain image that a Nanda king had carried off.",
+   "people": [
+    "kharavela"
+   ],
+   "places": [
+    "hathigumpha"
+   ],
+   "polities": [
+    "mahameghavahana",
+    "kalinga"
+   ],
+   "wiki": "Hathigumpha inscription",
+   "approx": true
+  }
+ ]
+}
