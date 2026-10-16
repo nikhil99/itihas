@@ -1,0 +1,717 @@
+{
+ "id": "rashtrakutas",
+ "kind": "empire",
+ "order": 1.5,
+ "title": "The Rashtrakuta Empire",
+ "subtitle": "The Deccan empire of Ellora and Manyakheta · 753 – 982",
+ "subject": "rashtrakuta",
+ "range": [
+  730,
+  1000
+ ],
+ "focus": [
+  753,
+  982
+ ],
+ "intro": "From a feudatory family near Ellora, Dantidurga overthrew the Chalukyas in 753 and built an empire that dominated the Deccan for over two centuries. Dhruva, Govinda III and Indra III raided as far as the Ganges and Kannauj in the three-way struggle with the Pratiharas and Palas; Arab travellers counted the Rashtrakuta 'Balhara' among the four great kings of the world. Their reign produced the monolithic Kailasa temple, the first works of Kannada literature, Jain scholarship and mathematics — until a Chalukya feudatory overthrew them in 973.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Kings & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Temples, caves & cities"
+  },
+  {
+   "id": "political",
+   "label": "Literature, learning & faith"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Kings",
+   "members": [
+    {
+     "entity": "dantidurga",
+     "from": 735,
+     "to": 756,
+     "group": "rashtrakuta",
+     "note": "A Chalukya feudatory until he declared independence in 753"
+    },
+    {
+     "entity": "krishna-i",
+     "from": 756,
+     "to": 774,
+     "group": "rashtrakuta",
+     "note": "Dantidurga's uncle; builder of the Kailasa temple"
+    },
+    {
+     "entity": "govinda-ii",
+     "from": 774,
+     "to": 780,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "dhruva",
+     "from": 780,
+     "to": 793,
+     "group": "rashtrakuta",
+     "note": "Deposed his elder brother Govinda II"
+    },
+    {
+     "entity": "govinda-iii",
+     "from": 793,
+     "to": 814,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "amoghavarsha-i",
+     "from": 814,
+     "to": 878,
+     "group": "rashtrakuta",
+     "note": "Ruled 64 years, one of the longest reigns in Indian history"
+    },
+    {
+     "entity": "krishna-ii",
+     "from": 878,
+     "to": 914,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "indra-iii",
+     "from": 914,
+     "to": 929,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "amoghavarsha-ii",
+     "from": 929,
+     "to": 930,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "govinda-iv",
+     "from": 930,
+     "to": 936,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "amoghavarsha-iii",
+     "from": 936,
+     "to": 939,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "krishna-iii",
+     "from": 939,
+     "to": 967,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "khottiga",
+     "from": 967,
+     "to": 972,
+     "group": "rashtrakuta"
+    },
+    {
+     "entity": "karka-ii",
+     "from": 972,
+     "to": 973,
+     "group": "rashtrakuta",
+     "note": "Overthrown by his Chalukya feudatory Tailapa II"
+    },
+    {
+     "entity": "indra-iv",
+     "from": 973,
+     "to": 982,
+     "group": "rashtrakuta",
+     "note": "Claimant after the fall; fasted to death at Shravanabelagola"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "badami-chalukya",
+   "label": "Chalukyas of Badami",
+   "from": 730,
+   "to": 757
+  },
+  {
+   "entity": "gurjara-pratihara",
+   "label": "Gurjara-Pratiharas",
+   "from": 730,
+   "to": 1000
+  },
+  {
+   "entity": "pala-empire",
+   "label": "Palas of Bengal",
+   "from": 750,
+   "to": 1000
+  },
+  {
+   "entity": "eastern-chalukya",
+   "label": "Eastern Chalukyas (Vengi)",
+   "from": 730,
+   "to": 1000
+  },
+  {
+   "entity": "pallava",
+   "label": "Pallavas",
+   "from": 730,
+   "to": 897
+  },
+  {
+   "entity": "chola-dynasty",
+   "label": "Cholas",
+   "from": 848,
+   "to": 1000
+  },
+  {
+   "entity": "western-chalukya",
+   "label": "Western Chalukyas",
+   "from": 973,
+   "to": 1000
+  },
+  {
+   "entity": "abbasid",
+   "label": "Abbasid Caliphate",
+   "from": 750,
+   "to": 1000
+  }
+ ],
+ "events": [
+  {
+   "id": "dantidurga-revolt",
+   "date": "0753",
+   "lane": "military",
+   "title": "Dantidurga overthrows the Chalukyas",
+   "summary": "Dantidurga, a Rashtrakuta chief and Chalukya feudatory in the Ellora region, defeats his overlord Kirtivarman II. His Samangad copper plates of 753 announce the new power in the Deccan.",
+   "people": [
+    "dantidurga",
+    "kirtivarman-ii"
+   ],
+   "places": [
+    "samangad",
+    "ellora"
+   ],
+   "polities": [
+    "badami-chalukya",
+    "rashtrakuta"
+   ],
+   "wiki": "Dantidurga",
+   "major": true
+  },
+  {
+   "id": "hiranyagarbha",
+   "date": "0754",
+   "lane": "political",
+   "title": "Dantidurga's ceremony at Ujjain",
+   "summary": "Dantidurga performs the hiranyagarbha ('golden womb') rite at Ujjain, with the Gurjara and other kings serving as attendants. It is a claim to imperial status in the old capital of Malwa.",
+   "people": [
+    "dantidurga"
+   ],
+   "places": [
+    "ujjain"
+   ],
+   "polities": [
+    "gurjara-pratihara"
+   ],
+   "approx": true
+  },
+  {
+   "id": "chalukya-end",
+   "date": "0757",
+   "lane": "military",
+   "title": "Krishna I finishes the Chalukyas",
+   "summary": "Dantidurga's uncle Krishna I defeats the last Chalukya king and takes over the whole Chalukya kingdom of the western Deccan.",
+   "people": [
+    "krishna-i",
+    "kirtivarman-ii"
+   ],
+   "polities": [
+    "badami-chalukya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "kailasa",
+   "date": "0760",
+   "end": "0774",
+   "lane": "forts",
+   "title": "The Kailasa Temple at Ellora",
+   "summary": "Under Krishna I a whole temple to Shiva is carved downwards out of a single basalt cliff at Ellora, removing an estimated 200,000 tonnes of rock. It is the largest monolithic structure in the world.",
+   "people": [
+    "krishna-i"
+   ],
+   "places": [
+    "kailasa-temple",
+    "ellora"
+   ],
+   "wiki": "Kailasa temple, Ellora",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "gangas-vengi",
+   "date": "0768",
+   "lane": "military",
+   "title": "Krishna I subdues the Gangas and Vengi",
+   "summary": "Krishna I defeats the Western Ganga king of Gangavadi (southern Karnataka) and forces the Eastern Chalukyas of Vengi to submit.",
+   "people": [
+    "krishna-i"
+   ],
+   "places": [
+    "vengi"
+   ],
+   "polities": [
+    "western-ganga",
+    "eastern-chalukya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "dhruva-usurps",
+   "date": "0780",
+   "lane": "life",
+   "title": "Dhruva seizes the throne",
+   "summary": "Dhruva Dharavarsha deposes his elder brother Govinda II, who had left government to his favourites, and defeats the princes who backed him.",
+   "people": [
+    "dhruva",
+    "govinda-ii"
+   ],
+   "wiki": "Dhruva Dharavarsha",
+   "approx": true
+  },
+  {
+   "id": "dhruva-north",
+   "date": "0786",
+   "lane": "military",
+   "title": "Dhruva's raid into the north",
+   "summary": "Dhruva crosses the Narmada, defeats the Gurjara-Pratihara king Vatsaraja and then the Pala king Dharmapala in the Ganges–Yamuna doab. He returns south with booty and the Ganga and Yamuna as emblems on his banner. The Deccan has joined the 'tripartite struggle' for Kannauj.",
+   "people": [
+    "dhruva",
+    "vatsaraja",
+    "dharmapala"
+   ],
+   "places": [
+    "ganga",
+    "yamuna"
+   ],
+   "polities": [
+    "gurjara-pratihara",
+    "pala-empire"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "wiki": "Tripartite Struggle",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "govinda-iii",
+   "date": "0793",
+   "lane": "life",
+   "title": "Govinda III succeeds",
+   "summary": "Dhruva passes over his elder sons and chooses Govinda III, who has to defeat his brother Stambha and a coalition of twelve kings before he can rule.",
+   "people": [
+    "govinda-iii",
+    "dhruva"
+   ],
+   "wiki": "Govinda III",
+   "approx": true
+  },
+  {
+   "id": "govinda-north",
+   "date": "0800",
+   "lane": "military",
+   "title": "Govinda III reaches the Himalaya",
+   "summary": "Govinda III defeats Nagabhata II of the Pratiharas. Dharmapala of Bengal and his puppet king of Kannauj, Chakrayudha, submit to him. His inscriptions claim his horses drank the waters of the Himalayan streams. The Rashtrakutas are now the strongest power in India.",
+   "people": [
+    "govinda-iii",
+    "nagabhata-ii",
+    "dharmapala",
+    "chakrayudha"
+   ],
+   "places": [
+    "kannauj"
+   ],
+   "polities": [
+    "gurjara-pratihara",
+    "pala-empire"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "charlemagne",
+   "date": "0800",
+   "lane": "world",
+   "title": "Charlemagne crowned emperor",
+   "summary": "On Christmas Day in Rome the Frankish king Charlemagne is crowned emperor. At the same time Harun al-Rashid rules the Abbasid Caliphate from Baghdad.",
+   "people": [
+    "charlemagne",
+    "harun-al-rashid"
+   ],
+   "polities": [
+    "carolingian",
+    "abbasid"
+   ],
+   "wiki": "Coronation of Charlemagne"
+  },
+  {
+   "id": "kanchi-803",
+   "date": "0803",
+   "lane": "military",
+   "title": "Govinda III in the south",
+   "summary": "Govinda III campaigns south to Kanchi, forcing the Pallava king Dantivarman, the Gangas and the Pandyas to accept his overlordship.",
+   "people": [
+    "govinda-iii",
+    "dantivarman"
+   ],
+   "places": [
+    "kanchipuram"
+   ],
+   "polities": [
+    "pallava",
+    "western-ganga"
+   ],
+   "approx": true
+  },
+  {
+   "id": "amoghavarsha",
+   "date": "0814",
+   "lane": "life",
+   "title": "The boy-king Amoghavarsha I",
+   "summary": "Govinda III dies and his son Amoghavarsha I, about 14, succeeds. His cousin Karka Suvarnavarsha, governor of Gujarat, defends the throne through years of rebellion.",
+   "people": [
+    "amoghavarsha-i",
+    "karka-suvarnavarsha",
+    "govinda-iii"
+   ],
+   "polities": [
+    "rashtrakuta"
+   ],
+   "wiki": "Amoghavarsha",
+   "major": true
+  },
+  {
+   "id": "manyakheta",
+   "date": "0818",
+   "lane": "forts",
+   "title": "A new capital at Manyakheta",
+   "summary": "Amoghavarsha builds a new capital at Manyakheta (Malkhed in Karnataka), 'to put to shame the city of Indra'. It remains the imperial capital until the fall of the dynasty.",
+   "people": [
+    "amoghavarsha-i"
+   ],
+   "places": [
+    "manyakheta"
+   ],
+   "wiki": "Manyakheta",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "vingavalli",
+   "date": "0830",
+   "lane": "military",
+   "title": "Battle of Vingavalli",
+   "summary": "Amoghavarsha defeats the Eastern Chalukya king Vijayaditya II, ending years of war over Vengi.",
+   "people": [
+    "amoghavarsha-i",
+    "vijayaditya-ii"
+   ],
+   "places": [
+    "vingavalli",
+    "vengi"
+   ],
+   "polities": [
+    "eastern-chalukya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "kavirajamarga",
+   "date": "0850",
+   "lane": "political",
+   "title": "Kavirajamarga, the first Kannada book",
+   "summary": "A work on poetics, the Kavirajamarga, is written at Amoghavarsha's court and credited to the king or his poet Srivijaya. It is the earliest surviving literary work in Kannada and praises the Kannada land 'from the Kaveri to the Godavari'.",
+   "people": [
+    "amoghavarsha-i"
+   ],
+   "concepts": [
+    "kavirajamarga",
+    "kannada"
+   ],
+   "wiki": "Kavirajamarga",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "jain-scholars",
+   "date": "0850",
+   "lane": "political",
+   "title": "Jinasena and Mahaviracharya",
+   "summary": "Jain learning flourishes under Amoghavarsha, said to be a Jain himself. His teacher Jinasena writes the Adipurana, and the mathematician Mahaviracharya writes the Ganitasarasangraha, with rules for fractions, combinations and series.",
+   "people": [
+    "jinasena",
+    "mahaviracharya",
+    "amoghavarsha-i"
+   ],
+   "concepts": [
+    "adipurana",
+    "ganitasarasangraha"
+   ],
+   "wiki": "Mahāvīra (mathematician)",
+   "approx": true
+  },
+  {
+   "id": "sulaiman",
+   "date": "0851",
+   "lane": "world",
+   "title": "'One of the four great kings of the world'",
+   "summary": "The Arab merchant Sulaiman writes that the Balhara, the Rashtrakuta king, is the greatest in India and one of the four great kings of the world, with the caliph, the Byzantine emperor and the emperor of China. He notes that the Rashtrakutas are friendly to Arab traders.",
+   "people": [
+    "sulaiman",
+    "amoghavarsha-i"
+   ],
+   "polities": [
+    "abbasid"
+   ],
+   "wiki": "Sulaiman al-Tajir",
+   "major": true
+  },
+  {
+   "id": "ellora-jain",
+   "date": "0850",
+   "end": "0900",
+   "lane": "forts",
+   "title": "The Jain caves at Ellora",
+   "summary": "The Jain cave temples at Ellora, including the two-storeyed Indra Sabha, are carved alongside the older Hindu and Buddhist caves. Ellora becomes a site shared by three faiths.",
+   "places": [
+    "ellora-jain-caves",
+    "ellora"
+   ],
+   "approx": true
+  },
+  {
+   "id": "prashnottara",
+   "date": "0860",
+   "lane": "political",
+   "title": "Amoghavarsha the scholar-king",
+   "summary": "Amoghavarsha, who often withdrew from government, is credited with the Prashnottara Ratnamalika, a short Sanskrit book of moral questions and answers later translated into Tibetan.",
+   "people": [
+    "amoghavarsha-i"
+   ],
+   "concepts": [
+    "prashnottara-ratnamalika"
+   ],
+   "approx": true
+  },
+  {
+   "id": "krishna-ii",
+   "date": "0878",
+   "lane": "life",
+   "title": "Krishna II succeeds",
+   "summary": "Krishna II fights long wars with the Pratiharas in the north and the Eastern Chalukyas and Cholas in the south, with mixed fortune. Jain patronage continues, as at the Narayana temple at Pattadakal.",
+   "people": [
+    "krishna-ii"
+   ],
+   "places": [
+    "pattadakal"
+   ],
+   "polities": [
+    "gurjara-pratihara",
+    "eastern-chalukya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "kannauj-916",
+   "date": "0916",
+   "lane": "military",
+   "title": "Indra III sacks Kannauj",
+   "summary": "Indra III crosses the Yamuna and sacks Kannauj, the Pratihara capital, driving out Mahipala I. The Pratiharas never fully recover.",
+   "people": [
+    "indra-iii",
+    "mahipala-pratihara"
+   ],
+   "places": [
+    "kannauj",
+    "yamuna"
+   ],
+   "polities": [
+    "gurjara-pratihara"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "wiki": "Indra III",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "al-masudi",
+   "date": "0916",
+   "lane": "world",
+   "title": "Al-Masudi visits",
+   "summary": "The Baghdad historian al-Masudi travels on India's west coast and writes of the Balhara's large armies and elephants, and of the Muslims living freely in his ports.",
+   "people": [
+    "al-masudi"
+   ],
+   "polities": [
+    "abbasid"
+   ],
+   "wiki": "Al-Mas'udi",
+   "approx": true
+  },
+  {
+   "id": "govinda-iv",
+   "date": "0930",
+   "end": "0936",
+   "lane": "life",
+   "title": "Govinda IV's misrule",
+   "summary": "Indra III's younger son Govinda IV seizes the throne. Inscriptions and later poets blame him for vice and misgovernment. The nobles finally replace him with his uncle Amoghavarsha III in 936.",
+   "people": [
+    "govinda-iv",
+    "amoghavarsha-iii"
+   ],
+   "approx": true
+  },
+  {
+   "id": "krishna-iii",
+   "date": "0939",
+   "lane": "life",
+   "title": "Krishna III, the last great Rashtrakuta",
+   "summary": "Krishna III, son of Amoghavarsha III, takes the throne and restores the empire's power across the south.",
+   "people": [
+    "krishna-iii"
+   ],
+   "wiki": "Krishna III",
+   "major": true
+  },
+  {
+   "id": "pampa",
+   "date": "0941",
+   "lane": "political",
+   "title": "Pampa's Vikramarjuna Vijaya",
+   "summary": "Pampa, 'Adikavi' or first poet of Kannada, writes his Mahabharata, the Vikramarjuna Vijaya. He works at the court of Arikesari II of Vemulavada, a Rashtrakuta feudatory.",
+   "people": [
+    "pampa"
+   ],
+   "polities": [
+    "vemulavada-chalukya"
+   ],
+   "concepts": [
+    "vikramarjuna-vijaya",
+    "kannada"
+   ],
+   "wiki": "Adikavi Pampa"
+  },
+  {
+   "id": "takkolam",
+   "date": "0949",
+   "lane": "military",
+   "title": "Victory over the Cholas at Takkolam",
+   "summary": "Krishna III defeats the Cholas at Takkolam, where the Chola crown prince Rajaditya is killed. He occupies Kanchi and Tondaimandalam and later sets up a victory pillar at Rameshwaram.",
+   "people": [
+    "krishna-iii",
+    "rajaditya",
+    "parantaka-i"
+   ],
+   "places": [
+    "takkolam",
+    "kanchipuram"
+   ],
+   "polities": [
+    "chola-dynasty"
+   ],
+   "wiki": "Battle of Takkolam",
+   "see": "cholas",
+   "major": true
+  },
+  {
+   "id": "ponna",
+   "date": "0950",
+   "lane": "political",
+   "title": "Ponna at Krishna III's court",
+   "summary": "Krishna III honours the Jain poet Ponna as 'emperor among poets in two languages', Kannada and Sanskrit.",
+   "people": [
+    "ponna",
+    "krishna-iii"
+   ],
+   "concepts": [
+    "kannada"
+   ],
+   "approx": true
+  },
+  {
+   "id": "siyaka",
+   "date": "0972",
+   "lane": "military",
+   "title": "The Paramaras sack Manyakheta",
+   "summary": "Soon after Krishna III's death, the Paramara king Siyaka II of Malwa, once a Rashtrakuta vassal, marches south and plunders the capital Manyakheta.",
+   "people": [
+    "siyaka",
+    "khottiga"
+   ],
+   "places": [
+    "manyakheta"
+   ],
+   "polities": [
+    "paramara"
+   ],
+   "wiki": "Siyaka",
+   "major": true
+  },
+  {
+   "id": "tailapa",
+   "date": "0973",
+   "lane": "life",
+   "title": "Tailapa II overthrows the Rashtrakutas",
+   "summary": "The Chalukya feudatory Tailapa II defeats and kills Karka II and founds the Western Chalukya (Kalyani Chalukya) empire. Two centuries after Dantidurga overthrew the Chalukyas, a Chalukya overthrows the Rashtrakutas.",
+   "people": [
+    "tailapa-ii",
+    "karka-ii"
+   ],
+   "polities": [
+    "western-chalukya",
+    "rashtrakuta"
+   ],
+   "wiki": "Tailapa II",
+   "major": true
+  },
+  {
+   "id": "indra-iv",
+   "date": "0982",
+   "lane": "life",
+   "title": "Indra IV fasts to death",
+   "summary": "Indra IV, Krishna III's grandson, tries to restore the dynasty with Western Ganga help but fails. He ends his life by sallekhana, the Jain fast unto death, at Shravanabelagola.",
+   "people": [
+    "indra-iv"
+   ],
+   "places": [
+    "shravanabelagola"
+   ],
+   "polities": [
+    "western-ganga"
+   ],
+   "concepts": [
+    "sallekhana"
+   ]
+  }
+ ]
+}
