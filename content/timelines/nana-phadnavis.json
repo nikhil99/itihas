@@ -27,6 +27,11 @@
     { "entity": "shah-alam-ii",     "label": "Shah Alam II – Mughal reign",  "from": 1759.9, "to": 1806.9 }
   ],
   "events": [
+    {"id": "nana-born", "date": "1742-02-12", "lane": "life", "title": "Nana Phadnavis born at Satara", "summary": "Balaji Janardan Bhanu is born into the family that kept the Peshwas' accounts.", "people": ["nana-phadnavis"], "places": ["satara"]},
+    {"id": "nana-panipat", "date": "1761-01-14", "lane": "life", "title": "Escapes from Panipat", "summary": "Nineteen-year-old Nana survives the slaughter at Panipat and makes his way back to Pune; his mother is captured.", "people": ["nana-phadnavis"], "places": ["panipat"], "concepts": ["panipat-3"]},
+    {"id": "sakharam-arrested", "date": "1778", "lane": "political", "title": "Sakharam Bapu imprisoned", "summary": "Nana has his rival in the Barbhai council, Sakharam Bapu, arrested for dealing with Raghunathrao and the British; he dies a prisoner in 1781.", "approx": true, "people": ["sakharam-bapu", "nana-phadnavis"]},
+    {"id": "gajendragad", "date": "1787-04", "lane": "political", "title": "Peace with Tipu", "summary": "The Maratha–Mysore war ends at Gajendragad: Tipu pays tribute and returns Badami and other towns.", "approx": true, "people": ["tipu", "nana-phadnavis"], "polities": ["mysore-kingdom"], "concepts": ["maratha-mysore-wars"]},
+    {"id": "nana-arrested-b", "date": "1797-12-31", "lane": "political", "title": "Arrested by Shinde", "summary": "Daulatrao Shinde's men seize Nana; he is held at Ahmednagar and freed only on paying a large ransom.", "approx": true, "people": ["nana-phadnavis", "daulatrao-shinde"], "places": ["ahmednagar"]},
     {
       "id": "narayanrao-peshwa", "date": "1772-12", "lane": "life",
       "title": "Narayanrao becomes Peshwa",

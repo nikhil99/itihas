@@ -1,0 +1,356 @@
+{
+ "id": "deccan-sultanates",
+ "kind": "empire",
+ "order": 3.5,
+ "title": "The Deccan Sultanates",
+ "subtitle": "The Bahmanis and the five Shahi kingdoms · 1347 – 1687",
+ "subject": "deccan-sultanates",
+ "range": [
+  1320,
+  1700
+ ],
+ "focus": [
+  1347.6,
+  1687.7
+ ],
+ "intro": "In 1347 rebel nobles of the Delhi Sultanate founded the Bahmani Sultanate in the Deccan. After its great minister Mahmud Gawan was executed it broke into five kingdoms: the Adil Shahis of Bijapur, the Nizam Shahis of Ahmadnagar, the Qutb Shahis of Golconda, the Imad Shahis of Berar and the Barid Shahis of Bidar. They fought Vijayanagara and one another, united to win at Talikota in 1565, and built Bijapur, Hyderabad and the Charminar. Shahaji Bhonsle served them, and his son Shivaji founded the Maratha state at their expense. The Mughals absorbed them one by one, ending with Golconda in 1687.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Cities & building"
+  },
+  {
+   "id": "political",
+   "label": "Court, culture & faith"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Bahmanis (Gulbarga, Bidar)",
+   "members": [
+    {
+     "entity": "bahman-shah",
+     "from": 1347.6,
+     "to": 1358.1
+    },
+    {
+     "entity": "mohammed-shah-i-bahmani",
+     "from": 1358.1,
+     "to": 1375.3
+    },
+    {
+     "from": 1375.3,
+     "to": 1397.9,
+     "name": "Mujahid, Daud, Muhammad II and others",
+     "note": "Five sultans in twenty years"
+    },
+    {
+     "entity": "firuz-shah-bahmani",
+     "from": 1397.9,
+     "to": 1422.7
+    },
+    {
+     "entity": "ahmad-shah-wali",
+     "from": 1422.7,
+     "to": 1436.3
+    },
+    {
+     "entity": "ahmad-shah-ii-bahmani",
+     "from": 1436.3,
+     "to": 1458.3
+    },
+    {
+     "entity": "humayun-shah-bahmani",
+     "from": 1458.3,
+     "to": 1461.7
+    },
+    {
+     "from": 1461.7,
+     "to": 1463.5,
+     "name": "Nizam Shah",
+     "note": "A child sultan"
+    },
+    {
+     "entity": "muhammad-shah-iii-bahmani",
+     "from": 1463.5,
+     "to": 1482.2,
+     "note": "Mahmud Gawan his chief minister"
+    },
+    {
+     "entity": "mahmud-shah-bahmani",
+     "from": 1482.2,
+     "to": 1518.9,
+     "note": "The provinces break away"
+    },
+    {
+     "from": 1518.9,
+     "to": 1527,
+     "name": "Puppet sultans",
+     "note": "Under the Barid Shahi ministers at Bidar"
+    }
+   ]
+  },
+  {
+   "label": "Adil Shahis (Bijapur)",
+   "members": [
+    {
+     "entity": "yusuf-adil-shah",
+     "from": 1490,
+     "to": 1510.9
+    },
+    {
+     "entity": "ismail-adil-shah",
+     "from": 1510.9,
+     "to": 1534.6
+    },
+    {
+     "from": 1534.6,
+     "to": 1535.3,
+     "name": "Mallu Adil Shah"
+    },
+    {
+     "entity": "ibrahim-adil-shah-i",
+     "from": 1535.3,
+     "to": 1558
+    },
+    {
+     "entity": "ali-adil-shah-i",
+     "from": 1558,
+     "to": 1580.3
+    },
+    {
+     "entity": "ibrahim-adil-shah-ii",
+     "from": 1580.3,
+     "to": 1627.7
+    },
+    {
+     "entity": "mohammed-adil-shah",
+     "from": 1627.7,
+     "to": 1656.85
+    },
+    {
+     "entity": "ali-adil-shah-ii",
+     "from": 1656.85,
+     "to": 1672.9
+    },
+    {
+     "entity": "sikandar-adil-shah",
+     "from": 1672.9,
+     "to": 1686.7,
+     "note": "Surrenders to Aurangzeb"
+    }
+   ]
+  },
+  {
+   "label": "Nizam Shahis (Ahmadnagar)",
+   "members": [
+    {
+     "entity": "ahmad-nizam-shah",
+     "from": 1490,
+     "to": 1510
+    },
+    {
+     "entity": "burhan-nizam-shah-i",
+     "from": 1510,
+     "to": 1553.9
+    },
+    {
+     "entity": "hussain-nizam-shah",
+     "from": 1553.9,
+     "to": 1565.4
+    },
+    {
+     "entity": "murtaza-nizam-shah-i",
+     "from": 1565.4,
+     "to": 1588.5
+    },
+    {
+     "from": 1588.5,
+     "to": 1591,
+     "name": "Short reigns"
+    },
+    {
+     "entity": "burhan-nizam-shah-ii",
+     "from": 1591,
+     "to": 1595.3
+    },
+    {
+     "from": 1595.3,
+     "to": 1600.6,
+     "name": "Bahadur Nizam Shah",
+     "note": "Chand Bibi defends Ahmadnagar for him"
+    },
+    {
+     "entity": "murtaza-nizam-shah-ii",
+     "from": 1600.6,
+     "to": 1610,
+     "note": "Malik Ambar holds real power"
+    },
+    {
+     "from": 1610,
+     "to": 1636.4,
+     "name": "Burhan III, Hussain III, Murtaza III",
+     "note": "Malik Ambar, then Shahaji, rule in their name"
+    }
+   ]
+  },
+  {
+   "label": "Qutb Shahis (Golconda)",
+   "members": [
+    {
+     "entity": "quli-qutb-shah",
+     "from": 1518,
+     "to": 1543.7
+    },
+    {
+     "from": 1543.7,
+     "to": 1550,
+     "name": "Jamsheed Quli Qutb Shah"
+    },
+    {
+     "entity": "ibrahim-qutb-shah",
+     "from": 1550,
+     "to": 1580.5
+    },
+    {
+     "entity": "muhammad-quli-qutb-shah",
+     "from": 1580.5,
+     "to": 1612
+    },
+    {
+     "entity": "muhammad-qutb-shah",
+     "from": 1612,
+     "to": 1626
+    },
+    {
+     "entity": "abdullah-qutb-shah",
+     "from": 1626,
+     "to": 1672.3
+    },
+    {
+     "entity": "abul-hasan-qutb-shah",
+     "from": 1672.3,
+     "to": 1687.7,
+     "note": "Taken prisoner by Aurangzeb"
+    }
+   ]
+  },
+  {
+   "label": "Imad Shahis (Berar)",
+   "members": [
+    {
+     "entity": "fathullah-imad",
+     "from": 1490,
+     "to": 1504
+    },
+    {
+     "from": 1504,
+     "to": 1530,
+     "name": "Alauddin Imad Shah"
+    },
+    {
+     "from": 1530,
+     "to": 1562,
+     "name": "Darya Imad Shah"
+    },
+    {
+     "from": 1562,
+     "to": 1574,
+     "name": "Burhan Imad Shah",
+     "note": "Berar annexed by Ahmadnagar"
+    }
+   ]
+  },
+  {
+   "label": "Barid Shahis (Bidar)",
+   "members": [
+    {
+     "entity": "qasim-barid",
+     "from": 1492,
+     "to": 1504
+    },
+    {
+     "entity": "amir-barid",
+     "from": 1504,
+     "to": 1542
+    },
+    {
+     "entity": "ali-barid",
+     "from": 1542,
+     "to": 1580
+    },
+    {
+     "from": 1580,
+     "to": 1619,
+     "name": "Later Barid Shahis",
+     "note": "Bidar annexed by Bijapur"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {"entity": "delhi-sultanate", "label": "Delhi Sultanate", "from": 1320, "to": 1526},
+  {"entity": "vijayanagara-empire", "label": "Vijayanagara Empire", "from": 1336, "to": 1646},
+  {"entity": "portuguese-india", "label": "Portuguese Goa", "from": 1510, "to": 1700},
+  {"entity": "mughal-empire", "label": "Mughal Empire", "from": 1526, "to": 1700},
+  {"entity": "maratha-empire", "label": "Maratha state", "from": 1674, "to": 1700}
+ ],
+ "events": [
+  {"id": "bahmani-founded", "date": "1347-08-03", "lane": "life", "title": "Bahman Shah founds the Bahmani Sultanate", "summary": "Rebel nobles of the Delhi Sultanate in the Deccan elect Hasan Gangu as their sultan. Taking the title Alauddin Bahman Shah, he rules from Gulbarga.", "people": ["bahman-shah", "muhammad-tughlaq"], "places": ["gulbarga"], "polities": ["bahmani", "delhi-sultanate"], "major": true},
+  {"id": "mohammed-i", "date": "1358", "lane": "life", "title": "Mohammed Shah I organises the state", "summary": "Bahman Shah's son divides the kingdom into four provinces under governors (tarafdars) and fights the first wars with Vijayanagara.", "approx": true, "people": ["mohammed-shah-i-bahmani"], "places": ["gulbarga"], "polities": ["bahmani"]},
+  {"id": "raichur-1366", "date": "1366", "lane": "military", "title": "First war over the Raichur Doab", "summary": "Mohammed Shah I and Bukka Raya I of Vijayanagara fight a savage war over the land between the Krishna and the Tungabhadra — the start of two centuries of conflict.", "approx": true, "people": ["mohammed-shah-i-bahmani", "bukka"], "places": ["raichur-doab"], "polities": ["vijayanagara-empire"]},
+  {"id": "gulbarga-mosque", "date": "1367", "lane": "forts", "title": "Great mosque at Gulbarga", "summary": "The Jama Masjid inside Gulbarga fort is completed — a hall roofed entirely with domes and no open courtyard.", "approx": true, "people": ["mohammed-shah-i-bahmani"], "places": ["gulbarga-mosque", "gulbarga-fort"]},
+  {"id": "firuz", "date": "1397-11", "lane": "life", "title": "Firuz Shah Bahmani", "summary": "Firuz Shah, scholar and builder, takes the throne. He recruits Persian and Arab migrants to his court and campaigns against Vijayanagara.", "approx": true, "people": ["firuz-shah-bahmani"], "polities": ["bahmani"]},
+  {"id": "bande-nawaz", "date": "1400", "lane": "political", "title": "Bande Nawaz settles at Gulbarga", "summary": "The Chishti saint Bande Nawaz (Gesu Daraz) arrives from Delhi; his dargah at Gulbarga becomes the Deccan's great Sufi shrine.", "approx": true, "people": ["bande-nawaz", "firuz-shah-bahmani"], "places": ["gulbarga"], "concepts": ["sufism", "dakhini"]},
+  {"id": "pangal", "date": "1420", "lane": "military", "title": "Defeat at Pangal", "summary": "Firuz Shah's army is routed by Vijayanagara at the siege of Pangal; he is forced to abdicate for his brother Ahmad.", "approx": true, "people": ["firuz-shah-bahmani", "deva-raya-i"], "polities": ["vijayanagara-empire"]},
+  {"id": "ahmad-wali", "date": "1422-09", "lane": "life", "title": "Ahmad Shah Wali takes the throne", "summary": "Firuz's brother Ahmad Shah becomes sultan and later conquers Warangal from the Kakatiyas' successors.", "approx": true, "people": ["ahmad-shah-wali", "firuz-shah-bahmani"], "places": ["warangal"], "polities": ["bahmani"]},
+  {"id": "bidar-capital", "date": "1429", "lane": "forts", "title": "The capital moves to Bidar", "summary": "Ahmad Shah Wali moves the capital from Gulbarga to Bidar and rebuilds its fort.", "approx": true, "people": ["ahmad-shah-wali"], "places": ["bidar", "bidar-fort"], "polities": ["bahmani"], "major": true},
+  {"id": "deccani-afaqi", "date": "1440", "lane": "political", "title": "Deccanis against newcomers", "summary": "Court politics split between the 'Deccanis', long-settled Muslims, and the 'Afaqis', newly arrived Persians and Turks — a feud that later breaks the kingdom.", "approx": true, "people": ["ahmad-shah-ii-bahmani"], "polities": ["bahmani"]},
+  {"id": "gawan-minister", "date": "1463", "lane": "political", "title": "Mahmud Gawan becomes chief minister", "summary": "Under the boy king Muhammad Shah III, the Persian merchant-statesman Mahmud Gawan reforms the provinces and the army.", "approx": true, "people": ["mahmud-gawan", "muhammad-shah-iii-bahmani"], "places": ["bidar"], "polities": ["bahmani"]},
+  {"id": "nikitin", "date": "1469", "lane": "world", "title": "A Russian at Bidar", "summary": "The Tver merchant Afanasy Nikitin spends years in the Bahmani kingdom and describes Bidar's splendour and the poverty of the countryside.", "approx": true, "people": ["afanasy-nikitin"], "places": ["bidar"], "polities": ["bahmani"]},
+  {"id": "goa-1472", "date": "1472", "lane": "military", "title": "Goa taken from Vijayanagara", "summary": "Mahmud Gawan's campaigns capture Goa and the west-coast ports, giving the Bahmanis the horse trade with Arabia and Persia.", "approx": true, "people": ["mahmud-gawan"], "places": ["goa"], "polities": ["vijayanagara-empire"]},
+  {"id": "gawan-madrasa", "date": "1472", "lane": "forts", "title": "Mahmud Gawan's madrasa", "summary": "Gawan builds a three-storey college at Bidar faced with glazed tiles, with a library said to hold thousands of books.", "approx": true, "people": ["mahmud-gawan"], "places": ["gawan-madrasa", "bidar"]},
+  {"id": "gawan-executed", "date": "1481-04-05", "lane": "political", "title": "Mahmud Gawan executed", "summary": "Rivals forge a letter of treason; the drunken sultan has Gawan beheaded. The kingdom never recovers its unity.", "people": ["mahmud-gawan", "muhammad-shah-iii-bahmani"], "places": ["bidar"], "polities": ["bahmani"], "major": true},
+  {"id": "break-up", "date": "1490", "lane": "life", "title": "The governors declare independence", "summary": "Yusuf Adil Khan at Bijapur, Ahmad Nizam-ul-Mulk at Ahmadnagar and Fathullah Imad-ul-Mulk in Berar stop obeying Bidar; Qasim Barid controls the sultan himself.", "people": ["yusuf-adil-shah", "ahmad-nizam-shah", "fathullah-imad", "qasim-barid", "mahmud-shah-bahmani"], "polities": ["bijapur-sultanate", "ahmadnagar-sultanate", "berar-sultanate", "bidar-sultanate"], "major": true},
+  {"id": "ahmadnagar-founded", "date": "1494", "lane": "forts", "title": "Ahmadnagar founded", "summary": "Ahmad Nizam Shah builds a new capital, Ahmadnagar, on the Sina river.", "approx": true, "people": ["ahmad-nizam-shah"], "places": ["ahmednagar"], "polities": ["ahmadnagar-sultanate"]},
+  {"id": "goa-1510", "date": "1510-11-25", "lane": "world", "title": "Portuguese take Goa from Bijapur", "summary": "Afonso de Albuquerque storms Goa; the Adil Shahis lose their main port.", "people": ["albuquerque", "ismail-adil-shah"], "places": ["goa"], "polities": ["portuguese-india", "bijapur-sultanate"], "major": true},
+  {"id": "golconda-independent", "date": "1518", "lane": "life", "title": "Quli Qutb Mulk at Golconda", "summary": "The Turkman governor of Telangana, Quli Qutb Mulk, rules independently from Golconda fort.", "approx": true, "people": ["quli-qutb-shah"], "places": ["golconda"], "polities": ["golconda-sultanate"]},
+  {"id": "raichur-1520", "date": "1520-05-19", "lane": "military", "title": "Battle of Raichur", "summary": "Krishnadevaraya of Vijayanagara defeats Ismail Adil Shah and takes Raichur.", "people": ["krishnadevaraya", "ismail-adil-shah"], "places": ["raichur"], "polities": ["vijayanagara-empire", "bijapur-sultanate"]},
+  {"id": "bahmani-end", "date": "1527", "lane": "life", "title": "The last Bahmani sultan flees", "summary": "Kalimullah, last of the Bahmani line, escapes his Barid minders; the Bahmani Sultanate is over.", "approx": true, "people": ["amir-barid"], "places": ["bidar"], "polities": ["bahmani", "bidar-sultanate"]},
+  {"id": "talikota", "date": "1565-01-23", "lane": "military", "title": "Battle of Talikota", "summary": "Bijapur, Ahmadnagar, Golconda and Bidar unite against Vijayanagara and kill Rama Raya; the victors sack Hampi.", "people": ["ali-adil-shah-i", "hussain-nizam-shah", "ibrahim-qutb-shah", "rama-raya"], "places": ["talikota", "hampi"], "polities": ["vijayanagara-empire"], "major": true},
+  {"id": "berar-annexed", "date": "1574", "lane": "military", "title": "Ahmadnagar annexes Berar", "summary": "Murtaza Nizam Shah conquers the Imad Shahi kingdom of Berar.", "approx": true, "people": ["murtaza-nizam-shah-i"], "places": ["achalpur", "berar"], "polities": ["berar-sultanate", "ahmadnagar-sultanate"]},
+  {"id": "chand-bibi-bijapur", "date": "1580", "lane": "political", "title": "Chand Bibi regent at Bijapur", "summary": "After Ali Adil Shah I is murdered, his widow Chand Bibi, a Nizam Shahi princess, guards the boy king Ibrahim II.", "approx": true, "people": ["chand-bibi", "ibrahim-adil-shah-ii", "ali-adil-shah-i"], "places": ["bijapur"], "polities": ["bijapur-sultanate"]},
+  {"id": "hyderabad-founded", "date": "1591", "lane": "forts", "title": "Hyderabad and the Charminar", "summary": "Muhammad Quli Qutb Shah, poet in Dakhini and Telugu, founds Hyderabad beside Golconda with the Charminar at its centre.", "people": ["muhammad-quli-qutb-shah"], "places": ["hyderabad", "charminar", "golconda"], "polities": ["golconda-sultanate"], "concepts": ["dakhini"], "major": true},
+  {"id": "chand-bibi-ahmadnagar", "date": "1595-12", "lane": "military", "title": "Chand Bibi defends Ahmadnagar", "summary": "Back in Ahmadnagar, Chand Bibi holds the fort against Prince Murad's Mughal army and forces a truce.", "approx": true, "people": ["chand-bibi", "akbar"], "places": ["ahmednagar"], "polities": ["ahmadnagar-sultanate", "mughal-empire"], "major": true},
+  {"id": "ahmadnagar-1600", "date": "1600-08", "lane": "military", "title": "Ahmadnagar falls to the Mughals", "summary": "Chand Bibi is killed and the city taken, but Nizam Shahi loyalists fight on from the west.", "approx": true, "people": ["chand-bibi"], "places": ["ahmednagar"], "polities": ["ahmadnagar-sultanate", "mughal-empire"]},
+  {"id": "kitab-i-nauras", "date": "1600", "lane": "political", "title": "Ibrahim II's Kitab-i-Nauras", "summary": "Ibrahim Adil Shah II writes songs in Dakhini invoking Saraswati and the Prophet alike; Bijapur becomes a centre of music and Deccan painting.", "approx": true, "people": ["ibrahim-adil-shah-ii"], "places": ["bijapur"], "concepts": ["kitab-i-nauras", "deccan-painting", "dakhini"]},
+  {"id": "malik-ambar-capital", "date": "1610", "lane": "forts", "title": "Malik Ambar founds Khadki", "summary": "Malik Ambar, an Ethiopian-born general who runs the Nizam Shahi state, builds a new capital at Khadki, later Aurangabad.", "approx": true, "people": ["malik-ambar", "murtaza-nizam-shah-ii"], "places": ["aurangabad"], "polities": ["ahmadnagar-sultanate"], "major": true},
+  {"id": "ambar-revenue", "date": "1612", "lane": "political", "title": "Malik Ambar's revenue settlement", "summary": "Malik Ambar surveys the land and fixes the revenue in cash; his system is later taken up by the Mughals in the Deccan.", "approx": true, "people": ["malik-ambar"], "polities": ["ahmadnagar-sultanate"]},
+  {"id": "bidar-annexed", "date": "1619", "lane": "military", "title": "Bijapur annexes Bidar", "summary": "Ibrahim Adil Shah II absorbs the last Barid Shahi territory.", "approx": true, "people": ["ibrahim-adil-shah-ii"], "places": ["bidar"], "polities": ["bidar-sultanate", "bijapur-sultanate"]},
+  {"id": "bhatvadi", "date": "1624", "lane": "military", "title": "Battle of Bhatvadi", "summary": "Malik Ambar's light cavalry — with the young Shahaji Bhonsle among his officers — defeats a combined Mughal–Bijapur army.", "people": ["malik-ambar", "shahaji"], "polities": ["mughal-empire", "bijapur-sultanate"], "concepts": ["battle-bhatvadi"]},
+  {"id": "ambar-dies", "date": "1626-05", "lane": "life", "title": "Malik Ambar dies", "summary": "Malik Ambar dies at about eighty; without him the Nizam Shahi state soon collapses.", "approx": true, "people": ["malik-ambar"], "places": ["aurangabad"], "polities": ["ahmadnagar-sultanate"]},
+  {"id": "ibrahim-rauza", "date": "1627", "lane": "forts", "title": "Ibrahim Rauza", "summary": "Ibrahim II's tomb and mosque at Bijapur are finished — the elegant model, it is said, for the Taj Mahal's builders.", "approx": true, "people": ["ibrahim-adil-shah-ii"], "places": ["ibrahim-rauza", "bijapur"]},
+  {"id": "shahaji-regent", "date": "1633", "lane": "political", "title": "Shahaji's puppet sultan", "summary": "After the Mughals capture Daulatabad, Shahaji Bhonsle crowns a boy of the Nizam Shahi line and fights on in his name.", "approx": true, "people": ["shahaji"], "places": ["devagiri"], "polities": ["ahmadnagar-sultanate", "mughal-empire"]},
+  {"id": "treaty-1636", "date": "1636-05", "lane": "political", "title": "The Deccan settlement of 1636", "summary": "Shah Jahan ends the Nizam Shahi kingdom; Bijapur and Golconda accept Mughal overlordship and pay tribute.", "approx": true, "people": ["shah-jahan", "mohammed-adil-shah", "abdullah-qutb-shah", "shahaji"], "polities": ["ahmadnagar-sultanate", "mughal-empire"], "major": true},
+  {"id": "gol-gumbaz", "date": "1656", "lane": "forts", "title": "Gol Gumbaz", "summary": "Mohammed Adil Shah's tomb is completed — one of the largest domes in the world, with a whispering gallery.", "approx": true, "people": ["mohammed-adil-shah"], "places": ["gol-gumbaz", "bijapur"], "major": true},
+  {"id": "golconda-1656", "date": "1656", "lane": "military", "title": "Aurangzeb attacks Golconda", "summary": "Prince Aurangzeb, viceroy of the Deccan, besieges Golconda; Shah Jahan orders him to make peace for a large indemnity.", "approx": true, "people": ["aurangzeb", "abdullah-qutb-shah"], "places": ["golconda"], "polities": ["golconda-sultanate", "mughal-empire"]},
+  {"id": "afzal-khan", "date": "1659-11-10", "lane": "military", "title": "Bijapur's general killed by Shivaji", "summary": "Bijapur sends Afzal Khan to destroy Shivaji; he is killed at Pratapgad and his army routed.", "people": ["afzal-khan", "shivaji", "ali-adil-shah-ii"], "places": ["pratapgad"], "polities": ["bijapur-sultanate", "maratha-empire"], "concepts": ["battle-pratapgarh"], "major": true},
+  {"id": "jai-singh-bijapur", "date": "1666-01", "lane": "military", "title": "Jai Singh fails before Bijapur", "summary": "Jai Singh, with Shivaji's troops alongside, marches on Bijapur but has to retreat.", "approx": true, "people": ["jai-singh", "shivaji", "ali-adil-shah-ii"], "places": ["bijapur"], "polities": ["mughal-empire"]},
+  {"id": "madanna", "date": "1674", "lane": "political", "title": "Madanna and Akkanna", "summary": "Abul Hasan Qutb Shah hands the government to the Brahmin brothers Madanna and Akkanna.", "approx": true, "people": ["abul-hasan-qutb-shah", "madanna"], "places": ["golconda"], "polities": ["golconda-sultanate"]},
+  {"id": "golconda-shivaji", "date": "1677-02", "lane": "political", "title": "Golconda allies with Shivaji", "summary": "Shivaji is received in Hyderabad; with Golconda's money he campaigns in the Carnatic.", "people": ["shivaji", "abul-hasan-qutb-shah", "madanna"], "places": ["hyderabad"], "polities": ["maratha-empire"]},
+  {"id": "bijapur-falls", "date": "1686-09-12", "lane": "military", "title": "Bijapur falls", "summary": "After a fifteen-month siege Sikandar Adil Shah surrenders to Aurangzeb.", "people": ["sikandar-adil-shah", "aurangzeb"], "places": ["bijapur"], "polities": ["bijapur-sultanate", "mughal-empire"], "major": true},
+  {"id": "golconda-falls", "date": "1687-09-21", "lane": "military", "title": "Golconda falls", "summary": "A gate is opened by treachery after an eight-month siege; Abul Hasan is taken prisoner and the last Deccan sultanate ends.", "people": ["abul-hasan-qutb-shah", "aurangzeb"], "places": ["golconda"], "polities": ["golconda-sultanate", "mughal-empire"], "major": true}
+ ]
+}

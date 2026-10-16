@@ -67,6 +67,8 @@
   }
  ],
  "events": [
+  {"id": "gaya-temple", "date": "1787", "lane": "political", "title": "Vishnupad temple at Gaya", "summary": "Ahilyabai rebuilds the Vishnupad temple at Gaya, one of many shrines she restores from Somnath to Gaya.", "approx": true, "people": ["ahilyabai"], "places": ["vishnupad", "gaya"]},
+  {"id": "maheshwar-weavers", "date": "1770", "lane": "forts", "title": "Weavers settled at Maheshwar", "summary": "Ahilyabai brings weavers to Maheshwar; the town's saris are still known by its name.", "approx": true, "people": ["ahilyabai"], "places": ["maheshwar"]},
   {
    "id": "born",
    "date": "1725-05-31",

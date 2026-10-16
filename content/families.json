@@ -36,7 +36,8 @@
     ["mahadji", "daulatrao-shinde"],
     ["jankoji-shinde-ii", "jayajirao-scindia"],
     ["bajirao-ii", "nana-sahib"],
-    ["sambhaji-ii", "shivaji-ii-kolhapur"]
+    ["sambhaji-ii", "shivaji-ii-kolhapur"],
+    ["ali-adil-shah-i", "ibrahim-adil-shah-ii"]
   ],
   "add": [
     {"parent": "shahu", "child": "rajaram-ii", "kind": "adopted"},
@@ -49,6 +50,7 @@
     {"parent": "bajirao-ii", "child": "nana-sahib", "kind": "adopted"},
     {"parent": "thuljaji", "child": "serfoji-ii", "kind": "adopted"},
     {"parent": "sambhaji-ii", "child": "shivaji-ii-kolhapur", "kind": "adopted"},
+    {"parent": "qasim-barid", "child": "amir-barid"},
 
     {"parent": "muazzam", "child": "azim-ush-shan"},
     {"parent": "azim-ush-shan", "child": "farrukhsiyar"},
@@ -122,7 +124,12 @@
     "nana-sahib": "Adopted heir; led the 1857 rising at Kanpur",
     "daulatrao-shinde": "Mahadji's grandnephew, adopted as heir",
     "sayajirao-iii": "From a distant branch; adopted by Khanderao's widow",
-    "serfoji-ii": "Adopted by Thuljaji"
+    "serfoji-ii": "Adopted by Thuljaji",
+    "ibrahim-adil-shah-ii": "Nephew of Ali Adil Shah I; Chand Bibi was his guardian",
+    "firuz-shah-bahmani": "Grandson of Bahman Shah",
+    "ahmad-shah-wali": "Younger brother of Firuz Shah",
+    "muhammad-qutb-shah": "Nephew and son-in-law of Muhammad Quli Qutb Shah",
+    "abul-hasan-qutb-shah": "Son-in-law of Abdullah Qutb Shah"
   },
   "include": {}
 }

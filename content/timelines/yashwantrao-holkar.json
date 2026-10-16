@@ -67,6 +67,8 @@
   }
  ],
  "events": [
+  {"id": "nagpur-escape", "date": "1797", "lane": "life", "title": "Escape from Nagpur", "summary": "After his father's death Yashwantrao takes refuge with the Bhonsles of Nagpur, is held there, and escapes to raise his own army.", "approx": true, "people": ["yashwantrao-holkar"], "places": ["nagpur"], "polities": ["nagpur-kingdom"]},
+  {"id": "bhanpura-capital", "date": "1807", "lane": "forts", "title": "A base at Bhanpura", "summary": "Yashwantrao makes Bhanpura his headquarters, casting cannon there for a new war against the British.", "approx": true, "people": ["yashwantrao-holkar"], "places": ["bhanpura"]},
   {
    "id": "born",
    "date": "1776-12-03",
