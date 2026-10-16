@@ -114,6 +114,8 @@ def wd_time(claims, prop):
         t = v["time"]  # '+1630-02-19T00:00:00Z'
         sign = -1 if t.startswith("-") else 1
         y, m, d = t[1:].split("T")[0].split("-")
+        if v.get("precision", 9) < 9:
+            continue  # decade/century precision ("5th century") would show as a misleading exact year
         prec = {9: "year", 10: "month", 11: "day"}.get(v.get("precision"), "year")
         year = sign * int(y)
         if prec == "year" or m == "00":
@@ -237,8 +239,11 @@ def main():
         e["labels"] = extra.get("labels", {})
         e["mrUrl"] = extra.get("mrUrl")
         e["dates"] = extra.get("dates", {})
-        # Curated dates win over Wikidata (which is sometimes contested or wrong).
+        # Curated dates win over Wikidata (which is sometimes contested or wrong); null drops one.
         for k, v in registry[e["id"]].get("dates", {}).items():
+            if v is None:
+                e["dates"].pop(k, None)
+                continue
             e["dates"][k] = {"value": v, "precision": {4: "year", 7: "month"}.get(len(v), "day")}
         if not e.get("coords") and extra.get("coords") and e["type"] == "place":
             e["coords"] = extra["coords"]
