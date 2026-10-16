@@ -118,6 +118,12 @@
   }
  ],
  "events": [
+  {"id": "sambhaji-ii-dies", "date": "1760-12", "lane": "life", "title": "Sambhaji II dies", "summary": "Sambhaji II dies without a son; after an interregnum his widow adopts a boy who reigns as Shivaji.", "approx": true, "people": ["sambhaji-ii"]},
+  {"id": "adoption-1762", "date": "1762-09", "lane": "political", "title": "An adopted heir", "summary": "Sambhaji's widow Jijabai adopts the boy who becomes Shivaji II of Kolhapur and governs as regent.", "approx": true, "people": ["shivaji-ii-kolhapur"]},
+  {"id": "abasaheb-killed", "date": "1821-07-02", "lane": "political", "title": "Abasaheb murdered", "summary": "Shambhu (Abasaheb), Raja since 1813, is murdered; his brother Shahaji (Bavasaheb) succeeds.", "people": ["abasaheb-kolhapur"]},
+  {"id": "florence-1870", "date": "1870-11-30", "lane": "life", "title": "Rajaram II dies in Florence", "summary": "Returning from a visit to Britain, the young Raja Rajaram II dies in Florence; he is cremated on the bank of the Arno.", "approx": true},
+  {"id": "shahu-born", "date": "1874-06-26", "lane": "life", "title": "Yeshwantrao Ghatge born", "summary": "The future Shahu Maharaj is born at Kagal into the Ghatge family.", "people": ["shahu-kolhapur"]},
+  {"id": "shahu-adopted", "date": "1884-03-17", "lane": "political", "title": "Adopted as Raja", "summary": "Ten-year-old Yeshwantrao is adopted into the royal family and renamed Shahu.", "people": ["shahu-kolhapur"], "places": ["kolhapur"]},
   {
    "id": "court",
    "date": "1710",

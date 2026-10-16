@@ -128,6 +128,11 @@
   }
  ],
  "events": [
+  {"id": "damaji-dies", "date": "1768", "lane": "life", "title": "Damaji dies; succession dispute", "summary": "Damaji's death sets his sons Sayajirao, Govindrao and Fatehsinhrao against each other, drawing in the Peshwa and the British.", "approx": true, "people": ["damaji-gaekwad", "sayajirao-i"]},
+  {"id": "phayre-affair", "date": "1874-11", "lane": "political", "title": "The Resident poisoning case", "summary": "Malharrao Gaekwad is accused of trying to poison the British Resident, Colonel Phayre; a commission tries him and he is deposed the next year.", "approx": true, "places": ["vadodara"], "polities": ["east-india-company"]},
+  {"id": "sayajirao-powers", "date": "1881-12-28", "lane": "political", "title": "Sayajirao III takes full powers", "summary": "Educated under the regency, Sayajirao III begins a fifty-eight-year reign of reform.", "people": ["sayajirao-iii"], "places": ["vadodara"]},
+  {"id": "bank-of-baroda", "date": "1908-07-20", "lane": "forts", "title": "Bank of Baroda founded", "summary": "Sayajirao III sponsors the founding of the Bank of Baroda.", "people": ["sayajirao-iii"], "places": ["vadodara"]},
+  {"id": "sayajirao-dies", "date": "1939-02-06", "lane": "life", "title": "Sayajirao III dies", "summary": "Sayajirao III dies after one of the longest and most progressive reigns in princely India.", "people": ["sayajirao-iii"]},
   {
    "id": "songadh",
    "date": "1719",

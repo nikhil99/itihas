@@ -65,6 +65,17 @@
   }
  ],
  "events": [
+  {"id": "sringeri-1346", "date": "1346", "lane": "political", "title": "Celebration at Sringeri", "summary": "Harihara and his brothers celebrate their conquests at the Sringeri matha, whose pontiff Vidyaranya tradition makes the empire's guide.", "approx": true, "people": ["harihara-i", "bukka", "vidyaranya"], "places": ["sringeri"]},
+  {"id": "bukka-succeeds", "date": "1356", "lane": "life", "title": "Bukka Raya I succeeds", "summary": "On Harihara I's death his brother Bukka becomes king; under him Vijayanagara grows into a South Indian empire.", "approx": true, "people": ["bukka", "harihara-i"]},
+  {"id": "raichur-war-1366", "date": "1366", "lane": "military", "title": "War with the Bahmanis over the Raichur Doab", "summary": "The first of many wars for the fertile Raichur Doab between the Krishna and Tungabhadra rivers.", "approx": true, "people": ["bukka"], "places": ["raichur-doab", "krishna-river", "tungabhadra"], "polities": ["bahmani"]},
+  {"id": "deva-raya-ii-army", "date": "1430", "lane": "military", "title": "Deva Raya II modernises the army", "summary": "Deva Raya II recruits Turkic archers and cavalry to match the Bahmanis and builds a mosque for his Muslim soldiers.", "approx": true, "people": ["deva-raya-ii"], "polities": ["bahmani"]},
+  {"id": "deva-raya-ii-dies", "date": "1446", "lane": "life", "title": "Deva Raya II dies", "summary": "After Deva Raya II the Sangama dynasty declines under weak successors, opening the way for the Saluvas.", "approx": true, "people": ["deva-raya-ii", "mallikarjuna-raya"]},
+  {"id": "kondavidu", "date": "1515", "lane": "military", "title": "Kondavidu and Udayagiri taken", "summary": "Krishnadevaraya storms Udayagiri and the fortress of Kondavidu from the Gajapatis of Odisha.", "approx": true, "people": ["krishnadevaraya"], "places": ["udayagiri", "kondaveedu"], "polities": ["gajapati"]},
+  {"id": "gajapati-peace", "date": "1518", "lane": "political", "title": "Peace with the Gajapatis", "summary": "War with Odisha ends in a treaty sealed by Krishnadevaraya's marriage to a Gajapati princess.", "approx": true, "people": ["krishnadevaraya"], "polities": ["gajapati"]},
+  {"id": "amuktamalyada", "date": "1521", "lane": "political", "title": "Amuktamalyada", "summary": "Krishnadevaraya writes the Telugu poem Amuktamalyada, which also contains his advice on statecraft.", "approx": true, "people": ["krishnadevaraya"], "concepts": ["amuktamalyada", "telugu"]},
+  {"id": "achyuta-crowned", "date": "1530", "lane": "life", "title": "Achyuta Raya crowned at Tirupati", "summary": "Krishnadevaraya's half-brother Achyuta Raya is crowned at Tirupati and Kalahasti before entering the capital.", "approx": true, "people": ["achyuta-raya"], "places": ["tirumala-temple"]},
+  {"id": "ahmadnagar-sack", "date": "1561", "lane": "military", "title": "Rama Raya sacks Ahmadnagar", "summary": "Rama Raya, playing the sultanates against each other, joins Bijapur in ravaging Ahmadnagar — conduct that unites the sultans against him.", "approx": true, "people": ["rama-raya"], "places": ["ahmednagar"], "polities": ["ahmadnagar-sultanate", "bijapur-sultanate"]},
+  {"id": "chandragiri", "date": "1592", "lane": "forts", "title": "Capital moves to Chandragiri", "summary": "Venkatapati Raya shifts the court from Penukonda to Chandragiri, further from the sultanates.", "approx": true, "people": ["venkatapati-raya"], "places": ["chandragiri", "penukonda"]},
   {
    "id": "founding",
    "date": "1336-04-18",

@@ -88,6 +88,10 @@
   }
  ],
  "events": [
+  {"id": "raghoji-ii-1788", "date": "1788", "lane": "life", "title": "Raghoji II succeeds", "summary": "Mudhoji's son Raghoji II becomes Raja; the Nagpur state is at its widest.", "approx": true, "people": ["raghoji-ii", "mudhoji-i"]},
+  {"id": "parsoji-1816", "date": "1816-03", "lane": "political", "title": "Raghoji II dies; Appasaheb regent", "summary": "Raghoji's son Parsoji is disabled, and his cousin Appasaheb becomes regent — and signs a subsidiary alliance with the British in May.", "approx": true, "people": ["raghoji-ii", "appasaheb-bhonsle"], "places": ["nagpur"], "concepts": ["subsidiary-alliance"]},
+  {"id": "parsoji-murdered", "date": "1817-02", "lane": "political", "title": "Parsoji murdered", "summary": "Parsoji is found dead; Appasaheb takes the throne and soon turns against the British.", "approx": true, "people": ["appasaheb-bhonsle"], "places": ["nagpur"]},
+  {"id": "appasaheb-escapes", "date": "1818-05", "lane": "life", "title": "Appasaheb deposed and escapes", "summary": "Arrested after Sitabuldi, Appasaheb escapes his guards and spends the rest of his life a fugitive.", "approx": true, "people": ["appasaheb-bhonsle"], "polities": ["east-india-company"]},
   {
    "id": "nagpur",
    "date": "1739",

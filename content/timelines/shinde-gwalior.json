@@ -104,6 +104,13 @@
   }
  ],
  "events": [
+  {"id": "lalsot", "date": "1787-07", "lane": "military", "title": "Setback at Lalsot", "summary": "Rajput armies and deserting Mughal troops defeat Mahadji at Lalsot; he rebuilds his army around de Boigne's brigades.", "approx": true, "people": ["mahadji", "de-boigne"], "places": ["lalsot"]},
+  {"id": "delhi-retaken-1788", "date": "1788-10", "lane": "military", "title": "Mahadji retakes Delhi", "summary": "Mahadji's troops drive out Ghulam Qadir, who had blinded Shah Alam II, and restore the emperor.", "approx": true, "people": ["mahadji", "ghulam-qadir", "shah-alam-ii"], "places": ["delhi"]},
+  {"id": "patan-merta", "date": "1790-06", "lane": "military", "title": "Patan and Merta", "summary": "De Boigne's brigades crush Ismail Beg and the Rajputs at Patan in June and at Merta in September.", "approx": true, "people": ["de-boigne", "ismail-beg", "mahadji"], "places": ["merta"], "concepts": ["battle-patan"]},
+  {"id": "mahadji-pune", "date": "1792-06", "lane": "political", "title": "Mahadji comes to Pune", "summary": "Mahadji returns to Pune at the height of his power, rivalling Nana Phadnavis at the Peshwa's court.", "approx": true, "people": ["mahadji", "nana-phadnavis", "sawai-madhavrao"], "places": ["pune"]},
+  {"id": "lakheri-1793", "date": "1793", "lane": "military", "title": "Holkar defeated at Lakheri", "summary": "Shinde's brigades rout Tukoji Holkar's army at Lakheri, the deepest split yet in the confederacy.", "approx": true, "people": ["tukoji-holkar", "de-boigne"], "polities": ["indore-state"], "concepts": ["battle-lakheri"]},
+  {"id": "gwalior-1844", "date": "1844-01", "lane": "political", "title": "British control after Maharajpur", "summary": "After the defeats at Maharajpur and Panniar the Gwalior army is cut down and a council of regency works under the British Resident.", "approx": true, "people": ["jayajirao-scindia"], "polities": ["east-india-company"]},
+  {"id": "jiwajirao-1925", "date": "1925-06", "lane": "life", "title": "Jiwajirao succeeds", "summary": "Madho Rao Scindia dies; his son Jiwajirao becomes the last ruling Maharaja of Gwalior.", "approx": true, "people": ["madho-rao-scindia", "jiwajirao-scindia"]},
   {
    "id": "ujjain",
    "date": "1731",
