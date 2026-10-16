@@ -130,7 +130,7 @@ async function renderHome() {
   // Placeholders for planned timelines; any that now exist drop out automatically.
   const norm = (t) => t.toLowerCase().replace(/^the\s+/, "").replace(/\s+empire$/, "");
   const existing = new Set(index.map((t) => norm(t.title)));
-  const upcoming = ["Delhi Sultanate", "Vijayanagara", "The Deccan Sultanates", "The Maurya Empire", "The Cholas"]
+  const upcoming = ["Delhi Sultanate", "Vijayanagara", "The Deccan Sultanates", "The Maurya Empire", "The Chola Empire"]
     .filter((u) => !existing.has(norm(u)));
   const card = (t) => {
     const subj = entities[t.subject];
