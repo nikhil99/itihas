@@ -244,7 +244,7 @@ def main():
             if v is None:
                 e["dates"].pop(k, None)
                 continue
-            e["dates"][k] = {"value": v, "precision": {4: "year", 7: "month"}.get(len(v), "day")}
+            e["dates"][k] = {"value": v, "precision": {4: "year", 7: "month"}.get(len(v.lstrip("-")), "day")}
         if not e.get("coords") and extra.get("coords") and e["type"] == "place":
             e["coords"] = extra["coords"]
         if registry[e["id"]].get("coords"):
@@ -314,7 +314,7 @@ def main():
         elif tl["subject"] in family_of:
             src, ri, _ = family_of[tl["subject"]]
             tl["family"] = [{**fams[src][ri], "from": src, "fromTitle": titles[src]}]
-        tl["events"].sort(key=lambda ev: ev["date"])
+        tl["events"].sort(key=lambda ev: year_of(ev["date"]))
         (OUT / "timelines" / f"{tl['id']}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1))
         index.append({"id": tl["id"], "title": tl["title"], "subtitle": tl.get("subtitle"),
                       "subject": tl["subject"], "events": len(tl["events"]),

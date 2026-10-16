@@ -33,6 +33,8 @@ function parseDate(s) {
   const t = y + ((m || 1) - 1) / 12 + ((d || 1) - 1) / 365 + (precision === "year" ? 0.5 : precision === "month" ? 1 / 24 : 0);
   return { y, m, d, precision, t };
 }
+// A (fractional) year as text: 1630.4 -> "1630", -321.5 -> "322 BCE".
+const fmtYear = (v) => { const y = Math.floor(v); return y < 0 ? `${-y} BCE` : y === 0 ? "1 CE" : `${y}`; }; // no year 0
 function fmtDate(s, approx) {
   if (!s) return "";
   const p = parseDate(s);
@@ -305,7 +307,7 @@ const FEATURED = [
 ];
 function featuredComparisons(index, ents) {
   const byId = Object.fromEntries(index.map((t) => [t.id, t]));
-  const yr = (v) => (v < 0 ? `${Math.round(-v)} BCE` : Math.floor(v));
+  const yr = fmtYear;
   const cards = FEATURED.filter((f) => f.ids.every((i) => byId[i])).map((f) => {
     const spans = f.ids.map((i) => byId[i].span || byId[i].range);
     const from = Math.max(...spans.map((sp) => sp[0])), to = Math.min(...spans.map((sp) => sp[1]));
@@ -351,7 +353,7 @@ function setupRiver(box, index, ents) {
   const home = { start: Math.floor(lo - 15), end: Math.ceil(hi + 15) };
   let view = { ...home }, hover = null;
   const tip = $("#tooltip");
-  const yr = (v) => (v < 0 ? `${Math.round(-v)} BCE` : Math.floor(v));
+  const yr = fmtYear;
 
   function render() {
     const W = box.clientWidth || 800, GUT = W < 600 ? 74 : 112, PAD = 12, AX = 26;
@@ -367,7 +369,7 @@ function setupRiver(box, index, ents) {
       if (gx < GUT) continue;
       svgEl.append(svg("line", { class: "grid", x1: gx, x2: gx, y1: AX - 4, y2: H }));
       const t = svg("text", { class: "axis-label", x: gx, y: AX - 10, "text-anchor": "middle" });
-      t.textContent = v;
+      t.textContent = fmtYear(v);
       svgEl.append(t);
     }
     if (hover) for (const v of [hover.a, hover.b]) svgEl.append(svg("line", { class: "river-guide", x1: x(v), x2: x(v), y1: AX - 4, y2: H }));
@@ -628,7 +630,7 @@ function familyTree(row) {
     const name = n.name || e?.title?.replace(/^Chhatrapati /, "") || n.id;
     const short = name.replace(/\s*\(.*\)$/, "").replace(/ (?:of|Peshwa) .*$/, "").replace(/ Maharaj$/, "");
     const w = p.spouse ? SW : W;
-    const reign = n.reigns?.map(([a, b]) => `${Math.floor(a)}–${Math.floor(b)}`).join(", ");
+    const reign = n.reigns?.map(([a, b]) => `${fmtYear(a)}–${fmtYear(b)}`).join(", ");
     const life = e && (entStart(e) || entEnd(e)) ? `${entStart(e) ? parseDate(entStart(e)).y : "?"}–${entEnd(e) ? parseDate(entEnd(e)).y : "?"}` : "";
     const sub = reign ? `r. ${reign}` : n.heir ? "heir" : life;
     const cls = `fam-node${n.reigns ? " ruler" : ""}${n.heir ? " heir" : ""}${p.spouse ? " spouse" : ""}${e ? " link" : ""}`;
@@ -718,7 +720,7 @@ async function buildCompare(key, index, ents) {
     const name = shortTitle(t), [a, b] = spans[i];
     if (t.rulers?.length) t.rulers.forEach((row) => rulers.push({ ...row, hue: CMP_HUES[i], label: t.rulers.length > 1 ? `${name}: ${row.label}` : name }));
     else {
-      const inPower = t.focus && (t.focus[0] !== a || t.focus[1] !== b) ? ` In power ${Math.floor(t.focus[0])}–${Math.floor(t.focus[1])}.` : "";
+      const inPower = t.focus && (t.focus[0] !== a || t.focus[1] !== b) ? ` In power ${fmtYear(t.focus[0])}–${fmtYear(t.focus[1])}.` : "";
       rulers.push({ label: name, hue: CMP_HUES[i], members: [{ entity: t.subject, from: a, to: b, name: t.title, note: `${t.subtitle}.${inPower}` }] });
     }
     for (const ev of t.events) {
@@ -752,7 +754,7 @@ async function buildCompare(key, index, ents) {
     id: `compare/${ids.join(",")}`, compare: tls, spans, overlaps, bands,
     title: tls.length ? tls.map(shortTitle).join(" · ") : "Compare timelines",
     lanes: tls.map((t, i) => ({ id: CMP_LANES[i], label: shortTitle(t) })),
-    rulers, events: events.sort((x, y) => (x.date < y.date ? -1 : 1)), context,
+    rulers, events: events.sort((x, y) => parseDate(x.date).t - parseDate(y.date).t), context,
     range: tls.length ? [Math.floor(lo - pad), Math.ceil(hi + pad)] : [0, 1],
   };
 }
@@ -771,7 +773,7 @@ function compareHero(tl, index, ents) {
     sel.value = chosen[slot] || "";
     return el("div", { class: "cmp-slot", style: `--cmp:var(--lane-${CMP_LANES[slot]})` }, sel);
   };
-  const yr = (v) => (v < 0 ? `${Math.round(-v)} BCE` : `${Math.floor(v)}`);
+  const yr = fmtYear;
   const cards = tl.compare.map((t, i) => {
     const subj = ents[t.subject];
     return el("div", { class: "cmp-card", style: `--cmp:var(--lane-${CMP_LANES[i]})` },
@@ -969,7 +971,7 @@ function buildStory() {
   let lastYear = null;
   for (const ev of tl.events) {
     const y = parseDate(ev.date).y;
-    if (y !== lastYear) { wrap.append(el("div", { class: "year-head", "data-year": y }, String(y))); lastYear = y; }
+    if (y !== lastYear) { wrap.append(el("div", { class: "year-head", "data-year": y }, fmtYear(y))); lastYear = y; }
     const done = new Set();
     const h = linked("h3", null, ev.title, evRefs(ev), { done });
     const p = linked("p", null, ev.summary, evRefs(ev), { done });
@@ -1072,14 +1074,16 @@ function setupTimeline(box) {
     // Grid + axis
     const pxPerYear = (W - GUTTER - PAD) / span;
     const step = [1, 2, 5, 10, 20, 50, 100].find((st) => st * pxPerYear >= 44) || 100;
+    const allBce = end <= 0;
     for (let yr = Math.ceil(start / step) * step; yr <= end; yr += step) {
       const gx = x(yr);
       if (gx < GUTTER) continue;
       s.append(svg("line", { class: `grid${yr % (step * 2) === 0 ? " major" : ""}`, x1: gx, x2: gx, y1: AXIS - 6, y2: H }));
       const t = svg("text", { class: "axis-label", x: gx, y: AXIS - 12, "text-anchor": "middle" });
-      t.textContent = yr;
+      t.textContent = allBce ? String(-yr) : fmtYear(yr);
       s.append(t);
     }
+
     if (pxPerYear > 400) { // month ticks when zoomed far in
       for (let m = Math.ceil(start * 12); m <= end * 12; m++) {
         if (m % 12 === 0) continue;
@@ -1223,7 +1227,7 @@ function setupTimeline(box) {
           t.textContent = fitText(label.toUpperCase(), x2 - x1 - 12, "700 10.5px Inter, system-ui, sans-serif");
           gEl.append(t);
           if (ent) gEl.addEventListener("click", () => go(entHref(r.g)));
-          gEl.addEventListener("mousemove", (ev) => showTip(ev, `<b>${esc(label)}</b><div class="tt-date">${Math.floor(r.from)} – ${Math.floor(r.to)}</div>`));
+          gEl.addEventListener("mousemove", (ev) => showTip(ev, `<b>${esc(label)}</b><div class="tt-date">${fmtYear(r.from)} – ${fmtYear(r.to)}</div>`));
           gEl.addEventListener("mouseleave", hideTip);
           s.append(gEl);
         }
@@ -1246,7 +1250,7 @@ function setupTimeline(box) {
           t.textContent = label;
           gEl.append(t);
         }
-        const yrs = `${Math.floor(m.from)} – ${Math.floor(m.to)}`;
+        const yrs = `${fmtYear(m.from)} – ${fmtYear(m.to)}`;
         gEl.addEventListener("mousemove", (ev) => showTip(ev,
           `<b>${esc(name)}</b><div class="tt-date">${yrs}${ent?.description ? " · " + esc(ent.description) : ""}</div>${m.note ? `<div>${esc(m.note)}</div>` : ""}` +
           (state.subjectTimeline?.[m.entity] ? `<div class="tt-date">◷ click to open timeline</div>` : "")));
@@ -1312,6 +1316,11 @@ function setupTimeline(box) {
 
     // Gutter + row labels drawn last so they mask anything panned under them
     s.append(svg("rect", { class: "gutter", x: 0, y: 0, width: GUTTER - 4, height: H }));
+    if (allBce) { // all-BCE axis: plain numbers, with "BCE" once in the gutter
+      const t = svg("text", { class: "axis-label", x: GUTTER - 10, y: AXIS - 12, "text-anchor": "end" });
+      t.textContent = "BCE";
+      s.append(t);
+    }
     const rowLabel = (txt, y, size) => {
       const t = svg("text", { class: "row-label", x: 12, y, "font-size": size });
       t.textContent = txt;
@@ -1549,7 +1558,7 @@ function lifeBar(e) {
     el("div", { class: "life-bar" },
       hasSubj ? el("span", { class: "lb-subj", style: `left:${pct(sa)}%;width:${pct(sb) - pct(sa)}%`, title: subj.title }) : null,
       el("span", { class: "lb-ent", style: `left:${pct(a)}%;width:${Math.max(1, pct(b) - pct(a))}%` })),
-    el("div", { class: "life-legend" }, el("span", {}, r0), el("span", {}, hasSubj ? `shaded: ${subj.title.replace("Chhatrapati ", "")}` : ""), el("span", {}, r1)));
+    el("div", { class: "life-legend" }, el("span", {}, fmtYear(r0)), el("span", {}, hasSubj ? `shaded: ${subj.title.replace("Chhatrapati ", "")}` : ""), el("span", {}, fmtYear(r1))));
 }
 
 // ---------- Start ----------
