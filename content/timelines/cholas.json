@@ -1,0 +1,912 @@
+{
+ "id": "cholas",
+ "kind": "empire",
+ "order": 2,
+ "title": "The Chola Empire",
+ "subtitle": "The great Tamil empire of land and sea · 848 – 1279",
+ "subject": "chola-dynasty",
+ "aliases": [
+  "chola-empire"
+ ],
+ "range": [
+  830,
+  1300
+ ],
+ "focus": [
+  848,
+  1279
+ ],
+ "intro": "One of the longest-ruling dynasties in history, the Cholas were already famous in the Sangam age; from 848 a revived line ruling from Thanjavur built the greatest empire of medieval south India. Rajaraja I and his son Rajendra I conquered Sri Lanka and the Maldives, marched to the Ganges and sent a fleet against Srivijaya in Southeast Asia, while their granite temples, bronzes, village assemblies and Tamil literature set the pattern of south Indian civilisation. After 1070 the Chalukya-Chola kings kept the empire going for two more centuries until the Pandyas ended it in 1279.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Kings & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars, navy & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Temples & art"
+  },
+  {
+   "id": "political",
+   "label": "State, faith & literature"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Kings",
+   "members": [
+    {
+     "entity": "vijayalaya",
+     "from": 848,
+     "to": 871,
+     "group": "chola-dynasty",
+     "note": "Founder of the imperial line; took Thanjavur"
+    },
+    {
+     "entity": "aditya-i",
+     "from": 871,
+     "to": 907,
+     "group": "chola-dynasty"
+    },
+    {
+     "entity": "parantaka-i",
+     "from": 907,
+     "to": 950,
+     "group": "chola-dynasty"
+    },
+    {
+     "entity": "gandaraditya",
+     "from": 950,
+     "to": 956,
+     "group": "chola-dynasty"
+    },
+    {
+     "entity": "arinjaya",
+     "from": 956,
+     "to": 957,
+     "group": "chola-dynasty"
+    },
+    {
+     "entity": "sundara-chola",
+     "from": 957,
+     "to": 970,
+     "group": "chola-dynasty"
+    },
+    {
+     "entity": "uttama-chola",
+     "from": 970,
+     "to": 985,
+     "group": "chola-dynasty"
+    },
+    {
+     "entity": "rajaraja-i",
+     "from": 985,
+     "to": 1014,
+     "group": "chola-dynasty"
+    },
+    {
+     "entity": "rajendra-i",
+     "from": 1014,
+     "to": 1044,
+     "group": "chola-dynasty",
+     "note": "Co-regent with his father from 1012"
+    },
+    {
+     "entity": "rajadhiraja-i",
+     "from": 1044,
+     "to": 1054,
+     "group": "chola-dynasty",
+     "note": "Killed at the Battle of Koppam"
+    },
+    {
+     "entity": "rajendra-ii",
+     "from": 1054,
+     "to": 1063,
+     "group": "chola-dynasty",
+     "note": "Crowned on the battlefield of Koppam"
+    },
+    {
+     "entity": "virarajendra",
+     "from": 1063,
+     "to": 1070,
+     "group": "chola-dynasty"
+    },
+    {
+     "entity": "athirajendra",
+     "from": 1070,
+     "to": 1070.5,
+     "group": "chola-dynasty",
+     "note": "Killed in an uprising after a few months"
+    },
+    {
+     "entity": "kulothunga-i",
+     "from": 1070.5,
+     "to": 1122,
+     "group": "chalukya-chola",
+     "note": "Eastern Chalukya prince of Vengi, grandson of Rajendra I through his mother"
+    },
+    {
+     "entity": "vikrama-chola",
+     "from": 1122,
+     "to": 1135,
+     "group": "chalukya-chola"
+    },
+    {
+     "entity": "kulothunga-ii",
+     "from": 1135,
+     "to": 1150,
+     "group": "chalukya-chola"
+    },
+    {
+     "entity": "rajaraja-ii",
+     "from": 1150,
+     "to": 1173,
+     "group": "chalukya-chola"
+    },
+    {
+     "entity": "rajadhiraja-ii",
+     "from": 1173,
+     "to": 1178,
+     "group": "chalukya-chola"
+    },
+    {
+     "entity": "kulothunga-iii",
+     "from": 1178,
+     "to": 1218,
+     "group": "chalukya-chola",
+     "note": "The last great Chola king"
+    },
+    {
+     "entity": "rajaraja-iii",
+     "from": 1218,
+     "to": 1256,
+     "group": "chalukya-chola"
+    },
+    {
+     "entity": "rajendra-iii",
+     "from": 1256,
+     "to": 1279,
+     "group": "chalukya-chola",
+     "note": "Last Chola king"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "pallava",
+   "label": "Pallavas",
+   "from": 830,
+   "to": 897
+  },
+  {
+   "entity": "pandya",
+   "label": "Pandyas",
+   "from": 830,
+   "to": 1300
+  },
+  {
+   "entity": "rashtrakuta",
+   "label": "Rashtrakutas",
+   "from": 830,
+   "to": 982
+  },
+  {
+   "entity": "western-chalukya",
+   "label": "Western Chalukyas",
+   "from": 973,
+   "to": 1189
+  },
+  {
+   "entity": "eastern-chalukya",
+   "label": "Eastern Chalukyas (Vengi)",
+   "from": 830,
+   "to": 1070
+  },
+  {
+   "entity": "hoysala",
+   "label": "Hoysalas",
+   "from": 1026,
+   "to": 1300
+  },
+  {
+   "entity": "srivijaya",
+   "label": "Srivijaya",
+   "from": 830,
+   "to": 1288
+  },
+  {
+   "entity": "song-dynasty",
+   "label": "Song China",
+   "from": 960,
+   "to": 1279
+  }
+ ],
+ "events": [
+  {
+   "id": "vijayalaya",
+   "date": "0848",
+   "lane": "military",
+   "title": "Vijayalaya takes Thanjavur",
+   "summary": "Vijayalaya, chief of a Chola family from Uraiyur that had faded into obscurity since the Sangam age, captures Thanjavur from the Muttaraiyars. He makes it his capital and builds a temple to the goddess Nisumbhasudani.",
+   "people": [
+    "vijayalaya"
+   ],
+   "places": [
+    "thanjavur",
+    "uraiyur"
+   ],
+   "polities": [
+    "muttaraiyar",
+    "chola-dynasty"
+   ],
+   "wiki": "Vijayalaya Chola",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "sripurambiyam",
+   "date": "0885",
+   "lane": "military",
+   "title": "Battle of Sripurambiyam",
+   "summary": "The Pallava king Aparajita, helped by the Cholas and the Gangas, defeats the Pandyas near Kumbakonam. The battle breaks Pandya power and leaves the Cholas as the rising force on the Kaveri.",
+   "people": [
+    "aparajita-pallava",
+    "aditya-i"
+   ],
+   "places": [
+    "kaveri"
+   ],
+   "polities": [
+    "pallava",
+    "pandya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "tondaimandalam",
+   "date": "0897",
+   "lane": "military",
+   "title": "Aditya I ends Pallava rule",
+   "summary": "Aditya I defeats and kills his former overlord Aparajita and annexes Tondaimandalam around Kanchi. The three-hundred-year Pallava kingdom ends and the Cholas rule the whole Tamil north.",
+   "people": [
+    "aditya-i",
+    "aparajita-pallava"
+   ],
+   "places": [
+    "kanchipuram"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "wiki": "Aditya I",
+   "approx": true
+  },
+  {
+   "id": "madurai-taken",
+   "date": "0910",
+   "lane": "military",
+   "title": "Parantaka I takes Madurai",
+   "summary": "Parantaka I defeats the Pandya king and the Sri Lankan army sent to help him, takes the title Maduraikonda, 'conqueror of Madurai', and covers the roof of the Chidambaram temple with gold.",
+   "people": [
+    "parantaka-i"
+   ],
+   "places": [
+    "madurai",
+    "chidambaram"
+   ],
+   "polities": [
+    "pandya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "uttaramerur",
+   "date": "0920",
+   "lane": "political",
+   "title": "Uttaramerur inscriptions",
+   "summary": "Inscriptions of 919 and 921 at Uttaramerur set out how village assemblies elected their committees by kudavolai, drawing palm-leaf ballots from a pot. They list qualifications for candidates and bar anyone corrupt or their relatives.",
+   "people": [
+    "parantaka-i"
+   ],
+   "places": [
+    "uttaramerur"
+   ],
+   "concepts": [
+    "kudavolai"
+   ],
+   "wiki": "Uthiramerur",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "takkolam",
+   "date": "0949",
+   "lane": "military",
+   "title": "Battle of Takkolam",
+   "summary": "The Rashtrakuta emperor Krishna III invades and defeats the Cholas at Takkolam. Crown prince Rajaditya is killed on his war elephant. The Cholas lose the north of their kingdom for a generation.",
+   "people": [
+    "krishna-iii",
+    "rajaditya",
+    "parantaka-i"
+   ],
+   "places": [
+    "takkolam"
+   ],
+   "polities": [
+    "rashtrakuta"
+   ],
+   "wiki": "Battle of Takkolam",
+   "major": true
+  },
+  {
+   "id": "sembiyan",
+   "date": "0960",
+   "lane": "forts",
+   "title": "Sembiyan Mahadevi's temples and bronzes",
+   "summary": "Gandaraditya's widow, Sembiyan Mahadevi, rebuilds brick temples in stone and commissions some of the finest early Chola bronzes. She remains a powerful patron for sixty years.",
+   "people": [
+    "sembiyan-mahadevi",
+    "gandaraditya"
+   ],
+   "concepts": [
+    "chola-bronzes"
+   ],
+   "approx": true
+  },
+  {
+   "id": "aditya-karikala",
+   "date": "0969",
+   "lane": "life",
+   "title": "Murder of Aditya Karikalan",
+   "summary": "Crown prince Aditya II, a hero of the wars against the Pandyas, is assassinated. Uttama Chola, Gandaraditya's son, becomes king, and Aditya's younger brother Arulmozhivarman, the future Rajaraja, waits for the throne.",
+   "people": [
+    "aditya-ii",
+    "uttama-chola",
+    "rajaraja-i",
+    "sundara-chola"
+   ],
+   "wiki": "Aditya II",
+   "approx": true
+  },
+  {
+   "id": "rajaraja-crowned",
+   "date": "0985",
+   "lane": "life",
+   "title": "Rajaraja I is crowned",
+   "summary": "Arulmozhivarman takes the throne as Rajaraja I, 'king of kings'. His sister Kundavai is an influential figure at court.",
+   "people": [
+    "rajaraja-i",
+    "kundavai"
+   ],
+   "polities": [
+    "chola-dynasty"
+   ],
+   "wiki": "Rajaraja I",
+   "major": true
+  },
+  {
+   "id": "kandalur",
+   "date": "0988",
+   "lane": "military",
+   "title": "Naval raid on Kandalur Salai",
+   "summary": "Rajaraja's first campaign destroys the Chera fleet at Kandalur Salai on the Kerala coast, opening the western sea routes to Chola ships.",
+   "people": [
+    "rajaraja-i"
+   ],
+   "polities": [
+    "chera"
+   ],
+   "concepts": [
+    "chola-navy"
+   ],
+   "approx": true
+  },
+  {
+   "id": "lanka-993",
+   "date": "0993",
+   "lane": "military",
+   "title": "Conquest of northern Sri Lanka",
+   "summary": "Rajaraja invades Sri Lanka, sacks the ancient capital Anuradhapura and makes Polonnaruwa the seat of a Chola province. The island's north is ruled from Thanjavur for most of the next 77 years.",
+   "people": [
+    "rajaraja-i",
+    "mahinda-v"
+   ],
+   "places": [
+    "anuradhapura-city",
+    "polonnaruwa"
+   ],
+   "polities": [
+    "anuradhapura"
+   ],
+   "wiki": "Chola conquest of Anuradhapura",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "tevaram",
+   "date": "1000",
+   "lane": "political",
+   "title": "The Tevaram hymns are collected",
+   "summary": "Tradition says Rajaraja found the hymns of the Tamil Shaiva saints rotting in a sealed room at Chidambaram. He had Nambiyandar Nambi gather them into the Tevaram, still sung in Tamil temples today.",
+   "people": [
+    "rajaraja-i",
+    "nambi-andar-nambi"
+   ],
+   "places": [
+    "chidambaram"
+   ],
+   "concepts": [
+    "tevaram"
+   ],
+   "wiki": "Tevaram",
+   "approx": true
+  },
+  {
+   "id": "maldives",
+   "date": "1000",
+   "lane": "military",
+   "title": "The Maldives and the western islands",
+   "summary": "Chola fleets seize the 'twelve thousand ancient islands', the Maldives and Lakshadweep, controlling the sea lanes to the Arabian Sea.",
+   "people": [
+    "rajaraja-i"
+   ],
+   "places": [
+    "maldives"
+   ],
+   "concepts": [
+    "chola-navy"
+   ],
+   "approx": true
+  },
+  {
+   "id": "land-survey",
+   "date": "1001",
+   "lane": "political",
+   "title": "The great land survey",
+   "summary": "Rajaraja's officials measure and classify the cultivated land of the kingdom for taxation. It is one of the most detailed revenue records of medieval India, preserved on temple walls.",
+   "people": [
+    "rajaraja-i"
+   ],
+   "approx": true
+  },
+  {
+   "id": "chalukya-wars",
+   "date": "1003",
+   "end": "1006",
+   "lane": "military",
+   "title": "Wars with the Western Chalukyas",
+   "summary": "Rajaraja's armies under prince Rajendra invade the Western Chalukya lands and take Vengi as a protected ally. A century of wars with the Chalukyas of Kalyani over the Deccan and Vengi begins.",
+   "people": [
+    "rajaraja-i",
+    "rajendra-i"
+   ],
+   "places": [
+    "vengi"
+   ],
+   "polities": [
+    "western-chalukya",
+    "eastern-chalukya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "brihadisvara",
+   "date": "1010",
+   "lane": "forts",
+   "title": "The Brihadisvara Temple is consecrated",
+   "summary": "Rajaraja's great temple to Shiva at Thanjavur, the Rajarajeshvaram, is completed. Its 66-metre granite tower was the tallest in India. Its walls record gifts, temple staff, dancers and the king's conquests.",
+   "people": [
+    "rajaraja-i"
+   ],
+   "places": [
+    "brihadisvara",
+    "thanjavur"
+   ],
+   "wiki": "Brihadisvara Temple",
+   "major": true
+  },
+  {
+   "id": "khmer-chariot",
+   "date": "1012",
+   "lane": "world",
+   "title": "A chariot from Angkor",
+   "summary": "Rajendra's inscriptions record that Suryavarman I of the Khmer Empire sent him a chariot, seeking friendship and perhaps help against his rivals.",
+   "people": [
+    "suryavarman-i",
+    "rajendra-i"
+   ],
+   "polities": [
+    "khmer-empire"
+   ],
+   "approx": true
+  },
+  {
+   "id": "rajendra",
+   "date": "1014",
+   "lane": "life",
+   "title": "Rajendra I succeeds",
+   "summary": "Rajendra I, co-regent since 1012, becomes sole king and leads the Chola Empire to its greatest extent.",
+   "people": [
+    "rajendra-i"
+   ],
+   "wiki": "Rajendra I",
+   "major": true
+  },
+  {
+   "id": "song-embassy",
+   "date": "1015",
+   "lane": "world",
+   "title": "Embassy to Song China",
+   "summary": "A Chola mission reaches the court of the Song dynasty in Kaifeng, the first of several. Chinese records list the pearls, ivory and incense they brought.",
+   "people": [
+    "rajaraja-i",
+    "rajendra-i"
+   ],
+   "polities": [
+    "song-dynasty"
+   ]
+  },
+  {
+   "id": "lanka-1017",
+   "date": "1017",
+   "lane": "military",
+   "title": "All of Sri Lanka taken",
+   "summary": "Rajendra completes the conquest of Sri Lanka, capturing King Mahinda V and the royal regalia. Mahinda dies a prisoner in the Chola country.",
+   "people": [
+    "rajendra-i",
+    "mahinda-v"
+   ],
+   "places": [
+    "polonnaruwa"
+   ],
+   "polities": [
+    "anuradhapura"
+   ],
+   "approx": true
+  },
+  {
+   "id": "ganges",
+   "date": "1019",
+   "end": "1021",
+   "lane": "military",
+   "title": "The expedition to the Ganges",
+   "summary": "Rajendra's army marches north through Kalinga, defeats the Pala king Mahipala I of Bengal and brings back Ganges water to sanctify his new capital. He takes the title Gangaikonda Chola, 'he who took the Ganges'.",
+   "people": [
+    "rajendra-i",
+    "mahipala-i"
+   ],
+   "polities": [
+    "pala-empire",
+    "eastern-ganga"
+   ],
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "srivijaya",
+   "date": "1025",
+   "lane": "military",
+   "title": "The naval expedition to Srivijaya",
+   "summary": "A Chola fleet crosses the Bay of Bengal and raids Srivijaya's ports in Sumatra and the Malay peninsula, including Kadaram (Kedah). King Sangrama Vijayatunggavarman is captured. It is the most ambitious overseas campaign of any Indian state.",
+   "people": [
+    "rajendra-i",
+    "sangrama-vijayatunggavarman"
+   ],
+   "places": [
+    "kadaram",
+    "nagapattinam"
+   ],
+   "polities": [
+    "srivijaya"
+   ],
+   "concepts": [
+    "chola-navy"
+   ],
+   "wiki": "Chola invasion of Srivijaya",
+   "major": true
+  },
+  {
+   "id": "gkc",
+   "date": "1025",
+   "end": "1035",
+   "lane": "forts",
+   "title": "Gangaikonda Cholapuram",
+   "summary": "Rajendra builds a new capital, Gangaikonda Cholapuram, with a temple rivalling his father's at Thanjavur and a vast reservoir filled, it is said, with the Ganges water.",
+   "people": [
+    "rajendra-i"
+   ],
+   "places": [
+    "gangaikonda-cholapuram"
+   ],
+   "wiki": "Gangaikonda Cholapuram",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "ghazni",
+   "date": "1025",
+   "lane": "world",
+   "title": "Mahmud of Ghazni sacks Somnath",
+   "summary": "While the Cholas are at their height in the south, Mahmud of Ghazni raids the temple of Somnath in Gujarat. North India is fragmented and exposed to raids from Afghanistan.",
+   "polities": [
+    "ghaznavid"
+   ],
+   "wiki": "Somnath temple"
+  },
+  {
+   "id": "koppam",
+   "date": "1054",
+   "lane": "military",
+   "title": "Battle of Koppam",
+   "summary": "Rajadhiraja I is killed fighting the Western Chalukya king Someshvara I at Koppam. His brother rallies the army, wins the battle and is crowned on the field as Rajendra II.",
+   "people": [
+    "rajadhiraja-i",
+    "rajendra-ii",
+    "someshvara-i"
+   ],
+   "places": [
+    "koppam"
+   ],
+   "polities": [
+    "western-chalukya"
+   ],
+   "wiki": "Battle of Koppam",
+   "major": true
+  },
+  {
+   "id": "kudalasangamam",
+   "date": "1067",
+   "lane": "military",
+   "title": "Battle of Kudalasangamam",
+   "summary": "Virarajendra defeats the Chalukyas at the meeting of the Krishna and Tungabhadra rivers. When Someshvara fails to appear for a second battle, Virarajendra erects a victory pillar on the Tungabhadra.",
+   "people": [
+    "virarajendra",
+    "someshvara-i"
+   ],
+   "polities": [
+    "western-chalukya"
+   ],
+   "approx": true
+  },
+  {
+   "id": "kulothunga",
+   "date": "1070",
+   "lane": "life",
+   "title": "Kulothunga I and the Chalukya-Cholas",
+   "summary": "Athirajendra is killed in an uprising months after his accession and the direct line ends. Kulothunga I, an Eastern Chalukya prince of Vengi and grandson of Rajendra I through his mother, takes the throne and unites the two kingdoms.",
+   "people": [
+    "athirajendra",
+    "kulothunga-i",
+    "virarajendra"
+   ],
+   "places": [
+    "vengi"
+   ],
+   "polities": [
+    "eastern-chalukya",
+    "chalukya-chola"
+   ],
+   "wiki": "Kulothunga I",
+   "major": true
+  },
+  {
+   "id": "lanka-lost",
+   "date": "1070",
+   "lane": "military",
+   "title": "Sri Lanka is lost",
+   "summary": "Vijayabahu I drives the Cholas out of Sri Lanka and rules from Polonnaruwa, ending 77 years of Chola rule on the island.",
+   "people": [
+    "vijayabahu-i"
+   ],
+   "places": [
+    "polonnaruwa"
+   ],
+   "polities": [
+    "polonnaruwa-kingdom"
+   ],
+   "wiki": "Vijayabahu I"
+  },
+  {
+   "id": "song-1077",
+   "date": "1077",
+   "lane": "world",
+   "title": "A great embassy to China",
+   "summary": "A Chola trade mission reaches the Song court with glass, camphor, rhinoceros horn and ivory. Tamil merchant guilds are active from Southeast Asia to China.",
+   "people": [
+    "kulothunga-i"
+   ],
+   "polities": [
+    "song-dynasty"
+   ]
+  },
+  {
+   "id": "ramanuja",
+   "date": "1100",
+   "lane": "political",
+   "title": "Ramanuja and Sri Vaishnavism",
+   "summary": "The philosopher Ramanuja, head of the Srirangam temple, teaches Vishishtadvaita, 'qualified non-dualism'. Tradition says he fled to the Hoysala country to escape a Shaiva Chola king and returned later.",
+   "people": [
+    "ramanuja"
+   ],
+   "places": [
+    "srirangam"
+   ],
+   "polities": [
+    "hoysala"
+   ],
+   "concepts": [
+    "srivaishnavism"
+   ],
+   "wiki": "Ramanuja",
+   "approx": true
+  },
+  {
+   "id": "kalinga-war",
+   "date": "1110",
+   "lane": "military",
+   "title": "The Kalinga war and the Kalingattupparani",
+   "summary": "Kulothunga's general Karunakara Tondaiman invades Kalinga. The court poet Jayamkondar celebrates the victory in the Kalingattupparani, a classic of Tamil war poetry.",
+   "people": [
+    "kulothunga-i",
+    "karunakara-tondaiman",
+    "jayamkondar"
+   ],
+   "polities": [
+    "eastern-ganga"
+   ],
+   "concepts": [
+    "kalingattuparani"
+   ],
+   "wiki": "Kalingattuparani",
+   "approx": true
+  },
+  {
+   "id": "talakad",
+   "date": "1116",
+   "lane": "military",
+   "title": "The Hoysalas take Gangavadi",
+   "summary": "The Hoysala king Vishnuvardhana captures Talakad, ending Chola rule in the Mysore region. The Hoysalas become the Cholas' main rivals and later their protectors.",
+   "people": [
+    "vishnuvardhana"
+   ],
+   "places": [
+    "talakad"
+   ],
+   "polities": [
+    "hoysala"
+   ],
+   "approx": true
+  },
+  {
+   "id": "periya-puranam",
+   "date": "1140",
+   "lane": "political",
+   "title": "Sekkizhar's Periya Puranam",
+   "summary": "At the court of Kulothunga II the minister Sekkizhar writes the Periya Puranam, the lives of the 63 Shaiva saints (the Nayanars). It is regarded as the 'fifth Veda' of Tamil Shaivism.",
+   "people": [
+    "sekkizhar",
+    "kulothunga-ii"
+   ],
+   "places": [
+    "chidambaram"
+   ],
+   "concepts": [
+    "periya-puranam"
+   ],
+   "wiki": "Periya Puranam",
+   "approx": true
+  },
+  {
+   "id": "darasuram",
+   "date": "1160",
+   "lane": "forts",
+   "title": "Airavatesvara Temple, Darasuram",
+   "summary": "Rajaraja II builds the Airavatesvara temple near his palace at Pazhayarai. It is smaller than the great temples but richly carved, with a front hall shaped like a chariot drawn by horses.",
+   "people": [
+    "rajaraja-ii"
+   ],
+   "places": [
+    "airavatesvara",
+    "pazhayarai"
+   ],
+   "wiki": "Airavatesvara Temple",
+   "approx": true
+  },
+  {
+   "id": "kambar",
+   "date": "1180",
+   "lane": "political",
+   "title": "Kambar's Ramayana",
+   "summary": "The poet Kambar retells the Ramayana in Tamil as the Ramavataram, the Kamba Ramayanam, one of the great works of Tamil literature.",
+   "people": [
+    "kambar",
+    "kulothunga-iii"
+   ],
+   "concepts": [
+    "kamba-ramayanam"
+   ],
+   "wiki": "Ramavataram",
+   "approx": true
+  },
+  {
+   "id": "tribhuvanam",
+   "date": "1200",
+   "lane": "forts",
+   "title": "The last great Chola temple",
+   "summary": "Kulothunga III builds the Kampaheswarar temple at Tribhuvanam, after victories over the Pandyas. It is the last of the great royal Chola temples.",
+   "people": [
+    "kulothunga-iii"
+   ],
+   "places": [
+    "tribhuvanam"
+   ],
+   "approx": true
+  },
+  {
+   "id": "pandya-sack",
+   "date": "1217",
+   "lane": "military",
+   "title": "The Pandyas sack Thanjavur",
+   "summary": "Maravarman Sundara Pandya I invades, burns Thanjavur and Uraiyur, and forces Rajaraja III to accept him as overlord. Hoysala intervention restores the Chola king.",
+   "people": [
+    "maravarman-sundara-pandya-i",
+    "rajaraja-iii"
+   ],
+   "places": [
+    "thanjavur",
+    "uraiyur"
+   ],
+   "polities": [
+    "pandya",
+    "hoysala"
+   ],
+   "wiki": "Maravarman Sundara Pandyan",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "kopperunchinga",
+   "date": "1231",
+   "lane": "military",
+   "title": "Rajaraja III taken prisoner",
+   "summary": "The Kadava chieftain Kopperunchinga captures and imprisons Rajaraja III. The Hoysala king Vira Narasimha II sends an army to free him. The Chola king is now dependent on Hoysala protection.",
+   "people": [
+    "kopperunchinga",
+    "rajaraja-iii",
+    "narasimha-ii-hoysala"
+   ],
+   "polities": [
+    "kadava",
+    "hoysala"
+   ],
+   "wiki": "Kopperunchinga I",
+   "approx": true
+  },
+  {
+   "id": "end",
+   "date": "1279",
+   "lane": "life",
+   "title": "End of the Chola dynasty",
+   "summary": "Rajendra III, the last recorded Chola king, is defeated by the Pandya Maravarman Kulasekara I. The Pandyas become the dominant power in the Tamil country until the Delhi Sultanate's armies arrive in 1311.",
+   "people": [
+    "rajendra-iii",
+    "maravarman-kulasekara-i"
+   ],
+   "polities": [
+    "pandya",
+    "chola-dynasty"
+   ],
+   "see": "delhi-sultanate",
+   "major": true
+  }
+ ]
+}
