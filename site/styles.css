@@ -408,18 +408,22 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
 }
 
 /* Ask AI */
-.ask-ai { margin-top: 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); max-width: 680px; }
-.ask-head { font-size: 12.5px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
-.ask-spark { color: var(--accent); margin-right: 6px; }
-.ask-row { display: flex; gap: 6px; flex-wrap: wrap; }
-.ask-input { flex: 1 1 220px; min-width: 0; font: inherit; font-size: 14px; padding: 8px 11px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); }
-.ask-input:focus { outline: 2px solid color-mix(in srgb, var(--accent) 50%, transparent); border-color: var(--accent); }
-.ask-btn { font: inherit; font-size: 13px; font-weight: 600; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer; }
-.ask-btn + .ask-btn { background: transparent; color: var(--accent); }
-.ask-btn:hover { filter: brightness(1.08); }
-.ask-sugg { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-.ask-chip { font: inherit; font-size: 12px; cursor: pointer; text-align: left; white-space: normal; max-width: 100%; }
-.drawer .ask-ai { margin: 14px 0 6px; }
+.ask-ai { margin-top: 12px; max-width: 640px; font-size: 13px; }
+.ask-ai > summary { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--muted); list-style: none; padding: 2px 0; }
+.ask-ai > summary::-webkit-details-marker { display: none; }
+.ask-ai > summary:hover, .ask-ai[open] > summary { color: var(--text); }
+.ask-spark { color: var(--accent); font-size: 12px; }
+.ask-body { margin-top: 8px; padding-left: 12px; border-left: 2px solid var(--line); }
+.ask-row { display: flex; gap: 4px; flex-wrap: wrap; align-items: center; }
+.ask-input { flex: 1 1 200px; min-width: 0; font: inherit; font-size: 13px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 7px; background: transparent; color: var(--text); }
+.ask-input:focus { outline: none; border-color: var(--muted); }
+.ask-btn { font: inherit; font-size: 12.5px; padding: 6px 8px; border: 0; background: none; color: var(--muted); cursor: pointer; border-radius: 6px; }
+.ask-btn:hover { color: var(--accent); background: var(--surface-2); }
+.ask-sugg { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; margin-top: 6px; }
+.ask-chip { font: inherit; font-size: 12.5px; color: var(--muted); background: none; border: 0; padding: 2px 0; cursor: pointer; text-align: left; }
+.ask-chip::before { content: "→ "; opacity: .5; }
+.ask-chip:hover { color: var(--text); }
+.drawer .ask-ai { margin: 12px 0 4px; }
 
 /* ---------- Family tree ---------- */
 .family { margin-top: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 4px 16px 14px; }
@@ -456,3 +460,8 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
 .fam-svg .fam-group { font-size: 10px; font-weight: 600; letter-spacing: .08em; fill: var(--muted); }
 .fam-group-line { stroke: var(--line); stroke-width: 2; }
 .fam-hint { font-size: 12px; color: var(--muted); text-align: right; }
+.fam-node.focus rect { stroke: var(--accent); stroke-width: 3.5; }
+.fam-node.focus .fam-name { fill: var(--accent); }
+.fam-link-btn { display: inline-block; margin: 6px 0 2px; font-size: 13.5px; font-weight: 600; color: var(--accent); text-decoration: none; }
+.fam-link-btn:hover { text-decoration: underline; }
+.family .fam-sub a { color: var(--accent); }

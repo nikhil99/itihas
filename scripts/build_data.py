@@ -264,6 +264,17 @@ def main():
     for stale in (OUT / "timelines").glob("*.json"):
         if stale.stem not in timeline_ids:
             stale.unlink()
+    # Family trees: a dynasty timeline gets its own; a person's timeline borrows the tree of
+    # the dynasty they ruled in (or belonged to), centred on them.
+    fams = {tl["id"]: family_for(tl, entities, kin, families_cfg) for tl in timelines}
+    family_of = {}  # person -> (timeline id, row index), preferring a row where they reigned
+    for tl in timelines:
+        for ri, row in enumerate(fams[tl["id"]]):
+            for nd in row["nodes"]:
+                rank = (bool(nd.get("reigns")), tl.get("kind") == "empire")  # an empire's tree beats a successor state's
+                if nd["id"] not in family_of or rank > family_of[nd["id"]][2]:
+                    family_of[nd["id"]] = (tl["id"], ri, rank)
+    titles = {tl["id"]: tl["title"] for tl in timelines}
     entity_timelines = {}
     for tl in timelines:
         for ev in tl["events"]:
@@ -293,9 +304,11 @@ def main():
                     problems.append(f"[{tl['id']}] ruler without entity or name in row {row['label']!r}")
                 if m["to"] <= m["from"]:
                     problems.append(f"[{tl['id']}] ruler {m.get('entity') or m.get('name')!r} ends before it starts")
-        family = family_for(tl, entities, kin, families_cfg)
-        if family:
-            tl["family"] = family
+        if fams[tl["id"]]:
+            tl["family"] = fams[tl["id"]]
+        elif tl["subject"] in family_of:
+            src, ri, _ = family_of[tl["subject"]]
+            tl["family"] = [{**fams[src][ri], "from": src, "fromTitle": titles[src]}]
         tl["events"].sort(key=lambda ev: ev["date"])
         (OUT / "timelines" / f"{tl['id']}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1))
         index.append({"id": tl["id"], "title": tl["title"], "subtitle": tl.get("subtitle"),
@@ -324,6 +337,10 @@ def main():
         ],
     }
     (OUT / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")))
+    # Where each person's family tree is drawn (for "Family tree →" links in the side panel)
+    (OUT / "family-index.json").write_text(json.dumps(
+        {pid: {"tl": src, "label": fams[src][ri]["label"], "title": titles[src]}
+         for pid, (src, ri, _) in sorted(family_of.items())}, ensure_ascii=False))
     (OUT / "entity-timelines.json").write_text(
         json.dumps({k: sorted(v) for k, v in sorted(entity_timelines.items())}, ensure_ascii=False))
     print(f"Wrote {len(entities)} entities, {len(timelines)} timeline(s) to {OUT.relative_to(ROOT)}/")
