@@ -467,3 +467,69 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
 .fam-link-btn { display: inline-block; margin: 6px 0 2px; font-size: 13.5px; font-weight: 600; color: var(--accent); text-decoration: none; }
 .fam-link-btn:hover { text-decoration: underline; }
 .family .fam-sub a { color: var(--accent); }
+
+/* ---------- Start here (beginner's guide) ---------- */
+.guide { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); margin: 0 0 18px; }
+.guide > summary { cursor: pointer; list-style: none; padding: 12px 16px; font-weight: 600; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.guide > summary::-webkit-details-marker { display: none; }
+.guide > summary::after { content: "▾"; margin-left: auto; color: var(--muted); transition: transform .15s; }
+.guide:not([open]) > summary::after { transform: rotate(-90deg); }
+.g-badge { background: var(--accent); color: #fff; font-size: 11.5px; letter-spacing: .04em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; }
+.g-story { padding: 0 16px 16px; }
+.g-steps { list-style: none; margin: 0 0 14px; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; }
+.g-steps button { width: 100%; height: 100%; text-align: left; display: grid; grid-template-columns: auto 1fr; column-gap: 8px; align-items: center;
+  padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-2); color: var(--text); font: inherit; cursor: pointer; }
+.g-steps button:hover { border-color: var(--accent); }
+.g-steps button[aria-current="step"] { background: var(--accent-soft); border-color: var(--accent); }
+.g-num { grid-row: span 2; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: var(--surface); border: 1px solid var(--line); font-size: 12px; font-weight: 700; }
+.g-steps button[aria-current="step"] .g-num { background: var(--accent); border-color: var(--accent); color: #fff; }
+.g-title { font-size: 13px; font-weight: 600; line-height: 1.25; }
+.g-years { font-size: 11.5px; color: var(--muted); }
+.g-chapter { display: grid; grid-template-columns: 150px 1fr; gap: 18px; align-items: start; }
+.g-chapter img { width: 150px; height: 190px; object-fit: cover; object-position: top; border-radius: 10px; box-shadow: var(--shadow); }
+.g-kicker { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.g-chapter h3 { font: 700 24px/1.2 var(--serif); margin: 2px 0 8px; }
+.g-chapter p { margin: 0 0 10px; max-width: 75ch; line-height: 1.6; }
+.g-chapter p a { color: var(--accent); }
+.g-why { background: var(--gold-soft); border-left: 3px solid var(--gold); padding: 8px 12px; border-radius: 0 8px 8px 0; }
+.g-moments { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; margin-bottom: 12px; }
+.g-moments > span { color: var(--muted); }
+.g-moments a { color: var(--text); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; background: var(--surface-2); }
+.g-moments a:hover { border-color: var(--accent); color: var(--accent); }
+.g-nav { display: flex; flex-wrap: wrap; gap: 8px; }
+.g-nav button { font: inherit; font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; }
+.g-nav button:hover:not(:disabled) { background: var(--accent-soft); }
+.g-nav button:disabled { opacity: .35; cursor: default; }
+.g-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 16px; padding: 0 16px 16px; }
+.g-box { border-top: 1px solid var(--line); padding-top: 12px; min-width: 0; }
+.g-box h3 { font: 600 17px var(--serif); margin: 0 0 10px; }
+.g-chain-box { margin: 0 16px; padding-bottom: 16px; }
+.g-compare { width: 100%; border-collapse: collapse; font-size: 13.5px; line-height: 1.45; }
+.g-compare th, .g-compare td { text-align: left; vertical-align: top; padding: 7px 8px; border-bottom: 1px solid var(--line); }
+.g-compare thead th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.g-compare thead th:last-child { color: var(--accent); }
+.g-compare tbody th { font-weight: 600; white-space: nowrap; color: var(--muted); }
+.g-compare td:last-child { background: color-mix(in srgb, var(--accent-soft) 55%, transparent); }
+.g-cast { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+.g-cast a { display: flex; gap: 10px; align-items: center; text-decoration: none; color: var(--text); padding: 6px; border-radius: 10px; }
+.g-cast a:hover { background: var(--surface-2); }
+.g-cast img, .g-noimg { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; object-position: top; flex: none; }
+.g-noimg { display: grid; place-items: center; background: var(--surface-2); color: var(--muted); }
+.g-cast b { display: block; font-size: 13.5px; }
+.g-cast small { display: block; color: var(--muted); font-size: 12px; line-height: 1.35; }
+.g-chain { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 0; counter-reset: chain; }
+.g-chain li { display: flex; align-items: center; font-size: 13.5px; }
+.g-chain li:not(:last-child)::after { content: "→"; color: var(--accent); font-weight: 700; margin: 0 8px; }
+.g-chain a { color: var(--text); text-decoration: none; background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+.g-chain a:hover { border-color: var(--accent); color: var(--accent); }
+.g-chain li:last-child a { background: var(--accent-soft); border-color: var(--accent); font-weight: 600; }
+@media (max-width: 760px) {
+  .g-steps { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 140px; overflow-x: auto; padding-bottom: 4px; }
+  .g-chapter { grid-template-columns: 1fr; }
+  .g-chapter img { width: 100%; height: 180px; }
+  .g-grid { grid-template-columns: 1fr; }
+  .g-compare tbody th { white-space: normal; }
+  .g-chain { flex-direction: column; align-items: stretch; }
+  .g-chain li { flex-direction: column; align-items: stretch; }
+  .g-chain li:not(:last-child)::after { content: "↓"; text-align: center; margin: 2px 0; }
+}

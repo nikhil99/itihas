@@ -296,6 +296,13 @@ def main():
         ids = [ev["id"] for ev in tl["events"]]
         for dup in sorted({i for i in ids if ids.count(i) > 1}):
             problems.append(f"[{tl['id']}] duplicate event id {dup!r}")
+        guide = tl.get("guide") or {}
+        g_events = [e for ch in guide.get("chapters", []) for e in ch.get("events", [])] + [c["event"] for c in guide.get("chain", []) if c.get("event")]
+        g_ents = [ch["image"] for ch in guide.get("chapters", []) if ch.get("image")] + [c["entity"] for c in guide.get("cast", [])]
+        for e in sorted(set(g_events) - set(ids)):
+            problems.append(f"[{tl['id']}] guide: unknown event id {e!r}")
+        for e in sorted({e for e in g_ents if e not in entities}):
+            problems.append(f"[{tl['id']}] guide: unknown entity id {e!r}")
         refs = {tl["subject"]}
         for ev in tl["events"]:
             for k in ("people", "places", "polities", "concepts"):
