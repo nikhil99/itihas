@@ -522,9 +522,72 @@ async function renderTimelinePage(id) {
     el("div", { class: "map-caption" }, "Select an event to see where it happened. Click a marker for details."));
 
   if (tl.compare && tl.compare.length === 0) { $("#app").replaceChildren(hero); state.renderTimeline = () => {}; return; }
-  $("#app").replaceChildren(...[seriesNav, hero, toolbar].filter(Boolean), tlBox, ...[familySection(tl)].filter(Boolean), el("div", { class: "below" }, story, mapWrap));
+  $("#app").replaceChildren(...[seriesNav, hero, guideSection(tl), toolbar].filter(Boolean), tlBox, ...[familySection(tl)].filter(Boolean), el("div", { class: "below" }, story, mapWrap));
   state.renderTimeline = setupTimeline(tlBox);
   setupMap();
+}
+
+// ---------- Start here ----------
+// Optional beginner's guide (content: "guide"): the story in a few chapters, a before/after
+// table, a cast of key people and a cause-and-effect chain. Picking a chapter moves the
+// timeline to its years.
+function guideSection(tl) {
+  const g = tl.guide;
+  if (!g || tl.compare) return null;
+  const ents = state.entities, evById = Object.fromEntries(tl.events.map((ev) => [ev.id, ev]));
+  const evLink = (id, text) => el("a", { href: `#/${tl.id}/ev/${id}` }, text ?? evById[id].title);
+  const chapters = g.chapters || [];
+  const steps = el("ol", { class: "g-steps" });
+  const body = el("div", { class: "g-chapter", "aria-live": "polite" });
+  const show = (i, { move = true } = {}) => {
+    const ch = chapters[i];
+    steps.querySelectorAll("button").forEach((b, k) => b.setAttribute("aria-current", k === i ? "step" : "false"));
+    const img = ents[ch.image]?.thumb || (ch.events || []).map((id) => evById[id]?.thumb).find(Boolean);
+    const refs = [...new Set((ch.events || []).flatMap((id) => evRefs(evById[id])))];
+    body.replaceChildren(
+      img ? el("img", { src: img, alt: ents[ch.image]?.title || "" }) : el("div"),
+      el("div", {},
+        el("div", { class: "g-kicker" }, `Chapter ${i + 1} of ${chapters.length} · ${fmtYear(ch.from)}–${fmtYear(ch.to)}`),
+        el("h3", {}, ch.title),
+        linked("p", null, ch.text, refs),
+        el("p", { class: "g-why" }, el("b", {}, "Why it matters: "), ch.why),
+        ch.events?.length ? el("div", { class: "g-moments" }, el("span", {}, "Key moments:"), ch.events.map((id) => evLink(id))) : null,
+        el("div", { class: "g-nav" },
+          el("button", { disabled: i === 0, onclick: () => show(i - 1) }, "← Previous"),
+          el("button", { onclick: () => $(".timeline")?.scrollIntoView({ behavior: "smooth", block: "center" }) }, "See these years on the timeline ↓"),
+          el("button", { disabled: i === chapters.length - 1, onclick: () => show(i + 1) }, "Next →"))));
+    if (move && state.renderTimeline) {
+      state.view = { start: ch.from - 1, end: ch.to + 1 };
+      state.renderTimeline();
+    }
+  };
+  chapters.forEach((ch, i) => steps.append(el("li", {}, el("button", { onclick: () => show(i) },
+    el("span", { class: "g-num" }, i + 1), el("span", { class: "g-title" }, ch.title), el("span", { class: "g-years" }, `${fmtYear(ch.from)}–${fmtYear(ch.to)}`)))));
+  if (chapters.length) show(0, { move: false });
+
+  const compare = g.compare && el("div", { class: "g-box" },
+    el("h3", {}, "What changed"),
+    el("table", { class: "g-compare" },
+      el("thead", {}, el("tr", {}, el("th"), el("th", {}, g.compare.before), el("th", {}, g.compare.after))),
+      el("tbody", {}, g.compare.rows.map(([k, a, b]) => el("tr", {}, el("th", {}, k), el("td", {}, a), el("td", {}, b))))));
+  const cast = g.cast?.length && el("div", { class: "g-box" },
+    el("h3", {}, "Who's who"),
+    el("ul", { class: "g-cast" }, g.cast.map(({ entity, role }) => {
+      const e = ents[entity];
+      return el("li", {}, el("a", { href: entHref(entity), "data-ent": entity },
+        e.thumb ? el("img", { src: e.thumb, alt: "", loading: "lazy" }) : el("span", { class: "g-noimg" }, TYPE_ICON[e.type]),
+        el("span", {}, el("b", {}, e.title), el("small", {}, role))));
+    })));
+  const chain = g.chain?.length && el("div", { class: "g-box g-chain-box" },
+    el("h3", {}, "How one thing led to another"),
+    el("ol", { class: "g-chain" }, g.chain.map((c) => el("li", {}, c.event ? evLink(c.event, c.text) : c.text))));
+
+  const open = state.expanded.guide !== false;
+  return el("details", { class: "guide", open, ontoggle: (e) => { state.expanded.guide = e.currentTarget.open; saveExpanded(); } },
+    el("summary", {}, el("span", { class: "g-badge" }, "Start here"), "New to this story? Read it in ", chapters.length, " short chapters"),
+    chapters.length ? el("div", { class: "g-story" }, steps, body) : null,
+    el("div", { class: "g-grid" }, compare, cast),
+    chain);
 }
 
 // ---------- Family tree ----------

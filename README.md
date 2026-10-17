@@ -68,6 +68,7 @@ titles, places with no coordinates) so mistakes surface right away.
 | `focus` | `[from, to]` years to shade (defaults to the subject's lifespan) |
 | `intro` | optional text replacing the Wikipedia summary in the header |
 | `aliases` | old ids of timelines merged into or renamed to this one; links to them redirect here |
+| `guide` | optional "Start here" panel for newcomers: `chapters` (title, from, to, text, why, `image` entity, key `events`), `compare` (`before`, `after`, `rows` of [label, before, after]), `cast` (entity + one-line role) and `chain` (cause → effect steps, each optionally linked to an `event`). Picking a chapter moves the timeline to its years. See `meiji-restoration.json` |
 | `context` | bars in the "People & powers" section; `from`/`to` override Wikidata dates (e.g. reigns) |
 
 Event-level `"see": "<timeline-id>"` adds an "Open the full timeline →" link to that card.

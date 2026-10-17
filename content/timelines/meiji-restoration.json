@@ -15,6 +15,212 @@
   1912.58
  ],
  "intro": "In 1853 American warships forced open a Japan that had kept the world at arm's length for two centuries. The shock brought down the Tokugawa shogunate, and in 1868 a group of young samurai from Satsuma and Chōshū restored power to the teenage Emperor Meiji. In barely forty years they abolished the feudal domains and the samurai class, built railways, factories, schools and a conscript army, adopted a constitution and parliament, overturned the unequal treaties, and defeated both China and Russia — turning Japan into the first non-Western industrial great power, and an empire.",
+ "guide": {
+  "chapters": [
+   {
+    "title": "The shock",
+    "from": 1853,
+    "to": 1858,
+    "image": "matthew-perry",
+    "text": "For over 200 years Japan had kept almost all foreigners out. A military ruler, the shogun, governed from Edo, while the emperor in Kyoto was only a figurehead. In 1853 American steam warships sailed into Edo Bay and demanded that Japan open its ports. Japan had no navy to resist, so the shogun signed treaties that let foreigners trade on their terms and live outside Japanese law.",
+    "why": "The shogun's whole claim to power was that he protected Japan. Giving in to foreigners made him look weak.",
+    "events": [
+     "perry",
+     "kanagawa",
+     "harris-treaty"
+    ]
+   },
+   {
+    "title": "The crisis",
+    "from": 1858,
+    "to": 1867,
+    "image": "sakamoto-ryoma",
+    "text": "Angry young samurai rallied around the emperor with the slogan 'revere the emperor, expel the barbarians'. They murdered officials and attacked foreigners. But when British and other warships shelled Kagoshima and Shimonoseki, the domains of Satsuma and Chōshū learned they could not beat the West with swords. They bought Western guns instead, and secretly allied against the shogun.",
+    "why": "The rebels realised the answer was not to drive the West out, but to copy its strength.",
+    "events": [
+     "sakuradamon",
+     "kagoshima",
+     "shimonoseki-campaign",
+     "satcho"
+    ]
+   },
+   {
+    "title": "The revolution",
+    "from": 1867,
+    "to": 1869,
+    "image": "emperor-meiji",
+    "text": "The last shogun, Tokugawa Yoshinobu, handed power back to the emperor. In January 1868 Satsuma and Chōshū troops declared imperial rule restored in the name of the 15-year-old Emperor Meiji. A short civil war, the Boshin War, defeated the shogun's supporters, and the new government promised in the Charter Oath to 'seek knowledge throughout the world'.",
+    "why": "Power passed from the shogun to a small group of young reformers ruling in the emperor's name.",
+    "events": [
+     "taisei-hokan",
+     "restoration",
+     "toba-fushimi",
+     "charter-oath",
+     "hakodate"
+    ]
+   },
+   {
+    "title": "Clearing away the old order",
+    "from": 1869,
+    "to": 1877,
+    "image": "saigo-takamori",
+    "text": "In a few years the reformers abolished the 260 feudal domains and replaced them with prefectures run from Tokyo. They ended the privileges of the samurai and built an army of ordinary conscripts. Some samurai fought back. In 1877 Saigō Takamori, a hero of 1868, led the Satsuma Rebellion and was defeated by the new peasant army.",
+    "why": "Japan went from a patchwork of lords to one centralised nation in under ten years.",
+    "events": [
+     "haihan-chiken",
+     "conscription",
+     "samurai-end",
+     "satsuma-rebellion"
+    ]
+   },
+   {
+    "title": "Building a modern country",
+    "from": 1871,
+    "to": 1890,
+    "image": "ito-hirobumi",
+    "text": "Japan's leaders toured America and Europe for almost two years to see how they worked. Back home they hired foreign experts and built railways, telegraphs, silk mills and schools for every child. In 1889 Japan adopted Asia's first modern constitution, and an elected parliament met in 1890.",
+    "why": "Japan borrowed selectively: a German-style constitution, a British-style navy, and Western science, schools and banks.",
+    "events": [
+     "iwakura-mission",
+     "railway",
+     "gakusei",
+     "tomioka",
+     "constitution",
+     "diet"
+    ]
+   },
+   {
+    "title": "A world power",
+    "from": 1894,
+    "to": 1912,
+    "image": "togo-heihachiro",
+    "text": "Japan's new army and navy beat China in 1894–95 and then, to the world's surprise, Russia in 1904–05. The Western powers gave up the unequal treaties, and Britain became Japan's ally. Japan also became a colonial power itself, taking Taiwan and Korea. When Emperor Meiji died in 1912, Japan was an industrial great power.",
+    "why": "In 59 years Japan went from being forced open to standing among the great powers. It was the first non-Western country to do so, at a heavy cost to its neighbours.",
+    "events": [
+     "sino-japanese-war",
+     "anglo-japanese-alliance",
+     "russo-japanese-war",
+     "annexation",
+     "tariff-autonomy",
+     "meiji-dies"
+    ]
+   }
+  ],
+  "compare": {
+   "before": "Japan in 1853",
+   "after": "Japan in 1912",
+   "rows": [
+    [
+     "Who rules",
+     "The shogun, a military ruler in Edo. The emperor is a figurehead in Kyoto.",
+     "Ministers rule in the emperor's name, under a constitution with a parliament."
+    ],
+    [
+     "The country",
+     "About 260 domains, each run by its own lord (daimyo).",
+     "One nation of prefectures, governed from Tokyo."
+    ],
+    [
+     "Society",
+     "Fixed classes. Only samurai may carry swords.",
+     "Samurai privileges abolished. Anyone can choose any job."
+    ],
+    [
+     "Army",
+     "Samurai with swords and old muskets. No real navy.",
+     "A conscript army and a modern navy that has beaten Russia."
+    ],
+    [
+     "Travel",
+     "On foot, on horseback or by palanquin.",
+     "Railways, steamships and the telegraph link the country."
+    ],
+    [
+     "School",
+     "Temple schools for some children.",
+     "Primary school for every child; almost all attend."
+    ],
+    [
+     "Economy",
+     "Mostly rice farming.",
+     "Silk mills, steelworks, banks and big business groups."
+    ],
+    [
+     "The world",
+     "Closed country: only the Dutch and Chinese may trade, at Nagasaki.",
+     "Equal treaties with the West, an ally of Britain, and an empire of its own."
+    ]
+   ]
+  },
+  "cast": [
+   {
+    "entity": "matthew-perry",
+    "role": "American commodore who forced Japan open"
+   },
+   {
+    "entity": "tokugawa-yoshinobu",
+    "role": "The last shogun, who gave up power"
+   },
+   {
+    "entity": "emperor-meiji",
+    "role": "Teenage emperor in whose name it all happened"
+   },
+   {
+    "entity": "saigo-takamori",
+    "role": "Military hero of 1868 who later rebelled"
+   },
+   {
+    "entity": "okubo-toshimichi",
+    "role": "Chief builder of the new state"
+   },
+   {
+    "entity": "iwakura-tomomi",
+    "role": "Court noble who led the mission to the West"
+   },
+   {
+    "entity": "ito-hirobumi",
+    "role": "Wrote the constitution; first prime minister"
+   },
+   {
+    "entity": "fukuzawa-yukichi",
+    "role": "Writer who explained the West to Japan"
+   }
+  ],
+  "chain": [
+   {
+    "text": "Western warships arrive",
+    "event": "perry"
+   },
+   {
+    "text": "The shogun signs unequal treaties",
+    "event": "harris-treaty"
+   },
+   {
+    "text": "Samurai turn against the shogun",
+    "event": "sakuradamon"
+   },
+   {
+    "text": "Satsuma and Chōshū overthrow him",
+    "event": "restoration"
+   },
+   {
+    "text": "Reformers rebuild Japan on Western lines",
+    "event": "haihan-chiken"
+   },
+   {
+    "text": "Industry, schools and a modern army",
+    "event": "railway"
+   },
+   {
+    "text": "Victories over China and Russia",
+    "event": "russo-japanese-war"
+   },
+   {
+    "text": "Equal treaties and great-power status",
+    "event": "tariff-autonomy"
+   }
+  ]
+ },
  "lanes": [
   {
    "id": "life",
