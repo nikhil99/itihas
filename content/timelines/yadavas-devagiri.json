@@ -57,10 +57,58 @@
     {
      "entity": null,
      "from": 900,
+     "to": 950,
+     "group": "Feudatory period",
+     "name": "Dhadiyappa, Bhillama I, Rajugi, Vaddiga",
+     "note": "Rashtrakuta feudatories; dates approximate"
+    },
+    {
+     "entity": null,
+     "from": 950,
+     "to": 1005,
+     "group": "Feudatory period",
+     "name": "Dhadiyasa and Bhillama II",
+     "note": "Bhillama II goes over to the Western Chalukyas and fights for Tailapa II; dates approximate"
+    },
+    {
+     "entity": null,
+     "from": 1005,
+     "to": 1050,
+     "group": "Feudatory period",
+     "name": "Vesugi I and Bhillama III",
+     "note": "Marriage ties with the Chalukya royal family; dates approximate"
+    },
+    {
+     "entity": null,
+     "from": 1050,
+     "to": 1085,
+     "group": "Feudatory period",
+     "name": "Seunachandra II",
+     "note": "Helps Vikramaditya VI to the Chalukya throne; dates approximate"
+    },
+    {
+     "entity": null,
+     "from": 1085,
+     "to": 1145,
+     "group": "Feudatory period",
+     "name": "Airamadeva and Singhana I",
+     "note": "Dates approximate"
+    },
+    {
+     "entity": null,
+     "from": 1145,
+     "to": 1165,
+     "group": "Feudatory period",
+     "name": "Mallugi",
+     "note": "Dates approximate"
+    },
+    {
+     "entity": null,
+     "from": 1165,
      "to": 1173,
      "group": "Feudatory period",
-     "name": "Later feudatory rulers",
-     "note": "About fifteen rulers, first under the Rashtrakutas and from 973 under the Western Chalukyas — among them Bhillama II"
+     "name": "Amaragangeya to Kaliya Ballala",
+     "note": "Several short reigns as Chalukya power fails; dates approximate"
     },
     {
      "entity": "bhillama-v",
@@ -181,8 +229,16 @@
   }
  ],
  "events": [
+  {"id": "vaddiga-marriage", "date": "950", "lane": "life", "title": "A Rashtrakuta bride", "summary": "The feudatory Vaddiga marries Vohivayya, a princess of the Rashtrakuta royal house — a sign of the family's rising standing.", "approx": true, "polities": ["seuna", "rashtrakuta"]},
+  {"id": "manyakheta-sacked", "date": "972", "lane": "world", "title": "Paramaras sack Manyakheta", "summary": "The Paramara king Siyaka of Malwa sacks the Rashtrakuta capital Manyakheta; within a year the Rashtrakuta empire collapses.", "approx": true, "polities": ["paramara", "rashtrakuta"]},
+  {"id": "sangamner-grant", "date": "1000", "lane": "political", "title": "Bhillama II's land grant", "summary": "A copper-plate grant issued by Bhillama II near Sangamner records his titles as a Chalukya feudatory and his part in the war against Munja.", "approx": true, "polities": ["seuna", "western-chalukya"]},
+  {"id": "bhillama-iii-marriage", "date": "1025", "lane": "life", "title": "Marriage into the Chalukya house", "summary": "Bhillama III marries Avalladevi, daughter of the Western Chalukya emperor Jayasimha II.", "approx": true, "polities": ["seuna", "western-chalukya"]},
+  {"id": "vikramaditya-vi", "date": "1076", "lane": "political", "title": "Seunachandra II backs Vikramaditya VI", "summary": "When Vikramaditya VI deposes his brother Someshvara II to take the Chalukya throne, Seunachandra II is among the feudatories who support him.", "approx": true, "polities": ["seuna", "western-chalukya"]},
+  {"id": "kalachuri-bijjala", "date": "1162", "lane": "world", "title": "Bijjala seizes Kalyani", "summary": "The Kalachuri feudatory Bijjala II takes the Chalukya capital Kalyani and rules as emperor; the old overlordship is breaking up.", "approx": true, "polities": ["western-chalukya"]},
+  {"id": "basava", "date": "1165", "lane": "world", "title": "Basava at Kalyani", "summary": "Bijjala's minister Basava leads the Lingayat devotional movement at Kalyani, with poets writing vachanas in Kannada.", "approx": true, "concepts": ["kannada"]},
+  {"id": "chalukya-last", "date": "1184", "lane": "world", "title": "The last Chalukya revival", "summary": "Someshvara IV briefly restores Chalukya rule at Kalyani, but the Yadavas, Hoysalas and Kakatiyas are already independent in all but name.", "approx": true, "polities": ["western-chalukya", "hoysala", "kakatiya"]},
+  {"id": "kholeshvara", "date": "1230", "lane": "military", "title": "Kholeshvara's northern campaigns", "summary": "Simhana's general Kholeshvara leads Yadava armies against Gujarat and Malwa.", "approx": true, "people": ["simhana"], "places": ["gujarat", "malwa"], "polities": ["vaghela", "paramara"]},
   {"id": "gondeshwar", "date": "1150", "lane": "forts", "title": "Gondeshwar temple at Sinnar", "summary": "Under the Yadavas the Gondeshwar temple is built at Sinnar, their early seat — a five-shrine Bhumija-style temple of the 11th–12th century.", "approx": true, "places": ["gondeshwar", "sinnar"], "polities": ["seuna"]},
-  {"id": "devagiri-capital", "date": "1187", "lane": "forts", "title": "Devagiri becomes the capital", "summary": "Bhillama V fortifies the hill of Devagiri and makes it his capital; the rock-cut fort becomes one of the strongest in India.", "approx": true, "people": ["bhillama-v"], "places": ["devagiri"], "polities": ["seuna"]},
   {"id": "jaitugi-succeeds", "date": "1191", "lane": "life", "title": "Jaitugi succeeds", "summary": "Bhillama V dies soon after his defeat by the Hoysala Veera Ballala II; his son Jaitugi takes the throne.", "approx": true, "people": ["jaitugi", "bhillama-v", "veera-ballala-ii"], "polities": ["hoysala"]},
   {"id": "changadeva-school", "date": "1207", "lane": "political", "title": "A school for Bhaskara's astronomy", "summary": "Simhana's court astronomer Changadeva, Bhaskaracharya's grandson, endows a school at Patne near Chalisgaon to teach his grandfather's works.", "approx": true, "people": ["simhana", "bhaskara-ii"], "concepts": ["siddhanta-shiromani"]},
   {"id": "krishna-succeeds", "date": "1246", "lane": "life", "title": "Krishna (Kannara) succeeds Simhana", "summary": "Simhana dies after a long reign; his son Jaitugi II having died before him, the throne passes to his grandson Krishna.", "approx": true, "people": ["simhana"], "polities": ["seuna"]},
