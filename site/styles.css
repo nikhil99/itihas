@@ -533,3 +533,31 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
   .g-chain li { flex-direction: column; align-items: stretch; }
   .g-chain li:not(:last-child)::after { content: "↓"; text-align: center; margin: 2px 0; }
 }
+
+/* ---------- Map playback ---------- */
+.map-player { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.map-player input[type="range"] { flex: 1; accent-color: var(--accent); min-width: 0; }
+.mp-play { font-weight: 600; font-size: 13px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer; white-space: nowrap; }
+.mp-play:hover { filter: brightness(1.08); }
+.mp-year { font: 700 20px var(--serif); min-width: 3.2em; text-align: right; font-variant-numeric: tabular-nums; }
+.mp-news { min-height: 1.5em; margin-top: 6px; font-size: 13.5px; }
+.mp-item { animation: mp-in .35s ease-out; }
+.mp-item b { color: var(--accent); margin-right: 4px; }
+.mp-item.terr b { color: var(--lane-military); }
+@keyframes mp-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+.mp-legend { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); margin-top: 4px; }
+.mp-legend:empty { display: none; }
+.mp-swatch { width: 14px; height: 10px; border-radius: 2px; background: color-mix(in srgb, var(--lane-military) 35%, transparent); border: 1px solid var(--lane-military); }
+.mp-swatch.protectorate { background: color-mix(in srgb, var(--lane-military) 12%, transparent); border-style: dashed; margin-left: 6px; }
+.leaflet-pane path.mp-terr { fill: var(--lane-military); stroke: var(--lane-military); fill-opacity: 0; stroke-opacity: 0; transition: fill-opacity .6s, stroke-opacity .6s; }
+.leaflet-pane path.mp-terr.on { fill-opacity: .3; stroke-opacity: .8; }
+.leaflet-pane path.mp-terr.protectorate.on { fill-opacity: .12; stroke-dasharray: 4 3; }
+.leaflet-pane path.mp-terr.flash { animation: mp-flash 1.4s ease-out; }
+@keyframes mp-flash { 0%, 30% { fill-opacity: .75; } 100% { fill-opacity: .3; } }
+.mp-pulse { pointer-events: none; }
+.mp-pulse i { display: block; width: 100%; height: 100%; border-radius: 50%; border: 3px solid #f59e0b; animation: mp-ring 1.5s ease-out forwards; }
+@keyframes mp-ring { from { transform: scale(.3); opacity: 1; } to { transform: scale(2.2); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .leaflet-pane path.mp-terr { transition: none; }
+  .leaflet-pane path.mp-terr.flash, .mp-item { animation: none; }
+}

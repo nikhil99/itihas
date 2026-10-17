@@ -519,7 +519,7 @@ async function renderTimelinePage(id) {
   const tlBox = el("div", { class: "timeline" });
   const story = el("section", { class: "story" }, el("h2", {}, "The story"), buildStory());
   const mapWrap = el("section", { class: "map-wrap" }, el("h2", {}, "Places"), el("div", { id: "map" }),
-    el("div", { class: "map-caption" }, "Select an event to see where it happened. Click a marker for details."));
+    el("div", { class: "map-caption" }, "Press Play to watch the story unfold, or select an event to see where it happened."));
 
   if (tl.compare && tl.compare.length === 0) { $("#app").replaceChildren(hero); state.renderTimeline = () => {}; return; }
   $("#app").replaceChildren(...[seriesNav, hero, guideSection(tl), toolbar].filter(Boolean), tlBox, ...[familySection(tl)].filter(Boolean), el("div", { class: "below" }, story, mapWrap));
@@ -1489,8 +1489,15 @@ function zoomBy(factor, frac = 0.5) {
 }
 
 // ---------- Map ----------
+const PLACE_STYLE = {
+  base: { color: "#0f766e", fillColor: "#14b8a6", fillOpacity: 0.55, opacity: 1, weight: 2 },
+  dim: { color: "#0f766e", fillColor: "#14b8a6", fillOpacity: 0.25, opacity: 1, weight: 2 },
+  sel: { color: "#b45309", fillColor: "#f59e0b", fillOpacity: 0.9, opacity: 1, weight: 3 },
+  hidden: { opacity: 0, fillOpacity: 0 },
+};
 function setupMap() {
   if (state.map) { state.map.remove(); state.map = null; }
+  cancelAnimationFrame(state.mapAnim || 0);
   const tl = state.tl, ents = state.entities;
   const map = L.map("map", { scrollWheelZoom: false, zoomSnap: 0.5 });
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -1498,15 +1505,19 @@ function setupMap() {
   }).addTo(map);
   state.map = map;
   state.markers = {};
+  state.placeFirst = {}; // place id -> time of the first event there; drives the playback
   const counts = {};
-  tl.events.forEach((ev) => (ev.places || []).forEach((p) => (counts[p] = (counts[p] || 0) + 1)));
+  tl.events.forEach((ev) => (ev.places || []).forEach((p) => {
+    counts[p] = (counts[p] || 0) + 1;
+    state.placeFirst[p] = Math.min(state.placeFirst[p] ?? Infinity, ev._t);
+  }));
   const pts = [];
   for (const [id, n] of Object.entries(counts)) {
     const e = ents[id];
     if (!e?.coords) continue;
     const ll = [e.coords.lat, e.coords.lon];
     pts.push(ll);
-    const m = L.circleMarker(ll, { radius: 4 + Math.min(n, 6), color: "#0f766e", weight: 2, fillColor: "#14b8a6", fillOpacity: 0.55 })
+    const m = L.circleMarker(ll, { radius: 4 + Math.min(n, 6), ...PLACE_STYLE.base })
       .addTo(map)
       .bindTooltip(`${e.title}${e.labels?.mr ? " · " + e.labels.mr : ""}`)
       .on("click", () => go(`#/${tl.id}/e/${id}`));
@@ -1514,19 +1525,124 @@ function setupMap() {
   }
   state.allBounds = L.latLngBounds(pts);
   map.fitBounds(state.allBounds, { padding: [20, 20] });
+  setupMapPlayer();
+}
+function placeStyle(id, sel) {
+  if (sel.has(id)) return PLACE_STYLE.sel;
+  if (state.mapYear != null && !(state.placeFirst[id] <= state.mapYear)) return PLACE_STYLE.hidden;
+  return sel.size ? PLACE_STYLE.dim : PLACE_STYLE.base;
 }
 function highlightPlaces(ids) {
   const sel = new Set(ids);
+  state.mapSel = sel;
   for (const [id, m] of Object.entries(state.markers)) {
-    const on = sel.has(id);
-    m.setStyle(on ? { color: "#b45309", fillColor: "#f59e0b", fillOpacity: 0.9, weight: 3 }
-                  : { color: "#0f766e", fillColor: "#14b8a6", fillOpacity: sel.size ? 0.25 : 0.55, weight: 2 });
-    if (on) m.bringToFront();
+    m.setStyle(placeStyle(id, sel));
+    if (sel.has(id)) m.bringToFront();
   }
   const pts = ids.map((id) => state.entities[id]?.coords).filter(Boolean).map((c) => [c.lat, c.lon]);
   if (!state.map) return;
   if (pts.length === 1) state.map.flyTo(pts[0], 9, { duration: 0.8 });
   else if (pts.length > 1) state.map.flyToBounds(pts, { padding: [40, 40], maxZoom: 9, duration: 0.8 });
+}
+
+// ---------- Map playback ----------
+// "Play" runs through the timeline's years on the map: places appear when their first event
+// happens and pulse as events occur, major events are captioned, and optional territories
+// (content: "territories", shapes in content/geo/) fade in and out on their dates.
+function setupMapPlayer() {
+  const tl = state.tl, map = state.map;
+  const [y0, y1] = tl.range;
+  state.mapYear = null; // null = show everything (not playing or scrubbing)
+  state.mapSel = new Set();
+  const areas = [];
+  let terrBounds = null;
+
+  const yearLabel = el("span", { class: "mp-year" }, fmtYear(y1));
+  const playBtn = el("button", { class: "mp-play", "aria-label": "Play the story on the map" }, "▶ Play");
+  const slider = el("input", { type: "range", min: y0, max: y1, step: 0.05, value: y1, "aria-label": "Year shown on the map" });
+  const news = el("div", { class: "mp-news", "aria-live": "polite" });
+  const legend = el("div", { class: "mp-legend" });
+  const bar = el("div", { class: "map-player" }, playBtn, slider, yearLabel);
+  $(".map-wrap .map-caption")?.before(bar, news, legend);
+
+  const say = (t, text, kind = "") => {
+    news.replaceChildren(el("div", { class: `mp-item ${kind}` }, el("b", {}, fmtYear(t)), " ", text));
+  };
+  const pulse = (id) => {
+    const c = state.entities[id]?.coords;
+    if (!c || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const p = L.marker([c.lat, c.lon], { icon: L.divIcon({ className: "mp-pulse", html: "<i></i>", iconSize: [28, 28] }), interactive: false, keyboard: false }).addTo(map);
+    setTimeout(() => p.remove(), 1600);
+  };
+
+  // y: year to show (null = everything); prev: last year shown, so we know what just happened
+  const setYear = (y, prev = null) => {
+    state.mapYear = y == null || y >= y1 ? null : y;
+    const t = state.mapYear ?? y1;
+    yearLabel.textContent = fmtYear(Math.min(t, y1));
+    slider.value = t;
+    for (const [id, m] of Object.entries(state.markers)) m.setStyle(placeStyle(id, state.mapSel));
+    for (const a of areas) {
+      const on = a.from <= t && t < (a.to ?? Infinity);
+      a.layer.eachLayer((l) => l.getElement()?.classList.toggle("on", on));
+      if (prev != null && on && !(a.from <= prev) && a.from > y0) {
+        say(a.from, `${a.label}: ${a.note || "added"}`, "terr");
+        a.layer.eachLayer((l) => { const e = l.getElement(); e?.classList.remove("flash"); void e?.getBBox(); e?.classList.add("flash"); });
+      }
+      if (prev != null && !on && a.to != null && prev < a.to && t >= a.to) say(a.to, `${a.label}: given up`, "terr");
+    }
+    if (prev != null) for (const ev of tl.events) {
+      if (ev._t > prev && ev._t <= t) {
+        (ev.places || []).forEach(pulse);
+        if (ev.major) say(ev._t, ev.title);
+      }
+    }
+  };
+
+  let playing = false, last = 0;
+  const duration = Math.min(35, Math.max(15, (y1 - y0) * 0.3)) * 1000; // whole range, ms
+  const stop = () => { playing = false; playBtn.textContent = "▶ Play"; cancelAnimationFrame(state.mapAnim); };
+  const step = (now) => {
+    if (!playing) return;
+    const dt = Math.min(now - last, 500); last = now;
+    const prev = state.mapYear ?? y0;
+    const y = prev + (dt / duration) * (y1 - y0);
+    if (y >= y1) { setYear(y1 - 1e-6, prev); stop(); setTimeout(() => setYear(null), 1200); return; }
+    setYear(y, prev);
+    state.mapAnim = requestAnimationFrame(step);
+  };
+  playBtn.addEventListener("click", () => {
+    if (playing) return stop();
+    if (state.mapYear == null) { // start from the beginning
+      news.replaceChildren();
+      setYear(y0);
+      map.flyToBounds(terrBounds || state.allBounds, { padding: [20, 20], duration: 0.8 });
+    }
+    playing = true; playBtn.textContent = "❚❚ Pause"; last = performance.now();
+    state.mapAnim = requestAnimationFrame(step);
+  });
+  slider.addEventListener("input", () => { stop(); setYear(+slider.value, null); });
+
+  const terr = tl.territories;
+  if (terr) load(`data/geo/${terr.geo}.json`).then((fc) => {
+    if (state.map !== map) return; // page changed meanwhile
+    const shapes = Object.fromEntries(fc.features.map((f) => [f.id, f]));
+    const pane = map.createPane("territories");
+    pane.style.zIndex = 350; // above tiles, below place markers
+    for (const a of terr.areas) {
+      const layer = L.geoJSON(shapes[a.id], { pane, interactive: true,
+        style: { className: `mp-terr${a.style ? " " + a.style : ""}`, weight: 1.2 } })
+        .bindTooltip(`${a.label} · ${fmtYear(a.from)}${a.to ? "–" + fmtYear(a.to) : ""}`, { sticky: true })
+        .addTo(map);
+      if (a.event) layer.on("click", () => go(`#/${tl.id}/ev/${a.event}`));
+      areas.push({ ...a, layer });
+      terrBounds = terrBounds ? terrBounds.extend(layer.getBounds()) : layer.getBounds();
+    }
+    legend.replaceChildren(el("span", { class: "mp-swatch" }), terr.label,
+      ...(terr.areas.some((a) => a.style === "protectorate") ? [el("span", { class: "mp-swatch protectorate" }), "protectorate"] : []));
+    map.fitBounds(state.allBounds.extend(terrBounds), { padding: [20, 20] });
+    setYear(state.mapYear);
+  }).catch(() => {});
 }
 
 // ---------- Selection ----------

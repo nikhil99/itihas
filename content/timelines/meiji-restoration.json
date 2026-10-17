@@ -432,6 +432,89 @@
    "to": 1915
   }
  ],
+ "territories": {
+  "geo": "japan-empire",
+  "label": "Japanese territory",
+  "areas": [
+   {
+    "id": "japan-core",
+    "from": 1850,
+    "label": "Japan's home islands"
+   },
+   {
+    "id": "hokkaido",
+    "from": 1869.7,
+    "label": "Hokkaido",
+    "note": "Ezo is renamed Hokkaido and settled",
+    "event": "hokkaido"
+   },
+   {
+    "id": "kurils",
+    "from": 1875.35,
+    "label": "Kuril Islands",
+    "note": "Gained from Russia in exchange for Sakhalin",
+    "event": "sakhalin-kurils"
+   },
+   {
+    "id": "bonin",
+    "from": 1876.8,
+    "label": "Bonin Islands",
+    "note": "The Ogasawara (Bonin) Islands are claimed"
+   },
+   {
+    "id": "ryukyu",
+    "from": 1879.26,
+    "label": "Ryukyu (Okinawa)",
+    "note": "The Ryukyu Kingdom is annexed",
+    "event": "ryukyu"
+   },
+   {
+    "id": "taiwan",
+    "from": 1895.3,
+    "label": "Taiwan",
+    "note": "Ceded by China after the Sino-Japanese War",
+    "event": "shimonoseki-treaty"
+   },
+   {
+    "id": "liaodong",
+    "from": 1895.3,
+    "to": 1895.85,
+    "label": "Liaodong Peninsula",
+    "note": "Ceded by China, then handed back under pressure from Russia, Germany and France",
+    "event": "shimonoseki-treaty"
+   },
+   {
+    "id": "south-sakhalin",
+    "from": 1905.68,
+    "label": "South Sakhalin",
+    "note": "Won from Russia at Portsmouth",
+    "event": "portsmouth"
+   },
+   {
+    "id": "kwantung",
+    "from": 1905.68,
+    "label": "Kwantung Leased Territory",
+    "note": "Port Arthur and Dalny, taken over from Russia",
+    "event": "portsmouth"
+   },
+   {
+    "id": "korea",
+    "from": 1905.88,
+    "to": 1910.64,
+    "style": "protectorate",
+    "label": "Korea (protectorate)",
+    "note": "Korea becomes a Japanese protectorate",
+    "event": "korea-protectorate"
+   },
+   {
+    "id": "korea",
+    "from": 1910.64,
+    "label": "Korea",
+    "note": "Korea is annexed",
+    "event": "annexation"
+   }
+  ]
+ },
  "events": [
   {
    "id": "perry",
