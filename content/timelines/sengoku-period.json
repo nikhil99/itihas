@@ -1,0 +1,894 @@
+{
+ "id": "sengoku-period",
+ "kind": "empire",
+ "region": "Japan",
+ "order": 0,
+ "title": "Sengoku Japan",
+ "subtitle": "The warring states and the unifiers · 1467 – 1603",
+ "subject": "sengoku-period",
+ "range": [
+  1460,
+  1606
+ ],
+ "focus": [
+  1467.4,
+  1603.23
+ ],
+ "intro": "In 1467 a succession quarrel in the shogun's court started the Ōnin War and destroyed Kyoto. Central power collapsed, and for over a century Japan was divided among rival warlords (daimyo) in its 'warring states' (Sengoku) period. Portuguese traders brought guns and Jesuit missionaries brought Christianity. Then three men put the country back together. Oda Nobunaga conquered central Japan, Toyotomi Hideyoshi completed the unification and invaded Korea, and Tokugawa Ieyasu won at Sekigahara in 1600 and became shogun in 1603.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Shoguns & unifiers"
+  },
+  {
+   "id": "military",
+   "label": "Wars & battles"
+  },
+  {
+   "id": "forts",
+   "label": "Castles & culture"
+  },
+  {
+   "id": "political",
+   "label": "Rule, religion & society"
+  },
+  {
+   "id": "world",
+   "label": "Japan and the world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Ashikaga shoguns",
+   "members": [
+    {
+     "entity": "ashikaga-yoshimasa",
+     "from": 1449,
+     "to": 1473.9,
+     "group": "ashikaga-shogunate"
+    },
+    {
+     "entity": "ashikaga-yoshihisa",
+     "from": 1473.9,
+     "to": 1489.2,
+     "group": "ashikaga-shogunate"
+    },
+    {
+     "entity": "ashikaga-yoshitane",
+     "from": 1490.5,
+     "to": 1493.3,
+     "group": "ashikaga-shogunate",
+     "note": "Deposed in 1493; shogun again 1508–1521"
+    },
+    {
+     "entity": "ashikaga-yoshizumi",
+     "from": 1494.9,
+     "to": 1508.5,
+     "group": "ashikaga-shogunate"
+    },
+    {
+     "entity": "ashikaga-yoshitane",
+     "from": 1508.5,
+     "to": 1521.3,
+     "group": "ashikaga-shogunate",
+     "note": "Second term"
+    },
+    {
+     "entity": "ashikaga-yoshiharu",
+     "from": 1521.9,
+     "to": 1546.9,
+     "group": "ashikaga-shogunate"
+    },
+    {
+     "entity": "ashikaga-yoshiteru",
+     "from": 1546.9,
+     "to": 1565.45,
+     "group": "ashikaga-shogunate"
+    },
+    {
+     "entity": "ashikaga-yoshihide",
+     "from": 1568.1,
+     "to": 1568.75,
+     "group": "ashikaga-shogunate"
+    },
+    {
+     "entity": "ashikaga-yoshiaki",
+     "from": 1568.85,
+     "to": 1573.6,
+     "group": "ashikaga-shogunate",
+     "note": "Last Ashikaga shogun; driven out by Nobunaga"
+    }
+   ]
+  },
+  {
+   "label": "Unifiers",
+   "members": [
+    {
+     "entity": "oda-nobunaga",
+     "from": 1568.85,
+     "to": 1582.47,
+     "group": "oda-clan",
+     "note": "Controlled central Japan from Kyoto"
+    },
+    {
+     "entity": "toyotomi-hideyoshi",
+     "from": 1582.5,
+     "to": 1598.71,
+     "group": "toyotomi-clan",
+     "note": "Unified Japan in 1590"
+    },
+    {
+     "entity": "tokugawa-ieyasu",
+     "from": 1600.8,
+     "to": 1603.23,
+     "group": "tokugawa-shogunate",
+     "note": "After Sekigahara; shogun from 1603"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "ashikaga-shogunate",
+   "label": "Ashikaga shogunate",
+   "from": 1460,
+   "to": 1573.6
+  },
+  {
+   "entity": "later-hojo",
+   "label": "Later Hōjō (Kantō)",
+   "from": 1495,
+   "to": 1590.6
+  },
+  {
+   "entity": "takeda-clan",
+   "label": "Takeda (Kai)",
+   "from": 1460,
+   "to": 1582.25
+  },
+  {
+   "entity": "uesugi-clan",
+   "label": "Uesugi (Echigo)",
+   "from": 1460,
+   "to": 1606
+  },
+  {
+   "entity": "mori-clan",
+   "label": "Mōri (western Honshu)",
+   "from": 1523,
+   "to": 1606
+  },
+  {
+   "entity": "oda-clan",
+   "label": "Oda",
+   "from": 1551,
+   "to": 1582.5
+  },
+  {
+   "entity": "toyotomi-clan",
+   "label": "Toyotomi",
+   "from": 1585,
+   "to": 1606
+  },
+  {
+   "entity": "ming-china",
+   "label": "Ming China",
+   "from": 1460,
+   "to": 1606
+  },
+  {
+   "entity": "joseon-korea",
+   "label": "Joseon Korea",
+   "from": 1460,
+   "to": 1606
+  },
+  {
+   "entity": "portuguese-empire",
+   "label": "Portuguese traders",
+   "from": 1543,
+   "to": 1606
+  }
+ ],
+ "events": [
+  {
+   "id": "onin-war",
+   "date": "1467-05",
+   "end": "1477-12",
+   "lane": "military",
+   "title": "The Ōnin War",
+   "summary": "A quarrel over who will succeed the shogun Ashikaga Yoshimasa explodes into war between the great lords Hosokawa Katsumoto and Yamana Sōzen. Their armies fight street by street in Kyoto for ten years and leave the capital in ashes. Nobody wins, but the Ashikaga shoguns never again control the provinces.",
+   "people": [
+    "ashikaga-yoshimasa",
+    "hosokawa-katsumoto",
+    "yamana-sozen"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "ashikaga-shogunate"
+   ],
+   "concepts": [
+    "onin-war"
+   ],
+   "wiki": "Ōnin War",
+   "major": true
+  },
+  {
+   "id": "yoshihisa",
+   "date": "1473",
+   "lane": "life",
+   "title": "Yoshimasa retires; Yoshihisa shogun",
+   "summary": "In the middle of the war Yoshimasa hands the title to his young son Yoshihisa and withdraws into a life of art and tea.",
+   "people": [
+    "ashikaga-yoshimasa",
+    "ashikaga-yoshihisa"
+   ],
+   "polities": [
+    "ashikaga-shogunate"
+   ]
+  },
+  {
+   "id": "ginkakuji",
+   "date": "1482",
+   "lane": "forts",
+   "title": "The Silver Pavilion and Higashiyama culture",
+   "summary": "While the country burns, Yoshimasa builds a retreat in the eastern hills of Kyoto, later called the Silver Pavilion. His circle refines the tea ceremony, ink painting, garden design, flower arranging and Noh drama — arts that still define Japanese taste.",
+   "people": [
+    "ashikaga-yoshimasa"
+   ],
+   "places": [
+    "ginkakuji",
+    "kyoto"
+   ],
+   "concepts": [
+    "tea-ceremony",
+    "noh"
+   ],
+   "wiki": "Ginkaku-ji"
+  },
+  {
+   "id": "kaga-ikki",
+   "date": "1488",
+   "lane": "political",
+   "title": "The Ikkō-ikki take Kaga",
+   "summary": "Peasants, priests and minor warriors of the True Pure Land Buddhist sect overthrow the governor of Kaga province and rule it themselves for almost a century: a 'kingdom of farmers' that alarms the warlords.",
+   "places": [
+    "kaga"
+   ],
+   "concepts": [
+    "ikko-ikki"
+   ],
+   "wiki": "Ikkō-ikki"
+  },
+  {
+   "id": "meio-coup",
+   "date": "1493",
+   "lane": "political",
+   "title": "The Meiō coup",
+   "summary": "Hosokawa Masamoto deposes the shogun Yoshitane and installs a puppet. From now on shoguns are made and unmade by their strongest retainers; many historians date the 'warring states' (Sengoku) period from here.",
+   "people": [
+    "hosokawa-masamoto",
+    "ashikaga-yoshitane",
+    "ashikaga-yoshizumi"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "ashikaga-shogunate"
+   ],
+   "concepts": [
+    "sengoku-period"
+   ]
+  },
+  {
+   "id": "hojo-soun",
+   "date": "1495",
+   "lane": "military",
+   "title": "Hōjō Sōun seizes Odawara",
+   "summary": "A minor retainer, Ise Shinkurō, later known as Hōjō Sōun, takes Odawara Castle by a ruse. He founds the Later Hōjō, who rule the Kantō for nearly a century — the model of a self-made 'warring states lord' (sengoku daimyo).",
+   "people": [
+    "hojo-soun"
+   ],
+   "places": [
+    "odawara-castle"
+   ],
+   "polities": [
+    "later-hojo"
+   ]
+  },
+  {
+   "id": "iwami-silver",
+   "date": "1526",
+   "lane": "political",
+   "title": "Silver at Iwami Ginzan",
+   "summary": "A merchant from Hakata opens the Iwami silver mine, and new refining methods from Korea soon follow. By the end of the century Japan produces perhaps a third of the world's silver, which pays for Chinese silk and European guns.",
+   "places": [
+    "iwami-ginzan"
+   ],
+   "wiki": "Iwami Ginzan Silver Mine"
+  },
+  {
+   "id": "tanegashima",
+   "date": "1543",
+   "lane": "world",
+   "title": "Portuguese guns reach Tanegashima",
+   "summary": "A Chinese junk carrying Portuguese traders lands on the island of Tanegashima. The local lord buys two of their matchlocks and has his swordsmiths copy them; within a few decades Japan has more firearms than any country in Europe.",
+   "places": [
+    "tanegashima"
+   ],
+   "polities": [
+    "portuguese-empire"
+   ],
+   "concepts": [
+    "tanegashima-gun",
+    "nanban-trade"
+   ],
+   "wiki": "Tanegashima (Japanese matchlock)",
+   "major": true
+  },
+  {
+   "id": "xavier",
+   "date": "1549-08-15",
+   "lane": "world",
+   "title": "Francis Xavier lands at Kagoshima",
+   "summary": "The Jesuit missionary Francis Xavier begins preaching in Japan. Christianity spreads quickly, especially in Kyushu, where some lords convert to attract Portuguese trade; by 1600 there are about 300,000 Christians.",
+   "people": [
+    "francis-xavier"
+   ],
+   "places": [
+    "kagoshima"
+   ],
+   "polities": [
+    "portuguese-empire"
+   ],
+   "concepts": [
+    "jesuits",
+    "kirishitan"
+   ],
+   "wiki": "Francis Xavier",
+   "major": true
+  },
+  {
+   "id": "kawanakajima",
+   "date": "1553",
+   "end": "1564",
+   "lane": "military",
+   "title": "Battles of Kawanakajima",
+   "summary": "The two most famous warlords of the age, Takeda Shingen and Uesugi Kenshin, fight five times on the plain of Kawanakajima. The fourth battle, in 1561, is one of the bloodiest of the period, but neither side wins.",
+   "people": [
+    "takeda-shingen",
+    "uesugi-kenshin"
+   ],
+   "places": [
+    "kawanakajima"
+   ],
+   "polities": [
+    "takeda-clan",
+    "uesugi-clan"
+   ],
+   "wiki": "Battles of Kawanakajima"
+  },
+  {
+   "id": "itsukushima",
+   "date": "1555-10-16",
+   "lane": "military",
+   "title": "Battle of Itsukushima",
+   "summary": "Mōri Motonari lures a much larger army onto the sacred island of Itsukushima and destroys it in a night attack. The Mōri go on to dominate western Honshu.",
+   "people": [
+    "mori-motonari"
+   ],
+   "places": [
+    "itsukushima"
+   ],
+   "polities": [
+    "mori-clan"
+   ],
+   "wiki": "Battle of Itsukushima"
+  },
+  {
+   "id": "okehazama",
+   "date": "1560-06-12",
+   "lane": "military",
+   "title": "Battle of Okehazama",
+   "summary": "Imagawa Yoshimoto marches on Kyoto with about 25,000 men. The young Oda Nobunaga, with a few thousand, surprises his camp in a rainstorm and kills him. The victory makes Nobunaga's name, and Imagawa's former vassal Tokugawa Ieyasu becomes his ally.",
+   "people": [
+    "oda-nobunaga",
+    "imagawa-yoshimoto",
+    "tokugawa-ieyasu"
+   ],
+   "places": [
+    "okehazama"
+   ],
+   "polities": [
+    "oda-clan",
+    "imagawa-clan"
+   ],
+   "wiki": "Battle of Okehazama",
+   "major": true
+  },
+  {
+   "id": "yoshiteru-killed",
+   "date": "1565-06-17",
+   "lane": "life",
+   "title": "Shogun Yoshiteru killed",
+   "summary": "The Miyoshi clan and their ally Matsunaga Hisahide storm the shogun's palace and kill Ashikaga Yoshiteru, a skilled swordsman who dies fighting. The office of shogun has become a prize for whoever holds Kyoto.",
+   "people": [
+    "ashikaga-yoshiteru"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "ashikaga-shogunate"
+   ]
+  },
+  {
+   "id": "gifu",
+   "date": "1567",
+   "lane": "political",
+   "title": "Nobunaga takes Inabayama and renames it Gifu",
+   "summary": "Nobunaga captures the castle of Inabayama in Mino, renames it Gifu and adopts the seal 'Tenka fubu' — 'rule the realm by force'.",
+   "people": [
+    "oda-nobunaga"
+   ],
+   "places": [
+    "gifu-castle"
+   ],
+   "polities": [
+    "oda-clan"
+   ],
+   "wiki": "Gifu Castle"
+  },
+  {
+   "id": "nobunaga-kyoto",
+   "date": "1568-11",
+   "lane": "life",
+   "title": "Nobunaga enters Kyoto",
+   "summary": "Nobunaga marches into the capital and installs Ashikaga Yoshiaki as shogun. Yoshiaki is meant to be a puppet; Nobunaga now controls the heart of Japan.",
+   "people": [
+    "oda-nobunaga",
+    "ashikaga-yoshiaki"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "oda-clan",
+    "ashikaga-shogunate"
+   ],
+   "major": true
+  },
+  {
+   "id": "anegawa",
+   "date": "1570-07-30",
+   "lane": "military",
+   "title": "Battle of Anegawa",
+   "summary": "Nobunaga and Ieyasu defeat the Azai and Asakura, who had turned against him, in a hard-fought river battle.",
+   "people": [
+    "oda-nobunaga",
+    "tokugawa-ieyasu",
+    "azai-nagamasa"
+   ],
+   "polities": [
+    "azai-clan",
+    "asakura-clan"
+   ],
+   "wiki": "Battle of Anegawa"
+  },
+  {
+   "id": "ishiyama",
+   "date": "1570-09",
+   "end": "1580-08",
+   "lane": "military",
+   "title": "War with the Ishiyama Hongan-ji",
+   "summary": "The fortified temple of the Ikkō sect at Osaka, led by the abbot Kennyo, resists Nobunaga for ten years. It finally surrenders in 1580, and its site later becomes Osaka Castle.",
+   "people": [
+    "oda-nobunaga",
+    "kennyo"
+   ],
+   "places": [
+    "ishiyama-honganji",
+    "osaka"
+   ],
+   "concepts": [
+    "ikko-ikki"
+   ],
+   "wiki": "Ishiyama Hongan-ji War"
+  },
+  {
+   "id": "nagasaki-port",
+   "date": "1571",
+   "lane": "world",
+   "title": "Nagasaki opened to the Portuguese",
+   "summary": "The Christian lord Ōmura Sumitada opens the fishing village of Nagasaki to Portuguese ships, and in 1580 gives it to the Jesuits. It becomes Japan's great port for the Nanban trade.",
+   "people": [
+    "omura-sumitada"
+   ],
+   "places": [
+    "nagasaki"
+   ],
+   "polities": [
+    "portuguese-empire"
+   ],
+   "concepts": [
+    "jesuits",
+    "nanban-trade"
+   ]
+  },
+  {
+   "id": "hiei",
+   "date": "1571-09-30",
+   "lane": "military",
+   "title": "Nobunaga burns Mount Hiei",
+   "summary": "Nobunaga destroys the great monastery complex of Enryaku-ji, which had sheltered his enemies, and massacres thousands of monks and townspeople. The armed Buddhist temples' political power is broken.",
+   "people": [
+    "oda-nobunaga"
+   ],
+   "places": [
+    "mount-hiei"
+   ],
+   "wiki": "Siege of Mount Hiei"
+  },
+  {
+   "id": "mikatagahara",
+   "date": "1573-01-25",
+   "lane": "military",
+   "title": "Battle of Mikatagahara",
+   "summary": "Takeda Shingen crushes Tokugawa Ieyasu, who barely escapes to his castle. Shingen dies a few months later, sparing Nobunaga and Ieyasu a dangerous enemy.",
+   "people": [
+    "takeda-shingen",
+    "tokugawa-ieyasu"
+   ],
+   "places": [
+    "mikatagahara"
+   ],
+   "polities": [
+    "takeda-clan"
+   ],
+   "wiki": "Battle of Mikatagahara"
+  },
+  {
+   "id": "ashikaga-end",
+   "date": "1573-08",
+   "lane": "life",
+   "title": "Nobunaga drives out the last Ashikaga shogun",
+   "summary": "Yoshiaki plots against his patron and is expelled from Kyoto. The Ashikaga shogunate, founded in 1336, effectively ends; there is no shogun for thirty years.",
+   "people": [
+    "ashikaga-yoshiaki",
+    "oda-nobunaga"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "ashikaga-shogunate"
+   ],
+   "wiki": "Ashikaga shogunate",
+   "major": true
+  },
+  {
+   "id": "nagashino",
+   "date": "1575-06-28",
+   "lane": "military",
+   "title": "Battle of Nagashino",
+   "summary": "Behind wooden palisades, Nobunaga's and Ieyasu's gunners fire in rotation and cut down the charging cavalry of Takeda Katsuyori. The battle shows how firearms and organisation have changed Japanese warfare.",
+   "people": [
+    "oda-nobunaga",
+    "tokugawa-ieyasu",
+    "takeda-katsuyori"
+   ],
+   "places": [
+    "nagashino"
+   ],
+   "polities": [
+    "takeda-clan"
+   ],
+   "concepts": [
+    "tanegashima-gun"
+   ],
+   "wiki": "Battle of Nagashino",
+   "major": true
+  },
+  {
+   "id": "azuchi",
+   "date": "1576",
+   "lane": "forts",
+   "title": "Azuchi Castle",
+   "summary": "Nobunaga builds a dazzling seven-storey castle on Lake Biwa, decorated by the painter Kanō Eitoku. Its stone base and towering keep set the style for the great castles that follow. At its foot he declares free markets, abolishing guild monopolies to attract merchants.",
+   "people": [
+    "oda-nobunaga"
+   ],
+   "places": [
+    "azuchi-castle"
+   ],
+   "concepts": [
+    "rakuichi-rakuza"
+   ],
+   "wiki": "Azuchi Castle",
+   "major": true
+  },
+  {
+   "id": "tensho-embassy",
+   "date": "1582-02-20",
+   "end": "1590-07",
+   "lane": "world",
+   "title": "Four Japanese boys sail for Rome",
+   "summary": "The Jesuits send four young Christian samurai from Kyushu to Lisbon, Madrid and Rome, where they meet the pope. They return in 1590 with a printing press — to a Japan that is turning against Christianity.",
+   "polities": [
+    "portuguese-empire"
+   ],
+   "concepts": [
+    "jesuits",
+    "kirishitan"
+   ],
+   "wiki": "Tenshō embassy"
+  },
+  {
+   "id": "honnoji",
+   "date": "1582-06-21",
+   "lane": "life",
+   "title": "Nobunaga killed at Honnō-ji",
+   "summary": "With most of his armies away, Nobunaga is resting at the Honnō-ji temple in Kyoto when his general Akechi Mitsuhide surrounds it. Nobunaga dies as the temple burns, with a third of Japan under his control.",
+   "people": [
+    "oda-nobunaga",
+    "akechi-mitsuhide"
+   ],
+   "places": [
+    "honnoji",
+    "kyoto"
+   ],
+   "polities": [
+    "oda-clan"
+   ],
+   "wiki": "Honnō-ji Incident",
+   "major": true
+  },
+  {
+   "id": "yamazaki",
+   "date": "1582-07-02",
+   "lane": "military",
+   "title": "Hideyoshi avenges his lord",
+   "summary": "Toyotomi Hideyoshi, a peasant's son who rose to be Nobunaga's best general, rushes back from the west and defeats Mitsuhide at Yamazaki only eleven days after Honnō-ji. He soon takes over Nobunaga's power.",
+   "people": [
+    "toyotomi-hideyoshi",
+    "akechi-mitsuhide"
+   ],
+   "places": [
+    "yamazaki"
+   ],
+   "wiki": "Battle of Yamazaki",
+   "major": true
+  },
+  {
+   "id": "osaka-castle",
+   "date": "1583",
+   "lane": "forts",
+   "title": "Hideyoshi builds Osaka Castle",
+   "summary": "On the site of the Ishiyama Hongan-ji, Hideyoshi begins the largest castle in Japan, with a gold-leafed keep, as the seat of his rule.",
+   "people": [
+    "toyotomi-hideyoshi"
+   ],
+   "places": [
+    "osaka-castle",
+    "ishiyama-honganji"
+   ],
+   "wiki": "Osaka Castle"
+  },
+  {
+   "id": "kampaku",
+   "date": "1585-08",
+   "lane": "life",
+   "title": "Hideyoshi becomes imperial regent",
+   "summary": "Unable to be shogun because of his humble birth, Hideyoshi has himself made kampaku, regent to the emperor, and is given the new surname Toyotomi.",
+   "people": [
+    "toyotomi-hideyoshi"
+   ],
+   "polities": [
+    "toyotomi-clan"
+   ],
+   "concepts": [
+    "kampaku"
+   ]
+  },
+  {
+   "id": "missionary-edict",
+   "date": "1587-07-24",
+   "lane": "political",
+   "title": "Hideyoshi expels the missionaries",
+   "summary": "After conquering Kyushu and finding Nagasaki in Jesuit hands, Hideyoshi orders all missionaries to leave. The order is loosely enforced, but it marks the turn against Christianity.",
+   "people": [
+    "toyotomi-hideyoshi"
+   ],
+   "places": [
+    "nagasaki"
+   ],
+   "concepts": [
+    "jesuits",
+    "kirishitan"
+   ]
+  },
+  {
+   "id": "kitano-tea",
+   "date": "1587-11",
+   "lane": "forts",
+   "title": "The Grand Kitano tea gathering",
+   "summary": "Hideyoshi invites everyone, rich or poor, to a ten-day tea gathering in Kyoto, shows off his portable golden tea room, and has his tea master Sen no Rikyū preside. Rikyū's austere 'wabi' style shapes the tea ceremony to this day; Hideyoshi orders him to commit suicide in 1591.",
+   "people": [
+    "toyotomi-hideyoshi",
+    "sen-no-rikyu"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "concepts": [
+    "tea-ceremony"
+   ],
+   "wiki": "Sen no Rikyū"
+  },
+  {
+   "id": "sword-hunt",
+   "date": "1588-08",
+   "lane": "political",
+   "title": "The sword hunt",
+   "summary": "Hideyoshi orders all peasants to hand in their swords and guns, officially to make nails for a giant Buddha. Together with a nationwide land survey and a 1591 edict freezing people in their status, it separates samurai from farmers for good.",
+   "people": [
+    "toyotomi-hideyoshi"
+   ],
+   "concepts": [
+    "sword-hunt",
+    "samurai"
+   ],
+   "wiki": "Sword hunt",
+   "major": true
+  },
+  {
+   "id": "odawara",
+   "date": "1590-05",
+   "end": "1590-08",
+   "lane": "military",
+   "title": "Siege of Odawara: Japan unified",
+   "summary": "Hideyoshi besieges the Hōjō in Odawara with some 200,000 men; the castle surrenders after three months. The last great independent lords submit, and for the first time in over a century all Japan answers to one ruler. Ieyasu is given the Hōjō lands and makes Edo his base.",
+   "people": [
+    "toyotomi-hideyoshi",
+    "tokugawa-ieyasu"
+   ],
+   "places": [
+    "odawara-castle",
+    "tokyo"
+   ],
+   "polities": [
+    "later-hojo",
+    "toyotomi-clan"
+   ],
+   "wiki": "Siege of Odawara (1590)",
+   "major": true
+  },
+  {
+   "id": "korea-invasion",
+   "date": "1592-05-23",
+   "end": "1598-12",
+   "lane": "military",
+   "title": "Invasions of Korea",
+   "summary": "Hideyoshi sends about 160,000 men to conquer Korea as a step towards Ming China. They take Seoul within three weeks, but Korean resistance, Ming armies and Admiral Yi Sun-sin's navy stop them. A second invasion in 1597 also stalls, leaving Korea devastated.",
+   "people": [
+    "toyotomi-hideyoshi",
+    "yi-sun-sin"
+   ],
+   "places": [
+    "busan",
+    "seoul"
+   ],
+   "polities": [
+    "joseon-korea",
+    "ming-china"
+   ],
+   "wiki": "Japanese invasions of Korea (1592–1598)",
+   "major": true
+  },
+  {
+   "id": "hansan",
+   "date": "1592-08-14",
+   "lane": "military",
+   "title": "Battle of Hansan Island",
+   "summary": "Admiral Yi Sun-sin lures a Japanese fleet into open water and destroys it in a crane-wing formation, cutting the invaders' sea supply lines.",
+   "people": [
+    "yi-sun-sin"
+   ],
+   "polities": [
+    "joseon-korea"
+   ],
+   "wiki": "Battle of Hansan Island"
+  },
+  {
+   "id": "martyrs",
+   "date": "1597-02-05",
+   "lane": "political",
+   "title": "The Twenty-six Martyrs",
+   "summary": "On Hideyoshi's orders, 26 Catholics — Spanish and Japanese friars, Jesuits and lay believers including boys — are crucified at Nagasaki.",
+   "people": [
+    "toyotomi-hideyoshi"
+   ],
+   "places": [
+    "nagasaki"
+   ],
+   "concepts": [
+    "kirishitan"
+   ],
+   "wiki": "26 Martyrs of Japan"
+  },
+  {
+   "id": "hideyoshi-dies",
+   "date": "1598-09-18",
+   "lane": "life",
+   "title": "Death of Hideyoshi",
+   "summary": "Hideyoshi dies, leaving his five-year-old son Hideyori under a council of five regents led by Tokugawa Ieyasu. The army is recalled from Korea.",
+   "people": [
+    "toyotomi-hideyoshi",
+    "toyotomi-hideyori",
+    "tokugawa-ieyasu"
+   ],
+   "places": [
+    "osaka-castle"
+   ],
+   "polities": [
+    "toyotomi-clan"
+   ],
+   "major": true
+  },
+  {
+   "id": "noryang",
+   "date": "1598-12-16",
+   "lane": "military",
+   "title": "Battle of Noryang",
+   "summary": "In the last battle of the war, Yi Sun-sin attacks the withdrawing Japanese fleet and is killed by a bullet at the moment of victory.",
+   "people": [
+    "yi-sun-sin"
+   ],
+   "polities": [
+    "joseon-korea",
+    "ming-china"
+   ],
+   "wiki": "Battle of Noryang"
+  },
+  {
+   "id": "sekigahara",
+   "date": "1600-10-21",
+   "lane": "military",
+   "title": "Battle of Sekigahara",
+   "summary": "Ieyasu defeats Ishida Mitsunari and the lords loyal to the Toyotomi in the decisive battle for control of Japan.",
+   "people": [
+    "tokugawa-ieyasu",
+    "ishida-mitsunari"
+   ],
+   "places": [
+    "sekigahara"
+   ],
+   "polities": [
+    "toyotomi-clan"
+   ],
+   "wiki": "Battle of Sekigahara",
+   "see": "tokugawa-shogunate",
+   "major": true
+  },
+  {
+   "id": "ieyasu-shogun",
+   "date": "1603-03-24",
+   "lane": "life",
+   "title": "Ieyasu becomes shogun",
+   "summary": "The emperor names Tokugawa Ieyasu shogun, the first in thirty years. The warring states are over; the Tokugawa will rule from Edo for 265 years.",
+   "people": [
+    "tokugawa-ieyasu"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "see": "tokugawa-shogunate",
+   "major": true
+  }
+ ]
+}
