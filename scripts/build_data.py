@@ -265,6 +265,25 @@ def main():
             if a in timeline_ids or a in alias_owner:
                 problems.append(f"[{tl['id']}] alias {a!r} is already a timeline id or another timeline's alias")
             alias_owner[a] = tl["id"]
+    # Map shapes for timelines with "territories" (content/geo/<name>.json, GeoJSON features with ids)
+    (OUT / "geo").mkdir(exist_ok=True)
+    geo_ids = {}
+    for g in sorted((CONTENT / "geo").glob("*.json")):
+        geo_ids[g.stem] = {f["id"] for f in json.loads(g.read_text())["features"]}
+        (OUT / "geo" / g.name).write_text(g.read_text())
+    for tl in timelines:
+        terr = tl.get("territories")
+        if not terr:
+            continue
+        ev_ids = {ev["id"] for ev in tl["events"]}
+        if terr.get("geo") not in geo_ids:
+            problems.append(f"[{tl['id']}] territories: no content/geo/{terr.get('geo')}.json")
+            continue
+        for a in terr.get("areas", []):
+            if a["id"] not in geo_ids[terr["geo"]]:
+                problems.append(f"[{tl['id']}] territories: no shape {a['id']!r} in {terr['geo']}.json")
+            if a.get("event") and a["event"] not in ev_ids:
+                problems.append(f"[{tl['id']}] territories: unknown event id {a['event']!r}")
     # Drop generated files for timelines that no longer exist (merged, renamed, deleted).
     for stale in (OUT / "timelines").glob("*.json"):
         if stale.stem not in timeline_ids:

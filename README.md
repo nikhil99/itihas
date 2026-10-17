@@ -69,6 +69,7 @@ titles, places with no coordinates) so mistakes surface right away.
 | `intro` | optional text replacing the Wikipedia summary in the header |
 | `aliases` | old ids of timelines merged into or renamed to this one; links to them redirect here |
 | `guide` | optional "Start here" panel for newcomers: `chapters` (title, from, to, text, why, `image` entity, key `events`), `compare` (`before`, `after`, `rows` of [label, before, after]), `cast` (entity + one-line role) and `chain` (cause → effect steps, each optionally linked to an `event`). Picking a chapter moves the timeline to its years. See `meiji-restoration.json` |
+| `territories` | optional map layer for the map's Play button: `geo` names a file in `content/geo/` (GeoJSON features with ids), and each of `areas` (`id`, `from`, optional `to`, `label`, `note`, `event`, `style: "protectorate"`) fades in and out on its dates. `scripts/make_geo_japan.py` shows how `japan-empire.json` was cut from Natural Earth |
 | `context` | bars in the "People & powers" section; `from`/`to` override Wikidata dates (e.g. reigns) |
 
 Event-level `"see": "<timeline-id>"` adds an "Open the full timeline →" link to that card.
@@ -93,6 +94,10 @@ ruled (`heirs`) and short card notes (`notes`).
 Summaries and images come from Wikipedia (CC BY-SA) and Wikidata (CC0). The event selection
 and short event descriptions are curated here. Where dates are contested
 (Shivaji's birth year, the Rohideshwar oath), the event text says so.
+
+## Map playback
+
+Every timeline's map has a **Play** button and a year slider. Playback runs through the years: places appear when their first event happens, pulse as events occur, and major events are captioned under the map. Timelines with `territories` also show borders changing over time (the Meiji timeline shows the Japanese empire growing).
 
 ## Compare view
 
