@@ -1,0 +1,1177 @@
+{
+ "id": "tokugawa-shogunate",
+ "kind": "empire",
+ "region": "Japan",
+ "order": 0,
+ "title": "The Tokugawa Shogunate",
+ "subtitle": "Japan's long peace · 1600 – 1868",
+ "subject": "tokugawa-shogunate",
+ "range": [
+  1595,
+  1870
+ ],
+ "focus": [
+  1603.23,
+  1868.01
+ ],
+ "intro": "After winning the Battle of Sekigahara in 1600, Tokugawa Ieyasu became shogun and ruled Japan from Edo, the future Tokyo. His heirs held power for over 250 years. They kept some 260 daimyo in check through alternate attendance in Edo, banned Christianity, and closed the country to all Europeans except the Dutch at Nagasaki. The long peace brought growing cities, a rich merchant class, kabuki, haiku and ukiyo-e, and Dutch learning. Famine, debt and finally the arrival of Western warships in 1853 undermined the shogunate, which fell to the Meiji Restoration in 1868.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Shoguns & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars & uprisings"
+  },
+  {
+   "id": "forts",
+   "label": "Cities, travel & culture"
+  },
+  {
+   "id": "political",
+   "label": "Government, economy & thought"
+  },
+  {
+   "id": "world",
+   "label": "Japan and the world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Shoguns",
+   "members": [
+    {
+     "entity": "tokugawa-ieyasu",
+     "from": 1603.23,
+     "to": 1605.3,
+     "group": "tokugawa-shogunate",
+     "note": "Founder; kept real power as retired shogun until 1616"
+    },
+    {
+     "entity": "tokugawa-hidetada",
+     "from": 1605.3,
+     "to": 1623.6,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-iemitsu",
+     "from": 1623.6,
+     "to": 1651.3,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-ietsuna",
+     "from": 1651.6,
+     "to": 1680.4,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-tsunayoshi",
+     "from": 1680.6,
+     "to": 1709.1,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-ienobu",
+     "from": 1709.3,
+     "to": 1712.8,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-ietsugu",
+     "from": 1713.3,
+     "to": 1716.4,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-yoshimune",
+     "from": 1716.6,
+     "to": 1745.8,
+     "group": "tokugawa-shogunate",
+     "note": "First shogun from a branch line (Kii)"
+    },
+    {
+     "entity": "tokugawa-ieshige",
+     "from": 1745.8,
+     "to": 1760.4,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-ieharu",
+     "from": 1760.4,
+     "to": 1786.7,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-ienari",
+     "from": 1787.3,
+     "to": 1837.3,
+     "group": "tokugawa-shogunate",
+     "note": "Longest-reigning shogun"
+    },
+    {
+     "entity": "tokugawa-ieyoshi",
+     "from": 1837.3,
+     "to": 1853.55,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-iesada",
+     "from": 1853.9,
+     "to": 1858.6,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-iemochi",
+     "from": 1858.6,
+     "to": 1866.66,
+     "group": "tokugawa-shogunate"
+    },
+    {
+     "entity": "tokugawa-yoshinobu",
+     "from": 1867.03,
+     "to": 1868.01,
+     "group": "tokugawa-shogunate",
+     "note": "Last shogun"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "toyotomi-clan",
+   "label": "Toyotomi (Osaka)",
+   "from": 1595,
+   "to": 1615.42
+  },
+  {
+   "entity": "imperial-court-kyoto",
+   "label": "Imperial court (Kyoto)",
+   "from": 1595,
+   "to": 1870
+  },
+  {
+   "entity": "satsuma-domain",
+   "label": "Satsuma Domain",
+   "from": 1602,
+   "to": 1870
+  },
+  {
+   "entity": "choshu-domain",
+   "label": "Chōshū Domain",
+   "from": 1600,
+   "to": 1870
+  },
+  {
+   "entity": "dutch-east-india-company",
+   "label": "Dutch East India Company",
+   "from": 1602,
+   "to": 1799
+  },
+  {
+   "entity": "ryukyu-kingdom",
+   "label": "Ryukyu Kingdom",
+   "from": 1595,
+   "to": 1870
+  },
+  {
+   "entity": "joseon-korea",
+   "label": "Joseon Korea",
+   "from": 1595,
+   "to": 1870
+  },
+  {
+   "entity": "ming-china",
+   "label": "Ming China",
+   "from": 1595,
+   "to": 1644
+  },
+  {
+   "entity": "qing-china",
+   "label": "Qing China",
+   "from": 1644,
+   "to": 1870
+  },
+  {
+   "entity": "russian-empire",
+   "label": "Russian Empire",
+   "from": 1721,
+   "to": 1870
+  }
+ ],
+ "events": [
+  {
+   "id": "hideyoshi-dies",
+   "date": "1598-09-18",
+   "lane": "life",
+   "title": "Death of Toyotomi Hideyoshi",
+   "summary": "The unifier of Japan dies leaving a five-year-old heir, Hideyori, under a council of five regents. The most powerful of them, Tokugawa Ieyasu, lord of the rich Kantō plain from his castle at Edo, begins building alliances of his own.",
+   "people": [
+    "toyotomi-hideyoshi",
+    "toyotomi-hideyori",
+    "tokugawa-ieyasu"
+   ],
+   "places": [
+    "osaka-castle"
+   ],
+   "polities": [
+    "toyotomi-clan"
+   ]
+  },
+  {
+   "id": "william-adams",
+   "date": "1600-04-19",
+   "lane": "world",
+   "title": "William Adams reaches Japan",
+   "summary": "The Dutch ship Liefde drifts ashore in Kyushu with a handful of survivors, among them the English pilot William Adams. Ieyasu makes him an adviser on ships and foreign affairs and later a samurai, Miura Anjin — the model for the novel Shōgun.",
+   "people": [
+    "william-adams",
+    "tokugawa-ieyasu"
+   ],
+   "polities": [
+    "dutch-east-india-company"
+   ],
+   "wiki": "William Adams (sailor, born 1564)"
+  },
+  {
+   "id": "sekigahara",
+   "date": "1600-10-21",
+   "lane": "military",
+   "title": "Battle of Sekigahara",
+   "summary": "Ieyasu's Eastern Army meets Ishida Mitsunari's Western Army, loyal to the Toyotomi, in a valley in central Japan. Defections in the middle of the battle hand Ieyasu victory; Mitsunari is executed, and the lands of the losing lords are confiscated and redistributed to Tokugawa allies.",
+   "people": [
+    "tokugawa-ieyasu",
+    "ishida-mitsunari"
+   ],
+   "places": [
+    "sekigahara"
+   ],
+   "polities": [
+    "toyotomi-clan"
+   ],
+   "wiki": "Battle of Sekigahara",
+   "major": true
+  },
+  {
+   "id": "tokaido",
+   "date": "1601",
+   "lane": "forts",
+   "title": "The Tōkaidō and the Five Highways",
+   "summary": "Ieyasu begins organising post stations along the Tōkaidō between Edo and Kyoto, the first of five official highways. Checkpoints watch for 'guns going in and women going out' of Edo, and the roads become arteries of trade, pilgrimage and travel.",
+   "people": [
+    "tokugawa-ieyasu"
+   ],
+   "places": [
+    "tokyo",
+    "kyoto"
+   ],
+   "concepts": [
+    "tokaido"
+   ],
+   "wiki": "Tōkaidō (road)"
+  },
+  {
+   "id": "okuni",
+   "date": "1603",
+   "lane": "forts",
+   "title": "Izumo no Okuni dances the first kabuki",
+   "summary": "A shrine dancer named Okuni performs daring dances on the dry riverbed of the Kamo in Kyoto. Her troupe's style grows into kabuki, which the shogunate later restricts to adult male actors.",
+   "people": [
+    "izumo-no-okuni"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "concepts": [
+    "kabuki"
+   ],
+   "wiki": "Izumo no Okuni",
+   "approx": true
+  },
+  {
+   "id": "ieyasu-shogun",
+   "date": "1603-03-24",
+   "lane": "life",
+   "title": "Ieyasu becomes shogun",
+   "summary": "The emperor appoints Tokugawa Ieyasu shogun. He makes the small castle town of Edo his capital and sets daimyo to work building Edo Castle and draining the marshes — the start of the city that becomes Tokyo. Two and a half centuries of peace, the Edo period, begin.",
+   "people": [
+    "tokugawa-ieyasu"
+   ],
+   "places": [
+    "tokyo",
+    "edo-castle"
+   ],
+   "polities": [
+    "tokugawa-shogunate",
+    "imperial-court-kyoto"
+   ],
+   "wiki": "Tokugawa Ieyasu",
+   "major": true
+  },
+  {
+   "id": "hidetada",
+   "date": "1605",
+   "lane": "life",
+   "title": "Ieyasu hands the title to Hidetada",
+   "summary": "After only two years Ieyasu passes the title of shogun to his son Hidetada, making it plain the office is now hereditary in his family. He keeps real power as retired shogun from Sunpu until his death.",
+   "people": [
+    "tokugawa-ieyasu",
+    "tokugawa-hidetada"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ]
+  },
+  {
+   "id": "korea-embassy",
+   "date": "1607",
+   "lane": "world",
+   "title": "Peace with Korea restored",
+   "summary": "The first Joseon embassy arrives after Hideyoshi's devastating invasions of the 1590s. Twelve Korean missions visit over two centuries, and the Sō clan of Tsushima runs trade with Korea.",
+   "polities": [
+    "joseon-korea"
+   ],
+   "wiki": "Joseon missions to Japan"
+  },
+  {
+   "id": "hirado",
+   "date": "1609",
+   "lane": "world",
+   "title": "Dutch trading post at Hirado",
+   "summary": "The Dutch East India Company receives a licence from Ieyasu to trade and opens a factory at Hirado. The English follow in 1613 but leave in 1623.",
+   "people": [
+    "tokugawa-ieyasu",
+    "william-adams"
+   ],
+   "places": [
+    "hirado"
+   ],
+   "polities": [
+    "dutch-east-india-company"
+   ]
+  },
+  {
+   "id": "ryukyu-invasion",
+   "date": "1609-04",
+   "lane": "military",
+   "title": "Satsuma conquers Ryukyu",
+   "summary": "With the shogun's permission, Satsuma invades the Ryukyu Kingdom and makes it a vassal. Ryukyu keeps paying tribute to China, giving Satsuma a hidden channel for Chinese trade — and later wealth to fund the overthrow of the Tokugawa.",
+   "places": [
+    "okinawa"
+   ],
+   "polities": [
+    "satsuma-domain",
+    "ryukyu-kingdom",
+    "ming-china"
+   ],
+   "wiki": "Invasion of Ryukyu"
+  },
+  {
+   "id": "hasekura",
+   "date": "1613-10-28",
+   "end": "1620-09",
+   "lane": "world",
+   "title": "Hasekura's embassy to Spain and Rome",
+   "summary": "Date Masamune, lord of Sendai, sends the samurai Hasekura Tsunenaga across the Pacific to Mexico and on to Madrid and Rome, where he meets the pope. By the time he returns, Christianity is banned and his mission is forgotten.",
+   "people": [
+    "hasekura-tsunenaga",
+    "date-masamune"
+   ],
+   "wiki": "Hasekura Tsunenaga"
+  },
+  {
+   "id": "christian-ban",
+   "date": "1614-01-28",
+   "lane": "political",
+   "title": "Christianity banned",
+   "summary": "Ieyasu orders missionaries expelled and churches destroyed across Japan. Japanese Christians, once some 300,000, are forced to renounce their faith; many are executed, and others worship in secret as 'hidden Christians' for 250 years.",
+   "people": [
+    "tokugawa-ieyasu"
+   ],
+   "polities": [
+    "portuguese-empire"
+   ],
+   "concepts": [
+    "kirishitan"
+   ]
+  },
+  {
+   "id": "osaka",
+   "date": "1614-12",
+   "end": "1615-06-04",
+   "lane": "military",
+   "title": "Sieges of Osaka Castle",
+   "summary": "Ieyasu picks a quarrel with Hideyori and besieges Osaka Castle, defended by tens of thousands of rōnin. A truce lets him fill in the moats; the next summer the castle falls and burns, and Hideyori and his mother Yodo-dono kill themselves. The Toyotomi line ends and no one challenges Tokugawa rule again.",
+   "people": [
+    "tokugawa-ieyasu",
+    "toyotomi-hideyori",
+    "yodo-dono",
+    "tokugawa-hidetada"
+   ],
+   "places": [
+    "osaka-castle",
+    "osaka"
+   ],
+   "polities": [
+    "toyotomi-clan"
+   ],
+   "concepts": [
+    "ronin"
+   ],
+   "wiki": "Siege of Osaka",
+   "major": true
+  },
+  {
+   "id": "buke-shohatto",
+   "date": "1615-08",
+   "lane": "political",
+   "title": "Laws for the Military Houses",
+   "summary": "The Buke shohatto bind the daimyo: no new castles, no marriages without permission, a single castle per domain. Reissued by each shogun, these rules — together with spies and inspectors — keep some 260 domains in check.",
+   "people": [
+    "tokugawa-hidetada",
+    "tokugawa-ieyasu"
+   ],
+   "concepts": [
+    "buke-shohatto",
+    "han-system"
+   ],
+   "wiki": "Buke shohatto"
+  },
+  {
+   "id": "ieyasu-dies",
+   "date": "1616-06-01",
+   "lane": "life",
+   "title": "Death of Ieyasu; the Tōshō-gū",
+   "summary": "Ieyasu dies at Sunpu and is deified as Tōshō Daigongen. His shrine at Nikkō, lavishly rebuilt by his grandson Iemitsu in 1636, becomes a monument to the dynasty.",
+   "people": [
+    "tokugawa-ieyasu",
+    "tokugawa-iemitsu"
+   ],
+   "places": [
+    "nikko-toshogu"
+   ],
+   "wiki": "Nikkō Tōshō-gū"
+  },
+  {
+   "id": "iemitsu",
+   "date": "1623-08",
+   "lane": "life",
+   "title": "Iemitsu becomes shogun",
+   "summary": "The third shogun, the first born to rule rather than win power, completes the Tokugawa system: alternate attendance, the closed country, and tight control of religion.",
+   "people": [
+    "tokugawa-iemitsu",
+    "tokugawa-hidetada"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Tokugawa Iemitsu",
+   "major": true
+  },
+  {
+   "id": "hayashi-razan",
+   "date": "1630",
+   "lane": "political",
+   "title": "Hayashi Razan's Confucian academy",
+   "summary": "The shogun's adviser Hayashi Razan opens a school in Edo. Neo-Confucianism, with its stress on loyalty and a fixed order of samurai, farmers, artisans and merchants, becomes the official philosophy; in 1690 the school moves to the Yushima Seidō.",
+   "people": [
+    "hayashi-razan"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "concepts": [
+    "neo-confucianism"
+   ],
+   "wiki": "Yushima Seidō"
+  },
+  {
+   "id": "sankin-kotai",
+   "date": "1635",
+   "lane": "political",
+   "title": "Alternate attendance made compulsory",
+   "summary": "Iemitsu's revised Laws for the Military Houses require every daimyo to spend alternate years in Edo and leave his wife and heir there as hostages. The costly processions drain the lords' wealth, bind them to the shogun — and make Edo a vast consumer city.",
+   "people": [
+    "tokugawa-iemitsu"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "concepts": [
+    "sankin-kotai",
+    "buke-shohatto",
+    "han-system"
+   ],
+   "wiki": "Sankin-kōtai",
+   "major": true
+  },
+  {
+   "id": "travel-ban",
+   "date": "1635",
+   "lane": "world",
+   "title": "Japanese forbidden to go abroad",
+   "summary": "The third of the 'closed country' edicts bans Japanese from travelling overseas on pain of death, and forbids those abroad from returning. Japan's flourishing trading communities in Southeast Asia wither.",
+   "people": [
+    "tokugawa-iemitsu"
+   ],
+   "concepts": [
+    "sakoku"
+   ]
+  },
+  {
+   "id": "shimabara",
+   "date": "1637-12-17",
+   "end": "1638-04-15",
+   "lane": "military",
+   "title": "Shimabara Rebellion",
+   "summary": "Famine and savage taxation drive peasants and rōnin of Shimabara and Amakusa, many of them Christian, to revolt under the charismatic teenager Amakusa Shirō. They hold out in the ruined Hara Castle until a huge shogunate army, helped by Dutch cannon, storms it and kills nearly all 37,000 defenders.",
+   "people": [
+    "amakusa-shiro",
+    "tokugawa-iemitsu"
+   ],
+   "places": [
+    "shimabara",
+    "hara-castle"
+   ],
+   "polities": [
+    "dutch-east-india-company"
+   ],
+   "concepts": [
+    "kirishitan",
+    "ronin"
+   ],
+   "wiki": "Shimabara Rebellion",
+   "major": true
+  },
+  {
+   "id": "portuguese-expelled",
+   "date": "1639",
+   "lane": "world",
+   "title": "The Portuguese expelled; the country is closed",
+   "summary": "Blaming Catholic influence for Shimabara, the shogunate bans Portuguese ships. When an embassy from Macau comes in 1640 to plead, most of its members are executed. Foreign contact is now limited to the Dutch and Chinese at Nagasaki, Korea through Tsushima, Ryukyu through Satsuma and the Ainu through Matsumae.",
+   "people": [
+    "tokugawa-iemitsu"
+   ],
+   "places": [
+    "nagasaki"
+   ],
+   "polities": [
+    "portuguese-empire"
+   ],
+   "concepts": [
+    "sakoku"
+   ],
+   "wiki": "Sakoku",
+   "major": true
+  },
+  {
+   "id": "dejima",
+   "date": "1641",
+   "lane": "world",
+   "title": "The Dutch moved to Dejima",
+   "summary": "The Dutch factory is shifted from Hirado to Dejima, a tiny artificial island in Nagasaki harbour. For two centuries it is Japan's window on Europe: the Dutch present annual reports on world news and make a yearly journey to Edo.",
+   "places": [
+    "dejima",
+    "nagasaki",
+    "hirado"
+   ],
+   "polities": [
+    "dutch-east-india-company"
+   ],
+   "wiki": "Dejima",
+   "major": true
+  },
+  {
+   "id": "ming-falls",
+   "date": "1644",
+   "lane": "world",
+   "title": "Fall of the Ming",
+   "summary": "The Ming dynasty collapses and the Manchu Qing take Beijing. Ming loyalists appeal to Japan for help, but the shogunate stays out; Chinese junks keep trading at Nagasaki.",
+   "polities": [
+    "ming-china",
+    "qing-china"
+   ],
+   "wiki": "Transition from Ming to Qing"
+  },
+  {
+   "id": "keian",
+   "date": "1651-09",
+   "lane": "political",
+   "title": "Keian Uprising foiled",
+   "summary": "After Iemitsu's death leaves a ten-year-old shogun, Ietsuna, the strategist Yui Shōsetsu plots a rōnin uprising in Edo. The plot is betrayed, but it pushes the shogunate to ease the confiscations that had created so many masterless samurai.",
+   "people": [
+    "yui-shosetsu",
+    "tokugawa-ietsuna"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "concepts": [
+    "ronin"
+   ],
+   "wiki": "Keian Uprising"
+  },
+  {
+   "id": "meireki-fire",
+   "date": "1657-03-02",
+   "lane": "forts",
+   "title": "Great Fire of Meireki",
+   "summary": "A fire driven by winter winds burns for three days and destroys most of Edo, killing perhaps 100,000 people. The keep of Edo Castle burns and is never rebuilt. The city is replanned with firebreaks, wider streets and temples moved to the edges.",
+   "places": [
+    "tokyo",
+    "edo-castle"
+   ],
+   "wiki": "Great fire of Meireki"
+  },
+  {
+   "id": "shakushain",
+   "date": "1669-06",
+   "lane": "military",
+   "title": "Shakushain's Revolt",
+   "summary": "The Ainu chief Shakushain leads a rising against the Matsumae domain's unfair trade in Hokkaido. After he is murdered at peace talks the revolt collapses, and Japanese control over the Ainu tightens.",
+   "people": [
+    "shakushain"
+   ],
+   "places": [
+    "hokkaido"
+   ],
+   "concepts": [
+    "ainu"
+   ],
+   "wiki": "Shakushain's revolt"
+  },
+  {
+   "id": "mitsui",
+   "date": "1673",
+   "lane": "political",
+   "title": "Mitsui opens its Edo store",
+   "summary": "Mitsui Takatoshi opens the Echigoya drapery in Edo with a revolutionary policy: fixed prices, cash only, and cloth sold by the length. The merchant house grows into a bank and, after 1868, one of the great zaibatsu.",
+   "people": [
+    "mitsui-takatoshi"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "concepts": [
+    "zaibatsu"
+   ]
+  },
+  {
+   "id": "tsunayoshi",
+   "date": "1680",
+   "lane": "life",
+   "title": "Tsunayoshi, the 'dog shogun'",
+   "summary": "The fifth shogun, Tsunayoshi, is a scholarly patron of Confucianism, but is remembered for his Edicts on Compassion for Living Things, which made harming dogs a crime and filled Edo with kennels for tens of thousands of strays.",
+   "people": [
+    "tokugawa-tsunayoshi"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "concepts": [
+    "neo-confucianism"
+   ],
+   "wiki": "Tokugawa Tsunayoshi"
+  },
+  {
+   "id": "genroku",
+   "date": "1688",
+   "end": "1704",
+   "lane": "forts",
+   "title": "Genroku culture",
+   "summary": "A wealthy urban culture flowers in Osaka, Kyoto and Edo. Ihara Saikaku writes comic novels of merchant life, Chikamatsu Monzaemon writes plays for the puppet theatre and kabuki, and woodblock ukiyo-e prints show the 'floating world' of theatres and pleasure quarters.",
+   "people": [
+    "ihara-saikaku",
+    "chikamatsu",
+    "tokugawa-tsunayoshi"
+   ],
+   "places": [
+    "osaka",
+    "kyoto",
+    "tokyo"
+   ],
+   "concepts": [
+    "ukiyo-e",
+    "kabuki"
+   ],
+   "wiki": "Genroku"
+  },
+  {
+   "id": "basho",
+   "date": "1689-05-16",
+   "lane": "forts",
+   "title": "Bashō sets out on the Narrow Road",
+   "summary": "The poet Matsuo Bashō leaves Edo on a five-month walk through northern Japan. His travel diary Oku no Hosomichi, with its haiku, becomes one of the best-loved works of Japanese literature.",
+   "people": [
+    "matsuo-basho"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "concepts": [
+    "oku-no-hosomichi",
+    "haiku"
+   ],
+   "wiki": "Oku no Hosomichi"
+  },
+  {
+   "id": "forty-seven-ronin",
+   "date": "1703-01-30",
+   "lane": "political",
+   "title": "The forty-seven rōnin take revenge",
+   "summary": "Two years after their lord of Akō was forced to commit suicide for drawing his sword in Edo Castle, his retainers led by Ōishi Yoshio storm the house of the official they blame and kill him. The shogunate orders them to commit seppuku; their story becomes Japan's most famous tale of loyalty, endlessly retold on stage.",
+   "people": [
+    "oishi-yoshio",
+    "tokugawa-tsunayoshi"
+   ],
+   "places": [
+    "tokyo",
+    "ako"
+   ],
+   "concepts": [
+    "forty-seven-ronin",
+    "ronin"
+   ],
+   "wiki": "Forty-seven rōnin",
+   "major": true
+  },
+  {
+   "id": "fuji",
+   "date": "1707-12-16",
+   "lane": "political",
+   "title": "Mount Fuji erupts",
+   "summary": "The Hōei eruption — Fuji's last — follows a giant earthquake and buries farmland under ash; Edo, 100 km away, is darkened. The shogunate levies a special tax for relief, much of which it diverts to its own needs.",
+   "places": [
+    "mount-fuji",
+    "tokyo"
+   ],
+   "wiki": "Hōei eruption"
+  },
+  {
+   "id": "hakuseki",
+   "date": "1709",
+   "end": "1716",
+   "lane": "political",
+   "title": "Arai Hakuseki's reforms",
+   "summary": "The Confucian scholar Arai Hakuseki advises the shoguns Ienobu and Ietsugu: he restores the debased coinage, limits the silver and copper draining out through Nagasaki, and interrogates the Italian missionary Sidotti, writing a pioneering study of the West.",
+   "people": [
+    "arai-hakuseki",
+    "tokugawa-ienobu",
+    "tokugawa-ietsugu"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ]
+  },
+  {
+   "id": "yoshimune",
+   "date": "1716",
+   "lane": "life",
+   "title": "Yoshimune and the Kyōhō Reforms",
+   "summary": "With the main line extinct, Tokugawa Yoshimune of the Kii branch becomes shogun. He cuts spending, raises new rice land, sets up a petition box for commoners and a fire brigade for Edo, and is remembered as the greatest shogun after Ieyasu.",
+   "people": [
+    "tokugawa-yoshimune"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Kyōhō Reforms",
+   "major": true
+  },
+  {
+   "id": "dutch-books",
+   "date": "1720",
+   "lane": "political",
+   "title": "Ban on Western books eased",
+   "summary": "Yoshimune allows Chinese translations of Western books, apart from Christian ones, to be imported, and has officials learn Dutch. 'Dutch learning' — rangaku — in medicine, astronomy and science begins to grow.",
+   "people": [
+    "tokugawa-yoshimune"
+   ],
+   "polities": [
+    "dutch-east-india-company"
+   ],
+   "concepts": [
+    "rangaku"
+   ],
+   "wiki": "Rangaku"
+  },
+  {
+   "id": "dojima",
+   "date": "1730",
+   "lane": "political",
+   "title": "Dōjima Rice Exchange recognised",
+   "summary": "The shogunate officially licenses the rice market at Dōjima in Osaka, where merchants trade contracts for future delivery of rice — often called the world's first organised futures market. Osaka becomes 'the kitchen of the nation'.",
+   "people": [
+    "tokugawa-yoshimune"
+   ],
+   "places": [
+    "osaka"
+   ],
+   "concepts": [
+    "dojima"
+   ],
+   "wiki": "Dōjima Rice Exchange"
+  },
+  {
+   "id": "kyoho-famine",
+   "date": "1732",
+   "lane": "political",
+   "title": "Kyōhō famine",
+   "summary": "Locusts and cold destroy the rice crop in western Japan; about 12,000 die and Edo sees its first rice riots. Sweet potatoes are promoted as a famine crop.",
+   "people": [
+    "tokugawa-yoshimune"
+   ],
+   "wiki": "Kyōhō famine"
+  },
+  {
+   "id": "tanuma",
+   "date": "1767",
+   "end": "1786",
+   "lane": "political",
+   "title": "The age of Tanuma Okitsugu",
+   "summary": "Under the shogun Ieharu, the chamberlain Tanuma Okitsugu tries to tax commerce, licenses merchant guilds, plans to develop Hokkaido and expand foreign trade. He is accused of corruption and falls after famines and his son's assassination.",
+   "people": [
+    "tanuma-okitsugu",
+    "tokugawa-ieharu"
+   ],
+   "wiki": "Tanuma Okitsugu"
+  },
+  {
+   "id": "kaitai-shinsho",
+   "date": "1774",
+   "lane": "political",
+   "title": "Kaitai Shinsho: Western anatomy in Japanese",
+   "summary": "After watching a dissection that matched a Dutch anatomy book rather than Chinese theory, Sugita Genpaku and his colleagues translate the book. Its publication launches rangaku as a serious scholarly movement.",
+   "people": [
+    "sugita-genpaku"
+   ],
+   "concepts": [
+    "kaitai-shinsho",
+    "rangaku"
+   ],
+   "wiki": "Kaitai Shinsho"
+  },
+  {
+   "id": "tenmei-famine",
+   "date": "1782",
+   "end": "1788",
+   "lane": "political",
+   "title": "Great Tenmei famine",
+   "summary": "Cold summers and the 1783 eruption of Mount Asama cause the worst famine of the era; hundreds of thousands die, especially in the northeast, and riots break out in Edo and Osaka.",
+   "places": [
+    "mount-asama"
+   ],
+   "wiki": "Great Tenmei famine"
+  },
+  {
+   "id": "ienari",
+   "date": "1787",
+   "lane": "life",
+   "title": "Ienari, the longest-reigning shogun",
+   "summary": "The eleventh shogun Ienari rules for fifty years and fathers over fifty children. His long reign sees both austerity and, later, a lavish and indebted court.",
+   "people": [
+    "tokugawa-ienari"
+   ],
+   "polities": [
+    "tokugawa-shogunate"
+   ],
+   "wiki": "Tokugawa Ienari"
+  },
+  {
+   "id": "kansei",
+   "date": "1787",
+   "end": "1793",
+   "lane": "political",
+   "title": "Kansei Reforms",
+   "summary": "Chief councillor Matsudaira Sadanobu restores austerity, stores rice against famine, cancels samurai debts to merchants, and in 1790 bans 'heterodox' learning at the official academy.",
+   "people": [
+    "matsudaira-sadanobu",
+    "tokugawa-ienari"
+   ],
+   "concepts": [
+    "neo-confucianism"
+   ],
+   "wiki": "Kansei Reforms"
+  },
+  {
+   "id": "laxman",
+   "date": "1792-10",
+   "lane": "world",
+   "title": "Russia's first embassy",
+   "summary": "Adam Laxman sails into Nemuro in Hokkaido to return castaways and ask for trade. He is told to go to Nagasaki instead. Russian ships along the northern coasts make coastal defence a growing worry.",
+   "people": [
+    "adam-laxman"
+   ],
+   "places": [
+    "nemuro",
+    "hokkaido"
+   ],
+   "polities": [
+    "russian-empire"
+   ],
+   "wiki": "Adam Laxman"
+  },
+  {
+   "id": "norinaga",
+   "date": "1798",
+   "lane": "political",
+   "title": "Motoori Norinaga completes the Kojiki-den",
+   "summary": "After 35 years the scholar Motoori Norinaga finishes his commentary on the ancient Kojiki. His 'National Learning' (kokugaku) seeks a pure Japanese spirit before Chinese influence and lays the ground for the cult of the emperor.",
+   "people": [
+    "motoori-norinaga"
+   ],
+   "concepts": [
+    "kokugaku"
+   ],
+   "wiki": "Motoori Norinaga"
+  },
+  {
+   "id": "ino",
+   "date": "1800",
+   "end": "1816",
+   "lane": "forts",
+   "title": "Inō Tadataka maps Japan",
+   "summary": "A retired merchant turned surveyor walks the coasts of Japan for sixteen years. His maps, finished after his death in 1821, are so accurate that the British navy uses copies in the 1860s.",
+   "people": [
+    "ino-tadataka"
+   ],
+   "wiki": "Inō Tadataka"
+  },
+  {
+   "id": "phaeton",
+   "date": "1808-10",
+   "lane": "world",
+   "title": "HMS Phaeton raids Nagasaki",
+   "summary": "A British frigate hunting Dutch ships forces its way into Nagasaki harbour, takes hostages and leaves with supplies. The Nagasaki magistrate commits suicide in shame, and the shogunate tightens coastal defences.",
+   "places": [
+    "nagasaki"
+   ],
+   "polities": [
+    "united-kingdom",
+    "dutch-east-india-company"
+   ]
+  },
+  {
+   "id": "repel-edict",
+   "date": "1825",
+   "lane": "world",
+   "title": "Edict to repel foreign ships",
+   "summary": "Alarmed by British whalers landing for supplies, the shogunate orders any foreign ship approaching the coast to be driven off by force, without question.",
+   "people": [
+    "tokugawa-ienari"
+   ],
+   "concepts": [
+    "sakoku"
+   ]
+  },
+  {
+   "id": "siebold",
+   "date": "1828",
+   "lane": "world",
+   "title": "The Siebold incident",
+   "summary": "Philipp Franz von Siebold, the German doctor at Dejima who taught Western medicine to Japanese students, is caught trying to take forbidden maps of Japan out of the country. He is expelled and several of his Japanese contacts are punished.",
+   "people": [
+    "siebold"
+   ],
+   "places": [
+    "dejima"
+   ],
+   "concepts": [
+    "rangaku"
+   ],
+   "wiki": "Philipp Franz von Siebold"
+  },
+  {
+   "id": "great-wave",
+   "date": "1831",
+   "lane": "forts",
+   "title": "Hokusai's Thirty-six Views of Mount Fuji",
+   "summary": "Katsushika Hokusai, in his seventies, publishes the series that includes The Great Wave off Kanagawa. Hiroshige's Fifty-three Stations of the Tōkaidō follows in 1833–34. Later exported to Europe, these prints inspire Monet, Van Gogh and the Impressionists.",
+   "people": [
+    "hokusai",
+    "hiroshige"
+   ],
+   "places": [
+    "mount-fuji"
+   ],
+   "concepts": [
+    "ukiyo-e",
+    "great-wave",
+    "tokaido"
+   ],
+   "wiki": "Thirty-six Views of Mount Fuji",
+   "approx": true
+  },
+  {
+   "id": "oshio",
+   "date": "1837-03-25",
+   "lane": "military",
+   "title": "Ōshio Heihachirō's rising in Osaka",
+   "summary": "During the Tenpō famine, the former police official and Confucian scholar Ōshio Heihachirō sells his books to feed the poor, then leads an armed rising against officials and rice hoarders. It is quickly crushed but a quarter of Osaka burns — a shock that a shogunate official should rebel.",
+   "people": [
+    "oshio-heihachiro"
+   ],
+   "places": [
+    "osaka"
+   ],
+   "wiki": "Ōshio Heihachirō"
+  },
+  {
+   "id": "morrison",
+   "date": "1837-07",
+   "lane": "world",
+   "title": "The Morrison incident",
+   "summary": "An American merchant ship bringing home Japanese castaways is fired on and driven away under the repel edict. Critics such as the rangaku scholars who protest are punished.",
+   "polities": [
+    "united-states"
+   ],
+   "concepts": [
+    "rangaku"
+   ],
+   "wiki": "Morrison incident"
+  },
+  {
+   "id": "tenpo",
+   "date": "1841",
+   "end": "1843",
+   "lane": "political",
+   "title": "Tenpō Reforms",
+   "summary": "Mizuno Tadakuni tries a last round of austerity: merchant guilds dissolved, luxuries and popular fiction banned, peasants sent back from Edo to the land. The reforms fail and Mizuno is dismissed, exposing the shogunate's weakness.",
+   "people": [
+    "mizuno-tadakuni",
+    "tokugawa-ieyoshi"
+   ],
+   "wiki": "Tenpō Reforms"
+  },
+  {
+   "id": "opium-war",
+   "date": "1842",
+   "lane": "world",
+   "title": "News of China's defeat",
+   "summary": "Reports of Britain's victory in the Opium War alarm Edo. The repel edict is replaced with orders to give foreign ships fuel and water, and some domains begin casting Western-style cannon.",
+   "people": [
+    "tokugawa-ieyoshi"
+   ],
+   "polities": [
+    "qing-china",
+    "united-kingdom"
+   ],
+   "wiki": "First Opium War"
+  },
+  {
+   "id": "perry",
+   "date": "1853-07-08",
+   "lane": "world",
+   "title": "Perry's Black Ships",
+   "summary": "Commodore Matthew Perry arrives in Edo Bay with four warships and demands that Japan open its ports. The shogunate, unable to resist, signs the Convention of Kanagawa the next year — the beginning of the end of the closed country.",
+   "people": [
+    "matthew-perry",
+    "tokugawa-ieyoshi"
+   ],
+   "places": [
+    "uraga",
+    "tokyo"
+   ],
+   "polities": [
+    "united-states"
+   ],
+   "concepts": [
+    "sakoku"
+   ],
+   "wiki": "Perry Expedition",
+   "see": "meiji-restoration",
+   "major": true
+  },
+  {
+   "id": "harris-treaty",
+   "date": "1858-07-29",
+   "lane": "world",
+   "title": "Harris Treaty",
+   "summary": "Ii Naosuke signs a commercial treaty with the United States without the emperor's consent, opening ports to trade and granting extraterritoriality. The 'unequal treaties' and the court's opposition turn many samurai against the shogunate.",
+   "people": [
+    "ii-naosuke",
+    "townsend-harris",
+    "tokugawa-iesada"
+   ],
+   "polities": [
+    "united-states",
+    "imperial-court-kyoto"
+   ],
+   "wiki": "Treaty of Amity and Commerce (United States–Japan)",
+   "see": "meiji-restoration"
+  },
+  {
+   "id": "sakuradamon",
+   "date": "1860-03-24",
+   "lane": "political",
+   "title": "Ii Naosuke assassinated",
+   "summary": "The shogunate's chief minister is cut down outside Edo Castle by samurai who oppose his treaties and purges. Its authority never recovers.",
+   "people": [
+    "ii-naosuke"
+   ],
+   "places": [
+    "edo-castle"
+   ],
+   "wiki": "Sakuradamon Incident (1860)",
+   "see": "meiji-restoration"
+  },
+  {
+   "id": "satcho",
+   "date": "1866-03-07",
+   "lane": "political",
+   "title": "Satsuma and Chōshū ally",
+   "summary": "The two great southwestern domains, both outside the Tokugawa inner circle since Sekigahara, secretly agree to work together against the shogunate. Months later Chōshū defeats a shogunate army.",
+   "polities": [
+    "satsuma-domain",
+    "choshu-domain"
+   ],
+   "wiki": "Satchō Alliance",
+   "see": "meiji-restoration"
+  },
+  {
+   "id": "taisei-hokan",
+   "date": "1867-11-09",
+   "lane": "life",
+   "title": "The last shogun returns power",
+   "summary": "Tokugawa Yoshinobu hands his governing authority back to the emperor, hoping to keep a leading role in a new council of lords.",
+   "people": [
+    "tokugawa-yoshinobu",
+    "emperor-meiji"
+   ],
+   "places": [
+    "kyoto"
+   ],
+   "polities": [
+    "imperial-court-kyoto"
+   ],
+   "see": "meiji-restoration",
+   "major": true
+  },
+  {
+   "id": "restoration",
+   "date": "1868-01-03",
+   "lane": "political",
+   "title": "Imperial rule restored; the shogunate abolished",
+   "summary": "Satsuma and allied troops seize the palace in Kyoto and the young emperor proclaims the restoration of imperial rule. The Boshin War follows; Edo Castle is handed over without a fight in May, and becomes the Imperial Palace. After 265 years, Tokugawa rule is over.",
+   "people": [
+    "emperor-meiji",
+    "tokugawa-yoshinobu"
+   ],
+   "places": [
+    "kyoto",
+    "edo-castle"
+   ],
+   "polities": [
+    "imperial-court-kyoto",
+    "satsuma-domain"
+   ],
+   "concepts": [
+    "meiji-restoration"
+   ],
+   "wiki": "Meiji Restoration",
+   "see": "meiji-restoration",
+   "major": true
+  }
+ ]
+}
