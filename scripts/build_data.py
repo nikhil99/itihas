@@ -78,6 +78,11 @@ def fetch_json(url):
             wait = int(e.headers.get("Retry-After") or 0) or 5 * (attempt + 1)
             print(f"  HTTP {e.code}, retrying in {wait}s…", file=sys.stderr)
             time.sleep(wait)
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if attempt == 5:
+                raise
+            print(f"  {getattr(e, 'reason', e)}, retrying in {5 * (attempt + 1)}s…", file=sys.stderr)
+            time.sleep(5 * (attempt + 1))
     key.write_text(json.dumps(data))
     time.sleep(0.5)  # be polite to Wikimedia
     return data

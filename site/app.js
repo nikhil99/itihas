@@ -53,6 +53,8 @@ function fmtRange(ev) {
 }
 const entStart = (e) => e.dates?.born?.value || e.dates?.founded?.value || e.dates?.start?.value;
 const entEnd = (e) => e.dates?.died?.value || e.dates?.dissolved?.value || e.dates?.end?.value;
+// A person born within living memory with no death date is taken to be alive.
+const isLiving = (e) => e.type === "person" && !entEnd(e) && !!entStart(e) && parseDate(entStart(e)).y > new Date().getFullYear() - 110;
 
 // ---------- Data ----------
 const cache = {};
@@ -702,7 +704,8 @@ function familyTree(row) {
     const short = name.replace(/\s*\(.*\)$/, "").replace(/ (?:of|Peshwa) .*$/, "").replace(/ Maharaj$/, "");
     const w = p.spouse ? SW : W;
     const reign = n.reigns?.map(([a, b]) => `${fmtYear(a)}–${fmtYear(b)}`).join(", ");
-    const life = e && (entStart(e) || entEnd(e)) ? `${entStart(e) ? parseDate(entStart(e)).y : "?"}–${entEnd(e) ? parseDate(entEnd(e)).y : "?"}` : "";
+    const life = e && isLiving(e) ? `b. ${parseDate(entStart(e)).y}`
+      : e && (entStart(e) || entEnd(e)) ? `${entStart(e) ? parseDate(entStart(e)).y : "?"}–${entEnd(e) ? parseDate(entEnd(e)).y : "?"}` : "";
     const sub = reign ? `r. ${reign}` : n.heir ? "heir" : life;
     const cls = `fam-node${n.reigns ? " ruler" : ""}${n.heir ? " heir" : ""}${p.spouse ? " spouse" : ""}${e ? " link" : ""}`;
     const node = svg("g", { class: cls, "data-id": n.id, transform: `translate(${p.x} ${p.y})`, tabindex: e ? 0 : null, role: e ? "link" : null });
@@ -1690,7 +1693,8 @@ async function openEntity(id) {
   const body = $(".drawer-body", drawer);
   const evs = tl.events.filter((ev) => evRefs(ev).includes(id));
   const s = entStart(e), en = entEnd(e);
-  const dateLine = e.type === "person"
+  const dateLine = isLiving(e) ? `Born ${fmtDate(s)}`
+    : e.type === "person"
     ? (s || en) && `${s ? fmtDate(s) : "?"} – ${en ? fmtDate(en) : "?"}`
     : (s || en) && `${s ? "Founded " + fmtDate(s) : ""}${s && en ? " · " : ""}${en ? "Ended " + fmtDate(en) : ""}`;
 
@@ -1738,7 +1742,7 @@ async function openEntity(id) {
 function lifeBar(e) {
   // Show a person's / polity's span against the timeline's range
   const s = entStart(e), en = entEnd(e);
-  if (e.type === "person" ? !(s && en) : !s && !en) return null; // a half-known lifespan would mislead
+  if (e.type === "person" ? !(s && (en || isLiving(e))) : !s && !en) return null; // a half-known lifespan would mislead
   const [r0, r1] = state.tl.range;
   const subj = state.entities[state.tl.subject];
   const pct = (t) => Math.min(100, Math.max(0, ((t - r0) / (r1 - r0)) * 100));
