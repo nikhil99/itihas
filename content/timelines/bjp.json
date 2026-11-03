@@ -1,0 +1,1338 @@
+{
+ "id": "bjp",
+ "aliases": [
+  "bharatiya-jana-sangh",
+  "jana-sangh"
+ ],
+ "kind": "party",
+ "series": "Modern India",
+ "order": 2,
+ "title": "The BJP and the Jana Sangh",
+ "subtitle": "From the Jana Sangh through the Janata Party to the BJP · 1951 – today",
+ "subject": "bjp",
+ "range": [
+  1920,
+  2027
+ ],
+ "focus": [
+  1951.8,
+  2026.9
+ ],
+ "intro": "The Bharatiya Janata Party has had three names. Syama Prasad Mookerjee founded the Bharatiya Jana Sangh in 1951 with RSS organisers such as Deendayal Upadhyaya, Atal Bihari Vajpayee and L. K. Advani; it won 3 seats in the first general election. In 1977 the Jana Sangh merged into the Janata Party, which defeated Indira Gandhi after the Emergency. When the Janata Party broke apart over 'dual membership' of the RSS, its Jana Sangh members re-formed as the BJP in 1980. From 2 seats in 1984, the Ram Janmabhoomi movement took it to power under Vajpayee (1998–2004) and Narendra Modi (since 2014). The Janata Dal (1988) and JD(U) were separate parties, at times allies and at times rivals.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Leaders & presidents"
+  },
+  {
+   "id": "military",
+   "label": "Elections & governments"
+  },
+  {
+   "id": "forts",
+   "label": "Campaigns, causes & policy"
+  },
+  {
+   "id": "political",
+   "label": "Party, ideology & the Sangh"
+  },
+  {
+   "id": "world",
+   "label": "Rivals, allies & the nation"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Party presidents",
+   "members": [
+    {
+     "entity": "syama-prasad-mookerjee",
+     "from": 1951.8,
+     "to": 1953.0,
+     "group": "bjs",
+     "note": "Founder-president; died in detention in Kashmir in 1953"
+    },
+    {
+     "entity": "mauli-chandra-sharma",
+     "from": 1954.0,
+     "to": 1955.0,
+     "group": "bjs"
+    },
+    {
+     "entity": "prem-nath-dogra",
+     "from": 1955.0,
+     "to": 1956.0,
+     "group": "bjs"
+    },
+    {
+     "entity": "debaprasad-ghosh",
+     "from": 1956.0,
+     "to": 1960.0,
+     "group": "bjs"
+    },
+    {
+     "entity": "balraj-madhok",
+     "from": 1966.0,
+     "to": 1967.95,
+     "group": "bjs",
+     "note": "Later expelled (1973) after clashing with Advani"
+    },
+    {
+     "entity": "deendayal-upadhyaya",
+     "from": 1967.95,
+     "to": 1968.11,
+     "group": "bjs",
+     "note": "President for six weeks before his death at Mughalsarai"
+    },
+    {
+     "entity": "vajpayee",
+     "from": 1968.2,
+     "to": 1973.0,
+     "group": "bjs"
+    },
+    {
+     "entity": "advani",
+     "from": 1973.0,
+     "to": 1977.33,
+     "group": "bjs",
+     "note": "Last president before the merger into the Janata Party"
+    },
+    {
+     "entity": "vajpayee",
+     "from": 1980.26,
+     "to": 1986.4,
+     "group": "bjp",
+     "note": "Founder-president of the BJP"
+    },
+    {
+     "entity": "advani",
+     "from": 1986.4,
+     "to": 1991.1,
+     "group": "bjp"
+    },
+    {
+     "entity": "murli-manohar-joshi",
+     "from": 1991.1,
+     "to": 1993.1,
+     "group": "bjp"
+    },
+    {
+     "entity": "advani",
+     "from": 1993.1,
+     "to": 1998.3,
+     "group": "bjp"
+    },
+    {
+     "entity": "kushabhau-thakre",
+     "from": 1998.3,
+     "to": 2000.6,
+     "group": "bjp"
+    },
+    {
+     "entity": "bangaru-laxman",
+     "from": 2000.6,
+     "to": 2001.2,
+     "group": "bjp",
+     "note": "Resigned after a news sting caught him taking cash"
+    },
+    {
+     "entity": "jana-krishnamurthi",
+     "from": 2001.2,
+     "to": 2002.5,
+     "group": "bjp"
+    },
+    {
+     "entity": "venkaiah-naidu",
+     "from": 2002.5,
+     "to": 2004.8,
+     "group": "bjp"
+    },
+    {
+     "entity": "advani",
+     "from": 2004.8,
+     "to": 2005.95,
+     "group": "bjp"
+    },
+    {
+     "entity": "rajnath-singh",
+     "from": 2005.95,
+     "to": 2009.95,
+     "group": "bjp"
+    },
+    {
+     "entity": "nitin-gadkari",
+     "from": 2009.95,
+     "to": 2013.06,
+     "group": "bjp"
+    },
+    {
+     "entity": "rajnath-singh",
+     "from": 2013.06,
+     "to": 2014.53,
+     "group": "bjp"
+    },
+    {
+     "entity": "amit-shah",
+     "from": 2014.53,
+     "to": 2020.05,
+     "group": "bjp"
+    },
+    {
+     "entity": "jp-nadda",
+     "from": 2020.05,
+     "to": 2026.05,
+     "group": "bjp"
+    },
+    {
+     "entity": "nitin-nabin",
+     "from": 2026.05,
+     "to": 2026.9,
+     "group": "bjp",
+     "note": "Youngest president, elected unopposed at 45"
+    }
+   ]
+  },
+  {
+   "label": "Prime Ministers",
+   "members": [
+    {
+     "entity": "vajpayee",
+     "from": 1996.37,
+     "to": 1996.42,
+     "group": "bjp",
+     "note": "13 days in 1996; resigned before a confidence vote"
+    },
+    {
+     "entity": "vajpayee",
+     "from": 1998.21,
+     "to": 2004.38,
+     "group": "bjp",
+     "note": "Led the NDA coalition"
+    },
+    {
+     "entity": "narendra-modi",
+     "from": 2014.4,
+     "to": 2026.9,
+     "group": "bjp"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "rss",
+   "label": "RSS",
+   "from": 1925.74,
+   "to": 2027
+  },
+  {
+   "entity": "hindu-mahasabha",
+   "label": "Hindu Mahasabha",
+   "from": 1920,
+   "to": 2027
+  },
+  {
+   "entity": "bharatiya-jana-sangh",
+   "label": "Bharatiya Jana Sangh",
+   "from": 1951.8,
+   "to": 1977.33
+  },
+  {
+   "entity": "janata-party",
+   "label": "Janata Party (BJS merged in)",
+   "from": 1977.05,
+   "to": 1980.26
+  },
+  {
+   "entity": "bjp",
+   "label": "Bharatiya Janata Party",
+   "from": 1980.26,
+   "to": 2027
+  },
+  {
+   "entity": "congress",
+   "label": "Indian National Congress",
+   "from": 1920,
+   "to": 2027
+  },
+  {
+   "entity": "janata-dal",
+   "label": "Janata Dal (separate party)",
+   "from": 1988.78,
+   "to": 1999
+  },
+  {
+   "entity": "nda",
+   "label": "NDA coalition",
+   "from": 1998.37,
+   "to": 2027
+  }
+ ],
+ "events": [
+  {
+   "id": "mahasabha",
+   "date": "1915-04",
+   "lane": "political",
+   "title": "The Hindu Mahasabha is founded",
+   "summary": "The Hindu Mahasabha is formed at the Kumbh Mela in Haridwar as an all-India body for Hindu political interests. Syama Prasad Mookerjee would lead it in the 1940s before breaking away.",
+   "places": [
+    "haridwar"
+   ],
+   "polities": [
+    "hindu-mahasabha"
+   ],
+   "wiki": "Akhil Bharatiya Hindu Mahasabha",
+   "approx": true
+  },
+  {
+   "id": "rss-founded",
+   "date": "1925-09-27",
+   "lane": "political",
+   "title": "Hedgewar founds the RSS",
+   "summary": "On Vijayadashami K. B. Hedgewar starts the Rashtriya Swayamsevak Sangh in Nagpur, a volunteer body built on daily shakhas. Nearly every leader of the Jana Sangh and the BJP comes through it.",
+   "people": [
+    "hedgewar"
+   ],
+   "places": [
+    "nagpur"
+   ],
+   "polities": [
+    "rss"
+   ],
+   "concepts": [
+    "hindutva"
+   ],
+   "wiki": "Rashtriya Swayamsevak Sangh",
+   "major": true
+  },
+  {
+   "id": "golwalkar",
+   "date": "1940-06-21",
+   "lane": "life",
+   "title": "Golwalkar leads the RSS",
+   "summary": "Hedgewar dies and M. S. Golwalkar becomes sarsanghchalak. He leads the RSS for 33 years and later lends organisers to the Jana Sangh.",
+   "people": [
+    "golwalkar",
+    "hedgewar"
+   ],
+   "polities": [
+    "rss"
+   ]
+  },
+  {
+   "id": "gandhi-ban",
+   "date": "1948-02-04",
+   "lane": "world",
+   "title": "RSS banned after Gandhi's murder",
+   "summary": "Days after Nathuram Godse kills Gandhi, the government bans the RSS. The ban is lifted in July 1949. The episode convinces many in the RSS that they need a political party of their own.",
+   "people": [
+    "gandhi",
+    "nathuram-godse",
+    "patel",
+    "golwalkar"
+   ],
+   "polities": [
+    "rss"
+   ],
+   "wiki": "Assassination of Mahatma Gandhi"
+  },
+  {
+   "id": "mookerjee-resigns",
+   "date": "1950-04-08",
+   "lane": "life",
+   "title": "Mookerjee quits Nehru's cabinet",
+   "summary": "Syama Prasad Mookerjee, Industries minister in the first cabinet, resigns in protest at the Nehru–Liaquat Pact on minorities in India and Pakistan, which he sees as abandoning East Bengal's Hindus.",
+   "people": [
+    "syama-prasad-mookerjee",
+    "nehru",
+    "liaquat-ali-khan"
+   ],
+   "concepts": [
+    "nehru-liaquat-pact"
+   ],
+   "wiki": "Liaquat–Nehru Pact"
+  },
+  {
+   "id": "bjs-founded",
+   "date": "1951-10-21",
+   "lane": "political",
+   "title": "The Bharatiya Jana Sangh is founded",
+   "summary": "Mookerjee launches the Bharatiya Jana Sangh in Delhi, with its election symbol the oil lamp (deepak). The RSS lends organisers including Deendayal Upadhyaya, Nanaji Deshmukh and the young Atal Bihari Vajpayee.",
+   "people": [
+    "syama-prasad-mookerjee",
+    "deendayal-upadhyaya",
+    "nanaji-deshmukh",
+    "vajpayee"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh",
+    "rss"
+   ],
+   "wiki": "Bharatiya Jana Sangh",
+   "major": true
+  },
+  {
+   "id": "ge-1951",
+   "date": "1951-10-25",
+   "end": "1952-02-21",
+   "lane": "military",
+   "title": "First general election: 3 seats",
+   "summary": "In independent India's first election the Jana Sangh wins 3 of 489 Lok Sabha seats with 3.06% of the vote: Mookerjee in Calcutta, one more in West Bengal and one in Rajasthan, plus 35 seats in state assemblies. It is recognised as one of four national parties.",
+   "people": [
+    "syama-prasad-mookerjee",
+    "nehru"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "concepts": [
+    "ge-1951",
+    "congress"
+   ],
+   "wiki": "1951–52 Indian general election",
+   "major": true
+  },
+  {
+   "id": "mookerjee-kashmir",
+   "date": "1953-05-11",
+   "end": "1953-06-23",
+   "lane": "forts",
+   "title": "Mookerjee dies in Kashmir detention",
+   "summary": "Campaigning against Article 370 and the permit needed to enter Jammu and Kashmir ('one country, two constitutions'), Mookerjee crosses into the state without a permit and is arrested. He dies in detention in Srinagar on 23 June. Ending Article 370 stays on the party's agenda for 66 years.",
+   "people": [
+    "syama-prasad-mookerjee",
+    "nehru"
+   ],
+   "places": [
+    "srinagar"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "concepts": [
+    "article-370"
+   ],
+   "wiki": "Syama Prasad Mukherjee",
+   "major": true
+  },
+  {
+   "id": "ge-1957",
+   "date": "1957",
+   "lane": "military",
+   "title": "1957 election: 4 seats",
+   "summary": "The Jana Sangh wins 4 Lok Sabha seats. Vajpayee enters Parliament from Balrampur, where his Hindi oratory impresses Nehru.",
+   "people": [
+    "vajpayee",
+    "nehru"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "wiki": "1957 Indian general election"
+  },
+  {
+   "id": "ge-1962",
+   "date": "1962",
+   "lane": "military",
+   "title": "1962 election: 14 seats",
+   "summary": "The Jana Sangh rises to 14 seats, strongest in the Hindi heartland, Delhi and Punjab.",
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "wiki": "1962 Indian general election"
+  },
+  {
+   "id": "integral-humanism",
+   "date": "1965-04",
+   "lane": "political",
+   "title": "Integral Humanism",
+   "summary": "In four lectures in Bombay, Deendayal Upadhyaya sets out Integral Humanism: an Indian path between capitalism and communism rooted in dharma. The Jana Sangh adopts it as doctrine, and the BJP still calls it its philosophy.",
+   "people": [
+    "deendayal-upadhyaya"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "concepts": [
+    "integral-humanism"
+   ],
+   "wiki": "Integral humanism (India)",
+   "major": true
+  },
+  {
+   "id": "ge-1967",
+   "date": "1967-02",
+   "lane": "military",
+   "title": "1967: 35 seats and coalition governments",
+   "summary": "Congress loses eight states. The Jana Sangh wins 35 Lok Sabha seats and enters Samyukta Vidhayak Dal coalitions with socialists and others in states such as Uttar Pradesh, Bihar and Madhya Pradesh — its first taste of power.",
+   "polities": [
+    "bharatiya-jana-sangh",
+    "samyukta-vidhayak-dal"
+   ],
+   "concepts": [
+    "ge-1967",
+    "congress"
+   ],
+   "wiki": "1967 Indian general election",
+   "major": true
+  },
+  {
+   "id": "deendayal-death",
+   "date": "1968-02-11",
+   "lane": "life",
+   "title": "Deendayal Upadhyaya found dead",
+   "summary": "Weeks after becoming president at the Calicut session, Deendayal Upadhyaya is found dead beside the tracks at Mughalsarai railway station. The mystery is never solved. Vajpayee takes over the party.",
+   "people": [
+    "deendayal-upadhyaya",
+    "vajpayee"
+   ],
+   "places": [
+    "mughalsarai",
+    "kozhikode"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "wiki": "Deendayal Upadhyaya",
+   "major": true
+  },
+  {
+   "id": "ge-1971",
+   "date": "1971-03",
+   "lane": "military",
+   "title": "1971: Indira's landslide",
+   "summary": "Against Indira Gandhi's 'Garibi Hatao' landslide the Jana Sangh slips to 22 seats.",
+   "people": [
+    "indira-gandhi"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "concepts": [
+    "congress"
+   ],
+   "wiki": "1971 Indian general election"
+  },
+  {
+   "id": "advani-president",
+   "date": "1973",
+   "lane": "life",
+   "title": "Advani becomes president; Madhok expelled",
+   "summary": "L. K. Advani becomes president of the Jana Sangh. Former president Balraj Madhok, who attacked the party's drift, is expelled.",
+   "people": [
+    "advani",
+    "balraj-madhok"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "wiki": "L. K. Advani"
+  },
+  {
+   "id": "jp-movement",
+   "date": "1974",
+   "lane": "forts",
+   "title": "The Jana Sangh joins the JP movement",
+   "summary": "Jayaprakash Narayan leads student protests in Bihar and Gujarat against corruption and Indira Gandhi. The Jana Sangh and RSS throw their organisation behind 'Total Revolution', and JP calls them a force for change.",
+   "people": [
+    "jayaprakash-narayan",
+    "indira-gandhi",
+    "nanaji-deshmukh"
+   ],
+   "places": [
+    "bihar",
+    "gujarat"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh",
+    "rss"
+   ],
+   "concepts": [
+    "jp-movement"
+   ],
+   "wiki": "Bihar Movement",
+   "approx": true
+  },
+  {
+   "id": "emergency",
+   "date": "1975-06-25",
+   "end": "1977-03-21",
+   "lane": "world",
+   "title": "The Emergency",
+   "summary": "Indira Gandhi declares an Emergency. Vajpayee, Advani and thousands of Jana Sangh and RSS workers are jailed, and the RSS is banned for a second time.",
+   "people": [
+    "indira-gandhi",
+    "vajpayee",
+    "advani",
+    "jayaprakash-narayan"
+   ],
+   "polities": [
+    "rss",
+    "bharatiya-jana-sangh"
+   ],
+   "concepts": [
+    "the-emergency"
+   ],
+   "wiki": "The Emergency (India)",
+   "major": true
+  },
+  {
+   "id": "janata-merger",
+   "date": "1977-05-01",
+   "lane": "political",
+   "title": "The Jana Sangh merges into the Janata Party",
+   "summary": "To defeat Indira Gandhi the opposition unites. The Jana Sangh dissolves itself into the new Janata Party with the Congress (O), the Bharatiya Lok Dal and the socialists — the Jana Sangh's 'JP' years.",
+   "people": [
+    "jayaprakash-narayan",
+    "morarji-desai",
+    "charan-singh",
+    "vajpayee",
+    "advani"
+   ],
+   "polities": [
+    "janata-party",
+    "bharatiya-jana-sangh"
+   ],
+   "wiki": "Janata Party",
+   "major": true
+  },
+  {
+   "id": "ge-1977",
+   "date": "1977-03-24",
+   "lane": "military",
+   "title": "Janata wins; Vajpayee and Advani in office",
+   "summary": "The Janata Party sweeps the post-Emergency election and Morarji Desai becomes the first non-Congress Prime Minister. Former Jana Sangh members make up the largest bloc of its MPs; Vajpayee becomes Foreign Minister and Advani Information Minister.",
+   "people": [
+    "morarji-desai",
+    "vajpayee",
+    "advani",
+    "indira-gandhi"
+   ],
+   "polities": [
+    "janata-party"
+   ],
+   "concepts": [
+    "ge-1977"
+   ],
+   "wiki": "1977 Indian general election",
+   "major": true
+  },
+  {
+   "id": "vajpayee-un",
+   "date": "1977-10-04",
+   "lane": "world",
+   "title": "Vajpayee speaks Hindi at the UN",
+   "summary": "Foreign Minister Vajpayee becomes the first to address the UN General Assembly in Hindi.",
+   "people": [
+    "vajpayee"
+   ],
+   "polities": [
+    "janata-party"
+   ]
+  },
+  {
+   "id": "dual-membership",
+   "date": "1979-07",
+   "lane": "political",
+   "title": "Dual membership splits the Janata Party",
+   "summary": "Socialists led by Madhu Limaye demand that former Jana Sangh members quit the RSS. The quarrel and Charan Singh's defection bring down Desai's government; Indira Gandhi sweeps back in January 1980.",
+   "people": [
+    "morarji-desai",
+    "charan-singh",
+    "indira-gandhi"
+   ],
+   "polities": [
+    "janata-party",
+    "rss"
+   ],
+   "concepts": [
+    "dual-membership"
+   ],
+   "wiki": "Janata Party",
+   "approx": true
+  },
+  {
+   "id": "bjp-founded",
+   "date": "1980-04-06",
+   "lane": "political",
+   "title": "The BJP is founded",
+   "summary": "Expelled from the Janata Party over dual membership, the former Jana Sangh members found the Bharatiya Janata Party in Delhi with Vajpayee as president and the lotus as its symbol. It declares 'Gandhian socialism' as its creed.",
+   "people": [
+    "vajpayee",
+    "advani"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "bjp",
+    "janata-party"
+   ],
+   "concepts": [
+    "gandhian-socialism"
+   ],
+   "wiki": "Bharatiya Janata Party",
+   "major": true
+  },
+  {
+   "id": "ge-1984",
+   "date": "1984-12",
+   "lane": "military",
+   "title": "1984: just 2 seats",
+   "summary": "After Indira Gandhi's assassination, the sympathy wave gives Rajiv Gandhi's Congress 404 seats. The BJP wins only 2 — Hanamkonda in Andhra Pradesh and Mehsana in Gujarat. Even Vajpayee loses in Gwalior.",
+   "people": [
+    "vajpayee",
+    "indira-gandhi"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "concepts": [
+    "ge-1984",
+    "congress"
+   ],
+   "wiki": "1984 Indian general election",
+   "major": true
+  },
+  {
+   "id": "advani-1986",
+   "date": "1986-05",
+   "lane": "life",
+   "title": "Advani takes over, back to Integral Humanism",
+   "summary": "Advani replaces Vajpayee as president. The party drops Gandhian socialism for Integral Humanism and moves closer to the RSS and the VHP's Ayodhya campaign.",
+   "people": [
+    "advani",
+    "vajpayee"
+   ],
+   "polities": [
+    "bjp",
+    "rss"
+   ],
+   "concepts": [
+    "integral-humanism",
+    "gandhian-socialism"
+   ],
+   "approx": true
+  },
+  {
+   "id": "palampur",
+   "date": "1989-06",
+   "lane": "political",
+   "title": "Palampur resolution on Ayodhya",
+   "summary": "Meeting in Palampur, the BJP formally backs the demand for a Ram temple at the site of the Babri Masjid in Ayodhya, making the Ram Janmabhoomi movement its central cause.",
+   "people": [
+    "advani"
+   ],
+   "places": [
+    "palampur",
+    "ayodhya"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "concepts": [
+    "ram-janmabhoomi",
+    "hindutva"
+   ],
+   "wiki": "Ram Janmabhoomi",
+   "major": true
+  },
+  {
+   "id": "ge-1989",
+   "date": "1989-11",
+   "lane": "military",
+   "title": "1989: 85 seats; propping up V. P. Singh",
+   "summary": "The BJP jumps to 85 seats. With the Left, it backs from outside the National Front government of V. P. Singh, whose Janata Dal had been formed in 1988 — a different party from the BJP's Janata Party past.",
+   "people": [
+    "vp-singh",
+    "advani",
+    "vajpayee"
+   ],
+   "polities": [
+    "bjp",
+    "janata-dal",
+    "national-front"
+   ],
+   "concepts": [
+    "ge-1989"
+   ],
+   "wiki": "1989 Indian general election",
+   "major": true
+  },
+  {
+   "id": "rath-yatra",
+   "date": "1990-09-25",
+   "end": "1990-10-23",
+   "lane": "forts",
+   "title": "Advani's Ram Rath Yatra",
+   "summary": "Advani sets out from Somnath in a Toyota fitted out as a chariot, bound for Ayodhya. Bihar's chief minister Lalu Prasad Yadav arrests him at Samastipur on 23 October; the BJP withdraws support and V. P. Singh's government falls.",
+   "people": [
+    "advani",
+    "lalu-prasad-yadav",
+    "vp-singh",
+    "narendra-modi"
+   ],
+   "places": [
+    "somnath",
+    "samastipur",
+    "ayodhya"
+   ],
+   "polities": [
+    "bjp",
+    "janata-dal"
+   ],
+   "concepts": [
+    "ram-rath-yatra",
+    "ram-janmabhoomi"
+   ],
+   "wiki": "Ram Rath Yatra",
+   "major": true
+  },
+  {
+   "id": "ge-1991",
+   "date": "1991-06",
+   "lane": "military",
+   "title": "1991: main opposition; Uttar Pradesh won",
+   "summary": "The BJP wins 120 seats to become the main opposition, and forms its first government in Uttar Pradesh under Kalyan Singh.",
+   "people": [
+    "kalyan-singh",
+    "advani"
+   ],
+   "places": [
+    "ayodhya"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "concepts": [
+    "ge-1991"
+   ],
+   "wiki": "1991 Indian general election"
+  },
+  {
+   "id": "babri",
+   "date": "1992-12-06",
+   "lane": "forts",
+   "title": "Babri Masjid demolished",
+   "summary": "Kar sevaks at a rally attended by Advani and other leaders tear down the 16th-century Babri Masjid. Riots kill around 2,000 across India; the BJP state governments are dismissed.",
+   "people": [
+    "advani",
+    "kalyan-singh",
+    "murli-manohar-joshi"
+   ],
+   "places": [
+    "ayodhya",
+    "babri-masjid"
+   ],
+   "polities": [
+    "bjp",
+    "rss"
+   ],
+   "concepts": [
+    "babri-masjid",
+    "ram-janmabhoomi"
+   ],
+   "wiki": "Demolition of the Babri Masjid",
+   "major": true
+  },
+  {
+   "id": "ge-1996",
+   "date": "1996-05-16",
+   "lane": "military",
+   "title": "Vajpayee's 13-day government",
+   "summary": "The BJP becomes the largest party with 161 seats and Vajpayee is sworn in as Prime Minister. Unable to find allies, he resigns after 13 days.",
+   "people": [
+    "vajpayee"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "concepts": [
+    "ge-1996"
+   ],
+   "wiki": "1996 Indian general election",
+   "major": true
+  },
+  {
+   "id": "ge-1998",
+   "date": "1998-03-19",
+   "lane": "military",
+   "title": "Vajpayee PM at the head of the NDA",
+   "summary": "With 182 seats and allies grouped into the National Democratic Alliance, Vajpayee returns as Prime Minister.",
+   "people": [
+    "vajpayee",
+    "advani"
+   ],
+   "polities": [
+    "bjp",
+    "nda"
+   ],
+   "concepts": [
+    "ge-1998"
+   ],
+   "wiki": "1998 Indian general election",
+   "major": true
+  },
+  {
+   "id": "pokhran-ii",
+   "date": "1998-05-11",
+   "lane": "world",
+   "title": "Pokhran-II nuclear tests",
+   "summary": "Two months into office, Vajpayee's government conducts five nuclear tests at Pokhran and declares India a nuclear weapons state. Pakistan replies with its own tests.",
+   "people": [
+    "vajpayee"
+   ],
+   "places": [
+    "pokhran"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "concepts": [
+    "pokhran-ii"
+   ],
+   "wiki": "Pokhran-II",
+   "major": true
+  },
+  {
+   "id": "lahore-bus",
+   "date": "1999-02-20",
+   "lane": "world",
+   "title": "Bus to Lahore",
+   "summary": "Vajpayee rides the inaugural Delhi–Lahore bus and signs the Lahore Declaration with Nawaz Sharif.",
+   "people": [
+    "vajpayee",
+    "nawaz-sharif"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "lahore-declaration"
+   ],
+   "wiki": "Lahore Declaration"
+  },
+  {
+   "id": "one-vote",
+   "date": "1999-04-17",
+   "lane": "military",
+   "title": "Government falls by one vote",
+   "summary": "After Jayalalithaa's AIADMK pulls out, the Vajpayee government loses a confidence vote 269 to 270.",
+   "people": [
+    "vajpayee"
+   ],
+   "polities": [
+    "bjp",
+    "nda"
+   ]
+  },
+  {
+   "id": "kargil",
+   "date": "1999-05",
+   "end": "1999-07-26",
+   "lane": "world",
+   "title": "The Kargil War",
+   "summary": "Pakistani troops occupying heights near Kargil are pushed back after two months of fighting, while Vajpayee leads a caretaker government.",
+   "people": [
+    "vajpayee",
+    "nawaz-sharif"
+   ],
+   "places": [
+    "kargil"
+   ],
+   "concepts": [
+    "kargil-war"
+   ],
+   "wiki": "Kargil War"
+  },
+  {
+   "id": "ge-1999",
+   "date": "1999-10-13",
+   "lane": "military",
+   "title": "1999: the NDA wins a full term",
+   "summary": "The NDA wins a majority and Vajpayee begins the first full term of a non-Congress Prime Minister, with Advani as Home Minister and later Deputy Prime Minister.",
+   "people": [
+    "vajpayee",
+    "advani"
+   ],
+   "polities": [
+    "bjp",
+    "nda",
+    "janata-dal-united",
+    "telugu-desam"
+   ],
+   "concepts": [
+    "ge-1999"
+   ],
+   "wiki": "1999 Indian general election",
+   "major": true
+  },
+  {
+   "id": "new-states",
+   "date": "2000-11",
+   "lane": "forts",
+   "title": "Three new states",
+   "summary": "The Vajpayee government creates Chhattisgarh, Uttarakhand and Jharkhand out of Madhya Pradesh, Uttar Pradesh and Bihar.",
+   "people": [
+    "vajpayee"
+   ],
+   "polities": [
+    "bjp"
+   ]
+  },
+  {
+   "id": "modi-cm",
+   "date": "2001-10-07",
+   "lane": "life",
+   "title": "Modi becomes Gujarat chief minister",
+   "summary": "Narendra Modi, an RSS pracharak turned BJP organiser, replaces Keshubhai Patel as chief minister of Gujarat. He holds the post for 13 years.",
+   "people": [
+    "narendra-modi"
+   ],
+   "places": [
+    "gujarat"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "wiki": "Narendra Modi"
+  },
+  {
+   "id": "gujarat-2002",
+   "date": "2002-02-27",
+   "lane": "forts",
+   "title": "Godhra and the Gujarat riots",
+   "summary": "A fire on a train carrying kar sevaks back from Ayodhya kills 59 at Godhra. In the communal violence that follows across Gujarat over 1,000 people are killed, most of them Muslims; Modi's government is accused of failing to stop it.",
+   "people": [
+    "narendra-modi",
+    "vajpayee"
+   ],
+   "places": [
+    "godhra",
+    "gujarat"
+   ],
+   "concepts": [
+    "godhra-train-burning",
+    "gujarat-riots"
+   ],
+   "wiki": "2002 Gujarat riots",
+   "major": true
+  },
+  {
+   "id": "ge-2004",
+   "date": "2004-05-13",
+   "lane": "military",
+   "title": "'India Shining' fails",
+   "summary": "Despite its upbeat 'India Shining' campaign the NDA loses. The BJP falls to 138 seats and Congress forms the UPA government under Manmohan Singh.",
+   "people": [
+    "vajpayee",
+    "advani",
+    "manmohan-singh"
+   ],
+   "polities": [
+    "bjp",
+    "nda",
+    "upa"
+   ],
+   "concepts": [
+    "ge-2004",
+    "india-shining"
+   ],
+   "wiki": "2004 Indian general election",
+   "major": true
+  },
+  {
+   "id": "jinnah-remark",
+   "date": "2005-06",
+   "lane": "life",
+   "title": "Advani's Jinnah remarks",
+   "summary": "Visiting Jinnah's mausoleum in Karachi, Advani calls him 'secular'. The RSS is furious and Advani steps down as president; Rajnath Singh succeeds him.",
+   "people": [
+    "advani",
+    "jinnah",
+    "rajnath-singh"
+   ],
+   "places": [
+    "karachi"
+   ],
+   "polities": [
+    "bjp",
+    "rss"
+   ]
+  },
+  {
+   "id": "ge-2009",
+   "date": "2009-05-16",
+   "lane": "military",
+   "title": "2009: Advani's campaign falls short",
+   "summary": "With Advani as its prime-ministerial candidate, the BJP drops to 116 seats and the UPA returns.",
+   "people": [
+    "advani",
+    "manmohan-singh"
+   ],
+   "polities": [
+    "bjp",
+    "upa"
+   ],
+   "wiki": "2009 Indian general election"
+  },
+  {
+   "id": "modi-candidate",
+   "date": "2013-09-13",
+   "lane": "life",
+   "title": "Modi named for Prime Minister",
+   "summary": "Over Advani's objections, the BJP names Narendra Modi as its prime-ministerial candidate.",
+   "people": [
+    "narendra-modi",
+    "advani",
+    "rajnath-singh"
+   ],
+   "polities": [
+    "bjp"
+   ]
+  },
+  {
+   "id": "ge-2014",
+   "date": "2014-05-16",
+   "lane": "military",
+   "title": "2014: the first BJP majority",
+   "summary": "The BJP wins 282 seats, the first single-party Lok Sabha majority since 1984 and the first ever for a party other than Congress. Modi is sworn in as Prime Minister on 26 May.",
+   "people": [
+    "narendra-modi",
+    "amit-shah"
+   ],
+   "polities": [
+    "bjp",
+    "nda"
+   ],
+   "concepts": [
+    "ge-2014",
+    "congress"
+   ],
+   "wiki": "2014 Indian general election",
+   "major": true
+  },
+  {
+   "id": "shah-president",
+   "date": "2014-07-09",
+   "lane": "life",
+   "title": "Amit Shah takes over the party",
+   "summary": "Modi's closest aide Amit Shah becomes BJP president and expands the party into the north-east and beyond, claiming over 100 million members.",
+   "people": [
+    "amit-shah",
+    "narendra-modi"
+   ],
+   "polities": [
+    "bjp"
+   ]
+  },
+  {
+   "id": "demonetisation",
+   "date": "2016-11-08",
+   "lane": "forts",
+   "title": "Demonetisation",
+   "summary": "Modi announces that ₹500 and ₹1,000 notes — 86% of the cash in circulation — cease to be legal tender at midnight.",
+   "people": [
+    "narendra-modi"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "concepts": [
+    "demonetisation"
+   ],
+   "wiki": "2016 Indian banknote demonetisation"
+  },
+  {
+   "id": "gst",
+   "date": "2017-07-01",
+   "lane": "forts",
+   "title": "Goods and Services Tax",
+   "summary": "A single national GST replaces a web of central and state taxes.",
+   "people": [
+    "narendra-modi"
+   ],
+   "concepts": [
+    "gst"
+   ],
+   "wiki": "Goods and Services Tax (India)"
+  },
+  {
+   "id": "vajpayee-death",
+   "date": "2018-08-16",
+   "lane": "life",
+   "title": "Vajpayee dies",
+   "summary": "Atal Bihari Vajpayee, founder-president of the BJP and its first Prime Minister, dies aged 93.",
+   "people": [
+    "vajpayee"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "wiki": "Atal Bihari Vajpayee"
+  },
+  {
+   "id": "ge-2019",
+   "date": "2019-05-23",
+   "lane": "military",
+   "title": "2019: 303 seats",
+   "summary": "The BJP increases its majority to 303 seats with 37% of the vote. Amit Shah becomes Home Minister.",
+   "people": [
+    "narendra-modi",
+    "amit-shah"
+   ],
+   "polities": [
+    "bjp",
+    "nda"
+   ],
+   "concepts": [
+    "ge-2019"
+   ],
+   "wiki": "2019 Indian general election",
+   "major": true
+  },
+  {
+   "id": "art-370",
+   "date": "2019-08-05",
+   "lane": "forts",
+   "title": "Article 370 revoked",
+   "summary": "The government ends Jammu and Kashmir's special status and splits it into two union territories — the cause Mookerjee died for in 1953.",
+   "people": [
+    "narendra-modi",
+    "amit-shah",
+    "syama-prasad-mookerjee"
+   ],
+   "places": [
+    "srinagar"
+   ],
+   "concepts": [
+    "article-370",
+    "article-370"
+   ],
+   "wiki": "Revocation of the special status of Jammu and Kashmir",
+   "major": true
+  },
+  {
+   "id": "ayodhya-verdict",
+   "date": "2019-11-09",
+   "lane": "forts",
+   "title": "Supreme Court Ayodhya verdict",
+   "summary": "The Supreme Court awards the disputed site in Ayodhya for a Ram temple and directs that land be given elsewhere for a mosque.",
+   "places": [
+    "ayodhya"
+   ],
+   "concepts": [
+    "ayodhya-verdict",
+    "ram-janmabhoomi"
+   ],
+   "wiki": "Ayodhya dispute"
+  },
+  {
+   "id": "caa",
+   "date": "2019-12-11",
+   "lane": "forts",
+   "title": "Citizenship (Amendment) Act",
+   "summary": "Parliament passes the CAA, offering faster citizenship to non-Muslim refugees from Pakistan, Bangladesh and Afghanistan. It sets off months of nationwide protest.",
+   "people": [
+    "amit-shah"
+   ],
+   "concepts": [
+    "caa"
+   ],
+   "wiki": "Citizenship (Amendment) Act, 2019"
+  },
+  {
+   "id": "nadda",
+   "date": "2020-01-20",
+   "lane": "life",
+   "title": "J. P. Nadda becomes president",
+   "summary": "J. P. Nadda succeeds Amit Shah as BJP president.",
+   "people": [
+    "jp-nadda",
+    "amit-shah"
+   ],
+   "polities": [
+    "bjp"
+   ]
+  },
+  {
+   "id": "ram-mandir",
+   "date": "2024-01-22",
+   "lane": "forts",
+   "title": "The Ram Mandir is consecrated",
+   "summary": "Modi leads the consecration of the Ram temple in Ayodhya, built on the site of the Babri Masjid — the goal of the Palampur resolution 35 years earlier.",
+   "people": [
+    "narendra-modi",
+    "advani"
+   ],
+   "places": [
+    "ram-mandir",
+    "ayodhya"
+   ],
+   "concepts": [
+    "ram-janmabhoomi"
+   ],
+   "wiki": "Ram Mandir",
+   "major": true
+  },
+  {
+   "id": "ge-2024",
+   "date": "2024-06-04",
+   "lane": "military",
+   "title": "2024: majority lost, coalition kept",
+   "summary": "The BJP falls to 240 seats, short of a majority, and relies on NDA allies — Chandrababu Naidu's Telugu Desam and Nitish Kumar's Janata Dal (United). Modi is sworn in for a third term on 9 June.",
+   "people": [
+    "narendra-modi"
+   ],
+   "polities": [
+    "bjp",
+    "nda",
+    "telugu-desam",
+    "janata-dal-united"
+   ],
+   "concepts": [
+    "ge-2024"
+   ],
+   "wiki": "2024 Indian general election",
+   "major": true
+  },
+  {
+   "id": "nabin",
+   "date": "2026-01-20",
+   "lane": "life",
+   "title": "Nitin Nabin becomes president",
+   "summary": "Nitin Nabin, 45, is elected unopposed as BJP president, succeeding J. P. Nadda as the youngest leader in the party's history.",
+   "people": [
+    "nitin-nabin",
+    "jp-nadda"
+   ],
+   "polities": [
+    "bjp"
+   ],
+   "wiki": "Nitin Nabin"
+  },
+  {
+   "id": "bjs-75",
+   "date": "2026-10-21",
+   "lane": "political",
+   "title": "75 years since the Jana Sangh",
+   "summary": "The BJP marks the 75th anniversary of Mookerjee's Bharatiya Jana Sangh, the party's first incarnation.",
+   "people": [
+    "syama-prasad-mookerjee"
+   ],
+   "polities": [
+    "bjp",
+    "bharatiya-jana-sangh"
+   ]
+  }
+ ]
+}
