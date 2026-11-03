@@ -62,6 +62,7 @@ titles, places with no coordinates) so mistakes surface right away.
 | field | meaning |
 |---|---|
 | `subject` | entity whose portrait and summary head the page |
+| `kind` | `empire` puts it in the Empires row and the river; `state` titles its series "— the great houses"; `party` titles its series by the series name alone |
 | `series`, `order` | groups timelines on the home page and drives the ← → links (`order: 0` = the series overview) |
 | `region` | defaults to `India`; any other value (e.g. `Japan`) gets its own home-page section and stays out of the Indian river, "On this day" and series lists |
 | `range` | initial visible years |

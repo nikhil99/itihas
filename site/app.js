@@ -177,6 +177,7 @@ async function renderHome() {
         el("div", { class: "cards" }, empires.map(card))) : null,
       series.map((name) => el("div", { class: "series" },
         el("h2", { class: "series-title" }, name === "Other" ? "Other timelines"
+          : index.some((t) => t.series === name && t.kind === "party") ? name
           : index.some((t) => t.series === name && t.kind === "state") ? `${name.replace(/^The /, "")} — the great houses` : `People of ${name.replace(/^The /, "the ")}`),
         el("div", { class: "cards" }, index.filter((t) => t.kind !== "empire" && (t.series || "Other") === name).map(card)))),
       upcoming.length ? el("div", { class: "series" },
@@ -984,19 +985,25 @@ function linkify(text, ids = [], { skip, done = new Set() } = {}) {
   const taken = [];
   if (skip) done.add(skip);
   for (const { id, n, re } of names) {
-    if (done.has(id)) continue;
+    // Already linked (or the page's own subject): still claim its text, unlinked, so a shorter
+    // name inside it can't — "Janata Party" inside "Bharatiya Janata Party".
+    const linkIt = !done.has(id);
     let from = 0;
     while (true) {
       const m = re.exec(text.slice(from));
       if (!m) break;
       const s = from + m.index, e = s + n.length;
-      if (!taken.some((t) => s < t.e && e > t.s)) { taken.push({ s, e, id }); done.add(id); break; }
+      if (!taken.some((t) => s < t.e && e > t.s)) {
+        taken.push({ s, e, id: linkIt ? id : null });
+        if (linkIt) { done.add(id); break; }
+      }
       from = e;
     }
   }
   taken.sort((a, b) => a.s - b.s);
   let out = "", i = 0;
   for (const t of taken) {
+    if (!t.id) continue;
     const ent = ents[t.id];
     const hasTl = state.subjectTimeline?.[t.id] ? " has-tl" : "";
     out += esc(text.slice(i, t.s)) +
