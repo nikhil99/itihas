@@ -1851,5 +1851,43 @@
         "url": "https://voibooks.bitbucket.io/negaind/ch4/"
       }
     ]
+  },
+  {
+    "id": "psychology-of-prophetism",
+    "title": "Psychology of Prophetism: A Secular Look at the Bible",
+    "author": "Koenraad Elst",
+    "published": "Voice of India, 1993",
+    "summary": "Elst presents the Flemish scholar Herman Somers's psychiatric reading of the Bible: prophets from Abraham to John of Patmos read as people hearing voices, and Jesus read as a case of “paraphrenia”. Shown here as the prophetic line with Somers's readings, the layers of the Pentateuch, and Elst's warning to Hindus who see yogis in prophets.",
+    "href": "books/psychology-of-prophetism.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/pp/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Introduction",
+        "url": "https://voibooks.bitbucket.io/pp/intro/"
+      },
+      {
+        "n": 1,
+        "title": "Bringing Scripture Down to Earth",
+        "url": "https://voibooks.bitbucket.io/pp/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "The Psychology of Prophetism",
+        "url": "https://voibooks.bitbucket.io/pp/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Psychology of Jesus",
+        "url": "https://voibooks.bitbucket.io/pp/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Reactions to Psycho-Christology",
+        "url": "https://voibooks.bitbucket.io/pp/ch4/"
+      }
+    ]
   }
 ]

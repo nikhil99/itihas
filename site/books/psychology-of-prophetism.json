@@ -1,0 +1,43 @@
+{
+  "title": "Psychology of Prophetism: A Secular Look at the Bible",
+  "byline": "by <b>Koenraad Elst</b> · Voice of India · 1993",
+  "lede": "Elst, raised Catholic in Flanders, introduces Indian readers to Dr. Herman Somers, a former Jesuit from Antwerp with doctorates in philosophy, classics, theology and psychology. Somers reads the Bible as a record of real people and asks what state of mind the experiences it describes imply. His answer is that many prophets heard voices, and that Jesus fits the profile of “paraphrenia”: a rare condition with a lasting delusion about one's parentage, fed by occasional hallucinations. Elst ends by warning Hindus against picturing the prophets as yogis.",
+  "facts": [["4", "chapters, the core restating Somers's research"], ["1921", "the year Herman Somers was born, in Antwerp"], ["< 5–10%", "church attendance in many European countries, Elst's evidence of Christianity's decline"], ["4", "source layers in the Five Books of Moses: Yahwist, Elohist, Priestly and Deuteronomist"]],
+  "note": "This book offers a psychiatric explanation of religious figures whom believers hold sacred, and its conclusions are rejected by Christian scholarship. Diagnosing historical figures from texts is speculative. This page reports Somers's and Elst's claims as theirs, in neutral terms.",
+  "sections": [
+    {
+      "type": "steps", "ch": 1, "eyebrow": "Chapter 1 · bringing scripture down to earth",
+      "title": "Elst's starting points",
+      "items": [["1", "The supernatural has faded", "Europe's churches are emptying, and modern theology quietly drops miracles."], ["2", "Prophethood is the core", "A personal Creator speaking through chosen channels is the root of the claim to exclusive revelation."], ["3", "Prophets predicted", "Discerning God's will meant forecasting events. Failed forecasts get reinterpreted."], ["4", "Borrowed themes", "Flood, creation and other stories have older Near Eastern parallels."]]
+    },
+    {
+      "type": "timeline", "ch": 2, "eyebrow": "Chapters 2–3 · Somers's readings, figure by figure",
+      "title": "The prophetic line",
+      "lede": "Somers starts by assuming the texts preserve real experiences, then asks what psychology fits them. Elst stresses that not every prophet is “diagnosed”: some were shrewd, some fanatical, some clairvoyant.",
+      "items": [
+        ["Patriarchs", "Abraham", "A childless man who hears a voice promising many descendants. Somers finds the marriage customs in the story authentic."],
+        ["c. 13th c. BC (traditional)", "Moses", "His account comes from four textual layers written centuries apart."],
+        ["9th c. BC", "Elijah", "“Not at all crazy, just clever,” in Elst's summary."],
+        ["8th–6th c. BC", "The great prophets", "Somers sees several pathological cases among them."],
+        ["mid-2nd c. BC", "Henoch", "A Pharisee and probably the Essenes' “teacher of righteousness”. His book is apocryphal."],
+        ["1st c. AD", "Jesus", "Exorcist and miracle-worker. Somers's diagnosis is paraphrenia, built on the voices at the Baptism and the Transfiguration (Tabor)."],
+        ["1st c. AD", "Paul", "The vision on the road to Damascus. Elst calls him the real founder of Christianity."],
+        ["late 1st c. AD", "John of Patmos", "Author of the Apocalypse, which Somers reads as a paraphrenic document."]
+      ]
+    },
+    {
+      "type": "cards", "ch": 3, "eyebrow": "Chapter 3 · the historical Jesus",
+      "title": "What Elst says can be separated from later theology",
+      "items": [["Additions", "Pilate's innocence", "The Gospels present Pilate as mild. Elst notes he was a harsh governor whom Rome later removed."], ["Additions", "The infancy stories", "Less reliable than the Baptism and Transfiguration accounts."], ["Core", "“Son of Man”", "Jesus's chosen title, though the voices called him Son of God."], ["Core", "Healer and exorcist", "How his contemporaries first knew him."]]
+    },
+    {
+      "type": "compare", "ch": 4, "eyebrow": "Chapter 4.3 · prophetic monotheism and Sanatana Dharma",
+      "title": "A warning to Hindu readers",
+      "cols": [
+        {"k": "The habit Elst criticises", "items": ["Reading prophets as yogis or realised masters", "Taking “the Kingdom of God is among you” as “within you, through meditation”", "Treating all religions as one"]},
+        {"k": "Elst's view", "items": ["The prophets' experiences were of a different kind: voices, visions, a God outside", "Yoga is about self-knowledge, not a message from outside", "Hindus should judge prophethood by their own yogic standards"]}
+      ]
+    }
+  ],
+  "footer": "Source: <em>Psychology of Prophetism: A Secular Look at the Bible</em> by Koenraad Elst (Voice of India, 1993), read from the online edition at <a href=\"https://voibooks.bitbucket.io/pp/\">voibooks.bitbucket.io</a>. The psychological readings are Dr. Herman Somers's, as presented by Elst."
+}
