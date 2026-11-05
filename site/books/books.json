@@ -3636,5 +3636,48 @@
         "url": "https://voibooks.bitbucket.io/finale/ch4/"
       }
     ]
+  },
+  {
+    "id": "the-demographic-siege",
+    "title": "The Demographic Siege",
+    "author": "Koenraad Elst",
+    "published": "Voice of India, 1997",
+    "summary": "Elst tests the Hindu nationalist fear that India's Hindus are being outnumbered, using census figures from 1881 to 1991, migration from Bangladesh, fertility data and Islamic teaching on birth control, and discusses the responses. Shown here as the census series (with the 2001 and 2011 censuses added), the factors he weighs, and his conclusion.",
+    "href": "books/the-demographic-siege.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/demogislam/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Visions of a Demographic Doomsday",
+        "url": "https://voibooks.bitbucket.io/demogislam/part1/"
+      },
+      {
+        "n": 2,
+        "title": "Immigration from Bangladesh",
+        "url": "https://voibooks.bitbucket.io/demogislam/part2/"
+      },
+      {
+        "n": 3,
+        "title": "The Muslim Birthrate",
+        "url": "https://voibooks.bitbucket.io/demogislam/part3/"
+      },
+      {
+        "n": 4,
+        "title": "Islam and Birth Control",
+        "url": "https://voibooks.bitbucket.io/demogislam/part4/"
+      },
+      {
+        "n": 5,
+        "title": "Hindu Response to the Demographic Challenge",
+        "url": "https://voibooks.bitbucket.io/demogislam/part5/"
+      },
+      {
+        "n": null,
+        "title": "Appendix I: Using Kafir Women in the Service of Muslim Demography",
+        "url": "https://voibooks.bitbucket.io/demogislam/appendix/"
+      }
+    ]
   }
 ]
