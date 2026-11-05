@@ -15,6 +15,7 @@
   --lane-forts: #0f766e;
   --lane-political: #4338ca;
   --lane-world: #64748b;
+  --lane-deaths: #3f3f46;
   --lane-cmp4: #be185d;
   --lane-cmp5: #4d7c0f;
 
@@ -46,6 +47,7 @@
     --lane-forts: #2dd4bf;
     --lane-political: #8b93f8;
     --lane-world: #94a3b8;
+    --lane-deaths: #d4d4d8;
     --lane-cmp4: #f472b6;
     --lane-cmp5: #a3e635;
     --t-person: #a5b4fc;
