@@ -1,0 +1,336 @@
+{
+  "title": "Catholic Ashrams: Sannyasins or Swindlers?",
+  "byline": "by <b>Sita Ram Goel</b>, with articles from <em>Hinduism Today</em> · Voice of India · 1988, enlarged in the 1990s",
+  "lede": "Catholic monks in saffron, with Sanskrit chants, temple-style chapels and an Om on the cross. Goel argues these ashrams are not dialogue but a missionary method the Church calls <em>indigenisation</em> or <em>inculturation</em>. He traces it from the Jesuit Robert De Nobili, who posed as a Brahmin sannyasi in 17th-century Madurai, to Bede Griffiths at Shantivanam. He sets out his case through Griffiths' own letters.",
+  "facts": [
+    [
+      "15",
+      "chapters, plus appendices on ashrams, mission money and missionary statistics"
+    ],
+    [
+      "120",
+      "Christian ashrams listed: 108 in India, 4 in Nepal and 8 in Sri Lanka (as of 1988)"
+    ],
+    [
+      "₹14.55 crore",
+      "foreign funds to just nine Christian bodies in India in 1986, per figures the book cites"
+    ],
+    [
+      "1950",
+      "the Saccidananda Ashram at Tannirpalli is founded"
+    ]
+  ],
+  "related": [
+    [
+      "british-india",
+      "British India timeline"
+    ]
+  ],
+  "note": "Goel writes as an opponent of Christian missions, and his title asks a loaded question. The book reprints both sides of several exchanges, including Bede Griffiths' own letters. This page summarises Goel's argument and the documents, attributed to their authors.",
+  "sections": [
+    {
+      "type": "timeline",
+      "ch": 3,
+      "eyebrow": "Chapters 3–6 · the lineage of indigenisation",
+      "title": "From De Nobili to Shantivanam",
+      "lede": "In Goel's account the method is old. It came back into use whenever the Church found its usual approach failing.",
+      "items": [
+        {
+          "era": "The precedent",
+          "color": 2
+        },
+        [
+          "early 1600s",
+          "Robert De Nobili at Madurai",
+          "An Italian Jesuit who lived as a Brahmin sannyasi. Fr. Bede calls him the key to how the gospel should have been presented to India. Goel calls him a fraud."
+        ],
+        [
+          "1778",
+          "<em>L'Ezour Vedam</em> published in Paris",
+          "A forged “Veda” with a Christian message. Francis Ellis exposes it in 1822 as “religious imposition without parallel”."
+        ],
+        {
+          "era": "Converts and ashrams",
+          "color": 1
+        },
+        [
+          "late 19th c.",
+          "Hindu converts propose a Hindu dress for Christianity",
+          "Brahmabandhab sets up a short-lived ashram on the Narmada."
+        ],
+        [
+          "1872",
+          "Keshab Chandra Sen's Bharat Ashram",
+          "Christian historians name ashrams of the Indian renaissance as the model."
+        ],
+        [
+          "1921 on",
+          "Mission stations rename themselves ashrams",
+          "Khadi and vegetarian food."
+        ],
+        [
+          "1938",
+          "<em>Rethinking Christianity in India</em>",
+          "P. Chenchiah and others put the Ashram Movement on the missions' agenda."
+        ],
+        {
+          "era": "The Tannirpalli trinity",
+          "color": 0
+        },
+        [
+          "1950",
+          "Saccidananda Ashram founded",
+          "By Jules Monchanin (b. 1895) and Henri Le Saux, who had come in 1948 and visited Ramana Maharshi."
+        ],
+        [
+          "1962–65",
+          "Vatican II",
+          "Official backing for “dialogue” and inculturation."
+        ],
+        [
+          "1968",
+          "Bede Griffiths takes over",
+          "An Anglican-born Benedictine (b. 1910) who had come to India in 1955."
+        ],
+        {
+          "era": "The controversy",
+          "color": 3
+        },
+        [
+          "Nov 1986",
+          "<em>Hinduism Today</em> exposé",
+          "Four articles on Catholic ashrams. Goel receives reprints in early 1987."
+        ],
+        [
+          "1987–89",
+          "Newspaper dialogues",
+          "Letters in the <em>Indian Express</em>, including Swami Devananda Saraswati against Fr. Bede."
+        ],
+        [
+          "17 Feb 1990",
+          "Griffiths writes to Ram Swarup",
+          "The exchange Goel titles “Bede Griffiths Drops the Mask”."
+        ]
+      ]
+    },
+    {
+      "type": "bars",
+      "eyebrow": "Appendix I · Christian ashrams in India, Nepal and Sri Lanka",
+      "title": "When the ashrams were founded",
+      "lede": "Of the ashrams in the book's list that give a founding year, by decade. The surge in the 1920s and 30s matches Goel's point that the movement grew as resurgent Hinduism made open preaching harder.",
+      "unit": "ashrams",
+      "max": 12,
+      "ticks": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "items": [
+        [
+          "1910s",
+          1
+        ],
+        [
+          "1920s",
+          7,
+          "Including Christukulam (1921), Christa Prema Seva, Pune (1922), and Sat Tal (1929)"
+        ],
+        [
+          "1930s",
+          10,
+          "Including Christian Ashram, Vrindavan (1930), and Kodaikanal (1934)"
+        ],
+        [
+          "1940s",
+          8,
+          "Including Alwaye (1947) and Khrist Panthi, Varanasi (1947)"
+        ],
+        [
+          "1950s",
+          6,
+          "Including Saccidananda (1950), Kathmandu (1952) and Killinochi (1955)"
+        ]
+      ],
+      "note": "Counted from the dated entries in the book's list, compiled from Christian publications up to 1988. Many entries have no date."
+    },
+    {
+      "type": "bars",
+      "eyebrow": "Appendix II · a glimpse of mission finance",
+      "title": "Foreign money to nine Christian bodies, 1986",
+      "lede": "Figures provided by the Government of India and cited by <em>Hinduism Today</em>, for one year. Goel notes there are several hundred such organisations.",
+      "unit": "lakh ₹",
+      "labelWidth": 230,
+      "ticks": [
+        0,
+        200,
+        400,
+        600
+      ],
+      "max": 600,
+      "items": [
+        [
+          "8 Catholic dioceses",
+          577.09
+        ],
+        [
+          "CNI Childcare Centre, Delhi",
+          205.68
+        ],
+        [
+          "Advancing the Ministries of the Gospel",
+          175.48
+        ],
+        [
+          "Christian Inst. for Study of Religion",
+          67.41
+        ],
+        [
+          "Bhagalpur Prefecture Assn.",
+          56.03
+        ],
+        [
+          "Indian Baptist Mission",
+          52.53
+        ],
+        [
+          "Indian Evangelical Church of Christ",
+          15.58
+        ],
+        [
+          "Anand Niketan Ashram, Gujarat",
+          14.35
+        ]
+      ],
+      "note": "In lakh rupees, from the book's table. The total for the bodies listed is ₹1,455 lakh (₹14.55 crore)."
+    },
+    {
+      "type": "bars",
+      "eyebrow": "Appendix III · “Thy Kingdom is the Third World”",
+      "title": "Converts a day, by region (1970–85)",
+      "lede": "From David Barrett's <em>World Christian Encyclopedia</em>, as reviewed by Ram Swarup. Christianity was gaining in Africa and Asia while the West was losing members, which Swarup reads as Christianity “mainly for export”.",
+      "unit": "a day",
+      "max": 6000,
+      "ticks": [
+        0,
+        2000,
+        4000,
+        6000
+      ],
+      "items": [
+        [
+          "Africa",
+          4000,
+          "1,470,000 converts a year",
+          0
+        ],
+        [
+          "India and Sri Lanka",
+          1200,
+          "447,000 a year",
+          0
+        ],
+        [
+          "East Asia",
+          1000,
+          "360,000 a year",
+          0
+        ],
+        [
+          "USSR",
+          450,
+          "174,182 a year",
+          0
+        ],
+        [
+          "The West (net loss)",
+          5350,
+          "1,950,000 members lost a year in Western Europe, North America, Australia and New Zealand",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "ch": 4,
+      "eyebrow": "Chapters 1, 2 and 4 · what the method does",
+      "title": "Adopting Hindu forms",
+      "lede": "Goel's central argument is that the Church changed its outer forms and kept its theology.",
+      "cols": [
+        {
+          "k": "What changed",
+          "items": [
+            "Saffron robes, “swami” titles, beards",
+            "Temple-style chapels with <i>vimana</i> towers",
+            "Arati and Sanskrit slokas in “An Order of the Mass for India” (Bangalore)",
+            "Om placed on the cross",
+            "Hindu scriptures read daily"
+          ]
+        },
+        {
+          "k": "What did not, in Goel's view",
+          "items": [
+            "The claim that Christ is the only way",
+            "The “theology of fulfilment”: Hinduism as preparation for Christ",
+            "Vatican II's aim that dialogue lead to “the way, truth and life of Christ”",
+            "Conversion as the end goal"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "ch": 15,
+      "eyebrow": "Chapters 12–15 · the dialogues",
+      "title": "Three public debates and a private letter",
+      "items": [
+        [
+          "1987",
+          "The first dialogue",
+          "Readers' letters to <em>Hinduism Today</em> after the exposé, from Hindus and Christians."
+        ],
+        [
+          "Mar 1987",
+          "The second dialogue",
+          "An <em>Indian Express</em> profile calls Shantivanam “the peace capital of the world”. Swami Devananda Saraswati answers Griffiths."
+        ],
+        [
+          "Feb 1989",
+          "The third dialogue",
+          "K.V. Ramakrishna Rao's letter “Crucifying the Om”, and replies by K. Swaminathan and others."
+        ],
+        [
+          "Feb 1990",
+          "Griffiths and Ram Swarup",
+          "A private exchange over <em>The Myth of Christian Uniqueness</em>. Goel says it shows the missionary mind unchanged."
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "ch": 11,
+      "eyebrow": "Chapter 11 · returning to the Hindu fold",
+      "title": "<em>Hinduism Today</em>'s primer for leaving the Church",
+      "items": [
+        [
+          "Step 1",
+          "Formal apostasy",
+          "A written declaration leaving the Catholic Church."
+        ],
+        [
+          "Step 2",
+          "Readmission",
+          "Hindu religious leaders receive the returnee."
+        ]
+      ],
+      "lede": "The article tells a Catholic who wants to rejoin the faith of his ancestors that he “need not wait until another incarnation”."
+    },
+    {
+      "type": "quote",
+      "ch": 3,
+      "q": "For him, all Hindus, but especially Brahmins, were “devil-worshippers”.",
+      "cite": "Fr. Bede Griffiths on St. Francis Xavier, contrasting him with De Nobili, as quoted by Goel"
+    }
+  ],
+  "footer": "Source: <em>Catholic Ashrams: Sannyasins or Swindlers?</em> by Sita Ram Goel (Voice of India), read from the online edition at <a href=\"https://voibooks.bitbucket.io/ca/\">voibooks.bitbucket.io</a>. Figures come from the book's appendices, which cite Christian publications, the Government of India and the <em>World Christian Encyclopedia</em>."
+}
