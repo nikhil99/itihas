@@ -1,0 +1,32 @@
+{
+  "title": "The Word as Revelation: Names of Gods",
+  "byline": "by <b>Ram Swarup</b> · first published 1980 · Voice of India reprint 2001 · foreword by David Frawley",
+  "lede": "Are words just labels, or do they express something of what they name? Ram Swarup starts from Plato's <em>Cratylus</em> and goes on to speech-sounds, how new things get named, roots and synonyms. His argument is that a word's meaning rises in layers, from the physical to the sensory, the mental and the intellectual, depending on which faculty of mind is using it and how pure that faculty is. At the top, he says, words become names of the soul's own powers, which is what the Vedic gods are. He rejects the reading of them as primitive nature-worship and ends with meditation on the divine names.",
+  "facts": [["14", "chapters, in two movements: language, then the Names of Gods"], ["~3,000", "languages in the world, by his count; 12 cover most speakers"], ["18,000", "new English words from A to G in a century, from the Oxford English Dictionary Supplement"], ["<i>ekam sat</i>", "One Reality, differently named, his key to the Vedic gods"]],
+  "note": "This is a work of religious philosophy rather than academic linguistics; its theory of sound and meaning is the author's own and speculative by his own admission (chapter 4). This page summarises it, attributed to him.",
+  "sections": [
+    {
+      "type": "steps", "ch": 3, "eyebrow": "Chapters 1–4 · where words come from",
+      "title": "Four approaches to the question",
+      "items": [["Ch. 1", "Speech-sounds", "Socrates' idea in the <em>Cratylus</em>, and Hindu seers' idea of subtle sound: sounds carry psychic qualities.", 0], ["Ch. 2", "New names", "Car, telephone, astronaut: new things get old words rather than invented ones.", 0], ["Ch. 3", "Roots", "Words have histories, and their meaning develops from a root.", 1], ["Ch. 4", "Synonyms", "One object suggests many ideas, so it gets many names; “dog” is his example.", 1]]
+    },
+    {
+      "type": "table", "ch": 6, "eyebrow": "Chapters 5–7 · layers of meaning",
+      "title": "How one word means more as the mind rises",
+      "lede": "A word's sense depends on which faculty uses it (chapter 6) and at what level of purity (chapter 7).",
+      "head": ["Faculty (<i>antahkarana</i>)", "Kind of meaning"],
+      "rows": [["<i>Indriya</i>, the senses", "Physical and sensory"], ["<i>Manas</i>, the perceiving mind", "Concepts and ideas"], ["<i>Buddhi</i>, intellect", "Powers of the psyche"], ["<i>Dhyana-bhumi</i>, the meditative level, mind <i>ekagra</i> (one-pointed)", "Names of Gods: “luminous forms” and higher meanings"]]
+    },
+    {
+      "type": "compare", "ch": 11, "eyebrow": "Chapters 9–11 · the Vedic gods",
+      "title": "Two readings of the Vedic gods",
+      "cols": [{"k": "The reading he rejects", "items": ["Primitive personifications of nature", "Polytheism, or an anarchic “pantheon”", "Lacking a ranked hierarchy, so disordered"]}, {"k": "His reading", "items": ["Concrete images of inner powers (ch. 9)", "Every god has many names, as Agni does (ch. 10)", "Neither one nor many: <i>ekam sat</i>, One Reality, differently named (ch. 11)"]}]
+    },
+    {
+      "type": "cards", "ch": 12, "eyebrow": "Chapters 12–14 · post-Vedic names and practice",
+      "title": "The Names of Gods",
+      "items": [["Ch. 12", "A thousand names", "Vishnu, Shiva, Ganesha, Rama, Krishna, the Mother: each has a thousand names."], ["Ch. 12", "As big as Reality", "In the Yoga of Devotion, names like Aum, Rama, Krishna and Shiva contain all levels of existence."], ["Ch. 13", "Gods as “outsiders”", "Their truths lie beyond ordinary desire-consciousness, so they speak only to a purified mind."], ["Ch. 14", "Transforming power", "The names are for meditation, to take on something of their meanings and powers."]]
+    }
+  ],
+  "footer": "Source: <em>The Word as Revelation: Names of Gods</em> by Ram Swarup, foreword by David Frawley (Voice of India reprint, 2001), read from the online edition at <a href=\"https://voibooks.bitbucket.io/words/\">voibooks.bitbucket.io</a>."
+}
