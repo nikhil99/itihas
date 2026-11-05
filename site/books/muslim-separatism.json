@@ -1,0 +1,32 @@
+{
+  "title": "Muslim Separatism: Causes and Consequences",
+  "byline": "by <b>Sita Ram Goel</b> · Voice of India · 1987, enlarged 1995",
+  "lede": "Most studies of Partition, Goel says, recite the same account: British divide-and-rule, Muslim fears of “Hindu domination” after 1885, and the League as a reaction to Hindu revivalism. He welcomes H.V. Seshadri's <em>The Tragic Story of Partition</em> as “a breath of fresh breeze” and builds on it. His argument is that Partition came from two behaviour patterns that both continued after 1947. One is Muslim separatism, which he traces to Islam itself rather than to the British. The other is a national leadership that answered every demand with a concession.",
+  "facts": [["2", "“behaviour patterns” at the heart of the book"], ["12", "chapters, with an appendix, “Islamic Manifesto for India”"], ["Dec 1916", "the Lucknow Pact, which opens the period he calls the “separatist sewer” polluting the national mainstream"], ["8", "warning voices he says the Congress ignored, from Aurobindo to Hedgewar"]],
+  "related": [["british-india", "British India timeline"]],
+  "note": "Goel's reading of Partition is a minority one. Most historians give more weight to British policy, the politics of the Congress and the League, and the events of 1946–47. This page summarises his argument, attributed to him.",
+  "sections": [
+    {
+      "type": "compare", "ch": 1, "eyebrow": "Chapter 1 · the two behaviour patterns",
+      "title": "Two patterns, before and after 1947",
+      "lede": "He opens with Shiva Prasad Roy's line: Pakistan and Bangladesh are Muslims' “fixed deposits”, and India “a joint account”.",
+      "cols": [{"k": "The Muslim pattern, in Goel's terms", "items": ["Riots on petty pretexts", "Grievances presented as persecution", "Loss of past privilege portrayed as poverty", "Loyalty to the wider Islamic world"]}, {"k": "The national pattern", "items": ["Treat every demand as a grievance to be met", "Blame the British, or Hindu “revivalism”", "Concede to buy unity", "No leader willing to name the cause"]}]
+    },
+    {
+      "type": "timeline", "ch": 10, "eyebrow": "Chapters 5–10 · the road to Partition",
+      "title": "Milestones Goel picks out",
+      "items": [["1876–78", "The Russo-Turkish War", "Pan-Islamic bitterness against Britain for not backing Turkey."], ["1885", "The Congress is founded", "Sir Syed Ahmad Khan stays away."], ["Apr 1900", "The UP “Hindi Resolution”", "Devanagari allowed in the courts, which angers Muslim leaders."], ["1905–06", "Partition of Bengal; Muslim League founded", ""], ["1911–13", "Partition annulled; the Kanpur mosque affair", "Muslim opinion turns against the British."], ["Dec 1916", "Lucknow Pact", "Separate electorates conceded. The “separatist sewer” enters the mainstream."], ["1919–22", "Khilafat and Non-Cooperation", "Gandhi (4 August 1920): help Muslims “without counting the cost”."], ["1924", "Riots and second thoughts", "Tagore, Lajpat Rai and even Gandhi (“the Mussalman as a rule is a bully”) take note."], ["1947", "Partition", "The “fatal finale” of Seshadri's book."]]
+    },
+    {
+      "type": "chips", "ch": 1, "eyebrow": "Chapters 1 and 11 · warnings unheeded",
+      "title": "Those who, Goel says, saw it coming",
+      "items": ["Sri Aurobindo", "Swami Shraddhananda", "Lala Lajpat Rai", "Bipin Chandra Pal", "Sarat Chandra Chatterji", "Veer Savarkar", "Dr. Hedgewar", "Rabindranath Tagore (1924)"]
+    },
+    {
+      "type": "cards", "ch": 12, "eyebrow": "Chapters 11–12 · Goel's conclusions",
+      "title": "Where he places the blame",
+      "items": [["Ch. 11", "“It is Islam that separates”", "Indian Muslims are the same people as Hindus in race, language and dress. Only the creed divides them."], ["Ch. 12", "The national leadership's mistake", "It could not imagine a nationalism that went ahead without Muslim participation."], ["Ch. 12", "The foreign fraternity", "The descendants of immigrant Muslim elites set the tone for the rest, Goel argues."], ["Appendix", "An “Islamic manifesto”", "The dream of finishing the conquest of India, which he says Sufis and ulema still voice."]]
+    }
+  ],
+  "footer": "Source: <em>Muslim Separatism: Causes and Consequences</em> by Sita Ram Goel (Voice of India), read from the online edition at <a href=\"https://voibooks.bitbucket.io/muslimsep/\">voibooks.bitbucket.io</a>. It reviews H.V. Seshadri, <em>The Tragic Story of Partition</em>."
+}
