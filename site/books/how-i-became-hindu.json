@@ -1,0 +1,50 @@
+{
+  "title": "How I Became Hindu",
+  "byline": "by <b>Sita Ram Goel</b> · Voice of India · 1982, enlarged in 1993 with the chapter “Nightmare of Nehruism”",
+  "lede": "Voice of India's publisher tells how he arrived at the positions found in most of the books on this shelf. He was born in a Haryana village into an Arya Samaj household and schooled among Jains. He became a Gandhian, then a Marxist, and by February 1948 was ready to join the Communist Party. His friend Ram Swarup talked him out of it. By 1949 he had become an anti-Communist writer, and by 1959 a “convinced and conscious Hindu”. The 1993 edition adds a long, bitter postscript on Nehru and Nehruism.",
+  "facts": [["1921", "Goel is born; he turned 60 in 1981, when he and Ram Swarup set up Voice of India"], ["Feb 1948", "at the CPI conference in Calcutta, on the point of joining the party"], ["13 years", "1964–77, out of public life, building a business"], ["Dec 1989", "a young Belgian, Koenraad Elst, walks into his office"]],
+  "related": [["bjp", "BJP & Jana Sangh timeline"]],
+  "note": "This is a memoir, and its judgements, especially of Nehru, are the author's own. Dates are as Goel gives them.",
+  "sections": [
+    {
+      "type": "timeline", "ch": 1, "eyebrow": "Chapters 1–9 · one life",
+      "title": "Arya Samaj, Gandhi, Marx, and back",
+      "items": [
+        {"era": "Searching", "color": 2},
+        ["1921", "Born", "In a village, into an Arya Samaj family."],
+        ["1930s", "School and college", "A Jain school, then Gandhi. “My faith in Gandhism”."],
+        ["1944", "Meets Ram Swarup", "And joins the circle of friends around him."],
+        ["Dec 1944", "Leaves Delhi for Calcutta", "Earlier, ashamed to serve the Raj, he had quit a Secretariat clerk's job after 65 days."],
+        ["16–17 Aug 1946", "The Great Calcutta Killing", "He sees it with his own eyes, and it leaves him in despair about human nature."],
+        {"era": "The Communist moment", "color": 3},
+        ["Feb 1948", "Second CPI Congress, Calcutta", "Ranadive's insurrectionary line. Goel decides to join. Ram Swarup writes: “You are too intelligent not to become a Communist. But…”"],
+        ["1949", "Renounces Communism", "Writes against it in Calcutta papers."],
+        ["1952", "Society for Defence of Freedom in Asia", "Anti-Communist publishing with Ram Swarup."],
+        ["1956–57", "Offered a Jana Sangh ticket", "For Khajuraho, in the second general election."],
+        {"era": "Return", "color": 0},
+        ["May 1957", "Back in Delhi", "After twelve years in Calcutta."],
+        ["1959", "“The final breakthrough”", "Ram Swarup's essay <em>Buddhism vis-à-vis Hinduism</em>. Goel returns to his “spiritual home”."],
+        ["Jun 1961", "The Krishna Menon series", "Seventeen articles in the <em>Organiser</em>, later <em>Genesis and Growth of Nehruism</em>."],
+        ["1964–77", "Out of public life", "Builds a business. Briefly active again in the 1977 election."],
+        {"era": "Voice of India", "color": 1},
+        ["1977", "Regular meetings with Ram Swarup resume", ""],
+        ["1980", "<em>The Word as Revelation: Names of Gods</em>", "Ram Swarup's book."],
+        ["late 1981", "“I have completed sixty years”", "Goel turns to publishing full-time."],
+        ["1983", "<em>Understanding Islam through Hadis</em> reprinted", "Later banned (see <a href=\"freedom-of-expression.html\">Freedom of Expression</a>)."],
+        ["Dec 1989", "Koenraad Elst visits", ""],
+        ["3 Dec 2003", "Goel dies", "Since the book.", 1]
+      ]
+    },
+    {
+      "type": "cards", "ch": 6, "eyebrow": "Chapters 3, 6 and 8 · the people who changed his mind",
+      "title": "Influences",
+      "items": [["The Arya Samaj", "Childhood", "His first religion, and the first he outgrew."], ["Gandhi", "Youth", "Non-violence and swadeshi, until Marxism “won the battle”."], ["Marx", "1940s", "The theory that explained everything, until the 1948 party line and Stalin's purges."], ["Ram Swarup", "From 1944", "The friend who argued him out of the Party and back to Hinduism."], ["Sri Aurobindo and the Bengal renaissance", "1950s", "Read late, which he regrets."]]
+    },
+    {
+      "type": "compare", "ch": 9, "eyebrow": "Chapter 9 · nightmare of Nehruism (1993)",
+      "title": "His later verdict on Nehru",
+      "cols": [{"k": "Then (1940s)", "items": ["A Gandhian's admiration", "A Marxist's ally"]}, {"k": "Now (1993)", "items": ["“A bloated Brown Sahib”", "Nehruism as the sum of Islamic, Christian, Western and Communist imperialism, in Goel's view", "The ideology he spent the rest of his life opposing"]}]
+    }
+  ],
+  "footer": "Source: <em>How I Became Hindu</em> by Sita Ram Goel (Voice of India, enlarged edition), read from the online edition at <a href=\"https://voibooks.bitbucket.io/hibh/\">voibooks.bitbucket.io</a>. His date of death is added from the public record."
+}

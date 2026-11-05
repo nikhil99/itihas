@@ -2736,5 +2736,65 @@
         "url": "https://voibooks.bitbucket.io/gagon/ch19/"
       }
     ]
+  },
+  {
+    "id": "how-i-became-hindu",
+    "title": "How I Became Hindu",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1982; enlarged 1993",
+    "summary": "Sita Ram Goel's intellectual autobiography: from an Arya Samaj childhood through Gandhism and Marxism to the edge of joining the Communist Party in 1948, his return to Hinduism under Ram Swarup's influence, and the founding of Voice of India. Shown here as his life and ideas on one timeline, the turning points, and the people who changed his mind.",
+    "href": "books/how-i-became-hindu.html",
+    "timelines": [
+      "bjp"
+    ],
+    "source": "https://voibooks.bitbucket.io/hibh/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "From Arya Samaj to Mahatma Gandhi",
+        "url": "https://voibooks.bitbucket.io/hibh/ch01/"
+      },
+      {
+        "n": 2,
+        "title": "From Gandhism To Communism",
+        "url": "https://voibooks.bitbucket.io/hibh/ch02/"
+      },
+      {
+        "n": 3,
+        "title": "Seeds that Were to Sprout",
+        "url": "https://voibooks.bitbucket.io/hibh/ch03/"
+      },
+      {
+        "n": 4,
+        "title": "Some Interesting Encounters",
+        "url": "https://voibooks.bitbucket.io/hibh/ch04/"
+      },
+      {
+        "n": 5,
+        "title": "Close To The Communist Party",
+        "url": "https://voibooks.bitbucket.io/hibh/ch05/"
+      },
+      {
+        "n": 6,
+        "title": "Ram Swarup To The Rescue",
+        "url": "https://voibooks.bitbucket.io/hibh/ch06/"
+      },
+      {
+        "n": 7,
+        "title": "Back To Square One",
+        "url": "https://voibooks.bitbucket.io/hibh/ch07/"
+      },
+      {
+        "n": 8,
+        "title": "Return To My Spiritual Home",
+        "url": "https://voibooks.bitbucket.io/hibh/ch08/"
+      },
+      {
+        "n": 9,
+        "title": "Nightmare Of Nehruism",
+        "url": "https://voibooks.bitbucket.io/hibh/ch09/"
+      }
+    ]
   }
 ]
