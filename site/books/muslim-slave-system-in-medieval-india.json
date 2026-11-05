@@ -1,0 +1,34 @@
+{
+  "title": "Muslim Slave System in Medieval India",
+  "byline": "by <b>K.S. Lal</b> · Aditya Prakashan · 1994",
+  "lede": "In <a href=\"the-legacy-of-muslim-rule-in-india.html\"><em>The Legacy of Muslim Rule in India</em></a> Lal said slavery deserved a study of its own. This is that study. Drawing on the chronicles and on Islamic law (the <em>Hidaya</em>, the Hadis), he follows the system from war captives sent to the Caliph from Sindh, through the “Slave Sultans” who ruled Delhi, to the slave markets, the prices fixed by Alauddin Khalji, the soldiers and eunuchs, and the harem. His theme is that enslavement was tied to conversion. Captive women and children were raised as Muslims.",
+  "facts": [["12", "chapters, from origins to sex slavery"], ["1206–1290", "the “Slave dynasty”, Delhi sultans who rose from slavery"], ["5–12", "<i>tankahs</i>: Alauddin's fixed price for a working slave girl"], ["100–200", "<i>tankahs</i>: the usual ceiling for a male slave"]],
+  "related": [["delhi-sultanate", "Delhi Sultanate timeline"], ["mughal-empire", "Mughal Empire timeline"]],
+  "note": "Slavery was common to many medieval societies, and historians debate its scale and character in India. Lal's account relies on chroniclers' figures, which can be inflated. This page summarises his findings, attributed to him, without his more graphic material.",
+  "sections": [
+    {
+      "type": "steps", "ch": 3, "eyebrow": "Chapters 2–7 · the course of slave-taking",
+      "title": "From Sindh to the Mughals",
+      "items": [["712", "Sindh", "Captives forwarded to the Caliph, as Kufi's <em>Chachnama</em> records."], ["11th c.", "Ghaznavids", "Captives taken in large numbers in Mahmud's raids, according to the chroniclers."], ["1206–90", "The Slave sultans", "Aibak, Iltutmish and Balban had all been slaves."], ["13th–14th c.", "The Khaljis and Tughlaqs", "Firoz Tughlaq's household slaves are said to have numbered 180,000."], ["16th–17th c.", "The Mughals", "Akbar banned enslaving war captives in 1562. The practice continued in the provinces."]]
+    },
+    {
+      "type": "bars", "ch": 10, "eyebrow": "Chapter 10 · the slave trade",
+      "title": "Slave prices under Alauddin Khalji's market controls",
+      "lede": "Alauddin (1296–1316) fixed the price of every commodity in Delhi's markets, slaves included. Barani lists slaves alongside horses and cattle. The bars show the top of each fixed range.",
+      "unit": "tankahs", "max": 220, "ticks": [0, 50, 100, 150, 200], "labelWidth": 210,
+      "items": [["Man slave (<i>ghulam</i>)", 200, "Usually 100 to 200 tankahs"], ["Child slave for service", 80, "70 to 80 tankahs"], ["Girl “suitable for concubinage”", 40, "20 to 30, “and even 40”"], ["Handsome boy", 30, "20 to 30 tankahs"], ["Working girl", 12, "5 to 12 tankahs"], ["“Ill-favoured” boy", 8, "7 to 8 tankahs"]],
+      "note": "Upper bound of each range as Lal gives it from Barani. Bulk buyers paid separate rates. Foreign slaves, usually Muslims, cost far more."
+    },
+    {
+      "type": "cards", "ch": 11, "eyebrow": "Chapters 8–11 · the system",
+      "title": "How it worked",
+      "items": [["Ch. 8", "Employment", "Soldiers, household servants, artisans, officials."], ["Ch. 9", "<i>Ghilmans</i> and eunuchs", "Slave soldiers, and eunuchs who could rise to high office."], ["Ch. 10", "Markets", "Delhi, Bengal, Badaun and Mandor, among others."], ["Ch. 11", "The law", "Under the <i>Hidaya</i> the slave is the master's property. Freeing a slave (<i>manumission</i>) is meritorious but optional."]]
+    },
+    {
+      "type": "compare", "ch": 6, "eyebrow": "Chapters 6 and 12",
+      "title": "Enslavement and conversion",
+      "cols": [{"k": "Lal's argument", "items": ["Captive women and children were raised as Muslims", "This added to the Muslim population (see <a href=\"indian-muslims-who-are-they.html\"><em>Indian Muslims: Who Are They</em></a>)", "The harem and concubinage drew on war captives"]}, {"k": "Resistance he records", "items": ["<i>Jauhar</i>: mass self-immolation by women to avoid capture, from Raja Dahir's fort at Rawar onwards", "Akbar's 1562 ban on enslaving war captives", "Flight to forests and hills"]}]
+    }
+  ],
+  "footer": "Source: <em>Muslim Slave System in Medieval India</em> by K.S. Lal (Aditya Prakashan, 1994), read from the online edition at <a href=\"https://voibooks.bitbucket.io/mssmi/\">voibooks.bitbucket.io</a>."
+}

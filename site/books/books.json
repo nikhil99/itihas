@@ -3424,5 +3424,96 @@
         "url": "https://voibooks.bitbucket.io/wiah/ch12/"
       }
     ]
+  },
+  {
+    "id": "muslim-slave-system-in-medieval-india",
+    "title": "Muslim Slave System in Medieval India",
+    "author": "K.S. Lal",
+    "published": "Aditya Prakashan, 1994",
+    "summary": "K.S. Lal's history of slavery under Muslim rule in India, from the enslavement of captives by Arab and Turkish invaders and the Slave Sultans of Delhi to markets, prices, Islamic law on slaves, and the fate of women. Shown here as the course of slave-taking, Alauddin Khalji's slave prices, the legal framework, and how the system ended.",
+    "href": "books/muslim-slave-system-in-medieval-india.html",
+    "timelines": [
+      "delhi-sultanate",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/mssmi/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/mssmi/pre/"
+      },
+      {
+        "n": null,
+        "title": "Abbreviations",
+        "url": "https://voibooks.bitbucket.io/mssmi/abbr/"
+      },
+      {
+        "n": 1,
+        "title": "Introduction",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "The Origins of Muslim Slave System",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Enslavement of Hindus by Arab and Turkish Invaders",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Slave Sultans of Hindustan",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "Slave-taking during Muslim Rule",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Enslavement and Proselytization",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Struggle for Power among Slave Nobles",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "Employment of Slaves",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Ghilmans and Eunuchs",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "Slave Trade",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "Rules regarding Manumission and Sale of Slaves",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "Sex Slavery",
+        "url": "https://voibooks.bitbucket.io/mssmi/ch12/"
+      },
+      {
+        "n": null,
+        "title": "Postscript",
+        "url": "https://voibooks.bitbucket.io/mssmi/post/"
+      }
+    ]
   }
 ]
