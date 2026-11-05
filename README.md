@@ -104,6 +104,12 @@ palette and fonts as the site) and are listed in `site/books/books.json`. That m
 timelines. To add a book, drop `site/books/<id>.html` next to the others and add an entry to
 the manifest. Nothing needs rebuilding.
 
+**Data-driven guides.** Most guides are a JSON file plus a one-line page: `site/books/<id>.json` holds
+the hero (`title`, `byline`, `lede`, `facts`, `related`, `note`) and a list of `sections`, and
+`<id>.html` is just `<body data-guide="<id>">` with `book.css`, `book.js` and `guide.js`. `guide.js`
+draws each section by its `type` (`timeline`, `steps`, `compare`, `table`, `cards`, `bars`, `chips`,
+`list`, `quote`), and a section's `ch` (plus optional `pages`) adds its link back to the chapter.
+
 **References to the source.** Each manifest entry lists its `chapters` (`n`, `title`, and a `url` for
 books that are online or `pages` for printed ones), plus `source` (the whole book online) and
 `edition`. `book.js` uses them in two ways. It turns `<a class="ref" data-ch="2" data-pages="52–53"></a>`

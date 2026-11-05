@@ -66,5 +66,5 @@
   }
   document.addEventListener("DOMContentLoaded", sources);
 
-  window.Book = { svg, hover, showTip, hideTip, filters };
+  window.Book = { svg, hover, showTip, hideTip, filters, sources };
 })();

@@ -1,0 +1,93 @@
+{
+  "title": "Ayodhya And After",
+  "byline": "by <b>Koenraad Elst</b> · Voice of India · 1991 · subtitled <em>Issues Before Hindu Society</em>",
+  "lede": "Elst's second book on Ayodhya was written during the 1990–91 crisis. He starts from the temple question, which he considers settled, and moves to what Ayodhya revealed: how the press reported it, the riots, the meaning of secularism, book bans, the charge of “Hindu fascism”, and what the Hindu movement should stand for. He writes as a Belgian who is, in his words, neither Hindu nor Muslim.",
+  "facts": [["15", "chapters plus two appendices, built largely on press coverage from 1989–91"], ["1528", "the mosque's date; Elst suggests Mir Baqi may have found ruins left by Ghori's army of 1194"], ["30 Oct 1990", "the Kar Seva, when kar sevaks got through Mulayam Singh Yadav's blockade"], ["2", "appendices, giving the last word to Girilal Jain and Ram Swarup"]],
+  "related": [["bjp", "BJP & Jana Sangh timeline"], ["mughal-empire", "Mughal Empire timeline"]],
+  "note": "Elst writes as an open sympathiser of the Ram Janmabhoomi movement. Some chapters, notably the one on riots, make sweeping claims about a whole community. This page reports them as his claims, does not repeat his harshest language, and does not endorse it.",
+  "sections": [
+    {
+      "type": "timeline", "ch": 5, "eyebrow": "Chapters 1, 5 and 7 · the story so far",
+      "title": "From Ramkot to the Kar Seva",
+      "lede": "Elst's account of the site and of the movement up to early 1991, when the book was finished.",
+      "items": [
+        {"era": "The site", "color": 2},
+        ["1194", "Ghori's armies reach Ayodhya", "Elst allows that they may already have destroyed the temple."],
+        ["1528", "Mir Baqi builds the mosque", "On Babur's orders, per the Persian inscriptions. Elst rejects the JNU historians' doubts about who built it."],
+        ["1608, 1767", "Finch and Tieffenthaler", "Two of the four pre-1800 sources Elst cites: European travellers who record Hindu worship and the demolition tradition."],
+        ["1735", "A local Qazi's text", "Found in 1990–91, along with an early-18th-century text by Aurangzeb's granddaughter."],
+        ["1936–49", "“Abandoned” building", "The Hindu side says it was not used as a mosque after 1936. Hindus took it over in 1949."],
+        {"era": "The movement", "color": 0},
+        ["1986", "Padlock opened", "Worship of Ram Lalla becomes public."],
+        ["9 Nov 1989", "Shilanyas", "Foundation stone laid. In Bangladesh, more than 200 temples are destroyed in reaction, Elst reports."],
+        ["1990", "Advani's Rath Yatra", "Elst notes the procession itself saw no riots, unlike much of Uttar Pradesh."],
+        ["30 Oct 1990", "Kar Seva", "Kar sevaks reach the site despite arrests, curfews and suspended transport. Many are shot."],
+        ["Dec 1990 – Jan 1991", "Evidence debate", "The Chandra Shekhar government asks both sides for evidence. VHP-invited scholars find more documents."],
+        ["early 1991", "This book", "Written while the Ayodhya issue “became a symbol”."]
+      ]
+    },
+    {
+      "type": "steps", "ch": 1, "eyebrow": "Chapter 1 · summary of the historical question",
+      "title": "Elst's chain of evidence",
+      "lede": "He treats each kind of evidence as a separate link, so the case does not rest on any single one.",
+      "items": [
+        ["Archaeology", "Pillar bases", "B.B. Lal and S.P. Gupta: 11th-century pillar bases aligned with the mosque."],
+        ["Inscription", "Babur's mosque", "Persian inscriptions name Babur and Mir Baqi."],
+        ["Pre-1800 texts", "Four sources", "Western travellers and local Muslim writers record the tradition."],
+        ["Practice", "Continuous worship", "Hindus kept worshipping in the courtyard under Muslim rule."],
+        ["Counter-theory", "“British rumour”", "Elst finds no sign the British invented it after 1800 to justify annexing Awadh.", 1]
+      ]
+    },
+    {
+      "type": "compare", "ch": 3, "eyebrow": "Chapters 2–4 · belief, history and the law",
+      "title": "Should the wrongs of history be righted?",
+      "lede": "Elst separates the historical question (was there a temple?) from the questions of belief and law.",
+      "cols": [
+        {"k": "What Elst concedes", "items": ["Proof of a Ram temple is not proof that Ram was born on that exact spot.", "Hindus should not try to reclaim all of the thousands of temple sites.", "A law freezing places of worship as of 15 August 1947 is a possible part of a deal."]},
+        {"k": "What Elst insists on", "items": ["Three sites are special: Ayodhya, Kashi and Mathura.", "A gesture from Muslims has to start from admitting the wrong.", "Elsewhere in the world, native peoples win back sacred sites in court.", "Courts set up under the 1950 Constitution may not be the right place to settle a civilisational dispute."]}
+      ]
+    },
+    {
+      "type": "table", "wide": true, "ch": 14, "eyebrow": "Chapters 8, 10, 12 and 14 · the accusations",
+      "title": "Charges against the Hindu movement, and Elst's replies",
+      "rowhead": true,
+      "head": ["The charge", "Elst's reply"],
+      "rows": [
+        ["The temple story is a British invention", "Four of the sources predate 1800, and Gyanendra Pandey's own study of nearby Varanasi shows no British rumour-mongering."],
+        ["Hindus destroyed Buddhism", "Calling the Ram temple a Buddhist stupa (Savita Ambedkar) cannot fit a pillared building."],
+        ["Mahmud plundered only for wealth", "Mahmud is revered by Muslims as a devout warrior of the faith."],
+        ["Hindutva is fascism", "No evidence links Advani to Hitler. The swastika is pan-Asian and pre-Hindu as well as Hindu."],
+        ["The RSS killed Gandhi", "Neither the court nor the prosecutor implicated the RSS."],
+        ["The RSS collaborated with the British in 1942", "The Communists were the ones who backed the British, after Hitler invaded the USSR."],
+        ["Secularism needs book bans", "Bans on Rushdie and on Ram Swarup's book on the Hadis show secularism protecting one creed from criticism."]
+      ]
+    },
+    {
+      "type": "cards", "ch": 10, "eyebrow": "Chapter 10 · secularism as it is",
+      "title": "What secularism should mean, in Elst's view",
+      "items": [
+        ["Origin", "Borrowed from Europe", "There it meant freeing thought and society from Church dogma, not equal respect for all creeds."],
+        ["Gandhi's slogan", "Sarva dharma samabhava", "A recent coinage of Gandhi's, Elst says, not traditional Hindu doctrine."],
+        ["The translation", "Dharma-neutrality", "The official Hindi word means neutrality towards dharma itself. Elst prefers “sect-neutrality”."],
+        ["Tradition", "Chaturvarnya", "He argues the separation of spiritual and temporal power is an old Indian idea, not an 18th-century European one."]
+      ]
+    },
+    {
+      "type": "cards", "ch": 15, "eyebrow": "Chapter 15 · the Hindu movement",
+      "title": "From Ayodhya to Indraprastha",
+      "lede": "Elst calls Ayodhya a symbol and urges the movement to go beyond it, with a programme of its own.",
+      "items": [
+        ["1", "Say what Hindu Rashtra means", "Answer the charge of theocracy with stated values and goals."],
+        ["2", "Equal treatment", "“Justice for all, appeasement of none”: a human rights commission instead of a minorities commission."],
+        ["3", "Drop the defensiveness", "Be proud of Hinduism rather than calling it “integral humanism” to sound secular."],
+        ["4", "Thinkers first", "Change the intellectual climate, and leave it to the parties to follow."]
+      ]
+    },
+    {
+      "type": "quote", "eyebrow": "Appendix 1 · Girilal Jain",
+      "q": "This is a thousand-year-old civilizational problem which has not been resolved.",
+      "cite": "Girilal Jain, former editor of the <em>Times of India</em>, in an interview Elst reproduces"
+    }
+  ],
+  "footer": "Source: <em>Ayodhya And After: Issues Before Hindu Society</em> by Koenraad Elst (Voice of India, 1991), read from the online edition at <a href=\"https://voibooks.bitbucket.io/ayodhya/\">voibooks.bitbucket.io</a>. Short quotations are the author's. Everything else summarises his argument."
+}
