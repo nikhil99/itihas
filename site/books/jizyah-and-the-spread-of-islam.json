@@ -1,0 +1,57 @@
+{
+  "title": "Jizyah and the Spread of Islam",
+  "byline": "by <b>Harsh Narain</b> · Voice of India · 1990",
+  "lede": "A short book by a philosopher and Islamicist on jizya, the poll tax Islamic states levied on non-Muslims who kept their faith. Narain first sets out its theory: since “the earth belongs to Allah”, unbelievers live on as tributaries, the <i>dhimmis</i>. He traces its origins to a pre-Islamic Persian head tax. Then he follows it through India's history and argues that it did much to spread Islam, because paying stopped the day one converted.",
+  "facts": [["48 · 24 · 12", "dirhams a year: the three classes of jizya from Muhammad bin Qasim to Aurangzeb"], ["712", "first levied in India, in Sindh, with Brahmins and ascetics exempt"], ["1679", "Aurangzeb reimposes it after Akbar had abolished it"], ["1586", "Kashmir's jizya finally lifted, when Akbar annexed the valley"]],
+  "related": [["delhi-sultanate", "Delhi Sultanate timeline"], ["mughal-empire", "Mughal Empire timeline"]],
+  "note": "Narain argues as a critic. Historians agree that jizya was levied unevenly and was often hard to collect, as he himself notes. They differ on how much it drove conversion. This page follows his account and attributes his judgements to him.",
+  "sections": [
+    {
+      "type": "spans", "ch": 3, "eyebrow": "Chapter 3 · jizyah in India",
+      "title": "When and where it was levied",
+      "lede": "Narain's dates for jizya in force (orange) and lifted (blue), with Kashmir shown separately. In between, he says, it stayed “in force with varying degrees of emphasis but with brief intervals”.",
+      "from": 700, "to": 1720, "step": 100, "labelWidth": 260,
+      "items": [
+        ["Sindh, under the Arabs", 712, 1000, "Muhammad bin Qasim: 48, 24 or 12 dirhams a head. Brahmins and ascetics exempt.", 0],
+        ["Delhi Sultanate", 1206, 1526, "Iltutmish's ulema urge “Islam or death”. Alauddin's qazi preaches humiliation.", 0],
+        ["Firoz Tughlaq extends it to Brahmins", 1351, 1388, "Brahmins threaten self-immolation. Other castes pay on their behalf.", 0],
+        ["Kashmir: no jizya", 1339, 1389, "Shah Mir to Qutbuddin", 1],
+        ["Kashmir: Sikandar Butshikan", 1389, 1413, "Imposed for the first time, along with zakat on Hindus", 0],
+        ["Kashmir: Zayn al-Abidin", 1419, 1470, "Reduced it, then abolished it", 1],
+        ["Kashmir: Daulat Chak", 1538, 1539, "Reimposed on Brahmins at their thread ceremony", 0],
+        ["Kashmir: suspended, then lifted", 1578, 1586, "Yusuf Shah suspends it, and it ends with Mughal annexation", 1],
+        ["Mughal empire: abolished by Akbar", 1564, 1679, "Kept off by Jahangir and Shah Jahan, though Bijapur went on collecting", 1],
+        ["Mughal empire: Aurangzeb reimposes", 1679, 1707, "Old rates, with the old rituals of humiliation", 0]
+      ],
+      "note": "Dates are from the book, except the year of Akbar's abolition (1564), which Narain does not give and is added from the standard histories. Colour: orange for levied, blue for not levied."
+    },
+    {
+      "type": "bars", "ch": 3, "eyebrow": "Chapter 3 · the rates",
+      "title": "Three classes of taxpayer",
+      "lede": "The same three tiers appear in Muhammad bin Qasim's Sindh and in Aurangzeb's 1679 order. Under Aurangzeb, the top class meant an income of 10,000 dirhams or more a year, and the middle class over 200.",
+      "unit": "dirhams/yr", "max": 50, "ticks": [0, 12, 24, 36, 48],
+      "items": [["Rich", 48, "“24 silver rupees” a head under Qasim"], ["Middle", 24], ["Poor (and artisans in Sindh)", 12, "Qasim levied 12 dirhams on merchants and artisans “as they had already lost their property by plunder”"]]
+    },
+    {
+      "type": "steps", "ch": 1, "eyebrow": "Chapters 1–2 · the theory",
+      "title": "The logic Narain reconstructs",
+      "items": [["Premise", "The earth belongs to Allah", "Through Allah and the Prophet, land belongs to the Muslim community."], ["Choice", "Islam, jizya or war", "Hanafi law alone lets polytheists live on by paying."], ["Status", "<i>Dhimmi</i>", "Protected but subordinate, with set humiliations when paying."], ["Exit", "Convert", "Payment stops at once. Firoz Tughlaq boasts that Hindus came “in clusters after clusters”."]]
+    },
+    {
+      "type": "cards", "ch": 3, "eyebrow": "Chapter 3 · resistance",
+      "title": "How it was resisted",
+      "items": [
+        ["1679", "Delhi protest", "Hindus gathered in their hundreds of thousands to petition Aurangzeb. Narain says elephants were driven into the crowd."],
+        ["1679", "A letter of protest", "Variously attributed to Shivaji, Sambhaji, Jaswant Singh and Rana Raj Singh. It mocks an emperor “envying the bowls of beggars”."],
+        ["Throughout", "Collectors driven off", "Local chiefs often refused, and even Aurangzeb complained it was hard to collect."],
+        ["Kashmir", "In the chronicles", "Jonaraja calls it the <i>durdanda</i>, the “ignoble penalty”, and the <i>turushka-danda</i>, the Turks' tax."]
+      ]
+    },
+    {
+      "type": "quote", "ch": 3,
+      "q": "Did the dhimmis not enjoy the concession of the Shari'ah, all trace of the Hindus would vanish.",
+      "cite": "Amir Khusrau, quoted by Narain as evidence that jizya was the Hindus' price of survival"
+    }
+  ],
+  "footer": "Source: <em>Jizyah and the Spread of Islam</em> by Harsh Narain (Voice of India, 1990), read from the online edition at <a href=\"https://voibooks.bitbucket.io/jtsi/\">voibooks.bitbucket.io</a>."
+}

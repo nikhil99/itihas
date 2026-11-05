@@ -1769,5 +1769,36 @@
         "url": "https://voibooks.bitbucket.io/jihad/app5/"
       }
     ]
+  },
+  {
+    "id": "jizyah-and-the-spread-of-islam",
+    "title": "Jizyah and the Spread of Islam",
+    "author": "Harsh Narain",
+    "published": "Voice of India, 1990",
+    "summary": "Harsh Narain's short study of jizya, the poll tax on non-Muslims: its theory, its origins and its history in India from Muhammad bin Qasim to Aurangzeb, with Kashmir's own story. Shown here as when it was levied and lifted, the three rate classes, and the argument that it drove conversion.",
+    "href": "books/jizyah-and-the-spread-of-islam.html",
+    "timelines": [
+      "delhi-sultanate",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/jtsi/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Presuppositions of Jizyah",
+        "url": "https://voibooks.bitbucket.io/jtsi/ch01/"
+      },
+      {
+        "n": 2,
+        "title": "Jizyah and its Implications-Associations",
+        "url": "https://voibooks.bitbucket.io/jtsi/ch02/"
+      },
+      {
+        "n": 3,
+        "title": "Jizyah in India",
+        "url": "https://voibooks.bitbucket.io/jtsi/ch03/"
+      }
+    ]
   }
 ]
