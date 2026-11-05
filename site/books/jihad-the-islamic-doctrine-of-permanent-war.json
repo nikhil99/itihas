@@ -1,0 +1,197 @@
+{
+  "title": "Jihad: The Islamic Doctrine of Permanent War",
+  "byline": "by <b>Suhas Majumdar</b> · Voice of India · 1994 · enlarged from a Bengali monograph, with a foreword by Sita Ram Goel",
+  "lede": "Majumdar, a mathematician by training, sets out to describe jihad as Islam's own sources define it. He works through the Quran (in Pickthall's translation), the Hadis collections, the Prophet's practice (the Sunnah) and the Hanafi law code <em>Hidayah</em>. His conclusion is that jihad means aggressive war to spread Islam, and he says the modern defensive readings do not fit the texts. He also argues that Hindus who translate jihad as <em>dharmayuddha</em>, a war fought by rules of restraint, misunderstand it.",
+  "facts": [
+    [
+      "5",
+      "components of jihad in Majumdar's definition"
+    ],
+    [
+      "3",
+      "stages he traces in the Quran's war verses, 622–632"
+    ],
+    [
+      "623",
+      "the raid of Nakhla, which he and the early biographers mark as the first booty taken"
+    ],
+    [
+      "12",
+      "chapters, plus five appendices on expulsion, jizya, the stages, Akbar and the “defensive war” reading"
+    ]
+  ],
+  "related": [
+    [
+      "mughal-empire",
+      "Mughal Empire timeline"
+    ]
+  ],
+  "note": "This is a hostile reading of Islamic doctrine. Muslim scholars, and many historians, read the same verses differently. They stress context, the rules of war in Islamic law, and jihad as inner striving. This page sets out Majumdar's argument and sources, attributed to him, and does not settle how jihad should be understood.",
+  "sections": [
+    {
+      "type": "steps",
+      "eyebrow": "Preface · the definition",
+      "title": "Jihad's five components, as Majumdar defines them",
+      "items": [
+        [
+          "1",
+          "Expansion",
+          "Spreading Islam by force"
+        ],
+        [
+          "2",
+          "War on unbelievers",
+          "Killing those who resist"
+        ],
+        [
+          "3",
+          "Jizya",
+          "A tax on non-Muslims who submit"
+        ],
+        [
+          "4",
+          "Plunder of property",
+          "<i>Ghanimah</i>, with one-fifth (<i>khums</i>) for the state"
+        ],
+        [
+          "5",
+          "Plunder of people",
+          "Women and children taken captive"
+        ]
+      ]
+    },
+    {
+      "type": "timeline",
+      "ch": 5,
+      "eyebrow": "Chapters 5–8 and Appendix III · the Prophet's campaigns",
+      "title": "Three stages, as Majumdar reads the Quran",
+      "lede": "He reads the war verses alongside the campaigns of 623–630 and sees a doctrine that grew harsher as Muslim power grew. Dates follow the early biographies he cites.",
+      "items": [
+        {
+          "era": "Stage 1, 622–626: war as self-defence",
+          "color": 1
+        },
+        [
+          "late 623",
+          "Raid of Nakhla",
+          "First blood and first booty, in Ibn Ishaq's account."
+        ],
+        [
+          "624",
+          "Battle of Badr",
+          "First full battle with the Quraysh of Mecca."
+        ],
+        [
+          "624",
+          "Banu Qaynuqa expelled",
+          "The first Jewish tribe evicted from Medina."
+        ],
+        [
+          "625",
+          "Battle of Uhud; Banu Nadir expelled",
+          "Surah 59, <em>al-Hashr</em> (“banishment”)."
+        ],
+        {
+          "era": "Stage 2, 627–630: the sanctification of booty",
+          "color": 0
+        },
+        [
+          "627",
+          "Banu Qurayza",
+          "Majumdar treats this massacre as binding precedent (Sunnah), unlike the peaceful entry into Mecca."
+        ],
+        [
+          "630",
+          "Conquest of Mecca",
+          "Idols of the Ka'ba destroyed."
+        ],
+        {
+          "era": "Stage 3, 630–632: Surah 9",
+          "color": 3
+        },
+        [
+          "630–632",
+          "Surah al-Tawba",
+          "Ends truces with idolaters, institutes jizya, and contains the verse “slay the idolaters wherever you find them” (9:5)."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "wide": true,
+      "ch": 9,
+      "eyebrow": "Chapters 1–4 and 9 · the sources",
+      "title": "Where he finds each part of the doctrine",
+      "head": [
+        "Source",
+        "What it is",
+        "What Majumdar draws from it"
+      ],
+      "rows": [
+        [
+          "Quran",
+          "About 6,000 verses revealed 609–632, not arranged by topic",
+          "Commands to fight, plunder as lawful (Surah 8), jizya (9:29)"
+        ],
+        [
+          "Hadis",
+          "Sayings and deeds (mainly <em>Sahih Muslim</em>, <em>Mishkat</em>)",
+          "Rules for booty and its one-fifth share; paradise for the fighter"
+        ],
+        [
+          "Sunnah",
+          "The Prophet's own practice, binding like scripture",
+          "Destroying idols, which comes from practice rather than any Quranic command to do it in war"
+        ],
+        [
+          "Shariat (Hidayah)",
+          "Hanafi law by Burhanuddin (d. 1198)",
+          "Jizya as “retribution” for unbelief, and the legal status of <i>dhimmis</i>"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "eyebrow": "Introduction · a mistranslation, in his view",
+      "title": "Jihad is not <em>dharmayuddha</em>",
+      "cols": [
+        {
+          "k": "Dharmayuddha (Dharmashastras)",
+          "items": [
+            "Do not strike the unarmed or one who has dropped his weapon",
+            "Spare those who surrender",
+            "Do not pursue a fleeing enemy",
+            "War between combatants, under rules"
+          ]
+        },
+        {
+          "k": "Jihad, as Majumdar reads its sources",
+          "items": [
+            "Aimed at bringing unbelievers to submit",
+            "Booty and captives allowed",
+            "Jizya or conversion as the terms of peace",
+            "A duty that lasts until the world submits: “permanent war”"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Appendices IV and V",
+      "title": "Two test cases",
+      "items": [
+        [
+          "Appendix V",
+          "Quran 2:190, the “defensive” verse",
+          "“Fight… against those who fight against you, but begin not hostilities.” Majumdar argues that read with Surah 9 it does not limit jihad to self-defence. Many Muslim commentators disagree."
+        ],
+        [
+          "Appendix IV",
+          "Akbar and Hemu, 5 November 1556",
+          "The Afghan historian Ahmad Yadgar and Badauni say the boy Akbar struck the captive Hemu and took the title <i>ghazi</i>. Abul Fazl's account says he refused. Majumdar reads the court historians' version as Akbar distancing himself from jihad."
+        ]
+      ]
+    }
+  ],
+  "footer": "Source: <em>Jihad: The Islamic Doctrine of Permanent War</em> by Suhas Majumdar (Voice of India, 1994), read from the online edition at <a href=\"https://voibooks.bitbucket.io/jihad/\">voibooks.bitbucket.io</a>. Quran quotations are from Pickthall's translation as cited in the book."
+}

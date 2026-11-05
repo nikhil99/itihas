@@ -1649,5 +1649,125 @@
         "url": "https://voibooks.bitbucket.io/imwat/epi/"
       }
     ]
+  },
+  {
+    "id": "jihad-the-islamic-doctrine-of-permanent-war",
+    "title": "Jihad: The Islamic Doctrine of Permanent War",
+    "author": "Suhas Majumdar",
+    "published": "Voice of India, 1994",
+    "summary": "Suhas Majumdar's reading of jihad from the Quran, the Hadis, the Prophet's practice and Hanafi law, arguing it is aggressive war with five parts. Shown here as his five components, the three stages he sees in the Quran's verses, the early campaigns he cites, and the defensive reading he rejects.",
+    "href": "books/jihad-the-islamic-doctrine-of-permanent-war.html",
+    "timelines": [
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/jihad/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Foreword",
+        "url": "https://voibooks.bitbucket.io/jihad/for/"
+      },
+      {
+        "n": null,
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/jihad/pre/"
+      },
+      {
+        "n": null,
+        "title": "References",
+        "url": "https://voibooks.bitbucket.io/jihad/ref/"
+      },
+      {
+        "n": null,
+        "title": "Introduction",
+        "url": "https://voibooks.bitbucket.io/jihad/intro/"
+      },
+      {
+        "n": 1,
+        "title": "Jihad in the Koran",
+        "url": "https://voibooks.bitbucket.io/jihad/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Jihad in the Hadis",
+        "url": "https://voibooks.bitbucket.io/jihad/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Ghanimah or Plunder in the Koran",
+        "url": "https://voibooks.bitbucket.io/jihad/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Plunder (Ghanimah) in the Hadis",
+        "url": "https://voibooks.bitbucket.io/jihad/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "Islamic Expansion through Jihad: The Evidence of the Sunnah",
+        "url": "https://voibooks.bitbucket.io/jihad/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Destruction of Idols and Idol-Temples in Jihad: The Evidence of the Sunnah",
+        "url": "https://voibooks.bitbucket.io/jihad/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Slaughter of Infidels in Jihad: The Evidence of the Sunnah",
+        "url": "https://voibooks.bitbucket.io/jihad/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "Plunder (Ghanimah) in Jihad: The Evidence of the Sunnah",
+        "url": "https://voibooks.bitbucket.io/jihad/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Jihad in the Shariat",
+        "url": "https://voibooks.bitbucket.io/jihad/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "Jihad and Religious Riot",
+        "url": "https://voibooks.bitbucket.io/jihad/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "Recapitulation",
+        "url": "https://voibooks.bitbucket.io/jihad/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "Conclusion",
+        "url": "https://voibooks.bitbucket.io/jihad/ch12/"
+      },
+      {
+        "n": null,
+        "title": "I. Jihad and Expulsion of Non-Muslims from Islamic Countries",
+        "url": "https://voibooks.bitbucket.io/jihad/app1/"
+      },
+      {
+        "n": null,
+        "title": "II. Jizyah and the Zimmi",
+        "url": "https://voibooks.bitbucket.io/jihad/app2/"
+      },
+      {
+        "n": null,
+        "title": "III. Development of the Doctrine of Jihad in the Koran",
+        "url": "https://voibooks.bitbucket.io/jihad/app3/"
+      },
+      {
+        "n": null,
+        "title": "IV. Akbar's Attitude to Jihad",
+        "url": "https://voibooks.bitbucket.io/jihad/app4/"
+      },
+      {
+        "n": null,
+        "title": "V. Doctrine of Jihad as Defensive War",
+        "url": "https://voibooks.bitbucket.io/jihad/app5/"
+      }
+    ]
   }
 ]
