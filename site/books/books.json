@@ -3595,5 +3595,46 @@
         "url": "https://voibooks.bitbucket.io/muslimsep/app/"
       }
     ]
+  },
+  {
+    "id": "ayodhya-the-finale",
+    "title": "Ayodhya, the Finale: Science versus Secularism",
+    "author": "Koenraad Elst",
+    "published": "Voice of India, 2003",
+    "summary": "Elst's 2003 booklet on the court-ordered Archaeological Survey excavation at Ayodhya and the arguments over its report. Shown here as the excavation timeline, the six responses he says critics used to deny the findings, and his proposed settlement.",
+    "href": "books/ayodhya-the-finale.html",
+    "timelines": [
+      "bjp",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/finale/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Foreword",
+        "url": "https://voibooks.bitbucket.io/finale/foreward/"
+      },
+      {
+        "n": 1,
+        "title": "Science Versus Secularism",
+        "url": "https://voibooks.bitbucket.io/finale/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Preceding stages of the debate",
+        "url": "https://voibooks.bitbucket.io/finale/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Escaping the ASIs final conclusions",
+        "url": "https://voibooks.bitbucket.io/finale/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Secular guilt, secular solution",
+        "url": "https://voibooks.bitbucket.io/finale/ch4/"
+      }
+    ]
   }
 ]
