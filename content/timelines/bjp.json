@@ -39,6 +39,10 @@
   {
    "id": "world",
    "label": "Rivals, allies & the nation"
+  },
+  {
+   "id": "deaths",
+   "label": "Deaths, killings & attacks"
   }
  ],
  "rulers": [
@@ -380,13 +384,15 @@
    "end": "1952-02-21",
    "lane": "military",
    "title": "First general election: 3 seats",
-   "summary": "In independent India's first election the Jana Sangh wins 3 of 489 Lok Sabha seats with 3.06% of the vote: Mookerjee in Calcutta, one more in West Bengal and one in Rajasthan, plus 35 seats in state assemblies. It is recognised as one of four national parties.",
+   "summary": "In independent India's first election the Jana Sangh wins 3 of 489 Lok Sabha seats with 3.06% of the vote, plus 35 seats in state assemblies. All three winners beat a divided field: none gets half the vote. It is recognised as one of four national parties.",
    "people": [
     "syama-prasad-mookerjee",
     "nehru"
    ],
    "places": [
-    "kolkata"
+    "kolkata",
+    "medinipur",
+    "chittorgarh"
    ],
    "polities": [
     "bharatiya-jana-sangh"
@@ -401,10 +407,9 @@
   {
    "id": "mookerjee-kashmir",
    "date": "1953-05-11",
-   "end": "1953-06-23",
    "lane": "forts",
-   "title": "Mookerjee dies in Kashmir detention",
-   "summary": "Campaigning against Article 370 and the permit needed to enter Jammu and Kashmir ('one country, two constitutions'), Mookerjee crosses into the state without a permit and is arrested. He dies in detention in Srinagar on 23 June. Ending Article 370 stays on the party's agenda for 66 years.",
+   "title": "Mookerjee defies the Kashmir permit",
+   "summary": "Campaigning against Article 370 and the permit needed to enter Jammu and Kashmir ('one country, two constitutions, two prime ministers, two flags will not do'), Mookerjee crosses into the state at Lakhanpur without a permit and is arrested. Ending Article 370 stays on the party's agenda for 66 years.",
    "people": [
     "syama-prasad-mookerjee",
     "nehru"
@@ -419,7 +424,7 @@
     "article-370"
    ],
    "wiki": "Syama Prasad Mukherjee",
-   "major": true
+   "major": false
   },
   {
    "id": "ge-1957",
@@ -488,9 +493,9 @@
   {
    "id": "deendayal-death",
    "date": "1968-02-11",
-   "lane": "life",
+   "lane": "deaths",
    "title": "Deendayal Upadhyaya found dead",
-   "summary": "Weeks after becoming president at the Calicut session, Deendayal Upadhyaya is found dead beside the tracks at Mughalsarai railway station. The mystery is never solved. Vajpayee takes over the party.",
+   "summary": "Weeks after becoming president at the Calicut session, Deendayal Upadhyaya is found dead beside the tracks at Mughalsarai station, having left Lucknow by night train. The CBI concludes he was killed by two petty thieves; a court acquits them of murder and convicts one of theft, and the Y. V. Chandrachud inquiry (1970) finds no political motive. Balraj Madhok and others in the party never accepted this, and calls to reopen the case continue. The station is renamed after him in 2018.",
    "people": [
     "deendayal-upadhyaya",
     "vajpayee"
@@ -1332,6 +1337,313 @@
    "polities": [
     "bjp",
     "bharatiya-jana-sangh"
+   ]
+  },
+  {
+   "id": "seat-calcutta-1952",
+   "date": "1952-01",
+   "lane": "military",
+   "title": "Calcutta South-East: Mookerjee's own seat",
+   "summary": "Mookerjee wins 45% of the vote (65,026) against Congress's Mriganka Mohan Sur (30%) and the Communist Sadhan Gupta (22%). His name, his 1950 resignation over the Nehru–Liaquat Pact and the East Bengal Hindu refugees of south Calcutta carry the seat while Congress and the CPI split the rest. After his death, Gupta wins the 1953 by-election.",
+   "people": [
+    "syama-prasad-mookerjee",
+    "sadhan-gupta"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh",
+    "congress"
+   ],
+   "concepts": [
+    "nehru-liaquat-pact",
+    "ge-1951"
+   ],
+   "wiki": "Calcutta South East Lok Sabha constituency",
+   "approx": true
+  },
+  {
+   "id": "seat-midnapore-1952",
+   "date": "1952-01",
+   "lane": "military",
+   "title": "Midnapore–Jhargram: Durga Charan Banerjee",
+   "summary": "In this two-member seat (one general, one reserved for Scheduled Tribes) Durga Charan Banerjee, a Midnapore-born criminal lawyer known for Ramakrishna Mission work, tops the poll with 1,51,494 votes. Congress is split by the breakaway Kisan Mazdoor Praja Party, which takes over 1.6 lakh votes, and wins only the reserved seat.",
+   "people": [
+    "durga-charan-banerjee"
+   ],
+   "places": [
+    "medinipur"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh",
+    "congress",
+    "kmpp"
+   ],
+   "concepts": [
+    "ge-1951"
+   ],
+   "wiki": "Durga Charan Banerjee",
+   "approx": true
+  },
+  {
+   "id": "seat-chittor-1952",
+   "date": "1952-01",
+   "lane": "military",
+   "title": "Chittor: Trivedi beats Manikya Lal Verma",
+   "summary": "Uma Shankar Trivedi, a barrister who left Congress in 1951, defeats Manikya Lal Verma, the Praja Mandal leader who had fought the Maharana of Mewar and led the United State of Rajasthan, by 6,599 votes (47% to 41%) on a 28% turnout. 1952 is a bad year for Congress in Rajasthan, where former princes and jagirdars rally voters against it; a Socialist takes another 13%.",
+   "people": [
+    "umashankar-trivedi",
+    "manikya-lal-verma"
+   ],
+   "places": [
+    "chittorgarh",
+    "rajasthan"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh",
+    "congress"
+   ],
+   "concepts": [
+    "ge-1951"
+   ],
+   "wiki": "Umashankar Muljibhai Trivedi",
+   "approx": true
+  },
+  {
+   "id": "mookerjee-death",
+   "date": "1953-06-23",
+   "lane": "deaths",
+   "major": true,
+   "title": "Mookerjee dies in detention in Srinagar",
+   "summary": "Held for six weeks in a cottage outside Srinagar, Mookerjee falls ill and dies in hospital on 23 June, officially of a heart attack. His mother Jogmaya Devi writes to Nehru demanding an independent inquiry; Nehru replies that he has looked into it and sees no mystery. No inquiry is ever held, and the Jana Sangh and BJP have called it a conspiracy ever since. The party loses its founder 20 months after its birth.",
+   "people": [
+    "syama-prasad-mookerjee",
+    "jogmaya-devi",
+    "nehru"
+   ],
+   "places": [
+    "srinagar"
+   ],
+   "polities": [
+    "bharatiya-jana-sangh"
+   ],
+   "concepts": [
+    "article-370"
+   ],
+   "wiki": "Syama Prasad Mukherjee"
+  },
+  {
+   "id": "moga-1989",
+   "date": "1989-06-25",
+   "lane": "deaths",
+   "title": "Massacre at an RSS shakha in Moga",
+   "summary": "Khalistani militants open fire on a morning RSS shakha in a park in Moga, Punjab, killing 25 people. It is the deadliest attack on the Sangh during the Punjab insurgency.",
+   "places": [
+    "moga",
+    "punjab"
+   ],
+   "polities": [
+    "rss"
+   ]
+  },
+  {
+   "id": "taploo",
+   "date": "1989-09-14",
+   "lane": "deaths",
+   "major": true,
+   "title": "Tika Lal Taploo shot in Srinagar",
+   "summary": "Tika Lal Taploo, a lawyer and vice-president of the BJP in Jammu and Kashmir, is shot outside his home by JKLF militants. He is the first in a series of targeted killings of Kashmiri Pandits that leads to their mass flight from the valley in 1990.",
+   "people": [
+    "tika-lal-taploo"
+   ],
+   "places": [
+    "srinagar",
+    "jammu-kashmir"
+   ],
+   "polities": [
+    "bjp",
+    "jklf"
+   ],
+   "wiki": "Tika Lal Taploo"
+  },
+  {
+   "id": "ayodhya-firing-1990",
+   "date": "1990-10-30",
+   "end": "1990-11-02",
+   "lane": "deaths",
+   "title": "Police fire on kar sevaks in Ayodhya",
+   "summary": "With Advani under arrest, kar sevaks try to reach the Babri Masjid. Uttar Pradesh police under Chief Minister Mulayam Singh Yadav open fire. Official figures put the dead at under 20; the VHP and BJP claimed many more. The deaths become a rallying cry for the temple movement.",
+   "people": [
+    "mulayam-singh-yadav",
+    "advani"
+   ],
+   "places": [
+    "ayodhya"
+   ],
+   "concepts": [
+    "ram-janmabhoomi"
+   ]
+  },
+  {
+   "id": "coimbatore-1998",
+   "date": "1998-02-14",
+   "lane": "deaths",
+   "major": true,
+   "title": "Coimbatore bombings target Advani",
+   "summary": "Bombs explode across Coimbatore minutes before Advani is due to address an election rally there; 58 people are killed. The Islamist group Al Umma is found responsible and its founder S. A. Basha is convicted.",
+   "people": [
+    "advani"
+   ],
+   "places": [
+    "coimbatore"
+   ],
+   "concepts": [
+    "coimbatore-bombings"
+   ],
+   "wiki": "1998 Coimbatore bombings"
+  },
+  {
+   "id": "jayakrishnan-1999",
+   "date": "1999-12-01",
+   "lane": "deaths",
+   "title": "K. T. Jayakrishnan killed in his classroom",
+   "summary": "Jayakrishnan, a schoolteacher and state vice-president of the BJP's youth wing, is hacked to death in front of his pupils at a school in Kannur district. CPI(M) workers are convicted; most are later acquitted on appeal. In Kannur's long cycle of RSS–CPI(M) violence, workers on both sides have been killed and convicted.",
+   "people": [
+    "kt-jayakrishnan"
+   ],
+   "places": [
+    "kannur",
+    "kerala"
+   ],
+   "polities": [
+    "cpim",
+    "bjp"
+   ]
+  },
+  {
+   "id": "haren-pandya",
+   "date": "2003-03-26",
+   "lane": "deaths",
+   "title": "Haren Pandya shot in Ahmedabad",
+   "summary": "Haren Pandya, Gujarat's former home minister, who had fallen out with Narendra Modi, is found shot dead in his car on a morning walk. Twelve men are convicted in 2007; the Gujarat High Court acquits them in 2011, and the Supreme Court restores the convictions in 2019. His father and widow said the killing was political and the investigation flawed.",
+   "people": [
+    "haren-pandya",
+    "narendra-modi"
+   ],
+   "places": [
+    "ahmedabad"
+   ],
+   "wiki": "Haren Pandya"
+  },
+  {
+   "id": "mahajan-shot",
+   "date": "2006-04-22",
+   "end": "2006-05-03",
+   "lane": "deaths",
+   "title": "Pramod Mahajan shot by his brother",
+   "summary": "Pramod Mahajan, the BJP general secretary seen as Vajpayee and Advani's heir, is shot at his Mumbai home by his younger brother Pravin and dies 12 days later. It is a family quarrel, not a political killing; Pravin is sentenced to life.",
+   "people": [
+    "pramod-mahajan"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "wiki": "Pramod Mahajan"
+  },
+  {
+   "id": "ramesh-salem",
+   "date": "2013-07-19",
+   "lane": "deaths",
+   "title": "V. Ramesh killed in Salem",
+   "summary": "V. Ramesh, a chartered accountant and the Tamil Nadu BJP's state general secretary, is hacked to death outside his home in Salem, after a series of attacks on Hindu Munnani and BJP figures in western Tamil Nadu.",
+   "people": [
+    "v-ramesh"
+   ],
+   "places": [
+    "salem"
+   ],
+   "polities": [
+    "bjp"
+   ]
+  },
+  {
+   "id": "munde-crash",
+   "date": "2014-06-03",
+   "lane": "deaths",
+   "title": "Gopinath Munde dies in a car crash",
+   "summary": "A week after joining Modi's cabinet as rural development minister, Gopinath Munde is killed when a car hits his at a Delhi crossing. His family and supporters ask for a CBI probe; the CBI concludes it was an accident.",
+   "people": [
+    "gopinath-munde",
+    "narendra-modi"
+   ],
+   "places": [
+    "delhi",
+    "beed"
+   ],
+   "wiki": "Gopinath Munde"
+  },
+  {
+   "id": "bari-2020",
+   "date": "2020-07-08",
+   "lane": "deaths",
+   "title": "Waseem Bari and family shot in Bandipora",
+   "summary": "Militants shoot dead BJP district leader Sheikh Waseem Bari, his father and his brother outside their shop in Bandipora, Kashmir. Through 2020 militants target BJP panches and workers in the valley.",
+   "people": [
+    "waseem-bari"
+   ],
+   "places": [
+    "bandipora",
+    "jammu-kashmir"
+   ],
+   "polities": [
+    "bjp"
+   ]
+  },
+  {
+   "id": "bengal-2021",
+   "date": "2021-05-02",
+   "lane": "deaths",
+   "title": "Post-poll violence in West Bengal",
+   "summary": "After the Trinamool Congress wins the West Bengal assembly election, BJP workers are attacked across the state and several are killed. The Calcutta High Court orders the CBI to investigate the murders and rapes, saying the state police cannot be relied on.",
+   "places": [
+    "west-bengal"
+   ],
+   "polities": [
+    "bjp"
+   ]
+  },
+  {
+   "id": "ranjith-2021",
+   "date": "2021-12-19",
+   "lane": "deaths",
+   "title": "Ranjith Sreenivasan killed in Alappuzha",
+   "summary": "Hours after SDPI leader K. S. Shan is killed, allegedly by RSS workers, a gang hacks BJP leader Ranjith Sreenivasan to death at his home in front of his family. In 2024 a court sentences 15 PFI–SDPI members to death.",
+   "people": [
+    "ranjith-sreenivasan"
+   ],
+   "places": [
+    "alappuzha",
+    "kerala"
+   ],
+   "polities": [
+    "pfi"
+   ]
+  },
+  {
+   "id": "nettaru-2022",
+   "date": "2022-07-26",
+   "lane": "deaths",
+   "title": "Praveen Nettaru killed; PFI banned",
+   "summary": "BJP youth worker Praveen Nettaru is hacked to death outside his shop at Bellare, Dakshina Kannada. The NIA charges members of the Popular Front of India, and in September the government bans the PFI for five years.",
+   "people": [
+    "praveen-nettaru"
+   ],
+   "places": [
+    "dakshina-kannada"
+   ],
+   "polities": [
+    "pfi"
    ]
   }
  ]
