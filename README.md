@@ -101,7 +101,10 @@ and short event descriptions are curated here. Where dates are contested
 Visual guides to books live in `site/books/` as standalone pages (plain HTML/CSS/JS, the same
 palette and fonts as the site) and are listed in `site/books/books.json`. That manifest feeds the
 **Books** row on the home page and `#/books`. Its `timelines` field links each book to related
-timelines. To add a book, drop `site/books/<id>.html` next to the others and add an entry to
+timelines. Each book also has a `category`, one of the topics in `site/books/categories.json` (id,
+title, colour, blurb), and the `year` it was written. `#/books` groups the books by topic, filters
+by topic (`#/books/<category>`) and author, and plots the years on a strip; the home page shows the
+topics as tiles. To add a book, drop `site/books/<id>.html` next to the others and add an entry to
 the manifest. Nothing needs rebuilding.
 
 **Data-driven guides.** Most guides are a JSON file plus a one-line page: `site/books/<id>.json` holds
