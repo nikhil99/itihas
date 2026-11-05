@@ -1,0 +1,74 @@
+{
+  "title": "Update on the Aryan Invasion Debate",
+  "byline": "by <b>Koenraad Elst</b> · Aditya Prakashan · 1999 · conference papers from Atlanta and Madison (1996), revised",
+  "lede": "Did Indo-European speech come into India with migrants from the steppes around 1500 BC, or did it spread out from India? Elst sets out the case against the Aryan Invasion Theory (AIT), drawing on Vedic astronomy, linguistics, archaeology, the horse, physical anthropology, and a long review of the French scholar Bernard Sergent's defence of it. He does not claim his side has won, and calls on both camps to keep doubting. He also covers the politics: how the theory came to be used against Hindus, and how its critics get labelled Nazis.",
+  "facts": [["6", "parts in 35 sections, from politics to a proposed non-invasionist model"], ["3102 BC", "the start of the Kali Yuga by a planetary conjunction that Hindu astronomy records, among the dates Elst cites"], ["c. 1500 BC", "the invasion date he argues against"], ["6th millennium BC", "when, in his alternative model, Proto-Indo-European was spoken in Punjab and Haryana"]],
+  "related": [["maurya-empire", "Maurya Empire timeline"], ["gupta-empire", "Gupta Empire timeline"]],
+  "note": "Elst argues a minority position. Most linguists and geneticists today support a migration of Indo-European speakers into India in the 2nd millennium BC, though not a violent “invasion”. This page sets out his arguments as his own and does not decide the question.",
+  "sections": [
+    {
+      "type": "steps", "ch": "1.2", "eyebrow": "Part 1 · political aspects",
+      "title": "How a linguistic theory became politics",
+      "lede": "Elst's first claim is that the AIT carries more political weight than any other question of ancient history.",
+      "items": [
+        ["19th c.", "A European theory", "Race theories borrow the word “Aryan”. Elst notes that Hitler, if anything, favoured the AIT."],
+        ["1873", "Phule's <em>Slavery</em>", "Brahmins as foreign conquerors, an early Indian political use of the theory."],
+        ["1916 on", "Dravidian separatism", "The Justice Party, later the Dravida Kazhagam."],
+        ["1941–95", "Anti-Hindu tracts", "From <em>The Menace of Hindu Imperialism</em> to <em>Dalit Voice</em>, which calls Brahmins “the Jews of India”."],
+        ["Today", "The academic establishment", "Elst says Marxist historians such as Romila Thapar and R.S. Sharma label the theory's critics Nazis instead of answering them."]
+      ]
+    },
+    {
+      "type": "timeline", "ch": "2.3", "eyebrow": "Part 2 · Vedic astronomy",
+      "title": "Dates written in the sky",
+      "lede": "Elst's strongest evidence for an early date is astronomy. Some Vedic texts describe star positions that, because of the slow precession of the equinoxes, only held in particular eras.",
+      "items": [
+        ["1790", "John Playfair", "The Scottish mathematician argues that Hindu astronomical tables record real ancient observations, not later calculations back in time."],
+        ["18 Feb 3102 BC", "Start of the Kali Yuga", "Tradition records a conjunction of the seven planets near the star Revati on this date."],
+        ["Shatapatha Brahmana", "The Pleiades “never swerve from the East”", "Read as the spring equinox in the Pleiades, which fixes an early date."],
+        ["Baudhayana Shulba Sutra", "Altar geometry", "Includes the theorem usually credited to Pythagoras, along with a stellar marker (Regulus at the summer solstice)."],
+        ["Rigveda 5.40", "An eclipse", "An afternoon, non-total solar eclipse on the Kurukshetra meridian. Its conditions limit the possible dates."],
+        ["Rigveda 1.164.11", "A twelve-spoked wheel", "Possibly the Zodiac, which is usually dated to Babylon c. 600 BC."]
+      ],
+      "after": "His conclusion from this chapter: the Rigveda was completed by the 4th millennium BC, too early for an invasion in the 2nd."
+    },
+    {
+      "type": "table", "wide": true, "ch": "4.4", "eyebrow": "Parts 3–5 · the evidence, item by item",
+      "title": "Elst's scorecard",
+      "head": ["Evidence", "Usually read as", "Elst's reading"],
+      "rows": [
+        ["Linguistics", "Homeland on the steppes, with Sanskrit far from Proto-Indo-European", "Inconclusive. Arguments from plants and animals fail, and the language contacts point both ways."],
+        ["The horse", "Brought in by the invaders", "Horse remains at Harappan sites, Mohenjo-daro by 2500 BC at the latest. Absence of evidence is not evidence of absence."],
+        ["Mitanni (15th c. BC)", "Aryans on their way to India", "Kings in Mesopotamia with Vedic gods and Indic words, and no trace of a journey east."],
+        ["Vedic texts", "Memories of a foreign homeland", "No Urheimat (original homeland) is remembered. The Puranas instead record emigrations out of India."],
+        ["“Dasa”, “black”, “Asura”", "Dark-skinned natives defeated by fair invaders", "Following Ambedkar: these are moral or ritual terms, not racial ones."],
+        ["Physical anthropology", "Newcomers from Central Asia c. 1500 BC", "Hemphill and Christensen find no such influx. Kenoyer finds the indigenous population was not displaced."],
+        ["Archaeology (Sergent)", "Bactria and Pirak as stages of the invasion", "Ambiguous. Bactria reads as Iranian, and Harappa's decline needs no invaders."]
+      ]
+    },
+    {
+      "type": "compare", "ch": "6.3", "eyebrow": "Parts 3 and 6 · two models",
+      "title": "Where Indo-European began",
+      "cols": [
+        {"k": "Invasion model (Kurgan)", "items": ["Homeland on the Pontic–Caspian steppe, 5th–3rd millennium BC", "Westward into Europe as the Corded Ware culture, 3200–2300 BC", "Eastward through Bactria into India c. 1500 BC", "The Rigveda is composed after arrival"]},
+        {"k": "Elst's non-invasionist model", "items": ["Proto-Indo-European spoken in Punjab, Haryana and western UP in the 6th millennium BC", "Population growth pushes groups out, like the Druhyus of the Puranas", "Iranians leave before the Harappan heyday, and the Mitanni reach West Asia", "The Harappan civilisation is largely Vedic"]}
+      ]
+    },
+    {
+      "type": "cards", "ch": "6.2", "eyebrow": "Part 6 · what Elst concedes",
+      "title": "Not a closed case",
+      "items": [
+        ["Proof", "Neither side has it", "“Let us keep on doubting.” Elst says neither invasion nor indigenous origin is proven."],
+        ["Linguistics", "The weak spot", "He admits no linguistic argument yet decides for an Indian homeland."],
+        ["Overclaiming", "Indian excesses", "He criticises Indian authors who exaggerate, for example “Greater India” theories, or Rama in the Avesta."],
+        ["Linguistics as such", "Not a pseudo-science", "He disagrees with N.S. Rajaram on this."]
+      ]
+    },
+    {
+      "type": "quote", "ch": "1.6",
+      "q": "Why do serious scholars persist in believing in the Aryan invasions?",
+      "cite": "Edmund Leach, Provost of King's College, Cambridge, quoted by Elst"
+    }
+  ],
+  "footer": "Source: <em>Update on the Aryan Invasion Debate</em> by Koenraad Elst (Aditya Prakashan, New Delhi, 1999), read from the online edition at <a href=\"https://voibooks.bitbucket.io/ait/\">voibooks.bitbucket.io</a>. The note on today's scholarly consensus is added for context."
+}
