@@ -117,6 +117,22 @@ checks the book id and chapter number against `books.json`, and the event card s
 "Source: *Book title*, ch. 6 · read ↗". Use this for any timeline entry added or corrected
 because of a book.
 
+## Parampara
+
+Guru–shishya lineages live in `site/parampara/` and are listed in `site/parampara/parampara.json`,
+which feeds the **Parampara** row on the home page and `#/parampara` (same fields as a book card,
+with `guru` and `span` in place of author and date). Each lineage is two files: a data file
+`<id>.json` and a small page `<id>.html` (copy `ramakrishna.html` and change `data-lineage`).
+`lineage.js` draws the tree from the data file, so a new lineage needs no new code.
+
+The data file has `title`, `intro`, `note`, related `timelines`, and a `tree` of people:
+`{ "name", "alt", "dates", "kind", "role", "note", "tl", "children" }`. `kind` is `guru`, `monastic`,
+`householder`, `woman`, `western` or `influence` (influence draws a dashed line: influenced, not
+initiated). `tl` links a person to their Itihas timeline. `{ "group": "…", "children": [...] }`
+gathers siblings under a foldable label. `open` lists the branches that start unfolded and `select`
+the person shown first. An optional `succession` (`title`, `intro`, `list` of `name`, `years`, `note`)
+draws a numbered list of heads of the order below the tree. Nothing needs rebuilding.
+
 ## Map playback
 
 Every timeline's map has a **Play** button and a year slider. Playback runs through the years: places appear when their first event happens, pulse as events occur, and major events are captioned under the map. Timelines with `territories` also show borders changing over time (the Meiji timeline shows the Japanese empire growing).

@@ -1,0 +1,690 @@
+{
+ "id": "ramakrishna",
+ "eyebrow": "Guru–shishya parampara · Dakshineswar → Belur → the world",
+ "title": "Sri Ramakrishna and his disciples",
+ "intro": "Ramakrishna Paramahamsa was Vivekananda’s guru. This tree follows his direct disciples, their own disciples, and the people outside the order who said these teachings changed them.",
+ "note": "Dates are birth–death unless marked. Influence lines record what the person themselves wrote or said, not membership of the order.",
+ "timelines": [
+  "narendra-modi",
+  "bjp"
+ ],
+ "tree": {
+  "name": "Sri Ramakrishna Paramahamsa",
+  "alt": "Gadadhar Chattopadhyay",
+  "dates": "1836–1886",
+  "kind": "guru",
+  "role": "Priest of the Kali temple at Dakshineswar",
+  "note": "Learned Tantra from the Bhairavi Brahmani and Advaita Vedanta from the wandering monk Totapuri, who named him Ramakrishna. He also followed Vaishnava, Islamic and Christian practice and taught that every sincere path reaches the same God. He gave the ochre cloth to his young disciples shortly before his death at Cossipore in 1886.",
+  "children": [
+   {
+    "name": "Sri Sarada Devi",
+    "alt": "the Holy Mother",
+    "dates": "1853–1920",
+    "kind": "woman",
+    "role": "Wife, first disciple and spiritual mother of the order",
+    "note": "Ramakrishna worshipped her as the Divine Mother in 1872. After his death the young monks treated her as their guru. She gave initiation to thousands, and the Udbodhan house in Calcutta was built for her.",
+    "children": [
+     {
+      "name": "Swami Nikhilananda",
+      "dates": "1895–1973",
+      "kind": "monastic",
+      "role": "Founder, Ramakrishna-Vivekananda Center of New York (1933)",
+      "note": "Initiated by Sarada Devi. His English translation of The Gospel of Sri Ramakrishna (1942) is the version most readers in the West know.",
+      "children": [
+       {
+        "name": "Joseph Campbell",
+        "dates": "1904–1987",
+        "kind": "influence",
+        "role": "Mythologist",
+        "note": "Helped Nikhilananda edit the English of the Gospel translation, and later travelled in India. He spoke of the work as a turning point in his reading of Indian thought."
+       },
+       {
+        "name": "J. D. Salinger",
+        "dates": "1919–2010",
+        "kind": "influence",
+        "role": "Novelist",
+        "note": "Read the Gospel of Sri Ramakrishna and attended Nikhilananda's New York centre. Vedanta runs through his Glass family stories."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Swami Vivekananda",
+    "alt": "Narendranath Datta",
+    "dates": "1863–1902",
+    "kind": "monastic",
+    "role": "Chief disciple; founder of the Ramakrishna Math and Mission (1897)",
+    "note": "Met Ramakrishna in 1881 as a sceptical college student. Spoke at the Parliament of the World's Religions, Chicago, in 1893, taught Vedanta in America and England, and on return founded the Mission (1897) and Belur Math (1898). His motto: for one's own liberation and for the good of the world.",
+    "children": [
+     {
+      "group": "His monastic disciples",
+      "children": [
+       {
+        "name": "Swami Sadananda",
+        "alt": "Sharat Chandra Gupta",
+        "dates": "1865–1911",
+        "kind": "monastic",
+        "role": "First disciple",
+        "note": "Assistant station master at Hathras who left his post to follow the wandering Vivekananda in 1888."
+       },
+       {
+        "name": "Swami Swarupananda",
+        "dates": "1871–1906",
+        "kind": "monastic",
+        "role": "First president of Advaita Ashrama, Mayavati",
+        "note": "Edited the journal Prabuddha Bharata and translated the Bhagavad Gita into English."
+       },
+       {
+        "name": "Swami Shuddhananda",
+        "dates": "1872–1938",
+        "kind": "monastic",
+        "role": "5th president of the order (1938)",
+        "note": "Translated many of Vivekananda's English works into Bengali."
+       },
+       {
+        "name": "Swami Virajananda",
+        "dates": "1873–1951",
+        "kind": "monastic",
+        "role": "6th president of the order (1938–1951)",
+        "note": "Ran Advaita Ashrama at Mayavati for years and led the order through the war and Partition."
+       },
+       {
+        "name": "Swami Kalyanananda",
+        "dates": "1874–1937",
+        "kind": "monastic",
+        "role": "Founder of the Kankhal Sevashrama, Haridwar",
+        "note": "Set up a hospital for sick pilgrims and sadhus in 1901 at Vivekananda's bidding."
+       },
+       {
+        "name": "Swami Paramananda",
+        "dates": "1884–1940",
+        "kind": "monastic",
+        "role": "Founder, Vedanta Centre, Boston (1909)",
+        "note": "One of the youngest to take vows from Vivekananda. Later founded Ananda Ashrama in California."
+       }
+      ]
+     },
+     {
+      "group": "Western disciples & friends",
+      "children": [
+       {
+        "name": "Sister Nivedita",
+        "alt": "Margaret Elizabeth Noble",
+        "dates": "1867–1911",
+        "kind": "western",
+        "role": "Disciple; educator and nationalist",
+        "note": "Irish teacher who met Vivekananda in London in 1895 and took vows in 1898. Opened a girls' school in Bagbazar, nursed plague victims, and backed Indian scientists, artists and nationalists.",
+        "children": [
+         {
+          "name": "Jagadish Chandra Bose",
+          "dates": "1858–1937",
+          "kind": "influence",
+          "role": "Physicist and plant physiologist",
+          "note": "Nivedita edited his books and helped raise support for his research."
+         },
+         {
+          "name": "Abanindranath Tagore",
+          "dates": "1871–1951",
+          "kind": "influence",
+          "role": "Painter, Bengal School",
+          "note": "Nivedita championed an Indian style of art and wrote in support of the Bengal School."
+         }
+        ]
+       },
+       {
+        "name": "Sister Christine",
+        "alt": "Christine Greenstidel",
+        "dates": "1866–1930",
+        "kind": "western",
+        "role": "Disciple",
+        "note": "Heard him in Detroit in 1894, came to Calcutta in 1902 and taught at Nivedita's school."
+       },
+       {
+        "name": "Josephine MacLeod",
+        "dates": "1858–1949",
+        "kind": "western",
+        "role": "Lifelong friend and devotee",
+        "note": "Called 'Tantine' by the monks. Travelled with Vivekananda and introduced many Westerners to the order."
+       },
+       {
+        "name": "Sara Chapman Bull",
+        "dates": "1850–1911",
+        "kind": "western",
+        "role": "Patron",
+        "note": "Widow of the violinist Ole Bull; gave much of the money for Belur Math."
+       },
+       {
+        "name": "J. J. Goodwin",
+        "dates": "1870–1898",
+        "kind": "western",
+        "role": "Stenographer and disciple",
+        "note": "Took down Vivekananda's lectures in shorthand. Most of the talks we have survive because of him."
+       },
+       {
+        "name": "Captain & Charlotte Sevier",
+        "dates": "1843–1900 · 1847–1930",
+        "kind": "western",
+        "role": "Founders of Advaita Ashrama, Mayavati (1899)",
+        "note": "English couple who met him in 1896 and built the Himalayan ashrama he had asked for."
+       },
+       {
+        "name": "Swami Abhayananda",
+        "alt": "Marie Louise",
+        "kind": "western",
+        "role": "Took sannyasa in New York, 1895",
+        "note": "One of the first Westerners Vivekananda initiated as a monastic."
+       },
+       {
+        "name": "Swami Kripananda",
+        "alt": "Leon Landsberg",
+        "kind": "western",
+        "role": "Took sannyasa in New York, 1895",
+        "note": "A journalist who helped organise the New York classes."
+       }
+      ]
+     },
+     {
+      "group": "Indian disciples & patrons",
+      "children": [
+       {
+        "name": "Raja Ajit Singh of Khetri",
+        "dates": "1861–1901",
+        "kind": "householder",
+        "role": "Disciple and patron",
+        "note": "Paid for the voyage to Chicago. Tradition holds that he suggested the name Vivekananda."
+       },
+       {
+        "name": "Alasinga Perumal",
+        "dates": "1865–1909",
+        "kind": "householder",
+        "role": "Madras disciple",
+        "note": "Schoolteacher who raised the funds for Chicago and started the journal Brahmavadin."
+       },
+       {
+        "name": "Sarat Chandra Chakravarty",
+        "kind": "householder",
+        "role": "Disciple and chronicler",
+        "note": "Recorded his talks with Vivekananda in Bengali as Swami-Shishya Samvada."
+       }
+      ]
+     },
+     {
+      "group": "Influenced by Vivekananda",
+      "children": [
+       {
+        "name": "Mahatma Gandhi",
+        "dates": "1869–1948",
+        "kind": "influence",
+        "role": "Leader of the freedom movement",
+        "note": "Visited Belur Math in 1921 and said that reading Vivekananda had increased his love for his country a thousandfold."
+       },
+       {
+        "name": "Rabindranath Tagore",
+        "dates": "1861–1941",
+        "kind": "influence",
+        "role": "Poet, Nobel laureate",
+        "note": "Told Romain Rolland that whoever wants to know India should study Vivekananda."
+       },
+       {
+        "name": "Sri Aurobindo",
+        "dates": "1872–1950",
+        "kind": "influence",
+        "role": "Revolutionary, then yogi",
+        "note": "Wrote that during his imprisonment at Alipore (1908) he heard Vivekananda's voice guiding his practice."
+       },
+       {
+        "name": "Subhas Chandra Bose",
+        "dates": "1897–1945",
+        "kind": "influence",
+        "role": "Nationalist leader",
+        "note": "Read Vivekananda as a schoolboy and called him the maker of modern India."
+       },
+       {
+        "name": "Bal Gangadhar Tilak",
+        "dates": "1856–1920",
+        "kind": "influence",
+        "role": "Nationalist leader",
+        "note": "Hosted the still unknown monk in Pune in 1892."
+       },
+       {
+        "name": "Jamsetji Tata",
+        "dates": "1839–1904",
+        "kind": "influence",
+        "role": "Industrialist",
+        "note": "Sailed with Vivekananda to America in 1893. His 1898 letter asking him to lead a research institute led towards the Indian Institute of Science."
+       },
+       {
+        "name": "Nikola Tesla",
+        "dates": "1856–1943",
+        "kind": "influence",
+        "role": "Inventor",
+        "note": "Met him in New York in 1896 and discussed the Vedantic ideas of prana and akasha."
+       },
+       {
+        "name": "William James",
+        "dates": "1842–1910",
+        "kind": "influence",
+        "role": "Psychologist and philosopher",
+        "note": "Met him at Harvard in 1896 and quoted him in The Varieties of Religious Experience."
+       },
+       {
+        "name": "C. Rajagopalachari",
+        "dates": "1878–1972",
+        "kind": "influence",
+        "role": "Statesman",
+        "note": "Said Vivekananda saved Hinduism and saved India."
+       },
+       {
+        "name": "Eknath Ranade",
+        "dates": "1914–1982",
+        "kind": "influence",
+        "role": "Builder of the Vivekananda Rock Memorial",
+        "note": "Raised the Kanyakumari memorial (1970) on the rock where Vivekananda meditated in 1892, and founded Vivekananda Kendra (1972)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": "Other monastic disciples",
+    "children": [
+     {
+      "name": "Swami Brahmananda",
+      "alt": "Rakhal Chandra Ghosh",
+      "dates": "1863–1922",
+      "kind": "monastic",
+      "role": "1st president of the order (1901–1922)",
+      "note": "Ramakrishna called him his spiritual son. Vivekananda handed him the running of the order.",
+      "children": [
+       {
+        "name": "Swami Prabhavananda",
+        "dates": "1893–1976",
+        "kind": "monastic",
+        "role": "Founder, Vedanta Society of Southern California (1930)",
+        "note": "Translated the Gita and Upanishads with Christopher Isherwood. His Hollywood centre drew writers and thinkers.",
+        "children": [
+         {
+          "name": "Christopher Isherwood",
+          "dates": "1904–1986",
+          "kind": "influence",
+          "role": "Novelist; disciple of Prabhavananda",
+          "note": "Wrote Ramakrishna and His Disciples (1965) and My Guru and His Disciple (1980)."
+         },
+         {
+          "name": "Aldous Huxley",
+          "dates": "1894–1963",
+          "kind": "influence",
+          "role": "Novelist and essayist",
+          "note": "Joined Prabhavananda's circle; The Perennial Philosophy (1945) grew from it. Wrote the foreword to the Gospel translation."
+         },
+         {
+          "name": "Gerald Heard",
+          "dates": "1889–1971",
+          "kind": "influence",
+          "role": "Writer and broadcaster",
+          "note": "Brought Huxley and Isherwood to Prabhavananda."
+         }
+        ]
+       },
+       {
+        "name": "Swami Yatiswarananda",
+        "dates": "1889–1966",
+        "kind": "monastic",
+        "role": "Taught in Europe and America; vice-president of the order",
+        "note": "Ran Vedanta work in Germany and Switzerland in the 1930s and in Philadelphia."
+       },
+       {
+        "name": "Swami Shankarananda",
+        "dates": "1880–1962",
+        "kind": "monastic",
+        "role": "7th president (1951–1962)",
+        "note": "Oversaw the order's expansion after Independence."
+       }
+      ]
+     },
+     {
+      "name": "Swami Shivananda",
+      "alt": "Tarak Nath Ghosal",
+      "dates": "1854–1934",
+      "kind": "monastic",
+      "role": "2nd president (1922–1934)",
+      "note": "Known as Mahapurush Maharaj. Initiated a large number of the next generation of monks.",
+      "children": [
+       {
+        "name": "Swami Ranganathananda",
+        "dates": "1908–2005",
+        "kind": "monastic",
+        "role": "13th president (1998–2005)",
+        "note": "Initiated by Shivananda in 1926. Lectured worldwide on the Gita, Upanishads and Vivekananda; awarded the Padma Vibhushan, which he declined."
+       }
+      ]
+     },
+     {
+      "name": "Swami Akhandananda",
+      "alt": "Gangadhar Ghatak",
+      "dates": "1864–1937",
+      "kind": "monastic",
+      "role": "3rd president (1934–1937)",
+      "note": "Began the order's first famine relief, in Murshidabad in 1897, and ran an orphanage at Sargachhi.",
+      "children": [
+       {
+        "name": "M. S. Golwalkar",
+        "dates": "1906–1973",
+        "kind": "householder",
+        "role": "Second sarsanghchalak of the RSS (1940–1973)",
+        "note": "Lived at Sargachhi and received initiation from Akhandananda in 1937, shortly before his guru died."
+       }
+      ]
+     },
+     {
+      "name": "Swami Vijnanananda",
+      "alt": "Hari Prasanna Chatterjee",
+      "dates": "1868–1938",
+      "kind": "monastic",
+      "role": "4th president (1937–1938)",
+      "note": "A trained engineer who supervised the building of the Ramakrishna temple at Belur Math. Lived mostly at Allahabad.",
+      "children": [
+       {
+        "name": "Swami Atmasthananda",
+        "dates": "1919–2017",
+        "kind": "monastic",
+        "role": "15th president (2007–2017)",
+        "note": "Initiated by Vijnanananda in 1938. Led relief work in many disasters and headed the Rajkot ashrama.",
+        "children": [
+         {
+          "name": "Narendra Modi",
+          "dates": "b. 1950",
+          "kind": "influence",
+          "role": "Prime Minister of India",
+          "note": "As a young man spent time at Belur Math and the Rajkot ashrama and has called Atmasthananda his mentor; he was advised to serve society rather than become a monk.",
+          "tl": "narendra-modi"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Swami Saradananda",
+      "alt": "Sarat Chandra Chakravarty",
+      "dates": "1865–1927",
+      "kind": "monastic",
+      "role": "Secretary of the order (1898–1927)",
+      "note": "Wrote Sri Ramakrishna Lilaprasanga (Sri Ramakrishna, the Great Master) and built the Udbodhan house for Sarada Devi."
+     },
+     {
+      "name": "Swami Ramakrishnananda",
+      "alt": "Shashi Bhushan Chakravarty",
+      "dates": "1863–1911",
+      "kind": "monastic",
+      "role": "Founder of the Madras Math (1897)",
+      "note": "Kept the daily worship of Ramakrishna's relics at Baranagar for years."
+     },
+     {
+      "name": "Swami Turiyananda",
+      "alt": "Harinath Chattopadhyay",
+      "dates": "1863–1922",
+      "kind": "monastic",
+      "role": "Founder of Shanti Ashrama, California (1900)",
+      "note": "Went to America with Vivekananda in 1899."
+     },
+     {
+      "name": "Swami Abhedananda",
+      "alt": "Kaliprasad Chandra",
+      "dates": "1866–1939",
+      "kind": "monastic",
+      "role": "Led the Vedanta Society of New York",
+      "note": "Taught in America for about 25 years; later founded the Ramakrishna Vedanta Math in Calcutta (1923)."
+     },
+     {
+      "name": "Swami Trigunatitananda",
+      "alt": "Sarada Prasanna Mitra",
+      "dates": "1865–1915",
+      "kind": "monastic",
+      "role": "Founder of Udbodhan magazine (1899)",
+      "note": "Built the Hindu Temple of San Francisco (1905), the first in the West."
+     },
+     {
+      "name": "Swami Premananda",
+      "alt": "Baburam Ghosh",
+      "dates": "1861–1918",
+      "kind": "monastic",
+      "role": "Manager of Belur Math",
+      "note": "Known for looking after every visitor and devotee at the Math."
+     },
+     {
+      "name": "Swami Yogananda",
+      "alt": "Yogindranath Roy Choudhury",
+      "dates": "1861–1899",
+      "kind": "monastic",
+      "role": "Attendant of Sarada Devi",
+      "note": "The first of the direct monastic disciples to die."
+     },
+     {
+      "name": "Swami Niranjanananda",
+      "alt": "Nityaniranjan Ghosh",
+      "dates": "1862–1904",
+      "kind": "monastic",
+      "role": "Attendant at Cossipore",
+      "note": "Nursed Ramakrishna in his last illness."
+     },
+     {
+      "name": "Swami Adbhutananda",
+      "alt": "Latu",
+      "dates": "d. 1920",
+      "kind": "monastic",
+      "role": "Unlettered disciple from Bihar",
+      "note": "Came to Dakshineswar as a servant boy. Vivekananda called him Ramakrishna's greatest miracle."
+     },
+     {
+      "name": "Swami Subodhananda",
+      "alt": "Subodh Chandra Ghosh",
+      "dates": "1867–1932",
+      "kind": "monastic",
+      "role": "Known as Khoka Maharaj",
+      "note": "One of the youngest disciples; did relief work in Bengal and Odisha."
+     },
+     {
+      "name": "Swami Advaitananda",
+      "alt": "Gopal Chandra Ghosh",
+      "dates": "1828–1909",
+      "kind": "monastic",
+      "role": "Eldest disciple",
+      "note": "Supervised the first works at Belur Math."
+     }
+    ]
+   },
+   {
+    "group": "Householder disciples",
+    "children": [
+     {
+      "name": "Mahendranath Gupta",
+      "alt": "'M'",
+      "dates": "1854–1932",
+      "kind": "householder",
+      "role": "Author of Sri Sri Ramakrishna Kathamrita",
+      "note": "A headmaster who kept a diary of Ramakrishna's conversations from 1882. It became the Kathamrita, published in English as The Gospel of Sri Ramakrishna."
+     },
+     {
+      "name": "Girish Chandra Ghosh",
+      "dates": "1844–1912",
+      "kind": "householder",
+      "role": "Playwright and actor",
+      "note": "Father of the Bengali stage. A drinker whom Ramakrishna accepted as he was."
+     },
+     {
+      "name": "Nag Mahashay",
+      "alt": "Durga Charan Nag",
+      "dates": "1846–1899",
+      "kind": "householder",
+      "role": "Homeopath from East Bengal",
+      "note": "Held up by Vivekananda as the ideal householder disciple."
+     },
+     {
+      "name": "Balaram Bose",
+      "dates": "1842–1890",
+      "kind": "householder",
+      "role": "Host",
+      "note": "His Baghbazar house was where the disciples met, and where the Mission was founded in 1897."
+     },
+     {
+      "name": "Suresh Chandra Mitra",
+      "dates": "1850–1890",
+      "kind": "householder",
+      "role": "Supporter of the Baranagar monastery",
+      "note": "Paid the rent of the Baranagar house, the first home of the young monks after 1886."
+     }
+    ]
+   },
+   {
+    "group": "Women disciples",
+    "children": [
+     {
+      "name": "Gauri Ma",
+      "dates": "1857–1938",
+      "kind": "woman",
+      "role": "Founder of Saradeswari Ashrama (1895)",
+      "note": "Started one of the first ashramas in Bengal for the education of women and girls."
+     },
+     {
+      "name": "Gopaler Ma",
+      "alt": "Aghoremoni Devi",
+      "dates": "1822–1906",
+      "kind": "woman",
+      "role": "Devotee of the child Krishna",
+      "note": "Saw Ramakrishna as Gopala. Spent her last years in Nivedita's house."
+     },
+     {
+      "name": "Yogin Ma",
+      "alt": "Yogindra Mohini Biswas",
+      "dates": "1851–1924",
+      "kind": "woman",
+      "role": "Companion of Sarada Devi",
+      "note": "Gave Swami Saradananda much of the material for his life of Ramakrishna."
+     },
+     {
+      "name": "Golap Ma",
+      "alt": "Annapurna Devi",
+      "dates": "d. 1924",
+      "kind": "woman",
+      "role": "Companion of Sarada Devi",
+      "note": "Looked after the Holy Mother's household at Udbodhan."
+     }
+    ]
+   },
+   {
+    "group": "Influenced by Ramakrishna",
+    "children": [
+     {
+      "name": "Keshab Chandra Sen",
+      "dates": "1838–1884",
+      "kind": "influence",
+      "role": "Brahmo Samaj leader",
+      "note": "Met Ramakrishna in 1875 and wrote about him in his journals, which first made him known to educated Calcutta."
+     },
+     {
+      "name": "Max Müller",
+      "dates": "1823–1900",
+      "kind": "influence",
+      "role": "Indologist, Oxford",
+      "note": "Wrote Ramakrishna: His Life and Sayings (1898) with material supplied by Vivekananda."
+     },
+     {
+      "name": "Romain Rolland",
+      "dates": "1866–1944",
+      "kind": "influence",
+      "role": "French writer, Nobel laureate",
+      "note": "Wrote The Life of Ramakrishna (1929) and The Life of Vivekananda (1930), which brought both to European readers."
+     }
+    ]
+   }
+  ]
+ },
+ "open": [
+  "Swami Vivekananda"
+ ],
+ "select": "Swami Vivekananda",
+ "succession": {
+  "title": "Presidents of the Ramakrishna Math and Mission",
+  "intro": "The order Vivekananda founded in 1897 has been led by a single president since Brahmananda. The first six were direct disciples of Ramakrishna or of Vivekananda. Click one to find them in the tree.",
+  "list": [
+   {
+    "name": "Swami Brahmananda",
+    "years": "1901–1922",
+    "note": "disciple of Ramakrishna"
+   },
+   {
+    "name": "Swami Shivananda",
+    "years": "1922–1934",
+    "note": "disciple of Ramakrishna"
+   },
+   {
+    "name": "Swami Akhandananda",
+    "years": "1934–1937",
+    "note": "disciple of Ramakrishna"
+   },
+   {
+    "name": "Swami Vijnanananda",
+    "years": "1937–1938",
+    "note": "disciple of Ramakrishna"
+   },
+   {
+    "name": "Swami Shuddhananda",
+    "years": "1938",
+    "note": "disciple of Vivekananda"
+   },
+   {
+    "name": "Swami Virajananda",
+    "years": "1938–1951",
+    "note": "disciple of Vivekananda"
+   },
+   {
+    "name": "Swami Shankarananda",
+    "years": "1951–1962",
+    "note": "disciple of Brahmananda"
+   },
+   {
+    "name": "Swami Vishuddhananda",
+    "years": "1962"
+   },
+   {
+    "name": "Swami Madhavananda",
+    "years": "1962–1965"
+   },
+   {
+    "name": "Swami Vireswarananda",
+    "years": "1966–1985"
+   },
+   {
+    "name": "Swami Gambhirananda",
+    "years": "1985–1988"
+   },
+   {
+    "name": "Swami Bhuteshananda",
+    "years": "1989–1998"
+   },
+   {
+    "name": "Swami Ranganathananda",
+    "years": "1998–2005",
+    "note": "disciple of Shivananda"
+   },
+   {
+    "name": "Swami Gahanananda",
+    "years": "2005–2007"
+   },
+   {
+    "name": "Swami Atmasthananda",
+    "years": "2007–2017",
+    "note": "disciple of Vijnanananda"
+   },
+   {
+    "name": "Swami Smaranananda",
+    "years": "2017–2024"
+   },
+   {
+    "name": "Swami Gautamananda",
+    "years": "2024–"
+   }
+  ]
+ }
+}
