@@ -1,0 +1,71 @@
+{
+  "title": "Collapsing Pakistan",
+  "byline": "compiled and edited by <b>Dr. N.S. Rajaram</b> · Voice of India · c. 2001",
+  "lede": "A short collection on a single prediction. N.S. Rajaram argues that Pakistan is a small productive Punjab trying to rule a vast, lawless frontier with Islam as its only glue, and that the state was heading for collapse. He builds on two pieces of reporting from 2000, which the book reprints: Robert Kaplan's tour of Quetta, Peshawar and Karachi for <em>The Atlantic</em>, and Jeffrey Goldberg's weeks inside the Haqqania madrasa, a school that trained many Taliban leaders.",
+  "facts": [["3", "pieces: Rajaram's essay and two magazine reports from 2000"], ["148 million", "Pakistan's population in 2000, growing 2.6% a year, per Kaplan"], ["2,800", "students at the Haqqania madrasa, which placed more graduates in the Taliban leadership than any other school"], ["28 May 1998", "Pakistan's nuclear tests, celebrated with roadside monuments"]],
+  "note": "Rajaram's essay is a forecast written from an Indian nationalist standpoint. The two reports are American journalism, summarised briefly here. Events after the book are added and marked “since the book”, so the forecast can be checked against what happened.",
+  "sections": [
+    {
+      "type": "compare", "ch": 1, "eyebrow": "Chapter 1 · Rajaram's thesis",
+      "title": "A Punjabi core and an unruly frontier",
+      "lede": "Rajaram takes his framework from Kaplan: Pakistan is not one nation but a core holding down its edges, held together only by Islam and by enmity with India.",
+      "cols": [
+        {"k": "The core", "h": "Punjab", "items": ["Small and productive", "Run by a Punjabi elite with Mohajir allies, such as Musharraf", "Defines itself only against India, which a Pakistani journalist tells Kaplan is “our tragedy”"]},
+        {"k": "The frontier", "h": "Baluchistan, the NWFP, tribal areas", "items": ["Vast, poor, armed", "Run on smuggling, heroin and tribal law", "Never accepted the 1893 Durand Line", "Open to the Taliban networks Pakistan itself created"]}
+      ],
+      "after": "His prediction: Pakistan would not fall quietly like the Soviet Union but break up violently like Yugoslavia, shrinking to Punjab east of the Indus, which in his view should “rejoin India its natural home”."
+    },
+    {
+      "type": "cards", "ch": 2, "eyebrow": "Chapter 2 · Kaplan, “The Lawless Frontier”",
+      "title": "Three cities, three fault lines",
+      "items": [
+        ["Baluchistan", "Quetta", "Drought, a Pashtun separatist party raided by the army, and strikes against taxing cross-border smuggling. A tribal chief says the state wants to end the tribal system “but there are no institutions to replace it”."],
+        ["North-West Frontier", "Peshawar", "Doubled to a million people in the 1980s with Afghan refugees and the heroin route. Sectarian violence follows the tribal divides."],
+        ["Sindh", "Karachi", "14 million people, only a quarter of them native Sindhis, and at least a quarter living in <i>katchi abadis</i> (makeshift houses). Contract killers committed 629 murders in ten months of 1998, none solved."]
+      ]
+    },
+    {
+      "type": "timeline", "ch": 2, "eyebrow": "Chapter 2 · the political cycle",
+      "title": "“One group imprisons another, only to be imprisoned itself”",
+      "lede": "Kaplan's summary of Pakistani politics, with the Afghan story running alongside it.",
+      "items": [
+        {"era": "Before 1990", "color": 1},
+        ["1893", "Durand Line drawn", "A boundary the Pashtuns never accepted."],
+        ["1947", "Partition", "The frontier's few entrepreneurs, mostly Hindus, leave."],
+        ["1971", "War with India", "Zulfikar Ali Bhutto comes to power."],
+        ["1973", "A failed coup", "Major Farouk Adam Khan spends five years in prison, part of it in Attock Fort. By 2000 he is Musharraf's prosecutor."],
+        ["1977", "Zia's coup", "After a rigged election and martial law. Zia allies the army with Sunni radicals."],
+        ["1979–89", "Afghan war", "The CIA finances it and the ISI manages it. Foreign money hides Pakistan's weakness, Rajaram says."],
+        {"era": "1988–2000", "color": 0},
+        ["1988", "Zia dies in an air crash", "Benazir Bhutto is elected. Her husband's thefts undermine her government."],
+        ["1990s", "Nawaz Sharif", "Runs the country “as a family enterprise”, according to Kaplan."],
+        ["1994", "The Taliban emerge in Kandahar", "Hamid Karzai tells Kaplan he helped them, until Pakistani intelligence took over the movement."],
+        ["1996", "Taliban take Kabul", "They go on to hold 80% of Afghanistan."],
+        ["28 May 1998", "Nuclear tests", ""],
+        ["Oct 1999", "Musharraf's coup", "Sharif is later arraigned at Attock Fort."],
+        ["2000", "Kaplan and Goldberg report", "The book's sources."],
+        {"era": "Since the book", "color": 4},
+        ["2001", "After 9/11", "Pakistan becomes a US ally against the Taliban, and money flows again.", 1],
+        ["2008", "Musharraf resigns", "Civilian rule returns.", 1],
+        ["2026", "Still one state", "Pakistan has not broken up as the book predicted, though Baluchistan and the frontier remain insurgent.", 1]
+      ]
+    },
+    {
+      "type": "steps", "ch": 3, "eyebrow": "Chapter 3 · Goldberg, “Inside Jihad U”",
+      "title": "A day at the Haqqania madrasa",
+      "lede": "Goldberg enrolled for some weeks at the school of Maulana Samiul Haq, a Deobandi politician who gave Mullah Omar the school's only honorary degree.",
+      "items": [
+        ["Ages 8–35", "Free tuition, room and board", "Funded by wealthy Pakistanis and Gulf donors. The students are mostly very poor."],
+        ["6 months – 3 years", "Memorising the Quran", "In Arabic, a language the youngest boys do not understand."],
+        ["In class", "Politics as religion", "Students cheer the idea of Osama bin Laden with a nuclear bomb."],
+        ["Afterwards", "To Kandahar", "Many graduates join the Taliban, and Kashmir is presented as jihad."]
+      ]
+    },
+    {
+      "type": "quote", "ch": 1,
+      "q": "Pakistan will not crumble quietly.",
+      "cite": "N.S. Rajaram, “Meltdown in Pakistan”"
+    }
+  ],
+  "footer": "Source: <em>Collapsing Pakistan</em>, compiled and edited by N.S. Rajaram (Voice of India), read from the online edition at <a href=\"https://voibooks.bitbucket.io/cpak/\">voibooks.bitbucket.io</a>. It reprints Robert Kaplan, “The Lawless Frontier”, <em>The Atlantic</em> (September 2000), and Jeffrey Goldberg's report from the Haqqania madrasa (2000). Entries marked “since the book” are added from the public record."
+}
