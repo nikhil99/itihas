@@ -1,0 +1,260 @@
+{
+  "title": "Muslim League Attack on Sikhs and Hindus in the Punjab, 1947",
+  "byline": "compiled by <b>S. Gurbachan Singh Talib</b>, Principal of Lyallpur Khalsa College · Shiromani Gurdwara Parbandhak Committee, 1950 · Voice of India reprint, 1991, with an introduction by Ram Swarup",
+  "lede": "Compiled in 1947 and published in 1950 by the SGPC, the body that manages Sikh gurdwaras, this is a record of the uprooting of more than seven million Hindus and Sikhs from West Punjab, the Frontier, Sindh and the parts of Kashmir held by raiders. Talib argues that the violence was planned by the Muslim League to make Pakistan purely Muslim, and he answers the League's claim that Sikhs started it. Half the book is evidence: about fifty eyewitness statements and official reports, and a numbered list of almost 600 atrocities.",
+  "facts": [
+    [
+      "7 million+",
+      "Hindus and Sikhs uprooted, by the book's count"
+    ],
+    [
+      "49",
+      "appended statements and reports, many to the Chief Liaison Officer, Lahore"
+    ],
+    [
+      "592",
+      "numbered entries in the list of atrocities"
+    ],
+    [
+      "90",
+      "women of Thoha Khalsa (Rawalpindi) who drowned themselves in a well in March 1947, as <em>The Statesman</em> reported"
+    ]
+  ],
+  "related": [
+    [
+      "british-india",
+      "British India timeline"
+    ]
+  ],
+  "note": "This is a partisan record from one side of the Partition massacres, compiled to assign blame. Hindus, Sikhs and Muslims all committed and suffered atrocities in 1947, including in East Punjab. Historians estimate that between several hundred thousand and two million people died across the subcontinent. This page summarises what this book documents and argues, without its graphic detail.",
+  "sections": [
+    {
+      "type": "timeline",
+      "ch": 2,
+      "eyebrow": "Chapters 1–11 · the course of events",
+      "title": "From Direct Action to the Kashmir raid",
+      "items": [
+        {
+          "era": "Prelude",
+          "color": 2
+        },
+        [
+          "1930s–40",
+          "The Pakistan idea",
+          "Talib traces the League's aim of a Muslim state “not encumbered” with non-Muslims."
+        ],
+        [
+          "16 Aug 1946",
+          "Direct Action Day",
+          "Called by the League after the Cabinet Mission plan, followed by the Calcutta killings."
+        ],
+        {
+          "era": "West Punjab and the Frontier",
+          "color": 0
+        },
+        [
+          "Mar 1947",
+          "Rawalpindi and the north-west",
+          "Villages attacked, including Thoha Khalsa. The gurdwara at Dehra Sahib attacked."
+        ],
+        [
+          "Apr 1947",
+          "Gandhi–Jinnah peace appeal",
+          "Talib argues the League ignored it in practice."
+        ],
+        [
+          "1947",
+          "Frontier Province, Dera Ismail Khan",
+          ""
+        ],
+        [
+          "Aug 1947",
+          "Around 15 August",
+          "Amritsar and then “West Punjab ablaze”: Sheikhupura, Gujranwala, Lyallpur, Sharaqpur."
+        ],
+        [
+          "Sep–Dec 1947",
+          "Refugee trains and columns",
+          "Attacks on trains, abductions, forced conversions."
+        ],
+        {
+          "era": "Kashmir and after",
+          "color": 3
+        },
+        [
+          "Oct 1947",
+          "Raiders in Kashmir",
+          "Muzaffarabad and Mirpur."
+        ],
+        [
+          "Jan 1948",
+          "Gujrat and Parachinar train massacres",
+          "Reports by the Chief Liaison Officer."
+        ],
+        [
+          "Apr 1948",
+          "Rajouri",
+          "Found razed after the raiders retreated (<em>Hindustan Times</em>)."
+        ],
+        [
+          "1947–48",
+          "Sindh",
+          "Pressure on Hindus to leave."
+        ]
+      ]
+    },
+    {
+      "type": "chips",
+      "eyebrow": "Appendices I–XLIX · where the statements come from",
+      "title": "Places named in the eyewitness accounts",
+      "key": [
+        "West Punjab",
+        "Frontier and Kashmir"
+      ],
+      "items": [
+        [
+          "Jhelum",
+          0
+        ],
+        [
+          "Khewra",
+          0
+        ],
+        [
+          "Gujrat",
+          0
+        ],
+        [
+          "Sheikhupura",
+          0
+        ],
+        [
+          "Sharaqpur",
+          0
+        ],
+        [
+          "Gujranwala",
+          0
+        ],
+        [
+          "Kamoke",
+          0
+        ],
+        [
+          "Thoha Khalsa (Rawalpindi)",
+          0
+        ],
+        [
+          "Lyallpur",
+          0
+        ],
+        [
+          "Sargodha",
+          0
+        ],
+        [
+          "Pind Dadan Khan",
+          0
+        ],
+        [
+          "Dandot",
+          0
+        ],
+        [
+          "Lahore",
+          0
+        ],
+        [
+          "Sialkot",
+          0
+        ],
+        [
+          "Mianwali",
+          0
+        ],
+        [
+          "Kalabagh",
+          0
+        ],
+        [
+          "Campbellpur",
+          0
+        ],
+        [
+          "Parachinar",
+          1
+        ],
+        [
+          "Kohat",
+          1
+        ],
+        [
+          "Dera Ismail Khan",
+          1
+        ],
+        [
+          "Muzaffarabad",
+          1
+        ],
+        [
+          "Mirpur",
+          1
+        ],
+        [
+          "Rajouri",
+          1
+        ],
+        [
+          "Kotli",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "cards",
+      "ch": 12,
+      "eyebrow": "Chapters 12–13 · the argument",
+      "title": "Two questions Talib answers",
+      "items": [
+        [
+          "Ch. 12",
+          "Did Sikhs and Hindus leave Pakistan voluntarily?",
+          "No. He argues they were driven out by planned violence."
+        ],
+        [
+          "Ch. 13",
+          "Did the Sikhs have a “plan”?",
+          "He rejects the League's charge that Sikhs prepared the massacres, and presents Sikh violence as retaliation."
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "The evidence",
+      "title": "What kinds of documents the book collects",
+      "items": [
+        [
+          "Statements",
+          "Survivors",
+          "Widows, girls, policemen and tehsildars, mostly recorded by the Chief Liaison Officers in Lahore."
+        ],
+        [
+          "Official reports",
+          "Liaison officers and magistrates",
+          "On trains, abductions and recoveries."
+        ],
+        [
+          "Press",
+          "<em>The Statesman</em>, <em>Hindustan Times</em>, <em>Civil &amp; Military Gazette</em>",
+          ""
+        ],
+        [
+          "List",
+          "592 atrocities",
+          "Numbered entries by place."
+        ]
+      ]
+    }
+  ],
+  "footer": "Source: <em>Muslim League Attack on Sikhs and Hindus in the Punjab, 1947</em>, compiled by S. Gurbachan Singh Talib (SGPC, 1950; Voice of India reprint), read from the online edition at <a href=\"https://voibooks.bitbucket.io/mla/\">voibooks.bitbucket.io</a>. The note on overall casualties is added from the standard histories."
+}
