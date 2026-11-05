@@ -1,0 +1,37 @@
+{
+  "title": "Theory and Practice of Muslim State in India",
+  "byline": "by <b>K.S. Lal</b> · Aditya Prakashan, New Delhi · 1999",
+  "lede": "Fifty years after his first article on the subject (October 1947), Lal sets out what he says earlier histories, his own included, left out. Instead of describing the Delhi Sultanate (1206–1526) and the Mughal empire (1526–1707) from the chronicles alone, he sets their administration against Islamic scripture and law: the Quran, the Hadis, the biographies of the Prophet and the Shariat. His claim is that kings and conquerors acted largely as those texts directed. He follows the state through its duties, its income and its spending, then argues the same ideas shape Muslim politics in India today, and closes with a long reply to his reviewers.",
+  "facts": [["4", "duties of the Islamic ruler, per Ruben Levy: justice, taxation, Friday prayer, jihad"], ["4", "major taxes: zakat from Muslims; khums, jizya and kharaj from non-Muslims"], ["⅕", "<i>khums</i>: the state's share of war booty"], ["1947–1999", "Lal's half-century of writing on the Muslim state"]],
+  "related": [["delhi-sultanate", "Delhi Sultanate timeline"], ["mughal-empire", "Mughal Empire timeline"]],
+  "note": "Lal argues that Islamic doctrine shaped how Muslim rulers in India governed. Other historians weigh politics, economics and local custom more heavily. His interpretation is summarised here as his.",
+  "sections": [
+    {
+      "type": "steps", "ch": 3, "eyebrow": "Chapter 3 · obligations of the state",
+      "title": "The ruler's four duties",
+      "items": [["1", "Jihad", "Lal takes this first: expansion and the defence of the faith."], ["2", "Justice", "Judgement according to the Shariat, by qazis."], ["3", "Taxation", "Collecting the canonical revenues."], ["4", "Friday service", "Leading, or providing for, communal prayer."]]
+    },
+    {
+      "type": "table", "wide": true, "ch": 4, "eyebrow": "Chapter 4 · income of the state",
+      "title": "Four taxes, and who paid them",
+      "head": ["Tax", "What it was", "Paid by"],
+      "rows": [["Zakat", "The religious alms tax", "Muslims"], ["Khums", "One-fifth of booty taken in war on unbelievers. The other four-fifths went to the fighters.", "Taken from non-Muslims (spoils)"], ["Jizya", "The poll tax on protected non-Muslims", "Non-Muslims"], ["Kharaj", "Land tax, the main revenue", "Chiefly non-Muslim cultivators"], ["Abwab", "Extra cesses outside the canon, often more than the rest", "Everyone, in practice"]]
+    },
+    {
+      "type": "cards", "ch": 5, "eyebrow": "Chapter 5 · expenditure of the state",
+      "title": "Where the money went",
+      "items": [["Court", "Harems of kings and nobles", "A large and constant charge."], ["Building", "Forts, palaces, mosques and tombs", "From the Qutb Minar to the Taj Mahal."], ["Abroad", "Mecca, Medina and the Caliphs", "Large sums sent to the holy places."], ["Army", "The standing army", "Needed to hold the country, as Bernier observed of the Mughal."]]
+    },
+    {
+      "type": "timeline", "eyebrow": "Preface · fifty years on one theme",
+      "title": "Lal's books on the subject",
+      "items": [["Oct 1947", "“The Spirit of Muslim Government in India”", "<em>Bulletin</em> of the Nagpur University Historical Society"], ["1950", "<em>Muslim State in India</em>", "Vichar Prakashan, Allahabad. Also <em>History of the Khaljis</em>."], ["1963", "<em>Twilight of the Sultanate</em>", ""], ["1966", "<em>Studies in Medieval Indian History</em>", ""], ["1984", "<em>Early Muslims in India</em>", ""], ["1990", "<a href=\"indian-muslims-who-are-they.html\"><em>Indian Muslims: Who Are They</em></a>", ""], ["1992", "<a href=\"the-legacy-of-muslim-rule-in-india.html\"><em>The Legacy of Muslim Rule in India</em></a>", ""], ["1999", "This book", "With a chapter replying to his reviewers."]]
+    },
+    {
+      "type": "quote", "ch": 6, "eyebrow": "Chapter 6 · Muslim state in India today",
+      "q": "The invasions of Muhammad bin Qasim, Mahmud of Ghazni and Amir Timur seem to have happened yesterday.",
+      "cite": "K.S. Lal, on how present the medieval past remains"
+    }
+  ],
+  "footer": "Source: <em>Theory and Practice of Muslim State in India</em> by K.S. Lal (Aditya Prakashan, 1999), read from the online edition at <a href=\"https://voibooks.bitbucket.io/tpmsi/\">voibooks.bitbucket.io</a>."
+}
