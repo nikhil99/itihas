@@ -3172,5 +3172,66 @@
         "url": "https://voibooks.bitbucket.io/tlmr/ch8/"
       }
     ]
+  },
+  {
+    "id": "theory-and-practice-of-muslim-state-in-india",
+    "title": "Theory and Practice of Muslim State in India",
+    "author": "K.S. Lal",
+    "published": "Aditya Prakashan, 1999",
+    "summary": "K.S. Lal sets the duties, revenues and spending of the Delhi Sultanate and Mughal state against Islamic law and scripture, fifty years after his first article on the subject, and answers his reviewers. Shown here as the state's four duties, its four taxes and who paid them, where the money went, and his half-century of work on the theme.",
+    "href": "books/theory-and-practice-of-muslim-state-in-india.html",
+    "timelines": [
+      "delhi-sultanate",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/tpmsi/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/tpmsi/preface/"
+      },
+      {
+        "n": null,
+        "title": "Abbreviations",
+        "url": "https://voibooks.bitbucket.io/tpmsi/abbreviation/"
+      },
+      {
+        "n": 1,
+        "title": "I. Introduction",
+        "url": "https://voibooks.bitbucket.io/tpmsi/ch01/"
+      },
+      {
+        "n": 2,
+        "title": "II. The State",
+        "url": "https://voibooks.bitbucket.io/tpmsi/ch02/"
+      },
+      {
+        "n": 3,
+        "title": "III. Obligations of the State",
+        "url": "https://voibooks.bitbucket.io/tpmsi/ch03/"
+      },
+      {
+        "n": 4,
+        "title": "IV. Inorge of the State",
+        "url": "https://voibooks.bitbucket.io/tpmsi/ch04/"
+      },
+      {
+        "n": 5,
+        "title": "V. Expenditure of the State",
+        "url": "https://voibooks.bitbucket.io/tpmsi/ch05/"
+      },
+      {
+        "n": 6,
+        "title": "VI. Muslim State in India Today",
+        "url": "https://voibooks.bitbucket.io/tpmsi/ch06/"
+      },
+      {
+        "n": 7,
+        "title": "VII. A Riposte on Reviews",
+        "url": "https://voibooks.bitbucket.io/tpmsi/ch07/"
+      }
+    ]
   }
 ]
