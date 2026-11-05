@@ -1,5 +1,18 @@
 [
   {
+    "id": "varkari",
+    "title": "Dnyaneshwar and the Varkari saints",
+    "native": "ज्ञानेश्वर",
+    "guru": "Sant Dnyaneshwar",
+    "span": "1275 – today",
+    "summary": "From Nivruttinath and Dnyaneshwar at Alandi to Namdev, Chokhamela, Eknath and Tukaram: the saints of the Pandharpur wari, and the people outside it, from Guru Arjan to Ambedkar, whom they reached.",
+    "href": "parampara/varkari.html",
+    "timelines": [
+      "yadavas-devagiri",
+      "shivaji"
+    ]
+  },
+  {
     "id": "ramdas",
     "title": "Samarth Ramdas and his disciples",
     "native": "रामदास",
