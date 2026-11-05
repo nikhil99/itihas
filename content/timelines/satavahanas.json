@@ -1,0 +1,718 @@
+{
+ "id": "satavahanas",
+ "kind": "empire",
+ "order": -0.5,
+ "title": "The Satavahana Empire",
+ "subtitle": "The Deccan kingdom of Paithan and Amaravati · c. 100 BCE – 225 CE",
+ "subject": "satavahana",
+ "range": [
+  -130,
+  260
+ ],
+ "focus": [
+  -100,
+  225
+ ],
+ "intro": "As the Maurya empire broke up, a family from the Deccan built the first great kingdom of the peninsula, ruling from Pratishthana (Paithan) on the Godavari and later from Amaravati on the Krishna. The Satavahanas fought the Shaka satraps of Gujarat for the western Deccan for two centuries; Gautamiputra Satakarni's destruction of Nahapana is the high point. Their age carved the Buddhist caves of Karla, Nashik, Bhaja and Ajanta, rebuilt Sanchi's gateways and the Amaravati stupa, wrote Prakrit poetry, and traded with Rome through the ports of the Konkan. Their dates are disputed: some historians start them in the 3rd century BCE; this timeline follows the shorter chronology most now prefer.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Kings & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Caves, stupas & cities"
+  },
+  {
+   "id": "political",
+   "label": "Faith, language & trade"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Kings",
+   "members": [
+    {
+     "entity": "simuka",
+     "from": -100,
+     "to": -77,
+     "group": "satavahana",
+     "note": "Founder; first king in the Naneghat list. Some historians date him to c. 230 BCE"
+    },
+    {
+     "entity": "kanha-satavahana",
+     "from": -77,
+     "to": -60,
+     "group": "satavahana",
+     "note": "Simuka's brother"
+    },
+    {
+     "entity": "satakarni-i",
+     "from": -60,
+     "to": -50,
+     "group": "satavahana",
+     "note": "Performed the ashvamedha; first to expand the kingdom widely"
+    },
+    {
+     "entity": null,
+     "from": -50,
+     "to": 20,
+     "group": "satavahana",
+     "name": "Successors of Satakarni I",
+     "note": "Kings known mostly from the Puranic lists and coins"
+    },
+    {
+     "entity": "hala",
+     "from": 20,
+     "to": 24,
+     "group": "satavahana",
+     "note": "The poet-king traditionally credited with the Gaha Sattasai"
+    },
+    {
+     "entity": null,
+     "from": 24,
+     "to": 106,
+     "group": "satavahana",
+     "name": "Kings of the Shaka occupation",
+     "note": "The western Deccan falls to Nahapana and the Kshaharatas"
+    },
+    {
+     "entity": "gautamiputra-satakarni",
+     "from": 106,
+     "to": 130,
+     "group": "satavahana",
+     "note": "Destroyed the Kshaharatas and restored the kingdom"
+    },
+    {
+     "entity": "vasishthiputra-pulumavi",
+     "from": 130,
+     "to": 158,
+     "group": "satavahana",
+     "note": "Ruled from the Krishna valley; Ptolemy's 'Siro-Polemaios'"
+    },
+    {
+     "entity": "vasishthiputra-satakarni",
+     "from": 158,
+     "to": 170,
+     "group": "satavahana",
+     "note": "Married a daughter of the Shaka king Rudradaman"
+    },
+    {
+     "entity": "yajna-sri-satakarni",
+     "from": 170,
+     "to": 199,
+     "group": "satavahana",
+     "note": "The last strong king; won back the west"
+    },
+    {
+     "entity": null,
+     "from": 199,
+     "to": 225,
+     "group": "satavahana",
+     "name": "Last kings",
+     "note": "Vijaya, Chandra Sri and Pulumavi IV; the kingdom splits up"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "shunga-empire",
+   "label": "Shungas",
+   "from": -130,
+   "to": -73
+  },
+  {
+   "entity": "mahameghavahana",
+   "label": "Kalinga (Kharavela's dynasty)",
+   "from": -130,
+   "to": 0
+  },
+  {
+   "entity": "indo-greek",
+   "label": "Indo-Greeks",
+   "from": -130,
+   "to": 10
+  },
+  {
+   "entity": "western-satraps",
+   "label": "Western Satraps (Shakas)",
+   "from": 20,
+   "to": 260
+  },
+  {
+   "entity": "kushan-empire",
+   "label": "Kushan Empire",
+   "from": 30,
+   "to": 260
+  },
+  {
+   "entity": "ikshvaku-andhra",
+   "label": "Ikshvakus of Andhra",
+   "from": 225,
+   "to": 260
+  },
+  {
+   "entity": "roman-empire",
+   "label": "Roman Empire",
+   "from": -27,
+   "to": 260
+  },
+  {
+   "entity": "han-dynasty",
+   "label": "Han China",
+   "from": -130,
+   "to": 220
+  }
+ ],
+ "events": [
+  {
+   "id": "maurya-collapse",
+   "date": "-0130",
+   "lane": "world",
+   "title": "Out of the Maurya collapse",
+   "summary": "The Maurya empire is gone, the Shungas hold only the Ganges plain, and Indo-Greek kings rule the Punjab. In the Deccan, local chiefs who had served the Mauryas strike their own coins. One of these families is the Satavahanas, whose name later sources also give as 'Andhra'.",
+   "polities": [
+    "maurya-empire",
+    "shunga-empire",
+    "indo-greek",
+    "satavahana"
+   ],
+   "approx": true
+  },
+  {
+   "id": "simuka",
+   "date": "-0100",
+   "lane": "life",
+   "title": "Simuka founds the dynasty",
+   "summary": "Simuka becomes the first Satavahana king, probably based in the upper Godavari valley. The Puranas say he overthrew the last Kanva king of Magadha. That may be a later boast, and his dates are among the most argued-over in early Indian history.",
+   "people": [
+    "simuka"
+   ],
+   "places": [
+    "paithan"
+   ],
+   "polities": [
+    "satavahana"
+   ],
+   "wiki": "Simuka",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "kanha-nashik",
+   "date": "-0075",
+   "lane": "forts",
+   "title": "Kanha's cave at Nashik",
+   "summary": "An inscription in Cave 19 at Nashik records that it was made by an officer of King Kanha, Simuka's brother. It is the earliest dated sign of Satavahana rule in the Godavari valley and starts three centuries of cave-cutting on the hill.",
+   "people": [
+    "kanha-satavahana"
+   ],
+   "places": [
+    "nashik-caves",
+    "nashik"
+   ],
+   "approx": true
+  },
+  {
+   "id": "bhaja",
+   "date": "-0080",
+   "lane": "forts",
+   "title": "The Bhaja caves",
+   "summary": "Monks cut one of the earliest Buddhist chaitya halls in the Western Ghats at Bhaja, near the Bor Ghat route from the coast to the plateau. Its wooden-style ribs and horseshoe arches copy the timber halls of the time.",
+   "places": [
+    "bhaja-caves"
+   ],
+   "concepts": [
+    "chaitya"
+   ],
+   "wiki": "Bhaja Caves",
+   "approx": true
+  },
+  {
+   "id": "kharavela-satakarni",
+   "date": "-0060",
+   "lane": "military",
+   "title": "Kharavela marches against Satakarni",
+   "summary": "In his Hathigumpha inscription, Kharavela of Kalinga says that in his second year he sent an army westwards 'without caring for Satakarni'. It shows the two kings as rival powers of the peninsula.",
+   "people": [
+    "kharavela",
+    "satakarni-i"
+   ],
+   "places": [
+    "hathigumpha"
+   ],
+   "polities": [
+    "mahameghavahana",
+    "kalinga"
+   ],
+   "wiki": "Hathigumpha inscription",
+   "approx": true
+  },
+  {
+   "id": "satakarni-ashvamedha",
+   "date": "-0055",
+   "lane": "military",
+   "title": "Satakarni I performs the ashvamedha",
+   "summary": "Satakarni I conquers widely, by some readings including Malwa around Vidisha, and performs two ashvamedha horse sacrifices and a rajasuya. These are the old Vedic rites of an overlord, and they announce the Satavahanas as an imperial house.",
+   "people": [
+    "satakarni-i"
+   ],
+   "places": [
+    "vidisha"
+   ],
+   "concepts": [
+    "ashvamedha"
+   ],
+   "wiki": "Satakarni I",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "sanchi-gateway",
+   "date": "-0050",
+   "lane": "forts",
+   "title": "Satakarni's craftsmen at Sanchi",
+   "summary": "An inscription on the southern gateway of the Great Stupa at Sanchi records it as the gift of Ananda, foreman of the artisans of 'King Siri Satakarni'. The carved gateways (toranas), showing the Buddha's life without a human image of him, are among the masterpieces of early Indian sculpture.",
+   "people": [
+    "satakarni-i"
+   ],
+   "places": [
+    "sanchi"
+   ],
+   "wiki": "Sanchi",
+   "approx": true
+  },
+  {
+   "id": "naneghat",
+   "date": "-0050",
+   "lane": "political",
+   "title": "Queen Naganika's Naneghat inscription",
+   "summary": "After Satakarni I dies young, his queen Naganika rules for their sons. In a cave at the top of the Naneghat pass, on the trade road from the Konkan ports to Junnar, she carves the family's portraits (now lost) and a list of the sacrifices performed and the cows and coins given away.",
+   "people": [
+    "naganika",
+    "satakarni-i",
+    "simuka"
+   ],
+   "places": [
+    "naneghat",
+    "junnar"
+   ],
+   "wiki": "Naneghat",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "ajanta-early",
+   "date": "-0050",
+   "lane": "forts",
+   "title": "The first caves at Ajanta",
+   "summary": "Buddhist monks begin cutting the earliest caves at Ajanta, including the chaitya halls of Caves 9 and 10, in a horseshoe gorge of the Waghur river. Paintings in Cave 10 are among the oldest surviving in India. The site is later abandoned, until the Vakatakas return to it in the 5th century.",
+   "places": [
+    "ajanta"
+   ],
+   "concepts": [
+    "chaitya"
+   ],
+   "wiki": "Ajanta Caves",
+   "approx": true
+  },
+  {
+   "id": "augustus",
+   "date": "-0027",
+   "lane": "world",
+   "title": "Augustus founds the Roman Empire",
+   "summary": "Octavian becomes Augustus, the first Roman emperor. Rome's conquest of Egypt in 30 BCE opens the Red Sea route to India, and Roman demand for pepper, cloth and gems soon reaches the Satavahana ports.",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "roman-empire"
+   ],
+   "wiki": "Augustus"
+  },
+  {
+   "id": "hala",
+   "date": "0020",
+   "lane": "political",
+   "title": "Hala and the Gaha Sattasai",
+   "summary": "The 17th king, Hala, is credited with collecting the Gaha Sattasai, 700 short verses in Maharashtri Prakrit about love, village life and the seasons. It is one of the oldest anthologies of Indian lyric poetry and an ancestor of Marathi literature, though the collection as we have it grew over later centuries.",
+   "people": [
+    "hala"
+   ],
+   "concepts": [
+    "gatha-saptashati",
+    "maharashtri-prakrit"
+   ],
+   "wiki": "Gaha Sattasai",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "kshaharata",
+   "date": "0040",
+   "lane": "military",
+   "title": "The Shakas take the western Deccan",
+   "summary": "Shaka satraps of the Kshaharata family push south from Gujarat and Malwa and take the Satavahana heartland of Nashik, Junnar and the ports of the north Konkan. The Satavahanas lose their richest lands for most of the next sixty years.",
+   "places": [
+    "nashik",
+    "junnar"
+   ],
+   "polities": [
+    "kshaharata",
+    "western-satraps"
+   ],
+   "approx": true
+  },
+  {
+   "id": "periplus",
+   "date": "0060",
+   "lane": "political",
+   "title": "The Periplus describes the Deccan trade",
+   "summary": "A Greek-speaking merchant from Egypt writes the Periplus of the Erythraean Sea, a guide to the ports of the Indian Ocean. He describes Barygaza (Bharuch), Kalyan, Paithan and Tagara (Ter), with goods carried by cart over the Ghats, and notes that the Shakas have blocked Kalyan to Satavahana trade.",
+   "places": [
+    "bharuch",
+    "kalyan",
+    "paithan",
+    "ter"
+   ],
+   "concepts": [
+    "periplus",
+    "indo-roman-trade"
+   ],
+   "wiki": "Periplus of the Erythraean Sea",
+   "approx": true
+  },
+  {
+   "id": "karla",
+   "date": "0050",
+   "lane": "forts",
+   "title": "The great chaitya at Karla",
+   "summary": "The largest rock-cut chaitya hall in India is carved at Karla, above the Bhor Ghat. Its 37 pillars are topped with kneeling elephants and riders, and the hall reaches back nearly 40 metres. Inscriptions name donors including Greek ('Yavana') merchants and Nahapana's son-in-law Ushavadata.",
+   "places": [
+    "karla-caves"
+   ],
+   "polities": [
+    "kshaharata"
+   ],
+   "concepts": [
+    "chaitya"
+   ],
+   "wiki": "Karla Caves",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "shaka-era",
+   "date": "0078",
+   "lane": "political",
+   "title": "The Shaka era begins",
+   "summary": "The era later known as the Shaka or Shalivahana Shaka starts in 78 CE, and it is still India's national calendar. Maharashtrian tradition links it to a Satavahana victory under a king named Shalivahana. Historians connect its start with the Kushan or Shaka rulers instead, but the name Shalivahana Shaka has stuck.",
+   "concepts": [
+    "shaka-era"
+   ],
+   "wiki": "Shaka era"
+  },
+  {
+   "id": "nahapana",
+   "date": "0119",
+   "lane": "life",
+   "title": "Nahapana at the height of his power",
+   "summary": "The Kshaharata king Nahapana rules the western Deccan from Gujarat to the Ghats. His son-in-law Ushavadata gives caves at Nashik and Karla, villages and money to the monks, and endows ferries and rest-houses. The inscriptions are dated in years 41 to 46 of an era, probably 119–124 CE.",
+   "people": [
+    "nahapana"
+   ],
+   "places": [
+    "nashik-caves",
+    "karla-caves"
+   ],
+   "polities": [
+    "kshaharata"
+   ],
+   "wiki": "Nahapana",
+   "approx": true
+  },
+  {
+   "id": "gautamiputra-nahapana",
+   "date": "0124",
+   "lane": "military",
+   "title": "Gautamiputra Satakarni destroys the Kshaharatas",
+   "summary": "In his 18th year Gautamiputra Satakarni defeats and kills Nahapana and wins back the west. He restrikes Nahapana's silver coins with his own name: in the Jogaltembhi hoard found near Nashik, about two-thirds of some 13,000 coins carry both kings' marks. At Nashik he grants the monks a field 'which was Ushavadata's'.",
+   "people": [
+    "gautamiputra-satakarni",
+    "nahapana"
+   ],
+   "places": [
+    "jogaltembhi",
+    "nashik"
+   ],
+   "polities": [
+    "kshaharata",
+    "western-satraps"
+   ],
+   "wiki": "Gautamiputra Satakarni",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "kanishka",
+   "date": "0127",
+   "lane": "world",
+   "title": "Kanishka becomes Kushan emperor",
+   "summary": "Kanishka begins his reign over the Kushan empire, which stretches from Central Asia to the Ganges. He is a great patron of Buddhism, and Gandhara and Mathura art flourishes under him. The Satavahanas and Kushans are the two great Indian powers of the century.",
+   "people": [
+    "kanishka"
+   ],
+   "polities": [
+    "kushan-empire"
+   ],
+   "wiki": "Kanishka",
+   "approx": true
+  },
+  {
+   "id": "gautami-balashri",
+   "date": "0149",
+   "lane": "political",
+   "title": "Gautami Balashri's Nashik inscription",
+   "summary": "In the 19th year of her grandson Pulumavi, the queen-mother Gautami Balashri dedicates Cave 3 at Nashik. Its long inscription praises her son Gautamiputra as destroyer of the Shakas, Yavanas and Pahlavas, uprooter of the Kshaharatas, whose horses 'drank the water of the three oceans'. He is also called a protector of the four varnas.",
+   "people": [
+    "gautami-balashri",
+    "gautamiputra-satakarni",
+    "vasishthiputra-pulumavi"
+   ],
+   "places": [
+    "nashik-caves"
+   ],
+   "wiki": "Pandavleni Caves",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "rudradaman",
+   "date": "0130",
+   "lane": "military",
+   "title": "Rudradaman wins back Malwa and Gujarat",
+   "summary": "Soon after Gautamiputra's death, the Shaka Mahakshatrapa Rudradaman of Ujjain retakes most of the lands north of the Deccan: Malwa, Saurashtra and the Narmada valley. The Satavahanas keep the plateau but lose Gujarat and its ports for good.",
+   "people": [
+    "rudradaman"
+   ],
+   "places": [
+    "ujjain"
+   ],
+   "polities": [
+    "western-satraps"
+   ],
+   "wiki": "Rudradaman I",
+   "approx": true
+  },
+  {
+   "id": "amaravati-capital",
+   "date": "0135",
+   "lane": "life",
+   "title": "Pulumavi rules from the Krishna valley",
+   "summary": "Vasishthiputra Pulumavi's inscriptions are found in the eastern Deccan as well as at Nashik and Karla. The kingdom's centre shifts east to Dharanikota (Dhanyakataka) near Amaravati on the Krishna, and the Satavahanas become the 'Andhras' of the Puranas.",
+   "people": [
+    "vasishthiputra-pulumavi"
+   ],
+   "places": [
+    "dharanikota",
+    "amaravati-stupa"
+   ],
+   "wiki": "Vasishthiputra Pulumavi",
+   "approx": true
+  },
+  {
+   "id": "amaravati",
+   "date": "0150",
+   "lane": "forts",
+   "title": "The great stupa of Amaravati",
+   "summary": "The Amaravati stupa is enlarged and covered with carved limestone panels and railings. Its fluid, crowded reliefs of the Buddha's life make the 'Amaravati school', which influences Buddhist art from Sri Lanka to Southeast Asia. Most of the surviving panels are now in Chennai and the British Museum.",
+   "places": [
+    "amaravati-stupa"
+   ],
+   "wiki": "Amaravati Stupa",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "junagadh",
+   "date": "0150",
+   "lane": "military",
+   "title": "Rudradaman's Junagadh inscription",
+   "summary": "On a rock at Junagadh that already carries Ashoka's edicts, Rudradaman records his repair of the Sudarshana lake dam. He boasts that he twice defeated Satakarni, lord of the Dakshinapatha, but spared him 'because of their close relationship'. The first long inscription in Sanskrit, it marks Sanskrit's rise over Prakrit as the language of kings.",
+   "people": [
+    "rudradaman",
+    "vasishthiputra-satakarni"
+   ],
+   "places": [
+    "junagadh-rock",
+    "junagadh"
+   ],
+   "polities": [
+    "western-satraps"
+   ],
+   "wiki": "Junagadh rock inscription of Rudradaman",
+   "major": true
+  },
+  {
+   "id": "shaka-marriage",
+   "date": "0155",
+   "lane": "life",
+   "title": "A marriage with the Shakas",
+   "summary": "An inscription at Kanheri, near Mumbai, records a gift by the queen of Vasishthiputra Satakarni, 'daughter of the Mahakshatrapa Ru(dra)'. The marriage explains why Rudradaman spared his Satavahana son-in-law.",
+   "people": [
+    "vasishthiputra-satakarni",
+    "rudradaman"
+   ],
+   "places": [
+    "kanheri"
+   ],
+   "polities": [
+    "western-satraps"
+   ],
+   "wiki": "Kanheri Caves",
+   "approx": true
+  },
+  {
+   "id": "ptolemy",
+   "date": "0150",
+   "lane": "world",
+   "title": "Ptolemy's geography",
+   "summary": "In Alexandria, the geographer Ptolemy lists 'Baithana, royal seat of Siro-Polemaios' (Paithan, under Sri Pulumavi) and 'Ozene, royal seat of Tiastenes' (Ujjain, under the Shaka Chastana). Indian kings and cities appear in a Greek atlas.",
+   "people": [
+    "ptolemy",
+    "vasishthiputra-pulumavi"
+   ],
+   "places": [
+    "paithan",
+    "ujjain"
+   ],
+   "wiki": "Ptolemy",
+   "approx": true
+  },
+  {
+   "id": "kanheri",
+   "date": "0160",
+   "lane": "forts",
+   "title": "The Kanheri monastery grows",
+   "summary": "On a hill on Salsette island, near the ports of Sopara and Kalyan, Kanheri grows into one of the largest Buddhist monastic settlements in India. It eventually holds more than a hundred caves, water cisterns and a cemetery of stupas, and is occupied for a thousand years.",
+   "places": [
+    "kanheri"
+   ],
+   "wiki": "Kanheri Caves",
+   "approx": true
+  },
+  {
+   "id": "nagarjuna",
+   "date": "0170",
+   "lane": "political",
+   "title": "Nagarjuna and the Satavahana king",
+   "summary": "The Buddhist philosopher Nagarjuna, founder of the Madhyamaka ('Middle Way') school, is said to have lived under Satavahana patronage. Tradition places him at Shriparvata near Nagarjunakonda. His 'Letter to a Friend', advice on rule and the Buddhist life, is addressed to a Satavahana king, possibly Yajna Sri.",
+   "people": [
+    "nagarjuna",
+    "yajna-sri-satakarni"
+   ],
+   "places": [
+    "nagarjunakonda"
+   ],
+   "concepts": [
+    "madhyamaka",
+    "suhrllekha"
+   ],
+   "wiki": "Nagarjuna",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "yajna-sri",
+   "date": "0175",
+   "lane": "military",
+   "title": "Yajna Sri Satakarni wins back the west",
+   "summary": "Yajna Sri Satakarni, the last strong Satavahana, recovers territory from the Shakas, perhaps including parts of Aparanta (the north Konkan). He issues silver portrait coins imitating the satraps' style, and his inscriptions are found from Nashik and Kanheri to the Krishna delta.",
+   "people": [
+    "yajna-sri-satakarni"
+   ],
+   "places": [
+    "kanheri",
+    "nashik"
+   ],
+   "polities": [
+    "western-satraps"
+   ],
+   "wiki": "Yajna Sri Satakarni",
+   "approx": true
+  },
+  {
+   "id": "ship-coins",
+   "date": "0180",
+   "lane": "political",
+   "title": "Ship coins and Roman gold",
+   "summary": "Yajna Sri's lead coins showing a two-masted ship point to a kingdom that traded by sea. Hoards of Roman gold and silver coins, Roman amphorae and glass at Ter, Kolhapur and Arikamedu show the same trade, in which Indian pepper, muslin and gems were exchanged for Roman coin.",
+   "people": [
+    "yajna-sri-satakarni"
+   ],
+   "places": [
+    "ter",
+    "arikamedu"
+   ],
+   "concepts": [
+    "ship-coins",
+    "indo-roman-trade"
+   ],
+   "wiki": "Indo-Roman trade relations",
+   "approx": true
+  },
+  {
+   "id": "han-end",
+   "date": "0220",
+   "lane": "world",
+   "title": "The Han dynasty falls",
+   "summary": "The Han dynasty in China ends and the country splits into the Three Kingdoms. Around the same time Kushan power is fading in India and the Satavahanas break apart. The great empires at both ends of the Silk Road decline together.",
+   "polities": [
+    "han-dynasty",
+    "kushan-empire"
+   ],
+   "wiki": "End of the Han dynasty"
+  },
+  {
+   "id": "breakup",
+   "date": "0225",
+   "lane": "life",
+   "title": "The Satavahana kingdom breaks up",
+   "summary": "After Pulumavi IV the kingdom splits among former governors and feudatories. The Ikshvakus take the Krishna valley and build at Nagarjunakonda, the Abhiras take the Nashik region, and the Chutus and then the Kadambas take the south-west. Later the Pallavas rise at Kanchi and the Vakatakas in Vidarbha.",
+   "polities": [
+    "satavahana",
+    "ikshvaku-andhra",
+    "abhira",
+    "kadamba",
+    "pallava",
+    "vakataka"
+   ],
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "nagarjunakonda",
+   "date": "0250",
+   "lane": "forts",
+   "title": "The Ikshvakus at Nagarjunakonda",
+   "summary": "The Ikshvaku kings and their queens build a capital, Vijayapuri, with stupas, monasteries and a riverside amphitheatre at Nagarjunakonda. They carry on the Amaravati style of Buddhist sculpture. Most of the site now lies under the reservoir of the Nagarjuna Sagar dam.",
+   "places": [
+    "nagarjunakonda"
+   ],
+   "polities": [
+    "ikshvaku-andhra"
+   ],
+   "wiki": "Nagarjunakonda",
+   "approx": true
+  }
+ ]
+}
