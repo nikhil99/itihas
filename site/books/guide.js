@@ -44,6 +44,9 @@
         return `<span style="--c:${col(g)}"${tip ? ` title="${h(tip).replace(/"/g, "&quot;")}"` : ""}>${h(t)}</span>`;
       }).join("")}</div>`;
     },
+    spans(s) {
+      return `<div class="fig scroll"><svg class="spans" data-i="${s._i}" style="min-width:640px;width:100%;height:auto" role="img" aria-label="${h(s.title)}"></svg>${s.note ? `<p class="src">${h(s.note)}</p>` : ""}</div>`;
+    },
     text() { return ""; },
   };
 
@@ -69,6 +72,27 @@
     });
   }
 
+  // items: [label, start, end, tip, color]; s.from/s.to set the axis, s.step the tick spacing
+  function drawSpans(svgEl, s) {
+    const items = s.items, L = s.labelWidth || 230, W = 1000, R = 20, rh = 26, top = 8;
+    const x0 = s.from ?? Math.min(...items.map((d) => d[1])), x1 = s.to ?? Math.max(...items.map((d) => d[2]));
+    const H = top + items.length * rh + 28, X = (y) => L + ((y - x0) / (x1 - x0)) * (W - L - R);
+    svgEl.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const step = s.step || 100;
+    for (let y = Math.ceil(x0 / step) * step; y <= x1; y += step) {
+      Book.svg("line", { x1: X(y), x2: X(y), y1: top, y2: top + items.length * rh, stroke: "var(--rule)" }, svgEl);
+      Book.svg("text", { x: X(y), y: top + items.length * rh + 18, "text-anchor": "middle", "font-size": 12, class: "mono muted" }, svgEl, y);
+    }
+    items.forEach((d, i) => {
+      const y = top + i * rh;
+      Book.svg("text", { x: L - 10, y: y + rh / 2 + 4, "text-anchor": "end", "font-size": 12.5 }, svgEl, d[0]);
+      const g = Book.svg("g", { tabindex: 0 }, svgEl);
+      Book.svg("rect", { x: X(d[1]), y: y + 5, width: Math.max(3, X(d[2]) - X(d[1])), height: rh - 10, rx: 3, fill: col(d[4] ?? s.color ?? 0) }, g);
+      Book.svg("rect", { x: L, y, width: W - L, height: rh, fill: "transparent" }, g);
+      Book.hover(g, `<b>${d[0]}</b> · ${d[1]}–${d[2]}${d[3] ? `<br>${d[3]}` : ""}`);
+    });
+  }
+
   async function render() {
     let g;
     try { g = await (await fetch(`${id}.json`, { cache: "no-cache" })).json(); }
@@ -89,7 +113,10 @@
     }).join("");
     const foot = `<div class="wrap"><footer>${h(g.footer)}</footer></div>`;
     document.body.insertAdjacentHTML("afterbegin", top + hero + secs + foot);
-    g.sections.forEach((s, i) => { if (s.type === "bars") drawBars(document.querySelector(`svg.bars[data-i="${i}"]`), s); });
+    g.sections.forEach((s, i) => {
+      if (s.type === "bars") drawBars(document.querySelector(`svg.bars[data-i="${i}"]`), s);
+      if (s.type === "spans") drawSpans(document.querySelector(`svg.spans[data-i="${i}"]`), s);
+    });
     Book.sources();
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render); else render();
