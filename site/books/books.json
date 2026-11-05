@@ -3679,5 +3679,70 @@
         "url": "https://voibooks.bitbucket.io/demogislam/appendix/"
       }
     ]
+  },
+  {
+    "id": "an-indictment",
+    "title": "An Indictment: Whose Responsibility for the Failure of 1942",
+    "author": "Ram Swarup",
+    "published": "Changers' Publications, c. 1946",
+    "summary": "A young Ram Swarup's pamphlet blaming the Congress leadership, not the people, for the failure of the 1942 Quit India movement.",
+    "href": "books/an-indictment.html",
+    "timelines": [
+      "british-india"
+    ],
+    "source": "https://voibooks.bitbucket.io/indictment/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "One",
+        "url": "https://voibooks.bitbucket.io/indictment/1/"
+      },
+      {
+        "n": 2,
+        "title": "Two",
+        "url": "https://voibooks.bitbucket.io/indictment/2/"
+      },
+      {
+        "n": 3,
+        "title": "Three",
+        "url": "https://voibooks.bitbucket.io/indictment/3/"
+      },
+      {
+        "n": 4,
+        "title": "Four",
+        "url": "https://voibooks.bitbucket.io/indictment/4/"
+      },
+      {
+        "n": 5,
+        "title": "Five",
+        "url": "https://voibooks.bitbucket.io/indictment/5/"
+      },
+      {
+        "n": 6,
+        "title": "Six",
+        "url": "https://voibooks.bitbucket.io/indictment/6/"
+      },
+      {
+        "n": 7,
+        "title": "Seven",
+        "url": "https://voibooks.bitbucket.io/indictment/7/"
+      },
+      {
+        "n": 8,
+        "title": "Eight",
+        "url": "https://voibooks.bitbucket.io/indictment/8/"
+      },
+      {
+        "n": 9,
+        "title": "Nine",
+        "url": "https://voibooks.bitbucket.io/indictment/9/"
+      },
+      {
+        "n": 10,
+        "title": "Ten",
+        "url": "https://voibooks.bitbucket.io/indictment/10/"
+      }
+    ]
   }
 ]
