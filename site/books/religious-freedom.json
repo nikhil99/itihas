@@ -1,0 +1,42 @@
+{
+  "title": "Religious Freedom",
+  "byline": "by <b>Ram Swarup</b> · Voice of India · from a speech in New Delhi, 11 July 1978",
+  "lede": "In 1978 eighty-five Unitarian Christians from the US and Europe held a seminar on religious freedom in New Delhi and asked Ram Swarup to give the Hindu view. He begins with persecution by communist states and Europe's hard-won religious freedom, which he notes was followed by missionary campaigns abroad. He then explains Hindu tolerance through its many symbols of the divine, the idea that any sincere seeker finds God, and <i>svadharma</i>, each person's own path. The second half compares Hinduism with Christianity and Islam on scripture, faith, revelation and how each treats outsiders.",
+  "facts": [["11 Jul 1978", "the seminar in New Delhi"], ["85", "Unitarian Christians who asked for the Hindu view"], ["29", "short numbered sections"], ["2", "parts: Hindu pluralism, then “Hinduism and Semitic religions”"]],
+  "note": "This is a Hindu apologetic. Its portrait of Christianity and Islam is the author's own, written as a contrast, and adherents and scholars of those faiths would describe them very differently. This page summarises his argument, attributed to him.",
+  "sections": [
+    {
+      "type": "steps", "ch": 3, "eyebrow": "Sections 1–4 · religious freedom in history",
+      "title": "How Europe won religious freedom, as he tells it",
+      "items": [["1", "Persecution", "Crusades, heresy-hunting and, today, communist states.", 0], ["2", "Reason fights back", "Reason, denied for so long, turns against faith itself.", 0], ["3", "Excesses move abroad", "Europe's missionaries take their zeal to other continents.", 1], ["4", "A two-way exchange", "India still learned from the encounter: imperialism “was not established by men of straw”.", 2]]
+    },
+    {
+      "type": "cards", "ch": 6, "eyebrow": "Sections 5–12 · the roots of Hindu tolerance",
+      "title": "Why, in his account, Hinduism tolerates",
+      "items": [["Sec. 6", "Many symbols for God", "The divine has many names and forms, so no single one need be imposed."], ["Sec. 7", "Where there is seeking, there is God", "God answers sincere seekers, whatever their creed."], ["Sec. 8", "Not an ego-god", "People make gods out of their ambitions and hatreds, then force them on others."], ["Sec. 9–10", "<i>Svadharma</i>", "Natures differ, so paths differ, like plants in a garden with their own seasons."], ["Sec. 11", "A pilgrimage", "Seekers come from different directions by different routes."]]
+    },
+    {
+      "type": "table", "wide": true, "ch": 16, "eyebrow": "Sections 13–22 · Hinduism and the Semitic religions",
+      "title": "The contrasts he draws",
+      "head": ["", "Christianity and Islam, as he characterises them", "Hinduism, as he characterises it"],
+      "rows": [
+        ["Scripture (14)", "Urging and warning, with hell and paradise", "Unhurried, explanatory, opening the understanding"],
+        ["Ground (16)", "Faith", "Wisdom: <i>gnosis</i>, <i>prajna</i>, <i>buddhi</i>"],
+        ["Revelation (19)", "Built round a historical founder", "<i>Sanatana</i>: dharma latent in every soul"],
+        ["Mediator (20–21)", "One son or last prophet, one book", "Many sages, none of them “first or last”"],
+        ["Truth (22)", "Codified, “pre-cooked”, ready for export", "Grown into, tested by experience"]
+      ]
+    },
+    {
+      "type": "compare", "ch": 23, "eyebrow": "Sections 23–28 · in practice",
+      "title": "How the difference plays out, he argues",
+      "cols": [{"k": "His charge against the missionary religions", "items": ["Humanity split into believers and unbelievers (24)", "An exclusive revelation leads to an exclusive brotherhood (25–26)", "Conversion by inducement among India's tribals, citing the Niyogi Report (23)", "Dogma over enquiry (27)"]}, {"k": "What he holds up instead", "items": ["Tribals left to their own ways for millennia (23)", "Freedom to be monotheist, polytheist, atheist or advaitin (27)", "Truth to be tested by each person: Buddha's “come and see”", "Compassion for animals and nature, not humans alone (28)"]}]
+    },
+    {
+      "type": "quote", "ch": 29, "eyebrow": "Section 29 · conclusion",
+      "q": "Hinduism is the oldest religion which is also still flourishing.",
+      "cite": "Ram Swarup, closing the talk. He calls it universal, deep and inward, and “humanist in approach”."
+    }
+  ],
+  "footer": "Source: <em>Religious Freedom</em> by Ram Swarup, read from the online edition at <a href=\"https://voibooks.bitbucket.io/rf/\">voibooks.bitbucket.io</a>."
+}
