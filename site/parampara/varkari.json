@@ -1,0 +1,169 @@
+{
+ "id": "varkari",
+ "eyebrow": "Guru–shishya parampara · Alandi → Pandharpur → Dehu",
+ "title": "Dnyaneshwar and the Varkari saints",
+ "intro": "The Varkari sampradaya, the pilgrims of Vitthal at Pandharpur, takes Sant Dnyaneshwar as its founding teacher. This tree starts with his guru and elder brother Nivruttinath and follows the saints who carried the tradition from the 13th century to the present.",
+ "lines": "Solid lines mean a guru and disciple. Dashed lines join saints who belong to the same tradition but had their own gurus, and people outside it whom it influenced.",
+ "note": "Dates for the early saints follow the usual Varkari chronology and several are approximate or disputed. Disciple links for the first generation come largely from the saints' own abhangas and later hagiographies such as Mahipati's Bhaktavijay (1762).",
+ "timelines": ["yadavas-devagiri", "shivaji"],
+ "kinds": {
+  "guru": { "label": "Guru", "color": "--c1", "fill": true },
+  "monastic": { "label": "Disciple", "color": "--c1" },
+  "companion": { "label": "Companion in the first Varkari circle", "color": "--c2", "dashed": true, "via": "Part of the circle around ", "plural": "companions" },
+  "varkari": { "label": "Later Varkari saint (own guru line)", "color": "--c3", "dashed": true, "via": "Continues the tradition of ", "plural": "later Varkari saints" }
+ },
+ "open": ["Sant Dnyaneshwar", "Visoba Khechar", "Sant Namdev", "Sant Tukaram"],
+ "select": "Sant Dnyaneshwar",
+ "tree": {
+  "name": "Sant Nivruttinath",
+  "dates": "1273–1297",
+  "kind": "guru",
+  "role": "Nath yogi; guru and elder brother of Dnyaneshwar",
+  "note": "Eldest of the four children of Vitthalpant, a Brahmin who had become a sannyasi and then returned to family life, for which the family was outcast at Alandi. Tradition says Nivruttinath was initiated by the Nath yogi Gahininath in the Trimbakeshwar hills and then initiated his brother. He took samadhi at Trimbakeshwar.",
+  "children": [
+   {
+    "name": "Sant Dnyaneshwar",
+    "alt": "Jnaneshwar, Mauli",
+    "dates": "1275–1296",
+    "kind": "guru",
+    "role": "Poet-saint; founding teacher of the Varkari sampradaya",
+    "note": "At about fifteen he wrote the Dnyaneshwari (1290, at Nevasa), a commentary on the Bhagavad Gita in Marathi verse, so that ordinary people could read what had been kept in Sanskrit. He also wrote the Amrutanubhav and the Haripath. He took sanjeevan samadhi at Alandi at about twenty-one, and his palkhi still leads the walk to Pandharpur each Ashadhi Ekadashi. In the Dnyaneshwari he names his guru line: Adinath, Matsyendranath, Gorakshanath, Gahininath, Nivruttinath.",
+    "children": [
+     {
+      "name": "Sant Sopandev",
+      "dates": "1277–1296",
+      "kind": "monastic",
+      "role": "Younger brother and disciple",
+      "note": "Wrote a Marathi commentary on the Gita, the Sopandevi. Took samadhi at Saswad a month after Dnyaneshwar."
+     },
+     {
+      "name": "Sant Muktabai",
+      "dates": "1279–1297",
+      "kind": "woman",
+      "role": "Sister and disciple",
+      "note": "The youngest of the four. Her Tatiche Abhang, in which she coaxes Dnyaneshwar to open the door of his hut after he was insulted, are among the best-loved Marathi verses.",
+      "children": [
+       {
+        "name": "Changdev",
+        "kind": "monastic",
+        "role": "Yogi who took Muktabai as his guru",
+        "note": "A famous yogi who, in the story, rode a tiger to meet Dnyaneshwar and was humbled when the children rode out on a wall. Dnyaneshwar's 65-verse letter to him is the Changdev Pasashti. He became Muktabai's disciple."
+       }
+      ]
+     },
+     {
+      "name": "Visoba Khechar",
+      "kind": "monastic",
+      "role": "Disciple of Dnyaneshwar; guru of Namdev",
+      "note": "Tradition says he mocked the outcast children until Dnyaneshwar's learning won him over. In the best-known story he rested his feet on a Shiva linga to teach Namdev that God is everywhere.",
+      "children": [
+       {
+        "name": "Sant Namdev",
+        "dates": "1270–1350",
+        "kind": "monastic",
+        "role": "Tailor-saint of Pandharpur",
+        "note": "Dnyaneshwar's companion on pilgrimage across north India. He outlived the other saints by decades, wrote their story in his abhangas, and took the Vitthal bhakti north to Punjab. His family's verses and his own are the core of the early Varkari songs.",
+        "children": [
+         {
+          "name": "Sant Janabai",
+          "kind": "woman",
+          "role": "Servant in Namdev's household and his disciple",
+          "note": "Grew up working in Namdev's house. Her abhangas speak to Vitthal as a friend who helps her grind grain and wash clothes."
+         },
+         {
+          "name": "Sant Chokhamela",
+          "dates": "d. 1338",
+          "kind": "monastic",
+          "role": "Mahar saint of Mangalvedha",
+          "note": "Barred from the Pandharpur temple because of his caste, he sang of Vitthal from outside it. Killed when a wall he was building collapsed; Namdev is said to have carried his bones to Pandharpur and buried them at the temple steps, where his samadhi stands.",
+          "children": [
+           {
+            "name": "Sant Soyarabai",
+            "kind": "woman",
+            "role": "Wife of Chokhamela; poet",
+            "note": "Her abhangas, like those of her son Karmamela and sister-in-law Nirmala, ask why the body should be called impure."
+           },
+           {
+            "name": "B. R. Ambedkar",
+            "dates": "1891–1956",
+            "kind": "influence",
+            "role": "Jurist and leader of the Dalit movement",
+            "note": "Dedicated The Untouchables (1948) to the memory of Nandanar, Ravidas and Chokhamela."
+           }
+          ]
+         },
+         {
+          "name": "Guru Arjan",
+          "dates": "1563–1606",
+          "kind": "influence",
+          "role": "Fifth Sikh Guru",
+          "note": "Included about sixty of Namdev's hymns in the Adi Granth (1604), now the Guru Granth Sahib."
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "group": "Companions in the first circle",
+      "children": [
+       { "name": "Sant Gora Kumbhar", "dates": "1267–1317", "kind": "companion", "role": "Potter-saint of Ter", "note": "In the story he tests the saints the way he taps pots, and finds only Namdev not yet fully baked, which sends Namdev to Visoba Khechar." },
+       { "name": "Sant Savata Mali", "dates": "1250–1295", "kind": "companion", "role": "Gardener-saint of Aran", "note": "Found Vitthal in his vegetable plot and never went to Pandharpur; tradition says Vitthal came to him." },
+       { "name": "Sant Narahari Sonar", "dates": "d. 1313", "kind": "companion", "role": "Goldsmith of Pandharpur", "note": "A devotee of Shiva who refused to look at Vitthal, until, in the story, measuring Vitthal for a waistband showed him the two were one." }
+      ]
+     },
+     {
+      "group": "Later Varkari saints",
+      "children": [
+       {
+        "name": "Sant Eknath",
+        "dates": "1533–1599",
+        "kind": "varkari",
+        "role": "Saint of Paithan; editor of the Dnyaneshwari",
+        "note": "Disciple of Janardan Swami of Devagiri. In 1584 he compared the manuscripts of the Dnyaneshwari and produced the corrected text every later copy descends from. Wrote the Eknathi Bhagwat and the bharud, songs in everyday speech that mocked caste pride."
+       },
+       {
+        "name": "Sant Tukaram",
+        "dates": "1608–1650",
+        "kind": "varkari",
+        "role": "Poet-saint of Dehu",
+        "note": "A grain dealer ruined by famine who turned to Vitthal. His guru line, given in his own abhanga, runs through Babaji Chaitanya, who initiated him in a dream. Village Brahmins made him sink his notebooks in the Indrayani; the Varkaris say they surfaced dry after thirteen days. His abhangas are sung on every wari.",
+        "children": [
+         { "name": "Sant Bahinabai", "dates": "1628–1700", "kind": "woman", "role": "Disciple of Tukaram", "note": "A Brahmin woman whose husband resented her devotion to a Shudra saint. Her autobiographical abhangas are among the earliest life stories in Marathi." },
+         { "name": "Santaji Jagnade", "kind": "monastic", "role": "Disciple and scribe", "note": "Wrote down many of Tukaram's abhangas as he sang them; his copies are a main source of the text." },
+         { "name": "Narayan Maharaj", "kind": "monastic", "role": "Tukaram's son; began his palkhi", "note": "Started the custom of carrying Tukaram's padukas from Dehu to Pandharpur in a palkhi (1685)." },
+         { "name": "Chhatrapati Shivaji", "dates": "1630–1680", "kind": "influence", "tl": "shivaji", "role": "Founder of the Maratha kingdom", "note": "Tradition says he attended Tukaram's kirtans and sent him gifts, which Tukaram returned with verses telling him to rule justly. The details come from later accounts." },
+         { "name": "Mahatma Gandhi", "dates": "1869–1948", "kind": "influence", "role": "Leader of the freedom movement", "note": "Translated a number of Tukaram's abhangas into English while in Yerawada jail in 1930." }
+        ]
+       },
+       {
+        "name": "Haibatravbaba Arphalkar",
+        "kind": "varkari",
+        "role": "Courtier of the Scindias; began Dnyaneshwar's palkhi",
+        "note": "Started carrying Dnyaneshwar's padukas from Alandi to Pandharpur in a palkhi (1832), the form the wari still takes."
+       },
+       {
+        "name": "Gadge Maharaj",
+        "dates": "1876–1956",
+        "kind": "varkari",
+        "role": "Kirtankar and social reformer",
+        "note": "Walked from village to village with a broom, cleaning the streets and then singing kirtans against caste, animal sacrifice and debt. Built dharmashalas at Pandharpur and Nashik."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "succession": {
+  "title": "The guru line Dnyaneshwar names",
+  "intro": "At the end of the Dnyaneshwari he traces his teaching back through the Nath yogis. The first four are figures of legend. Click Nivruttinath or Dnyaneshwar to find them in the tree.",
+  "list": [
+   { "name": "Adinath", "years": "legend", "note": "Shiva as the first Nath" },
+   { "name": "Matsyendranath", "years": "legend", "note": "founder of the Nath sampradaya" },
+   { "name": "Gorakshanath", "years": "c. 11th–12th c.", "note": "disciple of Matsyendranath" },
+   { "name": "Gahininath", "years": "legend", "note": "disciple of Gorakshanath" },
+   { "name": "Sant Nivruttinath", "years": "1273–1297", "note": "disciple of Gahininath" },
+   { "name": "Sant Dnyaneshwar", "years": "1275–1296", "note": "disciple of Nivruttinath" }
+  ]
+ }
+}

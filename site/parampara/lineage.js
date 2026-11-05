@@ -5,6 +5,10 @@
 //   tree nodes: { name, alt?, dates?, kind, role?, note?, tl?, children? }  or  { group, children }
 //   kind: guru | monastic | householder | woman | western | influence (or one defined in "kinds")
 //   tl: an Itihas timeline id; the panel links to it.
+//   kinds: extra or relabelled kinds, { "<kind>": { label, color: "--c3", fill?, dashed?, via? } };
+//     dashed kinds draw dashed lines; via replaces "Drawn to the teaching through"; plural names them in
+//     the panel's "In this tree" count.
+//   lines: replaces the sentence explaining solid and dashed lines.
 //   open: names whose branch (and its groups) start unfolded; the root is always open.
 //   succession: { title, intro, list: [{ name, years, note? }] } drawn as a numbered list below.
 (function () {
@@ -42,7 +46,7 @@
     (function walk(n) { if (n.kind) used.add(n.kind); (n.children || []).forEach(walk); })(L.tree);
     const legend = h("div", { class: "legend", "aria-label": "Legend" },
       Object.entries(kinds).filter(([k]) => used.has(k)).map(([, k]) => k.dashed
-        ? h("span", {}, h("i", { class: "dash" }), k.label)
+        ? h("span", {}, h("i", { class: "dot dashed", style: `--c:var(${k.color})` }), h("i", { class: "dash" }), k.label)
         : h("span", {}, h("i", { class: `dot${k.fill ? " fill" : ""}`, style: `--c:var(${k.color})` }), k.label)));
     const expandBtn = h("button", { type: "button" }, "Expand all");
     const resetBtn = h("button", { type: "button" }, "Reset");
@@ -54,7 +58,7 @@
       h("header", { class: "head" },
         h("div", { class: "eyebrow" }, L.eyebrow || "Guru–shishya parampara"),
         h("h1", {}, L.title),
-        h("p", { class: "lede" }, L.intro, " Solid lines mean initiation or direct discipleship; dashed lines mean influence only. Click a name to read about them, and click again to fold or unfold their branch."),
+        h("p", { class: "lede" }, L.intro, " ", L.lines || "Solid lines mean initiation or direct discipleship; dashed lines mean influence only.", " Click a name to read about them, and click again to fold or unfold their branch."),
         related.length ? h("div", { class: "related" }, "Timelines:", related.map((t) => h("a", { href: `../#/${t}` }, timelines[t]))) : null),
       h("div", { class: "controls" }, legend, h("div", { class: "btns" }, expandBtn, resetBtn)),
       h("div", { class: "stage" }, box, panel),
@@ -126,8 +130,13 @@
       const n = d.data, k = kinds[n.kind] || KINDS.monastic;
       const chain = d.ancestors().slice(1).filter((p) => !isGroup(p)).map((p) => p.data.name);
       const below = (d._children || []).flatMap((c) => (isGroup(c) ? c._children : [c]));
-      const inf = below.filter((c) => kinds[c.data.kind]?.dashed).length, dis = below.length - inf;
-      const counts = [dis && `${dis} disciple${dis > 1 ? "s" : ""}`, inf && `${inf} influenced`].filter(Boolean).join(", ");
+      const tally = new Map();
+      below.forEach((c) => {
+        const ck = kinds[c.data.kind];
+        const label = ck?.plural || (c.data.kind === "influence" ? "influenced" : ck?.dashed ? ck.label.toLowerCase() : "disciples");
+        tally.set(label, (tally.get(label) || 0) + 1);
+      });
+      const counts = [...tally].map(([label, n]) => `${n} ${n === 1 && label.endsWith("s") ? label.slice(0, -1) : label}`).join(", ");
       panel.replaceChildren(...present(
         h("div", { class: "kind", style: `color:var(${k.color})` }, k.label),
         h("h2", {}, n.name),
@@ -135,7 +144,7 @@
         n.dates ? h("div", { class: "dates" }, n.dates) : null,
         n.role ? h("p", { class: "role" }, n.role) : null,
         n.note ? h("p", {}, n.note) : null,
-        chain.length ? h("div", { class: "chain" }, k.dashed ? "Drawn to the teaching through " : "Lineage: ",
+        chain.length ? h("div", { class: "chain" }, k.dashed ? (k.via || "Drawn to the teaching through ") : "Lineage: ",
           chain.flatMap((c, i) => [h("b", {}, c), i < chain.length - 1 ? " ← " : null])) : null,
         counts ? h("div", { class: "chain" }, `In this tree: ${counts}`) : null,
         h("div", { class: "links" },

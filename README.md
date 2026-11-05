@@ -131,7 +131,9 @@ The data file has `title`, `intro`, `note`, related `timelines`, and a `tree` of
 initiated). `tl` links a person to their Itihas timeline. `{ "group": "…", "children": [...] }`
 gathers siblings under a foldable label. `open` lists the branches that start unfolded and `select`
 the person shown first. An optional `succession` (`title`, `intro`, `list` of `name`, `years`, `note`)
-draws a numbered list of heads of the order below the tree. Nothing needs rebuilding.
+draws a numbered list of heads of the order below the tree. A lineage can add or relabel kinds with
+`kinds` (`label`, `color`, `dashed`, `via`, `plural`) and reword the line legend with `lines`;
+`varkari.json` uses this for companions and later saints who had their own gurus. Nothing needs rebuilding.
 
 ## Map playback
 
