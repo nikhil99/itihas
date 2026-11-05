@@ -1,0 +1,267 @@
+{
+  "title": "Freedom of Expression",
+  "byline": "compiled and edited by <b>Sita Ram Goel</b> · Voice of India · late 1990s · subtitled <em>Secular Theocracy Versus Liberal Democracy</em>",
+  "lede": "This is a dossier rather than an argued book. It collects the court orders in five criminal cases against Hindu writers and speakers, the press record of Goel's own 1987 arrest, essays by Arun Shourie, Ram Swarup and Koenraad Elst on book bans, and thirteen reviews of Ibn Warraq's <em>Why I Am Not a Muslim</em>. Goel's long preface argues that Indian “secularism” has become a theocracy that shields one religion from criticism.",
+  "facts": [
+    [
+      "5",
+      "criminal cases under sections 153-A and 295-A of the Indian Penal Code, each ending in discharge"
+    ],
+    [
+      "11 years",
+      "the longest wait: Goel's own case, from 1986 to 1997"
+    ],
+    [
+      "1975–76",
+      "when “secular” was written into the Constitution's Preamble, during the Emergency, as Goel notes"
+    ],
+    [
+      "13",
+      "reviews of Ibn Warraq's 1995 book, mostly by Western rationalists"
+    ]
+  ],
+  "note": "Most of this book reprints court orders and other people's essays. The reviews in the last third are strongly hostile to Islam. This page summarises what the documents record and what the contributors argue, attributed to them, and does not endorse their views.",
+  "sections": [
+    {
+      "type": "bars",
+      "ch": 2,
+      "eyebrow": "Chapters 1–5 · the court cases",
+      "title": "Five prosecutions, five discharges",
+      "lede": "Each case was brought under laws against promoting enmity between groups (153-A) or outraging religious feelings (295-A). In every one the magistrate found no prima facie case. The bars show the years from the case being registered to discharge.",
+      "unit": "yrs",
+      "max": 12,
+      "ticks": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "labelWidth": 190,
+      "items": [
+        [
+          "Inder Sain Sharma",
+          3,
+          "FIR 1983, discharged 31 July 1986. He published Quran verses from a Hindi translation by a Muslim scholar. The court found no malice in quoting the verses as they stood."
+        ],
+        [
+          "Sita Ram Goel",
+          11,
+          "FIR 1986 for publishing Colin Maine's <em>The Dead Hand of Islam</em>. Discharged 17 May 1997: the charge was “groundless”."
+        ],
+        [
+          "Surya Kant Bali",
+          2,
+          "Two cases (1986, 1988) over two newspaper articles. Discharged 5 May 1990: one was narrated history, the other opinion, neither malicious."
+        ],
+        [
+          "Sachchidanand Sakshi",
+          5,
+          "FIR 1991 over a speech. Discharged 2 July 1996: no recording or transcript connected him to it."
+        ],
+        [
+          "Sadhvi Ritambhara",
+          5,
+          "Speech of 29 November 1990, FIR 1991. Discharged 13 February 1996: the case “appears to be influenced by political forces”."
+        ]
+      ],
+      "note": "Years run from the year the case was registered to the year of discharge, as given in the orders reprinted in the book. For Bali, the later of the two cases is used."
+    },
+    {
+      "type": "timeline",
+      "ch": 6,
+      "eyebrow": "Chapters 6–9 · one book's life",
+      "title": "<em>Understanding Islam through Hadis</em>",
+      "lede": "Ram Swarup's study of the Hadith was not banned in English for nine years. Goel's account of what happened once a Hindi translation was printed.",
+      "items": [
+        [
+          "1982",
+          "Published in the USA",
+          "The English original."
+        ],
+        [
+          "1983, 1987",
+          "Reprinted in India",
+          "By Voice of India, without objection."
+        ],
+        [
+          "19 Dec 1987",
+          "Hindi edition seized",
+          "Police seize 2,000 copies at the binder and arrest Goel."
+        ],
+        [
+          "26 Dec 1987",
+          "Writers protest",
+          "A statement signed by Dharampal, Nirmal Verma and others; reported in the <em>Indian Express</em> and the <em>Times of India</em>."
+        ],
+        [
+          "2 Jun 1990",
+          "Case to be closed",
+          "The Delhi Administration, having screened the book twice, recommends closure."
+        ],
+        [
+          "28 Sep 1990",
+          "Case dismissed",
+          "The complainant fails to appear."
+        ],
+        [
+          "27 Nov 1990",
+          "Hindi edition banned",
+          "By notification of the same Administration."
+        ],
+        [
+          "Mar 1991",
+          "English original banned",
+          "After eight years in circulation in India."
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "ch": 15,
+      "eyebrow": "Chapters 10–15 · bans and the people behind them",
+      "title": "A short chain of bans",
+      "items": [
+        [
+          "1988",
+          "<em>The Satanic Verses</em>",
+          "Banned in India. Elst names Syed Shahabuddin as instrumental."
+        ],
+        [
+          "1989",
+          "Jamia Millia",
+          "Pro-Vice-Chancellor Mushirul Hasan says the ban should go, and retracts under student protest."
+        ],
+        [
+          "1990–91",
+          "The Hadis book",
+          "Hindi edition, then the English original."
+        ],
+        [
+          "20 Aug 1993",
+          "<em>Hindu View of Christianity and Islam</em>",
+          "Shahabuddin asks the Home Ministry to ban Ram Swarup's 1992 book. Intellectuals sign a statement against it."
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "ch": 2,
+      "eyebrow": "How the courts reasoned",
+      "title": "What the magistrates looked for",
+      "lede": "The orders cite a run of precedents, from Allahabad (1927) to the Supreme Court (1957). Read together they set a recognisable test.",
+      "cols": [
+        {
+          "k": "Protected",
+          "items": [
+            "Quoting a scripture accurately",
+            "Narrating history, “however unpleasant”",
+            "Honest opinion, even if wrong",
+            "Compiling other scholars' views"
+          ]
+        },
+        {
+          "k": "Not protected",
+          "items": [
+            "“Vile and abusive language”",
+            "Insult “for the sake of insulting”",
+            "Deliberate, malicious intent to outrage a community",
+            "Speech shown by evidence to have caused enmity"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Preface and chapter 6 · Goel's argument",
+      "title": "“Secular theocracy”",
+      "items": [
+        [
+          "1",
+          "A borrowed word",
+          "Goel notes that “secularism” is absent from Nehru's pre-1947 vocabulary and from the 1950 Constitution."
+        ],
+        [
+          "2",
+          "Added in the Emergency",
+          "Indira Gandhi inserted it into the Preamble in 1976."
+        ],
+        [
+          "3",
+          "Odd defenders",
+          "Missionaries and mullahs, whose own doctrines prescribe theocracy, now defend Indian secularism, as Communists once defended democracy."
+        ],
+        [
+          "4",
+          "One creed shielded",
+          "He argues the laws on hurt sentiments are used to put Islam beyond questioning, while criticism of Hinduism goes unpunished."
+        ]
+      ]
+    },
+    {
+      "type": "chips",
+      "ch": 16,
+      "eyebrow": "Chapters 16–28 · reviews of Ibn Warraq",
+      "title": "Thirteen reviewers of <em>Why I Am Not a Muslim</em> (1995)",
+      "lede": "Reprinted to show, in Goel's framing, that what Indian courts are asked to ban is mainstream scholarship abroad. The reviewers range from rationalist philosophers to ex-Muslims.",
+      "key": [
+        "Western scholars and rationalists",
+        "Writers of Muslim background"
+      ],
+      "items": [
+        [
+          "Daniel O'Hara",
+          0
+        ],
+        [
+          "G.A. Wells",
+          0
+        ],
+        [
+          "Daniel Pipes",
+          0
+        ],
+        [
+          "Barnard Katz",
+          0
+        ],
+        [
+          "Antony Flew",
+          0
+        ],
+        [
+          "Hans Jansen",
+          0
+        ],
+        [
+          "N. Innaiah",
+          0
+        ],
+        [
+          "Curt van den Heuvel",
+          0
+        ],
+        [
+          "Jan Knappert",
+          0
+        ],
+        [
+          "Taslima Nasreen",
+          1
+        ],
+        [
+          "Anwar Shaikh",
+          1
+        ],
+        [
+          "Ibn al-Rawandi",
+          1
+        ],
+        [
+          "Shabbir Akhtar",
+          1
+        ]
+      ]
+    }
+  ],
+  "footer": "Source: <em>Freedom of Expression: Secular Theocracy Versus Liberal Democracy</em>, compiled and edited by Sita Ram Goel (Voice of India), read from the online edition at <a href=\"https://voibooks.bitbucket.io/foe/\">voibooks.bitbucket.io</a>. Case dates come from the court orders reprinted in the book."
+}
