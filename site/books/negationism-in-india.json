@@ -1,0 +1,51 @@
+{
+  "title": "Negationism in India: Concealing the Record of Islam",
+  "byline": "by <b>Koenraad Elst</b> · Voice of India · 1992, enlarged 1993",
+  "lede": "In Europe, “negationism” means denying the Holocaust. Elst, a Belgian, applies the word to India. His charge is that since about 1920, Indian politicians, Muslim apologists and Marxist historians have denied or played down centuries of persecution of Hindus under Muslim rule, and that the Indian establishment backs this denial. The book grew from a 1992 article in a Flemish Catholic monthly and a review of Sita Ram Goel's <em>Hindu Temples</em>, Vol. 2.",
+  "facts": [["4", "chapters: negationism in general, in India, its refutation, and replies to critics"], ["c. 1920", "when Elst dates its start, in the Congress–Khilafat alliance"], ["3", "kinds of negationism he compares: of the Holocaust, of the Armenian genocide, and of Islam's record in India"], ["1988", "India became the first country to ban <em>The Satanic Verses</em>, which he cites as a symptom"]],
+  "related": [["delhi-sultanate", "Delhi Sultanate timeline"], ["mughal-empire", "Mughal Empire timeline"]],
+  "note": "Elst's comparison of Indian historiography with Holocaust denial is deliberately provocative and is rejected by the historians he names. They argue they are interpreting the evidence, not denying it. This page sets out his argument, attributed to him.",
+  "sections": [
+    {
+      "type": "table", "wide": true, "ch": 1, "eyebrow": "Chapters 1–2 · the comparison",
+      "title": "Three kinds of negationism",
+      "head": ["", "Holocaust denial", "Armenian genocide denial", "Denial of Islam's record in India"],
+      "rows": [
+        ["What is denied", "The Nazi killing of Jews and Gypsies, 1941–45", "The Ottoman massacres of Armenians", "Massacres, enslavement, temple destruction and forced conversion under Muslim rule"],
+        ["Who denies it", "A fringe of the far right, plus a few leftists (La Vieille Taupe)", "The Turkish state", "Islamic apologists, Marxist academics and “secularists”, in Elst's account"],
+        ["Official status", "Illegal in several countries", "State policy", "Backed by the establishment, the textbooks and the press"],
+        ["Elst's verdict", "Discredited", "Contested abroad", "Dominant at home and mostly unknown abroad"]
+      ]
+    },
+    {
+      "type": "steps", "ch": 2, "eyebrow": "Chapter 2 · how it took hold, as Elst tells it",
+      "title": "Four stages",
+      "items": [["1919–23", "Congress and the Khilafat", "To win over Muslims, Hindu–Muslim conflict is played down."], ["1920s on", "The Aligarh school", "Mohammed Habib and others recast the conquerors' motives as economic and ethnic."], ["1940s on", "The Marxists", "They back the League's case for Pakistan, then take over history-writing after independence."], ["1980s–90s", "The establishment", "Textbooks, the Indian Council of Historical Research, book bans, and the claim that Hindus were equally iconoclastic."]]
+    },
+    {
+      "type": "table", "ch": 2, "eyebrow": "Chapter 2.3 · the Aligarh school",
+      "title": "Mohammed Habib's four theses, and Elst's replies",
+      "head": ["Habib's thesis, as Elst summarises it", "Elst's reply"],
+      "rows": [
+        ["The chroniclers exaggerated to please their patrons", "Then the rulers were pleased to read of massacres, and some, like Timur and Babur, wrote them up themselves."],
+        ["The motive was plunder, not religion", "The chroniclers and rulers themselves give religion as the reason."],
+        ["The invaders were barbarous Turks, not Islam itself", "Arabs, Persians and Afghans behaved the same way. “Not the Muslims are guilty, but Islam.”"],
+        ["Hindus converted freely, choosing Islamic law over caste", "No record shows Mahmud welcomed as a liberator. Albiruni reports the Hindus' “inveterate aversion” to Muslims."]
+      ]
+    },
+    {
+      "type": "cards", "ch": 2, "eyebrow": "Chapter 2.8 · the methods",
+      "title": "How negationism works, in Elst's account",
+      "items": [["Deny", "Outright denial", "“Aurangzeb's supposed intolerance is little more than a hostile legend” (Percival Spear)."], ["Minimise", "Isolated incidents", "Temple destruction treated as rare and political."], ["Justify", "Economic or political motives", "Temples were raided only because they held wealth or sheltered rebels."], ["Counter-accuse", "“Hindus did it too”", "Pushyamitra, Harsha of Kashmir, Shaiva kings. Elst calls this the “second front”."], ["Suppress", "Ban and blacklist", "<em>The Satanic Verses</em>, <em>The Dead Hand of Islam</em>, Ram Swarup on the Hadis."]]
+    },
+    {
+      "type": "compare", "ch": 4, "eyebrow": "Chapter 4 · replies to critics",
+      "title": "Elst's distinction",
+      "cols": [
+        {"k": "What he criticises", "items": ["Islam as a doctrine and a historical record", "The historians who, in his view, deny that record", "Policies that shield one religion from criticism"]},
+        {"k": "What he says he does not", "items": ["Muslims as people. He says he knows plenty who are not fanatics.", "Immigrants. He says he supports “measured and carefully monitored” immigration.", "Racism, which he rejects as having nothing to do with his argument"]}
+      ]
+    }
+  ],
+  "footer": "Source: <em>Negationism in India: Concealing the Record of Islam</em> by Koenraad Elst (Voice of India, second edition 1993), read from the online edition at <a href=\"https://voibooks.bitbucket.io/negaind/\">voibooks.bitbucket.io</a>."
+}
