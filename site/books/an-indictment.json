@@ -1,0 +1,40 @@
+{
+  "title": "An Indictment: Whose Responsibility for the Failure of 1942",
+  "byline": "by <b>Ram Swarup</b> · Changers' Publications, pamphlet no. 1 · c. 1946",
+  "lede": "An early polemic by Ram Swarup, written after the Congress leaders were released from prison at the end of the war. His starting point: a world war had transformed other countries yet left India “the same masters” and “the same leaders”. The people did their part in August 1942. The movement failed, he argues, because of the leadership. He says they treated the war as a moral question, adopted the Allies' framing, never planned or trained for a revolt, and afterwards called the people who did the fighting “mobs”.",
+  "facts": [["10", "short sections, ending in a formal indictment"], ["3 Sep 1939", "Britain declares war; Gandhi says India should not bargain"], ["27 Apr 1942", "the Allahabad meeting, which he describes as discussing the demand as if it had already been granted"], ["8 Aug 1942", "the Quit India resolution and “Do or Die”"]],
+  "related": [["british-india", "British India timeline"]],
+  "note": "This is a short wartime pamphlet with a deliberately harsh tone; its editor says as much. Historians weigh the 1942 movement differently: as a failure in the short term, and as a turning point that showed Britain it could not hold India much longer. This page summarises Ram Swarup's argument, attributed to him.",
+  "sections": [
+    {
+      "type": "timeline", "ch": 3, "eyebrow": "Sections 3 and 6 · the record he cites",
+      "title": "From the outbreak of war to August 1942",
+      "items": [
+        ["3 Sep 1939", "War declared", "Viceroy Linlithgow invites India to play its part. Gandhi advises support “unconditionally”."],
+        ["8–14 Sep 1939", "Congress Working Committee", "Condemns fascism and asks Britain to state its war aims for India."],
+        ["9–10 Oct 1939", "All-India Congress Committee", "Peace needs democracy extended to “all colonial countries”."],
+        ["19 Nov 1939", "Allahabad", "The war is “essentially a moral issue”, not a chance to bargain."],
+        ["27 Apr 1942", "Allahabad again", "Gandhi's draft says the British should “clear out”. Nehru and Azad object."],
+        ["8 Aug 1942", "The August Resolution", "Quit India, while still aiming to help the Allied cause."],
+        ["Aug 1942 →", "The rising", "Students, workers and peasants act alone; the leaders are in prison."],
+        ["1945", "Release", "Leaders disown the violence or claim credit, and no inquiry is held."]
+      ]
+    },
+    {
+      "type": "compare", "ch": 4, "eyebrow": "Sections 2–5 · the charge of confusion",
+      "title": "What the leaders did, and what he says they should have done",
+      "cols": [{"k": "What they did, in his account", "items": ["Treated the war morally and “attitudinised”", "Accepted the Allies' “fascism versus democracy” framing", "Nehru refused to meet Mussolini over Ethiopia", "“We hate imperialism but we hate fascism more”"]}, {"k": "What he says was needed", "items": ["See the crisis as an opportunity", "Put Indian freedom first, with “undivided loyalty”", "Policy and preparation, not sympathy", "Stop Indian troops being used to suppress other colonies"]}]
+    },
+    {
+      "type": "cards", "ch": 8, "eyebrow": "Sections 6–8 · the conduct of the revolt",
+      "title": "Why the revolt failed, in his view",
+      "items": [["Sec. 6", "Afraid of a “vacuum”", "Leaders debated the demand as if Britain would agree, then worried about the consequences."], ["Sec. 7", "Method over results", "Pant: no disagreement on non-violence, only “about its effectiveness”."], ["Sec. 8", "No organisation or training", "Without training, he says, “Do or Die” meant dying, not doing."], ["Sec. 8", "Tall promises", "Talk of victory within a week left people unready for a long struggle."]]
+    },
+    {
+      "type": "list", "ch": 10, "eyebrow": "Section 10 · the indictment",
+      "title": "Four counts against the leadership",
+      "items": [["No insight", "They relied on moral slogans instead of seeing how events connected."], ["No foresight", "They made speeches instead of planning and training for the struggle."], ["No retrospection", "They set up no inquiry into why the movement failed."], ["Contempt for others", "They belittled people like Subhas Bose and Jayaprakash Narayan, who saw what was at stake."]]
+    }
+  ],
+  "footer": "Source: <em>An Indictment: Whose Responsibility for the Failure of 1942</em> by Ram Swarup (Changers' Publications), read from the online edition at <a href=\"https://voibooks.bitbucket.io/indictment/\">voibooks.bitbucket.io</a>. The date is inferred from the text, which was written after the leaders' release."
+}
