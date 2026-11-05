@@ -175,39 +175,39 @@
     "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
     "chapters": [
       {
+        "n": null,
         "title": "Preface",
         "url": "https://voibooks.bitbucket.io/hvic/00/"
       },
       {
+        "n": 1,
         "title": "Christianity and Islam: Doctrinal Affinity but Historical Conflict",
-        "url": "https://voibooks.bitbucket.io/hvic/01/",
-        "n": 1
+        "url": "https://voibooks.bitbucket.io/hvic/01/"
       },
       {
+        "n": 2,
         "title": "Hindu View of Christianity and Islam",
-        "url": "https://voibooks.bitbucket.io/hvic/02/",
-        "n": 2
+        "url": "https://voibooks.bitbucket.io/hvic/02/"
       },
       {
+        "n": 3,
         "title": "Semitic Religions and Yogic Spirituality",
-        "url": "https://voibooks.bitbucket.io/hvic/03/",
-        "n": 3
+        "url": "https://voibooks.bitbucket.io/hvic/03/"
       },
       {
+        "n": 4,
         "title": "Appendix 1",
         "url": "https://voibooks.bitbucket.io/hvic/04/"
       },
       {
+        "n": 5,
         "title": "Appendix 2",
         "url": "https://voibooks.bitbucket.io/hvic/05/"
       },
       {
+        "n": 6,
         "title": "Appendix 3",
         "url": "https://voibooks.bitbucket.io/hvic/06/"
-      },
-      {
-        "title": "Index",
-        "url": "https://voibooks.bitbucket.io/hvic/07/"
       }
     ]
   },
@@ -227,77 +227,74 @@
     "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
     "chapters": [
       {
+        "n": null,
         "title": "Foreword",
         "url": "https://voibooks.bitbucket.io/acat/Aforeword/"
       },
       {
+        "n": 1,
         "title": "The Ayodhya debate: focus on the ‘no temple’ evidence",
-        "url": "https://voibooks.bitbucket.io/acat/ch001/",
-        "n": 1
+        "url": "https://voibooks.bitbucket.io/acat/ch001/"
       },
       {
+        "n": 2,
         "title": "Ashoka and Pushyamitra, iconoclasts?",
-        "url": "https://voibooks.bitbucket.io/acat/ch002/",
-        "n": 2
+        "url": "https://voibooks.bitbucket.io/acat/ch002/"
       },
       {
+        "n": 3,
         "title": "The Bodh Gaya temple controversy",
-        "url": "https://voibooks.bitbucket.io/acat/ch003/",
-        "n": 3
+        "url": "https://voibooks.bitbucket.io/acat/ch003/"
       },
       {
+        "n": 4,
         "title": "Harsha of Kashmir, a Hindu iconoclast?",
-        "url": "https://voibooks.bitbucket.io/acat/ch004/",
-        "n": 4
+        "url": "https://voibooks.bitbucket.io/acat/ch004/"
       },
       {
+        "n": 5,
         "title": "Vandalism sanctified by scripture",
-        "url": "https://voibooks.bitbucket.io/acat/ch005/",
-        "n": 5
+        "url": "https://voibooks.bitbucket.io/acat/ch005/"
       },
       {
+        "n": 6,
         "title": "The details about ‘Hindu iconoclasm’",
-        "url": "https://voibooks.bitbucket.io/acat/ch006/",
-        "n": 6
+        "url": "https://voibooks.bitbucket.io/acat/ch006/"
       },
       {
+        "n": 7,
         "title": "Why did Aurangzeb demolish the Kashi Vishvanath temple?",
-        "url": "https://voibooks.bitbucket.io/acat/ch007/",
-        "n": 7
+        "url": "https://voibooks.bitbucket.io/acat/ch007/"
       },
       {
+        "n": 8,
         "title": "From Ayodhya to Nazareth",
-        "url": "https://voibooks.bitbucket.io/acat/ch008/",
-        "n": 8
+        "url": "https://voibooks.bitbucket.io/acat/ch008/"
       },
       {
+        "n": 9,
         "title": "Ayodhya and the Supreme Court",
-        "url": "https://voibooks.bitbucket.io/acat/ch009/",
-        "n": 9
+        "url": "https://voibooks.bitbucket.io/acat/ch009/"
       },
       {
+        "n": 10,
         "title": "Mohammed Habib’s history-rewriting",
-        "url": "https://voibooks.bitbucket.io/acat/ch0010/",
-        "n": 10
+        "url": "https://voibooks.bitbucket.io/acat/ch0010/"
       },
       {
+        "n": 11,
         "title": "The Ayodhya evidence debate",
-        "url": "https://voibooks.bitbucket.io/acat/ch0011/",
-        "n": 11
+        "url": "https://voibooks.bitbucket.io/acat/ch0011/"
       },
       {
+        "n": 12,
         "title": "About the Hindu critique of monotheism",
-        "url": "https://voibooks.bitbucket.io/acat/ch0012/",
-        "n": 12
+        "url": "https://voibooks.bitbucket.io/acat/ch0012/"
       },
       {
+        "n": 13,
         "title": "Postscript: a lasting solution",
-        "url": "https://voibooks.bitbucket.io/acat/ch0013/",
-        "n": 13
-      },
-      {
-        "title": "Bibliography",
-        "url": "https://voibooks.bitbucket.io/acat/ch0014bib/"
+        "url": "https://voibooks.bitbucket.io/acat/ch0013/"
       }
     ]
   },
@@ -312,6 +309,40 @@
       "british-india",
       "delhi-sultanate",
       "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/hsus/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Significance of Hindu Society",
+        "url": "https://voibooks.bitbucket.io/hsus/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "The Residue of Islamism",
+        "url": "https://voibooks.bitbucket.io/hsus/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "The Residue of Christianism",
+        "url": "https://voibooks.bitbucket.io/hsus/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "The Residue of Macaulayism",
+        "url": "https://voibooks.bitbucket.io/hsus/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "The Communist Conspiracy",
+        "url": "https://voibooks.bitbucket.io/hsus/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "The United Front of Hostile Forces",
+        "url": "https://voibooks.bitbucket.io/hsus/ch6/"
+      }
     ]
   },
   {
@@ -321,6 +352,176 @@
     "published": "Voice of India",
     "summary": "The sequel to Hindu Society Under Siege. Goel argues Hindus should judge other creeds by Hindu standards rather than the reverse. Shown here as the full Rigveda verse that is usually quoted only in part, the five sheaths of the self, gods in every element, the ancient gods lost and still worshipped, and the trap he sees in “all religions are equal”.",
     "href": "books/defence-of-hindu-society.html",
-    "timelines": []
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/hindusoc/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "The Situation at Present",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Sanatana Dharma Versus Prophetic Creeds",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "The Spiritual Centre of Hindu Society",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Hindu Spirituality Versus Monotheism",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "The Basis of Universal Spirituality",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Revival of Universal Spirituality",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Starting Point of Universal Spirituality",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "Christianity and Islam: Ideologies Of Imperialism",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Character Of Nehruvian Secularism",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "The Trap and the Way Out",
+        "url": "https://voibooks.bitbucket.io/hindusoc/ch10/"
+      }
+    ]
+  },
+  {
+    "id": "ayodhya-and-after",
+    "title": "Ayodhya And After",
+    "author": "Koenraad Elst",
+    "published": "Voice of India, 1991",
+    "summary": "Elst's 1991 follow-up on the Ram Janmabhoomi movement at its height: the evidence for the temple, the 1989–90 politics and Kar Seva, the riots, secularism, book bans and the charge of “Hindu fascism”. Shown here as a timeline of 1989–91, the evidence chain, Elst's verdicts on the main accusations, and the programme he proposes.",
+    "href": "books/ayodhya-and-after.html",
+    "timelines": [
+      "bjp",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/ayodhya/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Introduction",
+        "url": "https://voibooks.bitbucket.io/ayodhya/intro/"
+      },
+      {
+        "n": 1,
+        "title": "Summary of the historical question",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Belief and history",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Righting the wrongs of history",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Ram Janmabhoomi and the courts",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "Ram Janmabhoomi politics",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Communalists and their communities",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Press reporting on Ayodhya",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "The misuse of history",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Secularism and India's Integrity",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "Secularism as it is",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "The riots",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "Book banning",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch12/"
+      },
+      {
+        "n": 13,
+        "title": "Facing the truth the only solution",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch13/"
+      },
+      {
+        "n": 14,
+        "title": "Hindu Fascism",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch14/"
+      },
+      {
+        "n": 15,
+        "title": "The Hindu Movement",
+        "url": "https://voibooks.bitbucket.io/ayodhya/ch15/"
+      },
+      {
+        "n": null,
+        "title": "Glossary",
+        "url": "https://voibooks.bitbucket.io/ayodhya/gloss/"
+      },
+      {
+        "n": null,
+        "title": "Appendix I",
+        "url": "https://voibooks.bitbucket.io/ayodhya/apex1/"
+      },
+      {
+        "n": null,
+        "title": "Appendix II",
+        "url": "https://voibooks.bitbucket.io/ayodhya/apex2/"
+      },
+      {
+        "n": null,
+        "title": "Notes",
+        "url": "https://voibooks.bitbucket.io/ayodhya/notes/"
+      }
+    ]
   }
 ]
