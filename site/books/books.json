@@ -1947,5 +1947,86 @@
         "url": "https://voibooks.bitbucket.io/ohrr/ch08/"
       }
     ]
+  },
+  {
+    "id": "the-story-of-islamic-imperialism-in-india",
+    "title": "The Story of Islamic Imperialism in India",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1982; reissued 1994",
+    "summary": "Goel's reply to the NCERT's guidelines for writing medieval Indian history in school textbooks, taken one at a time: whether to call it Muslim rule, the role of religion, Aurangzeb and Shivaji, composite culture, and Akbar. Shown here as each guideline with his rebuttal, his measure of the period's violence, and his debate with a reader in the Organiser.",
+    "href": "books/the-story-of-islamic-imperialism-in-india.html",
+    "timelines": [
+      "delhi-sultanate",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/siii/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "In The Name of National Integration",
+        "url": "https://voibooks.bitbucket.io/siii/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "The Character of Muslim Rule in India",
+        "url": "https://voibooks.bitbucket.io/siii/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Plea for a Perspective",
+        "url": "https://voibooks.bitbucket.io/siii/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "The Nature of Conflict in Medieval India",
+        "url": "https://voibooks.bitbucket.io/siii/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "Islam was the Culprit",
+        "url": "https://voibooks.bitbucket.io/siii/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "The Magnitude of Muslim Atrocities   I",
+        "url": "https://voibooks.bitbucket.io/siii/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "The Magnitude of Muslim Atrocities   II",
+        "url": "https://voibooks.bitbucket.io/siii/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "The Myth of Muslim Empire in India",
+        "url": "https://voibooks.bitbucket.io/siii/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "The Determinants of Hindu Defeats",
+        "url": "https://voibooks.bitbucket.io/siii/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "The Status of Hindus in an Islamic State",
+        "url": "https://voibooks.bitbucket.io/siii/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "Of Assimilation and Synthesis",
+        "url": "https://voibooks.bitbucket.io/siii/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "Islam Versus _Insaniyat_ (Humanism)",
+        "url": "https://voibooks.bitbucket.io/siii/ch12/"
+      },
+      {
+        "n": null,
+        "title": "Appendix",
+        "url": "https://voibooks.bitbucket.io/siii/app/"
+      }
+    ]
   }
 ]
