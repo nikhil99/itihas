@@ -1,0 +1,215 @@
+{
+ "id": "shankara",
+ "eyebrow": "Guru–shishya parampara · Sringeri · Puri · Dwarka · Jyotirmath",
+ "title": "Adi Shankaracharya and the four mathas",
+ "intro": "Adi Shankaracharya set out Advaita Vedanta and, by tradition, founded four mathas at the four corners of India, each under one of his chief disciples. This tree follows those four lines, the heads who later shaped them, and people the tradition reached beyond the mathas.",
+ "lines": "Solid lines mean a guru and disciple. Dashed saffron lines skip centuries to a later head of the same matha. Other dashed lines show monks of the matha's Dashanami orders and people the teaching influenced.",
+ "note": "Shankara's dates are disputed: most scholars place him around 700–750 CE, Sringeri's tradition gives 788–820, and the Kanchi and Dwarka traditions place him in the 5th century BCE. Which disciple headed which matha also varies between sources; the tree follows the most common account. Succession numbers are each matha's own count.",
+ "timelines": ["vijayanagara-empire"],
+ "kinds": {
+  "guru": { "label": "Guru", "color": "--c1", "fill": true },
+  "monastic": { "label": "Disciple", "color": "--c1" },
+  "successor": { "label": "Later head of the matha (centuries between)", "color": "--c1", "dashed": true, "via": "Heads the matha of ", "plural": "later heads" },
+  "order": { "label": "Monk of one of the matha's Dashanami orders", "color": "--c2", "dashed": true, "via": "A monk of the orders attached to ", "plural": "Dashanami monks" }
+ },
+ "open": ["Sureshvara", "Padmapada", "Hastamalaka", "Totakacharya", "Brahmananda Saraswati"],
+ "select": "Adi Shankaracharya",
+ "tree": {
+  "name": "Adi Shankaracharya",
+  "alt": "Shankara Bhagavatpada",
+  "dates": "c. 700–750 (trad. 788–820)",
+  "kind": "guru",
+  "role": "Philosopher of Advaita Vedanta",
+  "note": "Born at Kaladi in Kerala, he became a sannyasi as a boy under Govinda Bhagavatpada on the Narmada. He wrote commentaries on the Brahma Sutras, the principal Upanishads and the Bhagavad Gita, arguing that the self and Brahman are one. He travelled the length of India debating other schools, most famously Mandana Mishra, organised wandering monks into the ten Dashanami orders and, by tradition, set up the four mathas. Tradition says he died at Kedarnath at thirty-two.",
+  "children": [
+   {
+    "name": "Sureshvara",
+    "alt": "identified by tradition with Mandana Mishra",
+    "dates": "8th c.",
+    "kind": "monastic",
+    "role": "First head of the Sringeri Sharada Peetham (south)",
+    "note": "A ritualist scholar who, in the story, lost a long debate to Shankara and became his disciple. Wrote the Naishkarmya Siddhi and verse commentaries (vartikas) on Shankara's work. Sringeri, in Karnataka, keeps the Yajur Veda and the saying aham brahmasmi, and its monks take the names Saraswati, Bharati and Puri.",
+    "children": [
+     {
+      "name": "Vidyatirtha",
+      "dates": "14th c.",
+      "kind": "successor",
+      "role": "10th Jagadguru of Sringeri",
+      "note": "Guru of the brothers Bharati Tirtha and Vidyaranya, who led Sringeri after him in turn.",
+      "children": [
+       {
+        "name": "Vidyaranya",
+        "alt": "Madhava",
+        "dates": "c. 1296–1386",
+        "kind": "monastic",
+        "tl": "vijayanagara-empire",
+        "role": "12th Jagadguru of Sringeri; guide of the Vijayanagara founders",
+        "note": "Scholar and statesman, author of the Panchadashi. Tradition credits him with guiding Harihara and Bukka to found the Vijayanagara kingdom in 1336. His brother Sayana wrote the standard medieval commentary on the Vedas.",
+        "children": [
+         { "name": "Harihara I", "dates": "r. 1336–1356", "kind": "influence", "tl": "vijayanagara-empire", "role": "Founder of Vijayanagara", "note": "With his brother Bukka, founded the Vijayanagara kingdom; the dynasty's grants to Sringeri began the matha's long royal patronage." },
+         { "name": "Bukka Raya I", "dates": "r. 1356–1377", "kind": "influence", "tl": "vijayanagara-empire", "role": "Co-founder of Vijayanagara", "note": "Ruled after Harihara and made large grants to Sringeri." }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Chandrashekhara Bharati III",
+      "dates": "1892–1954",
+      "kind": "successor",
+      "role": "34th Jagadguru of Sringeri (1912–1954)",
+      "note": "Known for his withdrawn, intense life of meditation; regarded as a jivanmukta by his followers.",
+      "children": [
+       {
+        "name": "Abhinava Vidyatirtha",
+        "dates": "1917–1989",
+        "kind": "monastic",
+        "role": "35th Jagadguru of Sringeri (1954–1989)",
+        "note": "Travelled widely across India and opened many branches of the matha.",
+        "children": [
+         {
+          "name": "Bharati Tirtha",
+          "dates": "b. 1951",
+          "kind": "monastic",
+          "role": "36th Jagadguru of Sringeri (since 1989)",
+          "note": "A Sanskrit scholar known for his debates in the shastras.",
+          "children": [
+           { "name": "Vidhushekhara Bharati", "dates": "b. 1993", "kind": "monastic", "role": "Successor designate (since 2015)", "note": "Chosen and initiated by Bharati Tirtha as the next Jagadguru of Sringeri." }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Madhusudana Saraswati",
+      "dates": "c. 16th c.",
+      "kind": "order",
+      "role": "Advaita philosopher",
+      "note": "Wrote the Advaita Siddhi, the classic defence of Advaita against the Dvaita school, and a commentary on the Gita blending Advaita with Krishna bhakti."
+     },
+     {
+      "name": "Totapuri",
+      "dates": "19th c.",
+      "kind": "order",
+      "lineage": "ramakrishna",
+      "role": "Wandering Dashanami monk; Ramakrishna's teacher of Advaita",
+      "note": "A naked monk of the Puri order who taught Advaita to Ramakrishna at Dakshineswar around 1865 and gave him sannyasa. The Puri name places him in one of the orders attached to Sringeri."
+     }
+    ]
+   },
+   {
+    "name": "Padmapada",
+    "dates": "8th c.",
+    "kind": "monastic",
+    "role": "First head of the Govardhana Matha, Puri (east)",
+    "note": "Shankara's most devoted disciple. In the story he walked across the flooded Ganga when Shankara called, and lotuses rose under his feet, giving him his name. Wrote the Panchapadika. Puri, in Odisha, keeps the Rig Veda and the saying prajnanam brahma; its monks take the names Vana and Aranya.",
+    "children": [
+     { "name": "Bharati Krishna Tirtha", "dates": "1884–1960", "kind": "successor", "role": "143rd Shankaracharya of Puri (1925–1960)", "note": "Author of Vedic Mathematics (published 1965), a book of mental-arithmetic methods he said came from the Vedas, a claim mathematicians and Sanskritists reject. He was the first Shankaracharya to visit the West, in 1958." },
+     { "name": "Nischalananda Saraswati", "dates": "b. 1943", "kind": "successor", "role": "145th Shankaracharya of Puri (since 1992)", "note": "Known for traditionalist positions on ritual and caste, and for his writing on Vedic mathematics." }
+    ]
+   },
+   {
+    "name": "Hastamalaka",
+    "dates": "8th c.",
+    "kind": "monastic",
+    "role": "First head of the Dwaraka Sharada Peetham (west)",
+    "note": "In the story a boy thought to be dumb, who answered Shankara's question 'who are you?' with a short poem on the self, the Hastamalakiyam. Dwarka, in Gujarat, keeps the Sama Veda and the saying tat tvam asi; its monks take the names Tirtha and Ashrama. Its recent heads appear in the Jyotirmath line, because Swaroopanand Saraswati led both mathas."
+   },
+   {
+    "name": "Totakacharya",
+    "dates": "8th c.",
+    "kind": "monastic",
+    "role": "First head of Jyotirmath, Badrinath (north)",
+    "note": "A quiet disciple, Giri by name, whom the others thought slow until he burst into verse in the totaka metre in praise of Shankara. Jyotirmath, in the Himalaya, keeps the Atharva Veda and the saying ayam atma brahma; its monks take the names Giri, Parvata and Sagara. The seat stood empty for about 165 years until 1941.",
+    "children": [
+     {
+      "name": "Brahmananda Saraswati",
+      "alt": "Guru Dev",
+      "dates": "1868–1953",
+      "kind": "successor",
+      "role": "Shankaracharya of Jyotirmath (1941–1953)",
+      "note": "A forest-dwelling ascetic persuaded at about seventy to revive the long-vacant Jyotirmath seat. His disciples spread his teaching in very different directions.",
+      "children": [
+       {
+        "name": "Maharishi Mahesh Yogi",
+        "dates": "1918–2008",
+        "kind": "monastic",
+        "role": "Founder of Transcendental Meditation",
+        "note": "Brahmananda Saraswati's secretary, a brahmachari rather than a sannyasi. From 1955 he taught meditation worldwide in his guru's name, calling him 'Guru Dev'.",
+        "children": [
+         { "name": "The Beatles", "dates": "1968", "kind": "influence", "role": "Band", "note": "Spent weeks at the Maharishi's ashram in Rishikesh in 1968 and wrote much of the White Album there, which made Transcendental Meditation known worldwide." }
+        ]
+       },
+       {
+        "name": "Swami Karpatri",
+        "dates": "1907–1982",
+        "kind": "monastic",
+        "role": "Dandi sannyasi and traditionalist leader",
+        "note": "A scholar who founded the Akhil Bharatiya Ram Rajya Parishad (1948), a party that opposed the Hindu Code Bill, and led the 1966 agitation for a ban on cow slaughter."
+       },
+       {
+        "name": "Shantananda Saraswati",
+        "dates": "1913–1997",
+        "kind": "monastic",
+        "role": "Shankaracharya of Jyotirmath (1953–1980)",
+        "note": "Named in a will as Brahmananda's successor. The succession was challenged in court, which began decades of dispute over the seat."
+       },
+       {
+        "name": "Swaroopanand Saraswati",
+        "dates": "1924–2022",
+        "kind": "monastic",
+        "role": "Shankaracharya of Dwarka (from 1982) and Jyotirmath",
+        "note": "A freedom fighter jailed in 1942 who took sannyasa in Brahmananda Saraswati's line. He led both the Dwarka and Jyotirmath mathas until his death.",
+        "children": [
+         { "name": "Sadanand Saraswati", "kind": "monastic", "role": "Shankaracharya of Dwarka (since 2022)", "note": "Named Swaroopanand's successor at Dwarka." },
+         { "name": "Avimukteshwaranand Saraswati", "kind": "monastic", "role": "Shankaracharya of Jyotirmath (since 2022)", "note": "Named Swaroopanand's successor at Jyotirmath; his appointment has been challenged in the Supreme Court." }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": "Kanchi Kamakoti Peetham (its own claim)",
+    "children": [
+     {
+      "name": "Chandrasekharendra Saraswati",
+      "alt": "the Paramacharya, Maha Periyava",
+      "dates": "1894–1994",
+      "kind": "successor",
+      "role": "68th head of the Kanchi Kamakoti Peetham (1907–1994)",
+      "note": "Kanchi holds that Shankara founded it and spent his last years there; the other four mathas do not accept this. Headed the matha for 87 years and was widely revered across Tamil Nadu and beyond.",
+      "children": [
+       {
+        "name": "Jayendra Saraswati",
+        "dates": "1935–2018",
+        "kind": "monastic",
+        "role": "69th head of Kanchi (1994–2018)",
+        "note": "Ran schools, hospitals and a university through the matha. Arrested in 2004 in a murder case and acquitted in 2013.",
+        "children": [
+         { "name": "Vijayendra Saraswati", "dates": "b. 1969", "kind": "monastic", "role": "70th head of Kanchi (since 2018)", "note": "Chosen by Jayendra Saraswati as his successor in 1983." }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "succession": {
+  "title": "The guru parampara Advaitins recite",
+  "intro": "A traditional verse traces the teaching from Narayana through the Vedic sages to Shankara. The early names are mythic; Gaudapada wrote the Mandukya Karika, the oldest surviving Advaita text. Click Shankara to find him in the tree.",
+  "list": [
+   { "name": "Narayana", "years": "myth" },
+   { "name": "Brahma", "years": "myth", "note": "Padmabhava, born of the lotus" },
+   { "name": "Vasishtha", "years": "Vedic sage" },
+   { "name": "Shakti", "years": "Vedic sage", "note": "son of Vasishtha" },
+   { "name": "Parashara", "years": "Vedic sage", "note": "son of Shakti" },
+   { "name": "Vyasa", "years": "Vedic sage", "note": "son of Parashara; Brahma Sutras attributed to him" },
+   { "name": "Shuka", "years": "Puranic", "note": "son of Vyasa" },
+   { "name": "Gaudapada", "years": "c. 6th c.", "note": "Mandukya Karika" },
+   { "name": "Govinda Bhagavatpada", "years": "7th–8th c.", "note": "Shankara's guru, on the Narmada" },
+   { "name": "Adi Shankaracharya", "years": "c. 700–750", "note": "disciple of Govinda Bhagavatpada" }
+  ]
+ }
+}
