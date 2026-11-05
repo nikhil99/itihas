@@ -3016,5 +3016,95 @@
         "url": "https://voibooks.bitbucket.io/tfc/ch14/"
       }
     ]
+  },
+  {
+    "id": "tipu-sultan-villain-or-hero",
+    "title": "Tipu Sultan: Villain or Hero?",
+    "author": "An anthology",
+    "published": "Voice of India, 1993",
+    "summary": "Essays by Kerala and Karnataka writers, published in response to Bhagwan Gidwani's novel and Sanjay Khan's TV serial The Sword of Tipu Sultan, arguing from records and Tipu's own letters that his rule in Malabar and Coorg meant forced conversion and destroyed temples. Shown here as his reign, the renamed towns, the sources the contributors cite, and the 1989 Bombay High Court petition.",
+    "href": "books/tipu-sultan-villain-or-hero.html",
+    "timelines": [
+      "british-india"
+    ],
+    "source": "https://voibooks.bitbucket.io/tipu/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/tipu/pre/"
+      },
+      {
+        "n": 1,
+        "title": "I. The Sword Of Tipu Sultan",
+        "url": "https://voibooks.bitbucket.io/tipu/ch01/"
+      },
+      {
+        "n": 2,
+        "title": "II. Religious Intolerance Of Tipu Sultan",
+        "url": "https://voibooks.bitbucket.io/tipu/ch02/"
+      },
+      {
+        "n": 3,
+        "title": "III. Tipu's Own Testimony",
+        "url": "https://voibooks.bitbucket.io/tipu/ch03/"
+      },
+      {
+        "n": 4,
+        "title": "IV. Tipu Sultan: As Known In Kerala",
+        "url": "https://voibooks.bitbucket.io/tipu/ch04/"
+      },
+      {
+        "n": null,
+        "title": "Appendix 1: Mappilas Of Malabar",
+        "url": "https://voibooks.bitbucket.io/tipu/appe01/"
+      },
+      {
+        "n": null,
+        "title": "Appendix 2: Nedumkotta: Travancore Defence Fortification",
+        "url": "https://voibooks.bitbucket.io/tipu/appe02/"
+      },
+      {
+        "n": 5,
+        "title": "V. Scandalous Tele-Serial On Tipu Sultan",
+        "url": "https://voibooks.bitbucket.io/tipu/ch05/"
+      },
+      {
+        "n": 6,
+        "title": "VI. Tipu Sultan: A Fanatic Muslim",
+        "url": "https://voibooks.bitbucket.io/tipu/ch06/"
+      },
+      {
+        "n": 7,
+        "title": "VII. Tipu Sultan And Doordarshan",
+        "url": "https://voibooks.bitbucket.io/tipu/ch07/"
+      },
+      {
+        "n": 8,
+        "title": "VIII. The Tele-Serial On Tipu Sultan",
+        "url": "https://voibooks.bitbucket.io/tipu/ch08/"
+      },
+      {
+        "n": 9,
+        "title": "IX. A Letter To Shri P. Upendra",
+        "url": "https://voibooks.bitbucket.io/tipu/ch09/"
+      },
+      {
+        "n": 10,
+        "title": "X. Highlight Of Agitation Against The Tipu Sultan Serial",
+        "url": "https://voibooks.bitbucket.io/tipu/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "XI. History Of Legal Battle Against The T.V. Serial",
+        "url": "https://voibooks.bitbucket.io/tipu/ch11/"
+      },
+      {
+        "n": null,
+        "title": "Appendix: In The High Court Of Judicature At Bombay",
+        "url": "https://voibooks.bitbucket.io/tipu/appe03/"
+      }
+    ]
   }
 ]
