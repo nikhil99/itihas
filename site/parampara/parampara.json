@@ -1,5 +1,17 @@
 [
   {
+    "id": "shankara",
+    "title": "Adi Shankaracharya and the four mathas",
+    "native": "शंकराचार्य",
+    "guru": "Adi Shankaracharya",
+    "span": "8th century – today",
+    "summary": "Sureshvara at Sringeri, Padmapada at Puri, Hastamalaka at Dwarka and Totakacharya at Jyotirmath, followed down to today's Shankaracharyas, with Vidyaranya and Vijayanagara, Maharishi Mahesh Yogi, and Kanchi's own claim.",
+    "href": "parampara/shankara.html",
+    "timelines": [
+      "vijayanagara-empire"
+    ]
+  },
+  {
     "id": "varkari",
     "title": "Dnyaneshwar and the Varkari saints",
     "native": "ज्ञानेश्वर",

@@ -4,7 +4,7 @@
 // <id>.json: { eyebrow, title, intro, note, timelines?, kinds?, open?, select?, tree, succession? }
 //   tree nodes: { name, alt?, dates?, kind, role?, note?, tl?, children? }  or  { group, children }
 //   kind: guru | monastic | householder | woman | western | influence (or one defined in "kinds")
-//   tl: an Itihas timeline id; the panel links to it.
+//   tl: an Itihas timeline id; the panel links to it. lineage: another lineage's id, linked the same way.
 //   kinds: extra or relabelled kinds, { "<kind>": { label, color: "--c3", fill?, dashed?, via? } };
 //     dashed kinds draw dashed lines; via replaces "Drawn to the teaching through"; plural names them in
 //     the panel's "In this tree" count.
@@ -35,6 +35,8 @@
     const kinds = { ...KINDS, ...(L.kinds || {}) };
     let timelines = {};
     try { timelines = Object.fromEntries((await (await fetch("../data/index.json")).json()).map((t) => [t.id, t.title])); } catch {}
+    let lineages = {};
+    try { lineages = Object.fromEntries((await (await fetch("parampara.json")).json()).map((l) => [l.id, l.title])); } catch {}
 
     const data = d3.hierarchy(L.tree);
     data.descendants().forEach((d, i) => { d.id = i; d._children = d.children; d.data.name ??= d.data.group; });
@@ -149,6 +151,7 @@
         counts ? h("div", { class: "chain" }, `In this tree: ${counts}`) : null,
         h("div", { class: "links" },
           n.tl && timelines[n.tl] ? h("a", { href: `../#/${n.tl}` }, `Open the ${timelines[n.tl]} timeline →`) : null,
+          n.lineage && lineages[n.lineage] ? h("a", { href: `${n.lineage}.html` }, `Open ${lineages[n.lineage]} →`) : null,
           h("a", { href: `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(n.name)}`, target: "_blank", rel: "noopener" }, "Search Wikipedia ↗"))));
     }
     function find(name) { return data.descendants().find((n) => !isGroup(n) && n.data.name === name); }
