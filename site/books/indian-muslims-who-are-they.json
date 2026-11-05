@@ -1,0 +1,166 @@
+{
+  "title": "Indian Muslims: Who Are They",
+  "byline": "by <b>K.S. Lal</b> · Voice of India · 1990",
+  "lede": "K.S. Lal, a historian of the Delhi Sultanate, reconstructs how India's Muslim population grew, using chronicles, travellers' accounts and early censuses. His answer to the title's question: most Indian Muslims descend from Hindus who converted, mostly under pressure. A small minority descend from immigrant Turks, Persians, Arabs and Afghans. His second question is why, unlike Persia, Iraq or Egypt, India was never fully converted.",
+  "facts": [
+    [
+      "< 2%",
+      "Muslims as a share of India's population around 1400, about 3 million, by Lal's estimate"
+    ],
+    [
+      "15 million",
+      "Muslims in 1600, out of about 140 million"
+    ],
+    [
+      "~15%",
+      "in 1800: about 25 million out of 170 million"
+    ],
+    [
+      "1:5",
+      "the Muslim–Hindu ratio by 1900, against about 1:7 in 1800"
+    ]
+  ],
+  "related": [
+    [
+      "delhi-sultanate",
+      "Delhi Sultanate timeline"
+    ],
+    [
+      "mughal-empire",
+      "Mughal Empire timeline"
+    ]
+  ],
+  "note": "Population figures for medieval India are estimates. Lal's are his own and contested: other historians give different numbers and weigh conversion by force, Sufi influence and social mobility differently. This page reports his estimates and reasoning as his.",
+  "sections": [
+    {
+      "type": "bars",
+      "ch": 4,
+      "eyebrow": "Chapters 2–4 · Lal's estimates",
+      "title": "Muslims as a share of India's people",
+      "lede": "Lal's figures for the Muslim share of the population in what is now India, Pakistan and Bangladesh. He notes that the total population rose and fell over the medieval period while the Muslim population “shows only a constant rise”.",
+      "unit": "%",
+      "max": 25,
+      "ticks": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "items": [
+        [
+          "c. 1400",
+          2,
+          "About 3 million (“more than thirty lakh”), under 2%"
+        ],
+        [
+          "c. 1600",
+          10.5,
+          "About 15 million of 140 million, “one-ninth to one-tenth”"
+        ],
+        [
+          "c. 1800",
+          15,
+          "About 25 million of 170 million, a ratio of about 1:7 to Hindus"
+        ],
+        [
+          "c. 1850",
+          16,
+          "A 1:6 ratio, per Bishop Heber (1826) and Thornton's Gazetteer (1854)"
+        ],
+        [
+          "c. 1900",
+          20,
+          "A 1:5 ratio"
+        ]
+      ],
+      "note": "Values come from the figures and ratios Lal gives. For the ratio years, the percentage is the nearest he states or implies."
+    },
+    {
+      "type": "table",
+      "wide": true,
+      "ch": 3,
+      "eyebrow": "Chapter 3 · the provincial kingdoms",
+      "title": "Where conversion moved fastest",
+      "head": [
+        "Region",
+        "Key period",
+        "What drove growth, according to Lal"
+      ],
+      "rows": [
+        [
+          "Sindh and Punjab",
+          "712–1761",
+          "On the invasion route for a thousand years, with heavy immigration."
+        ],
+        [
+          "Kashmir",
+          "15th c.",
+          "After Shah Mir arrived from Swat in 1315 and his dynasty took power."
+        ],
+        [
+          "Gujarat",
+          "1396 on",
+          "A dynasty descended from a converted Rajput. Ahmad Shah's strict jizya from 1414."
+        ],
+        [
+          "Bengal",
+          "1414–31",
+          "Jalaluddin, the converted son of Raja Ganesh. The historian Wise thought more converts were made then than in the next 300 years. Sufis played a part."
+        ],
+        [
+          "The Deccan",
+          "1347 on",
+          "Bahmani wars with Vijayanagara brought captives who became Muslims, along with foreign nobles."
+        ],
+        [
+          "Malabar",
+          "14th–16th c.",
+          "Trade and pearl fisheries. The Portuguese put Muslims at about 20%."
+        ],
+        [
+          "Delhi–Agra, Rajputana",
+          "Throughout",
+          "Stayed largely Hindu: the imperial heartland was not enemy country, and Rajputana was never held."
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "ch": 5,
+      "eyebrow": "Chapters 5–6 · growth and its limits",
+      "title": "What drove growth, and what checked it",
+      "cols": [
+        {
+          "k": "Drivers (chapter 5)",
+          "items": [
+            "Conversion, “mainly”: war captives, state policy, jizya, rewards, Sufi preaching",
+            "Immigration of soldiers, scholars and adventurers",
+            "Polygamy and mixed marriages, whose children were raised Muslim",
+            "Higher fertility, as in every census from 1881 to 1941 according to Kingsley Davis",
+            "Fewer war losses, since Hindu foot soldiers bore the brunt"
+          ]
+        },
+        {
+          "k": "Checks (chapter 6)",
+          "items": [
+            "The country's size: no ruler ever held all of India",
+            "A Hindu “Protestant” movement: bhakti saints and resistance to conversion",
+            "Caste, which Lal says worked as a “bulwark” more than a push to convert",
+            "Akbar's 1562 ban on enslaving war captives",
+            "Portuguese missions competing from 1498",
+            "Muslim infighting: six of ten Slave-dynasty sultans deposed or murdered"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Epilogue",
+      "q": "The sword of Islam was blunted in India.",
+      "cite": "K.S. Lal, contrasting India with the rapid conversion of Arabia, Syria, Egypt and Persia"
+    }
+  ],
+  "footer": "Source: <em>Indian Muslims: Who Are They</em> by K.S. Lal (Voice of India, 1990), read from the online edition at <a href=\"https://voibooks.bitbucket.io/imwat/\">voibooks.bitbucket.io</a>."
+}
