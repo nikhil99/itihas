@@ -7,6 +7,21 @@
     "published": "2008 (Gujarati) · 2015 (English)",
     "summary": "Sixteen portraits of the RSS workers who shaped Modi, most of them unknown outside Gujarat. Shown here as a banyan-tree map, a 1889–2015 timeline, the routes people took into Gujarat, and a card for each person.",
     "href": "books/jyotipunj.html",
-    "timelines": ["narendra-modi", "bjp"]
+    "timelines": [
+      "narendra-modi",
+      "bjp"
+    ]
+  },
+  {
+    "id": "perversion-of-indias-political-parlance",
+    "title": "Perversion of India's Political Parlance",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India",
+    "summary": "Goel argues that India's Left/Right, secular/communal vocabulary came from Soviet Communism rather than the freedom struggle. Shown here as six word pairs, four “languages of imperialism” side by side, a 1857–1959 timeline and how the vocabulary spread.",
+    "href": "books/perversion-of-indias-political-parlance.html",
+    "timelines": [
+      "british-india",
+      "bjp"
+    ]
   }
 ]
