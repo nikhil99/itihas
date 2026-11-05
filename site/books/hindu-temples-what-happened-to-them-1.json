@@ -1,0 +1,262 @@
+{
+  "title": "Hindu Temples: What Happened to Them, Vol. 1",
+  "byline": "by <b>Arun Shourie, Harsh Narain, Jay Dubashi, Ram Swarup</b> and <b>Sita Ram Goel</b> · Voice of India · 1990 · subtitled <em>A Preliminary Survey</em>",
+  "lede": "Published at the height of the Ayodhya dispute, this volume makes one argument from several angles: that building mosques on demolished temples was a pattern, not an exception. It opens with Arun Shourie's discovery of a book by a rector of the Nadwatul Ulama in Lucknow that names such mosques, Babri among them. It closes with Goel's list of Muslim monuments across India said to stand on temple sites or to reuse temple materials. Koenraad Elst later called it the most important book of the controversy.",
+  "facts": [
+    [
+      "~1,500",
+      "entries in the state-by-state list we counted, plus Delhi's monuments listed separately (the book's own estimate is nearly 2,000)"
+    ],
+    [
+      "76%",
+      "of the counted entries are marked “temple site”; most of the rest, “temple materials used”"
+    ],
+    [
+      "1972",
+      "when the Nadwa rector's Arabic book naming temple-site mosques was first published"
+    ],
+    [
+      "10",
+      "essays, plus an appendix on attacks on Hindus in Bangladesh"
+    ]
+  ],
+  "related": [
+    [
+      "delhi-sultanate",
+      "Delhi Sultanate timeline"
+    ],
+    [
+      "mughal-empire",
+      "Mughal Empire timeline"
+    ]
+  ],
+  "note": "The list is, in the authors' words, “a preliminary survey” compiled largely from older archaeological reports and gazetteers. They acknowledge it may contain errors, and many entries rest on local tradition rather than excavation. This page counts and summarises the list. It does not verify individual entries.",
+  "sections": [
+    {
+      "type": "bars",
+      "ch": 10,
+      "eyebrow": "Chapter 10 · “Let the mute witnesses speak”",
+      "title": "The list, counted by state",
+      "lede": "Each entry names a mosque, dargah, idgah or fort and marks it as standing on a temple site, built from temple materials, or a converted temple. Counts follow the book's state headings, which predate several later state reorganisations.",
+      "unit": "entries",
+      "max": 300,
+      "ticks": [
+        0,
+        100,
+        200,
+        300
+      ],
+      "labelWidth": 150,
+      "items": [
+        [
+          "Uttar Pradesh",
+          274
+        ],
+        [
+          "Tamil Nadu",
+          164
+        ],
+        [
+          "Rajasthan",
+          154
+        ],
+        [
+          "Karnataka",
+          139
+        ],
+        [
+          "Gujarat",
+          138
+        ],
+        [
+          "Andhra Pradesh",
+          135
+        ],
+        [
+          "Maharashtra",
+          131
+        ],
+        [
+          "Madhya Pradesh",
+          112
+        ],
+        [
+          "Haryana",
+          76
+        ],
+        [
+          "Bengal",
+          60
+        ],
+        [
+          "Bihar",
+          53
+        ],
+        [
+          "Kashmir",
+          25
+        ],
+        [
+          "Punjab",
+          12
+        ],
+        [
+          "Orissa",
+          11
+        ],
+        [
+          "Others",
+          7,
+          "Assam, Kerala, Lakshadweep, Diu, Himachal"
+        ]
+      ],
+      "note": "We counted entries tagged “temple site”, “temple materials used” or “converted temple” in the online text: 1,492 in all (1,138 site, 334 materials, 20 converted). Delhi's list, written as one paragraph per area from Mehrauli onwards, is not included in the count."
+    },
+    {
+      "type": "cards",
+      "ch": 1,
+      "eyebrow": "Chapter 1 · Arun Shourie, “Hideaway Communalism”",
+      "title": "A Muslim scholar's own list",
+      "lede": "Shourie found that Maulana Hakim Sayid Abdul Hai, a rector of the Nadwatul Ulama and father of its later head Ali Mian, had written a chapter on “The Mosques of Hindustan”. He found the English edition hard to get. Abdul Hai names these, among others:",
+      "items": [
+        [
+          "Delhi",
+          "Quwwat al-Islam",
+          "Built by Qutbuddin Aibak after demolishing a temple attributed to Prithviraj."
+        ],
+        [
+          "Jaunpur",
+          "Atala Masjid",
+          "Ibrahim Sharqi built it on a demolished Hindu temple."
+        ],
+        [
+          "Kanauj",
+          "Fort mosque",
+          "On the foundations of a Hindu temple."
+        ],
+        [
+          "Etawah",
+          "Jami Masjid",
+          "On a temple site on the bank of the Jamuna."
+        ],
+        [
+          "Ayodhya",
+          "Babri Masjid",
+          "Built by Babur at the place Hindus call Rama's birthplace."
+        ],
+        [
+          "Banaras",
+          "Aurangzeb's mosque",
+          "On the site of the Vishvanath temple, with its stones rearranged."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "wide": true,
+      "ch": 10,
+      "eyebrow": "Chapter 10 · the archaeological reports",
+      "title": "Sites where the evidence is in the stones",
+      "lede": "Goel quotes Archaeological Survey reports, mostly from British officers, on sites where temple material can be seen in later buildings.",
+      "head": [
+        "Site",
+        "What the report describes"
+      ],
+      "rows": [
+        [
+          "Naraina, Rajasthan",
+          "A pillared mosque “constructed out of old Hindu temples” beside the Gauri Shankar tank."
+        ],
+        [
+          "Saheth-Maheth (Sravasti), UP",
+          "A domed tomb on the ruins of a Jain temple of Sambhavanatha."
+        ],
+        [
+          "Sarnath, UP",
+          "Excavations of 1904–05: “a violent catastrophe accompanied by wilful destruction and plunder”."
+        ],
+        [
+          "Vaishali, Bihar",
+          "An old brick stupa converted into a dargah."
+        ],
+        [
+          "Gaur and Pandua, Bengal",
+          "The Adina Masjid and others built with materials from pulled-down temples."
+        ],
+        [
+          "Mandu and Dhar, MP",
+          "Sultanate buildings of temple material. At Dhar, a mosque on “Raja Bhoja's school”."
+        ],
+        [
+          "Vijayanagara, Karnataka",
+          "Foundations with charcoal and burnt iron, after the 1565 sack."
+        ],
+        [
+          "Bijapur and Badami, Karnataka",
+          "Temple lintels and pillars reused in mosques and a fort gateway."
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "ch": 10,
+      "eyebrow": "Chapter 10 · how the list is organised",
+      "title": "Three kinds of entry",
+      "items": [
+        [
+          "1,138 entries",
+          "Temple site",
+          "The building stands where a temple stood."
+        ],
+        [
+          "334 entries",
+          "Temple materials used",
+          "Pillars, lintels or images from temples built into it."
+        ],
+        [
+          "20 entries",
+          "Converted temple",
+          "The temple building itself turned to Muslim use."
+        ]
+      ],
+      "lede": "The list sorts each monument into one of three kinds. The share of each, counted across the state lists:"
+    },
+    {
+      "type": "list",
+      "ch": 7,
+      "eyebrow": "Chapters 2–9 · the other essays",
+      "title": "What else the volume contains",
+      "items": [
+        [
+          "The Tip of an Iceberg",
+          "Inscriptions and literary sources that record temple destruction."
+        ],
+        [
+          "Some Historical Questions",
+          "What historians have avoided asking."
+        ],
+        [
+          "In the Name of Religion",
+          "Iconoclasm as religious duty."
+        ],
+        [
+          "A Need to Face the Truth",
+          "Early Islam, revelation, the “chosen” people and iconoclasm."
+        ],
+        [
+          "Historians Versus History",
+          "British, Muslim, “Hindu” and Marxist historians on the subject."
+        ],
+        [
+          "November 9 Will Change History",
+          "The 1989 Shilanyas at Ayodhya, and the Berlin Wall falling the same day."
+        ],
+        [
+          "Rama-Janmabhumi Temple: Muslim Testimony",
+          "Muslim writers who recorded the Ayodhya demolition."
+        ]
+      ]
+    }
+  ],
+  "footer": "Source: <em>Hindu Temples: What Happened to Them, Volume I: A Preliminary Survey</em> by Arun Shourie, Harsh Narain, Jay Dubashi, Ram Swarup and Sita Ram Goel (Voice of India, 1990), read from the online edition at <a href=\"https://voibooks.bitbucket.io/htemples1/\">voibooks.bitbucket.io</a>. The state counts were computed by Itihas from the book's list."
+}
