@@ -114,6 +114,7 @@ async function route() {
   } else [tlId, kind, id] = parts;
   if (!tlId) { closeDrawer(false); return renderHome(); }
   if (tlId === "books") { closeDrawer(false); state.tl = null; await renderBooks(); window.scrollTo(0, 0); return; }
+  if (tlId === "parampara") { closeDrawer(false); state.tl = null; await renderParampara(); window.scrollTo(0, 0); return; }
   if (state.tl?.id !== tlId) { await renderTimelinePage(tlId); window.scrollTo(0, 0); }
   if (kind === "e" && id) openEntity(id);
   else closeDrawer(false);
@@ -125,8 +126,9 @@ const go = (hash) => { if (location.hash !== hash) location.hash = hash; else ro
 // ---------- Home ----------
 async function renderHome() {
   state.tl = null;
-  const [all, entities, search, books] = await Promise.all([load("data/index.json"), load("data/entities.json"),
-    loadOptional("data/search.json", { entities: [], events: [] }), loadOptional("books/books.json", [])]);
+  const [all, entities, search, books, lineages] = await Promise.all([load("data/index.json"), load("data/entities.json"),
+    loadOptional("data/search.json", { entities: [], events: [] }), loadOptional("books/books.json", []),
+    loadOptional("parampara/parampara.json", [])]);
   state.entities = entities;
   state.subjectTimeline = Object.fromEntries(all.map((t) => [t.subject, t.id]));
   document.title = "Itihas — Indian History Timelines";
@@ -184,6 +186,9 @@ async function renderHome() {
       books.length ? el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Books", el("a", { class: "block-link", href: "#/books" }, "All books →")),
         el("div", { class: "cards" }, books.map((b) => bookCard(b, all)))) : null,
+      lineages.length ? el("div", { class: "series" },
+        el("h2", { class: "series-title" }, "Parampara", el("a", { class: "block-link", href: "#/parampara" }, "All lineages →")),
+        el("div", { class: "cards books" }, lineages.map((l) => lineageCard(l, all)))) : null,
       upcoming.length ? el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Coming later"),
         el("div", { class: "cards" }, upcoming.map((u) => el("div", { class: "tl-card soon" }, el("div", {}, el("h3", {}, u), el("p", {}, "Not started yet")))))) : null,
@@ -229,6 +234,33 @@ async function renderBooks() {
     el("p", { class: "lead" }, "Visual guides to books about Indian history: who is in them, when things happened and how the pieces connect."),
     books.length ? el("div", { class: "cards books" }, books.map((b) => bookCard(b, index)))
       : el("p", {}, "No books yet.")));
+}
+
+// ---------- Parampara ----------
+// Guru–shishya lineage trees live as standalone pages in site/parampara/, listed in
+// site/parampara/parampara.json; each page draws its <id>.json with parampara/lineage.js.
+function lineageCard(l, index) {
+  const tlTitle = Object.fromEntries(index.map((t) => [t.id, t.title]));
+  const tls = (l.timelines || []).filter((id) => tlTitle[id]);
+  return el("div", { class: "book-card" },
+    el("a", { class: "book-cover lineage-cover", href: l.href, "aria-label": `Open ${l.title}` },
+      el("span", { class: "book-native" }, l.native || ""), el("span", { class: "book-title" }, l.guru)),
+    el("div", { class: "book-body" },
+      el("h3", {}, el("a", { href: l.href }, l.title)),
+      el("p", { class: "book-meta" }, l.span),
+      el("p", {}, l.summary),
+      tls.length ? el("p", { class: "book-links" }, "Timelines: ",
+        tls.map((id) => el("a", { class: "chip tl-chip", href: `#/${id}` }, tlTitle[id]))) : null));
+}
+
+async function renderParampara() {
+  const [index, lineages] = await Promise.all([loadOptional("data/index.json", []), loadOptional("parampara/parampara.json", [])]);
+  document.title = "Parampara — Itihas";
+  $("#app").replaceChildren(el("section", { class: "home books-page" },
+    el("h1", {}, "Parampara"),
+    el("p", { class: "lead" }, "Guru–shishya lineages drawn as trees: who taught whom, the disciples who carried the teaching on, and the people outside the line whom it changed."),
+    lineages.length ? el("div", { class: "cards books" }, lineages.map((l) => lineageCard(l, index)))
+      : el("p", {}, "No lineages yet.")));
 }
 
 // ---------- Home: search ----------

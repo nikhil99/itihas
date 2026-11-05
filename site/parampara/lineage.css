@@ -1,0 +1,91 @@
+/* Shared styles for lineage trees in site/parampara/. Matches Itihas's palette and type (site/styles.css).
+   Layout: header, then the tree (scrolls in its own box) beside a reading panel; an optional numbered
+   succession below. */
+:root{
+  --bg:#faf7f2; --panel:#ffffff; --ink:#1f1b16; --ink2:#4f473e; --muted:#6b6258; --rule:#e4ddd2;
+  --c1:#C2560C;   /* bhagwa: gurus, monastics, guru-disciple lines */
+  --c2:#4338CA;   /* householders */
+  --c3:#0A8F80;   /* Western disciples */
+  --c4:#A0167A;   /* women disciples */
+  --inf:#8a8274;  /* influenced, not initiated (dashed) */
+  --display:"Fraunces", Georgia, serif;
+  --body:"Inter", system-ui, -apple-system, sans-serif;
+  --dev:"Noto Sans Devanagari", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#15120f; --panel:#1e1a16; --ink:#f1ebe3; --ink2:#c9bfb3; --muted:#a99e91; --rule:#3a332b;
+  --c1:#E08A45; --c2:#8C9CE0; --c3:#3FB3A3; --c4:#D06AB8; --inf:#968c7e; color-scheme:dark}}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;margin:0;padding-inline:16px;padding-block:0 64px;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.topbar{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;padding:14px 24px;margin-inline:-16px;border-bottom:1px solid var(--rule);background:var(--panel)}
+.brand{font:700 22px var(--display);text-decoration:none;color:var(--ink)}
+.brand-dev{font-family:var(--dev);color:var(--c1)}
+.crumb{color:var(--muted);font-size:13px}.crumb a{color:var(--c1)}
+.page{max-width:1280px;margin:0 auto;display:grid;gap:28px;padding-block:32px 0}
+h1,h2{font-family:var(--display);font-weight:600;text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(30px,5vw,48px)}
+p{margin:0}
+.head{display:grid;gap:10px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--c1)}
+.lede{color:var(--ink2);font-size:16px;max-width:70ch}
+.related{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--ink2)}
+.related a{border:1px solid var(--rule);background:var(--panel);border-radius:999px;padding:4px 12px;color:var(--ink);text-decoration:none}
+.related a:hover{border-color:var(--c1)}
+
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend .dot{width:11px;height:11px;border-radius:50%;border:2px solid var(--c);background:var(--panel)}
+.legend .dot.fill{background:var(--c)}
+.legend .dash{width:22px;border-top:2px dashed var(--inf)}
+.btns{display:flex;gap:8px;margin-left:auto}
+button{font:500 13px var(--body);color:var(--ink);background:var(--panel);border:1px solid var(--rule);border-radius:999px;padding:6px 14px;cursor:pointer}
+button:hover{border-color:var(--c1)}
+button:focus-visible,a:focus-visible,li:focus-visible{outline:2px solid var(--c1);outline-offset:2px}
+
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;align-items:start}
+.tree-box{background:var(--panel);border:1px solid var(--rule);border-radius:12px;overflow:auto;max-height:78vh;min-width:0}
+.tree-box svg{display:block}
+.panel{position:sticky;top:16px;display:grid;gap:10px;padding:4px 2px;min-width:0}
+.panel .kind{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.panel h2{font-size:28px}
+.panel .alt{color:var(--muted);font-style:italic;margin-top:-6px}
+.panel .dates{font-family:var(--mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.panel .role{font-weight:600}
+.panel .chain{font-size:13px;color:var(--muted);border-top:1px solid var(--rule);padding-top:10px}
+.panel .chain b{color:var(--ink);font-weight:500}
+.panel .links{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
+.panel .links a{color:var(--c1)}
+
+.node{cursor:pointer}
+.node text{font-size:13px;fill:var(--ink);paint-order:stroke;stroke:var(--panel);stroke-width:4px;stroke-linejoin:round}
+.node text.sub{font-family:var(--mono);font-size:10.5px;fill:var(--muted)}
+.node.group text{font-style:italic;fill:var(--muted)}
+.node.sel text.name{font-weight:600;fill:var(--c1)}
+.node:focus{outline:none}
+.node:focus-visible circle,.node:focus-visible rect{stroke-width:4px}
+.link{fill:none;stroke:var(--c1);stroke-opacity:.55;stroke-width:1.5px}
+.link.inf{stroke:var(--inf);stroke-dasharray:4 4;stroke-opacity:.9}
+.link.grp{stroke:var(--rule);stroke-opacity:1}
+
+.succession{display:grid;gap:10px}
+.succession>p{color:var(--ink2);max-width:70ch}
+.succession ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.succession li{display:grid;grid-template-columns:30px 1fr;gap:2px 8px;padding:10px 12px;background:var(--panel);border:1px solid var(--rule);border-radius:10px}
+.succession li.in-tree{cursor:pointer}
+.succession li.in-tree:hover{border-color:var(--c1)}
+.succession .n{grid-row:span 3;font-family:var(--mono);color:var(--c1);font-variant-numeric:tabular-nums}
+.succession .yrs{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.succession .g{font-size:12px;color:var(--muted)}
+footer{color:var(--muted);font-size:13px;max-width:80ch}
+
+@media (max-width:860px){
+  .stage{grid-template-columns:1fr}
+  .panel{position:static;order:-1;background:var(--panel);border:1px solid var(--rule);border-radius:12px;padding:14px}
+  .tree-box{max-height:70vh}
+  .btns{margin-left:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
