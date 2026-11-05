@@ -681,5 +681,150 @@
         "url": "https://voibooks.bitbucket.io/foe/ch28/"
       }
     ]
+  },
+  {
+    "id": "catholic-ashrams",
+    "title": "Catholic Ashrams: Sannyasins or Swindlers?",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1988; enlarged 1990s",
+    "summary": "Goel's case that Catholic “ashrams” run by robed swamis such as Bede Griffiths are a missionary strategy (“indigenisation”) going back to Robert De Nobili. Shown here as a timeline from De Nobili to Shantivanam, the founding decades of Christian ashrams, foreign mission funding in 1986, conversion rates by region, and the debates with Griffiths.",
+    "href": "books/catholic-ashrams.html",
+    "timelines": [
+      "british-india"
+    ],
+    "source": "https://voibooks.bitbucket.io/ca/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/ca/pre/"
+      },
+      {
+        "n": 1,
+        "title": "New Labels for Old Merchandise",
+        "url": "https://voibooks.bitbucket.io/ca/ch01/"
+      },
+      {
+        "n": 2,
+        "title": "Indigenisation: A Predatory Enterprise",
+        "url": "https://voibooks.bitbucket.io/ca/ch02/"
+      },
+      {
+        "n": 3,
+        "title": "The Patron Saint of Indigenisation",
+        "url": "https://voibooks.bitbucket.io/ca/ch03/"
+      },
+      {
+        "n": 4,
+        "title": "Mission's Volte-Face vis-a-vis Hindu Culture",
+        "url": "https://voibooks.bitbucket.io/ca/ch04/"
+      },
+      {
+        "n": 5,
+        "title": "The Ashram Movement in the Mission",
+        "url": "https://voibooks.bitbucket.io/ca/ch05/"
+      },
+      {
+        "n": 6,
+        "title": "The Trinity from Tannirpalli",
+        "url": "https://voibooks.bitbucket.io/ca/ch06/"
+      },
+      {
+        "n": 7,
+        "title": "An Imperialist Hangover",
+        "url": "https://voibooks.bitbucket.io/ca/ch07/"
+      },
+      {
+        "n": 8,
+        "title": "Catholic Ashrams : Adopting and Adapting Hindu Dharma",
+        "url": "https://voibooks.bitbucket.io/ca/ch08/"
+      },
+      {
+        "n": 9,
+        "title": "The J.R. Ewing Syndrome",
+        "url": "https://voibooks.bitbucket.io/ca/ch09/"
+      },
+      {
+        "n": 10,
+        "title": "Interview with Father Bruno Barnhardt: Emmaculate Heart Hermitage",
+        "url": "https://voibooks.bitbucket.io/ca/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "Returning to the Hindu Fold: A Primer",
+        "url": "https://voibooks.bitbucket.io/ca/ch11/"
+      },
+      {
+        "n": null,
+        "title": "APPENDIX 1 - Malaysia Hindus Protest Christian Sadhu",
+        "url": "https://voibooks.bitbucket.io/ca/ch11app1/"
+      },
+      {
+        "n": null,
+        "title": "APPENDIX 2 - Missionary's Dirty Tricks",
+        "url": "https://voibooks.bitbucket.io/ca/ch11app2/"
+      },
+      {
+        "n": 12,
+        "title": "The First Dialogue",
+        "url": "https://voibooks.bitbucket.io/ca/ch12/"
+      },
+      {
+        "n": 13,
+        "title": "The Second Dialogue",
+        "url": "https://voibooks.bitbucket.io/ca/ch13/"
+      },
+      {
+        "n": 14,
+        "title": "The Third Dialogue",
+        "url": "https://voibooks.bitbucket.io/ca/ch14/"
+      },
+      {
+        "n": 15,
+        "title": "Bede Griffiths Drops the Mask",
+        "url": "https://voibooks.bitbucket.io/ca/ch15/"
+      },
+      {
+        "n": null,
+        "title": "APPENDIX 1 - Different Paths Meeting in God",
+        "url": "https://voibooks.bitbucket.io/ca/ch15app1/"
+      },
+      {
+        "n": null,
+        "title": "APPENDIX 2 - Liberal Christianity",
+        "url": "https://voibooks.bitbucket.io/ca/ch15app2/"
+      },
+      {
+        "n": null,
+        "title": "APPENDIX 3 - The Great Command and a Cosmic Auditing",
+        "url": "https://voibooks.bitbucket.io/ca/ch15app3/"
+      },
+      {
+        "n": null,
+        "title": "I. Christian Ashrams in India, Nepal and Sri Lanka",
+        "url": "https://voibooks.bitbucket.io/ca/app1/"
+      },
+      {
+        "n": null,
+        "title": "II. A Glimpse of Mission Finance",
+        "url": "https://voibooks.bitbucket.io/ca/app2/"
+      },
+      {
+        "n": null,
+        "title": "III. Thy Kingdom is the Third World",
+        "url": "https://voibooks.bitbucket.io/ca/app3/"
+      },
+      {
+        "n": null,
+        "title": "IV. Christianity Mainly for Export: God's Legionaries",
+        "url": "https://voibooks.bitbucket.io/ca/app4/"
+      },
+      {
+        "n": null,
+        "title": "V. Proselytisation as it is Practised",
+        "url": "https://voibooks.bitbucket.io/ca/app5/"
+      }
+    ]
   }
 ]
