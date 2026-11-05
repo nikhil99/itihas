@@ -3515,5 +3515,85 @@
         "url": "https://voibooks.bitbucket.io/mssmi/post/"
       }
     ]
+  },
+  {
+    "id": "muslim-separatism",
+    "title": "Muslim Separatism: Causes and Consequences",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1987; enlarged 1995",
+    "summary": "Goel's essays, built around H.V. Seshadri's The Tragic Story of Partition, arguing that Partition came from two fixed “behaviour patterns”: Muslim separatism rooted in Islam, and a national leadership that kept conceding. Shown here as the two patterns side by side, a timeline from 1876 to 1947, and the warning voices he says were ignored.",
+    "href": "books/muslim-separatism.html",
+    "timelines": [
+      "british-india"
+    ],
+    "source": "https://voibooks.bitbucket.io/muslimsep/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "The Two Behaviour Patterns",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "The National Territorial Tradition",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "The National Historical Tradition",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "The Business of Blaming the British",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "The Frustration of Islam in India",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Islamic Atavism Renamed Muslim Revivalism",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Journey from Jihad to Jee-Huzuri",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "National Resurgence Reviled as Hindu Revivalism",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Loss of Privileges Portrayed as Privation",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "The Separatist Sewer Pollutes the National Mainstream",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "The Behaviour Pattern Patented by Islam",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "Plea For a Historical Perspective",
+        "url": "https://voibooks.bitbucket.io/muslimsep/ch12/"
+      },
+      {
+        "n": null,
+        "title": "Appendix",
+        "url": "https://voibooks.bitbucket.io/muslimsep/app/"
+      }
+    ]
   }
 ]
