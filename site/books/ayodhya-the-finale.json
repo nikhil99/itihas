@@ -1,0 +1,48 @@
+{
+  "title": "Ayodhya, the Finale: Science versus Secularism",
+  "byline": "by <b>Koenraad Elst</b> · Voice of India · 2003 · subtitled <em>The Excavations Debate</em>",
+  "lede": "Elst's third Ayodhya book is a short one, written as the archaeology finally arrived. In 2003 the Allahabad High Court had a radar survey done, then ordered the Archaeological Survey of India (ASI) to dig. Elst follows the press coverage week by week. His charge is that newspapers and historians reported “no findings” before the report was out, then explained away the final report. He ends with what a genuinely secular solution would have looked like.",
+  "facts": [["2003", "radar scan, excavation and the ASI's final report"], ["52", "trenches, each four metres square, per <em>Frontline</em>'s summary of the interim report"], ["6", "lines of response to the report that Elst catalogues"], ["9 Nov 1989", "Rajiv Gandhi allowed the <i>shilanyas</i>, part of the deal Elst says could have worked"]],
+  "related": [["bjp", "BJP & Jana Sangh timeline"], ["mughal-empire", "Mughal Empire timeline"]],
+  "note": "Elst writes as a long-standing participant in the Ayodhya debate. The ASI report's interpretation was contested at the time. The Supreme Court relied on it in part in its 2019 judgment, which awarded the site for a temple. This page summarises Elst's account, attributed to him.",
+  "sections": [
+    {
+      "type": "timeline", "ch": 2, "eyebrow": "Chapters 1–3 · the excavation year",
+      "title": "From radar to report",
+      "items": [
+        {"era": "Before", "color": 2},
+        ["1989", "“The Political Abuse of History”", "25 JNU historians deny the temple. Elst calls it a <i>fatwa</i>."],
+        ["Oct 1992", "Narasimha Rao revives the scholars' debate", ""],
+        ["6 Dec 1992", "The mosque is demolished", ""],
+        {"era": "2003", "color": 0},
+        ["early 2003", "Radar survey", "Tojo Vikas International. Geophysicist Claude Robillard reports a structure under the mosque (19 March)."],
+        ["Mar 2003", "Court orders the ASI to dig", "To confirm or disprove the radar scan."],
+        ["11 Jun", "Interim report", "Headlines read “No proof of structure”, which Elst calls “the great Indian vanishing trick”."],
+        ["Aug", "Final report", "Foundations of a large building complex beneath the mosque."],
+        ["26–28 Aug", "The reactions", "BBC (26th), <em>Hindustan Times</em> editorial “Structural flaws” (27th), T.V.R. Shenoy in the <em>Indian Express</em> (28th)."],
+        {"era": "Since the book", "color": 4},
+        ["2010", "Allahabad High Court judgment", "Divides the site three ways.", 1],
+        ["2019", "Supreme Court judgment", "Awards the site for a temple, and five acres elsewhere for a mosque.", 1]
+      ]
+    },
+    {
+      "type": "table", "wide": true, "ch": 3, "eyebrow": "Chapter 3 · escaping the ASI's conclusions",
+      "title": "Six ways around the findings, as Elst describes them",
+      "head": ["Tactic", "Example he cites", "His reply"],
+      "rows": [
+        ["Deny", "“No proof of structure” headlines after the interim report", "The report did not say that. The critics quoted the litigants instead."],
+        ["Deflect", "<em>Hindustan Times</em>: the point is not whether a temple existed but its “historical relevance”", "An implicit concession."],
+        ["Discredit", "Insinuations that the ASI bent to political pressure", "<i>Ad hominem</i>, he says, with no technical rebuttal."],
+        ["The Buddhist gambit", "Perhaps it was a Buddhist or Jain shrine", "Even then, it would not have been a mosque."],
+        ["A mosque before the mosque", "Irfan Habib to the BBC: the structure could be an older mosque", "A pillared building with Hindu motifs does not fit that."],
+        ["Counterbalance", "Concede the findings, then quote opposing experts", "International reporting chose this approach."]
+      ]
+    },
+    {
+      "type": "compare", "ch": 4, "eyebrow": "Chapter 4 · secular guilt, secular solution",
+      "title": "What a secular deal would have been",
+      "cols": [{"k": "Elst's “secular” solution", "items": ["Give the site to the community that holds it, is most attached to it, and is largest", "Compensate the other side generously", "Rajiv Gandhi's approach: the shilanyas, the scholars' debate, and favours for Muslim leaders"]}, {"k": "Why it failed, in his view", "items": ["Rajiv Gandhi's death in 1991", "“Secularists” who turned a non-issue into a crusade", "Historians who denied the evidence and so prolonged the dispute"]}]
+    }
+  ],
+  "footer": "Source: <em>Ayodhya, the Finale: Science versus Secularism, the Excavations Debate</em> by Koenraad Elst (Voice of India, 2003), read from the online edition at <a href=\"https://voibooks.bitbucket.io/finale/\">voibooks.bitbucket.io</a>. Entries marked “since the book” are added from the public record."
+}
