@@ -1,0 +1,44 @@
+[
+  {
+    "id": "medieval",
+    "title": "Medieval India under Muslim rule",
+    "color": "#B45309",
+    "blurb": "The Sultanate and Mughal centuries: conquest and resistance, jizya, slavery, conversion, the state and its legacy, and how textbooks tell it."
+  },
+  {
+    "id": "temples",
+    "title": "Temples and Ayodhya",
+    "color": "#B91C1C",
+    "blurb": "Temple destruction and the Ram Janmabhoomi dispute, from the 1990 temple lists to the 2003 excavation."
+  },
+  {
+    "id": "islam",
+    "title": "Islam: scripture and law",
+    "color": "#0F766E",
+    "blurb": "Readings of the Quran, the Hadis and jihad, and the court cases and bans over criticising them."
+  },
+  {
+    "id": "christianity",
+    "title": "Christianity and the missions",
+    "color": "#4338CA",
+    "blurb": "Hindu replies to Christian missions, from Ram Mohun Roy to the Catholic ashrams, and critiques of the Bible and the historical Jesus."
+  },
+  {
+    "id": "hindu",
+    "title": "Hindu thought and identity",
+    "color": "#A0167A",
+    "blurb": "What Hinduism is, who counts as Hindu, where the Vedic people came from, and how Hindu spirituality sees other faiths."
+  },
+  {
+    "id": "partition",
+    "title": "Freedom struggle and Partition",
+    "color": "#475569",
+    "blurb": "1942, Nehru's politics, Muslim separatism and the 1947 violence in Punjab."
+  },
+  {
+    "id": "modern",
+    "title": "Politics in independent India",
+    "color": "#15803D",
+    "blurb": "Political vocabulary, the Sangh, secularism, demography and Pakistan, from the 1980s to the Modi era."
+  }
+]
