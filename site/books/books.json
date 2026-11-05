@@ -1889,5 +1889,63 @@
         "url": "https://voibooks.bitbucket.io/pp/ch4/"
       }
     ]
+  },
+  {
+    "id": "on-hinduism",
+    "title": "On Hinduism: Reviews and Reflections",
+    "author": "Ram Swarup",
+    "published": "Voice of India, 2000",
+    "summary": "Ram Swarup's later essays: a numbered restatement of Sanatana Dharma, the cultural self-alienation of Hindus, Buddhism and Hinduism, the Indo-European encounter, Huxley, and reviews. Shown here as his digest of Sanatana Dharma, the problems he lists with remedies, and the essays at a glance.",
+    "href": "books/on-hinduism.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/ohrr/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Foreword",
+        "url": "https://voibooks.bitbucket.io/ohrr/fore/"
+      },
+      {
+        "n": 1,
+        "title": "Sanatana Dharma: Anusmriti and Anudhyayana",
+        "url": "https://voibooks.bitbucket.io/ohrr/ch01/"
+      },
+      {
+        "n": 2,
+        "title": "Cultural Self-Alienation Among the Hindus",
+        "url": "https://voibooks.bitbucket.io/ohrr/ch02/"
+      },
+      {
+        "n": 3,
+        "title": "Buddhism vis-a-vis Hinduism",
+        "url": "https://voibooks.bitbucket.io/ohrr/ch03/"
+      },
+      {
+        "n": 4,
+        "title": "Indo-European Encounter: An Indian Perspective",
+        "url": "https://voibooks.bitbucket.io/ohrr/ch04/"
+      },
+      {
+        "n": 5,
+        "title": "Development in Huxley's Thought: Hindu-Buddhist Influences",
+        "url": "https://voibooks.bitbucket.io/ohrr/ch05/"
+      },
+      {
+        "n": 6,
+        "title": "The Hindu View of Education",
+        "url": "https://voibooks.bitbucket.io/ohrr/ch06/"
+      },
+      {
+        "n": 7,
+        "title": "Educational System During Pre-British Days",
+        "url": "https://voibooks.bitbucket.io/ohrr/ch07/"
+      },
+      {
+        "n": 8,
+        "title": "India and Greece",
+        "url": "https://voibooks.bitbucket.io/ohrr/ch08/"
+      }
+    ]
   }
 ]

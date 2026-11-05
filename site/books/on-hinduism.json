@@ -1,0 +1,48 @@
+{
+  "title": "On Hinduism: Reviews and Reflections",
+  "byline": "by <b>Ram Swarup</b> · Voice of India · 2000 · foreword by David Frawley (Vamadeva Shastri)",
+  "lede": "A late collection by Voice of India's leading thinker, gathering eight essays and reviews. It opens with a numbered restatement of Sanatana Dharma in more than 130 short paragraphs. Then come Hindu “cultural self-alienation”, with ten practical problems and their remedies, Buddhism's place within Hinduism, Europe's encounter with India from Hegel to Huxley, Indian schooling before the British, and the links between ancient India and Greece. David Frawley's foreword calls Swarup's work a challenge to the modern world.",
+  "facts": [["8", "essays, with a foreword by David Frawley"], ["130+", "numbered paragraphs in the opening digest of Sanatana Dharma"], ["10", "practical problems facing Hinduism, each with a remedy"], ["1", "complete essay on Aldous Huxley's turn towards Hindu and Buddhist thought"]],
+  "note": "These are Ram Swarup's reflections and judgements, especially on Islam, Christianity and Communism, and are summarised as his.",
+  "sections": [
+    {
+      "type": "cards", "ch": 1, "eyebrow": "Chapter 1 · Sanatana Dharma: anusmriti and anudhyayana (recollection and reflection)",
+      "title": "The digest, by theme",
+      "lede": "Swarup's restatement, grouped. Its recurring contrast is between a religion of the inner self (<i>atma-vada</i>) and prophetic creeds that look outward.",
+      "items": [
+        ["§2–15", "Self first, then gods", "“Deep thinking about Gods” requires “deep thinking about man”. A rich <i>atma-vada</i> gives a rich <i>deva-vada</i>."],
+        ["§16–28", "Gods, single and many", "God is nameless and also the source of all names. The gods “do not object to being multiple, for they know that they are both”."],
+        ["§29–36", "Revelation", "Different parts of the mind project their own “revelations”. An impure source gives jealous gods and self-proclaimed saviours."],
+        ["§37–54", "Ethics", "Morality grows with spiritual growth: the ten-fold dharma, a neighbour who is everyone, kinship with animals, an ecological ethic."],
+        ["§55–71", "Many lives", "Many births and many planes, ending in moksha, against “one life, one judgement, hell, heaven”."],
+        ["§109–117", "Society", "<i>Chaturvarna</i> as four psychological types, not the later caste system. Castes as pluralism in action. Reverence for women and goddesses."],
+        ["§121–129", "The fall", "Hinduism “became too pacific”, neglected its arms, and ended in self-alienation."]
+      ]
+    },
+    {
+      "type": "compare", "ch": 2, "eyebrow": "Chapter 2 · cultural self-alienation among the Hindus",
+      "title": "Two responses to defeat",
+      "cols": [
+        {"k": "Self-discovery", "items": ["After the first shock, reassert culture while accepting political defeat", "Ramakrishna, Vivekananda, Dayananda, Aurobindo, Gandhi", "Creative response"]},
+        {"k": "Self-alienation", "items": ["Look at oneself “through borrowed eyes”", "A “satellite ideology” with intellectual compradors", "Many “liberal” Hindu intellectuals, in Swarup's view"]}
+      ]
+    },
+    {
+      "type": "steps", "ch": 2, "eyebrow": "Chapter 2 · some problems Hinduism faces",
+      "title": "Ten problems and their remedies",
+      "items": [["1", "Temples", "Under attack for a thousand years, and stripped of land under the British."], ["2", "Priests", "Poor and unlettered, so they need education and support."], ["3", "Samskara officiants", "For births, weddings and funerals, they are dying out."], ["4", "Foreign funds", "Pouring into missions while Hindu bodies go without."], ["5", "Social evils", "To be reformed from within."], ["6", "Beautification", "Of sacred places and the land."], ["7", "Ideas and education", "Hindu seminaries, like the Christian ones and al-Azhar."], ["8", "Vanavasis and Harijans", "Bring them fully in."], ["9", "Islam, Christianity, Communism", "Study them, and answer them."], ["10", "Organisation", "Centres, leadership, a sense of belonging to a larger whole."]]
+    },
+    {
+      "type": "cards", "ch": 3, "eyebrow": "Chapters 3–8 · the other essays",
+      "title": "Buddhism, Europe, Huxley, schools, Greece",
+      "items": [
+        ["Ch. 3", "Buddhism vis-à-vis Hinduism", "The Buddha's silence and <i>anatta</i> (no-self) as an austere statement of the same transcendence. Buddhism's “dryness” was balanced in Hinduism by bhakti."],
+        ["Ch. 4", "The Indo-European encounter", "Europe discovers Sanskrit, then pushes back (Hegel). “Neo-Hinduism”, Hindu passivity, and “the Europeanization of the Earth”."],
+        ["Ch. 5", "Huxley", "From a rationalist world to <em>The Perennial Philosophy</em>: many selves, mysticism, vegetarianism, the epics."],
+        ["Ch. 6–7", "Education", "The Hindu view of learning. Pre-British schools, as British surveys found them, were widespread and open to all, and were left to die."],
+        ["Ch. 8", "India and Greece", "Apollonius, <i>atma-vada</i> and advaita in Greek thought, Buddhism going west, until “darkness descends on the Mediterranean world”."]
+      ]
+    }
+  ],
+  "footer": "Source: <em>On Hinduism: Reviews and Reflections</em> by Ram Swarup (Voice of India, 2000), read from the online edition at <a href=\"https://voibooks.bitbucket.io/ohrr/\">voibooks.bitbucket.io</a>. Section numbers (§) are the book's own paragraph numbers."
+}
