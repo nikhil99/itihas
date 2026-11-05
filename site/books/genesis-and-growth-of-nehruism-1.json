@@ -1,0 +1,41 @@
+{
+  "title": "Genesis and Growth of Nehruism, Vol. 1: Commitment to Communism",
+  "byline": "by <b>Sita Ram Goel</b> · first published as eighteen articles by “Ekaki” in the <em>Organiser</em>, June–October 1961 · Voice of India edition 1993, with a foreword by Philip Spratt",
+  "lede": "In 1961, with Krishna Menon as Defence Minister and China pressing on the Himalayan frontier, Goel set out to show from Nehru's own words that he was neither neutral nor a democratic socialist but a lifelong “fellow-traveller” of Soviet Communism. He builds his case almost entirely from quotations: five of Nehru's books, his speeches as Prime Minister and his foreign policy. The foreword is by Philip Spratt, a former British Communist organiser in India who had turned anti-Communist.",
+  "facts": [["18", "weekly articles in 1961, plus a 1962 essay and a 1993 postscript"], ["5", "Nehru books examined, from <em>Soviet Russia</em> (1929) to <em>The Discovery of India</em> (1946)"], ["1927", "Nehru's first visit to Moscow, the root of the story in Goel's telling"], ["29 Apr 1954", "Panchsheel signed. Goel says Chinese incursions began almost at once and were kept secret."]],
+  "related": [["british-india", "British India timeline"]],
+  "note": "This is a Cold War polemic, and its portrait of Nehru is deliberately one-sided. As a reader complains in chapter 12, it collects only the “yes” quotations. Historians generally see Nehru as a non-aligned democratic socialist. This page reports Goel's case as his.",
+  "sections": [
+    {
+      "type": "steps", "ch": 2, "eyebrow": "Chapters 1–17 · the labels",
+      "title": "How Goel characterises Nehru, chapter by chapter",
+      "items": [["Ch. 2", "A pilgrim to the Soviet paradise", "<em>Soviet Russia</em>, 1929"], ["Ch. 3", "Historian with Communist glasses", "<em>Glimpses of World History</em>, 1934"], ["Ch. 4", "An indefatigable Soviet enthusiast", "“Conditions in India… much the same as in Russia before the Revolution”"], ["Ch. 5–6", "Soviet addict, apologist for Soviet sins", ""], ["Ch. 7", "A persistent pro-Soviet speaker", "Speeches, 1946–57"], ["Ch. 8", "A devoted disciple of Stalin", "How he came to dominate the Congress after Patel"], ["Ch. 9–16", "Fellow-traveller of Soviet foreign policy", "Korea, China, Bose, 1942, the Second World War"], ["Ch. 17", "Promoter of the Communist Party", "Asks Madras to release detained Communists (21 June 1947)"]]
+    },
+    {
+      "type": "timeline", "ch": 2, "eyebrow": "Chapters 2–8 · the evidence",
+      "title": "Nehru's books and choices that Goel examines",
+      "items": [
+        ["Nov 1927", "Visits Moscow", "Writes newspaper articles that become <em>Soviet Russia</em> (1929). Communist bookshops were still selling translations in 1954."],
+        ["1934", "<em>Glimpses of World History</em>", "Revised for England in 1939 with a foreword by Krishna Menon."],
+        ["1936", "<em>An Autobiography</em>", ""],
+        ["1941", "<em>The Unity of India</em>", ""],
+        ["1946", "<em>The Discovery of India</em>", "Goel's fifth text. On 7 September 1946 the Interim Government is announced."],
+        ["1947", "Communists and Nehru", "The CPI asks “progressive” Congressmen to rally round him (June). He asks Madras to ease detentions."],
+        ["1949–50", "Rift with Patel over foreign policy", "Patel thought it “too servile” to the Soviet camp. Patel died in December 1950."],
+        ["29 Apr 1954", "Panchsheel with China", ""],
+        ["1961–62", "Krishna Menon and the China crisis", "The setting of the series."]
+      ]
+    },
+    {
+      "type": "timeline", "eyebrow": "First preface · the campaign behind the book",
+      "title": "Voice of India's founders against Communism, 1948–62",
+      "items": [["late 1948", "Ram Swarup's pamphlet", "<em>Let Us Fight the Communist Menace</em>"], ["Mar 1952", "Society for Defence of Freedom in Asia", "Founded by Ram Swarup and Goel's group."], ["16 Oct 1952", "Attacked by <em>Pravda</em> and <em>Izvestia</em>", ""], ["26 Oct 1952", "Attacked by <em>Cross Roads</em>", "The Indian Communist weekly."], ["Jun–Oct 1961", "The “Ekaki” series", "Eighteen instalments in the <em>Organiser</em>."], ["Diwali 1962", "“Choosing between USA and USSR”", "Written during the war with China. It becomes chapter 19."]]
+    },
+    {
+      "type": "cards", "ch": 19, "eyebrow": "Chapters 18–19 · conclusions",
+      "title": "Goel's prescriptions",
+      "items": [["Ch. 18", "Sappers and miners of Communism", "In his view Communist slogans had already become everyone's vocabulary, including that of the Americans advising India."], ["Ch. 19", "Choosing between the USA and the USSR", "Keep peace with China where possible but be ready to fight. Take American help in every form, from a position of India's own strength."]]
+    }
+  ],
+  "footer": "Source: <em>Genesis and Growth of Nehruism, Volume I: Commitment to Communism</em> by Sita Ram Goel (Voice of India, 1993), read from the online edition at <a href=\"https://voibooks.bitbucket.io/gagon/\">voibooks.bitbucket.io</a>."
+}

@@ -2611,5 +2611,130 @@
         "url": "https://voibooks.bitbucket.io/tfst/appii2/"
       }
     ]
+  },
+  {
+    "id": "genesis-and-growth-of-nehruism-1",
+    "title": "Genesis and Growth of Nehruism, Vol. 1: Commitment to Communism",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1993 (series of 1961)",
+    "summary": "Goel's 1961 Organiser series, written as “Ekaki”, arguing from Nehru's own books and speeches that he was a lifelong fellow-traveller of Soviet Communism. Shown here as the labels Goel gives Nehru chapter by chapter, Nehru's five books he examines, and the anti-Communist campaign of 1948–62 that framed the series.",
+    "href": "books/genesis-and-growth-of-nehruism-1.html",
+    "timelines": [
+      "british-india"
+    ],
+    "source": "https://voibooks.bitbucket.io/gagon/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Foreword By Philip Spratt",
+        "url": "https://voibooks.bitbucket.io/gagon/for/"
+      },
+      {
+        "n": null,
+        "title": "First Preface",
+        "url": "https://voibooks.bitbucket.io/gagon/pre1/"
+      },
+      {
+        "n": null,
+        "title": "Second Preface",
+        "url": "https://voibooks.bitbucket.io/gagon/pre2/"
+      },
+      {
+        "n": 1,
+        "title": "In Search of a Culprit",
+        "url": "https://voibooks.bitbucket.io/gagon/ch01/"
+      },
+      {
+        "n": 2,
+        "title": "A Pilgrim to the Soviet Paradise",
+        "url": "https://voibooks.bitbucket.io/gagon/ch02/"
+      },
+      {
+        "n": 3,
+        "title": "Historian with Communist Glasses",
+        "url": "https://voibooks.bitbucket.io/gagon/ch03/"
+      },
+      {
+        "n": 4,
+        "title": "An Indefatigable Soviet Enthusiast",
+        "url": "https://voibooks.bitbucket.io/gagon/ch04/"
+      },
+      {
+        "n": 5,
+        "title": "An Incurable Soviet-Addict",
+        "url": "https://voibooks.bitbucket.io/gagon/ch05/"
+      },
+      {
+        "n": 6,
+        "title": "An Apologist for Soviet Sins",
+        "url": "https://voibooks.bitbucket.io/gagon/ch06/"
+      },
+      {
+        "n": 7,
+        "title": "A Persistent Pro-Soviet Speaker",
+        "url": "https://voibooks.bitbucket.io/gagon/ch07/"
+      },
+      {
+        "n": 8,
+        "title": "A Devoted Disciple of Stalin",
+        "url": "https://voibooks.bitbucket.io/gagon/ch08/"
+      },
+      {
+        "n": 9,
+        "title": "A Fellow-Traveller of Soviet Foreign Policy-1",
+        "url": "https://voibooks.bitbucket.io/gagon/ch09/"
+      },
+      {
+        "n": 10,
+        "title": "A Fellow-Traveller of Soviet Foreign Policy-2",
+        "url": "https://voibooks.bitbucket.io/gagon/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "A Fellow-Traveller of Soviet Foreign Policy-3",
+        "url": "https://voibooks.bitbucket.io/gagon/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "A Fellow-Traveller of Soviet Foreign Policy-4",
+        "url": "https://voibooks.bitbucket.io/gagon/ch12/"
+      },
+      {
+        "n": 13,
+        "title": "A Fellow-Traveller of Soviet Foreign Policy-5",
+        "url": "https://voibooks.bitbucket.io/gagon/ch13/"
+      },
+      {
+        "n": 14,
+        "title": "A Fellow-Traveller of Soviet Foreign Policy-6",
+        "url": "https://voibooks.bitbucket.io/gagon/ch14/"
+      },
+      {
+        "n": 15,
+        "title": "A Fellow-Traveller of Soviet Foreign Policy-7",
+        "url": "https://voibooks.bitbucket.io/gagon/ch15/"
+      },
+      {
+        "n": 16,
+        "title": "A Fellow-Traveller of Soviet Foreign Policy-8",
+        "url": "https://voibooks.bitbucket.io/gagon/ch16/"
+      },
+      {
+        "n": 17,
+        "title": "A Promoter of the Communist Party",
+        "url": "https://voibooks.bitbucket.io/gagon/ch17/"
+      },
+      {
+        "n": 18,
+        "title": "Sappers and Miners of Communism",
+        "url": "https://voibooks.bitbucket.io/gagon/ch18/"
+      },
+      {
+        "n": 19,
+        "title": "Choosing Between USA and USSR",
+        "url": "https://voibooks.bitbucket.io/gagon/ch19/"
+      }
+    ]
   }
 ]
