@@ -1,0 +1,46 @@
+{
+  "title": "Tipu Sultan: Villain or Hero?",
+  "byline": "an anthology, with a note by <b>Sita Ram Goel</b> · Voice of India · 1993",
+  "lede": "In 1989–90 Doordarshan screened <em>The Sword of Tipu Sultan</em>, Sanjay Khan's serial based on Bhagwan Gidwani's novel, which presented Tipu as a secular, benevolent patriot. Writers from Kerala, Karnataka and Maharashtra objected. This anthology gathers their essays, mostly from Malayalam, Kannada and Marathi papers, and the record of their campaign and court case. Their counter-portrait of Tipu draws on his own letters and seal, his court historians, and the Malabar and Mysore gazetteers. In Malabar and Coorg, they argue, his rule meant forced conversion, destroyed temples and renamed towns.",
+  "facts": [["16½ years", "of Tipu's reign, 7 December 1782 to 4 May 1799"], ["1782–92", "the <i>padayottam</i> (military occupation) Malayalis remembered, in Malayalam era 957–967"], ["5435 of 1989", "the Bombay High Court writ petition against the serial, heard on 30 August 1990"], ["11", "essays and records, plus appendices on the Mappilas, the Travancore lines and the court order"]],
+  "related": [["british-india", "British India timeline"]],
+  "note": "Tipu's record is genuinely contested. Many historians stress his wars against the British, his modernising administration and his grants to temples such as Sringeri. These contributors emphasise the violence in Malabar and Coorg recorded in the sources. This page sets out the anthology's case and sources, attributed to its authors.",
+  "sections": [
+    {
+      "type": "timeline", "ch": 2, "eyebrow": "Chapters 1–4 · the reign, as the contributors tell it",
+      "title": "Hyder Ali and Tipu in the south-west",
+      "items": [
+        ["1760s–80s", "Hyder Ali's campaigns into Malabar", "With Ali Raja of Arakkal and his Mappila followers, according to V.M. Korath."],
+        ["7 Dec 1782", "Tipu succeeds Hyder", ""],
+        ["1784", "Treaty of Mangalore", "The British leave Malabar to him. K.V. Krishna Iyer writes that Malabar's Hindus then suffered “the most severe enormities”."],
+        ["1780s", "Coorg, Bednur, Mangalore", "Mass conversions in Coorg, according to the essays."],
+        ["1789–90", "Into Malabar", "Kozhikode's temples destroyed. Govinda Pillai's <em>History of Literature</em> describes the campaign."],
+        ["1789–90", "Stopped at the Nedumkotta", "Travancore's northern defensive line, built of earth."],
+        ["4 May 1799", "Killed at Srirangapatna", "In the Fourth Anglo-Mysore War."],
+        {"era": "The controversy", "color": 3},
+        ["late 1980s", "A studio fire in Bangalore", "During the serial's shooting, several of the cast and crew die."],
+        ["1989–90", "Doordarshan screens the serial", "Protests in the south and in Maharashtra, and a letter to Information Minister P. Upendra."],
+        ["30 Aug 1990", "Bombay High Court", "Writ Petition 5435/1989, by Dr. Ravindra Ramdas and others."],
+        ["1999", "Bicentenary of his death", "Karnataka's Wakf Board holds an Urs, as Goel's 1993 note anticipated."]
+      ]
+    },
+    {
+      "type": "table", "ch": 2, "eyebrow": "Chapter 2 · Tipu renames the coast",
+      "title": "Towns he renamed, per the essays",
+      "head": ["Earlier name", "Tipu's name"],
+      "rows": [["Mangalore (Mangalapuri)", "Jalalabad"], ["Cannanore (Kanwapuram)", "Kusanabad"], ["Beypore (Vaippura)", "Sultanpatnam"]]
+    },
+    {
+      "type": "chips", "ch": 3, "eyebrow": "Chapters 2–4 · the sources cited",
+      "title": "What the contributors rely on",
+      "key": ["Tipu's side", "British and Indian records"],
+      "items": [["Tipu's letters", 0], ["His seal (in Dirom, 1793)", 0], ["Kirmani's <em>Nishan-i-Haidari</em> (1802)", 0], ["His son Ghulam Muhammad", 0], ["Kirkpatrick's <em>Select Letters</em>", 1], ["Logan's <em>Malabar Manual</em>", 1], ["Lewis Rice, <em>Mysore</em>", 1], ["<em>Mysore Gazetteer</em> (1930)", 1], ["<em>Kerala District Gazetteers</em> (1962)", 1], ["K.V. Krishna Iyer", 1], ["P. Raman Menon on Sakthan Thampuran", 1]]
+    },
+    {
+      "type": "compare", "ch": 3, "eyebrow": "Chapter 3 · “Tipu's own testimony”",
+      "title": "Two portraits",
+      "cols": [{"k": "The serial's Tipu", "items": ["A secular, benevolent ruler", "A patriot against the British", "Tolerant towards Hindus"]}, {"k": "The anthology's Tipu", "items": ["Self-styled “messenger of the true faith”, from his seal", "Forced conversions and destroyed temples in Malabar and Coorg", "Sought help from Afghanistan, Iran and Turkey", "Spared temples on his astrologers' advice"]}]
+    }
+  ],
+  "footer": "Source: <em>Tipu Sultan: Villain or Hero? An Anthology</em> (Voice of India, 1993), read from the online edition at <a href=\"https://voibooks.bitbucket.io/tipu/\">voibooks.bitbucket.io</a>."
+}
