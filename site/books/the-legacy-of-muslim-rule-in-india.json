@@ -1,0 +1,37 @@
+{
+  "title": "The Legacy of Muslim Rule in India",
+  "byline": "by <b>K.S. Lal</b> · Voice of India · 1992",
+  "lede": "Lal, a senior historian of the Delhi Sultanate, writes a social history of medieval India from the Persian chronicles and European travellers. He describes a theocratic state run by a foreign-descended nobility in great luxury, a middle class of merchants who dared not look rich, and a peasantry squeezed until it ran away. His conclusion is that the lasting legacy of five centuries of Muslim rule is not a composite culture but “medievalism”, and a division between Hindus and Muslims that living together never healed.",
+  "facts": [["500 years", "to establish Muslim rule, 712–1206, by Lal's benchmarks"], ["150 years", "for its decline and fall, 1707–1857"], ["4", "canonical taxes (kharaj, jizya, khums, zakat), plus many extra cesses"], ["8", "chapters, from the medieval age to the legacy"]],
+  "related": [["delhi-sultanate", "Delhi Sultanate timeline"], ["mughal-empire", "Mughal Empire timeline"]],
+  "note": "Lal's account stresses exploitation and religious division. Other historians, for example of the Aligarh school, describe the same society as more mixed, with shared institutions and culture. This page summarises his interpretation, attributed to him.",
+  "sections": [
+    {
+      "type": "steps", "ch": 8, "eyebrow": "Chapter 8 · rise and fall",
+      "title": "Lal's benchmarks",
+      "items": [["712", "Muhammad bin Qasim in Sindh", "The beginning"], ["1000", "Mahmud of Ghazni's raids begin", ""], ["1192–1206", "Tarain and the Turkish Sultanate", "Aibak at Delhi"], ["1296", "Alauddin Khalji into the Deccan", "The peak of expansion"], ["1707", "Aurangzeb dies", "Decline begins"], ["1739", "Nadir Shah sacks Delhi", "The emperor “a trembling suppliant”"], ["1803", "The British take Delhi", ""], ["1858", "The last Mughal exiled to Rangoon", "The end"]]
+    },
+    {
+      "type": "table", "wide": true, "ch": 5, "eyebrow": "Chapters 4–7 · society under Muslim rule",
+      "title": "Lal's social pyramid",
+      "head": ["Class", "Who", "How Lal describes their life"],
+      "rows": [
+        ["The state", "Sultan or emperor, the ulema, a theocracy", "Islam the basis of law. Taxes in theory four, in practice many more cesses (<i>abwabs</i>)."],
+        ["Upper classes", "Nobles, Mughal <i>mansabdars</i>, Turani and Irani families, governors", "A closed aristocracy, mostly of foreign descent, living in luxury “not dreamt of even by kings in Persia” (Jadunath Sarkar)."],
+        ["Middle classes", "Merchants, bankers, artisans", "Wealth hidden for safety, lest they be “used as filled sponges” (Edward Terry). Protest through the bhakti movements."],
+        ["Lower classes", "Peasants, labourers, slaves", "“Unmitigated exploitation”. Flight was the peasant's “first answer to famine or man's oppression”, as Babur saw whole villages vanish and reappear."]
+      ]
+    },
+    {
+      "type": "compare", "ch": 2, "eyebrow": "Chapter 2 · historiography of medieval India",
+      "title": "How the period has been written",
+      "cols": [{"k": "Sources Lal trusts", "items": ["The Persian chronicles, which are prolific and frank", "European travellers such as Bernier, Terry and Manucci", "Lord Acton's rule: history must “stand on documents, not opinions”"]}, {"k": "Schools he criticises", "items": ["Post-Partition secular historiography", "Marxist historians, “well entrenched” with state support", "Textbook circulars against mentioning temple destruction"]}]
+    },
+    {
+      "type": "cards", "ch": 8, "eyebrow": "Chapter 8 · the legacy",
+      "title": "What Lal thinks remains",
+      "items": [["Culture", "“Only a sort of” common culture", "Mixing in food, dress, architecture and music, but “a superficial veneer”."], ["Society", "Two peoples", "“Even living together for a thousand years has not welded Hindus and Muslims into one people.”"], ["Ideas", "Medievalism", "Dar al-Islam and dar al-harb live on, he argues, citing Deoband fatwas."], ["Politics", "An unsolved minority question", "Pakistan “solved its minority problem”, he says, and India did not."]]
+    }
+  ],
+  "footer": "Source: <em>The Legacy of Muslim Rule in India</em> by K.S. Lal (Voice of India, 1992), read from the online edition at <a href=\"https://voibooks.bitbucket.io/tlmr/\">voibooks.bitbucket.io</a>."
+}

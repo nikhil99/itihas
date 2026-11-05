@@ -3106,5 +3106,71 @@
         "url": "https://voibooks.bitbucket.io/tipu/appe03/"
       }
     ]
+  },
+  {
+    "id": "the-legacy-of-muslim-rule-in-india",
+    "title": "The Legacy of Muslim Rule in India",
+    "author": "K.S. Lal",
+    "published": "Voice of India, 1992",
+    "summary": "K.S. Lal's social history of medieval India under Muslim rule: the theocratic state, the luxury of the nobility, the squeezed middle classes, the exploited peasantry, and what he sees as the period's lasting legacy of medievalism and division. Shown here as the rise and fall of Muslim rule in benchmarks, the social pyramid, and Lal's view of the historians.",
+    "href": "books/the-legacy-of-muslim-rule-in-india.html",
+    "timelines": [
+      "delhi-sultanate",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/tlmr/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/tlmr/pre/"
+      },
+      {
+        "n": null,
+        "title": "Abbreviations used in references",
+        "url": "https://voibooks.bitbucket.io/tlmr/abbre/"
+      },
+      {
+        "n": 1,
+        "title": "The Medieval Age",
+        "url": "https://voibooks.bitbucket.io/tlmr/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Historiography of Medieval India",
+        "url": "https://voibooks.bitbucket.io/tlmr/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Muslims Invade India",
+        "url": "https://voibooks.bitbucket.io/tlmr/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Muslim Rule in India",
+        "url": "https://voibooks.bitbucket.io/tlmr/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "Upper Classes and Luxurious Life",
+        "url": "https://voibooks.bitbucket.io/tlmr/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Middle Classes and Protest Movements",
+        "url": "https://voibooks.bitbucket.io/tlmr/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Lower Classes and Unmitigated Exploitation",
+        "url": "https://voibooks.bitbucket.io/tlmr/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "The Legacy of Muslim Rule in India",
+        "url": "https://voibooks.bitbucket.io/tlmr/ch8/"
+      }
+    ]
   }
 ]
