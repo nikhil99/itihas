@@ -1,0 +1,36 @@
+{
+  "title": "Who is a Hindu?",
+  "byline": "by <b>Koenraad Elst</b> · Voice of India · 2001 · subtitled <em>Hindu Revivalist Views of Animism, Buddhism, Sikhism and Other Offshoots of Hinduism</em>",
+  "lede": "There is no agreed definition of “Hindu”, and Elst argues the vagueness has political consequences. Groups that call themselves non-Hindu can claim minority rights, such as running their own schools under Article 30 of the Constitution. He tests the competing definitions (by belief, by history, by law, and by Savarkar's Hindutva) against the hard cases: tribals, Jains, Sikhs, Buddhists, Ambedkarite neo-Buddhists, the Arya Samaj and the Ramakrishna Mission. He concludes in favour of a historical definition: Hinduism is all of Indian paganism.",
+  "facts": [["4", "definitions of “Hindu” compared"], ["7", "groups examined: reformists, Jains, Sikhs, tribals, Buddhists, neo-Buddhists, travelling gurus"], ["1987 → 1995", "the Ramakrishna Mission declared non-Hindu by the Calcutta High Court, then ruled Hindu by the Supreme Court"], ["1924", "Savarkar's <em>Hindutva</em> published, its definition written in prison"]],
+  "note": "Who counts as Hindu is contested, and many Sikhs, Jains, Buddhists and Ambedkarites reject being included. This page summarises Elst's analysis and conclusion, attributed to him.",
+  "sections": [
+    {
+      "type": "table", "wide": true, "ch": 2, "eyebrow": "Chapters 1–4 · four definitions",
+      "title": "Ways to define a Hindu",
+      "head": ["Definition", "What it says", "Who is in", "Elst's verdict"],
+      "rows": [
+        ["By belief (ch. 1)", "Accepts the Vedas, or caste, karma and rebirth, or the taboo on killing cows", "Varies with the test. Some tribals and Untouchables fall outside.", "Unworkable: every criterion leaves real Hindus out."],
+        ["Historical (ch. 2)", "All Indian “pagans”: the native religions of India, as the Muslim invaders used the word", "Buddhists, Jains, Sikhs, tribals, reform movements", "His choice, an “unambiguous criterion”."],
+        ["Legal (ch. 3)", "Article 25 and the Hindu Marriage Act (1955): Sikhs, Jains and Buddhists count as Hindus; Muslims, Christians, Parsis and Jews do not", "Everyone not of another named faith", "Practical, but a definition by exclusion."],
+        ["Hindutva (ch. 4)", "Savarkar: one for whom India is both fatherland and holy land", "Indian-born faiths", "A trap: geography cannot define religion, and it shuts out foreign converts to Hinduism."]
+      ]
+    },
+    {
+      "type": "cards", "ch": 6, "eyebrow": "Chapters 6–11 · the hard cases",
+      "title": "Are they Hindus?",
+      "items": [["Ch. 6", "The Ramakrishna Mission", "Argued in court that “Ramakrishnaism” was a separate religion, to protect its schools. The Supreme Court ruled on 2 July 1995 that it was not."], ["Ch. 6", "The Arya Samaj and travelling gurus", "Reformist and exported Hinduism, still Hindu in Elst's view."], ["Ch. 7", "Jains", "Sought minority status. Elst reviews Dayananda's critique and the claim that Hindus destroyed Jain temples."], ["Ch. 8", "Sikhs", "Elst argues “Sikhs were Hindus”, and that a separate identity was promoted under British rule."], ["Ch. 9", "Tribals", "Animists and nature-worshippers, Hindu by the historical definition."], ["Ch. 10–11", "Buddhists and neo-Buddhists", "From Dayananda's critique to Vivekananda's and Coomaraswamy's embrace, and Savarkar's charge of “defeatism”. Ambedkar's 1956 conversion."]]
+    },
+    {
+      "type": "compare", "ch": 5, "eyebrow": "Chapter 5 · “semitization” of Hinduism",
+      "title": "One argument, two sides",
+      "cols": [{"k": "The charge (e.g. Romila Thapar)", "items": ["Hindu nationalists are making Hinduism into a “Semitic” religion, with one book and one doctrine", "Before colonial times, there was no single “Hinduism”"]}, {"k": "Elst's reply", "items": ["Organising is not the same as becoming dogmatic", "“Hinduism does not exist” is a circular argument used to deny Hindus a collective voice"]}]
+    },
+    {
+      "type": "cards", "ch": 12, "eyebrow": "Chapter 12 · general conclusion",
+      "title": "What Elst recommends",
+      "items": [["Usage", "A concession to convention", "Accept that in everyday speech “Hindu” is narrower."], ["Principle", "Hold to the historical definition", "By that test, the inclusive usage of Hindu activists is “100% correct”."], ["Strategy", "Honour by association", "Hindus should claim the Buddha, Mahavira and the Sikh Gurus as their own, without coercion."]]
+    }
+  ],
+  "footer": "Source: <em>Who is a Hindu?</em> by Koenraad Elst (Voice of India, 2001), read from the online edition at <a href=\"https://voibooks.bitbucket.io/wiah/\">voibooks.bitbucket.io</a>."
+}

@@ -3346,5 +3346,83 @@
         "url": "https://voibooks.bitbucket.io/uith/ch19/"
       }
     ]
+  },
+  {
+    "id": "who-is-a-hindu",
+    "title": "Who is a Hindu?",
+    "author": "Koenraad Elst",
+    "published": "Voice of India, 2001",
+    "summary": "Elst on the competing definitions of “Hindu”: by belief, as India's “pagans”, in law, and in Savarkar's Hindutva. He applies them to tribals, Buddhists, Jains, Sikhs, the Arya Samaj and the Ramakrishna Mission's attempt to be declared non-Hindu. Shown here as the definitions side by side, who falls inside each, and the groups he examines.",
+    "href": "books/who-is-a-hindu.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/wiah/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Foreword",
+        "url": "https://voibooks.bitbucket.io/wiah/for/"
+      },
+      {
+        "n": 1,
+        "title": "Credal definitions",
+        "url": "https://voibooks.bitbucket.io/wiah/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Hindus as 'Indian Pagans'",
+        "url": "https://voibooks.bitbucket.io/wiah/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Legal definition of 'Hindu'",
+        "url": "https://voibooks.bitbucket.io/wiah/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Hindutva",
+        "url": "https://voibooks.bitbucket.io/wiah/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "'Semitization', of Hinduism",
+        "url": "https://voibooks.bitbucket.io/wiah/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Are Hindu reformists Hindus?",
+        "url": "https://voibooks.bitbucket.io/wiah/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Are Jains Hindus?",
+        "url": "https://voibooks.bitbucket.io/wiah/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "Are Sikhs Hindus?",
+        "url": "https://voibooks.bitbucket.io/wiah/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Are Indian tribals Hindus?",
+        "url": "https://voibooks.bitbucket.io/wiah/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "Are Buddhists Hindus?",
+        "url": "https://voibooks.bitbucket.io/wiah/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "Are neo-Buddhists- Hindus?",
+        "url": "https://voibooks.bitbucket.io/wiah/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "General conclusion",
+        "url": "https://voibooks.bitbucket.io/wiah/ch12/"
+      }
+    ]
   }
 ]
