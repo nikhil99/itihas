@@ -1593,5 +1593,61 @@
         "url": "https://voibooks.bitbucket.io/hvhb/ch28/"
       }
     ]
+  },
+  {
+    "id": "indian-muslims-who-are-they",
+    "title": "Indian Muslims: Who Are They",
+    "author": "K.S. Lal",
+    "published": "Voice of India, 1990",
+    "summary": "K.S. Lal's demographic history of how India's Muslim population grew from a few thousand to a sixth of the country, mainly, he argues, by conversion of Hindus. Shown here as his population estimates from 1400 to 1900, region-by-region growth, the factors that drove it and those that checked it.",
+    "href": "books/indian-muslims-who-are-they.html",
+    "timelines": [
+      "delhi-sultanate",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/imwat/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Prologue",
+        "url": "https://voibooks.bitbucket.io/imwat/pro/"
+      },
+      {
+        "n": 1,
+        "title": "Early Muslims",
+        "url": "https://voibooks.bitbucket.io/imwat/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Rise of Muslims under the Sultanate",
+        "url": "https://voibooks.bitbucket.io/imwat/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Proselytization in Provincial Muslim Kingdoms",
+        "url": "https://voibooks.bitbucket.io/imwat/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Growth under the Mughals",
+        "url": "https://voibooks.bitbucket.io/imwat/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "Factors Contributing to the Growth of Muslim Population",
+        "url": "https://voibooks.bitbucket.io/imwat/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Factors which Checked Islamization of India",
+        "url": "https://voibooks.bitbucket.io/imwat/ch6/"
+      },
+      {
+        "n": null,
+        "title": "Epilogue",
+        "url": "https://voibooks.bitbucket.io/imwat/epi/"
+      }
+    ]
   }
 ]
