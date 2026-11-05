@@ -1,0 +1,1061 @@
+{
+  "id": "rss",
+  "series": "Modern India",
+  "order": 3,
+  "title": "The Rashtriya Swayamsevak Sangh",
+  "subtitle": "From a Nagpur shakha to the Sangh Parivar · 1925 – today",
+  "subject": "rss",
+  "range": [
+    1885,
+    2027
+  ],
+  "focus": [
+    1925.74,
+    2026.9
+  ],
+  "intro": "K. B. Hedgewar founded the Rashtriya Swayamsevak Sangh in Nagpur in 1925 as a volunteer body to organise and discipline Hindus through daily shakhas. Under M. S. Golwalkar it grew into a national organisation, was banned after Gandhi's assassination in 1948, and lent organisers to the Jana Sangh and later the BJP. It was banned again in the Emergency and after the Babri Masjid demolition. Its family of organisations, the Sangh Parivar, includes the VHP, ABVP, BMS and Vanvasi Kalyan Ashram, and two Prime Ministers, Vajpayee and Modi, began as its pracharaks. Supporters see a movement for national character and Hindu unity; critics see a majoritarian organisation that has fed communal violence.",
+  "lanes": [
+    {
+      "id": "life",
+      "label": "Sarsanghchalaks & leaders"
+    },
+    {
+      "id": "political",
+      "label": "Organisation & ideology"
+    },
+    {
+      "id": "forts",
+      "label": "The Sangh Parivar"
+    },
+    {
+      "id": "military",
+      "label": "Bans, riots & violence"
+    },
+    {
+      "id": "world",
+      "label": "India around it"
+    }
+  ],
+  "rulers": [
+    {
+      "label": "Sarsanghchalaks",
+      "members": [
+        {
+          "entity": "hedgewar",
+          "from": 1925.74,
+          "to": 1940.47,
+          "note": "Founder; L. V. Paranjpe acted for him while he was jailed in 1930–31"
+        },
+        {
+          "entity": "golwalkar",
+          "from": 1940.47,
+          "to": 1973.43
+        },
+        {
+          "entity": "balasaheb-deoras",
+          "from": 1973.43,
+          "to": 1994.19
+        },
+        {
+          "entity": "rajju-bhaiya",
+          "from": 1994.19,
+          "to": 2000.19
+        },
+        {
+          "entity": "ks-sudarshan",
+          "from": 2000.19,
+          "to": 2009.22
+        },
+        {
+          "entity": "mohan-bhagwat",
+          "from": 2009.22,
+          "to": 2027
+        }
+      ]
+    }
+  ],
+  "context": [
+    {
+      "entity": "rss",
+      "label": "RSS",
+      "from": 1925.74,
+      "to": 2027
+    },
+    {
+      "entity": "hindu-mahasabha",
+      "label": "Hindu Mahasabha",
+      "from": 1915,
+      "to": 2027
+    },
+    {
+      "entity": "rashtra-sevika-samiti",
+      "label": "Rashtra Sevika Samiti",
+      "from": 1936.8,
+      "to": 2027
+    },
+    {
+      "entity": "abvp",
+      "label": "ABVP",
+      "from": 1949.52,
+      "to": 2027
+    },
+    {
+      "entity": "bharatiya-jana-sangh",
+      "label": "Bharatiya Jana Sangh",
+      "from": 1951.8,
+      "to": 1977.33
+    },
+    {
+      "entity": "bms",
+      "label": "Bharatiya Mazdoor Sangh",
+      "from": 1955.56,
+      "to": 2027
+    },
+    {
+      "entity": "vhp",
+      "label": "Vishva Hindu Parishad",
+      "from": 1964.66,
+      "to": 2027
+    },
+    {
+      "entity": "bjp",
+      "label": "Bharatiya Janata Party",
+      "from": 1980.26,
+      "to": 2027
+    },
+    {
+      "entity": "congress",
+      "label": "Indian National Congress",
+      "from": 1915,
+      "to": 2027
+    }
+  ],
+  "events": [
+    {
+      "id": "hedgewar-born",
+      "date": "1889-04-01",
+      "lane": "life",
+      "title": "K. B. Hedgewar is born in Nagpur",
+      "summary": "Keshav Baliram Hedgewar is born into a poor Telugu-origin Brahmin family in Nagpur. Orphaned at thirteen when plague kills both parents, he is expelled from school for leading a Vande Mataram protest.",
+      "people": [
+        "hedgewar"
+      ],
+      "places": [
+        "nagpur"
+      ],
+      "wiki": "K. B. Hedgewar"
+    },
+    {
+      "id": "golwalkar-born",
+      "date": "1906-02-19",
+      "lane": "life",
+      "title": "M. S. Golwalkar is born at Ramtek",
+      "summary": "Madhav Sadashiv Golwalkar is born near Nagpur. He later studies zoology at Banaras Hindu University, where students call the young lecturer 'Guruji'.",
+      "people": [
+        "golwalkar"
+      ],
+      "places": [
+        "ramtek"
+      ],
+      "wiki": "M. S. Golwalkar"
+    },
+    {
+      "id": "hedgewar-calcutta",
+      "date": "1910",
+      "lane": "life",
+      "title": "Hedgewar studies medicine in Calcutta",
+      "summary": "At medical college in Calcutta (1910–1915) Hedgewar comes into contact with the revolutionary Anushilan Samiti. He returns to Nagpur a qualified doctor but never practises.",
+      "people": [
+        "hedgewar"
+      ],
+      "places": [
+        "kolkata"
+      ],
+      "approx": true
+    },
+    {
+      "id": "hedgewar-jailed-1921",
+      "date": "1921-08",
+      "lane": "political",
+      "title": "Hedgewar is jailed for sedition",
+      "summary": "A Congress worker during the Non-cooperation and Khilafat campaign, Hedgewar is sentenced to a year in prison for his speeches. He comes out doubting that Congress mass politics can unite Hindus.",
+      "people": [
+        "hedgewar"
+      ],
+      "concepts": [
+        "non-cooperation",
+        "khilafat"
+      ],
+      "approx": true
+    },
+    {
+      "id": "essentials-of-hindutva",
+      "date": "1923",
+      "lane": "political",
+      "title": "Savarkar's Hindutva is published",
+      "summary": "V. D. Savarkar, a prisoner at Ratnagiri, publishes Essentials of Hindutva, defining a Hindu as one who sees India as both fatherland and holy land. The idea shapes the RSS, though Savarkar himself stays with the Hindu Mahasabha.",
+      "people": [
+        "savarkar"
+      ],
+      "concepts": [
+        "hindutva"
+      ],
+      "polities": [
+        "hindu-mahasabha"
+      ],
+      "wiki": "Hindutva",
+      "approx": true
+    },
+    {
+      "id": "rss-founded",
+      "date": "1925-09-27",
+      "lane": "political",
+      "title": "Hedgewar founds the RSS",
+      "summary": "On Vijayadashami Hedgewar gathers a few young men at his house in Nagpur to start a volunteer body for Hindu organisation and discipline. It has no name, no constitution and no membership rolls; its unit is the daily shakha of drill, games and songs.",
+      "people": [
+        "hedgewar"
+      ],
+      "places": [
+        "nagpur"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "concepts": [
+        "hindutva"
+      ],
+      "wiki": "Rashtriya Swayamsevak Sangh",
+      "major": true
+    },
+    {
+      "id": "rss-named",
+      "date": "1926-04-17",
+      "lane": "political",
+      "title": "The name Rashtriya Swayamsevak Sangh is chosen",
+      "summary": "After discussion among the first volunteers, the group takes the name Rashtriya Swayamsevak Sangh, the National Volunteer Organisation. Daily shakhas spread through the Marathi-speaking towns of the Central Provinces.",
+      "people": [
+        "hedgewar"
+      ],
+      "places": [
+        "nagpur"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "first-otc",
+      "date": "1927-05",
+      "lane": "political",
+      "title": "The first officers' training camp",
+      "summary": "Hedgewar runs the first summer training camp for organisers in Nagpur. These camps, later called Sangh Shiksha Vargs, become the backbone of the RSS's cadre system.",
+      "people": [
+        "hedgewar"
+      ],
+      "places": [
+        "nagpur"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "approx": true
+    },
+    {
+      "id": "jungle-satyagraha",
+      "date": "1930-07",
+      "lane": "political",
+      "title": "Hedgewar joins the Jungle Satyagraha",
+      "summary": "During the Civil Disobedience movement Hedgewar joins the forest-law satyagraha in a personal capacity and is jailed for nine months at Akola. The RSS as a body stays out; L. V. Paranjpe runs it in his absence.",
+      "people": [
+        "hedgewar",
+        "lv-paranjpe"
+      ],
+      "places": [
+        "akola"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "concepts": [
+        "independence-movement"
+      ],
+      "approx": true
+    },
+    {
+      "id": "gandhi-wardha-camp",
+      "date": "1934-12-25",
+      "lane": "world",
+      "title": "Gandhi visits an RSS camp at Wardha",
+      "summary": "Gandhi visits an RSS camp near his ashram and is struck that volunteers of different castes eat and sleep together without asking each other's caste. He meets Hedgewar the next day.",
+      "people": [
+        "gandhi",
+        "hedgewar"
+      ],
+      "places": [
+        "wardha"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "sevika-samiti",
+      "date": "1936-10-25",
+      "lane": "forts",
+      "title": "Rashtra Sevika Samiti, the women's wing, is founded",
+      "summary": "Lakshmibai Kelkar founds the Rashtra Sevika Samiti at Wardha with Hedgewar's support. The RSS itself stays male-only; the Samiti runs parallel shakhas for women.",
+      "people": [
+        "lakshmibai-kelkar",
+        "hedgewar"
+      ],
+      "places": [
+        "wardha"
+      ],
+      "polities": [
+        "rashtra-sevika-samiti"
+      ],
+      "wiki": "Rashtra Sevika Samiti"
+    },
+    {
+      "id": "golwalkar-akhandananda",
+      "date": "1937-01",
+      "lane": "life",
+      "title": "Golwalkar takes diksha from Swami Akhandananda",
+      "summary": "Golwalkar leaves Nagpur to live at Swami Akhandananda's ashram at Sargachhi in Bengal and receives initiation from him shortly before the swami's death. He returns to the RSS, and Hedgewar soon grooms him as successor.",
+      "people": [
+        "golwalkar",
+        "swami-akhandananda"
+      ],
+      "approx": true
+    },
+    {
+      "id": "we-or-our-nationhood",
+      "date": "1939",
+      "lane": "political",
+      "title": "We or Our Nationhood Defined is published",
+      "summary": "Golwalkar publishes a book defining the nation in Hindu terms. It holds up Nazi Germany's treatment of its minorities as a lesson. The RSS later says it was a translation that does not reflect Golwalkar's views, and withdraws it.",
+      "people": [
+        "golwalkar"
+      ],
+      "concepts": [
+        "we-or-our-nationhood",
+        "hindutva"
+      ],
+      "wiki": "We or Our Nationhood Defined",
+      "approx": true
+    },
+    {
+      "id": "hedgewar-dies",
+      "date": "1940-06-21",
+      "lane": "life",
+      "title": "Hedgewar dies; Golwalkar becomes sarsanghchalak",
+      "summary": "Hedgewar dies in Nagpur and names the 34-year-old Golwalkar as his successor. Golwalkar leads the RSS for 33 years and turns it from a regional body into a national one.",
+      "people": [
+        "hedgewar",
+        "golwalkar"
+      ],
+      "places": [
+        "nagpur"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "major": true
+    },
+    {
+      "id": "quit-india",
+      "date": "1942-08-08",
+      "lane": "world",
+      "title": "The RSS stays out of Quit India",
+      "summary": "Congress launches the Quit India movement. Golwalkar keeps the RSS out of it as an organisation, saying its work is long-term character building; some swayamsevaks take part individually. Critics have cited this ever since.",
+      "people": [
+        "golwalkar",
+        "gandhi"
+      ],
+      "polities": [
+        "rss",
+        "congress"
+      ],
+      "concepts": [
+        "quit-india"
+      ]
+    },
+    {
+      "id": "organiser-launched",
+      "date": "1947-07",
+      "lane": "forts",
+      "title": "Organiser and Panchjanya are launched",
+      "summary": "The RSS starts the English weekly Organiser (1947) and the Hindi weekly Panchjanya (1948), its main voices in print.",
+      "polities": [
+        "organiser-weekly",
+        "rss"
+      ],
+      "approx": true
+    },
+    {
+      "id": "partition-relief",
+      "date": "1947-08",
+      "lane": "military",
+      "title": "Partition: relief camps and riots",
+      "summary": "As Punjab is partitioned, swayamsevaks run relief camps and help Hindu and Sikh refugees out of West Punjab. Officials and later historians also record RSS men taking part in the communal killing in Punjab and Delhi; the RSS denies it as an organisation.",
+      "places": [
+        "punjab",
+        "lahore",
+        "delhi"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "concepts": [
+        "partition-of-india"
+      ],
+      "wiki": "Partition of India",
+      "approx": true,
+      "major": true
+    },
+    {
+      "id": "gandhi-addresses-rss",
+      "date": "1947-09-16",
+      "lane": "world",
+      "title": "Gandhi addresses an RSS rally in Delhi",
+      "summary": "Amid the Delhi riots Gandhi speaks to swayamsevaks at the Bhangi Colony, praising their discipline but warning that a body that harms Muslims will destroy Hinduism.",
+      "people": [
+        "gandhi",
+        "golwalkar"
+      ],
+      "places": [
+        "delhi"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "golwalkar-hari-singh",
+      "date": "1947-10-18",
+      "lane": "world",
+      "title": "Golwalkar meets Maharaja Hari Singh",
+      "summary": "The RSS says Golwalkar flew to Srinagar at Patel's request and urged Hari Singh to accede to India, days before the tribal invasion. The meeting is recorded only in RSS accounts and its effect is disputed.",
+      "people": [
+        "golwalkar",
+        "hari-singh",
+        "patel"
+      ],
+      "places": [
+        "srinagar"
+      ],
+      "approx": true
+    },
+    {
+      "id": "gandhi-killed",
+      "date": "1948-01-30",
+      "lane": "military",
+      "title": "Gandhi is assassinated by Nathuram Godse",
+      "summary": "Godse, a Hindu Mahasabha activist from Pune who had been in the RSS in the 1930s, shoots Gandhi in Delhi. The RSS says he had left it; his brother Gopal later said he never did. Golwalkar is arrested.",
+      "people": [
+        "gandhi",
+        "nathuram-godse",
+        "golwalkar"
+      ],
+      "places": [
+        "new-delhi"
+      ],
+      "polities": [
+        "hindu-mahasabha",
+        "rss"
+      ],
+      "concepts": [
+        "gandhi-assassination"
+      ],
+      "wiki": "Assassination of Mahatma Gandhi",
+      "major": true
+    },
+    {
+      "id": "first-ban",
+      "date": "1948-02-04",
+      "lane": "military",
+      "title": "The RSS is banned for the first time",
+      "summary": "The government bans the RSS and arrests thousands. Patel tells Nehru the RSS was not involved in the murder, which he blames on a Mahasabha group under Savarkar, but writes to Golwalkar that RSS speeches had spread 'poison' that made it possible.",
+      "people": [
+        "patel",
+        "nehru",
+        "golwalkar",
+        "savarkar"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "major": true
+    },
+    {
+      "id": "ban-satyagraha",
+      "date": "1948-12-09",
+      "lane": "military",
+      "title": "Satyagraha against the ban",
+      "summary": "When talks to lift the ban fail, swayamsevaks court arrest across India; tens of thousands are jailed over the following weeks.",
+      "people": [
+        "golwalkar"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "abvp-founded",
+      "date": "1949-07-09",
+      "lane": "forts",
+      "title": "ABVP, the student wing, is founded",
+      "summary": "The Akhil Bharatiya Vidyarthi Parishad is set up as a student organisation. It becomes one of India's largest student bodies.",
+      "polities": [
+        "abvp"
+      ],
+      "wiki": "Akhil Bharatiya Vidyarthi Parishad"
+    },
+    {
+      "id": "ban-lifted-1949",
+      "date": "1949-07-11",
+      "lane": "political",
+      "title": "Ban lifted after the RSS adopts a constitution",
+      "summary": "The government lifts the ban once the RSS adopts a written constitution describing it as a cultural body with no part in politics, open to all ages, and committed to the national flag. Its political work moves to separate organisations.",
+      "people": [
+        "golwalkar",
+        "patel"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "major": true
+    },
+    {
+      "id": "jana-sangh",
+      "date": "1951-10-21",
+      "lane": "forts",
+      "title": "The Bharatiya Jana Sangh is founded",
+      "summary": "Syama Prasad Mookerjee founds the Jana Sangh, and Golwalkar lends him organisers including Deendayal Upadhyaya, Atal Bihari Vajpayee and Nanaji Deshmukh. RSS pracharaks run the party's organisation from then on.",
+      "people": [
+        "syama-prasad-mookerjee",
+        "golwalkar",
+        "deendayal-upadhyaya",
+        "vajpayee",
+        "nanaji-deshmukh"
+      ],
+      "polities": [
+        "bharatiya-jana-sangh"
+      ],
+      "see": "bjp",
+      "major": true
+    },
+    {
+      "id": "vanvasi-kalyan-ashram",
+      "date": "1952-12-26",
+      "lane": "forts",
+      "title": "Vanvasi Kalyan Ashram begins in Jashpur",
+      "summary": "An RSS worker, Ramakant Keshav Deshpande, starts a school and hostel for tribal children at Jashpur, the start of the Vanvasi Kalyan Ashram, which works in tribal areas and opposes Christian missions.",
+      "places": [
+        "jashpur"
+      ],
+      "polities": [
+        "vanvasi-kalyan-ashram"
+      ]
+    },
+    {
+      "id": "bms-founded",
+      "date": "1955-07-23",
+      "lane": "forts",
+      "title": "Dattopant Thengadi founds the Bharatiya Mazdoor Sangh",
+      "summary": "The BMS is started in Bhopal as a trade union rejecting class war. By the 1990s it claims to be India's largest union federation.",
+      "people": [
+        "dattopant-thengadi"
+      ],
+      "polities": [
+        "bms"
+      ],
+      "wiki": "Bharatiya Mazdoor Sangh"
+    },
+    {
+      "id": "vhp-founded",
+      "date": "1964-08-29",
+      "lane": "forts",
+      "title": "The Vishva Hindu Parishad is founded",
+      "summary": "On Janmashtami Golwalkar, S. S. Apte and Swami Chinmayananda launch the VHP in Bombay to bring together Hindu sects and religious leaders. Twenty years later it leads the Ram Janmabhoomi campaign.",
+      "people": [
+        "golwalkar",
+        "ss-apte",
+        "chinmayananda"
+      ],
+      "places": [
+        "mumbai"
+      ],
+      "polities": [
+        "vhp"
+      ],
+      "wiki": "Vishva Hindu Parishad",
+      "major": true
+    },
+    {
+      "id": "bunch-of-thoughts",
+      "date": "1966",
+      "lane": "political",
+      "title": "Bunch of Thoughts is published",
+      "summary": "A collection of Golwalkar's speeches appears as Bunch of Thoughts. It names Muslims, Christians and communists as 'internal threats', and is still quoted by critics and admirers of the RSS alike.",
+      "people": [
+        "golwalkar"
+      ],
+      "concepts": [
+        "hindutva"
+      ],
+      "approx": true
+    },
+    {
+      "id": "kannur-killings",
+      "date": "1969",
+      "lane": "military",
+      "title": "Kannur's cycle of political killings begins",
+      "summary": "In north Kerala, feuds between RSS and CPI(M) workers begin decades of revenge killings in and around Kannur, with scores of dead on both sides.",
+      "places": [
+        "kannur",
+        "kerala"
+      ],
+      "polities": [
+        "rss",
+        "cpim"
+      ],
+      "approx": true
+    },
+    {
+      "id": "rock-memorial",
+      "date": "1970-09-02",
+      "lane": "forts",
+      "title": "The Vivekananda Rock Memorial opens",
+      "summary": "Eknath Ranade, a former RSS general secretary, completes the memorial on the rock off Kanyakumari where Vivekananda meditated in 1892, raising money from every state. He founds Vivekananda Kendra in 1972.",
+      "people": [
+        "eknath-ranade",
+        "vivekananda"
+      ],
+      "places": [
+        "kanyakumari"
+      ],
+      "polities": [
+        "vivekananda-kendra"
+      ],
+      "wiki": "Vivekananda Rock Memorial"
+    },
+    {
+      "id": "golwalkar-dies",
+      "date": "1973-06-05",
+      "lane": "life",
+      "title": "Golwalkar dies; Balasaheb Deoras succeeds",
+      "summary": "Golwalkar dies of cancer in Nagpur. Balasaheb Deoras, an organiser since Hedgewar's day, becomes sarsanghchalak and pushes the RSS into social work and politics.",
+      "people": [
+        "golwalkar",
+        "balasaheb-deoras"
+      ],
+      "places": [
+        "nagpur"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "major": true
+    },
+    {
+      "id": "deoras-untouchability",
+      "date": "1974-05-08",
+      "lane": "political",
+      "title": "Deoras: 'If untouchability is not wrong, nothing is wrong'",
+      "summary": "In a lecture in Pune Deoras calls for untouchability to end root and branch, the RSS's strongest statement on caste so far.",
+      "people": [
+        "balasaheb-deoras"
+      ],
+      "places": [
+        "pune"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "emergency-ban",
+      "date": "1975-07-04",
+      "lane": "military",
+      "title": "Banned again under the Emergency",
+      "summary": "Indira Gandhi bans the RSS a week after declaring the Emergency. Deoras and thousands of swayamsevaks are jailed; others, including the young Narendra Modi, run the underground resistance with the Lok Sangharsh Samiti.",
+      "people": [
+        "indira-gandhi",
+        "balasaheb-deoras",
+        "narendra-modi",
+        "nanaji-deshmukh"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "concepts": [
+        "the-emergency"
+      ],
+      "major": true
+    },
+    {
+      "id": "emergency-ends",
+      "date": "1977-03-22",
+      "lane": "political",
+      "title": "Ban lifted as the Emergency ends",
+      "summary": "The Janata Party, which includes the Jana Sangh, sweeps the election, and the ban on the RSS is lifted.",
+      "people": [
+        "morarji-desai"
+      ],
+      "polities": [
+        "rss",
+        "janata-party"
+      ],
+      "concepts": [
+        "the-emergency",
+        "ge-1977"
+      ]
+    },
+    {
+      "id": "seva-bharati",
+      "date": "1979",
+      "lane": "forts",
+      "title": "Seva Bharati is founded",
+      "summary": "The RSS sets up Seva Bharati in Delhi to run schools, clinics and relief work in slums and villages.",
+      "polities": [
+        "seva-bharati"
+      ],
+      "places": [
+        "delhi"
+      ],
+      "approx": true
+    },
+    {
+      "id": "dual-membership",
+      "date": "1979-07",
+      "lane": "political",
+      "title": "The 'dual membership' row breaks the Janata Party",
+      "summary": "Socialists in the Janata Party demand that former Jana Sangh members quit the RSS. They refuse, the government falls, and in 1980 they form the BJP.",
+      "polities": [
+        "janata-party",
+        "rss"
+      ],
+      "concepts": [
+        "dual-membership"
+      ],
+      "see": "bjp",
+      "approx": true
+    },
+    {
+      "id": "bjp-founded",
+      "date": "1980-04-06",
+      "lane": "forts",
+      "title": "The BJP is founded",
+      "summary": "Vajpayee and Advani launch the Bharatiya Janata Party. RSS pracharaks again become its organising secretaries.",
+      "people": [
+        "vajpayee",
+        "advani"
+      ],
+      "polities": [
+        "bjp"
+      ],
+      "see": "bjp"
+    },
+    {
+      "id": "ram-campaign",
+      "date": "1984-04",
+      "lane": "forts",
+      "title": "The VHP launches the Ram Janmabhoomi campaign",
+      "summary": "A VHP religious parliament in Delhi resolves to 'liberate' the birthplace of Rama at Ayodhya. The RSS puts its cadre behind the campaign.",
+      "polities": [
+        "vhp",
+        "rss"
+      ],
+      "places": [
+        "ayodhya"
+      ],
+      "concepts": [
+        "ram-janmabhoomi"
+      ],
+      "approx": true
+    },
+    {
+      "id": "bajrang-dal",
+      "date": "1984-10-01",
+      "lane": "forts",
+      "title": "The Bajrang Dal is founded",
+      "summary": "The VHP forms the Bajrang Dal as its youth wing for the Ram campaign.",
+      "polities": [
+        "bajrang-dal",
+        "vhp"
+      ],
+      "wiki": "Bajrang Dal"
+    },
+    {
+      "id": "babri",
+      "date": "1992-12-06",
+      "lane": "military",
+      "title": "The Babri Masjid is demolished",
+      "summary": "Kar sevaks mobilised by the VHP, BJP and RSS tear down the mosque at Ayodhya; riots across India kill about 2,000 people. The Liberhan Commission (2009) holds Sangh leaders responsible; a CBI court acquits all accused in 2020.",
+      "places": [
+        "ayodhya",
+        "ram-mandir"
+      ],
+      "polities": [
+        "vhp",
+        "rss",
+        "bjp"
+      ],
+      "concepts": [
+        "babri-masjid",
+        "ram-janmabhoomi"
+      ],
+      "major": true,
+      "see": "bjp"
+    },
+    {
+      "id": "third-ban",
+      "date": "1992-12-10",
+      "lane": "military",
+      "title": "Banned for the third time",
+      "summary": "The Narasimha Rao government bans the RSS, VHP and Bajrang Dal. In June 1993 a tribunal finds no sufficient grounds for the ban on the RSS and it is lifted.",
+      "polities": [
+        "rss",
+        "vhp",
+        "bajrang-dal"
+      ]
+    },
+    {
+      "id": "rajju-bhaiya",
+      "date": "1994-03-11",
+      "lane": "life",
+      "title": "Rajju Bhaiya becomes sarsanghchalak",
+      "summary": "Ill health makes Deoras the first sarsanghchalak to step down while alive. He names Rajendra Singh, 'Rajju Bhaiya', a physics professor from Allahabad and the first leader from outside Maharashtra.",
+      "people": [
+        "rajju-bhaiya",
+        "balasaheb-deoras"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "vajpayee-pm",
+      "date": "1998-03-19",
+      "lane": "world",
+      "title": "A former pracharak becomes Prime Minister",
+      "summary": "Atal Bihari Vajpayee forms a BJP-led coalition government. Differences with the RSS over economic policy and Ayodhya surface during his six years in office.",
+      "people": [
+        "vajpayee"
+      ],
+      "polities": [
+        "bjp",
+        "nda"
+      ],
+      "concepts": [
+        "ge-1998"
+      ],
+      "see": "bjp"
+    },
+    {
+      "id": "sudarshan",
+      "date": "2000-03-10",
+      "lane": "life",
+      "title": "K. S. Sudarshan becomes sarsanghchalak",
+      "summary": "Rajju Bhaiya hands over to K. S. Sudarshan, an engineer from Karnataka known for strong swadeshi views and open criticism of the Vajpayee government.",
+      "people": [
+        "ks-sudarshan",
+        "rajju-bhaiya"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "mrm",
+      "date": "2002-12-24",
+      "lane": "forts",
+      "title": "The Muslim Rashtriya Manch is formed",
+      "summary": "Under RSS leader Indresh Kumar, the Muslim Rashtriya Manch is formed to bring Muslims into the Sangh's fold.",
+      "people": [
+        "indresh-kumar"
+      ],
+      "polities": [
+        "muslim-rashtriya-manch"
+      ]
+    },
+    {
+      "id": "advani-jinnah",
+      "date": "2005-06-04",
+      "lane": "political",
+      "title": "Advani's Jinnah remarks anger the RSS",
+      "summary": "On a visit to Pakistan Advani calls Jinnah 'secular' at his mausoleum. Under RSS pressure he steps down as BJP president that December.",
+      "people": [
+        "advani",
+        "ks-sudarshan"
+      ],
+      "places": [
+        "karachi"
+      ],
+      "polities": [
+        "bjp",
+        "rss"
+      ]
+    },
+    {
+      "id": "ajmer-bombing",
+      "date": "2007-10-11",
+      "lane": "military",
+      "title": "Ajmer Dargah bombing",
+      "summary": "A bomb at the Sufi shrine in Ajmer kills three. In 2017 an NIA court convicts two men who had been RSS pracharaks and acquits Swami Aseemanand. Related 'saffron terror' cases over the Samjhauta Express, Mecca Masjid and Malegaon bombings end in acquittals. The RSS denies any link.",
+      "people": [
+        "aseemanand"
+      ],
+      "places": [
+        "ajmer"
+      ],
+      "concepts": [
+        "ajmer-bombing"
+      ],
+      "wiki": "2007 Ajmer Dargah bombing"
+    },
+    {
+      "id": "bhagwat",
+      "date": "2009-03-21",
+      "lane": "life",
+      "title": "Mohan Bhagwat becomes sarsanghchalak",
+      "summary": "Sudarshan steps down and Mohan Bhagwat, a veterinarian whose father was an RSS pracharak in Chandrapur, becomes the youngest sarsanghchalak since Golwalkar.",
+      "people": [
+        "mohan-bhagwat",
+        "ks-sudarshan"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "major": true
+    },
+    {
+      "id": "modi-pm",
+      "date": "2014-05-26",
+      "lane": "world",
+      "title": "Narendra Modi becomes Prime Minister",
+      "summary": "Modi, an RSS pracharak from 1972 until the Sangh lent him to the BJP in 1987, leads the BJP to the first single-party majority since 1984. RSS cadre had campaigned for him door to door.",
+      "people": [
+        "narendra-modi",
+        "mohan-bhagwat"
+      ],
+      "polities": [
+        "bjp",
+        "rss"
+      ],
+      "concepts": [
+        "ge-2014"
+      ],
+      "see": "narendra-modi",
+      "major": true
+    },
+    {
+      "id": "trousers",
+      "date": "2016-03-13",
+      "lane": "political",
+      "title": "Khaki shorts give way to trousers",
+      "summary": "The RSS's annual assembly at Nagaur replaces the khaki shorts worn since 1940 with brown trousers, a change in force from that Vijayadashami.",
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "pranab-nagpur",
+      "date": "2018-06-07",
+      "lane": "political",
+      "title": "Pranab Mukherjee speaks at RSS headquarters",
+      "summary": "The former President and Congress veteran addresses a training camp in Nagpur, calling Indian nationalism plural and inclusive. His party is dismayed; the RSS calls it a bridge-building moment.",
+      "people": [
+        "pranab-mukherjee",
+        "mohan-bhagwat"
+      ],
+      "places": [
+        "nagpur"
+      ],
+      "polities": [
+        "rss",
+        "congress"
+      ]
+    },
+    {
+      "id": "bhagwat-lectures",
+      "date": "2018-09-17",
+      "lane": "political",
+      "title": "Bhagwat's 'Future of Bharat' lectures",
+      "summary": "In three public lectures in Delhi, Bhagwat says Hindu Rashtra does not mean India without Muslims and distances the RSS from parts of Bunch of Thoughts.",
+      "people": [
+        "mohan-bhagwat",
+        "golwalkar"
+      ],
+      "places": [
+        "new-delhi"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "hosabale",
+      "date": "2021-03-20",
+      "lane": "life",
+      "title": "Dattatreya Hosabale becomes general secretary",
+      "summary": "The RSS assembly elects Dattatreya Hosabale sarkaryavah, its second-in-command, in place of Suresh 'Bhaiyyaji' Joshi.",
+      "people": [
+        "dattatreya-hosabale"
+      ],
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "ram-temple",
+      "date": "2024-01-22",
+      "lane": "world",
+      "title": "Bhagwat and Modi at the Ram temple consecration",
+      "summary": "Mohan Bhagwat stands beside Narendra Modi in the sanctum for the consecration of the Ram temple at Ayodhya, the goal of the campaign the Sangh began in 1984.",
+      "people": [
+        "mohan-bhagwat",
+        "narendra-modi"
+      ],
+      "places": [
+        "ayodhya",
+        "ram-mandir"
+      ],
+      "polities": [
+        "rss",
+        "vhp"
+      ],
+      "concepts": [
+        "ram-janmabhoomi"
+      ],
+      "major": true,
+      "see": "narendra-modi"
+    },
+    {
+      "id": "employee-ban-lifted",
+      "date": "2024-07-09",
+      "lane": "political",
+      "title": "Government staff allowed to join the RSS",
+      "summary": "The central government withdraws its 1966 order that barred civil servants from taking part in RSS activities.",
+      "polities": [
+        "rss"
+      ]
+    },
+    {
+      "id": "centenary",
+      "date": "2025-10-01",
+      "lane": "political",
+      "title": "The RSS turns 100",
+      "summary": "On the eve of Vijayadashami Prime Minister Modi releases a stamp and a ₹100 coin marking the RSS centenary. The Sangh claims over 80,000 daily shakhas across India.",
+      "people": [
+        "narendra-modi",
+        "mohan-bhagwat"
+      ],
+      "polities": [
+        "rss"
+      ],
+      "major": true
+    }
+  ]
+}
