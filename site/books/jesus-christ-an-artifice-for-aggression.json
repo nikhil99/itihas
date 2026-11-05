@@ -1,0 +1,30 @@
+{
+  "title": "Jesus Christ: An Artifice for Aggression",
+  "byline": "by <b>Sita Ram Goel</b> · Voice of India · 1994",
+  "lede": "In 1956 a Jesuit friend tried to convert Goel and showed him gospel passages claiming Jesus was the only way to God. Decades later, influenced by Ram Swarup's critique of monotheism, Goel returned to the subject. His complaint is with Hindus: they object to the missions but praise Jesus, and so invent a “real” Jesus and a “true” Christianity. He draws on two centuries of Western scholarship on the historical Jesus, from Reimarus to Schweitzer and Bultmann, to argue that the gospel figure cannot be recovered from history. He says the missions should be met on doctrine, not only on conduct.",
+  "facts": [["1956", "the Jesuit's attempt to convert him, in Patna"], ["4", "chapters: history, fiction, faith, decline in the West"], ["1906", "Schweitzer's <em>Quest of the Historical Jesus</em>, his central witness"], ["4", "appendices, including letters with an English correspondent"]],
+  "note": "This is a deliberately provocative polemic, and much of its language is harsh; this page does not repeat it. Goel leans on the “Christ myth” view that Jesus may not have existed, which most historians, religious and secular, reject. They accept a historical Jesus while agreeing the gospels are not straightforward biography. Schweitzer, whom Goel quotes, was attacking the 19th-century theologians' portraits of Jesus, not denying that Jesus lived. This page summarises Goel's argument, attributed to him.",
+  "sections": [
+    {
+      "type": "steps", "ch": 1, "eyebrow": "The book's structure",
+      "title": "Three Jesuses, as Goel sorts them",
+      "items": [["Ch. 1", "The Jesus of history", "The search by Protestant scholars from Reimarus (18th century) to Wrede (1901). Goel says it ended in failure, citing Schweitzer.", 1], ["Ch. 2", "The Jesus of fiction", "After the Dead Sea Scrolls and Nag Hammadi finds, a stream of reconstructions, some traced to mystery cults and myths.", 2], ["Ch. 3", "The Christ of faith", "Bultmann's <i>kerygma</i>: history set aside, the proclaimed Christ kept. Goel calls it the old dogma brought back.", 3], ["Ch. 4", "Decline in the West", "Falling church attendance and fewer priests, quoting Koenraad Elst, set against expanding missions in India.", 0]]
+    },
+    {
+      "type": "compare", "ch": 1, "eyebrow": "Chapter 1 · the silence he points to",
+      "title": "The historical sources, in Goel's reading and in the mainstream view",
+      "cols": [{"k": "Goel's argument", "items": ["Philo and Justus of Tiberius never mention Jesus", "He treats Josephus's references as later insertions", "Seneca, Pliny the Elder, Plutarch and others are silent", "Tacitus, Suetonius and Pliny the Younger refer to “Chrestus” or to Christians, not to a historical life"]}, {"k": "Most historians", "items": ["Josephus's shorter reference to “James, the brother of Jesus” is generally accepted as genuine", "Tacitus' mention of Christ's execution under Pilate is widely taken as independent evidence", "Silence about a minor Galilean preacher is unsurprising", "Paul's letters, from about 20 years after the crucifixion, presuppose a historical Jesus"]}]
+    },
+    {
+      "type": "cards", "ch": 4, "eyebrow": "Preface and chapter 4 · the Hindu question",
+      "title": "What Goel asks of Hindus",
+      "items": [["Preface", "Look at belief, not only behaviour", "Hindus criticise missions and terrorism but not the creeds behind them."], ["Preface", "Stop inventing a “real” Jesus", "Praising Jesus to restrain his missionaries has not worked, he says."], ["Ch. 4", "Dayananda, not Gandhi", "Dayananda read the gospels critically; Gandhi praised Jesus while opposing conversion."], ["Preface", "<i>Apaddharma</i>", "Flattering an aggressor's heroes may be an emergency expedient, but should not become permanent (<i>sanatana</i>) dharma."]]
+    },
+    {
+      "type": "list", "eyebrow": "Appendices",
+      "title": "Supporting pieces he reprints",
+      "items": [["1 · Of Pagan Gods and Heresies", "An article by S.K. Balasubramaniam from <em>The Observer of Business and Politics</em>."], ["2 · The Church as a Tool of Imperialism", "From a 1982 article by Major T.R. Vedantam, with a section on liberation theology."], ["3 · Spiritual Shift", "Richard N. Ostling in <em>Time</em>, 12 July 1993."], ["4 · Hindus vis-à-vis Jesus", "Goel's exchange of letters with a woman in England."]]
+    }
+  ],
+  "footer": "Source: <em>Jesus Christ: An Artifice for Aggression</em> by Sita Ram Goel (Voice of India, 1994), read from the online edition at <a href=\"https://voibooks.bitbucket.io/jcafa/\">voibooks.bitbucket.io</a>. The “most historians” column is added for context and is not from the book."
+}
