@@ -2926,5 +2926,95 @@
         "url": "https://voibooks.bitbucket.io/mla/atro3/"
       }
     ]
+  },
+  {
+    "id": "the-ferengis-columns",
+    "title": "The Ferengi's Columns",
+    "author": "François Gautier",
+    "published": "Voice of India, c. 2001",
+    "summary": "Newspaper columns by François Gautier, a French journalist who was Le Figaro's India correspondent, on Ayodhya, Kashmir, Christians and Hindus, the press, Bollywood, Indian life and India's “hidden treasures”. Shown here as the book's fourteen themes with their columns, and his view of how foreign correspondents misread India.",
+    "href": "books/the-ferengis-columns.html",
+    "timelines": [
+      "bjp"
+    ],
+    "source": "https://voibooks.bitbucket.io/tfc/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Foreword",
+        "url": "https://voibooks.bitbucket.io/tfc/ch0/"
+      },
+      {
+        "n": 1,
+        "title": "Ayodhya",
+        "url": "https://voibooks.bitbucket.io/tfc/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Kashmir: A Dead-End And A Solution",
+        "url": "https://voibooks.bitbucket.io/tfc/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "The Christians: A Minority In Moral Majority",
+        "url": "https://voibooks.bitbucket.io/tfc/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "The Hindus: A Majority In Moral Minority",
+        "url": "https://voibooks.bitbucket.io/tfc/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "The Indian Media: An Hostile Force",
+        "url": "https://voibooks.bitbucket.io/tfc/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "The (Unfriendly) Neighbours In Asia",
+        "url": "https://voibooks.bitbucket.io/tfc/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "The West And India",
+        "url": "https://voibooks.bitbucket.io/tfc/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "Examples Not To Follow",
+        "url": "https://voibooks.bitbucket.io/tfc/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "The False Gods",
+        "url": "https://voibooks.bitbucket.io/tfc/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "The Great Indian Myths",
+        "url": "https://voibooks.bitbucket.io/tfc/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "The Rot Of Bollywood",
+        "url": "https://voibooks.bitbucket.io/tfc/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "India: Everything That It Should Not Be",
+        "url": "https://voibooks.bitbucket.io/tfc/ch12/"
+      },
+      {
+        "n": 13,
+        "title": "The Hidden Treasures",
+        "url": "https://voibooks.bitbucket.io/tfc/ch13/"
+      },
+      {
+        "n": 14,
+        "title": "The Renaissance Of India",
+        "url": "https://voibooks.bitbucket.io/tfc/ch14/"
+      }
+    ]
   }
 ]
