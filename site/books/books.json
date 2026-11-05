@@ -826,5 +826,33 @@
         "url": "https://voibooks.bitbucket.io/ca/app5/"
       }
     ]
+  },
+  {
+    "id": "collapsing-pakistan",
+    "title": "Collapsing Pakistan",
+    "author": "Ed. N.S. Rajaram",
+    "published": "Voice of India, c. 2001",
+    "summary": "N.S. Rajaram's essay predicting Pakistan's break-up, published alongside Robert Kaplan's and Jeffrey Goldberg's reporting from Pakistan in 2000. Shown here as the Punjab core against the frontier, Pakistan's political cycle from 1947 to the Musharraf coup, a school that trained Taliban leaders, and how the prediction has held up.",
+    "href": "books/collapsing-pakistan.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/cpak/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Meltdown in Pakistan",
+        "url": "https://voibooks.bitbucket.io/cpak/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "The Lawless Frontier",
+        "url": "https://voibooks.bitbucket.io/cpak/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "The Education of a Holy Warrior",
+        "url": "https://voibooks.bitbucket.io/cpak/ch3/"
+      }
+    ]
   }
 ]
