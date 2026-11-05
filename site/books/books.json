@@ -1042,5 +1042,155 @@
         "url": "https://voibooks.bitbucket.io/ait/ch63/"
       }
     ]
+  },
+  {
+    "id": "history-of-hindu-christian-encounters",
+    "title": "History of Hindu-Christian Encounters, AD 304 to 1996",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1986; 2nd ed. 1996",
+    "summary": "Goel's chronicle of how Hindu thinkers answered Christianity, from a temple destroyed in Syria in AD 304 to the 1990s: Ram Mohun Roy, the Sanskrit pandits, Dayananda, Vivekananda, Gandhi, the Constituent Assembly and Ram Swarup. Shown here as a timeline of twenty-five encounters, the foreign money behind Indian missions in 1950–54, and what each Hindu spokesman argued.",
+    "href": "books/history-of-hindu-christian-encounters.html",
+    "timelines": [
+      "british-india"
+    ],
+    "source": "https://voibooks.bitbucket.io/hhce/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface to the Second Edition",
+        "url": "https://voibooks.bitbucket.io/hhce/pre1/"
+      },
+      {
+        "n": null,
+        "title": "Preface to the First Edition",
+        "url": "https://voibooks.bitbucket.io/hhce/pre2/"
+      },
+      {
+        "n": 1,
+        "title": "Encounter on the Euphrates",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Encounter in Malabar",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Hallucinations of the Devil's Devotees",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Pirates in Priest's Clothing",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch4/"
+      },
+      {
+        "n": 5,
+        "title": "From Monologue to Dialogue",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Encounter in Tamil Nadu",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Encounter at Pondicherry",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch7/"
+      },
+      {
+        "n": 8,
+        "title": "Encounter with Raja Ram Mohun Roy",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Encounter in Maharashtra",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch9/"
+      },
+      {
+        "n": 10,
+        "title": "Encounter with Sariskrit Pandits",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch10/"
+      },
+      {
+        "n": 11,
+        "title": "Encounter with Maharshi Dayananda",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch11/"
+      },
+      {
+        "n": 12,
+        "title": "Second Encounter in Tamil Nadu",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch12/"
+      },
+      {
+        "n": 13,
+        "title": "Encounter with Swami Vivekananda",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch13/"
+      },
+      {
+        "n": 14,
+        "title": "Encounter with Mahatma Gandhi",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch14/"
+      },
+      {
+        "n": 15,
+        "title": "The Hoax of Human Rights",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch15/"
+      },
+      {
+        "n": 16,
+        "title": "Debate in the Constituent Assembly",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch16/"
+      },
+      {
+        "n": 17,
+        "title": "Missions since Independence",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch17/"
+      },
+      {
+        "n": 18,
+        "title": "Dethroning Monotheism",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch18/"
+      },
+      {
+        "n": 19,
+        "title": "Sannyasins or Swindlers?",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch19/"
+      },
+      {
+        "n": 20,
+        "title": "A Hornet's Nest",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch20/"
+      },
+      {
+        "n": 21,
+        "title": "Exploding a Mischievous Myth",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch21/"
+      },
+      {
+        "n": 22,
+        "title": "Plea for Rejecting Jesus as Junk",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch22/"
+      },
+      {
+        "n": 23,
+        "title": "Encounter with Arun Shourie",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch23/"
+      },
+      {
+        "n": 24,
+        "title": "Fixing a Christian Windbag",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch24/"
+      },
+      {
+        "n": 25,
+        "title": "Calling the Pope's Bluff",
+        "url": "https://voibooks.bitbucket.io/hhce/Ch25/"
+      }
+    ]
   }
 ]

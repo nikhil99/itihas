@@ -1,0 +1,84 @@
+{
+  "title": "History of Hindu-Christian Encounters, AD 304 to 1996",
+  "byline": "by <b>Sita Ram Goel</b> · Voice of India · 1986, enlarged second edition 1996",
+  "lede": "Christian historians have written many accounts of how missionaries saw Hinduism. Goel says he searched libraries in five countries in 1989 and found no account of how Hindus saw Christianity, so he wrote one. The book is a chronicle of encounters across seventeen centuries. Each is told from the Hindu side, from Sanskrit pandits answering a British civil servant in verse to Gandhi's half-century of argument with missionaries.",
+  "facts": [["25", "chapters in the 1996 edition, up from 16 in 1986"], ["1,692", "years covered, from a temple's destruction in AD 304 to 1996"], ["₹29.27 crore", "foreign money to Christian missions in India, January 1950 to June 1954, per the Niyogi Committee"], ["54 years", "of Gandhi's dialogue with Christians, 1893–1947, the longest chapter"]],
+  "related": [["british-india", "British India timeline"]],
+  "note": "Goel writes as a fierce critic of Christianity, and the late chapters are openly abusive about the Church. This guide follows the history he narrates, attributed to him, and leaves out his invective.",
+  "sections": [
+    {
+      "type": "timeline", "ch": 1, "eyebrow": "Chapters 1–25 · the encounters",
+      "title": "Seventeen centuries of encounters",
+      "lede": "Each entry is one of Goel's chapters. He calls the early contacts a “monologue”: Christians declaring and Hindus not answering. The dialogue begins around 1700, and in his view it was the Hindu side that improved.",
+      "items": [
+        {"era": "Monologue", "color": 1},
+        ["304", "On the Euphrates", "St. Gregory destroys temples built by Hindu settlers in the Roman East, Goel's first recorded encounter."],
+        ["early centuries", "In Malabar", "The Syrian Christians. Goel doubts the St. Thomas story, examined in Ishwar Sharan's book."],
+        ["medieval", "“Hallucinations of the Devil's devotees”", "European travellers' tales of Hindus."],
+        ["1498, 1542", "Portuguese “pirates in priest's clothing”", "Vasco da Gama reaches Calicut, then Francis Xavier arrives."],
+        {"era": "Dialogue begins", "color": 2},
+        ["c. 1700", "From monologue to dialogue", "The first known exchanges of argument."],
+        ["1706", "Tranquebar", "Ziegenbalg's Lutheran mission, financed through Britain's SPCK. His “Conferences with Brahmanas”."],
+        ["1747–56", "Pondicherry", "Ananda Ranga Pillai's diary records what the French missionaries did."],
+        ["1820", "Ram Mohun Roy vs. Serampore", "Calcutta, then the centre of missionary activity."],
+        ["1830s", "Bombay", "Against John Wilson, of Wilson College."],
+        ["1839–45", "Debate in Sanskrit", "John Muir's <em>Mataparīkṣā</em>, answered by Subaji Bapu, Harachandra Tarkapanchanana and Nilakantha Goreh."],
+        {"era": "Hindu revival", "color": 0},
+        ["1875–76", "Dayananda", "Chapter XI of the <em>Satyarth Prakash</em>, and a public debate with missionaries at Moradabad."],
+        ["1887–96", "Second encounter in Tamil Nadu", "The Hindu Tract Society, the Advaita Sabha and the Shaiva Siddhanta Sabha."],
+        ["1893–1900", "Vivekananda", "Argued, for the most part, “in the homelands of Christianity”."],
+        ["1893–1947", "Gandhi", "From South Africa to Christmas 1947. He opposed conversion throughout."],
+        {"era": "Independent India", "color": 3},
+        ["1 May 1947", "Constituent Assembly", "K.M. Munshi moves not to recognise conversions by fraud or of minors. The “right to propagate” stays in."],
+        ["1950s", "Missions since independence", "Foreign money (chart below) and the Niyogi Committee report."],
+        ["1980", "Dethroning monotheism", "Ram Swarup's <em>The Word as Revelation: Names of Gods</em>."],
+        ["1986–96", "Ashrams, Shourie, the Pope", "Catholic ashrams, the reply to Arun Shourie's critics, and the Papacy."]
+      ]
+    },
+    {
+      "type": "bars", "ch": 17, "eyebrow": "Chapter 17 · missions since independence",
+      "title": "Who paid for India's missions, 1950–54",
+      "lede": "The Madhya Pradesh government's Christian Missionaries Enquiry Committee (the Niyogi Committee) traced ₹29.27 crore received from abroad in four and a half years. It concluded that most of it, though given for schools and hospitals, went on conversion work.",
+      "unit": "lakh ₹", "labelWidth": 170, "max": 2200, "ticks": [0, 500, 1000, 1500, 2000],
+      "items": [["United States", 2068.63, "Over 70% of the total"], ["United Kingdom", 483.89], ["Canada", 167.56], ["Sweden", 64.41], ["Denmark", 33.91], ["Norway", 27.97], ["Rest of sterling area", 25.29], ["Switzerland", 15.77], ["Other non-sterling", 14.72], ["Germany", 11.72], ["France", 7.61], ["Belgium", 6.47]],
+      "note": "From the committee's figures as reproduced in the book, in lakh rupees."
+    },
+    {
+      "type": "table", "wide": true, "ch": 14, "eyebrow": "Chapters 8–14 · what the Hindu side said",
+      "title": "Five spokesmen, five lines of argument",
+      "head": ["Spokesman", "Years", "Main argument against Christianity, as Goel presents it"],
+      "rows": [
+        ["Ram Mohun Roy", "1820s", "The Trinity and miracles fail the test of reason. Jesus's ethics can be kept without the dogma."],
+        ["The Sanskrit pandits", "1839–45", "Christianity is weak even on its own claims about nature. Answered verse for verse in Sanskrit."],
+        ["Dayananda", "1875–83", "A Vedic critique of the Bible as a book: its God, its miracles, its morals."],
+        ["Vivekananda", "1893–1900", "England, “the most prosperous Christian nation”, has “her foot on the neck” of Asia. Converts may return through freedom of the <i>ishta</i> (chosen deity)."],
+        ["Gandhi", "1893–1947", "Conversion as practised is “the deadliest poison”. Missionaries should serve without seeking to convert."]
+      ]
+    },
+    {
+      "type": "steps", "ch": 13, "eyebrow": "Chapter 13 · the education question",
+      "title": "How Western education was meant to convert",
+      "items": [
+        ["1813", "Charter renewed", "The Company's territories are opened to missionaries."],
+        ["2 Feb 1835", "Macaulay's minute", "Alexander Duff sits on the committee. English education wins."],
+        ["1832–43", "Duff's converts", "Krishnamohan Banerji, Lal Behari De, Madhusudan Dutt."],
+        ["May 1845", "A thousand Hindus meet in Calcutta", "They resolve not to send their sons to missionary colleges."],
+        ["1863", "Duff leaves India", "Sure that Hinduism is finished, in the year Vivekananda is born."]
+      ]
+    },
+    {
+      "type": "compare", "ch": 16, "eyebrow": "Chapters 15–16 · the Constituent Assembly, 1947–49",
+      "title": "“Right to propagate”: two readings",
+      "cols": [
+        {"k": "What Christian members meant, in Goel's account", "items": ["Foreign funding", "Ever more churches and missions", "Native and foreign missionaries", "Seminaries, social services, media", "Conversions"]},
+        {"k": "What the Hindu members tried", "items": ["Munshi: conversions by fraud, coercion or of minors not recognised", "Restrictions on propagation", "Goel says they missed the organisation and money behind it"]}
+      ]
+    },
+    {
+      "type": "quote", "ch": 13,
+      "q": "England, the most prosperous Christian nation in the world, with her foot on the neck of 250,000,000 Asiatics.",
+      "cite": "Vivekananda at the Parliament of Religions, Chicago, September 1893, quoted by Goel"
+    }
+  ],
+  "footer": "Source: <em>History of Hindu-Christian Encounters, AD 304 to 1996</em> by Sita Ram Goel (Voice of India, second edition 1996), read from the online edition at <a href=\"https://voibooks.bitbucket.io/hhce/\">voibooks.bitbucket.io</a>. Short quotations are the author's or those he quotes."
+}
