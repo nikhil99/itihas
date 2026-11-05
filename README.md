@@ -104,6 +104,19 @@ palette and fonts as the site) and are listed in `site/books/books.json`. That m
 timelines. To add a book, drop `site/books/<id>.html` next to the others and add an entry to
 the manifest. Nothing needs rebuilding.
 
+**References to the source.** Each manifest entry lists its `chapters` (`n`, `title`, and a `url` for
+books that are online or `pages` for printed ones), plus `source` (the whole book online) and
+`edition`. `book.js` uses them in two ways. It turns `<a class="ref" data-ch="2" data-pages="52–53"></a>`
+into a link to chapter 2 (or its page range), and it adds a "Read the book" chapter list before the
+footer of every book page. Put a `ref` under each section of a guide so a reader can go from any
+claim to the chapter it came from.
+
+**Citing a book on a timeline.** An event can cite chapters with
+`"sources": [{"book": "<book id>", "chapter": 6, "pages": "52–53"}]` (`pages` is optional). The build
+checks the book id and chapter number against `books.json`, and the event card shows
+"Source: *Book title*, ch. 6 · read ↗". Use this for any timeline entry added or corrected
+because of a book.
+
 ## Map playback
 
 Every timeline's map has a **Play** button and a year slider. Playback runs through the years: places appear when their first event happens, pulse as events occur, and major events are captioned under the map. Timelines with `territories` also show borders changing over time (the Meiji timeline shows the Japanese empire growing).

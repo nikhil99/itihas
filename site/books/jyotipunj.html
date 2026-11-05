@@ -120,7 +120,19 @@ td.n{color:var(--rule)}
 .mo span{color:var(--ink2);font-size:15.5px}
 footer{padding-block:48px 0;color:var(--muted);font-size:14px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+:root{--c1:var(--out)}
+/* references to the original book */
+a.ref{display:inline-flex;align-items:center;gap:4px;font-family:var(--mono);font-size:12px;color:var(--c1);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:2px 10px;background:var(--panel);width:max-content;max-width:100%}
+a.ref:hover{border-color:var(--c1)}
+a.ref:empty{display:none}
+.sources{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.sources li>a,.sources li>div{display:grid;grid-template-columns:3ch minmax(0,1fr) auto auto;gap:12px;align-items:baseline;padding:10px 4px;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink)}
+.sources li>a:hover{background:var(--panel)}
+.sources .n{font-family:var(--display);color:var(--c1)}
+.sources .p{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.sources .go{color:var(--c1)}
 </style>
+<script src="book.js"></script>
 </head>
 <body>
 
@@ -234,12 +246,12 @@ footer{padding-block:48px 0;color:var(--muted);font-size:14px}
   <span class="eyebrow">What the book is really saying</span>
   <h2>Six ideas to take away</h2>
   <div class="ideas">
-    <div class="idea"><h3>1 · Resolve matters more than resources</h3><p>The RSS began with five boys and nothing to eat. Chipalunkar lived on bajra flour stirred into water while he started shakhas in Idar. <q>Action is not wholly dependent on resources.</q></p></div>
-    <div class="idea"><h3>2 · Sanyasis dressed in white</h3><p>Vivekananda turned the monk toward social service. Hedgewar then created the <em>pracharak</em>, a lifelong celibate worker who lives in society instead of a monastery. Swami Chinmayananda called them “Sanyasis adorned in the whites.”</p></div>
-    <div class="idea"><h3>3 · A Swayamsevak first and last</h3><p>At a camp in Gwalior, guests were asked to leave the meal row first. Guruji stayed seated, because he was a Swayamsevak and not a guest. In this book, rank never outranks the volunteer.</p></div>
+    <div class="idea"><h3>1 · Resolve matters more than resources</h3><a class="ref" data-ch="16" data-pages="250"></a><p>The RSS began with five boys and nothing to eat. Chipalunkar lived on bajra flour stirred into water while he started shakhas in Idar. <q>Action is not wholly dependent on resources.</q></p></div>
+    <div class="idea"><h3>2 · Sanyasis dressed in white</h3><a class="ref" data-ch="1" data-pages="34"></a><p>Vivekananda turned the monk toward social service. Hedgewar then created the <em>pracharak</em>, a lifelong celibate worker who lives in society instead of a monastery. Swami Chinmayananda called them “Sanyasis adorned in the whites.”</p></div>
+    <div class="idea"><h3>3 · A Swayamsevak first and last</h3><a class="ref" data-ch="2" data-pages="52–53"></a><p>At a camp in Gwalior, guests were asked to leave the meal row first. Guruji stayed seated, because he was a Swayamsevak and not a guest. In this book, rank never outranks the volunteer.</p></div>
     <div class="idea"><h3>4 · Careers given up</h3><p>A London-trained pathologist, two engineers, a railway clerk, a mill hand, a goldsmith and a law student each traded a career for the work. The book treats these exchanges as the real cost of building the organisation.</p></div>
-    <div class="idea"><h3>5 · The organisation is a family</h3><p>Nathabhai named his favourite households after their best dishes, such as the “dhokla family” and the “panipuri family”. Vakil Saheb hid a father's telegraph until a camp ended, then sent the boy home to his job interview.</p></div>
-    <div class="idea"><h3>6 · Tested by bans and the Emergency</h3><p>The 1948 ban and the 1975–77 Emergency come up again and again. Pappaji, then nearly ninety, refused parole. Vanikar would not leave jail until democracy was restored. Vasantbhai kept writing his biography of Guruji while Modi carried messages between the underground and the outside world.</p></div>
+    <div class="idea"><h3>5 · The organisation is a family</h3><a class="ref" data-ch="12" data-pages="221"></a><p>Nathabhai named his favourite households after their best dishes, such as the “dhokla family” and the “panipuri family”. Vakil Saheb hid a father's telegraph until a camp ended, then sent the boy home to his job interview.</p></div>
+    <div class="idea"><h3>6 · Tested by bans and the Emergency</h3><a class="ref" data-ch="3" data-pages="93"></a><p>The 1948 ban and the 1975–77 Emergency come up again and again. Pappaji, then nearly ninety, refused parole. Vanikar would not leave jail until democracy was restored. Vasantbhai kept writing his biography of Guruji while Modi carried messages between the underground and the outside world.</p></div>
   </div>
 </section>
 </div>
@@ -251,14 +263,14 @@ footer{padding-block:48px 0;color:var(--muted);font-size:14px}
   <h2>Where Modi appears in his own book</h2>
   <p class="lede">Jyotipunj is partly a memoir. These are the moments where Modi steps into the frame.</p>
   <div class="moments">
-    <div class="mo"><b>Around age 20 · Madhukarrao Bhagwat</b><span>Their first meeting. Modi felt Madhukarrao “infusing this energy into me” as part of a tradition, and says it was like temple bells ringing.</span></div>
-    <div class="mo"><b>Early 1970s · Vasantbhai Gajendragadkar</b><span>Modi became a pracharak in Ahmedabad and kept his distance from the senior leader until Vasantbhai scolded him for it. Later Modi lived in his home.</span></div>
-    <div class="mo"><b>5 June 1973 · Guruji's death</b><span>Vasantbhai heard the news from the morning paper and asked Modi, close to tears, why no one had wired him in the night.</span></div>
-    <div class="mo"><b>1975–76 · The Emergency</b><span>Modi kept the outside contacts for Vasantbhai, who was writing <em>Sriguruji</em>. Vasantbhai died on 16 February 1976. Their last joke was “Our vehicle runs in reverse.”</span></div>
-    <div class="mo"><b>2 March 1981 · Keshavrao Deshmukh</b><span>After a concert in Baroda for Guruji's birthday, the Prant Pracharak collapsed into Modi's lap and died. “I had seen death so near me for the first time in life.”</span></div>
-    <div class="mo"><b>12 September 1988 · Anantrao Kale</b><span>Modi wrote the farewell poem at the Valsad office when Kale went home to Undeel after 40 years in Gujarat.</span></div>
-    <div class="mo"><b>Years of yatras · K.K. Shastri</b><span>Shastri's wife, “Ba”, sent Modi besan laddoos wherever he was. After she died, Shastri handed him her last packet: “it is for the final time.”</span></div>
-    <div class="mo"><b>As Chief Minister · Vasantrao Chipalunkar</b><span>A day before Chipalunkar died, Modi brought him sweets to celebrate a Gujarat election win.</span></div>
+    <div class="mo"><b>Around age 20 · Madhukarrao Bhagwat</b> <a class="ref" data-ch="6" data-pages="152"></a><span>Their first meeting. Modi felt Madhukarrao “infusing this energy into me” as part of a tradition, and says it was like temple bells ringing.</span></div>
+    <div class="mo"><b>Early 1970s · Vasantbhai Gajendragadkar</b> <a class="ref" data-ch="9" data-pages="188"></a><span>Modi became a pracharak in Ahmedabad and kept his distance from the senior leader until Vasantbhai scolded him for it. Later Modi lived in his home.</span></div>
+    <div class="mo"><b>5 June 1973 · Guruji's death</b> <a class="ref" data-ch="9" data-pages="189"></a><span>Vasantbhai heard the news from the morning paper and asked Modi, close to tears, why no one had wired him in the night.</span></div>
+    <div class="mo"><b>1975–76 · The Emergency</b> <a class="ref" data-ch="9" data-pages="189–190"></a><span>Modi kept the outside contacts for Vasantbhai, who was writing <em>Sriguruji</em>. Vasantbhai died on 16 February 1976. Their last joke was “Our vehicle runs in reverse.”</span></div>
+    <div class="mo"><b>2 March 1981 · Keshavrao Deshmukh</b> <a class="ref" data-ch="8" data-pages="176"></a><span>After a concert in Baroda for Guruji's birthday, the Prant Pracharak collapsed into Modi's lap and died. “I had seen death so near me for the first time in life.”</span></div>
+    <div class="mo"><b>12 September 1988 · Anantrao Kale</b> <a class="ref" data-ch="7" data-pages="168"></a><span>Modi wrote the farewell poem at the Valsad office when Kale went home to Undeel after 40 years in Gujarat.</span></div>
+    <div class="mo"><b>Years of yatras · K.K. Shastri</b> <a class="ref" data-ch="4" data-pages="112"></a><span>Shastri's wife, “Ba”, sent Modi besan laddoos wherever he was. After she died, Shastri handed him her last packet: “it is for the final time.”</span></div>
+    <div class="mo"><b>As Chief Minister · Vasantrao Chipalunkar</b> <a class="ref" data-ch="16" data-pages="259"></a><span>A day before Chipalunkar died, Modi brought him sweets to celebrate a Gujarat election win.</span></div>
   </div>
 </section>
 </div>

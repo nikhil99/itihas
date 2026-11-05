@@ -10,6 +10,101 @@
     "timelines": [
       "narendra-modi",
       "bjp"
+    ],
+    "edition": "English translation by A.K. Gandhi, Prabhat Prakashan, New Delhi, 2015 · ISBN 978-93-5186-231-4",
+    "chapters": [
+      {
+        "title": "Jyotipunj",
+        "pages": "9–10"
+      },
+      {
+        "title": "Introduction (Swami Satyamitranand Giri)",
+        "pages": "11–20"
+      },
+      {
+        "title": "Flowers and Leaves",
+        "pages": "21–24"
+      },
+      {
+        "title": "A Tribute to Vivekananda by Doctor Saheb",
+        "pages": "25–38",
+        "n": 1
+      },
+      {
+        "title": "The Honourable Guruji Madhavrao Sadashivrao Golvalkar",
+        "pages": "39–86",
+        "n": 2
+      },
+      {
+        "title": "Transparent Gem – Pappaji Dr. Pranlal Doshi",
+        "pages": "87–98",
+        "n": 3
+      },
+      {
+        "title": "Yuga Rishi Centenarian Shastriji",
+        "pages": "99–122",
+        "n": 4
+      },
+      {
+        "title": "Sangh Yogi Vakil Saheb Lakshmanrao Inamdar",
+        "pages": "123–146",
+        "n": 5
+      },
+      {
+        "title": "Madhur Madhukar Madhukarrao Bhagwat",
+        "pages": "147–154",
+        "n": 6
+      },
+      {
+        "title": "The Determined Anantrao Kale",
+        "pages": "155–170",
+        "n": 7
+      },
+      {
+        "title": "Dynamic Personality Keshavrao Deshmukh",
+        "pages": "171–182",
+        "n": 8
+      },
+      {
+        "title": "Sunset at Noon Vasantbhai Gajendragadkar",
+        "pages": "183–196",
+        "n": 9
+      },
+      {
+        "title": "Committed to Service Dr. Vishwanathrao Vanikar",
+        "pages": "197–204",
+        "n": 10
+      },
+      {
+        "title": "Persistent Karmayogi Kashinathrao Bagwade",
+        "pages": "205–212",
+        "n": 11
+      },
+      {
+        "title": "Struggling Life Nathabhai Jhagda",
+        "pages": "213–222",
+        "n": 12
+      },
+      {
+        "title": "Multi-dimensional Talent Babubhai Ojha",
+        "pages": "223–230",
+        "n": 13
+      },
+      {
+        "title": "Gangaghat Bachubhai Bhagat",
+        "pages": "231–238",
+        "n": 14
+      },
+      {
+        "title": "Witty Personality Vasudevrao Talvalkar",
+        "pages": "239–246",
+        "n": 15
+      },
+      {
+        "title": "Evergreen Spring Vasantrao Chipalunkar",
+        "pages": "247–263",
+        "n": 16
+      }
     ]
   },
   {
@@ -22,6 +117,210 @@
     "timelines": [
       "british-india",
       "bjp"
+    ],
+    "source": "https://voibooks.bitbucket.io/pipp/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Something Seriously Wrong Somewhere",
+        "url": "https://voibooks.bitbucket.io/pipp/Chapter%201/"
+      },
+      {
+        "n": 2,
+        "title": "Words Which Defy Dictionaries",
+        "url": "https://voibooks.bitbucket.io/pipp/Chapter%202/"
+      },
+      {
+        "n": 3,
+        "title": "The Sources Of Leftist Language",
+        "url": "https://voibooks.bitbucket.io/pipp/Chapter%203/"
+      },
+      {
+        "n": 4,
+        "title": "The Character of Leftist Language",
+        "url": "https://voibooks.bitbucket.io/pipp/Chapter%204/"
+      },
+      {
+        "n": 5,
+        "title": "The History of Leftist Language",
+        "url": "https://voibooks.bitbucket.io/pipp/Chapter%205/"
+      },
+      {
+        "n": 6,
+        "title": "The Role of Leftist Language",
+        "url": "https://voibooks.bitbucket.io/pipp/Chapter%206/"
+      },
+      {
+        "n": 7,
+        "title": "The Place of Mahatma Gandhi",
+        "url": "https://voibooks.bitbucket.io/pipp/Chapter%207/"
+      },
+      {
+        "n": 8,
+        "title": "Towards A Language of Indian Nationalism",
+        "url": "https://voibooks.bitbucket.io/pipp/Chapter%208/"
+      }
     ]
+  },
+  {
+    "id": "hindu-view-of-christianity-and-islam",
+    "title": "Hindu View of Christianity and Islam",
+    "author": "Ram Swarup",
+    "published": "Voice of India, 1992",
+    "summary": "Swarup compares Christianity and Islam from the standpoint of Hindu yoga. He groups them as “prophetic” religions, with one jealous God and one messenger, against “yogic” spirituality. Shown here as an eight-row comparison, a family tree of the prophetic creeds, a timeline of Western Islamic studies and Vyasa's five planes of mind.",
+    "href": "books/hindu-view-of-christianity-and-islam.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/hvic/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/hvic/00/"
+      },
+      {
+        "title": "Christianity and Islam: Doctrinal Affinity but Historical Conflict",
+        "url": "https://voibooks.bitbucket.io/hvic/01/",
+        "n": 1
+      },
+      {
+        "title": "Hindu View of Christianity and Islam",
+        "url": "https://voibooks.bitbucket.io/hvic/02/",
+        "n": 2
+      },
+      {
+        "title": "Semitic Religions and Yogic Spirituality",
+        "url": "https://voibooks.bitbucket.io/hvic/03/",
+        "n": 3
+      },
+      {
+        "title": "Appendix 1",
+        "url": "https://voibooks.bitbucket.io/hvic/04/"
+      },
+      {
+        "title": "Appendix 2",
+        "url": "https://voibooks.bitbucket.io/hvic/05/"
+      },
+      {
+        "title": "Appendix 3",
+        "url": "https://voibooks.bitbucket.io/hvic/06/"
+      },
+      {
+        "title": "Index",
+        "url": "https://voibooks.bitbucket.io/hvic/07/"
+      }
+    ]
+  },
+  {
+    "id": "ayodhya-the-case-against-the-temple",
+    "title": "Ayodhya: The Case Against the Temple",
+    "author": "Koenraad Elst",
+    "published": "Voice of India, c. 2002",
+    "summary": "Elst examines the scholars who argued that no temple stood at the Babri Masjid site and finds no positive evidence in their case. Shown here as a site timeline from the 11th century to 1998 (and after), the 1990–91 scholars' debate side by side, the “Hindu iconoclasm” cases he disputes, and the court-chronicle figures he cites for Aurangzeb.",
+    "href": "books/ayodhya-the-case-against-the-temple.html",
+    "timelines": [
+      "mughal-empire",
+      "delhi-sultanate",
+      "bjp"
+    ],
+    "source": "https://voibooks.bitbucket.io/acat/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "title": "Foreword",
+        "url": "https://voibooks.bitbucket.io/acat/Aforeword/"
+      },
+      {
+        "title": "The Ayodhya debate: focus on the ‘no temple’ evidence",
+        "url": "https://voibooks.bitbucket.io/acat/ch001/",
+        "n": 1
+      },
+      {
+        "title": "Ashoka and Pushyamitra, iconoclasts?",
+        "url": "https://voibooks.bitbucket.io/acat/ch002/",
+        "n": 2
+      },
+      {
+        "title": "The Bodh Gaya temple controversy",
+        "url": "https://voibooks.bitbucket.io/acat/ch003/",
+        "n": 3
+      },
+      {
+        "title": "Harsha of Kashmir, a Hindu iconoclast?",
+        "url": "https://voibooks.bitbucket.io/acat/ch004/",
+        "n": 4
+      },
+      {
+        "title": "Vandalism sanctified by scripture",
+        "url": "https://voibooks.bitbucket.io/acat/ch005/",
+        "n": 5
+      },
+      {
+        "title": "The details about ‘Hindu iconoclasm’",
+        "url": "https://voibooks.bitbucket.io/acat/ch006/",
+        "n": 6
+      },
+      {
+        "title": "Why did Aurangzeb demolish the Kashi Vishvanath temple?",
+        "url": "https://voibooks.bitbucket.io/acat/ch007/",
+        "n": 7
+      },
+      {
+        "title": "From Ayodhya to Nazareth",
+        "url": "https://voibooks.bitbucket.io/acat/ch008/",
+        "n": 8
+      },
+      {
+        "title": "Ayodhya and the Supreme Court",
+        "url": "https://voibooks.bitbucket.io/acat/ch009/",
+        "n": 9
+      },
+      {
+        "title": "Mohammed Habib’s history-rewriting",
+        "url": "https://voibooks.bitbucket.io/acat/ch0010/",
+        "n": 10
+      },
+      {
+        "title": "The Ayodhya evidence debate",
+        "url": "https://voibooks.bitbucket.io/acat/ch0011/",
+        "n": 11
+      },
+      {
+        "title": "About the Hindu critique of monotheism",
+        "url": "https://voibooks.bitbucket.io/acat/ch0012/",
+        "n": 12
+      },
+      {
+        "title": "Postscript: a lasting solution",
+        "url": "https://voibooks.bitbucket.io/acat/ch0013/",
+        "n": 13
+      },
+      {
+        "title": "Bibliography",
+        "url": "https://voibooks.bitbucket.io/acat/ch0014bib/"
+      }
+    ]
+  },
+  {
+    "id": "hindu-society-under-siege",
+    "title": "Hindu Society Under Siege",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1981",
+    "summary": "Goel argues that four forces besiege Hindu society, each aimed at a different section of it: Islamism, Christianism, Macaulayism and Communism. Shown here as a siege diagram, a side-by-side table of the four, a timeline of invasions repelled and absorbed, and Dharampal's eight-point comparison of Indian and English schooling.",
+    "href": "books/hindu-society-under-siege.html",
+    "timelines": [
+      "british-india",
+      "delhi-sultanate",
+      "mughal-empire"
+    ]
+  },
+  {
+    "id": "defence-of-hindu-society",
+    "title": "Defence of Hindu Society",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India",
+    "summary": "The sequel to Hindu Society Under Siege. Goel argues Hindus should judge other creeds by Hindu standards rather than the reverse. Shown here as the full Rigveda verse that is usually quoted only in part, the five sheaths of the self, gods in every element, the ancient gods lost and still worshipped, and the trap he sees in “all religions are equal”.",
+    "href": "books/defence-of-hindu-society.html",
+    "timelines": []
   }
 ]
