@@ -2028,5 +2028,118 @@
         "url": "https://voibooks.bitbucket.io/siii/app/"
       }
     ]
+  },
+  {
+    "id": "the-calcutta-quran-petition",
+    "title": "The Calcutta Quran Petition",
+    "author": "Chandmal Chopra and Sita Ram Goel",
+    "published": "Voice of India, 1986; 3rd ed. 1999",
+    "summary": "The 1985 writ petition by Chandmal Chopra asking the Calcutta High Court to treat the Quran as hate speech under the Indian Penal Code, the political storm that followed, and its dismissal. Shown here as the case day by day, the petition's argument and the court's answer, and Goel's commentary.",
+    "href": "books/the-calcutta-quran-petition.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/tcqp/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface to Third Edition",
+        "url": "https://voibooks.bitbucket.io/tcqp/pref1/"
+      },
+      {
+        "n": null,
+        "title": "Preface to Second Edition",
+        "url": "https://voibooks.bitbucket.io/tcqp/pref2/"
+      },
+      {
+        "n": "I.1",
+        "title": "A Government in Panic",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi1/"
+      },
+      {
+        "n": "I.2",
+        "title": "The Judgment misses the Main Point",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi2/"
+      },
+      {
+        "n": "I.3",
+        "title": "Entire Quran is a Manual on JihAd",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi3/"
+      },
+      {
+        "n": "I.4",
+        "title": "The Prophet sets the Pattern",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi4/"
+      },
+      {
+        "n": "I.5",
+        "title": "The Orthodox Exposition of JihAd",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi5/"
+      },
+      {
+        "n": "I.6",
+        "title": "JihAd in India's History",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi6/"
+      },
+      {
+        "n": "I.7",
+        "title": "Doctrine of the Islamic State",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi7/"
+      },
+      {
+        "n": "I.8",
+        "title": "Muslim Ummah is a Military Machine",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi8/"
+      },
+      {
+        "n": "I.9",
+        "title": "The Petition has served a Great Purpose",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi9/"
+      },
+      {
+        "n": "I.10",
+        "title": "A Close Look at Allah of the Quran",
+        "url": "https://voibooks.bitbucket.io/tcqp/chi10/"
+      },
+      {
+        "n": "II.1",
+        "title": "Himangshu Kishore's Letter",
+        "url": "https://voibooks.bitbucket.io/tcqp/chii1/"
+      },
+      {
+        "n": "II.2",
+        "title": "Himangshu Kishore's Reminder",
+        "url": "https://voibooks.bitbucket.io/tcqp/chii2/"
+      },
+      {
+        "n": "II.3",
+        "title": "Notice from Chandmal Chopra",
+        "url": "https://voibooks.bitbucket.io/tcqp/chii3/"
+      },
+      {
+        "n": "II.4",
+        "title": "The Writ Application",
+        "url": "https://voibooks.bitbucket.io/tcqp/chii4/"
+      },
+      {
+        "n": "II.5",
+        "title": "Affidavit in Opposition",
+        "url": "https://voibooks.bitbucket.io/tcqp/chii5/"
+      },
+      {
+        "n": "II.6",
+        "title": "The Judgement",
+        "url": "https://voibooks.bitbucket.io/tcqp/chii6/"
+      },
+      {
+        "n": "II.7",
+        "title": "The Review Application",
+        "url": "https://voibooks.bitbucket.io/tcqp/chii7/"
+      },
+      {
+        "n": "II.8",
+        "title": "Review Application Dismissed",
+        "url": "https://voibooks.bitbucket.io/tcqp/chii8/"
+      }
+    ]
   }
 ]
