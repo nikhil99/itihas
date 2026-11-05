@@ -1,0 +1,49 @@
+{
+  "title": "Holy Vedas and Holy Bible: A Comparative Study",
+  "byline": "by <b>Kanayalal M. Talreja</b> · Rashtriya Chetana Sangathan, New Delhi · c. 2000",
+  "lede": "Talreja's preface opens with quotations from missionaries hoping Hinduism will die out, from Francis Xavier to Richard Temple in 1883 to a New Zealand Anglican mission in 1993. The book is his reply. In 28 chapters he places Bible verses, quoted by book and verse from the King James Version, against Vedic mantras on the same theme. In 26 of them the Bible comes off worse. In two, on doing good and on forgiveness, he finds the scriptures agree.",
+  "facts": [["28", "chapter-length comparisons, each titled “Bible does X, Vedas do Y”"], ["2", "chapters where Talreja finds common ground"], ["1 John 5:7", "the Trinity verse he opens with, set against Rigveda 1.164.46"], ["KJV", "the King James Bible (a Gideons printing) is his text"]],
+  "note": "This is an apologetic work. Like many polemics, it sets the hardest Bible passages against the most elevated Vedic ones. Talreja reads the Vedas as monotheist, in the Arya Samaj tradition. Sita Ram Goel's <a href=\"defence-of-hindu-society.html\"><em>Defence of Hindu Society</em></a> criticises exactly that reading. This page summarises his contrasts and does not endorse them.",
+  "sections": [
+    {
+      "type": "bars", "eyebrow": "The book at a glance",
+      "title": "28 contrasts, grouped by theme",
+      "lede": "Our grouping of Talreja's chapter titles. The nature of God and the Bible's violence take up the most space.",
+      "unit": "chapters", "max": 8, "ticks": [0, 2, 4, 6, 8], "labelWidth": 200,
+      "items": [["The nature of God", 7, "Chapters 1, 3, 4, 5, 25, 26, 27: Trinity, a wrathful or jealous God, idols", 1], ["Violence and punishment", 5, "Chapters 6, 9, 10, 13, 28: death penalty, persecution, human sacrifice", 1], ["Women, slavery and race", 4, "Chapters 7, 8, 23, 24", 1], ["Knowledge, truth and science", 4, "Chapters 16, 17, 18, 22: science, truth, philosophy, witchcraft", 1], ["Food and animals", 3, "Chapters 11, 12, 14: sacrifice, vegetarianism, cannibalism", 1], ["Speech and doctrine", 3, "Chapters 2, 15, 19: the Virgin Mary, harsh language, damnation", 1], ["Common ground", 2, "Chapters 20 and 21: doing good, and forgiveness", 0]]
+    },
+    {
+      "type": "table", "wide": true, "ch": 1, "eyebrow": "Chapters 1–28",
+      "title": "The contrasts, as his titles state them",
+      "head": ["Theme", "The Bible, says Talreja", "The Vedas, says Talreja"],
+      "rows": [
+        ["God (1)", "A Trinity, which he calls irrational, citing Unitarians burnt for denying it", "One God, “omnipotent, omnipresent, omniscient”"],
+        ["Temperament (3–5, 26–27)", "Wrathful, jealous, vindictive, a God of massacre", "A benevolent friend and father who grants mercy and bliss"],
+        ["Unbelievers (9–10)", "Torture and intolerance (Deuteronomy 13 and 17)", "Fraternity and love for all"],
+        ["Crime (6)", "The death penalty", "Reform"],
+        ["Sacrifice and food (11–14)", "Animal and human sacrifice (Isaac, Jephthah's daughter), meat, famine cannibalism", "Protection of animals, vegetarianism, purity"],
+        ["Women (7–8)", "Denigrated, with obscene episodes", "Elevated, with a moral code"],
+        ["Society (23–24)", "Slavery and racial division", "Equality and liberty"],
+        ["Knowledge (16–18, 22)", "Unscientific (Joshua stops the sun), hostile to wisdom, witchcraft", "Science, truth, philosophy, Ayurveda"],
+        ["Idols (25)", "God breaks and burns idols", "God bestows bliss"],
+        ["Destiny (19)", "Damnation", "Salvation"],
+        ["Common ground (20–21)", "“Be good, do good”, forgiveness, non-violence", "The same, in both"]
+      ]
+    },
+    {
+      "type": "cards", "ch": 21, "eyebrow": "Chapters 20–21 · where he finds agreement",
+      "title": "Two shared teachings",
+      "items": [
+        ["Chapter 20", "Be good, do good", "Vedic philosophy “urges on practical life”. Ritual without a pious life is empty, and the Bible says the same."],
+        ["Chapter 21", "Forgiveness and non-violence", "He quotes an Atharvaveda prayer for the prosperity even of one's enemy, alongside the Sermon on the Mount."]
+      ]
+    },
+    {
+      "type": "chips", "eyebrow": "His sources",
+      "title": "Western critics he enlists",
+      "lede": "Alongside scripture, Talreja leans on Western freethinkers and historians of Christianity.",
+      "items": ["Thomas Paine, <em>The Age of Reason</em>", "George Bernard Shaw", "Leo Tolstoy", "James A. Haught, <em>Holy Horrors</em>", "Helen Ellerbe, <em>The Dark Side of Christian History</em>", "Riane Eisler, <em>The Chalice and the Blade</em>", "Rupert Hughes", "N.S. Rajaram", "The Niyogi Committee report (1956)"]
+    }
+  ],
+  "footer": "Source: <em>Holy Vedas and Holy Bible: A Comparative Study</em> by Kanayalal M. Talreja (Rashtriya Chetana Sangathan, New Delhi), read from the online edition at <a href=\"https://voibooks.bitbucket.io/hvhb/\">voibooks.bitbucket.io</a>. The theme grouping is Itihas's."
+}
