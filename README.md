@@ -96,6 +96,14 @@ Summaries and images come from Wikipedia (CC BY-SA) and Wikidata (CC0). The even
 and short event descriptions are curated here. Where dates are contested
 (Shivaji's birth year, the Rohideshwar oath), the event text says so.
 
+## Books
+
+Visual guides to books live in `site/books/` as standalone pages (plain HTML/CSS/JS, the same
+palette and fonts as the site) and are listed in `site/books/books.json`. That manifest feeds the
+**Books** row on the home page and `#/books`. Its `timelines` field links each book to related
+timelines. To add a book, drop `site/books/<id>.html` next to the others and add an entry to
+the manifest. Nothing needs rebuilding.
+
 ## Map playback
 
 Every timeline's map has a **Play** button and a year slider. Playback runs through the years: places appear when their first event happens, pulse as events occur, and major events are captioned under the map. Timelines with `territories` also show borders changing over time (the Meiji timeline shows the Japanese empire growing).

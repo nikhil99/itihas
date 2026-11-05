@@ -561,3 +561,19 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
   .leaflet-pane path.mp-terr { transition: none; }
   .leaflet-pane path.mp-terr.flash, .mp-item { animation: none; }
 }
+
+/* ---------- Books ---------- */
+.series-title .block-link { font: 500 13px var(--sans); color: var(--accent); margin-left: 12px; text-decoration: none; }
+.cards.books { grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); }
+.book-card { display: flex; gap: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px; }
+.book-cover { flex: 0 0 96px; height: 136px; border-radius: 4px 8px 8px 4px; display: flex; flex-direction: column; justify-content: flex-end; gap: 4px; padding: 10px;
+  text-decoration: none; color: #fff; background: radial-gradient(circle at 50% 30%, #f6a04d 0, #d9650f 38%, #5a2a08 100%); box-shadow: inset 4px 0 0 rgba(0,0,0,.18); }
+.book-native { font: 500 15px var(--dev); }
+.book-title { font: 700 14px/1.1 var(--serif); }
+.book-body { min-width: 0; display: grid; gap: 6px; align-content: start; }
+.book-body h3 { font: 600 18px/1.2 var(--serif); margin: 0; }
+.book-body h3 a { text-decoration: none; }
+.book-body h3 a:hover { color: var(--accent); }
+.book-body p { margin: 0; color: var(--muted); font-size: 13px; }
+.book-body .book-meta { color: var(--text); font-weight: 500; }
+.book-links { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }

@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jyotipunj — Books — Itihas</title>
+<meta name="description" content="A visual guide to Narendra Modi's Jyotipunj: who the sixteen people are, when they lived, where they came from and what they had in common.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Matches Itihas's palette and type (site/styles.css); one reading column, wide figures to 1080px. */
+:root{
+  --bg:#faf7f2; --panel:#ffffff; --ink:#1f1b16; --ink2:#4f473e; --muted:#6b6258; --rule:#e4ddd2;
+  --out:#C2560C;    /* came to Gujarat from outside */
+  --guj:#4338CA;    /* Gujarat-born */
+  --nat:#1f1b16;    /* national figures */
+  --glow:rgba(217,101,15,.12);
+  --display:"Fraunces", Georgia, serif;
+  --body:"Inter", system-ui, -apple-system, sans-serif;
+  --dev:"Noto Sans Devanagari", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#15120f; --panel:#1e1a16; --ink:#f1ebe3; --ink2:#c9bfb3; --muted:#a99e91; --rule:#3a332b;
+  --out:#D9772E; --guj:#7C8ED6; --nat:#f1ebe3; --glow:rgba(240,138,60,.14); color-scheme:dark}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0;padding-inline:16px;padding-block:0 64px}
+.topbar{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;padding:14px 24px;margin-inline:-16px;border-bottom:1px solid var(--rule);background:var(--panel)}
+.brand{font:700 22px var(--display);text-decoration:none;color:var(--ink)}.brand-dev{font-family:var(--dev);color:var(--out)}
+.crumb{color:var(--muted);font-size:13px}.crumb a{color:var(--out)}
+.related{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--ink2);position:relative}
+.related a{border:1px solid var(--rule);background:var(--panel);border-radius:999px;padding:4px 12px;color:var(--ink);text-decoration:none}.related a:hover{border-color:var(--out)}
+.wrap{max-width:720px;margin:0 auto}
+.wide{max-width:1080px;margin:0 auto}
+h1,h2,h3{font-family:var(--display);font-weight:600;text-wrap:balance;line-height:1.15;margin:0}
+h2{font-size:clamp(28px,4vw,38px)}
+h3{font-size:22px}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--out)}
+.lede{color:var(--ink2);font-size:18px;max-width:62ch}
+section{display:grid;gap:20px;padding-block:56px 8px}
+.src{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.key{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--ink2)}
+.key span{display:inline-flex;align-items:center;gap:8px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.sw.out{background:var(--out)} .sw.guj{background:var(--guj)} .sw.nat{background:var(--nat)}
+
+/* hero */
+header.hero{padding-block:56px 24px;display:grid;gap:18px;position:relative}
+header.hero::before{content:"";position:absolute;inset:0 auto auto 50%;width:520px;height:520px;max-width:100%;transform:translate(-50%,-30%);
+  background:radial-gradient(circle,var(--glow) 0,transparent 65%);pointer-events:none}
+header.hero h1{font-size:clamp(52px,10vw,104px);letter-spacing:-.01em;position:relative}
+header.hero h1 .dev{display:block;font-family:var(--dev);font-weight:500;font-size:.36em;color:var(--out);margin-top:6px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:10px;overflow:hidden;position:relative}
+.facts div{background:var(--panel);padding:14px 16px;display:grid;gap:2px}
+.facts b{font-family:var(--display);font-weight:600;font-size:28px;line-height:1.1}
+.facts small{color:var(--ink2);font-size:13px;line-height:1.35}
+
+/* figures */
+.fig{background:var(--panel);border:1px solid var(--rule);border-radius:12px;padding:20px;display:grid;gap:14px}
+.scroll{overflow-x:auto}
+svg text{font-family:var(--body);fill:var(--ink)}
+svg .mono{font-family:var(--mono)}
+svg .ink2{fill:var(--ink2)} svg .muted{fill:var(--muted)}
+
+/* tooltip */
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:13px;line-height:1.4;padding:8px 10px;border-radius:6px;max-width:260px;z-index:10;opacity:0;transition:opacity .12s}
+#tip.on{opacity:1}
+
+/* journeys */
+.journeys{display:grid;gap:10px}
+.jr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr) minmax(0,1fr);gap:12px;align-items:center;font-size:15px}
+.jr .from{text-align:right;color:var(--ink2)}
+.jr .to{color:var(--ink2)}
+.jr .who{position:relative;text-align:center;font-weight:500;padding:2px 0}
+.jr .who::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--out);z-index:0}
+.jr .who::after{content:"";position:absolute;right:-2px;top:calc(50% - 5px);border:5px solid transparent;border-left:8px solid var(--out)}
+.jr .who span{position:relative;z-index:1;background:var(--panel);padding:0 8px}
+.jr .yr{font-family:var(--mono);font-size:12px;color:var(--muted);display:block}
+@media (max-width:560px){.jr{grid-template-columns:1fr;gap:0;text-align:left}.jr .from,.jr .to{text-align:left}.jr .who{text-align:left}.jr .who::before,.jr .who::after{display:none}.jr .who span{padding:0}
+  .jr{padding-block:8px;border-bottom:1px solid var(--rule)} .jr .from::after{content:" →"}}
+
+/* matrix */
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:center}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);font-weight:500;vertical-align:bottom}
+td:first-child,th:first-child{text-align:left}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--ink)}
+.dot.out{background:var(--out)} .dot.guj{background:var(--guj)}
+td.n{color:var(--rule)}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--rule);border-top:3px solid var(--c);border-radius:10px;padding:18px;display:grid;gap:10px;align-content:start;min-width:0}
+.card .ch{font-family:var(--mono);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.card h3{font-size:22px}
+.card .real{color:var(--ink2);font-size:14px;margin-top:-6px}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:0;font-size:14.5px;line-height:1.45}
+.card dt{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-top:3px}
+.card dd{margin:0}
+.card .story{font-size:15px;line-height:1.5;border-left:2px solid var(--c);padding-left:12px;color:var(--ink)}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.filters button{font:inherit;font-size:14px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.filters button:focus-visible{outline:2px solid var(--out);outline-offset:2px}
+
+/* ideas */
+.ideas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px 32px}
+.idea{display:grid;gap:6px}
+.idea h3{font-size:21px}
+.idea p{color:var(--ink2);font-size:15.5px}
+.idea q{font-family:var(--display);font-style:italic;color:var(--ink)}
+
+/* modi moments */
+.moments{display:grid;gap:0;border-left:2px solid var(--rule);margin-left:6px}
+.mo{display:grid;gap:2px;padding:0 0 22px 22px;position:relative}
+.mo::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--out)}
+.mo b{font-weight:700}
+.mo span{color:var(--ink2);font-size:15.5px}
+footer{padding-block:48px 0;color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="topbar"><a href="../#/" class="brand"><span class="brand-dev">इतिहास</span> Itihas</a><span class="crumb"><a href="../#/books">Books</a> / Jyotipunj</span></header>
+<div id="tip" role="tooltip"></div>
+
+<div class="wrap">
+<header class="hero">
+  <span class="eyebrow">Books on Itihas · a visual guide</span>
+  <h1>Jyotipunj<span class="dev">ज्योतिपुंज · “a cluster of lights”</span></h1>
+  <p class="lede">Narendra Modi's portraits of the people who shaped him in the RSS. Most of them were unknown outside Gujarat. The book's argument is that a large organisation grows from many small, selfless lives, the way a banyan tree grows from one small seed. This page shows who those people were, when they lived, where they came from and what they had in common.</p>
+  <div class="facts">
+    <div><b>16</b><small>chapters: 1 essay and 15 profiles of people</small></div>
+    <div><b>263</b><small>pages in the English edition, Prabhat Prakashan, 2015</small></div>
+    <div><b>7 of 14</b><small>Gujarat builders came from outside the state, mostly Maharashtra</small></div>
+    <div><b>1925 → 2015</b><small>from the RSS's founding to the English edition</small></div>
+  </div>
+  <p class="related">On Itihas: <a href="../#/narendra-modi">Narendra Modi timeline →</a><a href="../#/bjp">BJP &amp; Jana Sangh timeline →</a></p>
+  <p class="src">Translated by A.K. Gandhi · Introduction by Swami Satyamitranand Giri · Dedicated “to millions of Swayamsevaks”</p>
+</header>
+</div>
+
+<!-- 1. Tree -->
+<div class="wide">
+<section>
+  <div class="wrap" style="display:grid;gap:12px;margin:0">
+    <span class="eyebrow">The book in one picture</span>
+    <h2>A banyan from a single seed</h2>
+    <p class="lede">The introduction compares the RSS to the great banyan of Kolkata, whose branches put down roots until no one can find the original trunk. The book follows the same shape. Vivekananda's ideal leads to Hedgewar's seed in 1925. Guruji's 33 years form the trunk. The branches are the Gujarat workers, and the author stands at the top looking back.</p>
+  </div>
+  <div class="fig">
+    <div class="key"><span><i class="sw nat"></i>National leaders</span><span><i class="sw out"></i>Came to Gujarat from outside</span><span><i class="sw guj"></i>Born or rooted in Gujarat</span></div>
+    <div class="scroll"><svg id="tree" viewBox="0 0 1000 600" style="min-width:680px;width:100%;height:auto" role="img" aria-label="Tree diagram: Vivekananda and Hedgewar at the root, Guruji as the trunk, fourteen Gujarat workers as branches, Modi at the top"></svg></div>
+  </div>
+</section>
+</div>
+
+<!-- 2. Timeline -->
+<div class="wide">
+<section>
+  <div class="wrap" style="display:grid;gap:12px;margin:0">
+    <span class="eyebrow">Timeline · 1889–2015</span>
+    <h2>Three generations, one century</h2>
+    <p class="lede">Each row is a person. The thin line marks their known lifespan. The thick bar marks their active period in the Sangh, as far as the book dates it. Dashed bars are approximate. The shaded bands are the crises that run through almost every chapter: the 1948 ban, the 1974 Navnirman agitation and the 1975–77 Emergency.</p>
+  </div>
+  <div class="fig">
+    <div class="key"><span><i class="sw nat"></i>National</span><span><i class="sw out"></i>From outside Gujarat</span><span><i class="sw guj"></i>Gujarat</span><span>● key dated event (hover)</span></div>
+    <div class="scroll"><svg id="gantt" style="min-width:760px;width:100%;height:auto" role="img" aria-label="Timeline of lives and active years of the people in the book"></svg></div>
+    <p class="src">Dates come from the book unless marked †. Those were added from general knowledge, since the book does not date them.</p>
+  </div>
+</section>
+</div>
+
+<!-- 3. Journeys -->
+<div class="wrap">
+<section>
+  <span class="eyebrow">Where they came from</span>
+  <h2>Marathi-speakers who became Gujarati</h2>
+  <p class="lede">Modi points this out himself: Anantrao Kale “was a Maratha but forgot all about his state” once he began working in Gujarat. Madhukarrao even banned Marathi in the Vadodara shakha so the Marathi-speaking volunteers would learn Gujarati. Here is each outsider's path into Gujarat.</p>
+  <div class="fig"><div class="journeys" id="journeys"></div></div>
+</section>
+</div>
+
+<!-- 4. Chapter weight -->
+<div class="wrap">
+<section>
+  <span class="eyebrow">How the book spends its pages</span>
+  <h2>Guruji gets nearly a fifth of the book</h2>
+  <p class="lede">Chapter length shows where the book puts its weight. Golwalkar (Guruji) gets 48 pages, followed by the two people Modi was closest to: the scholar K.K. Shastri and his mentor Vakil Saheb.</p>
+  <div class="fig">
+    <div class="key"><span><i class="sw nat"></i>National</span><span><i class="sw out"></i>From outside Gujarat</span><span><i class="sw guj"></i>Gujarat</span></div>
+    <svg id="bars" viewBox="0 0 680 560" style="width:100%;height:auto" role="img" aria-label="Bar chart of pages per chapter"></svg>
+    <p class="src">Page counts come from the table of contents (start page of the next chapter minus start page of this one).</p>
+  </div>
+</section>
+</div>
+
+<!-- 5. Patterns -->
+<div class="wrap">
+<section>
+  <span class="eyebrow">Patterns across the lives</span>
+  <h2>The same story, told fourteen ways</h2>
+  <p class="lede">Read side by side, the Gujarat profiles repeat a few patterns. A dot means the book states it for that person.</p>
+  <div class="fig scroll">
+    <table id="matrix"></table>
+  </div>
+</section>
+</div>
+
+<!-- 6. Cards -->
+<div class="wide">
+<section>
+  <div class="wrap" style="display:grid;gap:12px;margin:0">
+    <span class="eyebrow">Chapter by chapter</span>
+    <h2>Who's who in Jyotipunj</h2>
+    <p class="lede">Each card gives the nickname used in the book, the person's real name, their background and the one story that best shows who they were.</p>
+    <div class="filters" role="group" aria-label="Filter people">
+      <button type="button" id="f-all" data-f="all" aria-pressed="true">All 16</button>
+      <button type="button" id="f-nat" data-f="nat" aria-pressed="false">National</button>
+      <button type="button" id="f-out" data-f="out" aria-pressed="false">Came from outside</button>
+      <button type="button" id="f-guj" data-f="guj" aria-pressed="false">Gujarat</button>
+    </div>
+  </div>
+  <div class="cards" id="cards"></div>
+</section>
+</div>
+
+<!-- 7. Ideas -->
+<div class="wrap">
+<section>
+  <span class="eyebrow">What the book is really saying</span>
+  <h2>Six ideas to take away</h2>
+  <div class="ideas">
+    <div class="idea"><h3>1 · Resolve matters more than resources</h3><p>The RSS began with five boys and nothing to eat. Chipalunkar lived on bajra flour stirred into water while he started shakhas in Idar. <q>Action is not wholly dependent on resources.</q></p></div>
+    <div class="idea"><h3>2 · Sanyasis dressed in white</h3><p>Vivekananda turned the monk toward social service. Hedgewar then created the <em>pracharak</em>, a lifelong celibate worker who lives in society instead of a monastery. Swami Chinmayananda called them “Sanyasis adorned in the whites.”</p></div>
+    <div class="idea"><h3>3 · A Swayamsevak first and last</h3><p>At a camp in Gwalior, guests were asked to leave the meal row first. Guruji stayed seated, because he was a Swayamsevak and not a guest. In this book, rank never outranks the volunteer.</p></div>
+    <div class="idea"><h3>4 · Careers given up</h3><p>A London-trained pathologist, two engineers, a railway clerk, a mill hand, a goldsmith and a law student each traded a career for the work. The book treats these exchanges as the real cost of building the organisation.</p></div>
+    <div class="idea"><h3>5 · The organisation is a family</h3><p>Nathabhai named his favourite households after their best dishes, such as the “dhokla family” and the “panipuri family”. Vakil Saheb hid a father's telegraph until a camp ended, then sent the boy home to his job interview.</p></div>
+    <div class="idea"><h3>6 · Tested by bans and the Emergency</h3><p>The 1948 ban and the 1975–77 Emergency come up again and again. Pappaji, then nearly ninety, refused parole. Vanikar would not leave jail until democracy was restored. Vasantbhai kept writing his biography of Guruji while Modi carried messages between the underground and the outside world.</p></div>
+  </div>
+</section>
+</div>
+
+<!-- 8. Modi moments -->
+<div class="wrap">
+<section>
+  <span class="eyebrow">The author inside the book</span>
+  <h2>Where Modi appears in his own book</h2>
+  <p class="lede">Jyotipunj is partly a memoir. These are the moments where Modi steps into the frame.</p>
+  <div class="moments">
+    <div class="mo"><b>Around age 20 · Madhukarrao Bhagwat</b><span>Their first meeting. Modi felt Madhukarrao “infusing this energy into me” as part of a tradition, and says it was like temple bells ringing.</span></div>
+    <div class="mo"><b>Early 1970s · Vasantbhai Gajendragadkar</b><span>Modi became a pracharak in Ahmedabad and kept his distance from the senior leader until Vasantbhai scolded him for it. Later Modi lived in his home.</span></div>
+    <div class="mo"><b>5 June 1973 · Guruji's death</b><span>Vasantbhai heard the news from the morning paper and asked Modi, close to tears, why no one had wired him in the night.</span></div>
+    <div class="mo"><b>1975–76 · The Emergency</b><span>Modi kept the outside contacts for Vasantbhai, who was writing <em>Sriguruji</em>. Vasantbhai died on 16 February 1976. Their last joke was “Our vehicle runs in reverse.”</span></div>
+    <div class="mo"><b>2 March 1981 · Keshavrao Deshmukh</b><span>After a concert in Baroda for Guruji's birthday, the Prant Pracharak collapsed into Modi's lap and died. “I had seen death so near me for the first time in life.”</span></div>
+    <div class="mo"><b>12 September 1988 · Anantrao Kale</b><span>Modi wrote the farewell poem at the Valsad office when Kale went home to Undeel after 40 years in Gujarat.</span></div>
+    <div class="mo"><b>Years of yatras · K.K. Shastri</b><span>Shastri's wife, “Ba”, sent Modi besan laddoos wherever he was. After she died, Shastri handed him her last packet: “it is for the final time.”</span></div>
+    <div class="mo"><b>As Chief Minister · Vasantrao Chipalunkar</b><span>A day before Chipalunkar died, Modi brought him sweets to celebrate a Gujarat election win.</span></div>
+  </div>
+</section>
+</div>
+
+<div class="wrap"><footer>Source: <em>Jyotipunj</em> by Narendra Modi, English translation by A.K. Gandhi (Prabhat Prakashan, 2015). This guide summarises the book's own account. It is a hagiography written by an insider, so its portraits are admiring by design.</footer></div>
+
+<script>
+const P = [
+ {id:"hedgewar",ch:1,pg:[25,39],g:"nat",nick:"Doctor Saheb",name:"Dr. Keshav Baliram Hedgewar",title:"A Tribute to Vivekananda by Doctor Saheb",
+  from:"Nagpur",role:"Founder of the RSS, 1925",
+  story:"The opening essay sets Hedgewar beside Vivekananda point by point. Both were poor, both searched for a cause, and both founded an order in their last 15 years. Vivekananda asked for “young men with iron bodies”, and Hedgewar's shakhas set out to produce them."},
+ {id:"guruji",ch:2,pg:[39,87],g:"nat",nick:"Guruji",name:"Madhavrao Sadashivrao Golwalkar",title:"The Honourable Guruji",
+  from:"Nagpur · M.Sc., taught at Banaras",role:"2nd Sarsanghchalak, 1940–1973",
+  story:"He wanted to become a monk under Swami Akhandananda and kept the hair and beard his guru told him never to shave. Hedgewar asked him what he would do on reaching moksha if people were falling into hell. He then toured India 33 times in 33 years. Asked where he lived, he said, “the train compartment.”"},
+ {id:"doshi",ch:3,pg:[87,99],g:"guj",nick:"Pappaji",name:"Dr. Pranlal Brijlal Doshi",title:"Transparent Gem",
+  from:"Rajkot · dental surgeon trained in Kolkata",role:"First Sanghchalak in Gujarat",
+  story:"He was once a clubman who played cards and smoked. He was transformed, attended the daily shakha into his nineties and ran a school for deaf and mute children. Jailed in the Emergency, he refused parole: “I cannot leave alone my comrades.”"},
+ {id:"shastri",ch:4,pg:[99,123],g:"guj",nick:"Shastriji",name:"K.K. (Keshavram Kashiram) Shastri",title:"Yuga Rishi Centenarian Shastriji",
+  from:"Gujarat · linguist and scholar",role:"VHP Gujarat head; Padma Shri",
+  story:"He wrote 250 books and 1,500 articles and lived to 101. At his centenary he was asked what was left to do and said, “I am yet to learn computer.” He rode a scooter to camp in 44 °C heat."},
+ {id:"vakil",ch:5,pg:[123,147],g:"out",nick:"Vakil Saheb",name:"Lakshmanrao Madhav Inamdar",title:"Sangh Yogi",
+  from:"Khatao, Satara (Maharashtra)",to:"Navsari, then all of Gujarat",yr:"1943",role:"Prant Pracharak 1952–73, then Kshetra Pracharak",
+  story:"His forefather received an inam from Chhatrapati Shahu. He left his LLB to join the 1939 Hyderabad satyagraha. In 35 years of touring Gujarat his name never appeared in a newspaper. He was Modi's mentor."},
+ {id:"madhukar",ch:6,pg:[147,155],g:"out",nick:"Madhukarrao",name:"Madhukarrao Bhagwat",title:"Madhur Madhukar",
+  from:"Chandrapur (Maharashtra)",to:"Surat, Vadodara",yr:"1941",role:"Pracharak, later a householder pracharak",
+  story:"He laid the groundwork in 115 towns and trained L.K. Advani. He married late after family pressure, came back as a householder pracharak and later gave his son Mohan Bhagwat to the work."},
+ {id:"kale",ch:7,pg:[155,171],g:"out",nick:"Anantrao",name:"Anantrao Ramakrishna Kale",title:"The Determined",
+  from:"Undeel, Devgad (Konkan)",to:"Kheda, later Valsad",yr:"1940–88",role:"Engineer turned pracharak",
+  story:"At 11 he sang Vande Mataram for Gandhi and handed him his gold bracelet. He came to Gujarat to build a footbridge near Kheda and stayed 48 years. People said he looked the same in 1980 as in 1940."},
+ {id:"deshmukh",ch:8,pg:[171,183],g:"out",nick:"Keshavrao",name:"Keshavrao Deshmukh",title:"Dynamic Personality",
+  from:"Kashi (Varanasi)",to:"Surat, Vadodara, Rajkot",yr:"1945",role:"Prant Pracharak, about 1971–81",
+  story:"He shared Hedgewar's birthday (Chaitra Pratipada, 1921). He guided Gujarat through the Navnirman agitation, the Emergency and the 1979 Morbi dam disaster, and died in Modi's lap on Guruji's birthday."},
+ {id:"vasant",ch:9,pg:[183,197],g:"guj",nick:"Vasantbhai · “Rao Saheb”",name:"Vasantbhai Gajendragadkar",title:"Sunset at Noon",
+  from:"Ahmedabad · law professor",role:"Jana Sangh leader",
+  story:"In 1971 Delhi took away his Lok Sabha ticket at the last moment. He still refused to back a stronger rival candidate because the party had given its word. That integrity won the rival's supporter over to the Jana Sangh. He died at the height of the Emergency."},
+ {id:"vanikar",ch:10,pg:[197,205],g:"guj",nick:"Dr. Vanikar",name:"Dr. Vishwanathrao Vanikar",title:"Committed to Service",
+  from:"Ahmedabad · family from Vani, Nashik",role:"Founder of the VHP in Gujarat",
+  story:"Trained in London, he was Gujarat's first pathologist and still rode a bicycle. He organised the 1972 saints' conference at Siddhpur, ran buttermilk centres in the famine and built schools for tribal children. He died when a vehicle hit him on his way back from Dediapada."},
+ {id:"kashi",ch:11,pg:[205,213],g:"out",nick:"Kashinath",name:"Kashinathrao Bagwade",title:"Persistent Karmayogi",
+  from:"Wai, Satara (Maharashtra)",to:"Nadiad, Kheda, Mehsana",yr:"1945",role:"Pracharak for 40+ years",
+  story:"A mill hand at Nadiad's New Shorrock Mill who chose “to weave the country” instead. He rode a bicycle too tall for him and wrote stacks of postcards before sunrise. He led relief after the 1956 Anjar earthquake."},
+ {id:"natha",ch:12,pg:[213,223],g:"guj",nick:"Nathabhai",name:"Nathabhai Jhagda",title:"Struggling Life",
+  from:"Ahmedabad · hawker, then goldsmith",role:"Jana Sangh organising secretary, from 1961–62",
+  story:"He had almost no schooling and sold sweets outside Prakash Cinema at age ten. He became one of Gujarat's best orators. His motto for Jana Sangh workers was “one leg in rail and another in jail.”"},
+ {id:"ojha",ch:13,pg:[223,231],g:"guj",nick:"Babubhai",name:"Babubhai Ojha",title:"Multi-dimensional Talent",
+  from:"Mehsana · Prajapati (potter) family",role:"Prant Pracharak from 1981, as a householder",
+  story:"He was the first in his community to study abroad (Illinois, 1950–55) and came back. The book uses him to answer the charge that the RSS is a Brahmin club. He took over as Prant Pracharak when Deshmukh died suddenly."},
+ {id:"bachu",ch:14,pg:[231,239],g:"guj",nick:"Bachubhai",name:"Bachubhai Bhagat",title:"Gangaghat",
+  from:"Ahmedabad · tax advocate",role:"Camp organiser for 60 years",
+  story:"He was orphaned at 19, and while his father's body lay at home he still went to the shakha prayer. The camp routines he set up are still followed. The book calls him the riverbank where everyone stops to drink."},
+ {id:"talva",ch:15,pg:[239,247],g:"out",nick:"Vasudevrao",name:"Vasudevrao Talvalkar",title:"Witty Personality",
+  from:"Maharashtra",to:"Bhavnagar, Saurashtra",yr:"",role:"Railway clerk turned pracharak",
+  story:"He built a library in Bhavnagar from donated books and used it to draw readers into the Sangh. He spoke with a Kathiawadi accent. His jokes kept long meetings going, and he usually won the argument by the end."},
+ {id:"chip",ch:16,pg:[247,264],g:"out",nick:"Vasantrao",name:"Vasantrao Chipalunkar",title:"Evergreen Spring",
+  from:"Akola (Vidarbha)",to:"Idar, Himmatnagar, Nadiad",yr:"",role:"Pracharak for about 60 years; ran the weekly Sadhana",
+  story:"He proofread the weekly <em>Sadhana</em> for 25–30 years. He always kept the time and forgot the date, and once turned up for a meal on the right day a year early. His rule was “no expectation, no pleading.”"}
+];
+const col = g => `var(--${g})`;
+const tip = document.getElementById('tip');
+function showTip(e,html){tip.innerHTML=html;tip.classList.add('on');const x=Math.min(e.clientX+14,innerWidth-270);tip.style.left=x+'px';tip.style.top=(e.clientY+14)+'px'}
+function hideTip(){tip.classList.remove('on')}
+const NS="http://www.w3.org/2000/svg";
+function el(tag,attrs,parent,text){const n=document.createElementNS(NS,tag);for(const k in attrs)n.setAttribute(k,attrs[k]);if(text!=null)n.textContent=text;parent&&parent.appendChild(n);return n}
+
+/* ---- Tree ---- */
+(function(){
+  const s=document.getElementById('tree'); const cx=500, trunkTop=330, base=540;
+  // roots
+  el('path',{d:`M${cx} ${base} C ${cx-60} ${base+20}, ${cx-140} ${base+30}, ${cx-200} ${base+40}`,stroke:'var(--muted)','stroke-width':2,fill:'none'},s);
+  el('path',{d:`M${cx} ${base} C ${cx+60} ${base+20}, ${cx+140} ${base+30}, ${cx+200} ${base+40}`,stroke:'var(--muted)','stroke-width':2,fill:'none'},s);
+  // trunk
+  el('path',{d:`M${cx-16} ${base} L${cx-10} ${trunkTop} L${cx+10} ${trunkTop} L${cx+16} ${base} Z`,fill:'var(--nat)'},s);
+  const left=P.filter(p=>p.g==='out'), right=P.filter(p=>p.g==='guj');
+  function branch(list,side){
+    list.forEach((p,i)=>{
+      const t=(i+0.5)/list.length; // 0..1 top to bottom
+      const x=cx+side*(150+ (1-Math.abs(t-0.45)*1.4)*260);
+      const y=90+t*250;
+      el('path',{d:`M${cx} ${trunkTop+10} C ${cx+side*40} ${trunkTop-40}, ${x-side*120} ${y+30}, ${x} ${y}`,stroke:col(p.g),'stroke-width':2,fill:'none',opacity:.55},s);
+      const g=el('g',{tabindex:0,style:'cursor:pointer'},s);
+      el('circle',{cx:x,cy:y,r:7,fill:col(p.g),stroke:'var(--panel)','stroke-width':2},g);
+      const tx=el('text',{x:x+side*13,y:y+5,'text-anchor':side<0?'end':'start','font-size':15,'font-weight':500},g,p.nick.split(' ·')[0]);
+      g.addEventListener('mousemove',e=>showTip(e,`<b>${p.name}</b><br>${p.role}`));g.addEventListener('mouseleave',hideTip);
+      g.addEventListener('click',()=>document.getElementById('c-'+p.id).scrollIntoView({behavior:'smooth',block:'center'}));
+    });
+  }
+  branch(left,-1); branch(right,1);
+  el('text',{x:170,y:60,'text-anchor':'middle','font-size':12,class:'mono',fill:'var(--out)',style:'fill:var(--out);letter-spacing:.1em'},s,'CAME FROM OUTSIDE');
+  el('text',{x:830,y:60,'text-anchor':'middle','font-size':12,class:'mono',style:'fill:var(--guj);letter-spacing:.1em'},s,'GUJARAT');
+  // crown: Modi
+  el('line',{x1:cx,y1:trunkTop,x2:cx,y2:88,stroke:'var(--nat)','stroke-width':3},s);
+  el('circle',{cx:cx,cy:70,r:16,fill:'var(--panel)',stroke:'var(--out)','stroke-width':3},s);
+  el('circle',{cx:cx,cy:70,r:6,fill:'var(--out)'},s);
+  const ma=el('a',{href:'../#/narendra-modi'},s); el('text',{x:cx,y:32,'text-anchor':'middle','font-size':17,'font-weight':700,style:'text-decoration:underline;text-decoration-color:var(--out)'},ma,'Narendra Modi');
+  el('text',{x:cx,y:50,'text-anchor':'middle','font-size':12,class:'ink2'},s,'author, looking back');
+  // trunk label
+  el('text',{x:cx+26,y:430,'font-size':16,'font-weight':700},s,'Guruji');
+  el('text',{x:cx+26,y:449,'font-size':12,class:'mono ink2'},s,'trunk · 1940–1973');
+  // root label
+  el('text',{x:cx,y:base+50,'text-anchor':'middle','font-size':16,'font-weight':700},s,'Hedgewar founds the RSS · Nagpur, 1925');
+  el('text',{x:cx,y:base+68,'text-anchor':'middle','font-size':12,class:'mono ink2'},s,'seed · inspired by Vivekananda');
+})();
+
+/* ---- Gantt ---- */
+(function(){
+  const rows=[
+   {l:"Hedgewar",g:"nat",life:[1889,1940,true],act:[[1925,1940]],ev:[[1925,"Founds RSS at Nagpur"]]},
+   {l:"Guruji (Golwalkar)",g:"nat",life:[1906,1973],act:[[1940,1973]],ev:[[1940,"Takes over at 34"],[1969,"Cancer diagnosed"],[1973.43,"Dies 5 June 1973"]]},
+   {l:"Vakil Saheb",g:"out",ext:1,life:[1917,1985],act:[[1943,1952,'soft'],[1952,1973],[1973,1985,'soft']],ev:[[1917.72,"Born 21 Sep 1917, Khatao"],[1939,"Hyderabad satyagraha"],[1943,"Arrives at Navsari"],[1952,"Takes charge of Gujarat"]]},
+   {l:"Madhukarrao Bhagwat",g:"out",act:[[1941,1960,'dash']],ev:[[1929,"Becomes a Swayamsevak, Chandrapur"],[1941,"Pracharak, Katni → Surat"],[1948,"Leads satyagraha against ban"]]},
+   {l:"Anantrao Kale",g:"out",act:[[1940,1988.7]],ev:[[1940,"Comes to Gujarat as an engineer"],[1946,"Mother dies"],[1988.7,"Farewell at Valsad, 12 Sep 1988"]]},
+   {l:"Keshavrao Deshmukh",g:"out",life:[1921,1981.17],act:[[1945,1971,'soft'],[1971,1981.17,'dash']],ev:[[1945,"Quits job, pracharak at Surat"],[1979.6,"Morbi dam relief"],[1981.17,"Dies 2 Mar 1981, Baroda"]]},
+   {l:"Kashinath Bagwade",g:"out",act:[[1945,1985,'dash']],ev:[[1945,"Becomes pracharak"],[1956,"Anjar earthquake relief"],[1972,"Runs VHP conference"]]},
+   {l:"K.K. Shastri",g:"guj",life:[1905,2006,true],ev:[[2002,"Heads VHP Gujarat after Godhra"],[2005,"State-run centenary"]]},
+   {l:"Dr. Vanikar",g:"guj",act:[[1964,1977,'dash']],ev:[[1964,"VHP founded; starts it in Gujarat"],[1972,"Siddhpur saints' conference"],[1975.5,"Jailed under MISA"]]},
+   {l:"Vasantbhai",g:"guj",act:[[1967,1976.13,'dash']],ev:[[1971,"Lok Sabha ticket withdrawn"],[1976.13,"Dies 16 Feb 1976"]]},
+   {l:"Babubhai Ojha",g:"guj",act:[[1950,1955,'soft'],[1981,1990,'dash']],ev:[[1952,"Studies in Illinois, USA"],[1981.2,"Becomes Prant Pracharak"]]},
+   {l:"Nathabhai Jhagda",g:"guj",act:[[1961.5,1977,'dash']],ev:[[1961.5,"Becomes pracharak"],[1969,"Riots; Modi travels with him"]]},
+   {l:"Narendra Modi",g:"nat",life:[1950,2020,true],act:[[1971,2001,'soft'],[2001,2020]],ev:[[1981.17,"Deshmukh dies in his lap"],[2001.8,"Chief Minister of Gujarat"],[2014.4,"Prime Minister"],[2015,"English edition published"]]}
+  ];
+  const bands=[[1947.9,1949.5,"RSS ban"],[1973.9,1974.3,"Navnirman"],[1975.5,1977.2,"Emergency"]];
+  const W=1040, L=170, R=20, top=40, rh=34, H=top+rows.length*rh+20, x0=1885, x1=2020;
+  const s=document.getElementById('gantt'); s.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const X=y=>L+(y-x0)/(x1-x0)*(W-L-R);
+  bands.forEach(b=>{el('rect',{x:X(b[0]),y:top-8,width:Math.max(4,X(b[1])-X(b[0])),height:rows.length*rh+4,fill:'var(--out)',opacity:.1},s);
+    const anc=b[2]==='Navnirman'?'end':b[2]==='Emergency'?'start':'middle', lx=anc==='end'?X(b[1]):anc==='start'?X(b[0]):(X(b[0])+X(b[1]))/2;
+    el('text',{x:lx,y:top-14,'text-anchor':anc,'font-size':11,class:'mono muted'},s,b[2])});
+  for(let y=1890;y<=2020;y+=10){el('line',{x1:X(y),x2:X(y),y1:top-6,y2:H-24,stroke:'var(--rule)','stroke-width':1},s);
+    el('text',{x:X(y),y:H-6,'text-anchor':'middle','font-size':12,class:'mono muted'},s,y)}
+  rows.forEach((r,i)=>{
+    const cy=top+i*rh+rh/2;
+    el('text',{x:L-12,y:cy+5,'text-anchor':'end','font-size':14,'font-weight':500},s,r.l+((r.life&&r.life[2]===true)||r.ext?' †':''));
+    if(r.life){el('line',{x1:X(r.life[0]),x2:X(r.life[1]),y1:cy,y2:cy,stroke:col(r.g),'stroke-width':2,opacity:.5,'stroke-dasharray':r.life[2]?'4 3':''},s);
+      el('circle',{cx:X(r.life[0]),cy,r:3,fill:col(r.g)},s);
+      if(r.l!=="Narendra Modi")el('line',{x1:X(r.life[1]),x2:X(r.life[1]),y1:cy-6,y2:cy+6,stroke:col(r.g),'stroke-width':2},s)}
+    (r.act||[]).forEach(a=>{const rect=el('rect',{x:X(a[0]),y:cy-6,width:Math.max(3,X(a[1])-X(a[0])),height:12,rx:3,fill:a[2]==='dash'?'none':col(r.g),
+       stroke:col(r.g),'stroke-width':a[2]==='dash'?1.5:0,'stroke-dasharray':a[2]==='dash'?'4 3':'',opacity:a[2]==='soft'?.4:1},s)});
+    r.ev.forEach(e=>{const g=el('g',{style:'cursor:default'},s);
+      el('circle',{cx:X(e[0]),cy,r:12,fill:'transparent'},g);
+      el('circle',{cx:X(e[0]),cy,r:4.5,fill:'var(--panel)',stroke:'var(--ink)','stroke-width':2},g);
+      g.addEventListener('mousemove',ev=>showTip(ev,`<b>${Math.floor(e[0])}</b> · ${r.l}<br>${e[1]}`));g.addEventListener('mouseleave',hideTip)});
+  });
+})();
+
+/* ---- Journeys ---- */
+document.getElementById('journeys').innerHTML=P.filter(p=>p.g==='out').map(p=>
+ `<div class="jr"><div class="from">${p.from}</div><div class="who"><span>${p.nick}${p.yr?`<span class="yr">${p.yr}</span>`:''}</span></div><div class="to">${p.to}</div></div>`).join('');
+
+/* ---- Bars ---- */
+(function(){
+  const s=document.getElementById('bars'); const L=190,W=680,R=40,rh=33,top=8;
+  const max=50, X=v=>L+v/max*(W-L-R);
+  [0,10,20,30,40,50].forEach(v=>{el('line',{x1:X(v),x2:X(v),y1:top,y2:top+P.length*rh,stroke:'var(--rule)'},s);
+    el('text',{x:X(v),y:top+P.length*rh+18,'text-anchor':'middle','font-size':12,class:'mono muted'},s,v)});
+  el('text',{x:X(25),y:top+P.length*rh+40,'text-anchor':'middle','font-size':12,class:'ink2'},s,'pages');
+  P.forEach((p,i)=>{const n=p.pg[1]-p.pg[0], y=top+i*rh;
+    el('text',{x:L-10,y:y+rh/2+5,'text-anchor':'end','font-size':14},s,`${p.ch}. ${p.nick.split(' ·')[0]}`);
+    const w=X(n)-L, h=rh-10;
+    const g=el('g',{},s);
+    el('path',{d:`M${L} ${y+5} h${w-4} a4 4 0 0 1 4 4 v${h-8} a4 4 0 0 1 -4 4 h${-(w-4)} Z`,fill:col(p.g)},g);
+    el('rect',{x:L,y:y,width:W-L,height:rh,fill:'transparent'},g);
+    el('text',{x:X(n)+6,y:y+rh/2+5,'font-size':13,class:'mono ink2'},g,n);
+    g.addEventListener('mousemove',e=>showTip(e,`<b>Ch. ${p.ch}: ${p.title}</b><br>${p.name}<br>pp. ${p.pg[0]}–${p.pg[1]-1} · ${n} pages`));g.addEventListener('mouseleave',hideTip);
+  });
+})();
+
+/* ---- Matrix ---- */
+(function(){
+  const cols=["Came from outside Gujarat","Gave up a job or career","Full-time pracharak","Fought the 1948 ban or the Emergency","Modi recalls them personally"];
+  const M={vakil:[1,1,1,1,1],madhukar:[1,0,1,1,1],kale:[1,1,1,1,1],deshmukh:[1,1,1,1,1],kashi:[1,1,1,0,1],talva:[1,1,1,0,0],chip:[1,0,1,0,1],
+           doshi:[0,0,0,1,1],shastri:[0,0,0,0,1],vasant:[0,0,0,1,1],vanikar:[0,1,0,1,1],natha:[0,1,1,1,1],ojha:[0,1,1,0,0],bachu:[0,0,0,0,0]};
+  let h=`<thead><tr><th>Person</th>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead><tbody>`;
+  P.filter(p=>M[p.id]).forEach(p=>{h+=`<tr><td>${p.nick.split(' ·')[0]}</td>${M[p.id].map(v=>v?`<td><span class="dot ${p.g}" aria-label="yes"></span></td>`:`<td class="n" aria-label="no">·</td>`).join('')}</tr>`});
+  const tot=cols.map((_,j)=>Object.values(M).reduce((a,r)=>a+r[j],0));
+  h+=`</tbody><tfoot><tr><td><b>Total of 14</b></td>${tot.map(t=>`<td><b class="mono">${t}</b></td>`).join('')}</tr></tfoot>`;
+  document.getElementById('matrix').innerHTML=h;
+})();
+
+/* ---- Cards ---- */
+(function(){
+  const c=document.getElementById('cards');
+  c.innerHTML=P.map(p=>`<article class="card" id="c-${p.id}" data-g="${p.g}" style="--c:${col(p.g)}">
+    <div class="ch"><span>Chapter ${p.ch} · pp. ${p.pg[0]}–${p.pg[1]-1}</span><span>${{nat:'National',out:'From outside',guj:'Gujarat'}[p.g]}</span></div>
+    <h3>${p.nick}</h3><p class="real">${p.name} · “${p.title}”</p>
+    <dl><dt>From</dt><dd>${p.from}</dd>${p.to?`<dt>Worked</dt><dd>${p.to}</dd>`:''}<dt>Role</dt><dd>${p.role}</dd></dl>
+    <p class="story">${p.story}</p></article>`).join('');
+  const btns=[...document.querySelectorAll('.filters button')];
+  btns.forEach(b=>b.addEventListener('click',()=>{btns.forEach(x=>x.setAttribute('aria-pressed',x===b));
+    c.querySelectorAll('.card').forEach(k=>k.hidden=!(b.dataset.f==='all'||k.dataset.g===b.dataset.f))}));
+})();
+</script>
+</body>
+</html>

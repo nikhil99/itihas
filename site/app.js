@@ -113,6 +113,7 @@ async function route() {
     [kind, id] = parts.slice(list ? 2 : 1);
   } else [tlId, kind, id] = parts;
   if (!tlId) { closeDrawer(false); return renderHome(); }
+  if (tlId === "books") { closeDrawer(false); state.tl = null; await renderBooks(); window.scrollTo(0, 0); return; }
   if (state.tl?.id !== tlId) { await renderTimelinePage(tlId); window.scrollTo(0, 0); }
   if (kind === "e" && id) openEntity(id);
   else closeDrawer(false);
@@ -124,8 +125,8 @@ const go = (hash) => { if (location.hash !== hash) location.hash = hash; else ro
 // ---------- Home ----------
 async function renderHome() {
   state.tl = null;
-  const [all, entities, search] = await Promise.all([load("data/index.json"), load("data/entities.json"),
-    loadOptional("data/search.json", { entities: [], events: [] })]);
+  const [all, entities, search, books] = await Promise.all([load("data/index.json"), load("data/entities.json"),
+    loadOptional("data/search.json", { entities: [], events: [] }), loadOptional("books/books.json", [])]);
   state.entities = entities;
   state.subjectTimeline = Object.fromEntries(all.map((t) => [t.subject, t.id]));
   document.title = "Itihas — Indian History Timelines";
@@ -180,6 +181,9 @@ async function renderHome() {
           : index.some((t) => t.series === name && t.kind === "party") ? name
           : index.some((t) => t.series === name && t.kind === "state") ? `${name.replace(/^The /, "")} — the great houses` : `People of ${name.replace(/^The /, "the ")}`),
         el("div", { class: "cards" }, index.filter((t) => t.kind !== "empire" && (t.series || "Other") === name).map(card)))),
+      books.length ? el("div", { class: "series" },
+        el("h2", { class: "series-title" }, "Books", el("a", { class: "block-link", href: "#/books" }, "All books →")),
+        el("div", { class: "cards" }, books.map((b) => bookCard(b, all)))) : null,
       upcoming.length ? el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Coming later"),
         el("div", { class: "cards" }, upcoming.map((u) => el("div", { class: "tl-card soon" }, el("div", {}, el("h3", {}, u), el("p", {}, "Not started yet")))))) : null,
@@ -190,6 +194,31 @@ async function renderHome() {
   );
   setupSearch(searchBox, search, all);
   setupRiver(riverBox, index, entities);
+}
+
+// ---------- Books ----------
+// Visual guides to books live as standalone pages in site/books/, listed in site/books/books.json.
+function bookCard(b, index) {
+  const tlTitle = Object.fromEntries(index.map((t) => [t.id, t.title]));
+  return el("div", { class: "book-card" },
+    el("a", { class: "book-cover", href: b.href, "aria-label": `Open ${b.title}` },
+      el("span", { class: "book-native" }, b.native || ""), el("span", { class: "book-title" }, b.title)),
+    el("div", { class: "book-body" },
+      el("h3", {}, el("a", { href: b.href }, b.title)),
+      el("p", { class: "book-meta" }, `${b.author} · ${b.published}`),
+      el("p", {}, b.summary),
+      (b.timelines || []).filter((id) => tlTitle[id]).length ? el("p", { class: "book-links" }, "Timelines: ",
+        b.timelines.filter((id) => tlTitle[id]).map((id) => el("a", { class: "chip tl-chip", href: `#/${id}` }, tlTitle[id]))) : null));
+}
+
+async function renderBooks() {
+  const [index, books] = await Promise.all([loadOptional("data/index.json", []), loadOptional("books/books.json", [])]);
+  document.title = "Books — Itihas";
+  $("#app").replaceChildren(el("section", { class: "home books-page" },
+    el("h1", {}, "Books"),
+    el("p", { class: "lead" }, "Visual guides to books about Indian history: who is in them, when things happened and how the pieces connect."),
+    books.length ? el("div", { class: "cards books" }, books.map((b) => bookCard(b, index)))
+      : el("p", {}, "No books yet.")));
 }
 
 // ---------- Home: search ----------
