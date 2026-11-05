@@ -1,0 +1,388 @@
+{
+  "title": "Hindu Temples: What Happened to Them, Vol. 2",
+  "byline": "by <b>Sita Ram Goel</b> · Voice of India · 1991 · subtitled <em>The Islamic Evidence</em>",
+  "lede": "Volume 1 listed the sites. This volume sets out to prove the pattern from Islamic sources alone: mosque inscriptions that boast of replacing temples, a long survey of what Muslim chroniclers wrote, and a case study of the Rudramahalaya at Sidhpur in Gujarat. Then Goel traces the idea to its source, the destruction of pagan shrines in Arabia, and argues that iconoclasm follows from monotheist theology itself.",
+  "facts": [
+    [
+      "21",
+      "mosque inscriptions from Delhi to Tamil Nadu that mention destroying a temple"
+    ],
+    [
+      "25",
+      "Muslim dynasties and groups in India's history, listed in Appendix 1"
+    ],
+    [
+      "~20",
+      "pagan Arabian shrines whose destruction the early Islamic sources record"
+    ],
+    [
+      "55,000",
+      "words in the chapter on literary evidence, the book's core"
+    ]
+  ],
+  "related": [
+    [
+      "delhi-sultanate",
+      "Delhi Sultanate timeline"
+    ],
+    [
+      "mughal-empire",
+      "Mughal Empire timeline"
+    ],
+    [
+      "deccan-sultanates",
+      "Deccan Sultanates timeline"
+    ]
+  ],
+  "note": "Goel argues from Muslim chronicles and inscriptions, which often exaggerate their rulers' zeal. Historians such as Richard Eaton read the same records as politics rather than doctrine. This page summarises Goel's evidence and argument, attributed to him.",
+  "sections": [
+    {
+      "type": "spans",
+      "eyebrow": "Appendix 1 · Muslim dynasties in India's history",
+      "title": "Who ruled, and when",
+      "lede": "The dynasties Goel lists, from the Caliphate to Tipu Sultan. Their periods overlap, and only the Delhi Sultanate and the Mughals ruled most of the north.",
+      "from": 600,
+      "to": 1900,
+      "step": 100,
+      "labelWidth": 250,
+      "items": [
+        [
+          "Caliphate",
+          632,
+          1258,
+          "From the “rightly-guided” caliphs to the Abbasids",
+          4
+        ],
+        [
+          "Saffarids of Seistan",
+          871,
+          900,
+          "",
+          4
+        ],
+        [
+          "Qaramitah of Multan",
+          980,
+          1175,
+          "",
+          4
+        ],
+        [
+          "Ghaznavids",
+          977,
+          1186,
+          "Mahmud's dynasty",
+          0
+        ],
+        [
+          "Ghurids",
+          1149,
+          1206,
+          "Muhammad Ghuri",
+          0
+        ],
+        [
+          "Khwarizmians",
+          1121,
+          1231,
+          "",
+          4
+        ],
+        [
+          "Mamluk (Slave) dynasty, Delhi",
+          1206,
+          1290,
+          "",
+          0
+        ],
+        [
+          "Khaljis, Delhi",
+          1290,
+          1320,
+          "",
+          0
+        ],
+        [
+          "Tughlaqs, Delhi",
+          1320,
+          1412,
+          "",
+          0
+        ],
+        [
+          "Shah Mir dynasty, Kashmir",
+          1339,
+          1561,
+          "",
+          1
+        ],
+        [
+          "Bahmanis, Deccan",
+          1347,
+          1527,
+          "",
+          1
+        ],
+        [
+          "Sultans of Gujarat",
+          1392,
+          1572,
+          "",
+          1
+        ],
+        [
+          "Sharqis, Jaunpur",
+          1394,
+          1479,
+          "",
+          1
+        ],
+        [
+          "Khaljis of Malwa",
+          1435,
+          1531,
+          "",
+          1
+        ],
+        [
+          "Lodis, Delhi/Agra",
+          1451,
+          1526,
+          "",
+          0
+        ],
+        [
+          "Nizam Shahis, Ahmadnagar",
+          1490,
+          1630,
+          "",
+          2
+        ],
+        [
+          "Adil Shahis, Bijapur",
+          1490,
+          1686,
+          "",
+          2
+        ],
+        [
+          "Qutb Shahis, Golconda",
+          1507,
+          1687,
+          "",
+          2
+        ],
+        [
+          "Mughals",
+          1526,
+          1857,
+          "",
+          0
+        ],
+        [
+          "Surs",
+          1540,
+          1556,
+          "",
+          0
+        ],
+        [
+          "Karranis, Bengal",
+          1563,
+          1576,
+          "",
+          1
+        ],
+        [
+          "Mughal subahdars, Bengal",
+          1717,
+          1757,
+          "",
+          1
+        ],
+        [
+          "Durranis, Afghanistan",
+          1747,
+          1818,
+          "Ahmad Shah Abdali",
+          4
+        ],
+        [
+          "Haidar Ali and Tipu, Mysore",
+          1761,
+          1799,
+          "Goel calls them “usurpers”",
+          1
+        ]
+      ],
+      "note": "Dates are as given in the book's appendix. Colour shows the kind of power: northern empires, regional sultanates, Deccan sultanates, and outside powers."
+    },
+    {
+      "type": "bars",
+      "ch": 6,
+      "eyebrow": "Chapter 6 · the epigraphic evidence",
+      "title": "Twenty-one inscriptions, by century",
+      "lede": "Goel collects Persian and Arabic inscriptions on mosques that themselves record a temple's demolition or reuse, from the Quwwat al-Islam in Delhi to Cumbum in Andhra. The peak is the 17th century, Aurangzeb's reign.",
+      "unit": "inscriptions",
+      "max": 10,
+      "ticks": [
+        0,
+        5,
+        10
+      ],
+      "items": [
+        [
+          "12th–13th c.",
+          2,
+          "Delhi (Quwwat al-Islam), Chittaurgarh"
+        ],
+        [
+          "14th–15th c.",
+          4,
+          "Vijapur, Manvi, Dhar, Malan"
+        ],
+        [
+          "16th c.",
+          4,
+          "Amod, Narwar, Jaunpur, Ghoda"
+        ],
+        [
+          "17th c.",
+          9,
+          "Poonamallee, Udayagiri, Bodhan, Mathura, Gwalior, Akot, Bidar, Siruguppa, Cuddapah"
+        ],
+        [
+          "18th c.",
+          2,
+          "Surat, Cumbum"
+        ]
+      ],
+      "note": "Grouped by Itihas from the dates in each entry. Several sites carry more than one inscription."
+    },
+    {
+      "type": "timeline",
+      "ch": 2,
+      "eyebrow": "Chapters 1–2 · the dispute at Sidhpur",
+      "title": "The Rudramahalaya",
+      "lede": "A test case Goel builds from official documents: a Note from the Gujarat government, the Minorities Commission report, and an article by the archaeologist B.L. Nagarch.",
+      "items": [
+        [
+          "c. 944",
+          "Founded",
+          "Under Mularaja, the first Chaulukya king, according to Nagarch."
+        ],
+        [
+          "12th c.",
+          "Completed by Siddharaja Jayasimha",
+          "A central temple with eleven shrines to the Rudras."
+        ],
+        [
+          "1297–98",
+          "Partly destroyed",
+          "By Ulugh Khan, Alauddin Khalji's general."
+        ],
+        [
+          "1415",
+          "Further destroyed",
+          "By Ahmad Shah of Gujarat. Shrines on the western side become a three-domed Jami Masjid."
+        ],
+        [
+          "1980s",
+          "Protected monument and disputed mosque",
+          "The Minorities Commission takes up a complaint about the ASI's work there, which leads to this book's opening chapters."
+        ]
+      ]
+    },
+    {
+      "type": "chips",
+      "ch": 11,
+      "eyebrow": "Chapters 10–11 · religion of pagan Arabia",
+      "title": "The gods of pre-Islamic Arabia",
+      "lede": "Goel describes the pagan Arabs as tolerant, honourable and devoted to many gods, and he lists the pantheon. He argues their fate under Islam foreshadowed India's.",
+      "items": [
+        "Al-Lah",
+        "Al-Lat",
+        "Manat",
+        "Al-'Uzza",
+        "Hubal",
+        "Ba'al",
+        "El",
+        "Al-Malik",
+        "Shams",
+        "Dhu'sh-Shara",
+        "At-Thuraiya",
+        "Quzah",
+        "Wadd",
+        "Ruda",
+        "Jadd",
+        "Sa'd",
+        "Manaf",
+        "Nasr",
+        "'Auf",
+        "Yaguth",
+        "Ya'uq",
+        "Suwa'",
+        "Isaf and Na'ila",
+        "Al-Qais",
+        "Al-Uqaisir",
+        "Shai al-Qaum",
+        "Duwar"
+      ]
+    },
+    {
+      "type": "chips",
+      "ch": 16,
+      "eyebrow": "Chapter 16 · “the Prophet destroys pagan temples”",
+      "title": "Shrines destroyed in Muhammad's lifetime",
+      "lede": "From the early biographies and histories (Ibn Ishaq, al-Tabari and others), as Goel compiles them. He treats this as the model later iconoclasts followed, the Sunnah.",
+      "items": [
+        "Ka'ba (its 360 idols)",
+        "Al-'Uzza at Nakhla",
+        "Suwa'",
+        "Manat",
+        "The sacred tree",
+        "Dhu'l-Kaffayn",
+        "Temples around Ta'if",
+        "The “mosque of opposition”",
+        "Al-Lat at Ta'if",
+        "B. Sa'd b. Bakr",
+        "B. Sulaym",
+        "The church of Yamama",
+        "Fils and Ruda' in Tayy",
+        "'Amm Anas",
+        "'Uzra",
+        "Al-Jahina",
+        "Farraz",
+        "Dhu'l-Khalasa",
+        "Ruda'"
+      ]
+    },
+    {
+      "type": "compare",
+      "ch": 4,
+      "eyebrow": "Chapters 3–5 · the argument with the historians",
+      "title": "Two explanations of the same record",
+      "cols": [
+        {
+          "k": "The view Goel attacks",
+          "items": [
+            "Temples were destroyed for their wealth or as centres of rebellion, not for religion",
+            "Few were destroyed",
+            "Hindus also destroyed Buddhist and Jain shrines",
+            "Chronicle accounts are court flattery"
+          ]
+        },
+        {
+          "k": "Goel's reply",
+          "items": [
+            "The inscriptions and chronicles give religion as the reason, and praise it",
+            "His sources describe destruction everywhere Muslim armies went",
+            "The “Hindu iconoclasm” examples do not stand up",
+            "Rulers would not have been flattered by invented crimes"
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": "Source: <em>Hindu Temples: What Happened to Them, Volume II: The Islamic Evidence</em> by Sita Ram Goel (Voice of India, 1991), read from the online edition at <a href=\"https://voibooks.bitbucket.io/htemples2/\">voibooks.bitbucket.io</a>. The century grouping of inscriptions is Itihas's."
+}
