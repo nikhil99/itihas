@@ -1237,5 +1237,81 @@
         "url": "https://voibooks.bitbucket.io/hhrmi/ch6/"
       }
     ]
+  },
+  {
+    "id": "hindu-temples-what-happened-to-them-1",
+    "title": "Hindu Temples: What Happened to Them, Vol. 1",
+    "author": "Arun Shourie, Harsh Narain, Jay Dubashi, Ram Swarup, Sita Ram Goel",
+    "published": "Voice of India, 1990",
+    "summary": "The 1990 “preliminary survey” behind the Ayodhya debate: essays by Shourie, Narain, Dubashi, Ram Swarup and Goel, and a state-by-state list of mosques and other Muslim monuments said to stand on temple sites or reuse temple material. Shown here as the list counted by state and type, the mosques named by a Nadwatul Ulama rector, and the archaeological reports Goel cites.",
+    "href": "books/hindu-temples-what-happened-to-them-1.html",
+    "timelines": [
+      "delhi-sultanate",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/htemples1/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/htemples1/pre/"
+      },
+      {
+        "n": 1,
+        "title": "Hideaway Communalism",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "The Tip of An Iceberg",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Some Historical Questions",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "In the Name of Religion",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "A Need to Face the Truth",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Historians Versus History",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "November 9 Will Change History",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "From Shilanyas to Berlin Wall",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Rama-Janmabhumi Temple Muslim Testimony",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "Let the Mute Witnesses Speak",
+        "url": "https://voibooks.bitbucket.io/htemples1/ch10/"
+      },
+      {
+        "n": null,
+        "title": "Appendix",
+        "url": "https://voibooks.bitbucket.io/htemples1/app/"
+      }
+    ]
   }
 ]
