@@ -303,6 +303,8 @@ def main():
                 rank = (bool(nd.get("reigns")), tl.get("kind") == "empire")  # an empire's tree beats a successor state's
                 if nd["id"] not in family_of or rank > family_of[nd["id"]][2]:
                     family_of[nd["id"]] = (tl["id"], ri, rank)
+    books_file = ROOT / "site" / "books" / "books.json"
+    books = {b["id"]: b for b in json.loads(books_file.read_text())} if books_file.exists() else {}
     titles = {tl["id"]: tl["title"] for tl in timelines}
     entity_timelines = {}
     for tl in timelines:
@@ -315,6 +317,15 @@ def main():
                         ev["thumb"] = s["thumb"]
                 else:
                     problems.append(f"[{tl['id']}] event {ev['id']!r}: bad wiki title {ev['wiki']!r}")
+            for src in ev.get("sources", []):
+                b = books.get(src.get("book"))
+                ch = b and {c.get("n"): c for c in b.get("chapters", [])}.get(src.get("chapter"))
+                if not b or (src.get("chapter") is not None and not ch):
+                    problems.append(f"[{tl['id']}] event {ev['id']!r}: unknown book source {src!r} (see site/books/books.json)")
+                    continue
+                src["resolved"] = {"book": b["title"], "guide": b["href"], "chapter": src.get("chapter"),
+                                   "chapterTitle": ch and ch["title"], "pages": ch and ch.get("pages"),
+                                   "url": (ch and ch.get("url")) or b.get("source")}
             if ev.get("see") and ev["see"] not in timeline_ids:
                 problems.append(f"[{tl['id']}] event {ev['id']!r}: 'see' points to unknown timeline {ev['see']!r}")
         ids = [ev["id"] for ev in tl["events"]]

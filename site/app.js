@@ -197,6 +197,16 @@ async function renderHome() {
 }
 
 // ---------- Books ----------
+// An event's "sources" cite chapters of books in site/books/books.json; the build fills in
+// title, chapter title, page range and link (ev.sources[i].resolved).
+function sourceLink(src) {
+  const r = src.resolved || {};
+  const where = [r.chapter != null && `ch. ${r.chapter}`, (src.pages || r.pages) && `pp. ${src.pages || r.pages}`].filter(Boolean).join(", ");
+  return el("span", { class: "src-item" },
+    el("a", { href: r.guide, onclick: (e) => e.stopPropagation() }, el("em", {}, r.book || src.book)),
+    where ? `, ${where}` : "",
+    r.url ? el("a", { class: "src-read", href: r.url, target: "_blank", rel: "noopener", title: r.chapterTitle, onclick: (e) => e.stopPropagation() }, " read ↗") : null);
+}
 // Visual guides to books live as standalone pages in site/books/, listed in site/books/books.json.
 function bookCard(b, index) {
   const tlTitle = Object.fromEntries(index.map((t) => [t.id, t.title]));
@@ -1103,6 +1113,7 @@ function buildStory() {
       el("div", { class: "card-links" },
         ev.see && el("a", { class: "see-link", href: `#/${ev.see}` }, "Open the full timeline →"),
         ev.wikiUrl && el("a", { class: "wiki-link", href: ev.wikiUrl, target: "_blank", rel: "noopener" }, "Read on Wikipedia ↗")),
+      ev.sources?.length ? el("div", { class: "card-sources" }, "Source: ", ev.sources.map(sourceLink)) : null,
     ));
   }
   return wrap;
