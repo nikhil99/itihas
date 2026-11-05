@@ -1800,5 +1800,56 @@
         "url": "https://voibooks.bitbucket.io/jtsi/ch03/"
       }
     ]
+  },
+  {
+    "id": "negationism-in-india",
+    "title": "Negationism in India: Concealing the Record of Islam",
+    "author": "Koenraad Elst",
+    "published": "Voice of India, 1992; 2nd ed. 1993",
+    "summary": "Elst borrows the term for Holocaust denial and argues that India's historians have denied the record of Islamic persecution of Hindus, from the Khilafat-era Congress to the Aligarh school and the Marxists. Shown here as three kinds of negationism compared, how he says it took hold in India, Mohammed Habib's four theses and Elst's replies to his critics.",
+    "href": "books/negationism-in-india.html",
+    "timelines": [
+      "delhi-sultanate",
+      "mughal-empire"
+    ],
+    "source": "https://voibooks.bitbucket.io/negaind/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "From The Cover Of 'Negationism In India - Concealing The Record Of Islam'",
+        "url": "https://voibooks.bitbucket.io/negaind/cover/"
+      },
+      {
+        "n": null,
+        "title": "Foreword",
+        "url": "https://voibooks.bitbucket.io/negaind/foreword/"
+      },
+      {
+        "n": null,
+        "title": "Some Excerpts",
+        "url": "https://voibooks.bitbucket.io/negaind/excerpts/"
+      },
+      {
+        "n": 1,
+        "title": "Negationism In General",
+        "url": "https://voibooks.bitbucket.io/negaind/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Negationism In India",
+        "url": "https://voibooks.bitbucket.io/negaind/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Exposing And Refuting Negationism",
+        "url": "https://voibooks.bitbucket.io/negaind/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Reply To Some Questions And Criticisms",
+        "url": "https://voibooks.bitbucket.io/negaind/ch4/"
+      }
+    ]
   }
 ]
