@@ -1,0 +1,170 @@
+{
+  "title": "The Ferengi's Columns",
+  "byline": "by <b>François Gautier</b> · Voice of India · c. 2001 · subtitled <em>A Western journalist opening his eyes to the true India</em>",
+  "lede": "François Gautier, born in Paris in 1950, was for eight years <em>Le Figaro</em>'s political correspondent in India and South Asia. He married an Indian and has lived in India for over thirty years. These are his columns for Indian newspapers in the late 1990s. His theme is that foreign correspondents, posted for three to five years and briefed by an English-speaking elite, report India with “unconscious prejudices”. He sets out to correct that from a pro-Hindu standpoint. Ayodhya, he says, was his “political awakening”.",
+  "facts": [
+    [
+      "14",
+      "themed sections, about 50 columns"
+    ],
+    [
+      "8 years",
+      "as <em>Le Figaro</em>'s South Asia correspondent"
+    ],
+    [
+      "3–5 years",
+      "a typical foreign posting, too short to understand India, he argues"
+    ],
+    [
+      "“Ferengi”",
+      "the Hindi word for a foreigner, which he uses of himself"
+    ]
+  ],
+  "related": [
+    [
+      "bjp",
+      "BJP & Jana Sangh timeline"
+    ]
+  ],
+  "note": "These are opinion columns written from a declared viewpoint, sympathetic to the BJP and critical of Islam, missions, the Congress and the press. They are summarised as his views.",
+  "sections": [
+    {
+      "type": "table",
+      "wide": true,
+      "ch": 1,
+      "eyebrow": "The book at a glance",
+      "title": "Fourteen themes and some of their columns",
+      "head": [
+        "Section",
+        "Columns",
+        "His line"
+      ],
+      "rows": [
+        [
+          "1. Ayodhya",
+          "The Symbol of Ayodhya · The Bombay Blasts · Why Ayodhya?",
+          "A clash between two ideas of India. One mosque destroyed draws more outrage than centuries of temples."
+        ],
+        [
+          "2. Kashmir",
+          "The Shadow of a Horse · The Kashmiri “Freedom” Fighters · Kashmir and the Foreign Journalists",
+          "Terrorism mislabelled as a freedom struggle."
+        ],
+        [
+          "3. Christians",
+          "A Warped Indian Media · The “Persecution” of Christians · Christ and the North-East",
+          "A minority with moral advantage in the press."
+        ],
+        [
+          "4. Hindus",
+          "Poor Hindus! · Are Hindus Cowards? · Education controversy",
+          "A majority treated as a moral minority."
+        ],
+        [
+          "5. The media",
+          "One long essay",
+          "The Indian English press as “a hostile force”."
+        ],
+        [
+          "6. Neighbours",
+          "Pakistan · The “Friendly” Taliban · Sri Lanka · Japan",
+          ""
+        ],
+        [
+          "7. The West",
+          "Open letter to the US President · France · Israel · Russia",
+          "India's natural allies against Islamism."
+        ],
+        [
+          "8. Examples not to follow",
+          "East Timor · Kosovo · Tibet",
+          "Warnings for India."
+        ],
+        [
+          "9. False gods",
+          "Gandhi · N.T. Rama Rao · Mother Teresa · Sonia Gandhi",
+          "Icons he questions."
+        ],
+        [
+          "10. Myths",
+          "Did Buddhism Harm India? · Hindi-Chini Bye-Bye · The Gita and War",
+          "Ashoka, China and non-violence reconsidered."
+        ],
+        [
+          "11. Bollywood",
+          "<em>Refugee</em> · <em>Mission Kashmir</em> · Open letter to Nehru",
+          "Films that whitewash, in his view."
+        ],
+        [
+          "12. What India should not be",
+          "VIP culture · Delhi · Tourism · NGOs · Ecology",
+          "Self-criticism of Indian public life."
+        ],
+        [
+          "13. Hidden treasures",
+          "Pranayama · Ayyappa · Kalaripayattu · Jallikattu",
+          "Living traditions the world could learn from."
+        ],
+        [
+          "14. Renaissance",
+          "Nostradamus and the BJP · Seva and Government · Science and Spirituality",
+          "Under Vajpayee, a “golden period”, if the BJP stays true to itself."
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "eyebrow": "Foreword and chapter 2",
+      "title": "The foreign correspondent's India, and Gautier's",
+      "cols": [
+        {
+          "k": "What correspondents bring, in his view",
+          "items": [
+            "Short postings",
+            "Briefings by a Westernised, Delhi-based elite",
+            "Western ideas of “fundamentalism”",
+            "Sympathy for minorities taken for granted"
+          ]
+        },
+        {
+          "k": "What he says they miss",
+          "items": [
+            "The Hindu civilisation behind the politics",
+            "The scale of the terrorism in Kashmir",
+            "Hindu grievances",
+            "Living traditions outside the metros"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "ch": 13,
+      "eyebrow": "Chapter 13 · the hidden treasures",
+      "title": "Four living traditions",
+      "items": [
+        [
+          "Pranayama",
+          "Breath",
+          "Devised in India “more than 3000 years ago”, now being discovered by the West."
+        ],
+        [
+          "Ayyappa",
+          "Sabarimala",
+          "Thousands of pilgrims in black and blue, barefoot up the Western Ghats."
+        ],
+        [
+          "Kalaripayattu",
+          "Martial art",
+          "He repeats the story that Bodhidharma, a monk from Kanchipuram, took it to China in 522."
+        ],
+        [
+          "Jallikattu",
+          "Madurai",
+          "Bull-taming at the harvest festival."
+        ]
+      ]
+    }
+  ],
+  "footer": "Source: <em>The Ferengi's Columns</em> by François Gautier (Voice of India), read from the online edition at <a href=\"https://voibooks.bitbucket.io/tfc/\">voibooks.bitbucket.io</a>."
+}
