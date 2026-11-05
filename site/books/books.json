@@ -45,5 +45,18 @@
       "delhi-sultanate",
       "bjp"
     ]
+  },
+  {
+    "id": "hindu-society-under-siege",
+    "title": "Hindu Society Under Siege",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1981",
+    "summary": "Goel argues that four forces besiege Hindu society, each aimed at a different section of it: Islamism, Christianism, Macaulayism and Communism. Shown here as a siege diagram, a side-by-side table of the four, a timeline of invasions repelled and absorbed, and Dharampal's eight-point comparison of Indian and English schooling.",
+    "href": "books/hindu-society-under-siege.html",
+    "timelines": [
+      "british-india",
+      "delhi-sultanate",
+      "mughal-empire"
+    ]
   }
 ]
