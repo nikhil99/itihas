@@ -1,0 +1,28 @@
+{
+  "title": "The Demographic Siege",
+  "byline": "by <b>Koenraad Elst</b> · Voice of India · 1997",
+  "lede": "Since the 1909 tract that called Hindus “a dying race”, Hindu nationalists have warned that India's Muslim share is growing. Critics called this paranoia. Elst checks the claim against the census from 1881 to 1991 and examines migration from Bangladesh, Muslim and Hindu fertility, and Islamic teaching on birth control. His conclusion is that the trend is real, though slower than the alarmists said. He rejects “panicky solutions” such as a Hindu birth race and argues for persuasion and reconversion instead.",
+  "facts": [["19.97% → 24.28%", "Muslim share of British India, 1881 to 1941"], ["9.91% → 12.6%", "Muslim share of the Indian Republic, 1951 to 1991 (adjusted)"], ["29.9%", "Muslim share of the whole subcontinent in 1991, by his sum"], ["365 years", "Rafiq Zakaria's estimate of how long Muslims would need to outnumber Hindus, which Elst disputes"]],
+  "note": "Demographic projections are sensitive and often misused. Since this book, the 2011 census recorded Muslims at 14.2% of India's population. National surveys show fertility falling among all religious groups, fastest among Muslims, which narrows the gap Elst projected forward. This page reports his figures and argument as his, with the later census added for context.",
+  "sections": [
+    {
+      "type": "bars", "ch": 1, "eyebrow": "Chapter 1 · demography: the facts",
+      "title": "Muslim share of the population, census by census",
+      "lede": "British India figures (orange) and Indian Republic figures (blue), as Elst tabulates them. Grey bars are later censuses, added here. The drop in 1951 reflects Partition, not a change in fertility.",
+      "unit": "%", "max": 26, "ticks": [0, 5, 10, 15, 20, 25], "labelWidth": 150,
+      "items": [["1881 British India", 19.97, "", 0], ["1901", 21.88, "", 0], ["1921", 23.23, "", 0], ["1941", 24.28, "Last undivided census", 0], ["1951 India", 9.91, "After Partition", 1], ["1961", 10.70, "", 1], ["1971", 11.21, "", 1], ["1981", 11.73, "Assam not counted", 1], ["1991", 12.60, "Adjusted by Elst for J&K and Assam (official 12.2%)", 1], ["2001", 13.4, "Census of India, added", 4], ["2011", 14.2, "Census of India, added", 4]],
+      "note": "1881–1991 values are from the book's tables, with 1991 as he adjusted it. 2001 and 2011 are from the Census of India."
+    },
+    {
+      "type": "compare", "ch": 3, "eyebrow": "Chapters 2–4 · the factors",
+      "title": "What Elst weighs",
+      "cols": [{"k": "Pushing the share up, in his account", "items": ["Higher Muslim fertility. He argues literacy and income do not fully explain it.", "Illegal migration from Bangladesh, citing Home Ministry notes reported by Arun Shourie", "Natalist preaching, as opposed to the older Islamic tolerance of birth control", "Policies in Malaysia and elsewhere"]}, {"k": "Pulling against it", "items": ["Islamic law has long allowed contraception", "Economic development lowers birth rates", "Critics' projections, such as Mani Shankar Aiyar's 1993 forecast of stability", "Hindu fertility also falling"]}]
+    },
+    {
+      "type": "cards", "ch": 4, "eyebrow": "Chapters 4–5 · conclusion and response",
+      "title": "Elst's verdict and his prescription",
+      "items": [["Ch. 4", "“So, who was right?”", "On the trend, the Hindu nationalists, in his view. He projects a Muslim majority in the subcontinent this century and Muslim-majority pockets in India sooner."], ["Ch. 5", "No panic", "He rejects a Hindu “demographic counter-offensive” and any coercive scheme."], ["Ch. 5", "Reconversion", "Dayananda's approach: persuade Muslims to reconsider Islam, and welcome them back."], ["Ch. 5", "A secular afterthought", "Perhaps religious identities will fade with modernity anyway."]]
+    }
+  ],
+  "footer": "Source: <em>The Demographic Siege</em> by Koenraad Elst (Voice of India, 1997), read from the online edition at <a href=\"https://voibooks.bitbucket.io/demogislam/\">voibooks.bitbucket.io</a>. The 2001 and 2011 census figures are added from the Census of India."
+}
