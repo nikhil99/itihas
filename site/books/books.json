@@ -4015,5 +4015,63 @@
         "url": "https://voibooks.bitbucket.io/words/18/"
       }
     ]
+  },
+  {
+    "id": "jesus-christ-an-artifice-for-aggression",
+    "title": "Jesus Christ: An Artifice for Aggression",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1994",
+    "summary": "Sita Ram Goel's polemic against Christian missions: he surveys Western scholarship on the historical Jesus and argues Hindus should debate the doctrine, not only the missions.",
+    "href": "books/jesus-christ-an-artifice-for-aggression.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/jcafa/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Preface",
+        "url": "https://voibooks.bitbucket.io/jcafa/00_pre/"
+      },
+      {
+        "n": 1,
+        "title": "Jesus of History",
+        "url": "https://voibooks.bitbucket.io/jcafa/01/"
+      },
+      {
+        "n": 2,
+        "title": "Jesus of Fiction",
+        "url": "https://voibooks.bitbucket.io/jcafa/02/"
+      },
+      {
+        "n": 3,
+        "title": "Christ of Faith",
+        "url": "https://voibooks.bitbucket.io/jcafa/03/"
+      },
+      {
+        "n": 4,
+        "title": "Christianity Crumbles in the West",
+        "url": "https://voibooks.bitbucket.io/jcafa/04/"
+      },
+      {
+        "n": null,
+        "title": "Appendix 1: Of Pagan Gods and Heresies",
+        "url": "https://voibooks.bitbucket.io/jcafa/05_ap1/"
+      },
+      {
+        "n": null,
+        "title": "Appendix 2: The Church as a Tool of Imperialism",
+        "url": "https://voibooks.bitbucket.io/jcafa/06_ap2/"
+      },
+      {
+        "n": null,
+        "title": "Appendix 3: Spiritual Shift",
+        "url": "https://voibooks.bitbucket.io/jcafa/07_ap3/"
+      },
+      {
+        "n": null,
+        "title": "Appendix 4: Hindus vis-a-vis Jesus",
+        "url": "https://voibooks.bitbucket.io/jcafa/08_ap4/"
+      }
+    ]
   }
 ]
