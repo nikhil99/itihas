@@ -17,6 +17,7 @@
     influence: { label: "Influenced by the teaching", color: "--inf", dashed: true },
   };
   const DX = 30, DY = 250;
+  const present = (...kids) => kids.filter((k) => k != null); // replaceChildren would print null as text
   const h = (tag, attrs, ...kids) => {
     const n = document.createElement(tag);
     for (const k in attrs || {}) if (attrs[k] != null) n.setAttribute(k, attrs[k]);
@@ -49,7 +50,7 @@
     const panel = h("aside", { class: "panel", "aria-live": "polite" });
     const related = (L.timelines || []).filter((t) => timelines[t]);
     const root = document.getElementById("lineage");
-    root.replaceChildren(
+    root.replaceChildren(...present(
       h("header", { class: "head" },
         h("div", { class: "eyebrow" }, L.eyebrow || "Guru–shishya parampara"),
         h("h1", {}, L.title),
@@ -58,7 +59,7 @@
       h("div", { class: "controls" }, legend, h("div", { class: "btns" }, expandBtn, resetBtn)),
       h("div", { class: "stage" }, box, panel),
       L.succession ? succession(L.succession) : null,
-      L.note ? h("footer", {}, L.note) : null);
+      L.note ? h("footer", {}, L.note) : null));
     document.title = `${L.title} — Parampara — Itihas`;
 
     // ---- tree ----
@@ -127,7 +128,7 @@
       const below = (d._children || []).flatMap((c) => (isGroup(c) ? c._children : [c]));
       const inf = below.filter((c) => kinds[c.data.kind]?.dashed).length, dis = below.length - inf;
       const counts = [dis && `${dis} disciple${dis > 1 ? "s" : ""}`, inf && `${inf} influenced`].filter(Boolean).join(", ");
-      panel.replaceChildren(
+      panel.replaceChildren(...present(
         h("div", { class: "kind", style: `color:var(${k.color})` }, k.label),
         h("h2", {}, n.name),
         n.alt ? h("div", { class: "alt" }, n.alt) : null,
@@ -139,7 +140,7 @@
         counts ? h("div", { class: "chain" }, `In this tree: ${counts}`) : null,
         h("div", { class: "links" },
           n.tl && timelines[n.tl] ? h("a", { href: `../#/${n.tl}` }, `Open the ${timelines[n.tl]} timeline →`) : null,
-          h("a", { href: `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(n.name)}`, target: "_blank", rel: "noopener" }, "Search Wikipedia ↗")));
+          h("a", { href: `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(n.name)}`, target: "_blank", rel: "noopener" }, "Search Wikipedia ↗"))));
     }
     function find(name) { return data.descendants().find((n) => !isGroup(n) && n.data.name === name); }
     function reveal(d) {

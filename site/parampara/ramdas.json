@@ -1,0 +1,95 @@
+{
+ "id": "ramdas",
+ "eyebrow": "Guru–shishya parampara · Jamb → Takali → Chaphal → Sajjangad",
+ "title": "Samarth Ramdas and his disciples",
+ "intro": "Samarth Ramdas founded the Ramdasi sampradaya in 17th-century Maharashtra, a network of maths devoted to Rama and Hanuman. This tree follows his disciples, including Chhatrapati Shivaji, and the people the teaching reached later.",
+ "note": "Dates are birth–death unless marked; several disciples have no reliable dates. Much of what is known about Ramdas's circle comes from later Ramdasi biographies (bakhars), and the notes say where a link rests on tradition. Ramdas's contemporaries Jayram Swami, Rangnath Swami, Anand Murti and Keshav Swami, called the Samarth Panchayatan, were fellow saints rather than disciples and are not shown.",
+ "timelines": ["shivaji", "sambhaji", "thanjavur-marathas"],
+ "open": ["Samarth Ramdas"],
+ "select": "Chhatrapati Shivaji",
+ "tree": {
+  "name": "Samarth Ramdas",
+  "alt": "Narayan Suryajipant Thosar",
+  "dates": "1608–1682",
+  "kind": "guru",
+  "role": "Saint and poet; founder of the Ramdasi sampradaya",
+  "note": "Born at Jamb near Jalna. Tradition says he fled his own wedding at twelve, spent twelve years in penance at Takali near Nashik, where Rama is said to have appeared to him, and twelve more travelling across India. He settled in the Krishna valley, founded maths, set up eleven Hanuman temples around Chaphal and Satara, and wrote the Dasbodh and the Manache Shlok. He died at Sajjangad.",
+  "children": [
+   {
+    "name": "Chhatrapati Shivaji",
+    "dates": "1630–1680",
+    "kind": "householder",
+    "tl": "shivaji",
+    "role": "Founder of the Maratha kingdom; patron of Ramdas",
+    "note": "Ramdasi tradition makes Shivaji Ramdas's disciple and places their meeting at Shingnapur or Chaphal. A 1678 grant to the Chaphal math issued in Shivaji's name is the main document of his patronage. Historians still debate when they first met and whether there was a formal initiation; Shivaji also revered Tukaram, and the idea of Ramdas as his political guru was pressed hardest in the 19th and 20th centuries."
+   },
+   {
+    "name": "Kalyan Swami",
+    "dates": "1636–1714",
+    "kind": "monastic",
+    "role": "Chief disciple; scribe of the Dasbodh",
+    "note": "Joined Ramdas as a boy and wrote down much of the Dasbodh as Ramdas spoke it. After Ramdas's death he headed the math at Domgaon, near Paranda."
+   },
+   {
+    "name": "Uddhav Swami",
+    "kind": "monastic",
+    "role": "First disciple; head of the Takali math",
+    "note": "Tradition makes him Ramdas's earliest disciple, left in charge of the Hanuman shrine at Takali near Nashik, where Ramdas had done his penance."
+   },
+   {
+    "name": "Divakar Gosavi",
+    "kind": "monastic",
+    "role": "Disciple and copyist",
+    "note": "Remembered in the Ramdasi tradition for copying and spreading Ramdas's writings."
+   },
+   {
+    "name": "Bhimswami",
+    "kind": "monastic",
+    "tl": "thanjavur-marathas",
+    "role": "Took the sampradaya to Thanjavur",
+    "note": "Tradition credits him with founding the Ramdasi math at Thanjavur, which the Maratha rulers there supported."
+   },
+   {
+    "name": "Venabai",
+    "alt": "Venaswami",
+    "dates": "1628–1678",
+    "kind": "woman",
+    "role": "Woman disciple; head of the Miraj math",
+    "note": "A young widow from Kolhapur who took Ramdas as her guru against her family's wishes. He put her in charge of the math at Miraj, and she wrote devotional poetry including a Sita Swayamvar."
+   },
+   {
+    "name": "Akkabai",
+    "alt": "Akka Swami",
+    "kind": "woman",
+    "role": "Woman disciple; kept Sajjangad after Ramdas",
+    "note": "Looked after Ramdas in his last years at Sajjangad and ran the fort's math and shrine after his death."
+   },
+   {
+    "group": "Influenced by Ramdas",
+    "children": [
+     {
+      "name": "Chhatrapati Sambhaji",
+      "dates": "1657–1689",
+      "kind": "influence",
+      "tl": "sambhaji",
+      "role": "Second Chhatrapati",
+      "note": "A letter in Ramdasi collections, addressed to Sambhaji after Shivaji's death, urges him to follow his father's example. Its authenticity is debated."
+     },
+     {
+      "name": "Shridhar Swami",
+      "dates": "1908–1973",
+      "kind": "influence",
+      "role": "Saint of the Ramdasi tradition",
+      "note": "Did his sadhana at Sajjangad and regarded Ramdas as his guru. He revived the fort's worship and later lived at Varadahalli in Karnataka."
+     },
+     {
+      "name": "Shankar Shrikrishna Dev",
+      "kind": "influence",
+      "role": "Scholar and editor",
+      "note": "Collected Ramdasi manuscripts and founded the Samarth Vagdevata Mandir in Dhule (1935), which published critical editions of Ramdas's works."
+     }
+    ]
+   }
+  ]
+ }
+}
