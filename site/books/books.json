@@ -3233,5 +3233,118 @@
         "url": "https://voibooks.bitbucket.io/tpmsi/ch07/"
       }
     ]
+  },
+  {
+    "id": "understanding-islam-through-hadis",
+    "title": "Understanding Islam through Hadis",
+    "author": "Ram Swarup",
+    "published": "Exposition Press (USA), 1982; Voice of India, 1983",
+    "summary": "Ram Swarup's reading of Sahih Muslim, the second most revered Sunni hadith collection, book by book, arguing that Islam as Muhammad's own sayings and practice present it is political as much as spiritual. Banned in India in 1990–91. Shown here as the nineteen topics in the order of Sahih Muslim, the place of the Hadis in Islam, and the history of the ban.",
+    "href": "books/understanding-islam-through-hadis.html",
+    "timelines": [],
+    "source": "https://voibooks.bitbucket.io/uith/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": null,
+        "title": "Introduction",
+        "url": "https://voibooks.bitbucket.io/uith/intro/"
+      },
+      {
+        "n": 1,
+        "title": "Faith (ImAn)",
+        "url": "https://voibooks.bitbucket.io/uith/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Purification (TahArah)",
+        "url": "https://voibooks.bitbucket.io/uith/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Prayer (SalAt)",
+        "url": "https://voibooks.bitbucket.io/uith/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "The Poor Tax (ZakAt)",
+        "url": "https://voibooks.bitbucket.io/uith/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "Fasting and Pilgrimage (Sawm and Hajj)",
+        "url": "https://voibooks.bitbucket.io/uith/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "Marriage and Divorce (Al-NikAh and Al-TalAq)",
+        "url": "https://voibooks.bitbucket.io/uith/ch6/"
+      },
+      {
+        "n": 7,
+        "title": "Business Transactions, Inheritances, Gifts, Bequests, Vows and Oaths",
+        "url": "https://voibooks.bitbucket.io/uith/ch7/"
+      },
+      {
+        "n": 8,
+        "title": "Crime and Punishment (QasAmah, QisAs, HadUd)",
+        "url": "https://voibooks.bitbucket.io/uith/ch8/"
+      },
+      {
+        "n": 9,
+        "title": "Religious Wars (JihAd)",
+        "url": "https://voibooks.bitbucket.io/uith/ch9/"
+      },
+      {
+        "n": 10,
+        "title": "Government (Al-ImAra)",
+        "url": "https://voibooks.bitbucket.io/uith/ch10/"
+      },
+      {
+        "n": 11,
+        "title": "Hunting, Food and Drink",
+        "url": "https://voibooks.bitbucket.io/uith/ch11/"
+      },
+      {
+        "n": 12,
+        "title": "Clothing, Decorations, General Behavior, Greetings, Magic, Poetry, Visions, Dreams",
+        "url": "https://voibooks.bitbucket.io/uith/ch12/"
+      },
+      {
+        "n": 13,
+        "title": "Muhammad on Muhammad",
+        "url": "https://voibooks.bitbucket.io/uith/ch13/"
+      },
+      {
+        "n": 14,
+        "title": "The Prophet's Companions",
+        "url": "https://voibooks.bitbucket.io/uith/ch14/"
+      },
+      {
+        "n": 15,
+        "title": "Virtue, Destiny, Knowledge, Remembrance of God",
+        "url": "https://voibooks.bitbucket.io/uith/ch15/"
+      },
+      {
+        "n": 16,
+        "title": "Paradise, Hell, Their Inmates, the Last Day",
+        "url": "https://voibooks.bitbucket.io/uith/ch16/"
+      },
+      {
+        "n": 17,
+        "title": "Repentance (Tauba), I",
+        "url": "https://voibooks.bitbucket.io/uith/ch17/"
+      },
+      {
+        "n": 18,
+        "title": "Repentance, II  (The Self-Criticism of Ka'b b. MAlik)",
+        "url": "https://voibooks.bitbucket.io/uith/ch18/"
+      },
+      {
+        "n": 19,
+        "title": "Hypocrites (MunAfiqIn)",
+        "url": "https://voibooks.bitbucket.io/uith/ch19/"
+      }
+    ]
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "title": "Understanding Islam through Hadis",
+  "byline": "by <b>Ram Swarup</b> · Exposition Press, New York, 1982 · Voice of India reprints 1983 and 1987 · subtitled <em>Religious Faith or Fanaticism?</em>",
+  "lede": "Ram Swarup reads the <em>Sahih Muslim</em>, one of the two most authoritative Sunni collections of the Prophet's sayings and deeds, in Abdul Hamid Siddiqi's four-volume English translation (Lahore, 1973–75). He follows its own order, from faith and prayer to marriage, crime, war and government. Because Muslim theology treats the Hadis as revelation “made concrete in the life of the Prophet”, he argues it shows Islam as believers are meant to live it. In his reading that Islam is a complete system, political and military as well as devotional. The book is known in India mainly for being banned.",
+  "facts": [["19", "chapters, following the order of <em>Sahih Muslim</em>'s books"], ["92 of 358", "hadiths in the Book of Government that concern jihad, by Swarup's count"], ["583", "traditions in the Book of Pilgrimage, none of them about an “inner pilgrimage”, he notes"], ["1990–91", "the Hindi translation, then the English original, banned by the Delhi Administration"]],
+  "note": "This is a critical, outsider's reading of a sacred text. Muslim scholars read the same collection through centuries of commentary and context. The ban on the book is recorded in <a href=\"freedom-of-expression.html\"><em>Freedom of Expression</em></a>. This page lists what the book covers and summarises the author's stance, attributed to him.",
+  "sections": [
+    {
+      "type": "table", "wide": true, "ch": 1, "eyebrow": "Chapters 1–19",
+      "title": "The topics, in <em>Sahih Muslim</em>'s order",
+      "head": ["Ch.", "Topic", "One of Swarup's observations"],
+      "rows": [
+        ["1", "Faith (<i>Iman</i>)", "Belief in Allah is “not enough” without belief in Muhammad's apostleship. The Book of Faith has 431 traditions in 92 chapters."],
+        ["2–3", "Purification and prayer", "Ritual rules in great detail."],
+        ["4", "The poor tax (<i>Zakat</i>)", ""],
+        ["5", "Fasting and pilgrimage", "583 traditions on the Hajj, all on outer observance."],
+        ["6", "Marriage and divorce", ""],
+        ["7", "Business, inheritance, gifts, vows", ""],
+        ["8", "Crime and punishment", "<i>Qisas</i> (retaliation) and <i>hudud</i> (fixed penalties)."],
+        ["9", "Religious wars (<i>Jihad</i>)", ""],
+        ["10", "Government", "The Quraysh tribe's claim to the caliphate. Obedience to rulers. 92 of 358 traditions on jihad."],
+        ["11–12", "Food, dress, manners, magic, dreams", ""],
+        ["13–14", "Muhammad on Muhammad, and his Companions", ""],
+        ["15–16", "Virtue and destiny, paradise and hell", "The Day of Judgment named 70 times in the Quran, with 75 synonyms."],
+        ["17–18", "Repentance", "Including Ka'b b. Malik's account of his own failure."],
+        ["19", "Hypocrites (<i>Munafiqin</i>)", ""]
+      ]
+    },
+    {
+      "type": "compare", "eyebrow": "Introduction · why the Hadis",
+      "title": "Two sources, one centre",
+      "cols": [{"k": "The Quran", "items": ["The Prophet's revelations (<i>wahy</i>)", "About 6,200 verses, not arranged by topic"]}, {"k": "The Hadis (Sunnah)", "items": ["All he did, said, enjoined or allowed", "To orthodox theologians, equally inspired: “the Quran in action”", "Collected in Bukhari, Muslim, Tirmizi and others"]}]
+    },
+    {
+      "type": "timeline", "eyebrow": "The book's own history",
+      "title": "Published, reprinted, banned",
+      "items": [["1982", "Published in the USA", "Through Arvind Ghosh of Houston."], ["1983", "Voice of India reprint", ""], ["1987", "Second reprint; Hindi translation seized", "Goel arrested on 19 December."], ["1990", "Case dismissed; Hindi edition banned", "By the Delhi Administration, which had cleared it twice."], ["1991", "English original banned", "After eight years in circulation."]]
+    }
+  ],
+  "footer": "Source: <em>Understanding Islam through Hadis</em> by Ram Swarup, read from the online edition at <a href=\"https://voibooks.bitbucket.io/uith/\">voibooks.bitbucket.io</a>. Ban dates follow <em>Freedom of Expression</em>. Goel's memoir gives 1991–92."
+}
