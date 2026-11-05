@@ -1,5 +1,19 @@
 [
   {
+    "id": "ramdas",
+    "title": "Samarth Ramdas and his disciples",
+    "native": "रामदास",
+    "guru": "Samarth Ramdas",
+    "span": "1608 – today",
+    "summary": "The Ramdasi sampradaya of Maharashtra: Kalyan Swami, Venabai and the maths Ramdas founded, Chhatrapati Shivaji as his best-known disciple, and the people the Dasbodh reached later.",
+    "href": "parampara/ramdas.html",
+    "timelines": [
+      "shivaji",
+      "sambhaji",
+      "thanjavur-marathas"
+    ]
+  },
+  {
     "id": "ramakrishna",
     "title": "Sri Ramakrishna and his disciples",
     "native": "রামকৃষ্ণ",
@@ -7,6 +21,9 @@
     "span": "1836 – today",
     "summary": "From the Kali temple at Dakshineswar to Vivekananda, the Ramakrishna Math and Mission, the Vedanta societies abroad, and the leaders and writers who said the teaching changed them.",
     "href": "parampara/ramakrishna.html",
-    "timelines": ["narendra-modi", "bjp"]
+    "timelines": [
+      "narendra-modi",
+      "bjp"
+    ]
   }
 ]
