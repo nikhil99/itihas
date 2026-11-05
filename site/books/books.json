@@ -1192,5 +1192,50 @@
         "url": "https://voibooks.bitbucket.io/hhce/Ch25/"
       }
     ]
+  },
+  {
+    "id": "heroic-hindu-resistance-to-muslim-invaders",
+    "title": "Heroic Hindu Resistance to Muslim Invaders, 636–1206",
+    "author": "Sita Ram Goel",
+    "published": "Voice of India, 1984",
+    "summary": "Goel's extended review of R.G. Misra's study of the 570 years between the first Arab raid on Thana (636) and the Delhi Sultanate (1206). Shown here as how long Islam took to conquer India compared with Syria, Persia and Egypt, a timeline of the resistance from Sindh and Kabul to Tarain, and Misra's causes of the eventual defeat.",
+    "href": "books/heroic-hindu-resistance-to-muslim-invaders.html",
+    "timelines": [
+      "delhi-sultanate"
+    ],
+    "source": "https://voibooks.bitbucket.io/hhrmi/",
+    "edition": "Voice of India, New Delhi · online edition at voibooks.bitbucket.io",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "National Perspective on Indian History",
+        "url": "https://voibooks.bitbucket.io/hhrmi/ch1/"
+      },
+      {
+        "n": 2,
+        "title": "Arab Failure in Sindh, Kabul and Zabul",
+        "url": "https://voibooks.bitbucket.io/hhrmi/ch2/"
+      },
+      {
+        "n": 3,
+        "title": "Frustration of the Ghaznavids",
+        "url": "https://voibooks.bitbucket.io/hhrmi/ch3/"
+      },
+      {
+        "n": 4,
+        "title": "Perfidy Wins Where Valour Failed",
+        "url": "https://voibooks.bitbucket.io/hhrmi/ch4/"
+      },
+      {
+        "n": 5,
+        "title": "The Lessons We Have to Learn",
+        "url": "https://voibooks.bitbucket.io/hhrmi/ch5/"
+      },
+      {
+        "n": 6,
+        "title": "The Nature of National Frontiers",
+        "url": "https://voibooks.bitbucket.io/hhrmi/ch6/"
+      }
+    ]
   }
 ]

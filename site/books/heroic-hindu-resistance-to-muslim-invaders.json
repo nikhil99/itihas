@@ -1,0 +1,70 @@
+{
+  "title": "Heroic Hindu Resistance to Muslim Invaders, 636–1206",
+  "byline": "by <b>Sita Ram Goel</b> · Voice of India · a long review of R.G. Misra's <em>Indian Resistance to Early Muslim Invaders up to 1206 A.D.</em> (1983)",
+  "lede": "Goel challenges the idea that India was a passive land invaders walked into, summed up in Matthew Arnold's line that the East “let the legions thunder past.” He follows the historian R.G. Misra, chapter by chapter. Armies that took Syria in six months and Persia in a few years needed 570 years to set up a lasting state in northern India. Then Goel draws lessons for the 1980s.",
+  "facts": [["570 years", "from the first Arab expedition against Thana (636) to the Delhi Sultanate (1206)"], ["76 years", "the Arabs spent failing in Sindh before Muhammad bin Qasim took it in 712"], ["~500 years", "of effective Muslim rule over northern India, to Aurangzeb's death in 1707, per Misra"], ["50,000", "Hindus said by a Muslim chronicler to have died defending Somnath in 1026"]],
+  "related": [["delhi-sultanate", "Delhi Sultanate timeline"]],
+  "note": "The book is a review with a political argument attached. The battle narrative follows Misra, who relies on Muslim chroniclers such as Firishta and on Sanskrit inscriptions. Casualty figures are the chroniclers'. The closing chapters on Pakistan are Goel's own view and are attributed to him.",
+  "sections": [
+    {
+      "type": "bars", "ch": 2, "eyebrow": "Chapter 2 · the contrast Misra draws",
+      "title": "How long the conquests took",
+      "lede": "Years from the first serious campaign to lasting control, using the dates the book gives. India is the outlier the book sets out to explain.",
+      "unit": "years", "max": 600, "ticks": [0, 200, 400, 600], "labelWidth": 200,
+      "items": [["Syria and Palestine", 1, "636–637: a six-month campaign", 1], ["Egypt", 2, "640–641", 1], ["Persia (Sassanid empire)", 6, "Defeated in 637, overrun “in the next few years”; Caliphate reaches India's borders by 643", 1], ["North Africa to Spain", 69, "From Egypt (640) to crossing into Spain (709)", 1], ["Northern India", 570, "Thana raid (636) to the Delhi Sultanate (1206)", 0]],
+      "note": "Spans are worked out from dates in the book (following Misra), as a rough comparison, not exact figures."
+    },
+    {
+      "type": "timeline", "ch": 2, "eyebrow": "Chapters 2–4 · the resistance",
+      "title": "From Thana to Tarain",
+      "items": [
+        {"era": "The Arabs, 636–870", "color": 1},
+        ["636", "Naval raids on Thana and Broach repulsed", "Under Caliph Umar. Mughairah's attack on Debal also fails."],
+        ["660–662", "Caliph Ali's land expedition destroyed", "“The four pious Caliphs” die without a victory over Sindh."],
+        ["661–680", "Six expeditions under Muawiyah", "All repulsed but the last, which takes Makran."],
+        ["650–695", "Kabul and Zabul hold out", "Arab generals defeated or killed, and ransom paid for one."],
+        ["708", "Debal routed again", "Two Arab commanders killed."],
+        ["712–714", "Muhammad bin Qasim takes Sindh and Multan", "Recalled in 714. India “threw off their yoke”."],
+        ["c. 725–738", "Arabs turned back further east", "Defeated by Pulakesin of the Chalukyas at Navsari and held off by Lalitaditya of Kashmir."],
+        ["870", "Hindus still rule Kabul", "Their eclipse is not caused by the Arabs."],
+        {"era": "The Ghaznavids, 963–1186", "color": 0},
+        ["963", "Alaptigin at Ghazni", "A Turkish principality."],
+        ["986–87", "Jayapala tries to retake Kabul", "The Shahiya king of Udbhandapur."],
+        ["1001", "Jayapala defeated by Mahmud", "Released, he burns himself on a pyre rather than rule after defeat."],
+        ["1018–22", "Mahmud fails against the Chandellas", "Vidyadhara of Kalanjar and Khajuraho."],
+        ["1026", "Somnath", "Mahmud breaks the image, after a battle “long doubtful”."],
+        ["1030s", "Salar Masud destroyed at Bahraich", "Hindu princes surround his army."],
+        ["1043", "Raja of Delhi retakes Hansi, Thanesar, Kangra", "According to Firishta."],
+        ["1133–51", "Arnoraja of Ajmer", "Inflicts “one of the worst defeats” on the Muslims."],
+        {"era": "Muhammad Ghuri, 1175–1206", "color": 3},
+        ["1178", "Ghuri defeated at Mount Abu", "By the Chaulukyas of Gujarat."],
+        ["1191", "First battle of Tarain", "Prithviraj Chauhan routs him."],
+        ["1192", "Second battle of Tarain", "Ghuri wins after an offer of truce, which Goel calls “perfidy where valour failed”."],
+        ["1194", "Jayachandra of Kanauj falls", "He had stayed out of the earlier wars."],
+        ["1195–1201", "Counter-attacks continue", "The Mher Rajputs rise, Kanauj is retaken (1197), and Bhimadeva II recovers Gujarat (1201)."],
+        ["1202–06", "Bakhtiyar Khalji in Bihar and Bengal", "He cannot take East Bengal, and Assam stays free."],
+        ["1206", "Delhi Sultanate founded", "After 570 years of effort."]
+      ]
+    },
+    {
+      "type": "compare", "ch": 5, "eyebrow": "Chapter 5 · why the Hindus lost, per Misra",
+      "title": "Not disunity, but the lack of a strategy",
+      "lede": "Misra rejects the usual explanation. Internal feuds, he says, were “a common feature of the Middle Ages everywhere”.",
+      "cols": [
+        {"k": "On the Hindu side", "items": ["No forward policy: wars fought at home, never carried into the enemy's base", "No central government for northern India", "Alliances that came apart after each battle", "Slow elephant armies and no standing army"]},
+        {"k": "On the invaders' side", "items": ["Constant aggression", "Fast cavalry and permanent mobilisation", "A steady inflow of Arabs and Turks", "Shared plunder as an incentive"]}
+      ]
+    },
+    {
+      "type": "cards", "ch": 6, "eyebrow": "Chapters 5–6 · Goel's lessons for the 1980s",
+      "title": "From Tarain to Pakistan",
+      "items": [
+        ["Pakistan", "An ideological frontier", "Its rulers celebrate Mahmud and Ghuri, so Goel argues India should read its hostility as ideology, not just border politics."],
+        ["The state", "A central state at last", "India now has the standing army and central government the Rajputs lacked, Goel says, but not the self-awareness."],
+        ["Politics", "Seize the state", "He calls for a politics “created by Hindu consciousness” instead of vote-bank parties."],
+        ["Policy", "Forward policy", "Push India's own ideological frontiers outward, with humanist and rationalist allies even in Muslim countries."]
+      ]
+    }
+  ],
+  "footer": "Source: <em>Heroic Hindu Resistance to Muslim Invaders (636 AD to 1206 AD)</em> by Sita Ram Goel (Voice of India), read from the online edition at <a href=\"https://voibooks.bitbucket.io/hhrmi/\">voibooks.bitbucket.io</a>. The narrative follows R.G. Misra, <em>Indian Resistance to Early Muslim Invaders upto 1206 A.D.</em> (Meerut, 1983)."
+}
