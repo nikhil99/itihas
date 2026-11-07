@@ -192,6 +192,7 @@
  "events": [
   {
    "id": "dantidurga-revolt",
+   "see": "badami-chalukyas",
    "date": "0753",
    "lane": "military",
    "title": "Dantidurga overthrows the Chalukyas",
@@ -294,6 +295,7 @@
   },
   {
    "id": "dhruva-north",
+   "see": "palas-pratiharas",
    "date": "0786",
    "lane": "military",
    "title": "Dhruva's raid into the north",
@@ -541,6 +543,7 @@
   },
   {
    "id": "kannauj-916",
+   "see": "palas-pratiharas",
    "date": "0916",
    "lane": "military",
    "title": "Indra III sacks Kannauj",

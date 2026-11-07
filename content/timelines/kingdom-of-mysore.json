@@ -1,0 +1,917 @@
+{
+ "id": "kingdom-of-mysore",
+ "kind": "empire",
+ "order": 4.5,
+ "title": "The Kingdom of Mysore",
+ "subtitle": "The Wodeyars, Hyder Ali and Tipu Sultan · 1565 – 1947",
+ "subject": "mysore-kingdom",
+ "range": [
+  1560,
+  1950
+ ],
+ "focus": [
+  1610,
+  1799
+ ],
+ "intro": "The Wodeyars were small chiefs under Vijayanagara until the empire fell after 1565. In 1610 Raja Wodeyar took Srirangapatna, and over the next century the kingdom grew to cover most of southern Karnataka. In 1761 a soldier named Hyder Ali took power from the kings' ministers, and he and his son Tipu Sultan made Mysore the most feared state in the south. They fought the Marathas, the Nizam and the British in four wars, with a modern army, the first war rockets in India and hopes of an alliance with revolutionary France. Tipu's death at Srirangapatna in 1799 opened the south to the British. They put a five-year-old Wodeyar back on the throne, ruled Mysore directly for fifty years after 1831, and returned it to a family that made it one of the best-run princely states before it joined India in 1947.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & the court"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Forts, palaces & cities"
+  },
+  {
+   "id": "political",
+   "label": "Treaties, state & reform"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Wodeyar kings",
+   "members": [
+    {
+     "entity": "raja-wodeyar",
+     "from": 1578,
+     "to": 1617,
+     "group": "wadiyar",
+     "note": "Took Srirangapatna in 1610"
+    },
+    {
+     "entity": "chamaraja-vi",
+     "from": 1617,
+     "to": 1637,
+     "group": "wadiyar"
+    },
+    {
+     "entity": null,
+     "from": 1637,
+     "to": 1638,
+     "group": "wadiyar",
+     "name": "Immadi Raja Wodeyar",
+     "note": "Poisoned after a year"
+    },
+    {
+     "entity": "kanthirava-narasaraja-i",
+     "from": 1638,
+     "to": 1659,
+     "group": "wadiyar"
+    },
+    {
+     "entity": "dodda-devaraja",
+     "from": 1659,
+     "to": 1673,
+     "group": "wadiyar"
+    },
+    {
+     "entity": "chikka-devaraja",
+     "from": 1673,
+     "to": 1704,
+     "group": "wadiyar",
+     "note": "Organised the state and bought Bangalore"
+    },
+    {
+     "entity": "kanthirava-narasaraja-ii",
+     "from": 1704,
+     "to": 1714,
+     "group": "wadiyar",
+     "note": "Deaf and mute; ministers ruled"
+    },
+    {
+     "entity": "dodda-krishnaraja-i",
+     "from": 1714,
+     "to": 1732,
+     "group": "wadiyar"
+    },
+    {
+     "entity": null,
+     "from": 1732,
+     "to": 1734,
+     "group": "wadiyar",
+     "name": "Chamaraja Wodeyar VII",
+     "note": "Deposed by the Dalavoys"
+    },
+    {
+     "entity": "krishnaraja-ii",
+     "from": 1734,
+     "to": 1766,
+     "group": "wadiyar",
+     "note": "Real power with the ministers Nanjaraja and Devaraja, then Hyder Ali"
+    },
+    {
+     "entity": null,
+     "from": 1766,
+     "to": 1776,
+     "group": "wadiyar",
+     "name": "Nanjaraja and Chamaraja VIII",
+     "note": "Kings in name under Hyder Ali"
+    },
+    {
+     "entity": null,
+     "from": 1776,
+     "to": 1796,
+     "group": "wadiyar",
+     "name": "Chamaraja Wodeyar IX",
+     "note": "Chosen by Hyder Ali; never ruled"
+    },
+    {
+     "entity": "krishnaraja-iii",
+     "from": 1799,
+     "to": 1868,
+     "group": "wadiyar",
+     "note": "Restored by the British at five; deposed from power in 1831"
+    },
+    {
+     "entity": "chamarajendra-x",
+     "from": 1868,
+     "to": 1894,
+     "group": "wadiyar",
+     "note": "Mysore returned to him in 1881"
+    },
+    {
+     "entity": "krishnaraja-iv",
+     "from": 1894,
+     "to": 1940,
+     "group": "wadiyar",
+     "note": "'Rajarishi'; Mysore a model state"
+    },
+    {
+     "entity": "jayachamarajendra",
+     "from": 1940,
+     "to": 1950,
+     "group": "wadiyar",
+     "note": "Acceded to India in 1947"
+    }
+   ]
+  },
+  {
+   "label": "Rulers in fact",
+   "members": [
+    {
+     "entity": "nanjaraja",
+     "from": 1734,
+     "to": 1759,
+     "group": "mysore-kingdom",
+     "note": "With his brother Devaraja, the Dalavoy (army chief)"
+    },
+    {
+     "entity": "hyder-ali",
+     "from": 1761,
+     "to": 1782,
+     "group": "mysore-kingdom",
+     "note": "Sarvadhikari and Nawab; never took the crown"
+    },
+    {
+     "entity": "tipu",
+     "from": 1782,
+     "to": 1799,
+     "group": "mysore-kingdom",
+     "note": "Took the title Padshah in 1786; killed defending Srirangapatna"
+    },
+    {
+     "entity": null,
+     "from": 1831,
+     "to": 1881,
+     "group": "mysore-kingdom",
+     "name": "British commissioners",
+     "note": "Direct British rule after the Nagar revolt"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "vijayanagara-empire",
+   "label": "Vijayanagara (Aravidu)",
+   "from": 1565,
+   "to": 1646
+  },
+  {
+   "entity": "bijapur-sultanate",
+   "label": "Bijapur Sultanate",
+   "from": 1560,
+   "to": 1686
+  },
+  {
+   "entity": "keladi",
+   "label": "Nayakas of Keladi",
+   "from": 1560,
+   "to": 1763
+  },
+  {
+   "entity": "mughal-empire",
+   "label": "Mughal Empire",
+   "from": 1687,
+   "to": 1760
+  },
+  {
+   "entity": "maratha-empire",
+   "label": "Maratha Empire",
+   "from": 1674,
+   "to": 1818
+  },
+  {
+   "entity": "hyderabad-state",
+   "label": "Nizams of Hyderabad",
+   "from": 1724,
+   "to": 1948
+  },
+  {
+   "entity": "east-india-company",
+   "label": "East India Company",
+   "from": 1750,
+   "to": 1858
+  },
+  {
+   "entity": "french-india",
+   "label": "French India",
+   "from": 1740,
+   "to": 1803
+  }
+ ],
+ "events": [
+  {
+   "id": "talikota",
+   "date": "1565-01-23",
+   "lane": "world",
+   "title": "Vijayanagara falls",
+   "summary": "The Deccan Sultanates destroy the Vijayanagara army at Talikota and sack Hampi. The empire survives further south, but its governors and feudatories, among them the Wodeyars of the small territory around Mysore, start acting on their own.",
+   "places": [
+    "talikota",
+    "hampi"
+   ],
+   "polities": [
+    "vijayanagara-empire",
+    "deccan-sultanates"
+   ],
+   "wiki": "Battle of Talikota",
+   "see": "vijayanagara-empire"
+  },
+  {
+   "id": "srirangapatna-1610",
+   "date": "1610-02-08",
+   "lane": "military",
+   "title": "Raja Wodeyar takes Srirangapatna",
+   "summary": "Raja Wodeyar I takes Srirangapatna, the island fortress on the Kaveri held by the Vijayanagara viceroy Tirumala, and makes it his capital. Mysore is now an independent kingdom.",
+   "people": [
+    "raja-wodeyar"
+   ],
+   "places": [
+    "srirangapatna"
+   ],
+   "polities": [
+    "vijayanagara-empire",
+    "mysore-kingdom"
+   ],
+   "wiki": "Raja Wodeyar I",
+   "major": true
+  },
+  {
+   "id": "dasara",
+   "date": "1610-09",
+   "lane": "political",
+   "title": "The first Mysore Dasara",
+   "summary": "At Srirangapatna, Raja Wodeyar celebrates the Mahanavami (Dasara) festival with the throne and ceremonies of the Vijayanagara emperors. The Mysore Dasara becomes the kingdom's great royal festival and is still held every year with a procession of elephants.",
+   "people": [
+    "raja-wodeyar"
+   ],
+   "places": [
+    "srirangapatna"
+   ],
+   "concepts": [
+    "mysore-dasara"
+   ],
+   "wiki": "Mysore Dasara",
+   "major": true
+  },
+  {
+   "id": "siege-1639",
+   "date": "1639",
+   "lane": "military",
+   "title": "Kanthirava holds off Bijapur",
+   "summary": "A Bijapur army under Ranadullah Khan, with Shahaji Bhonsle among its commanders, besieges Srirangapatna. Kanthirava Narasaraja I beats it off. He goes on to expand the kingdom and becomes the first Wodeyar to mint his own coins, the Kanthiraya gold pieces.",
+   "people": [
+    "kanthirava-narasaraja-i",
+    "shahaji"
+   ],
+   "places": [
+    "srirangapatna"
+   ],
+   "polities": [
+    "bijapur-sultanate"
+   ],
+   "wiki": "Kanthirava Narasaraja I"
+  },
+  {
+   "id": "chikka-devaraja",
+   "date": "1673",
+   "lane": "life",
+   "title": "Chikka Devaraja",
+   "summary": "Chikka Devaraja, the ablest of the early Wodeyars, comes to the throne. He organises the government into eighteen departments (the Attara Kacheri), reforms the revenue and postal systems, and builds the treasury that makes Mysore a regional power. Kannada literature flourishes at his court.",
+   "people": [
+    "chikka-devaraja"
+   ],
+   "polities": [
+    "mysore-kingdom"
+   ],
+   "wiki": "Chikka Devaraja",
+   "major": true
+  },
+  {
+   "id": "marathas-1686",
+   "date": "1686",
+   "lane": "military",
+   "title": "War with the Marathas",
+   "summary": "Chikka Devaraja expands into territory claimed by the Marathas in the south and clashes with Sambhaji's forces near Tiruchirappalli and in the Bangalore region.",
+   "people": [
+    "chikka-devaraja",
+    "sambhaji"
+   ],
+   "polities": [
+    "maratha-empire"
+   ],
+   "see": "sambhaji",
+   "approx": true
+  },
+  {
+   "id": "bangalore",
+   "date": "1687",
+   "lane": "military",
+   "title": "Chikka Devaraja buys Bangalore",
+   "summary": "A Mughal army takes Bangalore from Shivaji's half-brother Ekoji, and the Mughal commander Qasim Khan sells it to Chikka Devaraja for three lakh rupees. Mysore gains the town that will become its second city.",
+   "people": [
+    "chikka-devaraja",
+    "ekoji"
+   ],
+   "places": [
+    "bangalore"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "wiki": "Chikka Devaraja",
+   "major": true
+  },
+  {
+   "id": "dalavoys",
+   "date": "1734",
+   "lane": "life",
+   "title": "The Dalavoys take control",
+   "summary": "After a series of weak kings, the brothers Devaraja, the Dalavoy (army chief), and Nanjaraja, the Sarvadhikari (chief minister), take real power and choose a five-year-old, Krishnaraja II, as king. They rule Mysore for twenty-five years, fighting the Marathas and the Nawabs of Arcot and paying them tribute.",
+   "people": [
+    "nanjaraja",
+    "krishnaraja-ii"
+   ],
+   "polities": [
+    "mysore-kingdom"
+   ],
+   "wiki": "Krishnaraja Wadiyar II"
+  },
+  {
+   "id": "devanahalli",
+   "date": "1749",
+   "lane": "military",
+   "title": "Hyder Ali at Devanahalli",
+   "summary": "Hyder Ali, the son of a Mysore army officer, distinguishes himself as a volunteer at the siege of Devanahalli. He can neither read nor write, but he quickly rises in the army.",
+   "people": [
+    "hyder-ali",
+    "nanjaraja"
+   ],
+   "places": [
+    "devanahalli"
+   ],
+   "wiki": "Hyder Ali",
+   "major": true
+  },
+  {
+   "id": "dindigul",
+   "date": "1755",
+   "lane": "military",
+   "title": "Hyder at Dindigul",
+   "summary": "Made faujdar (military governor) of Dindigul, Hyder Ali builds his own army there. With French advisers, during the Carnatic wars, he sets up an arsenal and trains infantry and artillery in European methods.",
+   "people": [
+    "hyder-ali"
+   ],
+   "places": [
+    "dindigul"
+   ],
+   "polities": [
+    "french-india"
+   ],
+   "concepts": [
+    "carnatic-wars"
+   ],
+   "wiki": "Hyder Ali",
+   "approx": true
+  },
+  {
+   "id": "hyder-power",
+   "date": "1761",
+   "lane": "life",
+   "title": "Hyder Ali takes power",
+   "summary": "After pushing aside Nanjaraja and putting down a palace plot led by his rival Khande Rao, Hyder Ali becomes master of Mysore. He keeps the Wodeyar king on the throne and the Dasara festival going, but rules himself as Sarvadhikari and later as Nawab. In the same year the Marathas are crushed at Panipat, which removes pressure on Mysore for a while.",
+   "people": [
+    "hyder-ali",
+    "nanjaraja",
+    "krishnaraja-ii"
+   ],
+   "places": [
+    "srirangapatna"
+   ],
+   "polities": [
+    "mysore-kingdom"
+   ],
+   "wiki": "Hyder Ali",
+   "major": true
+  },
+  {
+   "id": "bednur",
+   "date": "1763",
+   "lane": "military",
+   "title": "The conquest of Bednur",
+   "summary": "Hyder conquers Bednur (Nagar), the capital of the Keladi Nayakas, and takes its large treasure. Renamed Haidarnagar, it gives Mysore the ports of the Kanara coast, and Hyder begins to build a navy.",
+   "people": [
+    "hyder-ali"
+   ],
+   "places": [
+    "bednur",
+    "mangalore"
+   ],
+   "polities": [
+    "keladi"
+   ],
+   "wiki": "Nagara, Karnataka"
+  },
+  {
+   "id": "rattihalli",
+   "date": "1764",
+   "lane": "military",
+   "title": "Madhavrao defeats Hyder",
+   "summary": "The young Peshwa Madhavrao I marches into Mysore, defeats Hyder at Rattihalli and forces him to give up territory and pay tribute. The Marathas invade again in 1767 and in 1770–72.",
+   "people": [
+    "madhavrao",
+    "hyder-ali"
+   ],
+   "polities": [
+    "maratha-empire"
+   ],
+   "concepts": [
+    "maratha-mysore-wars"
+   ],
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "malabar",
+   "date": "1766",
+   "lane": "military",
+   "title": "Hyder conquers Malabar",
+   "summary": "Hyder invades Malabar and takes Calicut. The Zamorin, its king for generations, sets fire to his palace and dies in it rather than surrender. Many Nair families flee south to Travancore, and Mysore rule in Malabar is resisted for years.",
+   "people": [
+    "hyder-ali"
+   ],
+   "places": [
+    "kozhikode"
+   ],
+   "polities": [
+    "calicut-kingdom"
+   ],
+   "wiki": "Mysore invasion of Calicut"
+  },
+  {
+   "id": "first-war",
+   "date": "1767",
+   "lane": "military",
+   "title": "The First Anglo-Mysore War",
+   "summary": "The British, the Nizam and the Marathas ally against Hyder. Hyder buys off the Nizam and fights the British around the Carnatic. In March 1769 he rides to within a few miles of Madras with his cavalry and dictates the Treaty of Madras: conquests are returned and each side promises to help the other if attacked.",
+   "people": [
+    "hyder-ali"
+   ],
+   "places": [
+    "chennai"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "first-anglo-mysore",
+    "treaty-madras",
+    "anglo-mysore-wars"
+   ],
+   "wiki": "First Anglo-Mysore War",
+   "see": "british-india",
+   "major": true
+  },
+  {
+   "id": "moti-talav",
+   "date": "1771-03",
+   "lane": "military",
+   "title": "Defeat at Moti Talav",
+   "summary": "A Maratha army under Trimbakrao Pethe routs Hyder's army at Moti Talav (Chinkurali). Hyder escapes to Srirangapatna, and the next year he signs a peace giving up territory and paying a large sum. The British do not help him, despite the 1769 treaty, which he does not forget.",
+   "people": [
+    "hyder-ali"
+   ],
+   "polities": [
+    "maratha-empire"
+   ],
+   "concepts": [
+    "battle-moti-talav",
+    "maratha-mysore-wars"
+   ],
+   "see": "madhavrao-i"
+  },
+  {
+   "id": "chitradurga",
+   "date": "1779",
+   "lane": "military",
+   "title": "The fall of Chitradurga",
+   "summary": "After several sieges Hyder takes the hill fort of Chitradurga from its Nayaka chief Madakari Nayaka, who dies in captivity. Local legend remembers Onake Obavva, a guard's wife who killed Mysore soldiers one by one with a pestle as they crept through a gap in the wall during one of the sieges.",
+   "people": [
+    "hyder-ali",
+    "madakari-nayaka",
+    "onake-obavva"
+   ],
+   "places": [
+    "chitradurga-fort"
+   ],
+   "polities": [
+    "chitradurga-nayakas"
+   ],
+   "wiki": "Chitradurga Fort"
+  },
+  {
+   "id": "pollilur",
+   "date": "1780-09-10",
+   "lane": "military",
+   "title": "Pollilur: a British army destroyed",
+   "summary": "Hyder Ali invades the Carnatic with 80,000 men, starting the Second Anglo-Mysore War. At Pollilur, near Kanchipuram, Tipu surrounds and destroys Colonel Baillie's force. Mysore rockets blow up its ammunition carts. It is one of the worst British defeats in India, and Tipu later has it painted on the walls of his summer palace.",
+   "people": [
+    "tipu",
+    "hyder-ali",
+    "william-baillie"
+   ],
+   "places": [
+    "pollilur"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "second-anglo-mysore",
+    "mysorean-rockets"
+   ],
+   "wiki": "Battle of Pollilur (1780)",
+   "major": true
+  },
+  {
+   "id": "hyder-dies",
+   "date": "1782-12-07",
+   "lane": "life",
+   "title": "Hyder Ali dies; Tipu succeeds",
+   "summary": "Hyder Ali dies of an illness in camp near Chittoor in the middle of the war. His death is kept secret until Tipu, fighting on the west coast, can return and take command.",
+   "people": [
+    "hyder-ali",
+    "tipu"
+   ],
+   "wiki": "Tipu Sultan",
+   "major": true
+  },
+  {
+   "id": "treaty-mangalore",
+   "date": "1784-03-11",
+   "lane": "political",
+   "title": "The Treaty of Mangalore",
+   "summary": "After taking back Bednur and besieging Mangalore, Tipu makes peace with the British on equal terms. Both sides return their conquests and prisoners. It is the last treaty in which an Indian ruler deals with the Company as an equal.",
+   "people": [
+    "tipu"
+   ],
+   "places": [
+    "mangalore"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "treaty-mangalore",
+    "second-anglo-mysore"
+   ],
+   "wiki": "Treaty of Mangalore"
+  },
+  {
+   "id": "daria-daulat",
+   "date": "1784",
+   "lane": "forts",
+   "title": "Daria Daulat Bagh",
+   "summary": "Tipu builds his summer palace, the Daria Daulat Bagh, in a garden on the island of Srirangapatna. Its teak walls are painted with scenes including the victory at Pollilur. He also finishes Lal Bagh, the garden Hyder began at Bangalore, and fills it with plants from Kabul, Persia and Mauritius.",
+   "people": [
+    "tipu",
+    "hyder-ali"
+   ],
+   "places": [
+    "daria-daulat",
+    "srirangapatna",
+    "lal-bagh"
+   ],
+   "wiki": "Daria Daulat Bagh",
+   "approx": true
+  },
+  {
+   "id": "padshah",
+   "date": "1786",
+   "lane": "political",
+   "title": "Tipu calls himself Padshah",
+   "summary": "Tipu stops recognising the Mughal emperor and takes the title Padshah (emperor). He brings in a new calendar, new coins and new weights and measures, state trading monopolies, and silk farming. He sends embassies to the Ottoman sultan in Constantinople and, in 1787–88, to Louis XVI of France.",
+   "people": [
+    "tipu",
+    "louis-xvi"
+   ],
+   "polities": [
+    "mysore-kingdom"
+   ],
+   "wiki": "Tipu Sultan",
+   "major": true
+  },
+  {
+   "id": "gajendragad",
+   "date": "1787-04",
+   "lane": "military",
+   "title": "War with the Marathas and the Nizam",
+   "summary": "The Marathas under Nana Phadnavis and the Nizam fight Tipu over territory north of the Tungabhadra. At the peace of Gajendragad he keeps most of his lands but pays tribute and gives up Badami and a few other towns.",
+   "people": [
+    "tipu",
+    "nana-phadnavis",
+    "nizam-ali"
+   ],
+   "polities": [
+    "maratha-empire",
+    "hyderabad-state"
+   ],
+   "concepts": [
+    "maratha-mysore-wars"
+   ],
+   "see": "nana-phadnavis"
+  },
+  {
+   "id": "travancore",
+   "date": "1789-12-29",
+   "lane": "military",
+   "title": "Tipu attacks the Travancore Lines",
+   "summary": "Tipu attacks the Nedumkotta, a line of walls and ditches protecting Travancore, a British ally. The attack fails, but it gives Lord Cornwallis the reason he wants to go to war, allied with the Marathas and the Nizam.",
+   "people": [
+    "tipu"
+   ],
+   "places": [
+    "nedumkotta"
+   ],
+   "polities": [
+    "travancore",
+    "east-india-company"
+   ],
+   "concepts": [
+    "third-anglo-mysore"
+   ],
+   "wiki": "Battle of Nedumkotta"
+  },
+  {
+   "id": "bangalore-1791",
+   "date": "1791-03-21",
+   "lane": "military",
+   "title": "Cornwallis takes Bangalore",
+   "summary": "The Governor-General, Lord Cornwallis, takes command himself and storms Bangalore. His army reaches Srirangapatna in May but has to retreat for lack of supplies. Mysore rockets harass the British columns throughout the campaign.",
+   "people": [
+    "cornwallis",
+    "tipu"
+   ],
+   "places": [
+    "bangalore"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "third-anglo-mysore",
+    "mysorean-rockets"
+   ],
+   "wiki": "Siege of Bangalore"
+  },
+  {
+   "id": "treaty-seringapatam",
+   "date": "1792-03-18",
+   "lane": "political",
+   "title": "The Treaty of Seringapatam",
+   "summary": "With British, Maratha and Nizam armies around his capital, Tipu signs the Treaty of Seringapatam. He gives up half his kingdom, pays a huge indemnity, and hands over two of his young sons as hostages until it is paid.",
+   "people": [
+    "tipu",
+    "cornwallis",
+    "nana-phadnavis",
+    "nizam-ali"
+   ],
+   "places": [
+    "srirangapatna"
+   ],
+   "polities": [
+    "east-india-company",
+    "maratha-empire",
+    "hyderabad-state"
+   ],
+   "concepts": [
+    "treaty-seringapatam",
+    "third-anglo-mysore"
+   ],
+   "wiki": "Treaty of Seringapatam",
+   "see": "nana-phadnavis",
+   "major": true
+  },
+  {
+   "id": "tipus-tiger",
+   "date": "1795",
+   "lane": "political",
+   "title": "Tipu's Tiger",
+   "summary": "Tipu's craftsmen make a life-size wooden tiger mauling a European soldier, with a small organ inside that imitates the tiger's roars and the man's cries. The tiger is Tipu's emblem, on his throne, his uniforms and his guns. The British take it in 1799, and it is now in the Victoria and Albert Museum in London.",
+   "people": [
+    "tipu"
+   ],
+   "concepts": [
+    "tipus-tiger"
+   ],
+   "wiki": "Tipu's Tiger",
+   "approx": true
+  },
+  {
+   "id": "france",
+   "date": "1798",
+   "lane": "world",
+   "title": "Letters to France and Napoleon",
+   "summary": "Tipu sends envoys to the French in Mauritius, and a few French volunteers come to Srirangapatna. Napoleon, invading Egypt, writes to Tipu promising to free him from 'the iron yoke of England'. The new Governor-General, Richard Wellesley, treats the threat as a reason for war.",
+   "people": [
+    "tipu",
+    "napoleon",
+    "richard-wellesley"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "wiki": "Napoleon",
+   "approx": true
+  },
+  {
+   "id": "srirangapatna-1799",
+   "date": "1799-05-04",
+   "lane": "military",
+   "title": "Tipu dies at Srirangapatna",
+   "summary": "British and Hyderabad armies besiege Srirangapatna. On 4 May they storm the breach at midday under David Baird, while Arthur Wellesley commands the reserve. Tipu is killed fighting near the Water Gate, and his body is found under a heap of dead. The city is sacked.",
+   "people": [
+    "tipu",
+    "david-baird",
+    "wellesley",
+    "richard-wellesley"
+   ],
+   "places": [
+    "srirangapatna"
+   ],
+   "polities": [
+    "east-india-company",
+    "hyderabad-state"
+   ],
+   "concepts": [
+    "fourth-anglo-mysore"
+   ],
+   "wiki": "Siege of Seringapatam (1799)",
+   "see": "british-india",
+   "major": true
+  },
+  {
+   "id": "restoration",
+   "date": "1799-06-30",
+   "lane": "life",
+   "title": "A Wodeyar is restored",
+   "summary": "The British put the five-year-old Krishnaraja Wodeyar III on the throne of a much-reduced Mysore, with Purnaiah, Tipu's old minister, as dewan. Mysore becomes a subsidiary state paying for a British garrison, and the capital moves back to Mysore city. The rest of Tipu's lands go to the British and the Nizam.",
+   "people": [
+    "krishnaraja-iii",
+    "purnaiah"
+   ],
+   "places": [
+    "mysore-city"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "subsidiary-alliance"
+   ],
+   "wiki": "Krishnaraja Wodeyar III",
+   "major": true
+  },
+  {
+   "id": "congreve",
+   "date": "1804",
+   "lane": "world",
+   "title": "Mysore rockets go to Europe",
+   "summary": "Studying iron-cased rockets captured at Srirangapatna, William Congreve develops the Congreve rocket at Woolwich. The British use it against Napoleon's forces and at Fort McHenry in 1814, where it gives 'the rockets' red glare' in the American national anthem.",
+   "concepts": [
+    "congreve-rocket",
+    "mysorean-rockets"
+   ],
+   "wiki": "Congreve rocket",
+   "approx": true
+  },
+  {
+   "id": "nagar-revolt",
+   "date": "1831",
+   "lane": "political",
+   "title": "The Nagar revolt and British rule",
+   "summary": "Heavy taxes and misgovernment lead to a peasant rising around Nagar (Bednur). The British take over the administration and rule Mysore through a commissioner for fifty years. Mark Cubbon governs it for most of that time from Bangalore.",
+   "people": [
+    "krishnaraja-iii"
+   ],
+   "places": [
+    "bednur",
+    "bangalore"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "nagar-revolt"
+   ],
+   "wiki": "Nagar revolt",
+   "major": true
+  },
+  {
+   "id": "rendition",
+   "date": "1881-03-25",
+   "lane": "political",
+   "title": "The Rendition of Mysore",
+   "summary": "The British return Mysore to Chamarajendra Wadiyar X, whom Krishnaraja III had adopted before his death. Mysore becomes one of the first princely states to have a representative assembly, set up in 1881.",
+   "people": [
+    "chamarajendra-x"
+   ],
+   "polities": [
+    "mysore-kingdom",
+    "british-raj"
+   ],
+   "wiki": "Chamarajendra Wadiyar X"
+  },
+  {
+   "id": "palace",
+   "date": "1912",
+   "lane": "forts",
+   "title": "The new Mysore Palace",
+   "summary": "After the old wooden palace burns down during a wedding in 1897, the Amba Vilas palace is built in an Indo-Saracenic style by the British architect Henry Irwin. It is finished in 1912 and is now one of the most visited monuments in India, lit up with thousands of bulbs during Dasara.",
+   "people": [
+    "krishnaraja-iv"
+   ],
+   "places": [
+    "mysore-palace",
+    "mysore-city"
+   ],
+   "concepts": [
+    "mysore-dasara"
+   ],
+   "wiki": "Mysore Palace"
+  },
+  {
+   "id": "visvesvaraya",
+   "date": "1912",
+   "lane": "political",
+   "title": "Visvesvaraya and a model state",
+   "summary": "Krishnaraja Wadiyar IV appoints the engineer M. Visvesvaraya as dewan. Mysore builds the Krishna Raja Sagara dam on the Kaveri, the University of Mysore (1916) and state industries. It was among the first places in Asia to have hydroelectric power, at Shivanasamudra in 1902, and is often called a model state.",
+   "people": [
+    "visvesvaraya",
+    "krishnaraja-iv"
+   ],
+   "places": [
+    "krs-dam"
+   ],
+   "wiki": "M. Visvesvaraya"
+  },
+  {
+   "id": "accession",
+   "date": "1947-08-09",
+   "lane": "political",
+   "title": "Mysore joins India",
+   "summary": "Jayachamarajendra Wadiyar signs the Instrument of Accession to India. Mysore State becomes part of the Indian Union with the Maharaja as its Rajpramukh, and in 1956 the Kannada-speaking regions are united around it in the state now called Karnataka.",
+   "people": [
+    "jayachamarajendra"
+   ],
+   "polities": [
+    "mysore-state",
+    "republic-of-india"
+   ],
+   "concepts": [
+    "princely-integration"
+   ],
+   "wiki": "Mysore State",
+   "major": true
+  }
+ ]
+}

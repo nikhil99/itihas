@@ -147,7 +147,7 @@
       "people": ["bajirao-ii", "nana-phadnavis", "daulatrao-shinde"], "places": ["pune"], "concepts": ["peshwa"], "see": "bajirao-ii"
     },
     {
-      "id": "tipu-falls", "date": "1799-05-04", "lane": "world",
+      "id": "tipu-falls", "see": "kingdom-of-mysore", "date": "1799-05-04", "lane": "world",
       "title": "Tipu Sultan killed at Srirangapatna",
       "summary": "The British storm Srirangapatna and Tipu dies defending it. The Marathas are now the only major Indian power left facing the Company.",
       "people": ["tipu", "wellesley"], "places": ["srirangapatna"], "polities": ["mysore-kingdom", "east-india-company"], "wiki": "Siege of Seringapatam (1799)"

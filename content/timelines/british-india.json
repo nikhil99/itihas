@@ -383,7 +383,7 @@
   {"id": "fort-william-1696", "date": "1696", "lane": "forts", "title": "Fort William begun", "summary": "The Company starts fortifying its Calcutta settlement as Fort William.", "approx": true, "places": ["fort-william", "kolkata"]},
   {"id": "arcot", "date": "1751-09", "lane": "military", "title": "Siege of Arcot", "summary": "Robert Clive seizes Arcot and holds it for fifty days, turning the Carnatic war against the French.", "approx": true, "people": ["robert-clive"], "places": ["arcot"], "polities": ["french-india"], "concepts": ["carnatic-wars"]},
   {"id": "wandiwash", "date": "1760-01-22", "lane": "military", "title": "Battle of Wandiwash", "summary": "Eyre Coote defeats the French under Lally; French power in India is broken.", "places": ["wandiwash"], "polities": ["french-india"], "concepts": ["carnatic-wars"]},
-  {"id": "srirangapatna-1799", "date": "1799-05-04", "lane": "military", "title": "Tipu Sultan killed at Srirangapatna", "summary": "The Company storms Tipu's capital; he dies at the gate, ending the Anglo-Mysore wars.", "people": ["tipu", "wellesley"], "places": ["srirangapatna"], "polities": ["mysore-kingdom"], "concepts": ["anglo-mysore-wars"]},
+  {"id": "srirangapatna-1799", "see": "kingdom-of-mysore", "date": "1799-05-04", "lane": "military", "title": "Tipu Sultan killed at Srirangapatna", "summary": "The Company storms Tipu's capital; he dies at the gate, ending the Anglo-Mysore wars.", "people": ["tipu", "wellesley"], "places": ["srirangapatna"], "polities": ["mysore-kingdom"], "concepts": ["anglo-mysore-wars"]},
   {"id": "delhi-1803", "date": "1803-09-11", "lane": "military", "title": "Battle of Delhi", "summary": "Lake defeats Shinde's army outside Delhi; the Mughal emperor passes under British protection.", "people": ["gerard-lake", "shah-alam-ii"], "places": ["delhi"], "polities": ["gwalior-state"], "concepts": ["anglo-maratha-wars"]},
   {"id": "vellore-mutiny", "date": "1806-07-10", "lane": "military", "title": "Vellore mutiny", "summary": "Sepoys at Vellore rise against new dress rules, a rehearsal for 1857.", "places": ["vellore"]},
   {"id": "koregaon-1818-b", "date": "1818-01-01", "lane": "military", "title": "Battle of Koregaon", "summary": "A small Company force with many Mahar soldiers holds Koregaon against the Peshwa's army.", "people": ["bajirao-ii"], "places": ["koregaon"], "polities": ["maratha-empire"]},
@@ -660,6 +660,7 @@
   },
   {
    "id": "mysore-wars",
+   "see": "kingdom-of-mysore",
    "date": "1767",
    "end": "1799",
    "lane": "military",
@@ -909,6 +910,7 @@
   },
   {
    "id": "sikh-wars",
+   "see": "sikh-empire",
    "date": "1845-12",
    "end": "1849-03-29",
    "lane": "military",

@@ -1,0 +1,870 @@
+{
+ "id": "sikh-empire",
+ "kind": "empire",
+ "order": 4.7,
+ "title": "The Sikh Empire",
+ "subtitle": "Ranjit Singh's kingdom of the Punjab · 1799 – 1849",
+ "subject": "sikh-empire",
+ "range": [
+  1700,
+  1860
+ ],
+ "focus": [
+  1799,
+  1849
+ ],
+ "intro": "After Guru Gobind Singh's death the Khalsa he had founded fought the Mughal governors and then the Afghan armies of Ahmad Shah Abdali for most of the 18th century, organised in a dozen warrior bands, the misls. In 1799 the nineteen-year-old chief of one of them, Ranjit Singh, rode into Lahore. Over the next forty years he united the Punjab and conquered Multan, Kashmir and Peshawar, built a European-trained army that was the strongest in India outside the British, and held the Afghans and the East India Company both at bay. Within ten years of his death in 1839 palace murders, an army out of control and two hard-fought wars with the British had ended the kingdom. It was the last major Indian state to fall.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Rulers & the court"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Forts, shrines & cities"
+  },
+  {
+   "id": "political",
+   "label": "Treaties, army & state"
+  },
+  {
+   "id": "world",
+   "label": "The British, the Afghans & the world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Maharajas",
+   "members": [
+    {
+     "entity": "ranjit-singh",
+     "from": 1799.5,
+     "to": 1839.5,
+     "group": "sikh-empire",
+     "note": "Took Lahore in 1799; proclaimed Maharaja of the Punjab in 1801"
+    },
+    {
+     "entity": "kharak-singh",
+     "from": 1839.5,
+     "to": 1840.85,
+     "group": "sikh-empire",
+     "note": "Ill and sidelined; died, probably of poison"
+    },
+    {
+     "entity": "nau-nihal-singh",
+     "from": 1839.8,
+     "to": 1840.85,
+     "group": "sikh-empire",
+     "note": "Real power under his father; killed by a falling archway on the day of his father's funeral"
+    },
+    {
+     "entity": "chand-kaur",
+     "from": 1840.85,
+     "to": 1841.05,
+     "group": "sikh-empire",
+     "note": "Kharak Singh's widow; regent until Sher Singh took Lahore"
+    },
+    {
+     "entity": "sher-singh",
+     "from": 1841.05,
+     "to": 1843.7,
+     "group": "sikh-empire",
+     "note": "Assassinated by the Sandhawalia chiefs"
+    },
+    {
+     "entity": "duleep-singh",
+     "from": 1843.7,
+     "to": 1849.25,
+     "group": "sikh-empire",
+     "note": "Became king at five, with his mother Jind Kaur as regent; deposed by the British"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "mughal-empire",
+   "label": "Mughal Empire",
+   "from": 1700,
+   "to": 1857
+  },
+  {
+   "entity": "durrani-empire",
+   "label": "Durrani Empire (Afghanistan)",
+   "from": 1747,
+   "to": 1823
+  },
+  {
+   "entity": "sikh-confederacy",
+   "label": "The Sikh misls",
+   "from": 1733,
+   "to": 1799
+  },
+  {
+   "entity": "maratha-empire",
+   "label": "Maratha Empire",
+   "from": 1700,
+   "to": 1818
+  },
+  {
+   "entity": "east-india-company",
+   "label": "East India Company",
+   "from": 1757,
+   "to": 1858
+  },
+  {
+   "entity": "dogra-jammu",
+   "label": "Dogra Jammu & Kashmir",
+   "from": 1846,
+   "to": 1860
+  }
+ ],
+ "events": [
+  {
+   "id": "gobind-singh-dies",
+   "date": "1708-10-07",
+   "lane": "life",
+   "title": "Guru Gobind Singh dies at Nanded",
+   "summary": "The tenth Guru, Guru Gobind Singh, who founded the Khalsa in 1699, dies at Nanded in the Deccan after an attack by an assassin. He declares that after him the scripture, the Guru Granth Sahib, and the Khalsa itself will be the Guru, ending the line of human Gurus.",
+   "people": [
+    "guru-gobind-singh"
+   ],
+   "places": [
+    "nanded"
+   ],
+   "concepts": [
+    "khalsa",
+    "adi-granth"
+   ],
+   "wiki": "Guru Gobind Singh",
+   "major": true
+  },
+  {
+   "id": "sirhind",
+   "date": "1710-05-12",
+   "lane": "military",
+   "title": "Banda Singh Bahadur takes Sirhind",
+   "summary": "Banda Singh Bahadur, sent to the Punjab by Guru Gobind Singh, raises the Sikh peasantry. At Chappar Chiri he defeats and kills Wazir Khan, the Mughal governor of Sirhind who had executed the Guru's two youngest sons, and sacks the town. He sets up the first Sikh state, striking coins in the Guru's name and giving land to those who till it.",
+   "people": [
+    "banda-bahadur",
+    "wazir-khan-sirhind"
+   ],
+   "places": [
+    "sirhind"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "wiki": "Battle of Chappar Chiri",
+   "major": true
+  },
+  {
+   "id": "banda-executed",
+   "date": "1716-06-09",
+   "lane": "life",
+   "title": "Banda is executed in Delhi",
+   "summary": "After an eight-month siege at Gurdas Nangal, Banda and hundreds of his followers are captured and taken to Delhi. They are executed after refusing to convert. For the next thirty years Mughal governors hunt the Sikhs, who survive in bands in the jungles and hills.",
+   "people": [
+    "banda-bahadur",
+    "farrukhsiyar"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "wiki": "Banda Singh Bahadur"
+  },
+  {
+   "id": "nader-shah",
+   "date": "1739",
+   "lane": "world",
+   "title": "Nader Shah crosses the Punjab",
+   "summary": "Nader Shah of Persia invades India, sacks Delhi and carries off the Peacock Throne and the Koh-i-Noor. Sikh bands harass his army as it returns loaded with plunder through the Punjab. Mughal authority in the province never recovers.",
+   "people": [
+    "nader-shah"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "concepts": [
+    "koh-i-noor"
+   ],
+   "wiki": "Nader Shah's invasion of the Mughal Empire"
+  },
+  {
+   "id": "dal-khalsa",
+   "date": "1748-03-29",
+   "lane": "political",
+   "title": "The Dal Khalsa",
+   "summary": "At Amritsar on Baisakhi, the Sarbat Khalsa (the whole Sikh community) organises its fighting bands into the Dal Khalsa under Jassa Singh Ahluwalia. Its eleven or twelve misls, each under its own chief, fight together in wartime and meet twice a year at Amritsar to decide common policy.",
+   "people": [
+    "jassa-singh-ahluwalia"
+   ],
+   "places": [
+    "amritsar"
+   ],
+   "polities": [
+    "sikh-confederacy"
+   ],
+   "concepts": [
+    "sarbat-khalsa"
+   ],
+   "wiki": "Sikh Confederacy",
+   "major": true
+  },
+  {
+   "id": "ghallughara",
+   "date": "1762-02-05",
+   "lane": "military",
+   "title": "The Great Massacre",
+   "summary": "Ahmad Shah Abdali catches a large Sikh caravan of fighters and families near Kup, in the Malwa region of the Punjab. Many thousands are killed in a single day, the Vadda Ghallughara. In April Abdali blows up the Harmandir Sahib at Amritsar and fills its sacred pool. Within months the Sikhs are back in the field.",
+   "people": [
+    "abdali"
+   ],
+   "places": [
+    "kup",
+    "golden-temple"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "concepts": [
+    "vadda-ghallughara"
+   ],
+   "wiki": "Vadda Ghallughara",
+   "major": true
+  },
+  {
+   "id": "lahore-1765",
+   "date": "1765",
+   "lane": "military",
+   "title": "The misls take Lahore",
+   "summary": "With Abdali's power waning, the Sikh misls take Lahore and divide the Punjab between them. They strike silver coins in the name of the Gurus. Abdali's last invasions fail to dislodge them, and the Durrani empire loses the Punjab for good.",
+   "places": [
+    "lahore"
+   ],
+   "polities": [
+    "sikh-confederacy",
+    "durrani-empire"
+   ],
+   "wiki": "Sikh Confederacy"
+  },
+  {
+   "id": "delhi-1783",
+   "date": "1783-03",
+   "lane": "military",
+   "title": "Baghel Singh in Delhi",
+   "summary": "A Sikh army under Baghel Singh enters Delhi and briefly occupies the Red Fort. In return for withdrawing, the Mughal emperor Shah Alam II lets Baghel Singh build gurdwaras at the sites in Delhi linked with the Sikh Gurus, including where Guru Tegh Bahadur was executed.",
+   "people": [
+    "baghel-singh",
+    "shah-alam-ii",
+    "guru-tegh-bahadur"
+   ],
+   "places": [
+    "delhi",
+    "red-fort"
+   ],
+   "polities": [
+    "mughal-empire"
+   ],
+   "wiki": "Baghel Singh"
+  },
+  {
+   "id": "ranjit-born",
+   "date": "1780-11-13",
+   "lane": "life",
+   "title": "Ranjit Singh is born",
+   "summary": "Ranjit Singh is born at Gujranwala, son of Maha Singh, chief of the Sukerchakia misl. Smallpox in childhood leaves him blind in one eye and scarred. He becomes chief at about twelve, when his father dies, and soon shows himself a fine horseman and a shrewd judge of men.",
+   "people": [
+    "ranjit-singh",
+    "maha-singh"
+   ],
+   "places": [
+    "gujranwala"
+   ],
+   "polities": [
+    "sukerchakia"
+   ],
+   "wiki": "Ranjit Singh",
+   "major": true
+  },
+  {
+   "id": "lahore-1799",
+   "date": "1799-07-07",
+   "lane": "military",
+   "title": "Ranjit Singh takes Lahore",
+   "summary": "The citizens of Lahore, tired of the three misl chiefs who share and misrule it, invite Ranjit Singh in. He enters the city with little fighting. The Afghan king Zaman Shah had already recognised him as governor of the Punjab, but now Lahore, the old capital of the province, is his own.",
+   "people": [
+    "ranjit-singh"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "polities": [
+    "sikh-empire",
+    "durrani-empire"
+   ],
+   "wiki": "Ranjit Singh",
+   "major": true
+  },
+  {
+   "id": "maharaja",
+   "date": "1801-04-12",
+   "lane": "life",
+   "title": "Maharaja of the Punjab",
+   "summary": "On Baisakhi Ranjit Singh is proclaimed Maharaja of the Punjab. He wears no crown and never sits on a throne in court. He strikes coins in the Gurus' name and calls his government the Sarkar-i-Khalsa, the government of the Khalsa.",
+   "people": [
+    "ranjit-singh"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "polities": [
+    "sikh-empire"
+   ],
+   "wiki": "Sikh Empire",
+   "major": true
+  },
+  {
+   "id": "amritsar-1802",
+   "date": "1802",
+   "lane": "military",
+   "title": "Amritsar and the Bhangi guns",
+   "summary": "Ranjit Singh takes Amritsar from the Bhangi misl, gaining the Sikhs' holiest city and the great Zamzama gun. Over the next years he absorbs or subdues the other misls north of the Sutlej one by one.",
+   "people": [
+    "ranjit-singh"
+   ],
+   "places": [
+    "amritsar"
+   ],
+   "polities": [
+    "sikh-confederacy"
+   ],
+   "wiki": "Bhangi Misl"
+  },
+  {
+   "id": "holkar-1805",
+   "date": "1805-12",
+   "lane": "world",
+   "title": "Yashwantrao Holkar seeks help in the Punjab",
+   "summary": "Defeated by the British, Yashwantrao Holkar comes to the Punjab with an army and asks Ranjit Singh to join him against the Company. Ranjit Singh, with Lord Lake's army camped at the Beas, refuses. The first Anglo-Sikh agreement, of January 1806, keeps Holkar out of the Punjab.",
+   "people": [
+    "yashwantrao-holkar",
+    "ranjit-singh",
+    "gerard-lake"
+   ],
+   "polities": [
+    "east-india-company",
+    "indore-state"
+   ],
+   "wiki": "Yashwantrao Holkar",
+   "see": "yashwantrao-holkar"
+  },
+  {
+   "id": "amritsar-1809",
+   "date": "1809-04-25",
+   "lane": "political",
+   "title": "The Treaty of Amritsar",
+   "summary": "Ranjit Singh has been taking the Sikh states south of the Sutlej. The Company sends Charles Metcalfe and a force to stop him, and he signs the Treaty of Amritsar. The Sutlej becomes the border, the cis-Sutlej states come under British protection, and Ranjit Singh is free to expand north and west instead.",
+   "people": [
+    "ranjit-singh",
+    "charles-metcalfe"
+   ],
+   "places": [
+    "amritsar"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "treaty-amritsar-1809"
+   ],
+   "wiki": "Treaty of Amritsar (1809)",
+   "major": true
+  },
+  {
+   "id": "kangra",
+   "date": "1809-08",
+   "lane": "military",
+   "title": "Kangra Fort",
+   "summary": "The Gurkhas of Nepal besiege Kangra Fort, held by Raja Sansar Chand of the hill state of Kangra. He asks Ranjit Singh for help, and in return Ranjit Singh takes the fort himself. It gives him control of the Kangra valley and the hill states.",
+   "people": [
+    "sansar-chand",
+    "ranjit-singh"
+   ],
+   "places": [
+    "kangra-fort"
+   ],
+   "wiki": "Kangra Fort"
+  },
+  {
+   "id": "koh-i-noor",
+   "date": "1813-06",
+   "lane": "political",
+   "title": "The Koh-i-Noor comes to Lahore",
+   "summary": "Shah Shuja, the deposed king of Afghanistan, is a refugee at Lahore. After months of pressure he gives Ranjit Singh the Koh-i-Noor diamond, which Nader Shah took from Delhi in 1739. Ranjit Singh wears it on his arm on great occasions.",
+   "people": [
+    "shah-shuja",
+    "ranjit-singh"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "koh-i-noor"
+   ],
+   "wiki": "Koh-i-Noor",
+   "major": true
+  },
+  {
+   "id": "attock",
+   "date": "1813-07-13",
+   "lane": "military",
+   "title": "The Battle of Attock",
+   "summary": "Ranjit Singh's commanders defeat the Afghan wazir Fateh Khan at Attock on the Indus. It is the first Sikh victory over the Durranis in open battle, and it secures the crossing of the Indus.",
+   "people": [
+    "ranjit-singh"
+   ],
+   "places": [
+    "attock"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "wiki": "Battle of Attock (1813)"
+  },
+  {
+   "id": "multan",
+   "date": "1818-06-02",
+   "lane": "military",
+   "title": "The conquest of Multan",
+   "summary": "After several attempts, a Sikh army storms Multan, the rich trading city of the south-western Punjab. Akali Phula Singh's Nihangs lead the assault and the Afghan governor Muzaffar Khan dies defending the citadel with his sons.",
+   "people": [
+    "ranjit-singh",
+    "akali-phula-singh"
+   ],
+   "places": [
+    "multan"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "wiki": "Siege of Multan (1818)",
+   "major": true
+  },
+  {
+   "id": "kashmir",
+   "date": "1819-07-03",
+   "lane": "military",
+   "title": "The conquest of Kashmir",
+   "summary": "At Shopian, a Sikh army defeats the Afghan governor of Kashmir, ending five centuries of Muslim rule in the valley. Hari Singh Nalwa is later its governor. Kashmir's shawl trade and revenue make it one of the richest provinces of the kingdom.",
+   "people": [
+    "ranjit-singh",
+    "hari-singh-nalwa"
+   ],
+   "places": [
+    "srinagar"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "wiki": "Battle of Shopian",
+   "major": true
+  },
+  {
+   "id": "ventura-allard",
+   "date": "1822",
+   "lane": "political",
+   "title": "Napoleon's veterans come to Lahore",
+   "summary": "Jean-Baptiste Ventura and Jean-François Allard, officers of Napoleon's armies, arrive at Lahore looking for work. Ranjit Singh hires them to train his infantry and cavalry along French lines. Their Fauj-i-Khas, a model brigade with French drill and French words of command, becomes the core of a Khalsa army of some 70,000 men with modern artillery.",
+   "people": [
+    "ventura",
+    "allard",
+    "ranjit-singh"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "fauj-i-khas",
+    "sikh-khalsa-army"
+   ],
+   "wiki": "Fauj-i-Khas",
+   "major": true
+  },
+  {
+   "id": "nowshera",
+   "date": "1823-03-14",
+   "lane": "military",
+   "title": "The Battle of Nowshera",
+   "summary": "On the Kabul river beyond the Indus, Ranjit Singh defeats an Afghan and Yusufzai tribal army. Akali Phula Singh, the Nihang leader, is killed leading a charge. The victory opens the way to Peshawar.",
+   "people": [
+    "ranjit-singh",
+    "akali-phula-singh"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "wiki": "Battle of Nowshera"
+  },
+  {
+   "id": "golden-temple",
+   "date": "1830",
+   "lane": "forts",
+   "title": "The Harmandir Sahib is covered in gold",
+   "summary": "Ranjit Singh pays for the upper storeys of the Harmandir Sahib at Amritsar to be covered with gilded copper and its interior decorated with marble and frescoes. It has been called the Golden Temple ever since.",
+   "people": [
+    "ranjit-singh"
+   ],
+   "places": [
+    "golden-temple",
+    "amritsar"
+   ],
+   "wiki": "Golden Temple",
+   "major": true
+  },
+  {
+   "id": "ropar",
+   "date": "1831-10-26",
+   "lane": "world",
+   "title": "Meeting at Ropar",
+   "summary": "Ranjit Singh and the Governor-General, Lord William Bentinck, meet in a week of reviews and banquets on the Sutlej at Ropar. Both sides confirm their friendship. The British are already surveying the Indus as a route of trade and influence, which worries Ranjit Singh.",
+   "people": [
+    "ranjit-singh",
+    "bentinck"
+   ],
+   "places": [
+    "ropar"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "wiki": "Lord William Bentinck"
+  },
+  {
+   "id": "peshawar",
+   "date": "1834-05-06",
+   "lane": "military",
+   "title": "Peshawar is annexed",
+   "summary": "Hari Singh Nalwa takes Peshawar for direct Sikh rule, ending its Barakzai governors. In the same year the Dogra general Zorawar Singh, under Gulab Singh of Jammu, conquers Ladakh. The kingdom now stretches from the Khyber to the Sutlej and from Tibet to Sindh.",
+   "people": [
+    "hari-singh-nalwa",
+    "zorawar-singh",
+    "gulab-singh"
+   ],
+   "places": [
+    "peshawar",
+    "ladakh"
+   ],
+   "polities": [
+    "durrani-empire"
+   ],
+   "wiki": "Hari Singh Nalwa"
+  },
+  {
+   "id": "jamrud",
+   "date": "1837-04-30",
+   "lane": "military",
+   "title": "Hari Singh Nalwa dies at Jamrud",
+   "summary": "Dost Mohammad Khan of Kabul sends an army to retake Peshawar. At Jamrud, at the mouth of the Khyber Pass, the Afghans are driven off but Hari Singh Nalwa, the kingdom's most famous general, is killed. Peshawar stays Sikh.",
+   "people": [
+    "hari-singh-nalwa",
+    "dost-mohammad"
+   ],
+   "places": [
+    "jamrud",
+    "peshawar"
+   ],
+   "wiki": "Battle of Jamrud",
+   "major": true
+  },
+  {
+   "id": "tripartite-1838",
+   "date": "1838-06",
+   "lane": "world",
+   "title": "The Tripartite Treaty",
+   "summary": "The British, Ranjit Singh and the exiled Shah Shuja agree to put Shah Shuja back on the throne of Kabul. The next year the British march into Afghanistan, starting the First Anglo-Afghan War. It ends in 1842 with the destruction of their army in the retreat from Kabul.",
+   "people": [
+    "ranjit-singh",
+    "shah-shuja",
+    "auckland"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-afghan-1"
+   ],
+   "wiki": "First Anglo-Afghan War"
+  },
+  {
+   "id": "ranjit-dies",
+   "date": "1839-06-27",
+   "lane": "life",
+   "title": "Ranjit Singh dies",
+   "summary": "Ranjit Singh dies at Lahore after a series of strokes. Four of his queens and several maids burn on his funeral pyre. His samadhi stands beside the Lahore Fort. He leaves a rich, well-armed kingdom but no institutions and no strong heir, and the court is split between the Sikh chiefs and the powerful Dogra brothers from Jammu.",
+   "people": [
+    "ranjit-singh"
+   ],
+   "places": [
+    "lahore",
+    "ranjit-samadhi"
+   ],
+   "wiki": "Samadhi of Ranjit Singh",
+   "major": true
+  },
+  {
+   "id": "nau-nihal",
+   "date": "1840-11-05",
+   "lane": "life",
+   "title": "A double death",
+   "summary": "Kharak Singh, sidelined and ill, dies. Returning from the cremation the same day, his able son Nau Nihal Singh is struck by falling masonry from a gateway and dies of his injuries. Many suspected the Dogra minister Dhian Singh. The Lahore court enters years of violence.",
+   "people": [
+    "kharak-singh",
+    "nau-nihal-singh",
+    "dhian-singh"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "wiki": "Nau Nihal Singh",
+   "major": true
+  },
+  {
+   "id": "sher-singh",
+   "date": "1841-01",
+   "lane": "life",
+   "title": "Sher Singh takes the throne",
+   "summary": "Kharak Singh's widow Chand Kaur claims the regency, but Sher Singh, a son of Ranjit Singh, wins over the army and takes Lahore after a fight in the fort. From now on the army's panchayats, regimental committees, decide who rules.",
+   "people": [
+    "sher-singh",
+    "chand-kaur"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "sikh-khalsa-army"
+   ],
+   "wiki": "Sher Singh"
+  },
+  {
+   "id": "tibet-war",
+   "date": "1841-12",
+   "lane": "military",
+   "title": "Zorawar Singh dies in Tibet",
+   "summary": "Zorawar Singh, the Dogra general who conquered Ladakh and Baltistan, invades western Tibet towards Mansarovar. Caught by winter and a Tibetan and Chinese army, he is killed at To-yo. The war ends in 1842 with a treaty confirming the old Ladakh–Tibet border.",
+   "people": [
+    "zorawar-singh",
+    "gulab-singh"
+   ],
+   "places": [
+    "ladakh"
+   ],
+   "concepts": [
+    "dogra-tibetan-war"
+   ],
+   "wiki": "Dogra–Tibetan war"
+  },
+  {
+   "id": "sher-singh-killed",
+   "date": "1843-09-15",
+   "lane": "life",
+   "title": "Sher Singh is murdered",
+   "summary": "The Sandhawalia chiefs shoot Sher Singh and his young son, and then kill the minister Dhian Singh. Dhian Singh's son Hira Singh avenges him with the army's help. The five-year-old Duleep Singh, Ranjit Singh's youngest son, is made Maharaja with his mother, Jind Kaur, as regent.",
+   "people": [
+    "sher-singh",
+    "dhian-singh",
+    "duleep-singh",
+    "jind-kaur"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "wiki": "Duleep Singh",
+   "major": true
+  },
+  {
+   "id": "first-war",
+   "date": "1845-12-11",
+   "lane": "military",
+   "title": "The First Anglo-Sikh War",
+   "summary": "With the British massing troops on the border and the court eager to keep the restless army busy, the Khalsa army crosses the Sutlej. At Mudki and then Ferozeshah on 21–22 December, the British under Hugh Gough win at heavy cost. Ferozeshah is among the hardest battles the British ever fought in India. Some Sikh commanders are suspected of betraying their own army.",
+   "people": [
+    "hugh-gough",
+    "hardinge-i"
+   ],
+   "places": [
+    "sobraon"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-sikh-wars",
+    "sikh-khalsa-army"
+   ],
+   "wiki": "Battle of Ferozeshah",
+   "major": true
+  },
+  {
+   "id": "sobraon",
+   "date": "1846-02-10",
+   "lane": "military",
+   "title": "The Battle of Sobraon",
+   "summary": "After a Sikh defeat at Aliwal, the British storm the Sikh entrenchments at Sobraon on the Sutlej. The bridge of boats behind the Sikhs breaks and thousands drown or are shot in the river. The British march into Lahore.",
+   "people": [
+    "hugh-gough"
+   ],
+   "places": [
+    "sobraon"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "concepts": [
+    "anglo-sikh-wars"
+   ],
+   "wiki": "Battle of Sobraon",
+   "major": true
+  },
+  {
+   "id": "treaty-lahore",
+   "date": "1846-03-09",
+   "lane": "political",
+   "title": "The Treaties of Lahore and Amritsar",
+   "summary": "By the Treaty of Lahore the kingdom loses the Jalandhar doab, pays a large indemnity, and cuts its army. Unable to pay all of it, it hands over Kashmir, and a week later the British sell Kashmir and Jammu to Gulab Singh for 7.5 million rupees under the Treaty of Amritsar. The Dogra state of Jammu and Kashmir lasts until 1947.",
+   "people": [
+    "gulab-singh",
+    "duleep-singh",
+    "hardinge-i"
+   ],
+   "polities": [
+    "east-india-company",
+    "dogra-jammu"
+   ],
+   "concepts": [
+    "treaty-lahore-1846",
+    "treaty-amritsar-1846"
+   ],
+   "wiki": "Treaty of Amritsar (1846)",
+   "major": true
+  },
+  {
+   "id": "bhyrowal",
+   "date": "1846-12-16",
+   "lane": "political",
+   "title": "A British resident rules Lahore",
+   "summary": "Under the Treaty of Bhyrowal, a British resident, Henry Lawrence, and a council of Sikh chiefs govern in Duleep Singh's name until he comes of age. Jind Kaur is removed from power and later exiled to Benares. Duleep Singh keeps the throne in name only.",
+   "people": [
+    "henry-lawrence",
+    "jind-kaur",
+    "duleep-singh"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "polities": [
+    "east-india-company"
+   ],
+   "wiki": "Jind Kaur"
+  },
+  {
+   "id": "multan-1848",
+   "date": "1848-04-20",
+   "lane": "military",
+   "title": "The revolt at Multan",
+   "summary": "At Multan, two British officers sent to take over from the governor, Diwan Mulraj, are murdered. Mulraj is drawn into revolt, and over the summer much of the Sikh army joins in. The new Governor-General, Lord Dalhousie, decides to fight a war rather than restore the Lahore government.",
+   "people": [
+    "mulraj",
+    "dalhousie"
+   ],
+   "places": [
+    "multan"
+   ],
+   "concepts": [
+    "second-anglo-sikh-war"
+   ],
+   "wiki": "Siege of Multan (1848–1849)"
+  },
+  {
+   "id": "chillianwala",
+   "date": "1849-01-13",
+   "lane": "military",
+   "title": "Chillianwala",
+   "summary": "On the Jhelum, Gough attacks the Sikh army under Sher Singh Attariwala late in the day through dense jungle. The British lose some 2,400 men and several colours and guns. Both sides claim victory, and Gough is ordered to be replaced.",
+   "people": [
+    "hugh-gough"
+   ],
+   "places": [
+    "chillianwala"
+   ],
+   "concepts": [
+    "second-anglo-sikh-war"
+   ],
+   "wiki": "Battle of Chillianwala"
+  },
+  {
+   "id": "gujrat",
+   "date": "1849-02-21",
+   "lane": "military",
+   "title": "The Battle of Gujrat",
+   "summary": "Before his replacement arrives, Gough wins a decisive victory at Gujrat, using his artillery to break the Sikh lines. The Sikh army surrenders its arms a few weeks later at Rawalpindi.",
+   "people": [
+    "hugh-gough"
+   ],
+   "places": [
+    "gujrat-pak"
+   ],
+   "concepts": [
+    "second-anglo-sikh-war"
+   ],
+   "wiki": "Battle of Gujrat",
+   "major": true
+  },
+  {
+   "id": "annexation",
+   "date": "1849-03-29",
+   "lane": "political",
+   "title": "The Punjab is annexed",
+   "summary": "Dalhousie annexes the Punjab. The ten-year-old Duleep Singh is deposed, the state's property is confiscated, and the Koh-i-Noor is sent to Queen Victoria. Henry and John Lawrence govern the province. Eight years later Punjabi soldiers help the British crush the 1857 revolt.",
+   "people": [
+    "duleep-singh",
+    "dalhousie",
+    "henry-lawrence",
+    "john-lawrence",
+    "queen-victoria"
+   ],
+   "polities": [
+    "east-india-company",
+    "sikh-empire"
+   ],
+   "concepts": [
+    "koh-i-noor"
+   ],
+   "wiki": "Second Anglo-Sikh War",
+   "major": true
+  },
+  {
+   "id": "duleep-exile",
+   "date": "1854",
+   "lane": "life",
+   "title": "Duleep Singh goes to England",
+   "summary": "Duleep Singh, converted to Christianity in 1853, is sent to England, where he becomes a favourite of Queen Victoria. In later life he reconverts to Sikhism and tries to reclaim his kingdom. He dies in poverty in Paris in 1893.",
+   "people": [
+    "duleep-singh",
+    "queen-victoria"
+   ],
+   "places": [
+    "london"
+   ],
+   "wiki": "Duleep Singh"
+  }
+ ]
+}
