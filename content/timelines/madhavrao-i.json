@@ -62,7 +62,7 @@
       "people": ["madhavrao", "nizam-ali", "raghunathrao"], "places": ["pune"], "polities": ["hyderabad-state"]
     },
     {
-      "id": "mysore-1764", "date": "1764", "end": "1765", "lane": "military",
+      "id": "mysore-1764", "see": "kingdom-of-mysore", "date": "1764", "end": "1765", "lane": "military",
       "title": "First campaign against Hyder Ali",
       "summary": "Madhavrao leads the army into Karnataka against Hyder Ali, the new ruler of Mysore, and forces him to give up territory and pay tribute.",
       "people": ["madhavrao", "hyder-ali"], "polities": ["mysore-kingdom"], "concepts": ["maratha-mysore-wars"], "wiki": "Maratha–Mysore wars"

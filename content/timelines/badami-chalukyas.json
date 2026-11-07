@@ -1,0 +1,724 @@
+{
+ "id": "badami-chalukyas",
+ "kind": "empire",
+ "order": 0.5,
+ "title": "The Chalukyas of Badami",
+ "subtitle": "The Deccan empire of Vatapi, Aihole and Pattadakal · 543 – 757",
+ "subject": "badami-chalukya",
+ "range": [
+  530,
+  770
+ ],
+ "focus": [
+  543,
+  757
+ ],
+ "intro": "In 543 a chief named Pulakeshin fortified the red sandstone cliffs of Vatapi (Badami) and performed the horse sacrifice. Within seventy years his grandson Pulakeshin II had stopped Harsha, the master of the north, on the Narmada, and ruled from the Konkan to the Bay of Bengal. For two centuries the Chalukyas fought the Pallavas of Kanchi in a long war that saw each side sack the other's capital. Their temples at Badami, Aihole and Pattadakal are where the northern and southern styles of Hindu temple building grew up side by side. In 753 their Rashtrakuta feudatory Dantidurga overthrew them.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Kings & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Caves & temples"
+  },
+  {
+   "id": "political",
+   "label": "Inscriptions, language & faith"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Kings",
+   "members": [
+    {
+     "entity": "pulakeshin-i",
+     "from": 543,
+     "to": 566,
+     "group": "badami-chalukya",
+     "note": "Founder; fortified Vatapi and performed the ashvamedha"
+    },
+    {
+     "entity": "kirtivarman-i",
+     "from": 566,
+     "to": 597,
+     "group": "badami-chalukya"
+    },
+    {
+     "entity": "mangalesha",
+     "from": 597,
+     "to": 610,
+     "group": "badami-chalukya",
+     "note": "Kirtivarman's brother, regent and then king; killed in a civil war with his nephew"
+    },
+    {
+     "entity": "pulakeshin-ii",
+     "from": 610,
+     "to": 642,
+     "group": "badami-chalukya",
+     "note": "Defeated Harsha; killed when the Pallavas took Vatapi"
+    },
+    {
+     "entity": null,
+     "from": 642,
+     "to": 655,
+     "group": "badami-chalukya",
+     "name": "Pallava occupation",
+     "note": "Vatapi held by the Pallavas; Pulakeshin's sons fight over what is left"
+    },
+    {
+     "entity": "vikramaditya-i",
+     "from": 655,
+     "to": 680,
+     "group": "badami-chalukya",
+     "note": "Restored the kingdom"
+    },
+    {
+     "entity": "vinayaditya",
+     "from": 680,
+     "to": 696,
+     "group": "badami-chalukya"
+    },
+    {
+     "entity": "vijayaditya-chalukya",
+     "from": 696,
+     "to": 733,
+     "group": "badami-chalukya",
+     "note": "The longest and most peaceful reign"
+    },
+    {
+     "entity": "vikramaditya-ii",
+     "from": 733,
+     "to": 746,
+     "group": "badami-chalukya",
+     "note": "Took Kanchi three times"
+    },
+    {
+     "entity": "kirtivarman-ii",
+     "from": 746,
+     "to": 757,
+     "group": "badami-chalukya",
+     "note": "Overthrown by his Rashtrakuta feudatory Dantidurga"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "kadamba",
+   "label": "Kadambas of Banavasi",
+   "from": 530,
+   "to": 610
+  },
+  {
+   "entity": "vishnukundina",
+   "label": "Vishnukundinas",
+   "from": 530,
+   "to": 624
+  },
+  {
+   "entity": "pushyabhuti",
+   "label": "Harsha's empire",
+   "from": 606,
+   "to": 647
+  },
+  {
+   "entity": "pallava",
+   "label": "Pallavas of Kanchi",
+   "from": 530,
+   "to": 770
+  },
+  {
+   "entity": "eastern-chalukya",
+   "label": "Eastern Chalukyas (Vengi)",
+   "from": 624,
+   "to": 770
+  },
+  {
+   "entity": "western-ganga",
+   "label": "Western Gangas",
+   "from": 530,
+   "to": 770
+  },
+  {
+   "entity": "rashtrakuta",
+   "label": "Rashtrakutas",
+   "from": 735,
+   "to": 770
+  },
+  {
+   "entity": "umayyad",
+   "label": "Umayyad Caliphate",
+   "from": 661,
+   "to": 750
+  }
+ ],
+ "events": [
+  {
+   "id": "vatapi-fort",
+   "date": "0543",
+   "lane": "life",
+   "title": "Pulakeshin I fortifies Vatapi",
+   "summary": "An inscription cut into the cliff at Badami, dated Shaka 465 (543 CE), records that Pulakeshin I fortified the hill of Vatapi. He performs the ashvamedha and takes the title of an independent king. Until now the family were probably feudatories of the Kadambas.",
+   "people": [
+    "pulakeshin-i"
+   ],
+   "places": [
+    "badami"
+   ],
+   "polities": [
+    "badami-chalukya",
+    "kadamba"
+   ],
+   "concepts": [
+    "ashvamedha"
+   ],
+   "wiki": "Pulakeshin I",
+   "major": true
+  },
+  {
+   "id": "kirtivarman-banavasi",
+   "date": "0570",
+   "lane": "military",
+   "title": "Kirtivarman I breaks the Kadambas",
+   "summary": "Kirtivarman I conquers the Kadambas of Banavasi, the old overlords of the region, and also the Nalas and the Mauryas of the Konkan. The Chalukyas now hold most of northern Karnataka and reach the western coast.",
+   "people": [
+    "kirtivarman-i"
+   ],
+   "places": [
+    "banavasi"
+   ],
+   "polities": [
+    "kadamba"
+   ],
+   "wiki": "Kirtivarman I",
+   "approx": true
+  },
+  {
+   "id": "badami-cave-3",
+   "date": "0578",
+   "lane": "forts",
+   "title": "Badami Cave 3 is dedicated",
+   "summary": "Mangalesha dedicates the great Vishnu cave at Badami (Cave 3), with a dated inscription of Shaka 500 (578). Its huge carved panels of Vishnu as Trivikrama, Narasimha and seated on the serpent Shesha are among the finest early Hindu rock-cut sculpture. The four Badami caves, three Hindu and one Jain, are cut into the same cliff over the lake.",
+   "people": [
+    "mangalesha",
+    "kirtivarman-i"
+   ],
+   "places": [
+    "badami-caves",
+    "badami"
+   ],
+   "wiki": "Badami cave temples",
+   "major": true
+  },
+  {
+   "id": "mangalesha-kalachuri",
+   "date": "0601",
+   "lane": "military",
+   "title": "Mangalesha defeats the Kalachuris",
+   "summary": "Mangalesha defeats the Kalachuri king Buddharaja and pushes the frontier north towards the Narmada. He also takes Revatidvipa (near Goa) on the coast.",
+   "people": [
+    "mangalesha"
+   ],
+   "polities": [
+    "kalachuri-mahishmati"
+   ],
+   "wiki": "Mangalesha",
+   "approx": true
+  },
+  {
+   "id": "civil-war",
+   "date": "0610",
+   "lane": "life",
+   "title": "Pulakeshin II wins the throne",
+   "summary": "Mangalesha tries to keep the throne for his own son, passing over his nephew Pulakeshin, son of Kirtivarman I. Pulakeshin flees, gathers allies and defeats and kills his uncle. The kingdom's feudatories revolt in the confusion, and the new king spends his first years putting them down.",
+   "people": [
+    "pulakeshin-ii",
+    "mangalesha"
+   ],
+   "wiki": "Pulakeshin II",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "harsha-narmada",
+   "date": "0618",
+   "lane": "military",
+   "title": "Pulakeshin II stops Harsha on the Narmada",
+   "summary": "Harsha of Kannauj, master of northern India, marches south and is defeated on the banks of the Narmada. The Aihole inscription says Harsha's 'joy (harsha) melted away' as his elephants fell. Xuanzang confirms that Harsha could not conquer this king. The Narmada becomes the frontier between north and south. Some historians date the battle to the 630s.",
+   "people": [
+    "pulakeshin-ii",
+    "harsha"
+   ],
+   "places": [
+    "narmada"
+   ],
+   "polities": [
+    "pushyabhuti"
+   ],
+   "wiki": "Pulakeshin II",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "hijra",
+   "date": "0622",
+   "lane": "world",
+   "title": "The Hijra",
+   "summary": "The Prophet Muhammad and his followers move from Mecca to Medina, the start of the Islamic calendar. Within a century Arab armies will reach Sindh and the borders of the Chalukya kingdom in Gujarat.",
+   "people": [
+    "muhammad"
+   ],
+   "concepts": [
+    "hijra"
+   ],
+   "wiki": "Hijrah"
+  },
+  {
+   "id": "vengi",
+   "date": "0624",
+   "lane": "military",
+   "title": "The conquest of Vengi",
+   "summary": "Pulakeshin II marches east, defeats the Vishnukundinas and takes the rich Krishna–Godavari delta. He makes his brother Kubja Vishnuvardhana its viceroy. Vishnuvardhana's line soon becomes independent as the Eastern Chalukyas of Vengi, who rule for over 400 years and later marry into the Cholas.",
+   "people": [
+    "pulakeshin-ii",
+    "kubja-vishnuvardhana"
+   ],
+   "places": [
+    "vengi"
+   ],
+   "polities": [
+    "vishnukundina",
+    "eastern-chalukya"
+   ],
+   "wiki": "Kubja Vishnuvardhana",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "pullalur",
+   "date": "0625",
+   "lane": "military",
+   "title": "First war with the Pallavas",
+   "summary": "Pulakeshin II invades the Pallava kingdom and defeats Mahendravarman I at Pullalur, close to Kanchi. The city holds out, and Pulakeshin crosses the Kaveri to make alliances with the Cholas, Pandyas and Keralas. It starts a feud that lasts as long as both dynasties.",
+   "people": [
+    "pulakeshin-ii",
+    "mahendravarman-i"
+   ],
+   "places": [
+    "pullalur",
+    "kanchipuram"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "approx": true
+  },
+  {
+   "id": "aihole-inscription",
+   "date": "0634",
+   "lane": "political",
+   "title": "Ravikirti's Aihole inscription",
+   "summary": "At the Meguti Jain temple in Aihole, the court poet Ravikirti carves a Sanskrit eulogy of Pulakeshin II, recounting the dynasty's history and his victories over Harsha, the Kadambas, the Gangas, the Pallavas and others. He dates it 3,735 years after the Mahabharata war and claims fame equal to Kalidasa and Bharavi. It is one of the most important inscriptions of early India.",
+   "people": [
+    "ravikirti",
+    "pulakeshin-ii",
+    "harsha"
+   ],
+   "places": [
+    "meguti",
+    "aihole"
+   ],
+   "concepts": [
+    "aihole-inscription"
+   ],
+   "wiki": "Aihole inscription",
+   "major": true
+  },
+  {
+   "id": "persia-embassy",
+   "date": "0625",
+   "lane": "world",
+   "title": "An embassy to Persia",
+   "summary": "The Arab historian al-Tabari records that Pulakeshin II exchanged gifts and letters with the Sasanian king Khosrow II of Persia. A painting in Ajanta Cave 1 of foreigners at a court was once thought to show the embassy, though that reading is now doubted.",
+   "people": [
+    "pulakeshin-ii",
+    "khosrow-ii"
+   ],
+   "places": [
+    "ajanta"
+   ],
+   "polities": [
+    "sasanian"
+   ],
+   "wiki": "Khosrow II",
+   "approx": true
+  },
+  {
+   "id": "tang",
+   "date": "0618",
+   "lane": "world",
+   "title": "The Tang dynasty",
+   "summary": "The Tang dynasty unites China. Under it the pilgrim Xuanzang makes his journey to India, and Chinese and Indian monks, envoys and merchants travel between the two countries.",
+   "polities": [
+    "tang-dynasty"
+   ],
+   "wiki": "Tang dynasty"
+  },
+  {
+   "id": "xuanzang",
+   "date": "0641",
+   "lane": "political",
+   "title": "Xuanzang visits the Chalukya kingdom",
+   "summary": "The Chinese pilgrim Xuanzang visits 'Mo-ho-la-cha' (Maharashtra) and describes Pulakeshin II as a warlike king whom Harsha could not subdue. His people are 'tall, proud and simple', grateful for favours and revengeful of wrongs, and his armies fight with drugged elephants. He counts about a hundred Buddhist monasteries and many Hindu temples.",
+   "people": [
+    "xuanzang",
+    "pulakeshin-ii",
+    "harsha"
+   ],
+   "wiki": "Xuanzang",
+   "approx": true
+  },
+  {
+   "id": "manimangala",
+   "date": "0641",
+   "lane": "military",
+   "title": "Narasimhavarman I turns the tables",
+   "summary": "Pulakeshin II invades the Pallava country again but is beaten by Narasimhavarman I in battles at Manimangala, Pariyala and Suramara, near Kanchi. The Pallava king, helped by the exiled Sri Lankan prince Manavanna, now prepares to take the war to Vatapi.",
+   "people": [
+    "narasimhavarman-i",
+    "pulakeshin-ii",
+    "manavanna"
+   ],
+   "places": [
+    "manimangala"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "approx": true
+  },
+  {
+   "id": "vatapi-falls",
+   "date": "0642",
+   "lane": "military",
+   "title": "The Pallavas sack Vatapi",
+   "summary": "Narasimhavarman I's general Paranjothi takes and sacks Vatapi. Pulakeshin II is probably killed in the fighting. Narasimhavarman takes the title Vatapikonda, 'conqueror of Vatapi', and leaves an inscription on a rock behind the Mallikarjuna temple at Badami. The Pallavas hold the city for thirteen years.",
+   "people": [
+    "narasimhavarman-i",
+    "pulakeshin-ii"
+   ],
+   "places": [
+    "badami"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "wiki": "Narasimhavarman I",
+   "major": true
+  },
+  {
+   "id": "harsha-dies",
+   "date": "0647",
+   "lane": "world",
+   "title": "Harsha dies",
+   "summary": "Harsha dies without an heir, and his empire falls apart at once. Northern India breaks into regional kingdoms, and Kannauj, his capital, becomes the prize that the Pratiharas, Palas and Rashtrakutas will fight over.",
+   "people": [
+    "harsha"
+   ],
+   "places": [
+    "kannauj"
+   ],
+   "polities": [
+    "pushyabhuti"
+   ],
+   "wiki": "Harsha",
+   "approx": true
+  },
+  {
+   "id": "mamallapuram",
+   "date": "0650",
+   "lane": "forts",
+   "title": "Narasimhavarman's Mamallapuram",
+   "summary": "With Chalukya treasure, Narasimhavarman I, called Mamalla ('great wrestler'), carves the rock monuments of the port named after him, Mamallapuram. They include the five Rathas, the cave temples, and the great relief of the Descent of the Ganges (Arjuna's Penance). Chalukya and Pallava builders learn from each other throughout the war.",
+   "people": [
+    "narasimhavarman-i"
+   ],
+   "places": [
+    "mamallapuram"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "wiki": "Group of Monuments at Mahabalipuram",
+   "approx": true
+  },
+  {
+   "id": "vikramaditya-restores",
+   "date": "0655",
+   "lane": "life",
+   "title": "Vikramaditya I restores the kingdom",
+   "summary": "Pulakeshin II's son Vikramaditya I, helped by his maternal grandfather, the Western Ganga king, defeats his brothers and drives the Pallavas out of Vatapi. He reunites the Chalukya kingdom after thirteen years.",
+   "people": [
+    "vikramaditya-i"
+   ],
+   "places": [
+    "badami"
+   ],
+   "polities": [
+    "western-ganga",
+    "pallava"
+   ],
+   "wiki": "Vikramaditya I",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "vikramaditya-kanchi",
+   "date": "0670",
+   "lane": "military",
+   "title": "Vikramaditya I takes Kanchi",
+   "summary": "Vikramaditya I takes revenge, invading the Pallava country and taking Kanchi. He camps on the Kaveri at Uraiyur. The Pallava Paramesvaravarman I strikes back by raiding the Chalukya lands, and defeats Vikramaditya at Peruvalanallur. Neither side can hold the other's land.",
+   "people": [
+    "vikramaditya-i",
+    "paramesvaravarman-i"
+   ],
+   "places": [
+    "kanchipuram",
+    "uraiyur"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "approx": true
+  },
+  {
+   "id": "nayanars",
+   "date": "0650",
+   "lane": "political",
+   "title": "The Tamil bhakti saints",
+   "summary": "In the Pallava country, the Shaiva saints Appar and Sambandar sing Tamil hymns to Shiva in the temples and win kings away from Jainism. The bhakti movement that begins here, with the Nayanars and the Vaishnava Alvars, later spreads north through the Deccan.",
+   "polities": [
+    "pallava"
+   ],
+   "concepts": [
+    "nayanars"
+   ],
+   "wiki": "Nayanars",
+   "approx": true
+  },
+  {
+   "id": "aihole-temples",
+   "date": "0680",
+   "lane": "forts",
+   "title": "Aihole: a laboratory of temples",
+   "summary": "At Aihole, the old trading town on the Malaprabha, more than a hundred temples are built over the Chalukya centuries. Early experiments like the Lad Khan temple look like pillared halls. The apsidal Durga temple with its covered walkway comes later. Historians call Aihole a 'cradle of Indian temple architecture'.",
+   "places": [
+    "aihole",
+    "durga-temple-aihole"
+   ],
+   "concepts": [
+    "chalukya-architecture"
+   ],
+   "wiki": "Aihole",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "kappe-arabhatta",
+   "date": "0700",
+   "lane": "political",
+   "title": "Kannada verse on the Badami cliff",
+   "summary": "The Kappe Arabhatta inscription at Badami praises a warrior in Kannada, in the tripadi metre. It is among the earliest Kannada poetry. Chalukya inscriptions use Sanskrit for grand eulogies but increasingly Kannada for local grants, preparing the way for the Kannada literature of the Rashtrakutas.",
+   "places": [
+    "badami"
+   ],
+   "concepts": [
+    "kappe-arabhatta",
+    "kannada"
+   ],
+   "wiki": "Kappe Arabhatta",
+   "approx": true
+  },
+  {
+   "id": "vijayaditya",
+   "date": "0696",
+   "lane": "life",
+   "title": "Vijayaditya's long peace",
+   "summary": "Vijayaditya rules for 37 years, the longest and quietest reign of the dynasty. Temple building flourishes at Mahakuta, Aihole and Pattadakal, where the Sangameshvara temple is begun in his name.",
+   "people": [
+    "vijayaditya-chalukya"
+   ],
+   "places": [
+    "pattadakal",
+    "mahakuta"
+   ],
+   "wiki": "Vijayaditya",
+   "approx": true
+  },
+  {
+   "id": "kailasanathar",
+   "date": "0700",
+   "lane": "forts",
+   "title": "Rajasimha's Kailasanatha temple",
+   "summary": "The Pallava king Narasimhavarman II (Rajasimha) builds the Kailasanatha temple at Kanchi, the first great structural temple of the Tamil country, along with the Shore Temple at Mamallapuram. Forty years later it becomes the model for the Chalukya queens' temples at Pattadakal.",
+   "people": [
+    "narasimhavarman-ii"
+   ],
+   "places": [
+    "kailasanathar-kanchi",
+    "kanchipuram"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "wiki": "Kailasanathar Temple, Kanchipuram",
+   "approx": true
+  },
+  {
+   "id": "sindh",
+   "date": "0712",
+   "lane": "world",
+   "title": "The Arabs conquer Sindh",
+   "summary": "Muhammad bin Qasim, a general of the Umayyad Caliphate, conquers Sindh. Over the next decades Arab governors raid east and south into Rajasthan, Malwa and Gujarat.",
+   "people": [
+    "muhammad-bin-qasim"
+   ],
+   "polities": [
+    "umayyad"
+   ],
+   "concepts": [
+    "umayyad-india"
+   ],
+   "wiki": "Muhammad ibn al-Qasim"
+  },
+  {
+   "id": "navsari",
+   "date": "0739",
+   "lane": "military",
+   "title": "The Arabs are beaten in Gujarat",
+   "summary": "Avanijanashraya Pulakeshin, of the Chalukya branch ruling south Gujarat, defeats an Arab ('Tajika') army that has overrun Saurashtra and Bharuch. His Navsari copper plates record it. Vikramaditya II rewards him with the title 'Repeller of the unrepellable'. With the Pratiharas and others, the victory halts the Arab advance into India.",
+   "people": [
+    "avanijanashraya-pulakeshin",
+    "vikramaditya-ii"
+   ],
+   "places": [
+    "navsari",
+    "bharuch"
+   ],
+   "polities": [
+    "umayyad"
+   ],
+   "concepts": [
+    "umayyad-india"
+   ],
+   "wiki": "Avanijanashraya Pulakeshin",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "kanchi-740",
+   "date": "0740",
+   "lane": "military",
+   "title": "Vikramaditya II enters Kanchi",
+   "summary": "Vikramaditya II defeats the Pallava Nandivarman II and enters Kanchi in triumph, but does not sack it. He gives gold back to the Kailasanatha temple and leaves a Kannada inscription on one of its pillars recording his gifts. His son Kirtivarman leads a second raid, and he takes the city three times in all.",
+   "people": [
+    "vikramaditya-ii",
+    "nandivarman-ii"
+   ],
+   "places": [
+    "kanchipuram",
+    "kailasanathar-kanchi"
+   ],
+   "polities": [
+    "pallava"
+   ],
+   "wiki": "Vikramaditya II",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "virupaksha",
+   "date": "0745",
+   "lane": "forts",
+   "title": "Queen Lokamahadevi's Virupaksha temple",
+   "summary": "To celebrate the victories over Kanchi, Vikramaditya II's senior queen Lokamahadevi builds the Lokeshvara (Virupaksha) temple at Pattadakal, the Chalukya coronation town. Her sister Trailokyamahadevi builds the Mallikarjuna temple beside it. Modelled on the Kailasanatha at Kanchi, the Virupaksha temple is one of the masterpieces of the southern style, and the Pattadakal group, mixing northern and southern temples, is a UNESCO World Heritage Site.",
+   "people": [
+    "lokamahadevi",
+    "vikramaditya-ii"
+   ],
+   "places": [
+    "virupaksha-pattadakal",
+    "pattadakal"
+   ],
+   "concepts": [
+    "chalukya-architecture"
+   ],
+   "wiki": "Pattadakal",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "umayyad-fall",
+   "date": "0750",
+   "lane": "world",
+   "title": "The Abbasids replace the Umayyads",
+   "summary": "In the Middle East the Abbasid revolution overthrows the Umayyad Caliphate, moving the centre of the Islamic world to Baghdad. In India, the Pala and Pratihara dynasties are rising in the north at the same time.",
+   "polities": [
+    "umayyad",
+    "abbasid"
+   ],
+   "wiki": "Abbasid Revolution"
+  },
+  {
+   "id": "dantidurga",
+   "date": "0753",
+   "lane": "military",
+   "title": "Dantidurga overthrows Kirtivarman II",
+   "summary": "Dantidurga, the Chalukyas' Rashtrakuta feudatory in the Ellora region, rebels and defeats Kirtivarman II. His Samangad copper plates of 753 claim he beat the Chalukya army 'with a handful of men'. Kirtivarman holds on in the south for a few more years.",
+   "people": [
+    "dantidurga",
+    "kirtivarman-ii"
+   ],
+   "places": [
+    "samangad",
+    "ellora"
+   ],
+   "polities": [
+    "rashtrakuta"
+   ],
+   "wiki": "Dantidurga",
+   "see": "rashtrakutas",
+   "major": true
+  },
+  {
+   "id": "end",
+   "date": "0757",
+   "lane": "life",
+   "title": "The end of the Badami Chalukyas",
+   "summary": "Dantidurga's uncle Krishna I defeats Kirtivarman II for good. The Rashtrakutas take over the whole Chalukya kingdom, and they rule the Deccan for the next two centuries. In 973 a man who claimed Chalukya descent, Tailapa II, overthrew the Rashtrakutas in turn and founded the Western Chalukyas of Kalyani.",
+   "people": [
+    "kirtivarman-ii",
+    "krishna-i",
+    "tailapa-ii"
+   ],
+   "polities": [
+    "badami-chalukya",
+    "rashtrakuta",
+    "western-chalukya"
+   ],
+   "wiki": "Kirtivarman II",
+   "major": true,
+   "approx": true
+  }
+ ]
+}

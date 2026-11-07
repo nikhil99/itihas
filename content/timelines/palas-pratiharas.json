@@ -1,0 +1,884 @@
+{
+ "id": "palas-pratiharas",
+ "kind": "empire",
+ "order": 1.2,
+ "title": "The Palas and the Pratiharas",
+ "subtitle": "Bengal, Rajasthan and the struggle for Kannauj · 730 – 1161",
+ "subject": "tripartite-struggle",
+ "range": [
+  720,
+  1210
+ ],
+ "focus": [
+  750,
+  1161
+ ],
+ "intro": "After Harsha died in 647, no single power held northern India. Two new dynasties grew up at opposite ends of the Ganges plain: the Buddhist Palas of Bengal and Bihar, whose first king was chosen to end a century of anarchy, and the Gurjara-Pratiharas of Rajasthan and Malwa, who first made their name by turning back the Arab armies from Sindh. For a century they fought each other, and the Rashtrakutas of the Deccan, for Kannauj, the old imperial city on the Ganges. The Pratiharas won it and ruled northern India from there until the Rashtrakutas and then Mahmud of Ghazni broke them. The Palas lasted until the Senas took Bengal in the 12th century. Their monasteries at Nalanda, Vikramashila and Somapura sent Buddhist teachers and art to Tibet and Southeast Asia.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Kings & succession"
+  },
+  {
+   "id": "military",
+   "label": "Wars & conquest"
+  },
+  {
+   "id": "forts",
+   "label": "Monasteries, temples & forts"
+  },
+  {
+   "id": "political",
+   "label": "Learning, literature & faith"
+  },
+  {
+   "id": "world",
+   "label": "Neighbours & the wider world"
+  }
+ ],
+ "rulers": [
+  {
+   "label": "Pala kings",
+   "members": [
+    {
+     "entity": "gopala-i",
+     "from": 750,
+     "to": 770,
+     "group": "pala-empire",
+     "note": "Chosen king to end the 'law of the fishes'"
+    },
+    {
+     "entity": "dharmapala",
+     "from": 770,
+     "to": 810,
+     "group": "pala-empire"
+    },
+    {
+     "entity": "devapala",
+     "from": 810,
+     "to": 850,
+     "group": "pala-empire",
+     "note": "The Pala empire at its widest"
+    },
+    {
+     "entity": null,
+     "from": 850,
+     "to": 854,
+     "group": "pala-empire",
+     "name": "Shurapala and Vigrahapala I"
+    },
+    {
+     "entity": "narayanapala",
+     "from": 854,
+     "to": 908,
+     "group": "pala-empire"
+    },
+    {
+     "entity": null,
+     "from": 908,
+     "to": 988,
+     "group": "pala-empire",
+     "name": "Rajyapala to Vigrahapala II",
+     "note": "Four kings; the Palas lose Bengal and hold on in Bihar"
+    },
+    {
+     "entity": "mahipala-i",
+     "from": 988,
+     "to": 1038,
+     "group": "pala-empire",
+     "note": "Restored the Pala kingdom"
+    },
+    {
+     "entity": null,
+     "from": 1038,
+     "to": 1077,
+     "group": "pala-empire",
+     "name": "Nayapala to Shurapala II",
+     "note": "Four kings; the Kaivarta revolt takes north Bengal"
+    },
+    {
+     "entity": "ramapala",
+     "from": 1077,
+     "to": 1130,
+     "group": "pala-empire",
+     "note": "Won back Varendra; the last strong Pala"
+    },
+    {
+     "entity": null,
+     "from": 1130,
+     "to": 1144,
+     "group": "pala-empire",
+     "name": "Kumarapala and Gopala III"
+    },
+    {
+     "entity": "madanapala",
+     "from": 1144,
+     "to": 1161,
+     "group": "pala-empire",
+     "note": "The last Pala king"
+    }
+   ]
+  },
+  {
+   "label": "Pratihara kings",
+   "members": [
+    {
+     "entity": "nagabhata-i",
+     "from": 730,
+     "to": 760,
+     "group": "gurjara-pratihara",
+     "note": "Turned back the Arabs"
+    },
+    {
+     "entity": null,
+     "from": 760,
+     "to": 780,
+     "group": "gurjara-pratihara",
+     "name": "Kakustha and Devaraja"
+    },
+    {
+     "entity": "vatsaraja",
+     "from": 780,
+     "to": 800,
+     "group": "gurjara-pratihara"
+    },
+    {
+     "entity": "nagabhata-ii",
+     "from": 800,
+     "to": 833,
+     "group": "gurjara-pratihara",
+     "note": "Took Kannauj"
+    },
+    {
+     "entity": null,
+     "from": 833,
+     "to": 836,
+     "group": "gurjara-pratihara",
+     "name": "Ramabhadra"
+    },
+    {
+     "entity": "mihira-bhoja",
+     "from": 836,
+     "to": 885,
+     "group": "gurjara-pratihara",
+     "note": "Ruled most of northern India from Kannauj"
+    },
+    {
+     "entity": "mahendrapala-i",
+     "from": 885,
+     "to": 910,
+     "group": "gurjara-pratihara"
+    },
+    {
+     "entity": null,
+     "from": 910,
+     "to": 913,
+     "group": "gurjara-pratihara",
+     "name": "Bhoja II"
+    },
+    {
+     "entity": "mahipala-pratihara",
+     "from": 913,
+     "to": 944,
+     "group": "gurjara-pratihara",
+     "note": "Lost Kannauj to the Rashtrakutas in 916, then won it back"
+    },
+    {
+     "entity": null,
+     "from": 944,
+     "to": 990,
+     "group": "gurjara-pratihara",
+     "name": "Mahendrapala II to Vijayapala",
+     "note": "Feudatories such as the Chandelas break away"
+    },
+    {
+     "entity": "rajyapala-pratihara",
+     "from": 990,
+     "to": 1019,
+     "group": "gurjara-pratihara",
+     "note": "Fled Kannauj before Mahmud of Ghazni; killed by the Chandelas"
+    },
+    {
+     "entity": null,
+     "from": 1019,
+     "to": 1036,
+     "group": "gurjara-pratihara",
+     "name": "Trilochanapala and Yashapala",
+     "note": "The last Pratiharas"
+    }
+   ]
+  }
+ ],
+ "context": [
+  {
+   "entity": "umayyad",
+   "label": "Umayyad Caliphate",
+   "from": 720,
+   "to": 750
+  },
+  {
+   "entity": "abbasid",
+   "label": "Abbasid Caliphate",
+   "from": 750,
+   "to": 1210
+  },
+  {
+   "entity": "rashtrakuta",
+   "label": "Rashtrakutas",
+   "from": 753,
+   "to": 982
+  },
+  {
+   "entity": "tibetan-empire",
+   "label": "Tibetan Empire",
+   "from": 720,
+   "to": 842
+  },
+  {
+   "entity": "chandela",
+   "label": "Chandelas",
+   "from": 831,
+   "to": 1210
+  },
+  {
+   "entity": "ghaznavid",
+   "label": "Ghaznavids",
+   "from": 977,
+   "to": 1186
+  },
+  {
+   "entity": "sena-dynasty",
+   "label": "Senas of Bengal",
+   "from": 1070,
+   "to": 1210
+  },
+  {
+   "entity": "chola-dynasty",
+   "label": "Cholas",
+   "from": 848,
+   "to": 1210
+  }
+ ],
+ "events": [
+  {
+   "id": "nagabhata-arabs",
+   "date": "0738",
+   "lane": "military",
+   "title": "Nagabhata I turns back the Arabs",
+   "summary": "Arab armies from Umayyad Sindh raid east into Rajasthan, Malwa and Gujarat. Nagabhata I, founder of the imperial Pratiharas, defeats them, probably near Ujjain. A century later his descendant Mihira Bhoja's Gwalior inscription remembers him as the man who crushed the armies of the 'mlecchas'. Along with the Chalukya victory in Gujarat, it ends the Arab advance into India for nearly three centuries.",
+   "people": [
+    "nagabhata-i"
+   ],
+   "places": [
+    "ujjain"
+   ],
+   "polities": [
+    "gurjara-pratihara",
+    "umayyad"
+   ],
+   "concepts": [
+    "umayyad-india"
+   ],
+   "wiki": "Nagabhata I",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "gopala",
+   "date": "0750",
+   "lane": "life",
+   "title": "Gopala is chosen king of Bengal",
+   "summary": "After a century of disorder in Bengal, which Pala records call matsyanyaya ('the law of the fishes', where the big fish eat the small), Gopala is made king. His son's Khalimpur copper plate says the people chose him 'to end the law of the fishes'. Whether by election or by a council of chiefs, it is a rare kind of beginning for an Indian dynasty.",
+   "people": [
+    "gopala-i"
+   ],
+   "polities": [
+    "pala-empire"
+   ],
+   "concepts": [
+    "matsya-nyaya"
+   ],
+   "wiki": "Gopala I",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "abbasid",
+   "date": "0750",
+   "lane": "world",
+   "title": "The Abbasids take power in Baghdad",
+   "summary": "The Abbasid revolution overthrows the Umayyad Caliphate. The new rulers, centred on Baghdad, are more interested in trade and learning than conquest in India, and Arab merchants become the main foreign observers of Indian kings.",
+   "polities": [
+    "abbasid",
+    "umayyad"
+   ],
+   "wiki": "Abbasid Revolution"
+  },
+  {
+   "id": "odantapuri",
+   "date": "0770",
+   "lane": "forts",
+   "title": "Odantapuri monastery",
+   "summary": "Gopala, or his son Dharmapala, founds the great monastery of Odantapuri near Nalanda in Bihar. Tibetan tradition says it was the model for Samye, Tibet's first monastery, built around 779.",
+   "people": [
+    "gopala-i",
+    "dharmapala"
+   ],
+   "places": [
+    "odantapuri"
+   ],
+   "polities": [
+    "tibetan-empire"
+   ],
+   "wiki": "Odantapuri",
+   "approx": true
+  },
+  {
+   "id": "osian",
+   "date": "0783",
+   "lane": "forts",
+   "title": "The Mahavira temple at Osian",
+   "summary": "In the reign of Vatsaraja, the Jain merchants of Osian, a trading town in the Thar desert near Jodhpur, build a temple to Mahavira. Its inscription is dated 783. With the Hindu temples around it, Osian is the best surviving group of early Pratihara-era architecture in Rajasthan.",
+   "people": [
+    "vatsaraja"
+   ],
+   "places": [
+    "osian"
+   ],
+   "wiki": "Mahavira Jain temple, Osian",
+   "approx": true
+  },
+  {
+   "id": "vatsaraja-dharmapala",
+   "date": "0785",
+   "lane": "military",
+   "title": "Vatsaraja defeats Dharmapala",
+   "summary": "Vatsaraja, the Pratihara king, defeats Dharmapala of Bengal in the Ganges–Yamuna doab and takes 'the two royal umbrellas of the Gauda king'. It is the first round of the three-cornered war for Kannauj.",
+   "people": [
+    "vatsaraja",
+    "dharmapala"
+   ],
+   "places": [
+    "kannauj"
+   ],
+   "polities": [
+    "gurjara-pratihara",
+    "pala-empire"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "wiki": "Vatsaraja",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "dhruva",
+   "date": "0786",
+   "lane": "military",
+   "title": "The Rashtrakutas strike both",
+   "summary": "The Rashtrakuta Dhruva crosses the Narmada and defeats first Vatsaraja, who flees into the desert, and then Dharmapala. He takes Vatsaraja's prize umbrellas home. Then he goes back to the Deccan, leaving the north open again.",
+   "people": [
+    "dhruva",
+    "vatsaraja",
+    "dharmapala"
+   ],
+   "polities": [
+    "rashtrakuta"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "wiki": "Tripartite Struggle",
+   "see": "rashtrakutas",
+   "approx": true
+  },
+  {
+   "id": "chakrayudha",
+   "date": "0795",
+   "lane": "military",
+   "title": "Dharmapala's durbar at Kannauj",
+   "summary": "With both rivals beaten, Dharmapala deposes the king of Kannauj and puts his own man, Chakrayudha, on the throne. His Khalimpur plate says the kings of the Bhojas, Matsyas, Madras, Kurus, Yadus, Yavanas, Avanti, Gandhara and Kira bowed at the ceremony. For a few years a Bengal king is the overlord of northern India.",
+   "people": [
+    "dharmapala",
+    "chakrayudha"
+   ],
+   "places": [
+    "kannauj"
+   ],
+   "polities": [
+    "pala-empire"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "wiki": "Dharmapala of Bengal",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "vikramashila",
+   "date": "0800",
+   "lane": "forts",
+   "title": "Dharmapala founds Vikramashila",
+   "summary": "On a hill above the Ganges in eastern Bihar, Dharmapala founds the monastery-university of Vikramashila. With over a hundred teachers and a thousand students at its height, it rivals Nalanda and becomes the leading centre of Vajrayana Buddhism, with a gatekeeper-scholar at each of its six gates.",
+   "people": [
+    "dharmapala"
+   ],
+   "places": [
+    "vikramashila"
+   ],
+   "concepts": [
+    "vajrayana"
+   ],
+   "wiki": "Vikramashila",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "somapura",
+   "date": "0800",
+   "lane": "forts",
+   "title": "The Somapura Mahavihara",
+   "summary": "Dharmapala builds the Somapura Mahavihara at Paharpur, in present-day Bangladesh. It is a square monastery of 177 cells around a huge terraced brick temple decorated with terracotta plaques. It is the largest Buddhist monastery south of the Himalaya and its cross-shaped temple influenced Buddhist architecture as far away as Myanmar and Java.",
+   "people": [
+    "dharmapala"
+   ],
+   "places": [
+    "somapura"
+   ],
+   "wiki": "Somapura Mahavihara",
+   "approx": true
+  },
+  {
+   "id": "govinda-iii",
+   "date": "0800",
+   "lane": "military",
+   "title": "Govinda III humbles the north",
+   "summary": "The Rashtrakuta Govinda III sweeps north, defeats Nagabhata II, and receives the submission of Dharmapala and Chakrayudha. His inscriptions claim his horses drank from Himalayan streams. Like his father he soon goes home.",
+   "people": [
+    "govinda-iii",
+    "nagabhata-ii",
+    "dharmapala",
+    "chakrayudha"
+   ],
+   "polities": [
+    "rashtrakuta"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "see": "rashtrakutas",
+   "approx": true
+  },
+  {
+   "id": "nagabhata-kannauj",
+   "date": "0815",
+   "lane": "military",
+   "title": "Nagabhata II takes Kannauj",
+   "summary": "Once the Rashtrakutas leave, Nagabhata II drives out Chakrayudha and defeats Dharmapala at Mudgagiri (Munger), deep in Pala territory. Kannauj becomes the Pratihara capital. The Pratiharas hold it for two centuries, making it again the chief city of northern India.",
+   "people": [
+    "nagabhata-ii",
+    "chakrayudha",
+    "dharmapala"
+   ],
+   "places": [
+    "kannauj",
+    "munger"
+   ],
+   "polities": [
+    "gurjara-pratihara",
+    "pala-empire"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "wiki": "Nagabhata II",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "devapala",
+   "date": "0820",
+   "lane": "military",
+   "title": "Devapala at the height of Pala power",
+   "summary": "Dharmapala's son Devapala recovers from the defeat. His Munger copper plate claims conquests from the Himalaya to the Vindhyas and victories over the Utkalas (Odisha), Pragjyotisha (Assam), the Hunas and the Dravidas. The empire is at its widest, and Pratihara expansion east is held back for a generation.",
+   "people": [
+    "devapala"
+   ],
+   "places": [
+    "munger"
+   ],
+   "polities": [
+    "pala-empire"
+   ],
+   "wiki": "Devapala of Bengal",
+   "approx": true
+  },
+  {
+   "id": "teli-ka-mandir",
+   "date": "0800",
+   "lane": "forts",
+   "title": "The Teli ka Mandir at Gwalior",
+   "summary": "On the fort of Gwalior, the tallest temple of the period, the Teli ka Mandir, rises about 30 metres. Its barrel-vaulted roof is a southern form on a northern temple. Gwalior becomes a Pratihara stronghold and the site of Mihira Bhoja's long inscription on the dynasty's history.",
+   "places": [
+    "teli-ka-mandir",
+    "gwalior-fort"
+   ],
+   "wiki": "Teli ka Mandir",
+   "approx": true
+  },
+  {
+   "id": "tibet-842",
+   "date": "0842",
+   "lane": "world",
+   "title": "The Tibetan Empire breaks up",
+   "summary": "The assassination of King Langdarma, remembered as a persecutor of Buddhism, ends the Tibetan Empire, which had ruled much of Central Asia. Tibetan Buddhism declines for over a century, and when it revives it looks to the Pala monasteries for teachers.",
+   "polities": [
+    "tibetan-empire"
+   ],
+   "wiki": "Langdarma"
+  },
+  {
+   "id": "nalanda-plate",
+   "date": "0850",
+   "lane": "political",
+   "title": "A monastery for Java and Sumatra at Nalanda",
+   "summary": "Devapala's Nalanda copper plate grants five villages to support a monastery at Nalanda built by Balaputradeva, a Shailendra prince ruling Srivijaya in Sumatra. Students and pilgrims from Southeast Asia study at the Pala monasteries, and Pala-style bronzes and manuscripts travel back with them.",
+   "people": [
+    "devapala",
+    "balaputra"
+   ],
+   "places": [
+    "nalanda"
+   ],
+   "polities": [
+    "srivijaya",
+    "shailendra"
+   ],
+   "wiki": "Nalanda mahavihara",
+   "approx": true
+  },
+  {
+   "id": "mihira-bhoja",
+   "date": "0836",
+   "lane": "life",
+   "title": "Mihira Bhoja",
+   "summary": "Mihira Bhoja becomes king and rules for about fifty years. He wins back the territory his father lost and extends Pratihara rule from the Sutlej to Bengal and from the Himalaya to the Narmada. His silver coins, the Adivaraha drammas, show Vishnu as the boar who rescued the earth, and are found right across the north.",
+   "people": [
+    "mihira-bhoja"
+   ],
+   "places": [
+    "kannauj"
+   ],
+   "polities": [
+    "gurjara-pratihara"
+   ],
+   "wiki": "Mihira Bhoja",
+   "major": true
+  },
+  {
+   "id": "sulaiman",
+   "date": "0851",
+   "lane": "world",
+   "title": "An Arab merchant on the Pratihara king",
+   "summary": "The Arab merchant Sulaiman writes that the king of 'Jurz' (the Gurjaras) has the finest cavalry in India and is the greatest enemy of the Arabs, yet no country is safer from robbers. He contrasts him with the 'Balhara' (the Rashtrakuta), who is friendly to Arabs.",
+   "people": [
+    "sulaiman",
+    "mihira-bhoja"
+   ],
+   "polities": [
+    "gurjara-pratihara",
+    "rashtrakuta"
+   ],
+   "wiki": "Sulaiman al-Tajir"
+  },
+  {
+   "id": "rajashekhara",
+   "date": "0900",
+   "lane": "political",
+   "title": "Rajashekhara at Kannauj",
+   "summary": "The poet and critic Rajashekhara, teacher of Mahendrapala I, writes at Kannauj. His Prakrit play Karpuramanjari and his Kavyamimamsa, a handbook on poetry and the poet's life, make the Pratihara court a centre of Sanskrit and Prakrit letters. His wife Avantisundari is herself quoted as a critic.",
+   "people": [
+    "rajashekhara",
+    "mahendrapala-i"
+   ],
+   "places": [
+    "kannauj"
+   ],
+   "concepts": [
+    "karpuramanjari"
+   ],
+   "wiki": "Rajashekhara (Sanskrit poet)",
+   "approx": true
+  },
+  {
+   "id": "mahendrapala-bengal",
+   "date": "0890",
+   "lane": "military",
+   "title": "The Pratiharas take Magadha",
+   "summary": "Mahendrapala I pushes east into Pala territory. His inscriptions are found in south Bihar and north Bengal. The Palas under Narayanapala are reduced to a small kingdom for a time, while the Pratiharas rule from Saurashtra to Bengal.",
+   "people": [
+    "mahendrapala-i",
+    "narayanapala"
+   ],
+   "polities": [
+    "gurjara-pratihara",
+    "pala-empire"
+   ],
+   "wiki": "Mahendrapala I",
+   "approx": true
+  },
+  {
+   "id": "kannauj-916",
+   "date": "0916",
+   "lane": "military",
+   "title": "Indra III sacks Kannauj",
+   "summary": "The Rashtrakuta Indra III crosses the Yamuna and sacks Kannauj, and Mahipala flees. The Pratiharas recover the city with Chandela help, but they never regain their old strength, and their feudatories start to go their own way.",
+   "people": [
+    "indra-iii",
+    "mahipala-pratihara"
+   ],
+   "places": [
+    "kannauj"
+   ],
+   "polities": [
+    "rashtrakuta"
+   ],
+   "concepts": [
+    "tripartite-struggle"
+   ],
+   "see": "rashtrakutas",
+   "major": true
+  },
+  {
+   "id": "al-masudi",
+   "date": "0916",
+   "lane": "world",
+   "title": "Al-Masudi on the king of Kannauj",
+   "summary": "The Arab historian al-Masudi visits India and writes of the king of Kannauj, whom he calls 'Bauura', keeping four armies, one at each point of the compass, and fighting the Muslims of Multan in the west and the Balhara in the south.",
+   "people": [
+    "al-masudi"
+   ],
+   "places": [
+    "kannauj"
+   ],
+   "polities": [
+    "gurjara-pratihara"
+   ],
+   "wiki": "Al-Mas'udi",
+   "approx": true
+  },
+  {
+   "id": "lakshmana-temple",
+   "date": "0954",
+   "lane": "forts",
+   "title": "The Chandelas build the Lakshmana temple",
+   "summary": "The Chandela Yashovarman, nominally a Pratihara feudatory, takes the fort of Kalinjar and builds the Lakshmana temple at Khajuraho. Its inscription says the Vishnu image inside came from the Pratihara king Devapala. The first of the great Khajuraho temples shows the Chandelas acting as an independent dynasty.",
+   "people": [
+    "yashovarman-chandela"
+   ],
+   "places": [
+    "lakshmana-khajuraho",
+    "khajuraho",
+    "kalinjar"
+   ],
+   "polities": [
+    "chandela",
+    "gurjara-pratihara"
+   ],
+   "wiki": "Lakshmana Temple, Khajuraho",
+   "approx": true
+  },
+  {
+   "id": "mahipala-pala",
+   "date": "0988",
+   "lane": "life",
+   "title": "Mahipala I restores the Palas",
+   "summary": "Mahipala I wins back north and east Bengal, which had been lost to Kamboja and Chandra rulers, and rules for fifty years. He repairs Buddhist sites at Sarnath and Bodh Gaya, and the Palas recover much of their old strength.",
+   "people": [
+    "mahipala-i"
+   ],
+   "polities": [
+    "pala-empire"
+   ],
+   "wiki": "Mahipala",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "charyapada",
+   "date": "1000",
+   "lane": "political",
+   "title": "The Charyapada songs",
+   "summary": "Buddhist tantric poets known as the Siddhas write the Charyapada, mystical songs in an early form of Bengali, Assamese and Odia. Rediscovered in Nepal in 1907, they are the oldest literature in these languages.",
+   "concepts": [
+    "charyapada",
+    "vajrayana"
+   ],
+   "wiki": "Charyapada",
+   "approx": true
+  },
+  {
+   "id": "kannauj-1018",
+   "date": "1018",
+   "lane": "military",
+   "title": "Mahmud of Ghazni takes Kannauj",
+   "summary": "Mahmud of Ghazni, raiding from Afghanistan, marches on Kannauj. Rajyapala flees without a fight and Mahmud plunders the city and its temples, and Mathura on the way. Next year the Chandela Vidyadhara kills Rajyapala for his cowardice, and the Pratihara line fades out at Bari, its last refuge, by 1036.",
+   "people": [
+    "mahmud-ghazni",
+    "rajyapala-pratihara",
+    "vidyadhara-chandela"
+   ],
+   "places": [
+    "kannauj",
+    "mathura"
+   ],
+   "polities": [
+    "ghaznavid",
+    "gurjara-pratihara",
+    "chandela"
+   ],
+   "concepts": [
+    "ghaznavid-kannauj"
+   ],
+   "wiki": "Ghaznavid invasions of Kannauj",
+   "major": true
+  },
+  {
+   "id": "rajendra-ganges",
+   "date": "1021",
+   "lane": "military",
+   "title": "Rajendra Chola reaches the Ganges",
+   "summary": "The Chola army of Rajendra I marches north through Odisha and defeats Mahipala I in Bengal. They bring back Ganges water for Rajendra's new capital, Gangaikonda Cholapuram. The raid takes no land but shows the reach of the Cholas.",
+   "people": [
+    "rajendra-i",
+    "mahipala-i"
+   ],
+   "places": [
+    "gangaikonda-cholapuram"
+   ],
+   "polities": [
+    "chola-dynasty"
+   ],
+   "see": "cholas",
+   "approx": true
+  },
+  {
+   "id": "atisha",
+   "date": "1040",
+   "lane": "political",
+   "title": "Atisha leaves Vikramashila for Tibet",
+   "summary": "Atisha Dipankara, the most famous teacher at Vikramashila, accepts an invitation from the kings of western Tibet. In twelve years there he writes the Lamp for the Path to Enlightenment and his disciples found the Kadam school. The 'second spread' of Buddhism in Tibet is built on the Pala monasteries.",
+   "people": [
+    "atisha"
+   ],
+   "places": [
+    "vikramashila"
+   ],
+   "polities": [
+    "tibetan-empire"
+   ],
+   "concepts": [
+    "vajrayana"
+   ],
+   "wiki": "Atiśa",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "varendra",
+   "date": "1075",
+   "lane": "military",
+   "title": "The Varendra rebellion",
+   "summary": "The Kaivarta chief Divya rebels against Mahipala II, kills him, and takes Varendra (north Bengal), the Pala homeland. It is one of the first recorded revolts of a peasant community in Indian history. His family rules there for some years.",
+   "people": [
+    "divya"
+   ],
+   "polities": [
+    "pala-empire"
+   ],
+   "concepts": [
+    "varendra-rebellion"
+   ],
+   "wiki": "Varendra rebellion",
+   "approx": true
+  },
+  {
+   "id": "ramapala",
+   "date": "1082",
+   "lane": "military",
+   "title": "Ramapala wins back Varendra",
+   "summary": "Ramapala, younger brother of the murdered king, gathers the support of local chiefs and recovers Varendra. The poet Sandhyakar Nandi tells the story in the Ramacharitam, a double-meaning poem in which every verse tells both the story of Rama and of Ramapala.",
+   "people": [
+    "ramapala",
+    "sandhyakar-nandi"
+   ],
+   "polities": [
+    "pala-empire"
+   ],
+   "concepts": [
+    "ramacharitam",
+    "varendra-rebellion"
+   ],
+   "wiki": "Ramapala",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "vijaya-sena",
+   "date": "1100",
+   "lane": "life",
+   "title": "The Senas rise in Bengal",
+   "summary": "Vijaya Sena, from a family of southern (Karnata) origin, builds a kingdom in western Bengal and takes much of the Pala lands. The Senas are patrons of Brahmanical Hinduism, and the Palas are pushed back into Bihar.",
+   "people": [
+    "vijaya-sena"
+   ],
+   "polities": [
+    "sena-dynasty",
+    "pala-empire"
+   ],
+   "wiki": "Vijaya Sena",
+   "approx": true
+  },
+  {
+   "id": "pala-end",
+   "date": "1161",
+   "lane": "life",
+   "title": "The end of the Palas",
+   "summary": "Madanapala, the last Pala king, dies in Bihar, and the Senas take over Bengal. The Palas had ruled for about four centuries, one of the longest dynasties in Indian history.",
+   "people": [
+    "madanapala"
+   ],
+   "polities": [
+    "pala-empire",
+    "sena-dynasty"
+   ],
+   "wiki": "Madanapala (Pala dynasty)",
+   "major": true,
+   "approx": true
+  },
+  {
+   "id": "bakhtiyar",
+   "date": "1200",
+   "lane": "military",
+   "title": "The monasteries are destroyed",
+   "summary": "Bakhtiyar Khalji, a Turkish general of the Ghurid conquest, raids Bihar and destroys Odantapuri and Vikramashila, and Nalanda soon after. Monks flee to Tibet and Nepal. In 1204 he takes Nadia from the Sena king Lakshmana Sena. Buddhism, already declining in India, loses its last great centres.",
+   "people": [
+    "bakhtiyar-khalji"
+   ],
+   "places": [
+    "vikramashila",
+    "odantapuri",
+    "nalanda"
+   ],
+   "polities": [
+    "ghurid",
+    "sena-dynasty"
+   ],
+   "wiki": "Muhammad Bakhtiyar Khalji",
+   "major": true,
+   "approx": true
+  }
+ ]
+}

@@ -8,6 +8,11 @@ Timelines so far: **The Maratha Empire** series, an overview plus eight detailed
 Shivaji, Sambhaji, Rajaram & Tarabai, Shahu, Bajirao I, Nanasaheb, Madhavrao I,
 Nana Phadnavis & Mahadji Shinde, and Bajirao II.
 
+Empires, in order: Maurya, Satavahana, Gupta, the Chalukyas of Badami, the Palas and
+Pratiharas, the Rashtrakutas, the Cholas, the Yadavas of Devagiri, the Delhi Sultanate,
+Vijayanagara, the Deccan Sultanates, the Mughals, the Marathas, the Kingdom of Mysore,
+the Sikh Empire and British India.
+
 ## Run it
 
 `site/data/` is generated and not committed, so build it once after cloning
