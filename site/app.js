@@ -113,7 +113,7 @@ async function route() {
     [kind, id] = parts.slice(list ? 2 : 1);
   } else [tlId, kind, id] = parts;
   if (!tlId) { closeDrawer(false); return renderHome(); }
-  if (tlId === "books") { closeDrawer(false); state.tl = null; await renderBooks(); window.scrollTo(0, 0); return; }
+  if (tlId === "books") { closeDrawer(false); state.tl = null; await renderBooks(kind); window.scrollTo(0, 0); return; }
   if (tlId === "parampara") { closeDrawer(false); state.tl = null; await renderParampara(); window.scrollTo(0, 0); return; }
   if (state.tl?.id !== tlId) { await renderTimelinePage(tlId); window.scrollTo(0, 0); }
   if (kind === "e" && id) openEntity(id);
@@ -126,9 +126,9 @@ const go = (hash) => { if (location.hash !== hash) location.hash = hash; else ro
 // ---------- Home ----------
 async function renderHome() {
   state.tl = null;
-  const [all, entities, search, books, lineages] = await Promise.all([load("data/index.json"), load("data/entities.json"),
+  const [all, entities, search, books, lineages, bookCats] = await Promise.all([load("data/index.json"), load("data/entities.json"),
     loadOptional("data/search.json", { entities: [], events: [] }), loadOptional("books/books.json", []),
-    loadOptional("parampara/parampara.json", [])]);
+    loadOptional("parampara/parampara.json", []), loadOptional("books/categories.json", [])]);
   state.entities = entities;
   state.subjectTimeline = Object.fromEntries(all.map((t) => [t.subject, t.id]));
   document.title = "Itihas — Indian History Timelines";
@@ -184,8 +184,8 @@ async function renderHome() {
           : index.some((t) => t.series === name && t.kind === "state") ? `${name.replace(/^The /, "")} — the great houses` : `People of ${name.replace(/^The /, "the ")}`),
         el("div", { class: "cards" }, index.filter((t) => t.kind !== "empire" && (t.series || "Other") === name).map(card)))),
       books.length ? el("div", { class: "series" },
-        el("h2", { class: "series-title" }, "Books", el("a", { class: "block-link", href: "#/books" }, "All books →")),
-        el("div", { class: "cards" }, books.map((b) => bookCard(b, all)))) : null,
+        el("h2", { class: "series-title" }, "Books", el("a", { class: "block-link", href: "#/books" }, `All ${books.length} books →`)),
+        bookCats.length ? catTiles(bookCats, books) : el("div", { class: "cards" }, books.map((b) => bookCard(b, all)))) : null,
       lineages.length ? el("div", { class: "series" },
         el("h2", { class: "series-title" }, "Parampara", el("a", { class: "block-link", href: "#/parampara" }, "All lineages →")),
         el("div", { class: "cards books" }, lineages.map((l) => lineageCard(l, all)))) : null,
@@ -213,10 +213,10 @@ function sourceLink(src) {
     r.url ? el("a", { class: "src-read", href: r.url, target: "_blank", rel: "noopener", title: r.chapterTitle, onclick: (e) => e.stopPropagation() }, " read ↗") : null);
 }
 // Visual guides to books live as standalone pages in site/books/, listed in site/books/books.json.
-function bookCard(b, index) {
+function bookCard(b, index, cat) {
   const tlTitle = Object.fromEntries(index.map((t) => [t.id, t.title]));
   return el("div", { class: "book-card" },
-    el("a", { class: "book-cover", href: b.href, "aria-label": `Open ${b.title}` },
+    el("a", { class: "book-cover", href: b.href, "aria-label": `Open ${b.title}`, style: cat ? `--cat:${cat.color}` : null },
       el("span", { class: "book-native" }, b.native || ""), el("span", { class: "book-title" }, b.title)),
     el("div", { class: "book-body" },
       el("h3", {}, el("a", { href: b.href }, b.title)),
@@ -226,14 +226,66 @@ function bookCard(b, index) {
         b.timelines.filter((id) => tlTitle[id]).map((id) => el("a", { class: "chip tl-chip", href: `#/${id}` }, tlTitle[id]))) : null));
 }
 
-async function renderBooks() {
-  const [index, books] = await Promise.all([loadOptional("data/index.json", []), loadOptional("books/books.json", [])]);
+// Each book has a "category" (site/books/categories.json) and a "year" written, for grouping.
+const BOOK_AUTHORS = ["Sita Ram Goel", "Koenraad Elst", "Ram Swarup", "K.S. Lal"];
+const bookAuthor = (b, a) => a === "Others" ? !BOOK_AUTHORS.some((n) => b.author.includes(n)) : b.author.includes(a);
+
+function catTiles(cats, books, { active, onpick } = {}) {
+  return el("div", { class: "cat-tiles" }, cats.map((c) => {
+    const n = books.filter((b) => b.category === c.id).length;
+    return el("a", { class: `cat-tile${active === c.id ? " on" : ""}`, href: `#/books/${c.id}`, style: `--cat:${c.color}`,
+      onclick: onpick && ((e) => { e.preventDefault(); onpick(c.id); }) },
+      el("span", { class: "cat-n" }, n), el("b", {}, c.title), el("span", { class: "cat-blurb" }, c.blurb));
+  }));
+}
+
+// When each book was written, one dot per book, coloured by category.
+function bookYears(books, catOf) {
+  const ys = books.map((b) => b.year).filter(Boolean), lo = Math.floor(Math.min(...ys) / 10) * 10, hi = Math.ceil((Math.max(...ys) + 1) / 10) * 10;
+  const x = (y) => `${((y - lo) / (hi - lo)) * 100}%`, seen = {};
+  return el("div", { class: "year-strip", "aria-label": "When the books were written" },
+    el("div", { class: "ys-track" },
+      books.filter((b) => b.year).sort((a, b) => a.year - b.year).map((b) => {
+        const k = (seen[b.year] = (seen[b.year] || 0) + 1) - 1;
+        return el("a", { class: "ys-dot", href: b.href, title: `${b.year} · ${b.title} (${b.author})`,
+          style: `left:${x(b.year + 0.5)};--k:${k};--cat:${catOf[b.category]?.color || "var(--accent)"}` });
+      })),
+    el("div", { class: "ys-axis" }, Array.from({ length: (hi - lo) / 10 + 1 }, (_, i) => el("span", { style: `left:${x(lo + i * 10)}` }, lo + i * 10))));
+}
+
+async function renderBooks(pick) {
+  const [index, books, cats] = await Promise.all([loadOptional("data/index.json", []), loadOptional("books/books.json", []),
+    loadOptional("books/categories.json", [])]);
   document.title = "Books — Itihas";
+  const catOf = Object.fromEntries(cats.map((c) => [c.id, c]));
+  const f = { cat: catOf[pick] ? pick : "", author: "", sort: "year" };
+  const body = el("div", {});
+  const authors = el("div", { class: "book-filters" });
+  const draw = () => {
+    const shown = books.filter((b) => (!f.author || bookAuthor(b, f.author)) && (!f.cat || b.category === f.cat));
+    const order = (list) => f.sort === "year" ? [...list].sort((a, b) => (a.year || 0) - (b.year || 0)) : list;
+    tiles.replaceWith(tiles = catTiles(cats, books, { active: f.cat, onpick: (id) => { f.cat = f.cat === id ? "" : id; history.replaceState(null, "", `#/books${f.cat ? `/${f.cat}` : ""}`); draw(); } }));
+    authors.replaceChildren(...[
+      el("span", { class: "bf-label" }, "Author"),
+      ["", ...BOOK_AUTHORS, "Others"].map((a) => el("button", { class: `chip${f.author === a ? " on" : ""}`, onclick: () => { f.author = a; draw(); } },
+        a || "All", " ", el("small", {}, books.filter((b) => !a || bookAuthor(b, a)).length))),
+      el("span", { class: "bf-label" }, "Order"),
+      [["year", "Year written"], ["list", "Voice of India list"]].map(([k, t]) => el("button", { class: `chip${f.sort === k ? " on" : ""}`, onclick: () => { f.sort = k; draw(); } }, t)),
+      f.cat || f.author ? el("button", { class: "chip clear", onclick: () => { f.cat = f.author = ""; history.replaceState(null, "", "#/books"); draw(); } }, "Clear filters ×") : null].flat().filter(Boolean));
+    const groups = (cats.length ? cats : [{ id: undefined, title: "" }]).map((c) => ({ c, list: order(shown.filter((b) => !cats.length || b.category === c.id)) })).filter((g) => g.list.length);
+    body.replaceChildren(...(groups.length ? groups.map(({ c, list }) => el("div", { class: "series book-group", id: c.id ? `cat-${c.id}` : null, style: c.color ? `--cat:${c.color}` : null },
+      c.title ? el("h2", { class: "series-title" }, el("span", { class: "cat-dot" }), el("span", {}, c.title), el("span", { class: "block-hint" }, ` ${list.length} book${list.length > 1 ? "s" : ""}`)) : null,
+      c.blurb ? el("p", { class: "cat-lead" }, c.blurb) : null,
+      el("div", { class: "cards books" }, list.map((b) => bookCard(b, index, catOf[b.category])))))
+      : [el("p", {}, "No books match these filters.")]));
+  };
+  let tiles = el("div");
   $("#app").replaceChildren(el("section", { class: "home books-page" },
     el("h1", {}, "Books"),
-    el("p", { class: "lead" }, "Visual guides to books about Indian history: who is in them, when things happened and how the pieces connect."),
-    books.length ? el("div", { class: "cards books" }, books.map((b) => bookCard(b, index)))
-      : el("p", {}, "No books yet.")));
+    el("p", { class: "lead" }, `${books.length} visual guides to books about Indian history: who is in them, when things happened and how the pieces connect. Pick a topic, or look at when each book was written.`),
+    books.some((b) => b.year) ? bookYears(books, catOf) : null,
+    tiles, authors, body));
+  draw();
 }
 
 // ---------- Parampara ----------
