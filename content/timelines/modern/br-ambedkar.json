@@ -1,0 +1,613 @@
+{
+ "id": "br-ambedkar",
+ "series": "The freedom struggle",
+ "order": 4,
+ "title": "B. R. Ambedkar",
+ "subtitle": "Against caste, and for the Constitution · 1891 – 1956",
+ "subject": "ambedkar",
+ "range": [
+  1888,
+  1960
+ ],
+ "focus": [
+  1891.28,
+  1956.93
+ ],
+ "intro": "Born into a Mahar family treated as untouchable, Bhimrao Ambedkar earned doctorates in New York and London and spent his life fighting caste: by marching to a forbidden water tank and a temple, by burning the Manusmriti, by demanding separate electorates in London, and by writing Annihilation of Caste. He fought Gandhi as hard as he fought the Raj, and lost their fight over separate electorates in the Poona Pact. Brought into Nehru's first cabinet, he chaired the committee that drafted the Constitution, then resigned when the Hindu Code Bill was shelved. Seven weeks before his death he led half a million followers into Buddhism at Nagpur. Today he is perhaps the most widely revered figure in Indian politics, claimed by parties across the spectrum.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Life & family"
+  },
+  {
+   "id": "political",
+   "label": "Movements & office"
+  },
+  {
+   "id": "forts",
+   "label": "Education & writings"
+  },
+  {
+   "id": "world",
+   "label": "The wider world"
+  },
+  {
+   "id": "deaths",
+   "label": "Deaths"
+  }
+ ],
+ "context": [
+  {
+   "entity": "ambedkar",
+   "label": "B. R. Ambedkar"
+  },
+  {
+   "entity": "ambedkar",
+   "label": "Ambedkar – Law Minister",
+   "from": 1947.62,
+   "to": 1951.74
+  },
+  {
+   "entity": "ramabai-ambedkar",
+   "label": "Ramabai Ambedkar"
+  },
+  {
+   "entity": "shahu-kolhapur",
+   "label": "Shahu of Kolhapur"
+  },
+  {
+   "entity": "sayajirao-iii",
+   "label": "Sayajirao Gaekwad III"
+  },
+  {
+   "entity": "gandhi",
+   "label": "Mahatma Gandhi"
+  },
+  {
+   "entity": "nehru",
+   "label": "Jawaharlal Nehru"
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1888,
+   "to": 1947.62
+  }
+ ],
+ "events": [
+  {
+   "id": "born",
+   "date": "1891-04-14",
+   "lane": "life",
+   "major": true,
+   "title": "Born at Mhow",
+   "summary": "Bhimrao Ramji Ambedkar is born in the military cantonment of Mhow, the fourteenth child of Ramji Sakpal, a subedar in the Indian Army, and Bhimabai. The family are Mahars, an \"untouchable\" caste from the Konkan.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "mhow"
+   ]
+  },
+  {
+   "id": "school",
+   "date": "1897",
+   "approx": true,
+   "lane": "life",
+   "title": "Schooled apart",
+   "summary": "At school in Satara and then at Elphinstone High School in Bombay, Ambedkar is made to sit on a sack apart from the other pupils and cannot drink from the common tap unless a peon pours water for him. A Brahmin teacher gives him the surname Ambedkar, after his family's village of Ambadawe.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "marriage",
+   "date": "1906-04",
+   "lane": "life",
+   "title": "Married to Ramabai",
+   "summary": "At about fifteen Ambedkar is married to nine-year-old Ramabai in a Bombay fish market, the only space the family could find. In 1907 he becomes one of the first untouchables to pass the matriculation exam.",
+   "people": [
+    "ambedkar",
+    "ramabai-ambedkar"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "columbia",
+   "date": "1913-07",
+   "lane": "forts",
+   "major": true,
+   "title": "To Columbia on a Baroda scholarship",
+   "summary": "With a scholarship from Sayajirao Gaekwad III of Baroda, Ambedkar goes to Columbia University in New York, where he studies under John Dewey. In 1916 he reads his paper \"Castes in India\" there, then moves to the London School of Economics and Gray's Inn.",
+   "people": [
+    "ambedkar",
+    "sayajirao-iii"
+   ],
+   "concepts": [
+    "columbia"
+   ]
+  },
+  {
+   "id": "baroda",
+   "date": "1917-09",
+   "approx": true,
+   "lane": "life",
+   "title": "Humiliation in Baroda",
+   "summary": "His scholarship ended, Ambedkar returns to serve in Baroda's administration, but no one will rent him a room; thrown out of a Parsi inn, he leaves the city within weeks.",
+   "people": [
+    "ambedkar",
+    "sayajirao-iii"
+   ]
+  },
+  {
+   "id": "mooknayak",
+   "date": "1920-01-31",
+   "lane": "forts",
+   "title": "Mooknayak",
+   "summary": "With help from Shahu of Kolhapur, Ambedkar launches a Marathi fortnightly, Mooknayak, \"leader of the voiceless\". At a conference at Mangaon that March, Shahu tells untouchables they have found their leader.",
+   "people": [
+    "ambedkar",
+    "shahu-kolhapur"
+   ],
+   "places": [
+    "mumbai",
+    "kolhapur"
+   ],
+   "concepts": [
+    "mooknayak"
+   ]
+  },
+  {
+   "id": "lse",
+   "date": "1923",
+   "lane": "forts",
+   "title": "Doctorates in London and New York",
+   "summary": "Ambedkar finishes a DSc at the London School of Economics with a thesis published as The Problem of the Rupee, is called to the bar, and is later awarded a Columbia PhD (1927).",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "london"
+   ],
+   "concepts": [
+    "columbia"
+   ]
+  },
+  {
+   "id": "sabha",
+   "date": "1924-07-20",
+   "lane": "political",
+   "title": "Bahishkrit Hitakarini Sabha",
+   "summary": "Ambedkar founds a society for the welfare of the \"excluded\", with the motto \"Educate, agitate, organise\".",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "mahad",
+   "date": "1927-03-20",
+   "lane": "political",
+   "major": true,
+   "title": "Mahad: the Chavdar tank",
+   "summary": "Ambedkar leads thousands of untouchables to drink from the Chavdar tank in Mahad, opened to all by a municipal resolution that caste Hindus ignored. Afterwards the tank is \"purified\" with cow products and there are attacks on the marchers.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "mahad"
+   ],
+   "concepts": [
+    "mahad-satyagraha"
+   ]
+  },
+  {
+   "id": "manusmriti",
+   "date": "1927-12-25",
+   "lane": "forts",
+   "title": "The Manusmriti is burnt",
+   "summary": "At a second conference at Mahad, Ambedkar and his followers publicly burn a copy of the Manusmriti, the law book that sanctified caste hierarchy. Dalits mark 25 December as Manusmriti Dahan Din.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "mahad"
+   ],
+   "concepts": [
+    "manusmriti",
+    "mahad-satyagraha"
+   ]
+  },
+  {
+   "id": "kalaram",
+   "date": "1930-03-02",
+   "lane": "political",
+   "title": "Kalaram temple satyagraha",
+   "summary": "Ambedkar begins a satyagraha for the right of untouchables to enter the Kalaram temple in Nashik. The temple stays shut for years, which Ambedkar takes as a lesson about the limits of reform within Hinduism.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "nashik",
+    "kalaram"
+   ]
+  },
+  {
+   "id": "rtc",
+   "date": "1930-11-12",
+   "end": "1932-12-24",
+   "lane": "world",
+   "title": "Round Table Conferences",
+   "summary": "Ambedkar represents the Depressed Classes in London. At the second conference (1931) he clashes with Gandhi, who claims to speak for untouchables and opposes their being treated as a separate minority.",
+   "people": [
+    "ambedkar",
+    "gandhi"
+   ],
+   "places": [
+    "london"
+   ],
+   "concepts": [
+    "round-table"
+   ]
+  },
+  {
+   "id": "communal-award",
+   "date": "1932-08-16",
+   "lane": "political",
+   "title": "Separate electorates granted",
+   "summary": "Ramsay MacDonald's Communal Award gives the Depressed Classes separate electorates, which Ambedkar had demanded. Gandhi announces a fast unto death against it.",
+   "people": [
+    "ambedkar",
+    "gandhi"
+   ],
+   "places": [
+    "london"
+   ],
+   "concepts": [
+    "communal-award"
+   ]
+  },
+  {
+   "id": "poona-pact",
+   "date": "1932-09-24",
+   "lane": "political",
+   "major": true,
+   "title": "The Poona Pact",
+   "summary": "With Gandhi's life at stake and fearing reprisals against Dalits if he died, Ambedkar agrees to give up separate electorates for 148 reserved seats in joint electorates. He later called it a fraud that left Dalit representatives beholden to caste Hindu voters.",
+   "people": [
+    "ambedkar",
+    "gandhi"
+   ],
+   "places": [
+    "yerawada",
+    "pune"
+   ],
+   "concepts": [
+    "poona-pact",
+    "communal-award"
+   ]
+  },
+  {
+   "id": "ramabai-dies",
+   "date": "1935-05-27",
+   "lane": "life",
+   "title": "Ramabai dies",
+   "summary": "Ambedkar's wife Ramabai dies after a long illness; four of their five children had died young.",
+   "people": [
+    "ramabai-ambedkar",
+    "ambedkar"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "yeola",
+   "date": "1935-10-13",
+   "lane": "political",
+   "major": true,
+   "title": "\"I will not die a Hindu\"",
+   "summary": "At a conference at Yeola, Ambedkar declares: \"I was born a Hindu because I had no control over this, but I will not die a Hindu.\" Missionaries from several religions begin to court him.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "yeola"
+   ]
+  },
+  {
+   "id": "annihilation",
+   "date": "1936-05-15",
+   "lane": "forts",
+   "title": "Annihilation of Caste",
+   "summary": "Invited to address a Hindu reformist conference in Lahore, Ambedkar refuses to cut his speech attacking the shastras. The invitation is withdrawn and he publishes it himself as Annihilation of Caste; Gandhi replies in Harijan.",
+   "people": [
+    "ambedkar",
+    "gandhi"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "concepts": [
+    "annihilation-of-caste"
+   ]
+  },
+  {
+   "id": "ilp",
+   "date": "1936-08-15",
+   "lane": "political",
+   "title": "Independent Labour Party",
+   "summary": "Ambedkar founds a party of workers and peasants. In the 1937 Bombay elections it wins 14 of the 17 seats it contests.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "polities": [
+    "independent-labour-party"
+   ]
+  },
+  {
+   "id": "pakistan-book",
+   "date": "1940-12",
+   "lane": "forts",
+   "title": "Thoughts on Pakistan",
+   "summary": "Months after the Muslim League's Lahore resolution, Ambedkar publishes a long study of the demand for Pakistan, arguing that if partition came it should be accompanied by an exchange of populations.",
+   "people": [
+    "ambedkar",
+    "jinnah"
+   ],
+   "polities": [
+    "muslim-league"
+   ],
+   "concepts": [
+    "thoughts-on-pakistan"
+   ]
+  },
+  {
+   "id": "labour-member",
+   "date": "1942-07-20",
+   "lane": "political",
+   "title": "Labour Member; the Scheduled Castes Federation",
+   "summary": "Ambedkar joins the Viceroy's Executive Council as Labour Member, and at Nagpur founds the All India Scheduled Castes Federation. In office he backs the eight-hour day, maternity benefit and employment exchanges.",
+   "people": [
+    "ambedkar",
+    "linlithgow"
+   ],
+   "places": [
+    "nagpur",
+    "new-delhi"
+   ],
+   "polities": [
+    "scf"
+   ]
+  },
+  {
+   "id": "pes",
+   "date": "1945-07-08",
+   "lane": "forts",
+   "title": "People's Education Society",
+   "summary": "Ambedkar founds the People's Education Society, which opens Siddharth College in Bombay the next year and Milind College in Aurangabad in 1950.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "constituent-assembly",
+   "date": "1946-07",
+   "approx": true,
+   "lane": "political",
+   "title": "Into the Constituent Assembly from Bengal",
+   "summary": "Defeated in Bombay, Ambedkar is elected to the Constituent Assembly from Bengal with the help of Jogendra Nath Mandal and the Muslim League. When the seat goes to Pakistan at partition, the Congress brings him back from Bombay.",
+   "people": [
+    "ambedkar",
+    "jogendra-mandal"
+   ],
+   "places": [
+    "kolkata"
+   ]
+  },
+  {
+   "id": "law-minister",
+   "date": "1947-08-15",
+   "lane": "political",
+   "major": true,
+   "title": "Law Minister of free India",
+   "summary": "Nehru invites Ambedkar, long a Congress critic, into the first cabinet as Law Minister. On 29 August he is elected chairman of the Constitution's Drafting Committee.",
+   "people": [
+    "ambedkar",
+    "nehru",
+    "patel"
+   ],
+   "places": [
+    "new-delhi"
+   ],
+   "polities": [
+    "dominion-india"
+   ],
+   "concepts": [
+    "constitution-india"
+   ]
+  },
+  {
+   "id": "savita",
+   "date": "1948-04-15",
+   "lane": "life",
+   "title": "Marries Sharada Kabir",
+   "summary": "Ambedkar marries Dr Sharada Kabir, a Saraswat Brahmin doctor who had treated him; she takes the name Savita.",
+   "people": [
+    "ambedkar",
+    "savita-ambedkar"
+   ],
+   "places": [
+    "new-delhi"
+   ]
+  },
+  {
+   "id": "grammar-of-anarchy",
+   "date": "1949-11-25",
+   "lane": "forts",
+   "title": "\"The grammar of anarchy\"",
+   "summary": "In his last speech to the Constituent Assembly, Ambedkar warns that political democracy will not last without social democracy, that bhakti in politics leads to dictatorship, and that satyagraha has no place once constitutional methods exist.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "parliament-house"
+   ],
+   "concepts": [
+    "constitution-india"
+   ]
+  },
+  {
+   "id": "constitution",
+   "date": "1949-11-26",
+   "lane": "political",
+   "major": true,
+   "title": "The Constitution adopted",
+   "summary": "The Assembly adopts the Constitution, abolishing untouchability (Article 17) and providing reserved seats and jobs for Scheduled Castes and Tribes. It comes into force on 26 January 1950.",
+   "people": [
+    "ambedkar",
+    "nehru",
+    "rajendra-prasad"
+   ],
+   "places": [
+    "parliament-house"
+   ],
+   "polities": [
+    "republic-of-india"
+   ],
+   "concepts": [
+    "constitution-india"
+   ]
+  },
+  {
+   "id": "resigns",
+   "date": "1951-09-27",
+   "lane": "political",
+   "title": "Resigns over the Hindu Code Bill",
+   "summary": "When Nehru shelves the Hindu Code Bill, which would have given women rights of divorce and inheritance, in the face of opposition, Ambedkar resigns from the cabinet.",
+   "people": [
+    "ambedkar",
+    "nehru"
+   ],
+   "places": [
+    "new-delhi"
+   ],
+   "concepts": [
+    "hindu-code-bills"
+   ]
+  },
+  {
+   "id": "defeat",
+   "date": "1952-01",
+   "lane": "political",
+   "title": "Defeated in Bombay",
+   "summary": "In the first general election Ambedkar loses Bombay North to the Congress's N. S. Kajrolkar, once his own assistant. He enters the Rajya Sabha that year and loses a 1954 by-election in Bhandara.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "polities": [
+    "scf"
+   ],
+   "concepts": [
+    "ge-1951"
+   ]
+  },
+  {
+   "id": "deeksha",
+   "date": "1956-10-14",
+   "lane": "political",
+   "major": true,
+   "title": "Conversion to Buddhism at Nagpur",
+   "summary": "On Ashoka Vijayadashami, Ambedkar and Savita take the three refuges and five precepts from the monk Chandramani at Nagpur. Ambedkar then administers twenty-two vows to some half a million followers who convert with him.",
+   "people": [
+    "ambedkar",
+    "savita-ambedkar"
+   ],
+   "places": [
+    "deekshabhoomi",
+    "nagpur"
+   ],
+   "concepts": [
+    "dalit-buddhism"
+   ]
+  },
+  {
+   "id": "dies",
+   "date": "1956-12-06",
+   "lane": "deaths",
+   "major": true,
+   "title": "Mahaparinirvan",
+   "summary": "Ambedkar dies in his sleep in Delhi, weeks after finishing The Buddha and His Dhamma. Hundreds of thousands follow his cremation at Dadar in Bombay, now Chaitya Bhoomi.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "new-delhi",
+    "chaitya-bhoomi"
+   ]
+  },
+  {
+   "id": "dhamma-book",
+   "date": "1957",
+   "lane": "forts",
+   "title": "The Buddha and His Dhamma published",
+   "summary": "Ambedkar's reinterpretation of Buddhism as a religion of social equality appears posthumously and becomes the scripture of the Navayana movement.",
+   "people": [
+    "ambedkar"
+   ],
+   "concepts": [
+    "buddha-and-his-dhamma",
+    "dalit-buddhism"
+   ]
+  },
+  {
+   "id": "rpi",
+   "date": "1957-10-03",
+   "lane": "political",
+   "title": "Republican Party of India",
+   "summary": "His followers found the Republican Party he had planned to replace the Scheduled Castes Federation. It soon splits into many factions.",
+   "people": [
+    "ambedkar"
+   ],
+   "places": [
+    "nagpur"
+   ],
+   "polities": [
+    "scf"
+   ]
+  },
+  {
+   "id": "bharat-ratna",
+   "date": "1990-03-31",
+   "lane": "world",
+   "title": "Bharat Ratna",
+   "summary": "The V. P. Singh government awards Ambedkar the Bharat Ratna and puts his portrait in Parliament's Central Hall. His birthday, 14 April, is a national holiday.",
+   "people": [
+    "ambedkar",
+    "vp-singh"
+   ],
+   "places": [
+    "parliament-house"
+   ],
+   "concepts": [
+    "bharat-ratna"
+   ]
+  }
+ ]
+}

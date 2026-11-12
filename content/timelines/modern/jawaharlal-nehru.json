@@ -1,0 +1,660 @@
+{
+ "id": "jawaharlal-nehru",
+ "series": "The freedom struggle",
+ "order": 3,
+ "title": "Jawaharlal Nehru",
+ "subtitle": "Congress leader and India's first Prime Minister · 1889 – 1964",
+ "subject": "nehru",
+ "range": [
+  1885,
+  1968
+ ],
+ "focus": [
+  1947.62,
+  1964.4
+ ],
+ "intro": "The Harrow- and Cambridge-educated son of a rich Allahabad lawyer, Jawaharlal Nehru became Gandhi's chosen heir, the Congress's voice of socialism and internationalism, and in 1947 India's first Prime Minister. In seventeen years in office he built the institutions of the new republic: parliamentary elections, planning, the public sector, the IITs and the atomic energy programme, linguistic states, and reformed Hindu personal law. Abroad he championed non-alignment. His record is fiercely argued over: admirers credit him with anchoring democracy and secularism; critics fault his handling of Kashmir, his economic controls, and the trust in China that ended in defeat in 1962.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Life & family"
+  },
+  {
+   "id": "political",
+   "label": "Congress & government"
+  },
+  {
+   "id": "forts",
+   "label": "Planning & ideas"
+  },
+  {
+   "id": "military",
+   "label": "War & security"
+  },
+  {
+   "id": "world",
+   "label": "India & the world"
+  },
+  {
+   "id": "deaths",
+   "label": "Deaths & violence"
+  }
+ ],
+ "context": [
+  {
+   "entity": "nehru",
+   "label": "Jawaharlal Nehru"
+  },
+  {
+   "entity": "nehru",
+   "label": "Nehru – Prime Minister",
+   "from": 1947.62,
+   "to": 1964.4
+  },
+  {
+   "entity": "motilal-nehru",
+   "label": "Motilal Nehru"
+  },
+  {
+   "entity": "gandhi",
+   "label": "Mahatma Gandhi"
+  },
+  {
+   "entity": "patel",
+   "label": "Vallabhbhai Patel"
+  },
+  {
+   "entity": "indira-gandhi",
+   "label": "Indira Gandhi"
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1885,
+   "to": 1947.62
+  },
+  {
+   "entity": "republic-of-india",
+   "label": "Republic of India",
+   "from": 1950.07,
+   "to": 1968
+  }
+ ],
+ "events": [
+  {
+   "id": "born",
+   "date": "1889-11-14",
+   "lane": "life",
+   "major": true,
+   "title": "Born in Allahabad",
+   "summary": "Jawaharlal Nehru is born in Allahabad, the only son of Motilal Nehru, a wealthy Kashmiri Pandit barrister, and Swarup Rani. He is taught at home by English tutors.",
+   "people": [
+    "nehru",
+    "motilal-nehru"
+   ],
+   "places": [
+    "allahabad"
+   ]
+  },
+  {
+   "id": "harrow",
+   "date": "1905-05",
+   "lane": "life",
+   "title": "Harrow and Cambridge",
+   "summary": "Nehru is sent to Harrow, then reads natural sciences at Trinity College, Cambridge, and law at the Inner Temple. He returns in 1912 a barrister with little interest in practising.",
+   "people": [
+    "nehru"
+   ],
+   "places": [
+    "london",
+    "cambridge"
+   ]
+  },
+  {
+   "id": "marriage",
+   "date": "1916-02-08",
+   "lane": "life",
+   "title": "Marries Kamala Kaul",
+   "summary": "Nehru marries Kamala Kaul in Delhi. That December, at the Lucknow Congress, he meets Gandhi for the first time.",
+   "people": [
+    "nehru",
+    "kamala-nehru",
+    "gandhi"
+   ],
+   "places": [
+    "delhi",
+    "lucknow"
+   ]
+  },
+  {
+   "id": "indira",
+   "date": "1917-11-19",
+   "lane": "life",
+   "title": "Indira is born",
+   "summary": "The Nehrus' only child, Indira Priyadarshini, is born at Anand Bhawan in Allahabad.",
+   "people": [
+    "indira-gandhi",
+    "nehru",
+    "kamala-nehru"
+   ],
+   "places": [
+    "allahabad"
+   ]
+  },
+  {
+   "id": "kisans",
+   "date": "1920-06",
+   "approx": true,
+   "lane": "political",
+   "title": "Among the peasants of Pratapgarh",
+   "summary": "Nehru tours the villages of Pratapgarh and Rae Bareli where tenants are agitating against landlords. He wrote later that it was here he discovered rural India.",
+   "people": [
+    "nehru"
+   ],
+   "places": [
+    "allahabad"
+   ]
+  },
+  {
+   "id": "first-arrest",
+   "date": "1921-12-06",
+   "lane": "political",
+   "title": "First imprisonment",
+   "summary": "Nehru and his father are arrested for organising the boycott of the Prince of Wales's visit. He will be jailed nine times before independence, for nearly nine years in all.",
+   "people": [
+    "nehru",
+    "motilal-nehru"
+   ],
+   "places": [
+    "allahabad"
+   ],
+   "concepts": [
+    "non-cooperation"
+   ]
+  },
+  {
+   "id": "brussels",
+   "date": "1927-02-10",
+   "lane": "world",
+   "title": "The Brussels congress and Moscow",
+   "summary": "Representing the Congress at the Congress of Oppressed Nationalities in Brussels, Nehru meets anti-colonial and socialist leaders from around the world; in November he visits the Soviet Union for its tenth anniversary.",
+   "people": [
+    "nehru"
+   ],
+   "places": [
+    "moscow"
+   ]
+  },
+  {
+   "id": "lahore",
+   "date": "1929-12-31",
+   "lane": "political",
+   "major": true,
+   "title": "Purna Swaraj on the banks of the Ravi",
+   "summary": "At forty, Nehru presides over the Lahore Congress, which demands complete independence. At midnight he hoists the tricolour by the Ravi; 26 January 1930 is celebrated as Independence Day.",
+   "people": [
+    "nehru",
+    "gandhi"
+   ],
+   "places": [
+    "lahore"
+   ],
+   "polities": [
+    "congress"
+   ],
+   "concepts": [
+    "purna-swaraj"
+   ]
+  },
+  {
+   "id": "motilal-dies",
+   "date": "1931-02-06",
+   "lane": "life",
+   "title": "Motilal Nehru dies",
+   "summary": "Nehru's father, a former Congress president and author of the 1928 Nehru Report, dies at Lucknow.",
+   "people": [
+    "motilal-nehru",
+    "nehru"
+   ],
+   "places": [
+    "lucknow"
+   ]
+  },
+  {
+   "id": "kamala-dies",
+   "date": "1936-02-28",
+   "lane": "life",
+   "title": "Kamala dies in Lausanne",
+   "summary": "Released from jail to be with her, Nehru is at Kamala's side when she dies of tuberculosis in a Swiss sanatorium. His Autobiography, written in prison, comes out the same year.",
+   "people": [
+    "kamala-nehru",
+    "nehru"
+   ],
+   "concepts": [
+    "nehru-autobiography"
+   ]
+  },
+  {
+   "id": "lucknow-president",
+   "date": "1936-04",
+   "lane": "political",
+   "title": "Congress president again",
+   "summary": "Nehru presides over the Lucknow and then the Faizpur Congress, declaring himself a socialist. He leads the 1937 election campaign in which the Congress wins power in most provinces.",
+   "people": [
+    "nehru"
+   ],
+   "places": [
+    "lucknow"
+   ],
+   "polities": [
+    "congress"
+   ]
+  },
+  {
+   "id": "planning-committee",
+   "date": "1938-12",
+   "lane": "forts",
+   "title": "The National Planning Committee",
+   "summary": "At Subhas Bose's invitation Nehru chairs the Congress's National Planning Committee, an early blueprint for state-led industrialisation.",
+   "people": [
+    "nehru",
+    "subhas-bose"
+   ],
+   "polities": [
+    "congress"
+   ],
+   "concepts": [
+    "five-year-plans"
+   ]
+  },
+  {
+   "id": "ahmednagar",
+   "date": "1942-08-09",
+   "lane": "political",
+   "major": true,
+   "title": "Arrested; Ahmednagar Fort",
+   "summary": "After the Quit India resolution Nehru and the Congress Working Committee are held in Ahmednagar Fort for almost three years. There he writes The Discovery of India.",
+   "people": [
+    "nehru",
+    "patel"
+   ],
+   "places": [
+    "ahmednagar-fort"
+   ],
+   "concepts": [
+    "quit-india",
+    "discovery-of-india"
+   ]
+  },
+  {
+   "id": "cabinet-mission",
+   "date": "1946-07-10",
+   "lane": "political",
+   "title": "The press conference that sank the Cabinet Mission plan",
+   "summary": "Newly elected Congress president, Nehru tells journalists the Congress will be free to change the Cabinet Mission's grouping scheme once in the Constituent Assembly. Jinnah takes this as proof of bad faith, withdraws the League's acceptance and calls for Direct Action.",
+   "people": [
+    "nehru",
+    "jinnah"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "polities": [
+    "muslim-league"
+   ],
+   "concepts": [
+    "cabinet-mission",
+    "direct-action-day"
+   ]
+  },
+  {
+   "id": "interim-government",
+   "date": "1946-09-02",
+   "lane": "political",
+   "title": "Heads the Interim Government",
+   "summary": "Nehru is sworn in as Vice-President of the Viceroy's Executive Council, in effect prime minister. In December he moves the Objectives Resolution in the Constituent Assembly.",
+   "people": [
+    "nehru",
+    "wavell"
+   ],
+   "places": [
+    "new-delhi"
+   ],
+   "concepts": [
+    "objectives-resolution"
+   ]
+  },
+  {
+   "id": "tryst",
+   "date": "1947-08-14",
+   "lane": "political",
+   "major": true,
+   "title": "\"A tryst with destiny\"",
+   "summary": "At midnight in the Constituent Assembly Nehru announces independence: \"Long years ago we made a tryst with destiny...\" Next morning he is sworn in as India's first Prime Minister, with Patel as his deputy.",
+   "people": [
+    "nehru",
+    "patel",
+    "mountbatten"
+   ],
+   "places": [
+    "parliament-house"
+   ],
+   "polities": [
+    "dominion-india"
+   ],
+   "concepts": [
+    "tryst-with-destiny",
+    "partition-of-india"
+   ]
+  },
+  {
+   "id": "kashmir",
+   "date": "1947-10-27",
+   "lane": "military",
+   "major": true,
+   "title": "Troops to Kashmir",
+   "summary": "After tribal raiders from Pakistan invade and Maharaja Hari Singh accedes to India, Indian troops are airlifted to Srinagar. On 1 January 1948 Nehru takes the dispute to the United Nations; a ceasefire line leaves a third of the state with Pakistan.",
+   "people": [
+    "nehru",
+    "hari-singh",
+    "sheikh-abdullah"
+   ],
+   "places": [
+    "srinagar"
+   ],
+   "polities": [
+    "pakistan"
+   ],
+   "concepts": [
+    "kashmir-war-1947"
+   ]
+  },
+  {
+   "id": "gandhi-killed",
+   "date": "1948-01-30",
+   "lane": "deaths",
+   "title": "\"The light has gone out of our lives\"",
+   "summary": "Gandhi is assassinated. Nehru's radio address that night is one of his best-remembered speeches.",
+   "people": [
+    "gandhi",
+    "nehru",
+    "nathuram-godse"
+   ],
+   "places": [
+    "birla-house"
+   ],
+   "concepts": [
+    "gandhi-assassination"
+   ],
+   "see": "mahatma-gandhi"
+  },
+  {
+   "id": "hyderabad",
+   "date": "1948-09-13",
+   "lane": "military",
+   "title": "Hyderabad annexed",
+   "summary": "After the Nizam holds out and Razakar violence mounts, the Indian Army invades Hyderabad; the state surrenders in four days. Thousands are killed in the reprisals that follow.",
+   "people": [
+    "nehru",
+    "patel"
+   ],
+   "places": [
+    "hyderabad"
+   ],
+   "polities": [
+    "hyderabad-state"
+   ],
+   "concepts": [
+    "operation-polo"
+   ]
+  },
+  {
+   "id": "republic",
+   "date": "1950-01-26",
+   "lane": "political",
+   "title": "India becomes a republic",
+   "summary": "The Constitution comes into force. Rajendra Prasad becomes President; Nehru continues as Prime Minister.",
+   "people": [
+    "nehru",
+    "ambedkar",
+    "rajendra-prasad"
+   ],
+   "places": [
+    "new-delhi"
+   ],
+   "polities": [
+    "republic-of-india"
+   ],
+   "concepts": [
+    "constitution-india"
+   ]
+  },
+  {
+   "id": "patel-dies",
+   "date": "1950-12-15",
+   "lane": "deaths",
+   "title": "Patel dies",
+   "summary": "The death of Vallabhbhai Patel removes Nehru's only rival inside the government and leaves him the unchallenged leader of party and state.",
+   "people": [
+    "patel",
+    "nehru"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "first-amendment",
+   "date": "1951-06-18",
+   "lane": "political",
+   "title": "The First Amendment",
+   "summary": "Nehru's government amends the Constitution to allow \"reasonable restrictions\" on free speech and to shield land reform laws from the courts, after judges struck down press restrictions and zamindari abolition.",
+   "people": [
+    "nehru",
+    "syama-prasad-mookerjee"
+   ],
+   "places": [
+    "parliament-house"
+   ],
+   "concepts": [
+    "first-amendment"
+   ]
+  },
+  {
+   "id": "five-year-plan",
+   "date": "1951-04-01",
+   "lane": "forts",
+   "title": "The first Five-Year Plan",
+   "summary": "The Planning Commission, chaired by Nehru, launches the first plan, focused on agriculture and irrigation; the second (1956) turns to heavy industry and the public sector.",
+   "people": [
+    "nehru"
+   ],
+   "concepts": [
+    "five-year-plans"
+   ]
+  },
+  {
+   "id": "first-election",
+   "date": "1951-10-25",
+   "end": "1952-02-21",
+   "lane": "political",
+   "title": "The first general election",
+   "summary": "In the world's largest election to date, some 170 million voters, most of them illiterate, vote over four months. The Congress wins 364 of 489 seats.",
+   "people": [
+    "nehru",
+    "ambedkar",
+    "syama-prasad-mookerjee"
+   ],
+   "polities": [
+    "congress"
+   ],
+   "concepts": [
+    "ge-1951"
+   ]
+  },
+  {
+   "id": "abdullah-arrest",
+   "date": "1953-08-09",
+   "lane": "political",
+   "title": "Sheikh Abdullah arrested",
+   "summary": "Nehru's old friend, the Prime Minister of Jammu and Kashmir, is dismissed and jailed amid fears he is seeking independence. Weeks earlier Syama Prasad Mookerjee had died in custody in Srinagar.",
+   "people": [
+    "sheikh-abdullah",
+    "nehru",
+    "syama-prasad-mookerjee"
+   ],
+   "places": [
+    "srinagar"
+   ]
+  },
+  {
+   "id": "panchsheel",
+   "date": "1954-04-29",
+   "lane": "world",
+   "title": "Panchsheel",
+   "summary": "India and China sign an agreement on trade with Tibet built on five principles of peaceful coexistence, effectively accepting Chinese rule there. \"Hindi–Chini bhai bhai\" becomes the slogan of the day.",
+   "people": [
+    "nehru",
+    "zhou-enlai"
+   ],
+   "polities": [
+    "china"
+   ],
+   "concepts": [
+    "panchsheel"
+   ]
+  },
+  {
+   "id": "hindu-code",
+   "date": "1955-05-18",
+   "lane": "political",
+   "title": "The Hindu Code bills",
+   "summary": "After Ambedkar's comprehensive bill stalls, Nehru pushes the reform through in parts: the Hindu Marriage Act (1955) and the Succession, Minority and Adoption Acts (1956) allow divorce, ban polygamy and give daughters inheritance rights.",
+   "people": [
+    "nehru",
+    "ambedkar"
+   ],
+   "places": [
+    "parliament-house"
+   ],
+   "concepts": [
+    "hindu-code-bills"
+   ]
+  },
+  {
+   "id": "states-reorganisation",
+   "date": "1956-11-01",
+   "lane": "political",
+   "title": "States redrawn on language",
+   "summary": "After agitations, most dramatically Potti Sriramulu's fatal fast for Andhra, Nehru accepts linguistic states. Bombay is split into Maharashtra and Gujarat in 1960.",
+   "people": [
+    "nehru"
+   ],
+   "concepts": [
+    "states-reorganisation"
+   ]
+  },
+  {
+   "id": "dalai-lama",
+   "date": "1959-03-31",
+   "lane": "world",
+   "title": "Asylum for the Dalai Lama",
+   "summary": "The Dalai Lama crosses into India after the failed Tibetan uprising. Nehru's government gives him refuge, and relations with China sour over the border.",
+   "people": [
+    "dalai-lama",
+    "nehru"
+   ],
+   "polities": [
+    "china"
+   ]
+  },
+  {
+   "id": "indus",
+   "date": "1960-09-19",
+   "lane": "world",
+   "title": "The Indus Waters Treaty",
+   "summary": "Nehru and Ayub Khan sign the World Bank-brokered treaty dividing the six rivers of the Indus system between India and Pakistan.",
+   "people": [
+    "nehru"
+   ],
+   "places": [
+    "karachi"
+   ],
+   "polities": [
+    "pakistan"
+   ],
+   "concepts": [
+    "indus-waters-treaty"
+   ]
+  },
+  {
+   "id": "nam",
+   "date": "1961-09-01",
+   "lane": "world",
+   "title": "Non-Aligned Movement",
+   "summary": "Nehru, Tito, Nasser, Nkrumah and Sukarno found the Non-Aligned Movement at Belgrade, a bloc of states refusing to join either side of the Cold War.",
+   "people": [
+    "nehru"
+   ],
+   "concepts": [
+    "nam"
+   ]
+  },
+  {
+   "id": "goa",
+   "date": "1961-12-18",
+   "lane": "military",
+   "title": "Goa taken",
+   "summary": "After fourteen years of failed diplomacy with Portugal, Nehru sends in the army. Goa, Daman and Diu fall in two days.",
+   "people": [
+    "nehru",
+    "krishna-menon"
+   ],
+   "places": [
+    "goa"
+   ],
+   "concepts": [
+    "goa-annexation"
+   ]
+  },
+  {
+   "id": "china-war",
+   "date": "1962-10-20",
+   "end": "1962-11-21",
+   "lane": "military",
+   "major": true,
+   "title": "The war with China",
+   "summary": "The Chinese army attacks in Ladakh and the North-East Frontier Agency, routing Indian forces. China declares a ceasefire a month later, keeping Aksai Chin. Defence Minister Krishna Menon resigns; Nehru's \"forward policy\" and trust in China are discredited.",
+   "people": [
+    "nehru",
+    "krishna-menon",
+    "zhou-enlai"
+   ],
+   "places": [
+    "ladakh"
+   ],
+   "polities": [
+    "china"
+   ],
+   "concepts": [
+    "sino-indian-war"
+   ]
+  },
+  {
+   "id": "dies",
+   "date": "1964-05-27",
+   "lane": "deaths",
+   "major": true,
+   "title": "Dies in office",
+   "summary": "Nehru dies of a heart attack in Delhi after seventeen years as Prime Minister. He is cremated at Shantivan by the Yamuna; Lal Bahadur Shastri succeeds him and Indira Gandhi two years later.",
+   "people": [
+    "nehru",
+    "indira-gandhi"
+   ],
+   "places": [
+    "new-delhi",
+    "yamuna"
+   ]
+  }
+ ]
+}

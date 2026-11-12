@@ -1,0 +1,596 @@
+{
+  "kasturba": {
+    "type": "person",
+    "wiki": "Kasturba Gandhi",
+    "aliases": [
+      "Kasturba"
+    ]
+  },
+  "motilal-nehru": {
+    "type": "person",
+    "wiki": "Motilal Nehru",
+    "aliases": [
+      "Motilal Nehru",
+      "Motilal"
+    ]
+  },
+  "kamala-nehru": {
+    "type": "person",
+    "wiki": "Kamala Nehru",
+    "aliases": [
+      "Kamala Nehru",
+      "Kamala"
+    ]
+  },
+  "rajendra-prasad": {
+    "type": "person",
+    "wiki": "Rajendra Prasad",
+    "aliases": [
+      "Rajendra Prasad"
+    ]
+  },
+  "mahadev-desai": {
+    "type": "person",
+    "wiki": "Mahadev Desai",
+    "aliases": [
+      "Mahadev Desai"
+    ]
+  },
+  "madanlal-pahwa": {
+    "type": "person",
+    "wiki": "Madanlal Pahwa",
+    "aliases": [
+      "Madanlal Pahwa"
+    ]
+  },
+  "pattabhi": {
+    "type": "person",
+    "wiki": "Pattabhi Sitaramayya",
+    "aliases": [
+      "Pattabhi Sitaramayya",
+      "Pattabhi"
+    ]
+  },
+  "cr-das": {
+    "type": "person",
+    "wiki": "Chittaranjan Das",
+    "aliases": [
+      "Chittaranjan Das",
+      "C. R. Das"
+    ]
+  },
+  "rash-behari-bose": {
+    "type": "person",
+    "wiki": "Rash Behari Bose",
+    "aliases": [
+      "Rash Behari Bose"
+    ]
+  },
+  "hitler": {
+    "type": "person",
+    "wiki": "Adolf Hitler",
+    "aliases": [
+      "Hitler"
+    ]
+  },
+  "tojo": {
+    "type": "person",
+    "wiki": "Hideki Tojo",
+    "aliases": [
+      "Tojo"
+    ]
+  },
+  "emilie-schenkl": {
+    "type": "person",
+    "wiki": "Emilie Schenkl",
+    "aliases": [
+      "Emilie Schenkl"
+    ]
+  },
+  "lakshmi-sahgal": {
+    "type": "person",
+    "wiki": "Lakshmi Sahgal",
+    "aliases": [
+      "Lakshmi Swaminathan",
+      "Lakshmi Sahgal"
+    ]
+  },
+  "shah-nawaz-khan": {
+    "type": "person",
+    "wiki": "Shah Nawaz Khan (general)",
+    "aliases": [
+      "Shah Nawaz Khan"
+    ]
+  },
+  "shyamji": {
+    "type": "person",
+    "wiki": "Shyamji Krishna Varma",
+    "aliases": [
+      "Shyamji Krishna Varma"
+    ]
+  },
+  "madan-lal-dhingra": {
+    "type": "person",
+    "wiki": "Madan Lal Dhingra",
+    "aliases": [
+      "Madan Lal Dhingra",
+      "Dhingra"
+    ]
+  },
+  "anant-kanhere": {
+    "type": "person",
+    "wiki": "Anant Laxman Kanhere",
+    "aliases": [
+      "Anant Kanhere"
+    ]
+  },
+  "ganesh-savarkar": {
+    "type": "person",
+    "wiki": "Ganesh Damodar Savarkar",
+    "aliases": [
+      "Ganesh Savarkar",
+      "Babarao"
+    ]
+  },
+  "ramabai-ambedkar": {
+    "type": "person",
+    "wiki": "Ramabai Ambedkar",
+    "aliases": [
+      "Ramabai"
+    ]
+  },
+  "savita-ambedkar": {
+    "type": "person",
+    "wiki": "Savita Ambedkar",
+    "aliases": [
+      "Sharada Kabir",
+      "Savita"
+    ]
+  },
+  "jogendra-mandal": {
+    "type": "person",
+    "wiki": "Jogendra Nath Mandal",
+    "aliases": [
+      "Jogendra Nath Mandal"
+    ]
+  },
+  "sheikh-abdullah": {
+    "type": "person",
+    "wiki": "Sheikh Abdullah",
+    "aliases": [
+      "Sheikh Abdullah"
+    ]
+  },
+  "dalai-lama": {
+    "type": "person",
+    "wiki": "14th Dalai Lama",
+    "aliases": [
+      "Dalai Lama"
+    ]
+  },
+  "krishna-menon": {
+    "type": "person",
+    "wiki": "V. K. Krishna Menon",
+    "aliases": [
+      "Krishna Menon"
+    ]
+  },
+  "zhou-enlai": {
+    "type": "person",
+    "wiki": "Zhou Enlai",
+    "aliases": [
+      "Zhou Enlai"
+    ]
+  },
+  "pietermaritzburg": {
+    "type": "place",
+    "wiki": "Pietermaritzburg",
+    "aliases": [
+      "Pietermaritzburg"
+    ]
+  },
+  "durban": {
+    "type": "place",
+    "wiki": "Durban",
+    "aliases": [
+      "Durban"
+    ]
+  },
+  "champaran": {
+    "type": "place",
+    "wiki": "Champaran",
+    "aliases": [
+      "Champaran"
+    ]
+  },
+  "kheda": {
+    "type": "place",
+    "wiki": "Kheda district",
+    "aliases": [
+      "Kheda"
+    ]
+  },
+  "birla-house": {
+    "type": "place",
+    "wiki": "Gandhi Smriti",
+    "aliases": [
+      "Birla House"
+    ]
+  },
+  "aga-khan-palace": {
+    "type": "place",
+    "wiki": "Aga Khan Palace",
+    "aliases": [
+      "Aga Khan Palace"
+    ]
+  },
+  "ahmednagar-fort": {
+    "type": "place",
+    "wiki": "Ahmednagar Fort",
+    "aliases": [
+      "Ahmednagar Fort"
+    ]
+  },
+  "cambridge": {
+    "type": "place",
+    "wiki": "Cambridge"
+  },
+  "mhow": {
+    "type": "place",
+    "wiki": "Dr. Ambedkar Nagar",
+    "aliases": [
+      "Mhow"
+    ]
+  },
+  "mahad": {
+    "type": "place",
+    "wiki": "Mahad",
+    "aliases": [
+      "Mahad"
+    ]
+  },
+  "yeola": {
+    "type": "place",
+    "wiki": "Yeola",
+    "aliases": [
+      "Yeola"
+    ]
+  },
+  "deekshabhoomi": {
+    "type": "place",
+    "wiki": "Deekshabhoomi",
+    "aliases": [
+      "Deekshabhoomi"
+    ]
+  },
+  "chaitya-bhoomi": {
+    "type": "place",
+    "wiki": "Chaitya Bhoomi",
+    "aliases": [
+      "Chaitya Bhoomi"
+    ]
+  },
+  "bhagur": {
+    "type": "place",
+    "wiki": "Bhagur",
+    "aliases": [
+      "Bhagur"
+    ]
+  },
+  "ratnagiri": {
+    "type": "place",
+    "wiki": "Ratnagiri",
+    "aliases": [
+      "Ratnagiri"
+    ]
+  },
+  "marseille": {
+    "type": "place",
+    "wiki": "Marseille",
+    "aliases": [
+      "Marseilles"
+    ]
+  },
+  "port-blair": {
+    "type": "place",
+    "wiki": "Sri Vijaya Puram",
+    "aliases": [
+      "Port Blair"
+    ]
+  },
+  "berlin": {
+    "type": "place",
+    "wiki": "Berlin",
+    "aliases": [
+      "Berlin"
+    ]
+  },
+  "taipei": {
+    "type": "place",
+    "wiki": "Taipei",
+    "aliases": [
+      "Taipei",
+      "Taihoku"
+    ]
+  },
+  "imphal": {
+    "type": "place",
+    "wiki": "Imphal",
+    "aliases": [
+      "Imphal"
+    ]
+  },
+  "natal-indian-congress": {
+    "type": "polity",
+    "wiki": "Natal Indian Congress",
+    "aliases": [
+      "Natal Indian Congress"
+    ]
+  },
+  "abhinav-bharat": {
+    "type": "polity",
+    "wiki": "Abhinav Bharat Society",
+    "aliases": [
+      "Abhinav Bharat"
+    ]
+  },
+  "forward-bloc": {
+    "type": "polity",
+    "wiki": "All India Forward Bloc",
+    "aliases": [
+      "Forward Bloc"
+    ]
+  },
+  "indian-independence-league": {
+    "type": "polity",
+    "wiki": "Indian Independence League",
+    "aliases": [
+      "Indian Independence League"
+    ]
+  },
+  "nazi-germany": {
+    "type": "polity",
+    "wiki": "Nazi Germany"
+  },
+  "independent-labour-party": {
+    "type": "polity",
+    "wiki": "Independent Labour Party (India)",
+    "aliases": [
+      "Independent Labour Party"
+    ]
+  },
+  "scf": {
+    "type": "polity",
+    "wiki": "Scheduled Castes Federation",
+    "aliases": [
+      "Scheduled Castes Federation"
+    ]
+  },
+  "satyagraha": {
+    "type": "concept",
+    "wiki": "Satyagraha",
+    "aliases": [
+      "satyagraha"
+    ]
+  },
+  "hind-swaraj": {
+    "type": "concept",
+    "wiki": "Hind Swaraj or Indian Home Rule",
+    "aliases": [
+      "Hind Swaraj"
+    ]
+  },
+  "champaran-satyagraha": {
+    "type": "concept",
+    "wiki": "Champaran Satyagraha"
+  },
+  "kheda-satyagraha": {
+    "type": "concept",
+    "wiki": "Kheda Satyagraha"
+  },
+  "gandhi-irwin-pact": {
+    "type": "concept",
+    "wiki": "Gandhi–Irwin Pact"
+  },
+  "round-table": {
+    "type": "concept",
+    "wiki": "Round Table Conferences (India)",
+    "aliases": [
+      "Round Table Conference"
+    ]
+  },
+  "communal-award": {
+    "type": "concept",
+    "wiki": "Communal Award",
+    "aliases": [
+      "Communal Award"
+    ]
+  },
+  "cabinet-mission": {
+    "type": "concept",
+    "wiki": "1946 Cabinet Mission to India",
+    "aliases": [
+      "Cabinet Mission"
+    ]
+  },
+  "tryst-with-destiny": {
+    "type": "concept",
+    "wiki": "Tryst with Destiny"
+  },
+  "objectives-resolution": {
+    "type": "concept",
+    "wiki": "Objectives Resolution",
+    "aliases": [
+      "Objectives Resolution"
+    ]
+  },
+  "kashmir-war-1947": {
+    "type": "concept",
+    "wiki": "Indo-Pakistani war of 1947–1948"
+  },
+  "operation-polo": {
+    "type": "concept",
+    "wiki": "Annexation of Hyderabad"
+  },
+  "first-amendment": {
+    "type": "concept",
+    "wiki": "First Amendment of the Constitution of India"
+  },
+  "five-year-plans": {
+    "type": "concept",
+    "wiki": "Five-Year Plans of India",
+    "aliases": [
+      "Five-Year Plan"
+    ]
+  },
+  "panchsheel": {
+    "type": "concept",
+    "wiki": "Five Principles of Peaceful Coexistence",
+    "aliases": [
+      "Panchsheel"
+    ]
+  },
+  "hindu-code-bills": {
+    "type": "concept",
+    "wiki": "Hindu code bills",
+    "aliases": [
+      "Hindu Code Bill",
+      "Hindu Code"
+    ]
+  },
+  "states-reorganisation": {
+    "type": "concept",
+    "wiki": "States Reorganisation Act, 1956"
+  },
+  "nam": {
+    "type": "concept",
+    "wiki": "Non-Aligned Movement",
+    "aliases": [
+      "Non-Aligned Movement"
+    ]
+  },
+  "goa-annexation": {
+    "type": "concept",
+    "wiki": "Annexation of Goa"
+  },
+  "sino-indian-war": {
+    "type": "concept",
+    "wiki": "Sino-Indian War"
+  },
+  "discovery-of-india": {
+    "type": "concept",
+    "wiki": "The Discovery of India",
+    "aliases": [
+      "The Discovery of India"
+    ]
+  },
+  "nehru-autobiography": {
+    "type": "concept",
+    "wiki": "An Autobiography (Nehru)",
+    "aliases": [
+      "Autobiography"
+    ]
+  },
+  "mahad-satyagraha": {
+    "type": "concept",
+    "wiki": "Mahad Satyagraha"
+  },
+  "manusmriti": {
+    "type": "concept",
+    "wiki": "Manusmriti",
+    "aliases": [
+      "Manusmriti"
+    ]
+  },
+  "kalaram": {
+    "type": "place",
+    "wiki": "Kalaram Temple",
+    "aliases": [
+      "Kalaram temple"
+    ]
+  },
+  "annihilation-of-caste": {
+    "type": "concept",
+    "wiki": "Annihilation of Caste",
+    "aliases": [
+      "Annihilation of Caste"
+    ]
+  },
+  "thoughts-on-pakistan": {
+    "type": "concept",
+    "wiki": null,
+    "name": "Thoughts on Pakistan",
+    "description": "Ambedkar's 1940 study of the Muslim League's demand for Pakistan, later reissued as Pakistan or the Partition of India.",
+    "aliases": [
+      "Thoughts on Pakistan"
+    ]
+  },
+  "dalit-buddhism": {
+    "type": "concept",
+    "wiki": "Dalit Buddhist movement",
+    "aliases": [
+      "Navayana"
+    ]
+  },
+  "buddha-and-his-dhamma": {
+    "type": "concept",
+    "wiki": "The Buddha and His Dhamma",
+    "aliases": [
+      "The Buddha and His Dhamma"
+    ]
+  },
+  "bharat-ratna": {
+    "type": "concept",
+    "wiki": "Bharat Ratna",
+    "aliases": [
+      "Bharat Ratna"
+    ]
+  },
+  "india-house": {
+    "type": "concept",
+    "wiki": "India House",
+    "aliases": [
+      "India House"
+    ]
+  },
+  "war-of-independence-book": {
+    "type": "concept",
+    "wiki": "The Indian War of Independence (book)"
+  },
+  "savarkar-case": {
+    "type": "concept",
+    "wiki": null,
+    "name": "The Savarkar case",
+    "description": "France v. Britain at the Permanent Court of Arbitration (1911) over Savarkar's recapture on French soil at Marseilles; the court ruled that Britain need not return him.",
+    "aliases": []
+  },
+  "the-indian-struggle": {
+    "type": "concept",
+    "wiki": "The Indian Struggle",
+    "aliases": [
+      "The Indian Struggle"
+    ]
+  },
+  "indian-legion": {
+    "type": "concept",
+    "wiki": "Indian Legion",
+    "aliases": [
+      "Indian Legion"
+    ]
+  },
+  "imphal-campaign": {
+    "type": "concept",
+    "wiki": "Battle of Imphal"
+  },
+  "ina-trials": {
+    "type": "concept",
+    "wiki": "Indian National Army trials",
+    "aliases": [
+      "INA trials"
+    ]
+  },
+  "bose-death": {
+    "type": "concept",
+    "wiki": "Death of Subhas Chandra Bose"
+  }
+}
