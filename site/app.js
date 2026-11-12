@@ -126,20 +126,15 @@ const go = (hash) => { if (location.hash !== hash) location.hash = hash; else ro
 // ---------- Home ----------
 async function renderHome() {
   state.tl = null;
-  const [all, entities, search, books, lineages, bookCats] = await Promise.all([load("data/index.json"), load("data/entities.json"),
+  const [all, entities, search, books, lineages, bookCats, sections] = await Promise.all([load("data/index.json"), load("data/entities.json"),
     loadOptional("data/search.json", { entities: [], events: [] }), loadOptional("books/books.json", []),
-    loadOptional("parampara/parampara.json", []), loadOptional("books/categories.json", [])]);
+    loadOptional("parampara/parampara.json", []), loadOptional("books/categories.json", []), loadOptional("data/sections.json", [])]);
   state.entities = entities;
   state.subjectTimeline = Object.fromEntries(all.map((t) => [t.subject, t.id]));
   document.title = "Itihas — Indian History Timelines";
   // Timelines outside India (content: "region": "Japan") get their own section and stay out of
   // the Indian river, "On this day" and series lists.
   const index = all.filter((t) => t.region === "India");
-  // Placeholders for planned timelines; any that now exist drop out automatically.
-  const norm = (t) => t.toLowerCase().replace(/^the\s+/, "").replace(/\s+empire$/, "");
-  const existing = new Set(index.map((t) => norm(t.title)));
-  const upcoming = ["Delhi Sultanate", "Vijayanagara", "The Deccan Sultanates", "The Maurya Empire", "The Chola Empire"]
-    .filter((u) => !existing.has(norm(u)));
   const card = (t) => {
     const subj = entities[t.subject];
     return el("a", { class: `tl-card${t.kind === "empire" ? " overview" : ""}`, href: `#/${t.id}` },
@@ -147,9 +142,7 @@ async function renderHome() {
       el("div", {}, el("h3", {}, t.title), el("p", {}, t.subtitle), el("p", {}, `${t.events} events`)));
   };
   const indianIds = new Set(index.map((t) => t.id));
-  const regions = [...new Set(all.map((t) => t.region).filter((r) => r !== "India"))];
-  const empires = index.filter((t) => t.kind === "empire").sort((a, b) => a.order - b.order);
-  const series = [...new Set(index.filter((t) => t.kind !== "empire").map((t) => t.series || "Other"))];
+  const shelves = sectionGroups(all, sections);
   const uniqueEvents = new Set(search.events.map((e) => `${e.d}|${e.t}`)).size;
 
   // Header: portraits, title, search, stats
@@ -175,30 +168,45 @@ async function renderHome() {
       el("div", { class: "home-two" },
         el("section", { class: "home-block" }, onThisDay({ ...search, events: search.events.filter((e) => indianIds.has(e.tl)) }, index)),
         el("section", { class: "home-block" }, featuredComparisons(index, entities))),
-      empires.length ? el("div", { class: "series" },
-        el("h2", { class: "series-title" }, "Empires"),
-        el("div", { class: "cards" }, empires.map(card))) : null,
-      series.map((name) => el("div", { class: "series" },
-        el("h2", { class: "series-title" }, name === "Other" ? "Other timelines"
-          : index.some((t) => t.series === name && t.kind === "party") ? name
-          : index.some((t) => t.series === name && t.kind === "state") ? `${name.replace(/^The /, "")} — the great houses` : `People of ${name.replace(/^The /, "the ")}`),
-        el("div", { class: "cards" }, index.filter((t) => t.kind !== "empire" && (t.series || "Other") === name).map(card)))),
-      books.length ? el("div", { class: "series" },
-        el("h2", { class: "series-title" }, "Books", el("a", { class: "block-link", href: "#/books" }, `All ${books.length} books →`)),
+      // Jump bar: one chip per section, plus the library; sticks to the top while scrolling.
+      el("nav", { class: "shelf-nav", "aria-label": "Sections" },
+        [...shelves.map(({ s, count }) => [s.id, s.title, count]),
+          ...(books.length ? [["books", "Books", books.length]] : []), ...(lineages.length ? [["parampara", "Parampara", lineages.length]] : [])]
+          .map(([id, title, count]) => el("button", { type: "button", onclick: () => document.getElementById(`shelf-${id}`)?.scrollIntoView({ behavior: "smooth" }) },
+            title, el("span", {}, count)))),
+      shelves.map(({ s, groups, count }) => el("section", { class: `shelf${s.beyond ? " region" : ""}`, id: `shelf-${s.id}` },
+        el("header", { class: "shelf-head" },
+          el("h2", {}, s.title), el("span", { class: "shelf-years" }, s.years),
+          s.beyond ? el("span", { class: "block-hint" }, "Beyond India") : null,
+          el("span", { class: "block-hint" }, `${count} timeline${count > 1 ? "s" : ""}`),
+          s.blurb ? el("p", {}, s.blurb) : null),
+        groups.map(({ title, list }) => el("div", { class: "series" },
+          title && groups.length > 1 ? el("h3", { class: "series-title" }, title) : null,
+          el("div", { class: "cards" }, list.map(card)))))),
+      books.length ? el("section", { class: "shelf", id: "shelf-books" },
+        el("header", { class: "shelf-head" }, el("h2", {}, "Books"), el("a", { class: "block-link", href: "#/books" }, `All ${books.length} books →`)),
         bookCats.length ? catTiles(bookCats, books) : el("div", { class: "cards" }, books.map((b) => bookCard(b, all)))) : null,
-      lineages.length ? el("div", { class: "series" },
-        el("h2", { class: "series-title" }, "Parampara", el("a", { class: "block-link", href: "#/parampara" }, "All lineages →")),
+      lineages.length ? el("section", { class: "shelf", id: "shelf-parampara" },
+        el("header", { class: "shelf-head" }, el("h2", {}, "Parampara"), el("a", { class: "block-link", href: "#/parampara" }, "All lineages →")),
         el("div", { class: "cards books" }, lineages.map((l) => lineageCard(l, all)))) : null,
-      upcoming.length ? el("div", { class: "series" },
-        el("h2", { class: "series-title" }, "Coming later"),
-        el("div", { class: "cards" }, upcoming.map((u) => el("div", { class: "tl-card soon" }, el("div", {}, el("h3", {}, u), el("p", {}, "Not started yet")))))) : null,
-      regions.map((r) => el("div", { class: "series region" },
-        el("h2", { class: "series-title" }, r, el("span", { class: "block-hint" }, "Beyond India")),
-        el("div", { class: "cards" }, all.filter((t) => t.region === r).sort((a, b) => a.order - b.order).map(card)))),
     ),
   );
   setupSearch(searchBox, search, all);
   setupRiver(riverBox, index, entities);
+}
+
+// Timelines grouped for display: content/sections.json gives the sections in order, each
+// timeline's folder (content/timelines/<section>/) puts it in one, and inside a section the
+// timelines are grouped by series (unseried ones first, then the section's "series" order).
+function sectionGroups(index, sections) {
+  const known = new Set(sections.map((s) => s.id));
+  const all = [...sections, ...[...new Set(index.map((t) => t.section).filter((id) => !known.has(id)))].map((id) => ({ id, title: id }))];
+  return all.map((s) => {
+    const list = index.filter((t) => t.section === s.id).sort((a, b) => a.order - b.order);
+    const names = [...new Set([null, ...(s.series || []), ...list.map((t) => t.series || null)])];
+    const groups = names.map((n) => ({ title: n, list: list.filter((t) => (t.series || null) === n) })).filter((g) => g.list.length);
+    return { s, groups, count: list.length };
+  }).filter((x) => x.count);
 }
 
 // ---------- Books ----------
@@ -432,6 +440,7 @@ function onThisDay(search, index) {
 
 // ---------- Home: featured comparisons ----------
 const FEATURED = [
+  { ids: ["mahatma-gandhi", "vd-savarkar", "jawaharlal-nehru", "br-ambedkar", "subhas-chandra-bose"], title: "Five leaders of the freedom struggle", blurb: "Gandhi, Savarkar, Nehru, Ambedkar and Bose, on one axis." },
   { ids: ["shivaji", "mughal-empire"], title: "Shivaji and the Mughals", blurb: "A rebel kingdom against the empire at its height." },
   { ids: ["maratha-empire", "mughal-empire"], title: "Marathas & Mughals", blurb: "Two empires, 144 years side by side." },
   { ids: ["yadavas-devagiri", "vijayanagara-empire", "mughal-empire"], title: "Before the Marathas", blurb: "Three powers that shaped the Deccan." },
@@ -588,7 +597,8 @@ function setupRiver(box, index, ents) {
 
 // ---------- Timeline page ----------
 async function renderTimelinePage(id) {
-  const [entities, index] = await Promise.all([load("data/entities.json"), load("data/index.json")]);
+  const [entities, index, sections] = await Promise.all([load("data/entities.json"), load("data/index.json"), loadOptional("data/sections.json", [])]);
+  state.sections = sections;
   const tl = id.startsWith("compare/") ? await buildCompare(id.slice(8), index, entities) : await load(`data/timelines/${id}.json`);
   if (tl.compare && tl.id !== id) history.replaceState(null, "", `#/${tl.id}`); // dropped unknown ids
   state.subjectTimeline = Object.fromEntries(index.filter((t) => t.id !== tl.id).map((t) => [t.subject, t.id]));
@@ -960,12 +970,7 @@ async function buildCompare(key, index, ents) {
 function compareHero(tl, index, ents) {
   const chosen = tl.compare.map((t) => t.id);
   const goTo = (list) => go(`#/compare/${list.filter(Boolean).join(",")}`);
-  const indian = index.filter((t) => t.region === "India");
-  const groups = [["Empires", indian.filter((t) => t.kind === "empire")],
-    ...[...new Set(indian.filter((t) => t.kind !== "empire").map((t) => t.series || "Other"))]
-      .map((sname) => [sname, indian.filter((t) => t.kind !== "empire" && (t.series || "Other") === sname)]),
-    ...[...new Set(index.map((t) => t.region).filter((r) => r !== "India"))]
-      .map((r) => [r, index.filter((t) => t.region === r)])];
+  const groups = sectionGroups(index, state.sections || []).map(({ s, groups: gs }) => [s.title, gs.flatMap((g) => g.list)]);
   const picker = (slot) => {
     const sel = el("select", { class: "cmp-select", "aria-label": `Timeline ${slot + 1}`,
       onchange: (e) => { const next = [...chosen]; next[slot] = e.target.value; goTo(next); } },

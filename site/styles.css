@@ -620,3 +620,26 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px; }
 }
 .cards.books > * { min-width: 0; }
 .book-links .chip { white-space: normal; }
+
+/* ---------- Home: sections ("shelves") and the jump bar ---------- */
+.shelf-nav {
+  position: sticky; top: 0; z-index: 20; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  margin: 6px -24px 18px; padding: 10px 24px; background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(6px); border-bottom: 1px solid var(--line);
+}
+.shelf-nav::-webkit-scrollbar { display: none; }
+.shelf-nav button {
+  flex: none; font: 500 13px var(--sans); color: var(--text); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 999px; padding: 6px 12px; cursor: pointer; white-space: nowrap;
+}
+.shelf-nav button:hover { border-color: var(--accent); color: var(--accent); }
+.shelf-nav button span { color: var(--muted); font-size: 11px; margin-left: 6px; }
+.shelf { margin-bottom: 36px; scroll-margin-top: 64px; }
+.shelf-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 12px; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid var(--accent-soft); }
+.shelf-head h2 { font: 700 24px var(--serif); margin: 0; }
+.shelf-head .shelf-years { font: 600 12px var(--sans); color: var(--accent); letter-spacing: .04em; }
+.shelf-head p { flex-basis: 100%; margin: 2px 0 0; color: var(--muted); font-size: 14px; max-width: 80ch; }
+.shelf-head .block-link { font: 500 13px var(--sans); color: var(--accent); text-decoration: none; }
+.shelf .series { margin-bottom: 18px; }
+.shelf h3.series-title { font: 600 15px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 10px; }
+@media (max-width: 640px) { .shelf-nav { margin: 6px -16px 18px; padding: 8px 16px; } .shelf-head h2 { font-size: 21px; } }

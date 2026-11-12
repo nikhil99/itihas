@@ -1,0 +1,53 @@
+[
+  {
+    "id": "ancient",
+    "title": "Ancient & classical",
+    "years": "c. 320 BCE – 750 CE",
+    "blurb": "The first empires: the Mauryas, the Satavahanas of the Deccan, the Guptas and the Chalukyas of Badami."
+  },
+  {
+    "id": "early-medieval",
+    "title": "Regional kingdoms",
+    "years": "c. 750 – 1320",
+    "blurb": "Palas, Pratiharas and Rashtrakutas fight over Kannauj; the Cholas sail to Southeast Asia; the Yadavas rule from Devagiri."
+  },
+  {
+    "id": "medieval",
+    "title": "Sultanates & the Mughals",
+    "years": "1206 – 1857",
+    "blurb": "Delhi's sultans, Vijayanagara and the Deccan Sultanates, and the Mughal Empire."
+  },
+  {
+    "id": "marathas",
+    "title": "The Marathas",
+    "years": "1630 – 1948",
+    "blurb": "Shivaji's swarajya, the Peshwas who made it an empire, and the great houses that ruled on after 1818.",
+    "series": [
+      "The Maratha Empire",
+      "The Maratha confederacy"
+    ]
+  },
+  {
+    "id": "late-empires",
+    "title": "Mysore, the Sikhs & the Raj",
+    "years": "1399 – 1947",
+    "blurb": "The last kingdoms to hold out against the East India Company, and British rule itself."
+  },
+  {
+    "id": "modern",
+    "title": "Modern India",
+    "years": "1857 – today",
+    "blurb": "The leaders of the freedom struggle, and the Sangh, the BJP and Narendra Modi after independence.",
+    "series": [
+      "The freedom struggle",
+      "The Sangh & the BJP"
+    ]
+  },
+  {
+    "id": "japan",
+    "title": "Japan",
+    "years": "1467 – 1912",
+    "blurb": "From the warring states to the Meiji Restoration.",
+    "beyond": true
+  }
+]

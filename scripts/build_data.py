@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build site data from curated content + Wikipedia/Wikidata.
 
-Reads   content/entities/*.json and content/timelines/*.json
+Reads   content/entities/*.json, content/sections.json and content/timelines/<section>/*.json
 Fetches Wikipedia REST summaries (extract, image, coordinates) and
         Wikidata claims (birth/death, inception/dissolution, Marathi/Hindi names)
 Writes  site/data/entities.json, site/data/timelines/<id>.json, site/data/index.json
@@ -204,8 +204,20 @@ def main():
     REFRESH = ap.parse_args().refresh
 
     registry = load_registry()
-    timelines = [json.loads(p.read_text()) for p in sorted((CONTENT / "timelines").glob("*.json"))]
+    # Each timeline lives in the folder of its home-page section (content/timelines/<section>/);
+    # content/sections.json gives the sections' order, titles and blurbs.
+    sections = json.loads((CONTENT / "sections.json").read_text())
+    section_ids = {s["id"] for s in sections}
     problems = []
+    timelines = []
+    for p in sorted((CONTENT / "timelines").rglob("*.json")):
+        tl = json.loads(p.read_text())
+        tl["section"] = p.parent.name
+        if tl["section"] not in section_ids:
+            problems.append(f"[{tl['id']}] {p.relative_to(ROOT)} is not in a section folder listed in content/sections.json")
+        if tl["id"] != p.stem:
+            problems.append(f"[{tl['id']}] file name {p.name} does not match its id")
+        timelines.append(tl)
 
     # Every entity referenced by a timeline must be registered.
     for tl in timelines:
@@ -361,13 +373,14 @@ def main():
         index.append({"id": tl["id"], "title": tl["title"], "subtitle": tl.get("subtitle"),
                       "subject": tl["subject"], "events": len(tl["events"]),
                       "series": tl.get("series"), "order": tl.get("order", 0), "kind": tl.get("kind"),
-                      "origin": tl.get("origin", "indian"), "region": tl.get("region", "India"),
+                      "origin": tl.get("origin", "indian"), "region": tl.get("region", "India"), "section": tl["section"],
                       "range": tl["range"], "focus": tl.get("focus"), "span": span_of(tl, entities),
                       "aliases": tl.get("aliases", [])})
     index.sort(key=lambda t: (t["series"] or "", t["order"]))
 
     (OUT / "entities.json").write_text(json.dumps(entities, ensure_ascii=False, indent=1))
     (OUT / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
+    (OUT / "sections.json").write_text(json.dumps(sections, ensure_ascii=False, indent=1))
     # Sorted so rebuilds are byte-identical and don't create spurious diffs/merge conflicts.
     # Compact search index for the home page: timelines, entities that appear somewhere, events.
     search = {
