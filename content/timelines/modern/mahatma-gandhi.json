@@ -1,0 +1,694 @@
+{
+ "id": "mahatma-gandhi",
+ "series": "The freedom struggle",
+ "order": 1,
+ "title": "Mahatma Gandhi",
+ "subtitle": "Satyagraha, from Natal to Noakhali · 1869 – 1948",
+ "subject": "gandhi",
+ "range": [
+  1865,
+  1952
+ ],
+ "focus": [
+  1869.75,
+  1948.08
+ ],
+ "intro": "A shy Kathiawari lawyer who found his calling fighting racial laws in South Africa, Mohandas Gandhi returned to India in 1915 and within five years had turned the Indian National Congress from a debating club of the educated into a mass movement. His method, satyagraha, non-violent mass defiance of unjust laws, was tried out on indigo farms, salt pans and in jail cells, and paired with a programme of spinning, village self-reliance and the abolition of untouchability. He was revered as the Mahatma and argued with by almost everyone: by Ambedkar over caste and representation, by Bose and the revolutionaries over non-violence, by Jinnah over nationhood, and by Hindu nationalists over his concessions to Muslims and Pakistan. He spent Independence Day trying to stop the killing in Calcutta and was shot by a Hindu nationalist five months later.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Life & ashrams"
+  },
+  {
+   "id": "political",
+   "label": "Satyagraha & politics"
+  },
+  {
+   "id": "forts",
+   "label": "Writings"
+  },
+  {
+   "id": "world",
+   "label": "The wider world"
+  },
+  {
+   "id": "deaths",
+   "label": "Deaths & violence"
+  }
+ ],
+ "context": [
+  {
+   "entity": "gandhi",
+   "label": "Mahatma Gandhi"
+  },
+  {
+   "entity": "gandhi",
+   "label": "In South Africa",
+   "from": 1893.3,
+   "to": 1914.55
+  },
+  {
+   "entity": "kasturba",
+   "label": "Kasturba Gandhi"
+  },
+  {
+   "entity": "gokhale",
+   "label": "Gopal Krishna Gokhale"
+  },
+  {
+   "entity": "nehru",
+   "label": "Jawaharlal Nehru"
+  },
+  {
+   "entity": "patel",
+   "label": "Vallabhbhai Patel"
+  },
+  {
+   "entity": "jinnah",
+   "label": "Muhammad Ali Jinnah"
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1865,
+   "to": 1947.62
+  },
+  {
+   "entity": "congress",
+   "label": "Indian National Congress",
+   "from": 1885.99,
+   "to": 1952
+  }
+ ],
+ "events": [
+  {
+   "id": "born",
+   "date": "1869-10-02",
+   "lane": "life",
+   "major": true,
+   "title": "Born at Porbandar",
+   "summary": "Mohandas Karamchand Gandhi is born in Porbandar, a small princely state on the Kathiawar coast, the youngest child of Karamchand Gandhi, its diwan, and Putlibai, a devout Vaishnava.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "porbandar"
+   ]
+  },
+  {
+   "id": "marriage",
+   "date": "1883",
+   "approx": true,
+   "lane": "life",
+   "title": "Married to Kasturba",
+   "summary": "At thirteen Gandhi is married to Kasturba Makhanji, also thirteen, in a joint ceremony with his brother and cousin. They will have four sons.",
+   "people": [
+    "gandhi",
+    "kasturba"
+   ],
+   "places": [
+    "porbandar"
+   ]
+  },
+  {
+   "id": "london",
+   "date": "1888-09-04",
+   "lane": "life",
+   "title": "Sails to London to study law",
+   "summary": "Against the objections of his caste elders, who outcaste him for crossing the sea, Gandhi sails from Bombay to study law at the Inner Temple. He promises his mother to stay away from meat, wine and women.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "mumbai",
+    "london"
+   ]
+  },
+  {
+   "id": "bar",
+   "date": "1891-06-10",
+   "lane": "life",
+   "title": "Called to the bar",
+   "summary": "Gandhi qualifies as a barrister and sails home two days later, only to struggle to find work in Bombay and Rajkot.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "london"
+   ]
+  },
+  {
+   "id": "pietermaritzburg",
+   "date": "1893-06-07",
+   "lane": "political",
+   "major": true,
+   "title": "Thrown off the train at Pietermaritzburg",
+   "summary": "Weeks after arriving in South Africa to work on a lawsuit for the merchant Dada Abdulla, Gandhi is put off a first-class compartment at Pietermaritzburg for being Indian. He later called the cold night in the station waiting room the turning point of his life.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "pietermaritzburg"
+   ]
+  },
+  {
+   "id": "natal-congress",
+   "date": "1894-08-22",
+   "lane": "political",
+   "title": "Founds the Natal Indian Congress",
+   "summary": "Gandhi stays on in Natal to fight a bill disenfranchising Indians and founds the Natal Indian Congress to campaign for Indian traders and labourers.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "durban"
+   ],
+   "polities": [
+    "natal-indian-congress"
+   ]
+  },
+  {
+   "id": "phoenix",
+   "date": "1904",
+   "lane": "life",
+   "title": "Phoenix Settlement",
+   "summary": "Inspired by Ruskin's Unto This Last, Gandhi sets up a farm commune near Durban, where his weekly Indian Opinion is printed. Two years later he takes a vow of brahmacharya.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "durban"
+   ]
+  },
+  {
+   "id": "satyagraha-born",
+   "date": "1906-09-11",
+   "lane": "political",
+   "major": true,
+   "title": "Satyagraha is born",
+   "summary": "At a mass meeting in Johannesburg's Empire Theatre, Indians vow to defy the Transvaal's Asiatic Registration ordinance, the \"Black Act\". Gandhi soon names the method satyagraha, \"holding firmly to truth\".",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "johannesburg"
+   ],
+   "concepts": [
+    "satyagraha"
+   ]
+  },
+  {
+   "id": "first-jail",
+   "date": "1908-01-10",
+   "lane": "political",
+   "title": "First of many prison terms",
+   "summary": "Gandhi is sentenced to two months for refusing to register. Over his life he spends about 2,300 days in jails in South Africa and India.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "johannesburg"
+   ],
+   "concepts": [
+    "satyagraha"
+   ]
+  },
+  {
+   "id": "hind-swaraj",
+   "date": "1909-11",
+   "lane": "forts",
+   "title": "Writes Hind Swaraj",
+   "summary": "On the ship back from a lobbying trip to London, Gandhi writes Hind Swaraj in Gujarati, a dialogue rejecting both British rule and the industrial civilisation behind it, and the revolutionary violence of the young nationalists he had met at India House.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "london"
+   ],
+   "concepts": [
+    "hind-swaraj"
+   ]
+  },
+  {
+   "id": "great-march",
+   "date": "1913-11-06",
+   "lane": "political",
+   "title": "The Great March into the Transvaal",
+   "summary": "Gandhi leads over two thousand striking Indian miners and their families across the Natal border in defiance of a £3 tax and a ruling that invalidated Hindu and Muslim marriages. He is arrested; the 1914 Indians' Relief Act concedes most of the demands.",
+   "people": [
+    "gandhi",
+    "kasturba"
+   ],
+   "places": [
+    "durban"
+   ],
+   "concepts": [
+    "satyagraha"
+   ]
+  },
+  {
+   "id": "return",
+   "date": "1915-01-09",
+   "lane": "life",
+   "major": true,
+   "title": "Returns to India",
+   "summary": "After twenty-one years in South Africa, Gandhi lands in Bombay. On Gokhale's advice he spends a year travelling the country with \"his ears open and his mouth shut\".",
+   "people": [
+    "gandhi",
+    "kasturba",
+    "gokhale"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "champaran",
+   "date": "1917-04",
+   "lane": "political",
+   "major": true,
+   "title": "Champaran",
+   "summary": "Gandhi goes to Champaran in north Bihar to investigate indigo planters' treatment of tenant farmers, defies an order to leave, and wins an inquiry that ends the forced tinkathia system. It is his first satyagraha in India.",
+   "people": [
+    "gandhi",
+    "rajendra-prasad"
+   ],
+   "places": [
+    "champaran"
+   ],
+   "concepts": [
+    "champaran-satyagraha"
+   ]
+  },
+  {
+   "id": "sabarmati",
+   "date": "1917-06-17",
+   "lane": "life",
+   "title": "Sabarmati Ashram",
+   "summary": "Gandhi moves his ashram to the banks of the Sabarmati outside Ahmedabad. It will be his base for thirteen years.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "sabarmati"
+   ]
+  },
+  {
+   "id": "kheda",
+   "date": "1918-03-22",
+   "lane": "political",
+   "title": "Kheda satyagraha",
+   "summary": "With Vallabhbhai Patel, Gandhi leads Kheda's peasants in refusing land revenue after a failed harvest. The same spring he fasts for the first time in public, in support of Ahmedabad's striking mill workers.",
+   "people": [
+    "gandhi",
+    "patel"
+   ],
+   "places": [
+    "kheda"
+   ],
+   "concepts": [
+    "kheda-satyagraha"
+   ]
+  },
+  {
+   "id": "rowlatt",
+   "date": "1919-04-06",
+   "lane": "political",
+   "title": "Rowlatt satyagraha",
+   "summary": "Gandhi calls a nationwide hartal against the Rowlatt Act, which allowed detention without trial. Violence breaks out in several cities, and a week later troops under General Dyer kill hundreds at Jallianwala Bagh in Amritsar.",
+   "people": [
+    "gandhi",
+    "dyer"
+   ],
+   "places": [
+    "jallianwala",
+    "amritsar"
+   ],
+   "concepts": [
+    "rowlatt-act"
+   ]
+  },
+  {
+   "id": "non-cooperation",
+   "date": "1920-08-01",
+   "lane": "political",
+   "major": true,
+   "title": "Non-cooperation begins",
+   "summary": "In alliance with the Khilafat leaders, Gandhi launches non-cooperation: Indians are to give up titles, courts, schools, councils and foreign cloth. He promises swaraj within a year. The Nagpur Congress in December adopts the programme and a mass membership.",
+   "people": [
+    "gandhi"
+   ],
+   "polities": [
+    "congress"
+   ],
+   "concepts": [
+    "non-cooperation",
+    "khilafat"
+   ]
+  },
+  {
+   "id": "chauri-chaura",
+   "date": "1922-02-12",
+   "lane": "political",
+   "title": "Calls off the movement after Chauri Chaura",
+   "summary": "After a crowd burns a police station at Chauri Chaura, killing twenty-two policemen, Gandhi suspends non-cooperation nationwide, to the dismay of many Congress leaders.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "chauri-chaura"
+   ],
+   "concepts": [
+    "non-cooperation"
+   ]
+  },
+  {
+   "id": "great-trial",
+   "date": "1922-03-18",
+   "lane": "political",
+   "title": "The Great Trial",
+   "summary": "Charged with sedition for articles in Young India, Gandhi pleads guilty and asks the judge for the highest penalty. He is sentenced to six years and released in 1924 after an appendix operation.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "ahmedabad",
+    "yerawada"
+   ]
+  },
+  {
+   "id": "unity-fast",
+   "date": "1924-09-18",
+   "lane": "life",
+   "title": "Twenty-one day fast for Hindu–Muslim unity",
+   "summary": "After communal riots at Kohat and elsewhere, Gandhi fasts for three weeks at Maulana Mohammad Ali's house in Delhi. In December he presides over the Belgaum Congress, the only time he is its president.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "delhi"
+   ]
+  },
+  {
+   "id": "experiments",
+   "date": "1925-11-29",
+   "lane": "forts",
+   "title": "The Story of My Experiments with Truth",
+   "summary": "Gandhi begins serialising his autobiography in Navajivan. It runs weekly until 1929 and ends with his return to Indian politics in 1921.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "ahmedabad"
+   ]
+  },
+  {
+   "id": "salt-march",
+   "date": "1930-03-12",
+   "end": "1930-04-06",
+   "lane": "political",
+   "major": true,
+   "title": "The Salt March",
+   "summary": "Gandhi sets out from Sabarmati with 78 followers on a 385 km walk to the sea. On 6 April at Dandi he picks up a lump of natural salt, breaking the salt law and starting civil disobedience; tens of thousands are jailed.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "sabarmati",
+    "dandi"
+   ],
+   "concepts": [
+    "salt-march"
+   ]
+  },
+  {
+   "id": "gandhi-irwin",
+   "date": "1931-03-05",
+   "lane": "political",
+   "title": "Gandhi–Irwin Pact",
+   "summary": "After talks with the Viceroy, Gandhi suspends civil disobedience in return for the release of prisoners, and agrees to attend the Round Table Conference. The pact does not save Bhagat Singh, hanged three weeks later.",
+   "people": [
+    "gandhi",
+    "irwin",
+    "bhagat-singh"
+   ],
+   "places": [
+    "delhi"
+   ],
+   "concepts": [
+    "gandhi-irwin-pact"
+   ]
+  },
+  {
+   "id": "rtc",
+   "date": "1931-09-12",
+   "end": "1931-12-01",
+   "lane": "world",
+   "title": "Second Round Table Conference",
+   "summary": "Gandhi, the Congress's sole delegate, goes to London and stays in the East End. The conference founders on minority representation; Ambedkar's demand for separate electorates for the Depressed Classes puts the two men in open conflict.",
+   "people": [
+    "gandhi",
+    "ambedkar"
+   ],
+   "places": [
+    "london"
+   ],
+   "concepts": [
+    "round-table"
+   ]
+  },
+  {
+   "id": "poona-pact",
+   "date": "1932-09-24",
+   "lane": "political",
+   "major": true,
+   "title": "Fast against the Communal Award; the Poona Pact",
+   "summary": "In Yerawada jail Gandhi fasts \"unto death\" against separate electorates for the Depressed Classes. Ambedkar, under heavy pressure, signs the Poona Pact: joint electorates with more reserved seats instead.",
+   "people": [
+    "gandhi",
+    "ambedkar"
+   ],
+   "places": [
+    "yerawada",
+    "pune"
+   ],
+   "concepts": [
+    "communal-award",
+    "poona-pact"
+   ]
+  },
+  {
+   "id": "harijan",
+   "date": "1933-02-11",
+   "lane": "forts",
+   "title": "Harijan",
+   "summary": "Gandhi launches the weekly Harijan and spends much of 1933–34 on a national tour against untouchability, raising funds for the Harijan Sevak Sangh. A bomb is thrown at his car in Poona in June 1934.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "pune"
+   ]
+  },
+  {
+   "id": "sevagram",
+   "date": "1936-04-30",
+   "lane": "life",
+   "title": "Moves to Sevagram",
+   "summary": "Having left formal Congress membership in 1934 to work on village industries, Gandhi settles in a village near Wardha that becomes Sevagram.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "wardha"
+   ]
+  },
+  {
+   "id": "tripuri",
+   "date": "1939-01-29",
+   "lane": "political",
+   "title": "\"Pattabhi's defeat is my defeat\"",
+   "summary": "Subhas Chandra Bose is re-elected Congress president against Gandhi's candidate, Pattabhi Sitaramayya. Gandhi takes it as a personal defeat; the Working Committee resigns and Bose is forced out within three months.",
+   "people": [
+    "gandhi",
+    "subhas-bose",
+    "pattabhi"
+   ],
+   "polities": [
+    "congress"
+   ]
+  },
+  {
+   "id": "quit-india",
+   "date": "1942-08-08",
+   "lane": "political",
+   "major": true,
+   "title": "Quit India: \"Do or Die\"",
+   "summary": "At Gowalia Tank in Bombay the Congress passes the Quit India resolution and Gandhi tells the country to \"do or die\". Before dawn the whole leadership is arrested and Gandhi is interned at the Aga Khan Palace in Poona.",
+   "people": [
+    "gandhi",
+    "nehru",
+    "patel"
+   ],
+   "places": [
+    "gowalia-tank",
+    "aga-khan-palace"
+   ],
+   "concepts": [
+    "quit-india"
+   ]
+  },
+  {
+   "id": "kasturba-dies",
+   "date": "1944-02-22",
+   "lane": "deaths",
+   "title": "Kasturba dies in detention",
+   "summary": "Kasturba dies in Gandhi's arms at the Aga Khan Palace, eighteen months after his secretary Mahadev Desai died there. Gandhi is released on health grounds in May.",
+   "people": [
+    "kasturba",
+    "gandhi",
+    "mahadev-desai"
+   ],
+   "places": [
+    "aga-khan-palace"
+   ]
+  },
+  {
+   "id": "jinnah-talks",
+   "date": "1944-09-09",
+   "end": "1944-09-27",
+   "lane": "political",
+   "title": "Gandhi–Jinnah talks",
+   "summary": "Gandhi walks to Jinnah's house on Malabar Hill daily for nearly three weeks. The talks fail over whether Muslims are a separate nation.",
+   "people": [
+    "gandhi",
+    "jinnah"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "polities": [
+    "muslim-league"
+   ]
+  },
+  {
+   "id": "noakhali",
+   "date": "1946-11-06",
+   "end": "1947-03-02",
+   "lane": "political",
+   "title": "Barefoot in Noakhali",
+   "summary": "After the riots that followed Direct Action Day, Gandhi spends four months walking village to village in Noakhali, in eastern Bengal, where Hindus had been killed and forcibly converted.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "noakhali"
+   ],
+   "concepts": [
+    "direct-action-day"
+   ]
+  },
+  {
+   "id": "independence-day",
+   "date": "1947-08-15",
+   "lane": "political",
+   "major": true,
+   "title": "Independence, in mourning",
+   "summary": "Gandhi spends Independence Day fasting and spinning in Calcutta, where he and H. S. Suhrawardy have moved into an abandoned house in a riot-torn quarter. He is absent from Delhi's celebrations.",
+   "people": [
+    "gandhi"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "concepts": [
+    "partition-of-india"
+   ]
+  },
+  {
+   "id": "calcutta-fast",
+   "date": "1947-09-01",
+   "end": "1947-09-04",
+   "lane": "political",
+   "title": "The Calcutta fast",
+   "summary": "When rioting resumes, Gandhi fasts until community leaders pledge peace; it ends after three days. Mountbatten calls him the \"one-man boundary force\".",
+   "people": [
+    "gandhi",
+    "mountbatten"
+   ],
+   "places": [
+    "kolkata"
+   ]
+  },
+  {
+   "id": "delhi-fast",
+   "date": "1948-01-13",
+   "end": "1948-01-18",
+   "lane": "political",
+   "title": "The last fast",
+   "summary": "Gandhi fasts in Delhi for communal peace. Among its outcomes, the government releases ₹55 crore of the cash balances owed to Pakistan, a decision that inflames his Hindu nationalist critics.",
+   "people": [
+    "gandhi",
+    "nehru",
+    "patel"
+   ],
+   "places": [
+    "birla-house"
+   ],
+   "polities": [
+    "pakistan"
+   ]
+  },
+  {
+   "id": "pahwa-bomb",
+   "date": "1948-01-20",
+   "lane": "deaths",
+   "title": "A bomb at Birla House",
+   "summary": "Madanlal Pahwa sets off a gun-cotton slab at Gandhi's prayer meeting; he is caught, but his fellow conspirators escape.",
+   "people": [
+    "madanlal-pahwa",
+    "gandhi"
+   ],
+   "places": [
+    "birla-house"
+   ]
+  },
+  {
+   "id": "assassination",
+   "date": "1948-01-30",
+   "lane": "deaths",
+   "major": true,
+   "title": "Assassinated",
+   "summary": "On his way to the evening prayer meeting at Birla House, Gandhi is shot three times at close range by Nathuram Godse. Nehru tells the country, \"The light has gone out of our lives.\"",
+   "people": [
+    "gandhi",
+    "nathuram-godse",
+    "nehru"
+   ],
+   "places": [
+    "birla-house"
+   ],
+   "concepts": [
+    "gandhi-assassination"
+   ]
+  },
+  {
+   "id": "trial",
+   "date": "1949-11-15",
+   "lane": "deaths",
+   "title": "Godse and Apte hanged",
+   "summary": "After a trial at the Red Fort, Godse and Narayan Apte are hanged at Ambala. Savarkar, tried alongside them, had been acquitted for want of corroborating evidence.",
+   "people": [
+    "nathuram-godse",
+    "savarkar"
+   ],
+   "places": [
+    "red-fort"
+   ],
+   "concepts": [
+    "gandhi-assassination"
+   ],
+   "see": "vd-savarkar"
+  }
+ ]
+}

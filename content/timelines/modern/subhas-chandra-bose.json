@@ -1,0 +1,536 @@
+{
+ "id": "subhas-chandra-bose",
+ "series": "The freedom struggle",
+ "order": 5,
+ "title": "Subhas Chandra Bose",
+ "subtitle": "Netaji: Congress rebel and commander of the INA · 1897 – 1945",
+ "subject": "subhas-bose",
+ "range": [
+  1894,
+  1950
+ ],
+ "focus": [
+  1897.06,
+  1945.63
+ ],
+ "intro": "Subhas Chandra Bose gave up a place in the Indian Civil Service to join the national movement, became Calcutta's mayor and twice president of the Congress, and broke with Gandhi in 1939 after winning re-election against his wishes. Convinced that Britain's war was India's opportunity, he escaped house arrest in 1941 and sought help first from Nazi Germany and then from Japan. In Southeast Asia he led the Indian National Army and the Provisional Government of Free India; the INA's campaign into India failed at Imphal. He died after a plane crash in Taipei in August 1945, though many refused to believe it. The trials of INA officers at the Red Fort the following winter stirred the country and shook British confidence in the loyalty of the Indian forces.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Life"
+  },
+  {
+   "id": "political",
+   "label": "Congress & politics"
+  },
+  {
+   "id": "military",
+   "label": "Escape & the INA"
+  },
+  {
+   "id": "world",
+   "label": "The wider world"
+  },
+  {
+   "id": "deaths",
+   "label": "Death"
+  }
+ ],
+ "context": [
+  {
+   "entity": "subhas-bose",
+   "label": "Subhas Chandra Bose"
+  },
+  {
+   "entity": "subhas-bose",
+   "label": "Bose – Congress president",
+   "from": 1938.13,
+   "to": 1939.33
+  },
+  {
+   "entity": "cr-das",
+   "label": "Chittaranjan Das"
+  },
+  {
+   "entity": "gandhi",
+   "label": "Mahatma Gandhi"
+  },
+  {
+   "entity": "nehru",
+   "label": "Jawaharlal Nehru"
+  },
+  {
+   "entity": "azad-hind",
+   "label": "Azad Hind",
+   "from": 1943.8,
+   "to": 1945.63
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1894,
+   "to": 1947.62
+  },
+  {
+   "entity": "congress",
+   "label": "Indian National Congress",
+   "from": 1894,
+   "to": 1950
+  }
+ ],
+ "events": [
+  {
+   "id": "born",
+   "date": "1897-01-23",
+   "lane": "life",
+   "major": true,
+   "title": "Born at Cuttack",
+   "summary": "Subhas Chandra Bose is born in Cuttack, Orissa, the ninth of fourteen children of Janakinath Bose, a prosperous Bengali lawyer, and Prabhavati Devi.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "cuttack"
+   ]
+  },
+  {
+   "id": "oaten",
+   "date": "1916-02",
+   "lane": "life",
+   "title": "Expelled from Presidency College",
+   "summary": "Bose is expelled from Presidency College, Calcutta, after students assault Professor E. F. Oaten over his remarks about Indians. He finishes his degree at Scottish Church College in 1919.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "kolkata"
+   ]
+  },
+  {
+   "id": "ics",
+   "date": "1920-09",
+   "lane": "life",
+   "major": true,
+   "title": "Passes the ICS, then resigns",
+   "summary": "Sent to Cambridge by his father, Bose places fourth in the Indian Civil Service examination. In April 1921 he resigns before taking up the post, writing that one cannot serve two masters.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "cambridge",
+    "london"
+   ],
+   "concepts": [
+    "ics"
+   ]
+  },
+  {
+   "id": "meets-gandhi",
+   "date": "1921-07-16",
+   "lane": "political",
+   "title": "Meets Gandhi; joins C. R. Das",
+   "summary": "On landing in Bombay Bose goes straight to Gandhi, whose answers leave him unconvinced. Gandhi sends him to Chittaranjan Das in Calcutta, who becomes his political guru.",
+   "people": [
+    "subhas-bose",
+    "gandhi",
+    "cr-das"
+   ],
+   "places": [
+    "mumbai",
+    "kolkata"
+   ],
+   "concepts": [
+    "non-cooperation"
+   ]
+  },
+  {
+   "id": "first-arrest",
+   "date": "1921-12-10",
+   "lane": "political",
+   "title": "First arrest",
+   "summary": "Bose is jailed with Das for organising the boycott of the Prince of Wales's visit to Calcutta. He will be imprisoned eleven times by the British.",
+   "people": [
+    "subhas-bose",
+    "cr-das"
+   ],
+   "places": [
+    "kolkata"
+   ]
+  },
+  {
+   "id": "mandalay",
+   "date": "1924-10-25",
+   "end": "1927-05-16",
+   "lane": "political",
+   "title": "Deported to Mandalay",
+   "summary": "Weeks after becoming chief executive of the Calcutta Corporation under Mayor Das, Bose is detained without trial on suspicion of links with revolutionaries and sent to Mandalay jail in Burma. Das dies in 1925; Bose is released in 1927 in poor health.",
+   "people": [
+    "subhas-bose",
+    "cr-das"
+   ],
+   "places": [
+    "mandalay",
+    "kolkata"
+   ]
+  },
+  {
+   "id": "independence-league",
+   "date": "1928-12",
+   "lane": "political",
+   "title": "With Nehru, for full independence",
+   "summary": "At the Calcutta Congress Bose commands a uniformed volunteer corps and, with Jawaharlal Nehru, opposes the Nehru Report's acceptance of dominion status.",
+   "people": [
+    "subhas-bose",
+    "nehru",
+    "motilal-nehru"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "polities": [
+    "congress"
+   ]
+  },
+  {
+   "id": "mayor",
+   "date": "1930-08-22",
+   "lane": "political",
+   "title": "Mayor of Calcutta",
+   "summary": "Elected mayor of Calcutta while in jail during civil disobedience, Bose serves until 1931.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "kolkata"
+   ]
+  },
+  {
+   "id": "europe",
+   "date": "1933-02-23",
+   "lane": "world",
+   "title": "Exile in Europe",
+   "summary": "Released on condition he leave India for medical treatment, Bose spends most of the next four years in Vienna and travels the continent, meeting Mussolini and Irish republican leaders. He writes The Indian Struggle (1935).",
+   "people": [
+    "subhas-bose"
+   ],
+   "concepts": [
+    "the-indian-struggle"
+   ]
+  },
+  {
+   "id": "schenkl",
+   "date": "1937-12-26",
+   "lane": "life",
+   "title": "Marries Emilie Schenkl",
+   "summary": "According to Emilie Schenkl, whom he met in Vienna in 1934 when she was hired as his typist, they are secretly married at Bad Gastein. Their daughter Anita is born in 1942.",
+   "people": [
+    "subhas-bose",
+    "emilie-schenkl"
+   ]
+  },
+  {
+   "id": "haripura",
+   "date": "1938-02-19",
+   "lane": "political",
+   "major": true,
+   "title": "Congress president at Haripura",
+   "summary": "Gandhi's choice for president, Bose sets up the National Planning Committee under Nehru and pushes for an ultimatum to the British.",
+   "people": [
+    "subhas-bose",
+    "gandhi",
+    "nehru"
+   ],
+   "polities": [
+    "congress"
+   ]
+  },
+  {
+   "id": "tripuri",
+   "date": "1939-01-29",
+   "lane": "political",
+   "major": true,
+   "title": "Re-elected against Gandhi's wishes",
+   "summary": "Bose defeats Gandhi's candidate Pattabhi Sitaramayya by 1,580 votes to 1,377. Gandhi calls it his own defeat; most of the Working Committee resigns and Bose, unable to form one, quits the presidency on 29 April.",
+   "people": [
+    "subhas-bose",
+    "gandhi",
+    "pattabhi"
+   ],
+   "polities": [
+    "congress"
+   ]
+  },
+  {
+   "id": "forward-bloc",
+   "date": "1939-05-03",
+   "lane": "political",
+   "title": "Founds the Forward Bloc",
+   "summary": "Bose forms a left-wing bloc within the Congress, which removes him from all party posts for three years in August.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "polities": [
+    "forward-bloc"
+   ]
+  },
+  {
+   "id": "house-arrest",
+   "date": "1940-07-02",
+   "lane": "political",
+   "title": "Arrested, then held at home",
+   "summary": "Arrested before a campaign to remove the Holwell Monument in Calcutta, Bose goes on hunger strike and is released to house arrest at his Elgin Road home.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "kolkata"
+   ]
+  },
+  {
+   "id": "escape",
+   "date": "1941-01-17",
+   "end": "1941-04-02",
+   "lane": "military",
+   "major": true,
+   "title": "The Great Escape",
+   "summary": "Disguised as an insurance agent, \"Mohammed Ziauddin\", Bose slips out of his closely watched house at night with his nephew Sisir. Travelling through Peshawar and Kabul with Soviet help, he reaches Berlin on 2 April.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "kolkata",
+    "peshawar",
+    "kabul",
+    "berlin"
+   ]
+  },
+  {
+   "id": "free-india-centre",
+   "date": "1941-11-02",
+   "lane": "military",
+   "title": "Free India Centre and the Indian Legion",
+   "summary": "In Berlin Bose sets up a Free India Centre and broadcasts on Azad Hind Radio. Indian prisoners of war captured in North Africa are recruited into an Indian Legion of the German army. Here he is first called Netaji.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "berlin"
+   ],
+   "polities": [
+    "nazi-germany"
+   ],
+   "concepts": [
+    "indian-legion"
+   ]
+  },
+  {
+   "id": "hitler",
+   "date": "1942-05-29",
+   "lane": "world",
+   "title": "Meets Hitler",
+   "summary": "Bose's only meeting with Hitler yields no commitment to Indian independence; Hitler advises him to go to East Asia.",
+   "people": [
+    "subhas-bose",
+    "hitler"
+   ],
+   "places": [
+    "berlin"
+   ],
+   "polities": [
+    "nazi-germany"
+   ]
+  },
+  {
+   "id": "submarine",
+   "date": "1943-02-08",
+   "end": "1943-05-16",
+   "lane": "military",
+   "title": "By submarine to Asia",
+   "summary": "Bose leaves Kiel on the German U-boat U-180. On 28 April, off Madagascar, he is transferred to the Japanese submarine I-29 and reaches Sumatra and then Tokyo, where he meets Prime Minister Tojo.",
+   "people": [
+    "subhas-bose",
+    "tojo"
+   ],
+   "places": [
+    "tokyo"
+   ],
+   "polities": [
+    "empire-of-japan"
+   ]
+  },
+  {
+   "id": "ina-command",
+   "date": "1943-07-04",
+   "lane": "military",
+   "major": true,
+   "title": "Takes over the INA: \"Delhi Chalo\"",
+   "summary": "In Singapore Rash Behari Bose hands Subhas the leadership of the Indian Independence League; next day he takes command of the Indian National Army, recruited from Indian POWs and the diaspora, with the cry \"Delhi Chalo\".",
+   "people": [
+    "subhas-bose",
+    "rash-behari-bose"
+   ],
+   "places": [
+    "singapore"
+   ],
+   "polities": [
+    "indian-independence-league"
+   ],
+   "concepts": [
+    "ina"
+   ]
+  },
+  {
+   "id": "azad-hind",
+   "date": "1943-10-21",
+   "lane": "political",
+   "major": true,
+   "title": "The Provisional Government of Free India",
+   "summary": "Bose proclaims Azad Hind, a government-in-exile recognised by Japan and its allies, and declares war on Britain and the United States. The INA raises a women's regiment, the Rani of Jhansi Regiment, under Lakshmi Swaminathan.",
+   "people": [
+    "subhas-bose",
+    "lakshmi-sahgal"
+   ],
+   "places": [
+    "singapore"
+   ],
+   "polities": [
+    "azad-hind"
+   ]
+  },
+  {
+   "id": "andamans",
+   "date": "1943-12-30",
+   "lane": "political",
+   "title": "The tricolour at Port Blair",
+   "summary": "Japan nominally hands the Andaman and Nicobar Islands to Azad Hind, and Bose raises the flag at Port Blair, though Japanese forces stay in control.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "port-blair"
+   ],
+   "polities": [
+    "azad-hind"
+   ]
+  },
+  {
+   "id": "imphal",
+   "date": "1944-03-08",
+   "end": "1944-07-03",
+   "lane": "military",
+   "title": "Imphal and Kohima",
+   "summary": "INA units join the Japanese offensive into India. The attack fails at Imphal and Kohima with huge losses to disease and starvation, and the INA retreats through Burma.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "imphal"
+   ],
+   "polities": [
+    "empire-of-japan",
+    "azad-hind"
+   ],
+   "concepts": [
+    "imphal-campaign",
+    "ina"
+   ]
+  },
+  {
+   "id": "father-of-nation",
+   "date": "1944-07-06",
+   "lane": "political",
+   "title": "\"Father of our Nation\"",
+   "summary": "In a broadcast from Rangoon asking for Gandhi's blessings for the INA's war, Bose addresses him as the Father of the Nation, the first recorded use of the title.",
+   "people": [
+    "subhas-bose",
+    "gandhi"
+   ],
+   "places": [
+    "yangon"
+   ]
+  },
+  {
+   "id": "rangoon-falls",
+   "date": "1945-04-24",
+   "lane": "military",
+   "title": "Retreat from Rangoon",
+   "summary": "As the British advance on Rangoon, Bose leaves for Bangkok on foot and by truck with the women of the Rani of Jhansi Regiment.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "yangon"
+   ],
+   "polities": [
+    "azad-hind"
+   ]
+  },
+  {
+   "id": "death",
+   "date": "1945-08-18",
+   "lane": "deaths",
+   "major": true,
+   "title": "Dies after a plane crash in Taipei",
+   "summary": "Three days after Japan's surrender, the bomber carrying Bose crashes on take-off at Taihoku (Taipei) and he dies of burns that night. Disbelief in his death led to decades of rumours and three official inquiries; the Shah Nawaz (1956) and Khosla (1974) inquiries confirmed it, while the Mukherjee Commission (2005) disputed it.",
+   "people": [
+    "subhas-bose"
+   ],
+   "places": [
+    "taipei"
+   ],
+   "concepts": [
+    "bose-death"
+   ]
+  },
+  {
+   "id": "ina-trials",
+   "date": "1945-11-05",
+   "end": "1946-05",
+   "lane": "political",
+   "title": "The Red Fort trials",
+   "summary": "The British court-martial three INA officers, a Hindu, a Muslim and a Sikh: Prem Sahgal, Shah Nawaz Khan and Gurbaksh Singh Dhillon. Nehru and Bhulabhai Desai defend them, and the trials set off protests across the country.",
+   "people": [
+    "shah-nawaz-khan",
+    "nehru"
+   ],
+   "places": [
+    "red-fort"
+   ],
+   "concepts": [
+    "ina-trials",
+    "ina"
+   ]
+  },
+  {
+   "id": "rin-mutiny",
+   "date": "1946-02-18",
+   "lane": "military",
+   "title": "The naval mutiny",
+   "summary": "Inspired in part by the INA trials, ratings of the Royal Indian Navy mutiny in Bombay and Karachi. The British conclude they can no longer rely on Indian forces.",
+   "places": [
+    "mumbai",
+    "karachi"
+   ],
+   "concepts": [
+    "rin-mutiny"
+   ]
+  },
+  {
+   "id": "statue",
+   "date": "2022-09-08",
+   "lane": "world",
+   "title": "Statue at India Gate",
+   "summary": "A granite statue of Bose is unveiled under the canopy at India Gate where King George V's statue once stood. Since 2021 his birthday is marked as Parakram Diwas.",
+   "people": [
+    "subhas-bose",
+    "narendra-modi"
+   ],
+   "places": [
+    "new-delhi"
+   ]
+  }
+ ]
+}

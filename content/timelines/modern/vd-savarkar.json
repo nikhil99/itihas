@@ -1,0 +1,551 @@
+{
+ "id": "vd-savarkar",
+ "series": "The freedom struggle",
+ "order": 2,
+ "title": "V. D. Savarkar",
+ "subtitle": "Revolutionary, prisoner, ideologue of Hindutva · 1883 – 1966",
+ "subject": "savarkar",
+ "range": [
+  1880,
+  2006
+ ],
+ "focus": [
+  1883.4,
+  1966.15
+ ],
+ "intro": "Vinayak Damodar Savarkar was a teenage revolutionary in Nashik, the organiser of armed nationalists at India House in London, and the author of a history of 1857 that the British banned before it was printed. Arrested in 1910, he made a famous escape attempt at Marseilles and spent the next decade in the Cellular Jail in the Andamans and thirteen more years confined to Ratnagiri. There he wrote Hindutva, the founding text of Hindu nationalism, and campaigned against untouchability. As president of the Hindu Mahasabha from 1937 he argued that Hindus and Muslims were two nations, urged Hindus to join the army, and opposed Quit India. Charged with conspiracy in Gandhi's assassination, he was acquitted. He remains one of the most contested figures in modern India: \"Veer\" Savarkar to admirers, to critics the author of a divisive ideology and of mercy petitions to the British.",
+ "lanes": [
+  {
+   "id": "life",
+   "label": "Life & imprisonment"
+  },
+  {
+   "id": "political",
+   "label": "Revolution & politics"
+  },
+  {
+   "id": "forts",
+   "label": "Writings"
+  },
+  {
+   "id": "deaths",
+   "label": "Killings"
+  },
+  {
+   "id": "world",
+   "label": "Memory"
+  }
+ ],
+ "context": [
+  {
+   "entity": "savarkar",
+   "label": "V. D. Savarkar"
+  },
+  {
+   "entity": "savarkar",
+   "label": "In the Andamans",
+   "from": 1911.5,
+   "to": 1921.33
+  },
+  {
+   "entity": "savarkar",
+   "label": "Confined to Ratnagiri",
+   "from": 1924.02,
+   "to": 1937.36
+  },
+  {
+   "entity": "savarkar",
+   "label": "President, Hindu Mahasabha",
+   "from": 1937.99,
+   "to": 1943.9
+  },
+  {
+   "entity": "ganesh-savarkar",
+   "label": "Ganesh (Babarao) Savarkar"
+  },
+  {
+   "entity": "tilak",
+   "label": "Bal Gangadhar Tilak"
+  },
+  {
+   "entity": "gandhi",
+   "label": "Mahatma Gandhi"
+  },
+  {
+   "entity": "hindu-mahasabha",
+   "label": "Hindu Mahasabha",
+   "from": 1915,
+   "to": 2006
+  },
+  {
+   "entity": "british-raj",
+   "label": "British Raj",
+   "from": 1880,
+   "to": 1947.62
+  }
+ ],
+ "events": [
+  {
+   "id": "born",
+   "date": "1883-05-28",
+   "lane": "life",
+   "major": true,
+   "title": "Born at Bhagur",
+   "summary": "Vinayak Damodar Savarkar is born into a Chitpavan Brahmin family in Bhagur, a village near Nashik. He loses his mother at nine and his father to plague at sixteen.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "bhagur"
+   ]
+  },
+  {
+   "id": "mitra-mela",
+   "date": "1899",
+   "approx": true,
+   "lane": "political",
+   "title": "Mitra Mela, later Abhinav Bharat",
+   "summary": "With his elder brother Ganesh (Babarao), the teenage Savarkar founds a secret society in Nashik dedicated to armed revolution. In 1904 it becomes Abhinav Bharat, \"Young India\".",
+   "people": [
+    "savarkar",
+    "ganesh-savarkar"
+   ],
+   "places": [
+    "nashik"
+   ],
+   "polities": [
+    "abhinav-bharat"
+   ]
+  },
+  {
+   "id": "bonfire",
+   "date": "1905-10-07",
+   "lane": "political",
+   "title": "Bonfire of foreign cloth",
+   "summary": "As a student at Fergusson College, Savarkar organises a bonfire of foreign clothes in Pune in support of the Swadeshi movement against the partition of Bengal. The college fines and expels him from its hostel.",
+   "people": [
+    "savarkar",
+    "tilak"
+   ],
+   "places": [
+    "pune"
+   ],
+   "concepts": [
+    "swadeshi",
+    "bengal-partition-1905"
+   ]
+  },
+  {
+   "id": "london",
+   "date": "1906-06-09",
+   "lane": "life",
+   "major": true,
+   "title": "To London and India House",
+   "summary": "On a scholarship from Shyamji Krishna Varma, recommended by Tilak, Savarkar sails to study law in London and lives at India House in Highgate, which he turns into a centre of revolutionary activity.",
+   "people": [
+    "savarkar",
+    "shyamji",
+    "tilak"
+   ],
+   "places": [
+    "london"
+   ],
+   "concepts": [
+    "india-house"
+   ]
+  },
+  {
+   "id": "1857-book",
+   "date": "1909",
+   "lane": "forts",
+   "title": "The Indian War of Independence of 1857",
+   "summary": "Savarkar's history recasts the 1857 revolt as a national war of independence fought by Hindus and Muslims together. Banned in India before publication, it is printed in the Netherlands and smuggled in.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "london"
+   ],
+   "concepts": [
+    "war-of-independence-book"
+   ]
+  },
+  {
+   "id": "babarao-sentenced",
+   "date": "1909-06-09",
+   "lane": "political",
+   "title": "Babarao transported for life",
+   "summary": "Ganesh Savarkar is sentenced to transportation for life for publishing revolutionary poems. Abhinav Bharat members vow revenge on the officials responsible.",
+   "people": [
+    "ganesh-savarkar"
+   ],
+   "places": [
+    "nashik"
+   ],
+   "polities": [
+    "abhinav-bharat"
+   ]
+  },
+  {
+   "id": "dhingra",
+   "date": "1909-07-01",
+   "lane": "deaths",
+   "title": "Madan Lal Dhingra shoots Curzon Wyllie",
+   "summary": "Dhingra, a member of the India House circle, shoots Sir William Curzon Wyllie dead at the Imperial Institute in London. He is hanged in August; Savarkar is widely believed to have inspired him.",
+   "people": [
+    "madan-lal-dhingra",
+    "savarkar"
+   ],
+   "places": [
+    "london"
+   ],
+   "concepts": [
+    "india-house"
+   ]
+  },
+  {
+   "id": "jackson",
+   "date": "1909-12-21",
+   "lane": "deaths",
+   "title": "The Nashik collector shot",
+   "summary": "Anant Kanhere shoots A. M. T. Jackson, the collector who had prosecuted Babarao, at a theatre in Nashik. The pistol is traced to a consignment Savarkar sent from London.",
+   "people": [
+    "anant-kanhere"
+   ],
+   "places": [
+    "nashik"
+   ],
+   "polities": [
+    "abhinav-bharat"
+   ]
+  },
+  {
+   "id": "arrest",
+   "date": "1910-03-13",
+   "lane": "political",
+   "title": "Arrested in London",
+   "summary": "Savarkar is arrested at Victoria Station and ordered to be sent to India for trial.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "london"
+   ]
+  },
+  {
+   "id": "marseilles",
+   "date": "1910-07-08",
+   "lane": "political",
+   "major": true,
+   "title": "The leap at Marseilles",
+   "summary": "While his ship is docked at Marseilles, Savarkar squeezes through a porthole and swims ashore, but is seized by French police and handed back to his British guards. France protests; the case goes to the Permanent Court of Arbitration at The Hague, which rules for Britain in 1911.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "marseille"
+   ],
+   "concepts": [
+    "savarkar-case"
+   ]
+  },
+  {
+   "id": "sentence",
+   "date": "1910-12-24",
+   "lane": "political",
+   "title": "Two life sentences",
+   "summary": "A special tribunal in Bombay sentences Savarkar to transportation for life for conspiracy against the King-Emperor; a second life term follows for abetting Jackson's murder, fifty years in all.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "polities": [
+    "british-raj"
+   ]
+  },
+  {
+   "id": "cellular-jail",
+   "date": "1911-07-04",
+   "lane": "life",
+   "major": true,
+   "title": "The Cellular Jail",
+   "summary": "Savarkar arrives in the Andamans, where Babarao is already imprisoned. He works the oil mill and spends long periods in solitary confinement.",
+   "people": [
+    "savarkar",
+    "ganesh-savarkar"
+   ],
+   "places": [
+    "cellular-jail"
+   ]
+  },
+  {
+   "id": "petitions",
+   "date": "1913-11-14",
+   "lane": "political",
+   "title": "Petitions for clemency",
+   "summary": "Savarkar writes to the government asking for release and offering to serve it \"in any capacity\", the second of several petitions from the Andamans. Admirers call them a tactic to get out and keep working; critics read them as surrender.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "cellular-jail"
+   ]
+  },
+  {
+   "id": "ratnagiri-jail",
+   "date": "1921-05-02",
+   "lane": "life",
+   "title": "Brought back to the mainland",
+   "summary": "After petitions and public campaigns, the Savarkar brothers are moved to jails in India, Vinayak to Ratnagiri and later Yerawada.",
+   "people": [
+    "savarkar",
+    "ganesh-savarkar"
+   ],
+   "places": [
+    "ratnagiri"
+   ]
+  },
+  {
+   "id": "hindutva",
+   "date": "1923",
+   "lane": "forts",
+   "major": true,
+   "title": "Hindutva: Who is a Hindu?",
+   "summary": "Written in Ratnagiri jail and published under the pen-name \"A Maratha\", Savarkar's essay defines a Hindu as one who regards India as both fatherland and holy land. It becomes the founding text of Hindu nationalism.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "ratnagiri"
+   ],
+   "concepts": [
+    "hindutva"
+   ]
+  },
+  {
+   "id": "released-conditionally",
+   "date": "1924-01-06",
+   "lane": "life",
+   "title": "Released, confined to Ratnagiri",
+   "summary": "Savarkar is released on condition that he stays in Ratnagiri district and keeps out of politics. In 1925 he is visited there by K. B. Hedgewar, who founds the RSS that year.",
+   "people": [
+    "savarkar",
+    "hedgewar"
+   ],
+   "places": [
+    "ratnagiri"
+   ],
+   "polities": [
+    "rss"
+   ]
+  },
+  {
+   "id": "patit-pavan",
+   "date": "1931-02-22",
+   "lane": "forts",
+   "title": "Patit Pavan Mandir",
+   "summary": "In Ratnagiri Savarkar campaigns against untouchability, organising inter-caste dining and the Patit Pavan temple, open to Hindus of every caste including former untouchables.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "ratnagiri"
+   ]
+  },
+  {
+   "id": "released",
+   "date": "1937-05-10",
+   "lane": "political",
+   "title": "Unconditional release",
+   "summary": "The new provincial government of Bombay lifts all restrictions on Savarkar after thirteen years in Ratnagiri.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "ratnagiri"
+   ]
+  },
+  {
+   "id": "mahasabha-president",
+   "date": "1937-12-30",
+   "lane": "political",
+   "major": true,
+   "title": "President of the Hindu Mahasabha",
+   "summary": "At the Ahmedabad session Savarkar declares that India cannot be assumed to be one nation: there are \"two nations in the main, the Hindus and the Moslems\". He is re-elected president every year until 1943.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "ahmedabad"
+   ],
+   "polities": [
+    "hindu-mahasabha"
+   ],
+   "concepts": [
+    "hindutva"
+   ]
+  },
+  {
+   "id": "militarise",
+   "date": "1941",
+   "approx": true,
+   "lane": "political",
+   "title": "\"Hinduise all politics and militarise Hindudom\"",
+   "summary": "During the Second World War Savarkar urges Hindus to join the British Indian Army in large numbers to gain military training, and the Mahasabha recruits for it.",
+   "people": [
+    "savarkar"
+   ],
+   "polities": [
+    "hindu-mahasabha"
+   ],
+   "concepts": [
+    "india-ww2"
+   ]
+  },
+  {
+   "id": "quit-india",
+   "date": "1942-08",
+   "lane": "political",
+   "title": "Against Quit India",
+   "summary": "The Mahasabha opposes the Quit India movement and its members stay in office in coalition ministries in Bengal, where Syama Prasad Mookerjee is finance minister, and in Sind and the North-West Frontier Province.",
+   "people": [
+    "savarkar",
+    "syama-prasad-mookerjee"
+   ],
+   "places": [
+    "kolkata"
+   ],
+   "polities": [
+    "hindu-mahasabha"
+   ],
+   "concepts": [
+    "quit-india"
+   ]
+  },
+  {
+   "id": "gandhi-case",
+   "date": "1948-02-05",
+   "lane": "political",
+   "title": "Arrested over Gandhi's murder",
+   "summary": "A week after the assassination, Savarkar is arrested in Bombay as a conspirator; Godse and Apte had been his followers and visited him before the killing.",
+   "people": [
+    "savarkar",
+    "nathuram-godse",
+    "ss-apte"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "concepts": [
+    "gandhi-assassination"
+   ],
+   "see": "mahatma-gandhi"
+  },
+  {
+   "id": "acquitted",
+   "date": "1949-02-10",
+   "lane": "political",
+   "title": "Acquitted",
+   "summary": "The special court at the Red Fort convicts Godse, Apte and others but acquits Savarkar, as the approver Digambar Badge's testimony is not independently corroborated. The Kapur Commission (1969) later concluded the evidence pointed to a conspiracy by Savarkar and his group.",
+   "people": [
+    "savarkar",
+    "nathuram-godse"
+   ],
+   "places": [
+    "red-fort"
+   ],
+   "concepts": [
+    "gandhi-assassination"
+   ]
+  },
+  {
+   "id": "nehru-liaquat",
+   "date": "1950-04-04",
+   "lane": "political",
+   "title": "Detained again",
+   "summary": "On the eve of the Nehru–Liaquat pact Savarkar is detained for 100 days, released on condition that he stays out of politics for a year.",
+   "people": [
+    "savarkar",
+    "nehru",
+    "liaquat-ali-khan"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "concepts": [
+    "nehru-liaquat-pact"
+   ]
+  },
+  {
+   "id": "abhinav-bharat-dissolved",
+   "date": "1952-05-10",
+   "lane": "political",
+   "title": "Abhinav Bharat dissolved",
+   "summary": "At a ceremony in Pune Savarkar formally winds up the secret society he founded fifty years earlier, its aim of independence achieved.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "pune"
+   ],
+   "polities": [
+    "abhinav-bharat"
+   ]
+  },
+  {
+   "id": "six-epochs",
+   "date": "1963",
+   "approx": true,
+   "lane": "forts",
+   "title": "Six Glorious Epochs of Indian History",
+   "summary": "Savarkar's last major book retells Indian history as six great periods of Hindu resistance to foreign invasion.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "dies",
+   "date": "1966-02-26",
+   "lane": "deaths",
+   "major": true,
+   "title": "Atmaarpan",
+   "summary": "After announcing that his work is done, Savarkar gives up food and medicine on 1 February and dies at his home in Bombay twenty-six days later.",
+   "people": [
+    "savarkar"
+   ],
+   "places": [
+    "mumbai"
+   ]
+  },
+  {
+   "id": "stamp",
+   "date": "1970-05-28",
+   "lane": "world",
+   "title": "A postage stamp",
+   "summary": "Indira Gandhi's government issues a commemorative stamp on his birth anniversary.",
+   "people": [
+    "savarkar",
+    "indira-gandhi"
+   ]
+  },
+  {
+   "id": "parliament-portrait",
+   "date": "2003-02-26",
+   "lane": "world",
+   "title": "A portrait in Parliament",
+   "summary": "The Vajpayee government unveils Savarkar's portrait in Parliament's Central Hall; the Congress boycotts the ceremony. Port Blair's airport had been named after him the year before.",
+   "people": [
+    "savarkar",
+    "vajpayee"
+   ],
+   "places": [
+    "parliament-house"
+   ]
+  }
+ ]
+}
