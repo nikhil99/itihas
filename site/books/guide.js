@@ -1,6 +1,6 @@
 // Renders a book guide from <id>.json next to the page (see README, "Books").
 // The page is a shell: <body data-guide="<id>"> plus book.css, book.js and this file.
-// JSON: { title, byline, lede, facts:[[big, small]], related:[[href,label]], note,
+// JSON: { title, byline, lede, facts:[[big, small]], related:[[href,label]], read:[href,label], note,
 //         sections:[{ type, eyebrow, title, lede, ch, pages, wide, ... }], footer }
 // Section types: timeline, cards, table, bars, compare, steps, quote, list, text.
 (function () {
@@ -102,6 +102,7 @@
     const hero = `<div class="wrap"><header class="hero"><span class="eyebrow">Books on Itihas · a visual guide</span><h1>${h(g.title)}</h1><p class="byline">${h(g.byline)}</p><p class="lede">${h(g.lede)}</p>
       ${g.facts ? `<div class="facts">${g.facts.map((f) => `<div><b>${h(f[0])}</b><small>${h(f[1])}</small></div>`).join("")}</div>` : ""}
       ${g.related && g.related.length ? `<p class="related">On Itihas: ${g.related.map((r) => `<a href="../#/${r[0]}">${h(r[1])} →</a>`).join("")}</p>` : ""}
+      ${g.read ? `<p class="related">Read it: <a href="${h(g.read[0])}">${h(g.read[1])} →</a></p>` : ""}
       ${g.note ? `<p class="note"><b>About this guide.</b> ${h(g.note)}</p>` : ""}</header></div>`;
     const secs = g.sections.map((s, i) => {
       s._i = i;

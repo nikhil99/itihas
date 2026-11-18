@@ -123,10 +123,17 @@ topics as tiles. To add a book, drop `site/books/<id>.html` next to the others a
 the manifest. Nothing needs rebuilding.
 
 **Data-driven guides.** Most guides are a JSON file plus a one-line page: `site/books/<id>.json` holds
-the hero (`title`, `byline`, `lede`, `facts`, `related`, `note`) and a list of `sections`, and
+the hero (`title`, `byline`, `lede`, `facts`, `related`, an optional `read` link to a full text, `note`)
+and a list of `sections`, and
 `<id>.html` is just `<body data-guide="<id>">` with `book.css`, `book.js` and `guide.js`. `guide.js`
 draws each section by its `type` (`timeline`, `steps`, `compare`, `table`, `cards`, `bars`, `chips`,
 `list`, `quote`), and a section's `ch` (plus optional `pages`) adds its link back to the chapter.
+
+**Translations.** The full English translation of the *Shivabharat* is a static page,
+`site/books/shivabharat-translation.html`, generated from one Markdown file per canto in
+`content/translations/shivabharat/` (`N. text` for a verse, `N–M. text` for a group, `*…*` for speaker
+lines and colophons, `*(…)*` for notes). Edit the Markdown, then run
+`python3 scripts/build_shivabharat_translation.py content/translations/shivabharat site/books/books.json site/books/shivabharat-translation.html`.
 
 **References to the source.** Each manifest entry lists its `chapters` (`n`, `title`, and a `url` for
 books that are online or `pages` for printed ones), plus `source` (the whole book online) and
