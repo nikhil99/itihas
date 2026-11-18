@@ -4157,5 +4157,198 @@
         "url": "https://voibooks.bitbucket.io/jcafa/08_ap4/"
       }
     ]
+  },
+  {
+    "id": "shivabharat",
+    "title": "Shivabharat",
+    "native": "शिवभारत",
+    "author": "Kavindra Paramananda",
+    "published": "c. 1660s–70s (Sanskrit) · 1927 (Divekar's edition and Marathi translation)",
+    "year": 1927,
+    "category": "medieval",
+    "summary": "Paramananda's Sanskrit epic on Shivaji, written in his lifetime and breaking off in 1661. It was found by S.M. Divekar at Tanjore. Shown here canto by canto, from Shahaji's birth to Umberkhind and the Konkan, with the cast and the 1630 birth date.",
+    "href": "books/shivabharat.html",
+    "timelines": [
+      "shivaji",
+      "maratha-empire"
+    ],
+    "edition": "Ed. and tr. into Marathi by Sadashiv Mahadev Divekar, Bharat Itihas Samshodhak Mandal, Pune, 1927 · Universal Library scan OU_184386",
+    "chapters": [
+      {
+        "n": "Pref",
+        "title": "Preface (Upodghat), by S.M. Divekar",
+        "pages": "1–28 (preface)"
+      },
+      {
+        "n": "Intro",
+        "title": "Introduction (Prastavana), by S.M. Divekar",
+        "pages": "1–200 (introduction)"
+      },
+      {
+        "n": 1,
+        "title": "Shahaji's birth",
+        "pages": "1–12"
+      },
+      {
+        "n": 2,
+        "title": "The marriages of Shahaji and Sharifji",
+        "pages": "13–21"
+      },
+      {
+        "n": 3,
+        "title": "The Khandagale elephant affair; the Jadhav–Bhosale feud",
+        "pages": "22–29"
+      },
+      {
+        "n": 4,
+        "title": "The rise of the Nizam Shahi",
+        "pages": "30–38"
+      },
+      {
+        "n": 5,
+        "title": "The Bhosale brothers' quarrel; Vishnu's incarnation in their line",
+        "pages": "39–47"
+      },
+      {
+        "n": 6,
+        "title": "Shivaji's birth",
+        "pages": "48–59"
+      },
+      {
+        "n": 7,
+        "title": "Childhood",
+        "pages": "60–64"
+      },
+      {
+        "n": 8,
+        "title": "The end of the Nizam Shahi",
+        "pages": "65–74"
+      },
+      {
+        "n": 9,
+        "title": "Shivaji learns to write; Bangalore",
+        "pages": "75–84"
+      },
+      {
+        "n": 10,
+        "title": "Shivaji comes to Pune; his education",
+        "pages": "85–91"
+      },
+      {
+        "n": 11,
+        "title": "Shahaji in Karnataka; Mustafa Khan arrives",
+        "pages": "92–98"
+      },
+      {
+        "n": 12,
+        "title": "Shahaji's arrest",
+        "pages": "99–113"
+      },
+      {
+        "n": 13,
+        "title": "The battle at Shirwal; Balaji Haibatrao killed",
+        "pages": "114–131"
+      },
+      {
+        "n": 14,
+        "title": "Musekhan killed; Fatte Khan flees",
+        "pages": "132–146"
+      },
+      {
+        "n": 15,
+        "title": "Shahaji released",
+        "pages": "147–154"
+      },
+      {
+        "n": 16,
+        "title": "Sonopant's statecraft",
+        "pages": "155–164"
+      },
+      {
+        "n": 17,
+        "title": "Afzal Khan leaves Bijapur",
+        "pages": "165–174"
+      },
+      {
+        "n": 18,
+        "title": "Afzal Khan's message to Shivaji",
+        "pages": "175–183"
+      },
+      {
+        "n": 19,
+        "title": "Afzal Khan marches on the fort",
+        "pages": "184–190"
+      },
+      {
+        "n": 20,
+        "title": "Afzal Khan reaches the fort",
+        "pages": "191–199"
+      },
+      {
+        "n": 21,
+        "title": "Afzal Khan killed",
+        "pages": "200–211"
+      },
+      {
+        "n": 22,
+        "title": "Afzal Khan's army routed",
+        "pages": "212–222"
+      },
+      {
+        "n": 23,
+        "title": "Panhala taken",
+        "pages": "223–233"
+      },
+      {
+        "n": 24,
+        "title": "Rustam-e-Zaman and others defeated",
+        "pages": "234–247"
+      },
+      {
+        "n": 25,
+        "title": "Shaista Khan arrives",
+        "pages": "248–256"
+      },
+      {
+        "n": 26,
+        "title": "From Panhala to Vishalgad",
+        "pages": "257–268"
+      },
+      {
+        "n": 27,
+        "title": "From Vishalgad to Rajgad",
+        "pages": "269–276"
+      },
+      {
+        "n": 28,
+        "title": "Kartalab Khan hemmed in",
+        "pages": "277–290"
+      },
+      {
+        "n": 29,
+        "title": "The battle of Umberkhind",
+        "pages": "291–303"
+      },
+      {
+        "n": 30,
+        "title": "Rajapur plundered; Tanaji Malusare's valour",
+        "pages": "304–312"
+      },
+      {
+        "n": 31,
+        "title": "Shivaji enters Shringarpur",
+        "pages": "313–323"
+      },
+      {
+        "n": 32,
+        "title": "Prabhavali taken",
+        "pages": "324–325"
+      },
+      {
+        "n": null,
+        "title": "Index of the Shivabharat (S.N. Joshi)",
+        "pages": "1–24 (index)"
+      }
+    ]
   }
 ]

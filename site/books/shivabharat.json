@@ -1,0 +1,179 @@
+{
+  "title": "Shivabharat",
+  "byline": "Kavindra <b>Paramananda</b> · Sanskrit epic, edited with a Marathi translation by <b>Sadashiv Mahadev Divekar</b> · Bharat Itihas Samshodhak Mandal, Pune · 1927",
+  "lede": "The <em>Shivabharat</em> (शिवभारत) is a Sanskrit epic on Shivaji, by his court poet Paramananda, son of Govindbhatta, and written in Shivaji's lifetime. In its opening frame, pandits at Kashi ask the poet to tell the king's story, and he says Shivaji himself told him to begin with Maloji and bring it up to the present. The poem's 32 cantos run from Shahaji's birth to the Konkan campaign of 1661, where it breaks off. Divekar found the text in Tanjore and published it in 1927 with a Marathi translation. His edition has a 200-page introduction and a verse index, and its plates include a horoscope and maps.",
+  "facts": [
+    ["32", "cantos (<i>adhyaya</i>), breaking off in mid-1661"],
+    ["19 Feb 1630", "Shivaji's birth in the poem: Shaka 1551, Phalguna vadya 3, at dusk"],
+    ["10 Nov 1659", "Afzal Khan killed: Margashirsha shuddha 7, Shaka 1581, a Thursday, at midday"],
+    ["325 + 200", "pages of verse and translation, plus Divekar's introduction"]
+  ],
+  "related": [["shivaji", "Shivaji timeline"], ["maratha-empire", "Maratha Empire timeline"]],
+  "note": "This is a court epic. It makes Shivaji an incarnation of Vishnu and Shahaji a favourite of Shiva, with Bhavani appearing in dreams and speaking through goddesses, and it writes long speeches for its characters. Historians use it for what a near-contemporary insider knew: names, places, the order of events and dates such as Shivaji's birth. They treat the miracles and speeches as poetry. This guide follows Divekar's table of contents and his prose summary of the poem (introduction, pp. 13–33), and attributes the story to the poem. Divekar's summary is matched to cantos by his chapter titles. This is not a verse-by-verse reading.",
+  "sections": [
+    {
+      "type": "timeline", "ch": "Intro", "pages": "13–33", "eyebrow": "The whole poem in one line",
+      "title": "From Maloji to Prabhavali, as the poem tells it",
+      "lede": "Dates are the poem's own where it gives them (in the Shaka era). The rest are the usual dates for these events.",
+      "items": [
+        {"era": "Shahaji's world · cantos 1–5, 8", "color": 3},
+        ["c. 1594", "Shahaji born to Maloji", "Maloji, a Bhosale noble serving the Nizam Shah, has two sons after praying to Shiva. He names them Shahaji and Sharifji after the Sufi saint Shah Sharif. Canto 1."],
+        ["1600s", "Shahaji marries Jijabai, daughter of Lakhuji Jadhavrao", "Sharifji marries Durgabai, daughter of Vishwasrao. Canto 2."],
+        ["—", "The Khandagale elephant affair", "A runaway elephant of the Khandagale family sets off a street fight between the Jadhavs and the Bhosales. Jadhavrao's son Dattaji is killed, and Shahaji is wounded by his own father-in-law. Canto 3."],
+        ["1624", "Battle of Bhatvadi", "The Nizam Shahi minister Malik Ambar beats the Mughals and Bijapur. Sharifji falls in the fight. Cantos 4–5."],
+        ["1636", "End of the Nizam Shahi", "Jadhavrao is murdered in the Nizam's court. After Daulatabad falls, Shahaji holds the Godavari–Bhima country against Delhi for three years, then makes terms and enters Bijapur service. Canto 8."],
+        {"era": "Shivaji's youth · cantos 6–7, 9–10", "color": 0},
+        ["19 Feb 1630", "Shivaji born at Shivneri", "Shaka 1551, Phalguna vadya 3. Canto 6."],
+        ["c. 1637", "Learning his letters at Bangalore", "Shahaji conquers widely in Karnataka and holds court at Bangalore. Shivaji is seven when his schooling begins. Canto 9."],
+        ["c. 1642", "Sent to rule Pune", "At twelve, Shivaji leaves for the Pune jagir with ministers, elephants and treasure. He marries into the Pawar clan. Canto 10."],
+        {"era": "Shahaji's arrest · cantos 11–16", "color": 1},
+        ["1648", "Shahaji arrested at Jinji", "Mustafa Khan surrounds his camp at dawn. Baji Ghorpade takes Shahaji after a long fight. Canto 12."],
+        ["1648", "Belsar, Shirwal and Purandar", "Bijapur's armies under Fatte Khan move on Shivaji. His men take Shirwal, Musekhan is killed below Purandar, and Fatte Khan runs. Cantos 13–14."],
+        ["1649", "Shahaji freed", "Sinhagad and Bangalore are given up for his release. Canto 15."],
+        {"era": "Afzal Khan · cantos 16–22", "color": 2},
+        ["1656", "Javali taken from Chandrarao More", "Canto 16."],
+        ["1659", "Afzal Khan sets out from Bijapur", "He swears to bring Shivaji back in chains. Canto 17."],
+        ["10 Nov 1659", "Afzal Khan killed below Pratapgad", "Canto 21."],
+        ["Nov 1659", "The Bijapuri army routed", "Afzal's son escapes in disguise. Canto 22."],
+        {"era": "Panhala and Shaista Khan · cantos 23–27", "color": 0},
+        ["28 Nov 1659", "Panhala taken by surprise", "Canto 23."],
+        ["Dec 1659", "Rustam-e-Zaman and Fazal Khan beaten near Panhala", "Canto 24."],
+        ["1660", "Siddi Jauhar besieges Panhala; Shaista Khan takes Pune", "Canto 25."],
+        ["July 1660", "Night escape to Vishalgad", "Canto 26."],
+        ["1660", "Back to Rajgad; Panhala handed back to Bijapur", "Canto 27."],
+        {"era": "Umberkhind and the Konkan · cantos 28–32", "color": 3},
+        ["Feb 1661", "Kartalab Khan trapped at Umberkhind", "Cantos 28–29."],
+        ["1661", "Dabhol, Chiplun, Sangameshwar and Rajapur", "Canto 30."],
+        ["1661", "Shringarpur entered", "Canto 31."],
+        ["summer 1661", "Prabhavali taken; a fort named Pratitgad", "The poem stops here. Canto 32."]
+      ]
+    },
+    {
+      "type": "list", "ch": 1, "pages": "1–47", "eyebrow": "Cantos 1–5 · before Shivaji",
+      "title": "Maloji, Shahaji and the Nizam Shahi",
+      "items": [
+        ["1 · Shahaji's birth (pp. 1–12)", "Paramananda, on pilgrimage at Kashi, is asked by the pandits there to tell Shivaji's story. Maloji, a Bhosale noble serving the Nizam Shah, builds a tank on the Shambhu Mahadev hill. He wins the Nizam's favour in a war with Bijapur. After praying to Shiva he has two sons, Shahaji and Sharifji."],
+        ["2 · Two marriages (pp. 13–21)", "Maloji dies in a campaign near Indapur when Shahaji is five, and his brother Vithoji brings up the boys. Shahaji marries Jijabai, daughter of Lakhuji Jadhavrao, and Sharifji marries the daughter of Vishwasrao. Both brothers serve as Nizam Shahi commanders."],
+        ["3 · The Khandagale elephant (pp. 22–29)", "A runaway elephant of the Khandagale family tramples people outside the Nizam's court. The Jadhavs and Bhosales fall to fighting, Jadhavrao's son Dattaji is killed, and Shahaji is wounded. Jadhavrao leaves for the Mughals."],
+        ["4 · The Nizam's rise (pp. 30–38)", "Malik Ambar leads the Nizam Shahi against the Mughals and Bijapur at Bhatvadi. Sharifji is killed there, and Shahaji fights his way through."],
+        ["5 · Brothers' quarrel; Vishnu's promise (pp. 39–47)", "Shahaji's cousins side with Malik Ambar against him, so he leaves the Nizam's court. Ibrahim Adil Shah takes him into Bijapur service with a large jagir, and he wins battles and tribute for Bijapur. The poem has Vishnu promise to be born in the Bhosale line."]
+      ]
+    },
+    {
+      "type": "list", "ch": 6, "pages": "48–91", "eyebrow": "Cantos 6–10 · Shivaji's birth and boyhood",
+      "title": "From Shivneri to Pune",
+      "items": [
+        ["6 · Birth (pp. 48–59)", "The Mughals march south, and Shahaji goes back to the Nizam Shahi. The poem places Shivaji's birth at Shivneri on Shaka 1551, Phalguna vadya 3, at dusk. The name comes from the fort. Divekar prints the horoscope and two leaves of the manuscript here."],
+        ["7 · Childhood (pp. 60–64)", "The boy's play, told in the manner of Krishna's childhood."],
+        ["8 · End of the Nizam Shahi (pp. 65–74)", "Jadhavrao is murdered in court. Famine follows, and Daulatabad falls to the Mughals in 1633. Shahaji breaks away and takes Shivneri and other Nizam Shahi forts. He then holds the Godavari–Bhima country against Delhi for three years. In 1636 he settles with the Mughals and joins Bijapur. Plates: Bangalore fort and Bhavani."],
+        ["9 · Learning letters; Bangalore (pp. 75–84)", "Shahaji conquers Bednur, Kaveripattan, Shrirangapattan, Tanjore, Jinji, Madurai and other kingdoms with Randulla Khan, and is given Bangalore. Shivaji starts his schooling at seven. Divekar's maps of Shahaji's Karnataka are bound in here."],
+        ["10 · To Pune; education (pp. 85–91)", "Told by Shiva in a dream to put his son over the Pune country, Shahaji sends Shivaji there at twelve with ministers and treasure. His teachers find him unusually quick. He is married into the Pawar clan."]
+      ]
+    },
+    {
+      "type": "list", "ch": 11, "pages": "92–164", "eyebrow": "Cantos 11–16 · the first crisis",
+      "title": "Shahaji's arrest and the fight for his release",
+      "items": [
+        ["11 · Shahaji in Karnataka; Mustafa Khan arrives (pp. 92–98)", "Shahaji restores Virabhadra and makes the southern kings fear him. Muhammad Adil Shah sends Mustafa Khan to arrest him."],
+        ["12 · The arrest (pp. 99–113)", "The two camps meet near Jinji with great ceremony. Mustafa Khan's son had sworn Shahaji's safety. Mustafa Khan surrounds his camp before dawn, and after a long fight Baji Ghorpade captures Shahaji."],
+        ["13 · Shirwal; Balaji Haibatrao killed (pp. 114–131)", "Bijapur sends Fatte Khan, Ashraf Shah and Baji Nimbalkar against Shivaji. They take Belsar, and Balaji Haibatrao holds Shirwal. Shivaji's commander Kavji storms Shirwal and kills Balaji."],
+        ["14 · Musekhan killed; Fatte Khan flees (pp. 132–146)", "The Bijapuri army climbs Purandar. Musekhan is killed in the fighting and Fatte Khan runs for his life. In the south, Shahaji's elder son Sambhaji beats Farad Khan at Bangalore."],
+        ["15 · Shahaji released (pp. 147–154)", "Shahaji is freed after Sinhagad and Bangalore are given up. Shivaji thinks of marching on Bijapur."],
+        ["16 · Sonopant's statecraft (pp. 155–164)", "Sonopant warns against open war with the strong while both Bijapur and Delhi are angry. Division is the most useful policy, he says, and Shivaji should secure strong forts first. Shivaji waits."]
+      ]
+    },
+    {
+      "type": "list", "ch": 17, "pages": "165–222", "eyebrow": "Cantos 17–22 · the poem's centrepiece",
+      "title": "Afzal Khan",
+      "lede": "Six cantos, a fifth of the poem's length, cover the five months from Afzal Khan's departure to the rout of his army.",
+      "items": [
+        ["17 · Afzal sets out from Bijapur (pp. 165–174)", "Shivaji has killed Chandrarao More and taken Javali, and is raiding Bijapur's lands. Afzal Khan swears to bring him back in chains. With him march Ambar, Yakut, Musekhan, Hasan, Randulla, Ankush Khan, Hilal, and Maratha nobles such as the Ghorpades, Pandhares, Kharates, Mambaji Bhosale, the Ghatges and the Kates."],
+        ["18 · Afzal's message (pp. 175–183)", "Afzal Khan demands Sinhagad, Lohagad, Purandar, Chakan and the Nira–Bhima country for Delhi, and Javali for Bijapur. Shivaji answers with flattery, saying he fears Afzal's army and asking him to come to Javali."],
+        ["19 · The march to the fort (pp. 184–190)", "Some of Afzal's nobles warn him that the hill road is no place for horses and elephants. He goes on anyway."],
+        ["20 · Afzal at Javali (pp. 191–199)", "Bhavani tells Shivaji in a dream that Afzal Khan has insulted her at Tuljapur, and that she will be his sword. Afzal camps on the river below Pratapgad. Envoys arrange a meeting with a few guards each, the rest kept at a bowshot."],
+        ["21 · Afzal Khan killed (pp. 200–211)", "Afzal embraces Shivaji, holds his head under one arm and stabs at his side, but the blow is turned. Shivaji twists free and drives his own sword into Afzal's belly. When Sayyad Banda rushes in, Jiva Mahala cuts him down. Divekar's plates show Panhala, Afzal Khan, Pratapgad, Sinhagad, Rajgad and Purandar."],
+        ["22 · The army routed (pp. 212–222)", "Shivaji's troops fall on the leaderless camp. Mambaji Bhosale is killed, Randulla taken, Ambar Khan surrenders and Rajaji Ghatge is captured. Afzal's elder son escapes in disguise. Netaji Palkar raids deep into Bijapur country."]
+      ]
+    },
+    {
+      "type": "list", "ch": 23, "pages": "223–276", "eyebrow": "Cantos 23–27 · two fronts",
+      "title": "Panhala, Siddi Jauhar and Shaista Khan",
+      "items": [
+        ["23 · Panhala taken (pp. 223–233)", "Shivaji's men raid Chandan-Vandan, Khatav, Pali, Karad and Kolhapur, then take Panhala by surprise."],
+        ["24 · Rustam-e-Zaman beaten (pp. 234–247)", "Rustam-e-Zaman and Fazal Khan, Afzal's son, come with a picked army. Netaji, the Jadhavs, Kharates, Pandhares and Hilal fight for Shivaji. Fazal Khan runs first, and Rustam flees with five or six riders."],
+        ["25 · Shaista Khan arrives (pp. 248–256)", "Siddi Jauhar besieges Shivaji in Panhala. Bijapur also turns to Aurangzeb, who sends his uncle Shaista Khan with 77,000 horse. Shaista Khan takes Pune and besieges Chakan. Divekar's portraits of Mughal and Bijapuri leaders, and his maps of these campaigns, are bound in here."],
+        ["26 · From Panhala to Vishalgad (pp. 257–268)", "Jijabai wants to ride to Panhala herself. Netaji and Hilal attack the besiegers, and Hilal's son is captured. Bhavani tells Shivaji to leave. He slips out at night with about 600 men and leaves Trimbak Bhaskar in command. Masud's pursuit loses men in the mud, and Shivaji reaches Vishalgad."],
+        ["27 · From Vishalgad to Rajgad (pp. 269–276)", "Shivaji returns to Rajgad and Jijabai. Trimbak Bhaskar gives Panhala back to Bijapur by agreement. Adil Shah suspects Siddi Jauhar of taking a bribe and has him poisoned."]
+      ]
+    },
+    {
+      "type": "list", "ch": 28, "pages": "277–325", "eyebrow": "Cantos 28–32 · where the poem ends",
+      "title": "Umberkhind and the Konkan",
+      "items": [
+        ["28 · Kartalab Khan hemmed in (pp. 277–290)", "Shaista Khan sends Kartalab Khan down the ghats into the Konkan with Chauhan, Gadhe, Kokate, Jadhav and the woman commander Raibagin."],
+        ["29 · Battle of Umberkhind (pp. 291–303)", "The Mughals are caught in the forest at Umberkhind, with Marathas on both sides of the pass. Raibagin tells Kartalab Khan the only way out is to surrender. He sues for terms, pays a ransom and is let go."],
+        ["30 · Rajapur plundered; Tanaji Malusare (pp. 304–312)", "Shivaji takes Dabhol, worships at Parashuram near Chiplun, and leaves Sangameshwar to Pilaji Nilkanth and Tanaji Malusare. Rajapur's merchants, the firangis among them, pay heavily. When Suryarao of Shringarpur attacks Sangameshwar by night, Pilaji wants to run. Tanaji shames him, ties him to a rock, and drives the attackers off before dawn."],
+        ["31 · Shringarpur entered (pp. 313–323)", "Shivaji has already taken Pali and fortified a fort there as Mandangad. Suryarao promises to come and meet him but never does, so Shivaji marches suddenly on Shringarpur with 15,000 foot. Suryarao flees."],
+        ["32 · Prabhavali taken (pp. 324–325)", "The Prabhavali country passes to Shivaji, with Trimbak Bhaskar in charge. A fort near Shringarpur is named Pratitgad. The poem breaks off here, in the summer of 1661."]
+      ]
+    },
+    {
+      "type": "compare", "ch": 18, "eyebrow": "Canto 18 · the exchange before the meeting",
+      "title": "Afzal Khan's terms and Shivaji's reply",
+      "cols": [
+        {"k": "Afzal Khan demands", "items": ["Sinhagad, Lohagad, Purandar and Chakan", "The Nira–Bhima country, to go to Delhi", "Javali, to go back to Adil Shah", "His charges: mosques pulled down at Kalyan and Bhiwandi, qazis jailed, royal insignia and a golden throne"]},
+        {"k": "Shivaji answers", "items": ["Praise for Afzal's conquests in Karnataka", "He is afraid of Afzal's army and will not come out", "Afzal should come to Javali", "There Shivaji will lay his sword at Afzal's feet"]}
+      ]
+    },
+    {
+      "type": "cards", "ch": 21, "eyebrow": "The cast",
+      "title": "Who's who in the poem",
+      "items": [
+        ["Bhosale", "Shahaji", "Shivaji's father. A Nizam Shahi commander, later a Bijapur noble who conquers much of Karnataka.", 3],
+        ["Bhosale", "Jijabai", "Shivaji's mother and Jadhavrao's daughter. In canto 26 she wants to lead an army to Panhala herself.", 3],
+        ["Bhosale", "Sambhaji (elder)", "Shivaji's elder brother. He defends Bangalore against Farad Khan.", 3],
+        ["Shivaji's side", "Sonopant", "The minister whose advice fills canto 16.", 0],
+        ["Shivaji's side", "Netaji Palkar", "Shivaji's commander, who raids Bijapur's lands after Afzal Khan's death.", 0],
+        ["Shivaji's side", "Jiva Mahala", "Cuts down Sayyad Banda at the meeting below Pratapgad.", 0],
+        ["Shivaji's side", "Trimbak Bhaskar", "Holds Panhala after Shivaji escapes, and later governs Prabhavali.", 0],
+        ["Shivaji's side", "Tanaji Malusare", "Saves Sangameshwar in canto 30.", 0],
+        ["Bijapur", "Afzal Khan", "Bijapur's general, killed below Pratapgad.", 1],
+        ["Bijapur", "Mustafa Khan", "Arrests Shahaji near Jinji.", 1],
+        ["Bijapur", "Siddi Jauhar", "Besieges Panhala; the poem says Adil Shah later had him poisoned.", 1],
+        ["Bijapur", "Rustam-e-Zaman", "Beaten near Panhala alongside Fazal Khan.", 1],
+        ["Mughal", "Shaista Khan", "Aurangzeb's uncle. He takes Pune and Chakan.", 2],
+        ["Mughal", "Kartalab Khan and Raibagin", "Trapped at Umberkhind. Raibagin's advice to surrender saves the army.", 2],
+        ["Konkan", "Suryarao of Shringarpur", "A Bijapur vassal who attacks Sangameshwar and loses his kingdom.", 1]
+      ]
+    },
+    {
+      "type": "table", "ch": 6, "pages": "48–59", "eyebrow": "Canto 6 · why the edition mattered",
+      "title": "Shivaji's birth date",
+      "lede": "Older histories, following the later bakhars, gave 1627. The <em>Shivabharat</em> agrees with the Jedhe Shakavali on Phalguna vadya 3 of Shaka 1551, which is 19 February 1630. Divekar prints the Shakavali page beside the horoscope. Maharashtra later adopted 19 February 1630 as the official date.",
+      "head": ["Source", "Shaka date", "Common Era"],
+      "rows": [
+        ["<em>Shivabharat</em>, canto 6", "1551, Phalguna vadya 3", "19 February 1630"],
+        ["Jedhe Shakavali", "1551, Phalguna vadya 3", "19 February 1630"],
+        ["Later bakhars (e.g. Chitnis)", "1549, Vaishakha shuddha 2", "April 1627"]
+      ]
+    },
+    {
+      "type": "steps", "ch": "Pref", "eyebrow": "Divekar's preface · how the text was found",
+      "title": "From a Tanjore palm-leaf manuscript to print",
+      "items": [
+        ["1879", "Listed at Tanjore", "A.C. Burnell's catalogue of the Tanjore palace's Sanskrit manuscripts lists a ‘Śivabhāratam’ by ‘a Kavindra’.", 3],
+        ["c. 1918", "Divekar at the Saraswati Mahal", "Searching the library for papers on Ramdas and Shivaji, Divekar finds a manuscript called <em>Bharat</em>. It is written in Tamil script on palm leaves about two spans long.", 0],
+        ["", "A copy and a translation", "A copy in Tamil script reaches him months later. Hanumantrao Dhole, from a family that went south with Shahaji, starts a Marathi rendering. T.R. Sirse in Bombay has an English version made with help from Tamil friends.", 0],
+        ["1919–20", "Read to the Mandal", "Divekar reads a first note on the find to the Bharat Itihas Samshodhak Mandal in Pune. He argues that it is a Sanskrit original by a Maharashtrian poet, not a Tamil work. One of his clues is that names are Sanskritised, so Sonopant appears as ‘Suvarnasharma’.", 1],
+        ["1927", "Published", "The Mandal publishes the edition with Divekar's Marathi translation, a 200-page introduction and a verse index by S.N. Joshi.", 2]
+      ]
+    },
+    {
+      "type": "chips", "ch": 25, "eyebrow": "The edition's plates",
+      "title": "Portraits, manuscript pages and maps",
+      "key": ["Portraits and places", "Documents", "Maps"],
+      "items": [["Shivaji, coloured portrait (frontispiece)", 0], ["Shaista Khan, Jaswant Singh, Jai Singh, Diler Khan", 0], ["Aurangzeb, Shah Jahan, Muhammad Adil Shah", 0], ["Bangalore fort; Bhavani; Shivai", 0], ["Panhala, Pratapgad, Sinhagad, Rajgad, Purandar", 0], ["Afzal Khan", 0], ["Shivaji's horoscope", 1], ["Two leaves of the Shivabharat manuscript", 1], ["The Shakavali page on Shivaji's birth", 1], ["Muslim kingdoms in Shahaji's time", 2], ["Karnataka and the South in Shahaji's time", 2], ["The Konkan campaign of 1661", 2], ["After Afzal Khan; Umberkhind", 2], ["Shaista Khan's campaign; the siege of Panhala", 2]]
+    }
+  ],
+  "footer": "Source: Kavindra Paramananda, <em>Shivabharat</em>, edited with a Marathi translation by Sadashiv Mahadev Divekar (Bharat Itihas Samshodhak Mandal, Pune, 1927). Read from the Universal Library scan (OU_184386). Page numbers are the printed edition's: the text is paged 1–325, and the introduction and preface are paged separately."
+}
