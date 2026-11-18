@@ -26,11 +26,11 @@
   ],
   "events": [
     {"id": "dadoji-dies", "date": "1647", "lane": "life", "title": "Dadoji Konddeo dies", "summary": "Shahaji's administrator of the Pune jagir, who oversaw Shivaji's early training, dies; Shivaji takes the estate's management into his own hands.", "approx": true, "people": ["dadoji-konddeo", "shivaji"], "places": ["pune"]},
-    {"id": "purandar-1648", "date": "1648-08", "lane": "military", "title": "First victory: Purandar", "summary": "A Bijapur force under Fatah Khan, sent after Shahaji's arrest, is beaten back near Purandar and Belsar.", "approx": true, "people": ["shivaji"], "places": ["purandar"], "polities": ["bijapur-sultanate"]},
-    {"id": "shahaji-released", "date": "1649", "lane": "political", "title": "Shahaji released", "summary": "Shivaji appeals to the Mughal prince Murad; under pressure, Bijapur frees Shahaji in exchange for Kondhana and Bangalore.", "approx": true, "people": ["shahaji", "shivaji"], "places": ["sinhagad"], "polities": ["bijapur-sultanate", "mughal-empire"]},
+    {"id": "purandar-1648", "date": "1648-08", "lane": "military", "title": "First victory: Purandar", "summary": "A Bijapur force under Fatah Khan, sent after Shahaji's arrest, is beaten back near Purandar and Belsar.", "approx": true, "people": ["shivaji"], "places": ["purandar"], "polities": ["bijapur-sultanate"], "sources": [{"book": "shivabharat", "chapter": 14}]},
+    {"id": "shahaji-released", "date": "1649", "lane": "political", "title": "Shahaji released", "summary": "Shivaji appeals to the Mughal prince Murad; under pressure, Bijapur frees Shahaji in exchange for Kondhana and Bangalore.", "approx": true, "people": ["shahaji", "shivaji"], "places": ["sinhagad"], "polities": ["bijapur-sultanate", "mughal-empire"], "sources": [{"book": "shivabharat", "chapter": 15}]},
     {"id": "jedhe-oath", "date": "1659-08", "lane": "political", "title": "The Deshmukhs choose sides", "summary": "As Afzal Khan advances, Kanhoji Jedhe and other Maval deshmukhs refuse Bijapur's summons and stand with Shivaji.", "approx": true, "people": ["kanhoji-jedhe", "shivaji", "afzal-khan"], "places": ["maval"], "polities": ["bijapur-sultanate"]},
     {"id": "afzal-temples", "date": "1659-09", "lane": "military", "title": "Afzal Khan at Tuljapur and Pandharpur", "summary": "Afzal Khan's army desecrates the temples at Tuljapur and Pandharpur on its march, trying to draw Shivaji out of the hills.", "approx": true, "people": ["afzal-khan"], "places": ["pandharpur"], "polities": ["bijapur-sultanate"]},
-    {"id": "rajapur-raid", "date": "1661-03", "lane": "military", "title": "Raid on the English at Rajapur", "summary": "Shivaji sacks Rajapur and imprisons the English factors who had helped Siddi Jauhar with guns at Panhala.", "approx": true, "people": ["shivaji", "siddi-jauhar"], "polities": ["east-india-company"]},
+    {"id": "rajapur-raid", "date": "1661-03", "lane": "military", "title": "Raid on the English at Rajapur", "summary": "Shivaji sacks Rajapur and imprisons the English factors who had helped Siddi Jauhar with guns at Panhala.", "approx": true, "people": ["shivaji", "siddi-jauhar"], "polities": ["east-india-company"], "sources": [{"book": "shivabharat", "chapter": 30}]},
     {"id": "murarbaji", "date": "1665-05", "lane": "military", "title": "Murarbaji falls at Purandar", "summary": "Defending Purandar against Dilir Khan's assault, Murarbaji Deshpande is killed leading a sortie.", "approx": true, "people": ["murarbaji", "diler-khan"], "places": ["purandar"], "polities": ["mughal-empire"]},
     {"id": "panhala-1666", "date": "1666-01", "lane": "military", "title": "Failed attack on Panhala", "summary": "Fighting as a Mughal ally under Jai Singh's Bijapur campaign, Shivaji's assault on Panhala fails.", "approx": true, "people": ["shivaji", "jai-singh"], "places": ["panhala"], "polities": ["bijapur-sultanate"]},
     {"id": "raja-title", "date": "1667", "lane": "political", "title": "Recognised as Raja", "summary": "Aurangzeb, on Prince Muazzam's advice, grants Shivaji the title of Raja — three years of uneasy peace follow.", "approx": true, "people": ["shivaji", "aurangzeb", "muazzam"], "polities": ["mughal-empire"]},
@@ -55,7 +55,8 @@
       "summary": "Shivaji is born to Shahaji Bhosale and Jijabai in Shivneri fort above Junnar. (19 February 1630 is the date adopted by the Maharashtra government; some older accounts give 1627.)",
       "people": ["shivaji", "shahaji", "jijabai"],
       "places": ["shivneri", "junnar"],
-      "polities": ["bhonsle"]
+      "polities": ["bhonsle"],
+      "sources": [{"book": "shivabharat", "chapter": 6, "pages": "48–59"}]
     },
     {
       "id": "pune-jagir", "date": "1642", "approx": true, "lane": "life",
@@ -101,7 +102,8 @@
       "summary": "Bijapur imprisons Shahaji to check his son's expansion. Shivaji defeats a Bijapuri force at Purandar, but secures his father's release in 1649 only by handing back Kondhana; he then keeps a low profile for several years.",
       "people": ["shahaji", "shivaji", "mohammed-adil-shah"],
       "places": ["purandar", "sinhagad", "bijapur"],
-      "polities": ["bijapur-sultanate"]
+      "polities": ["bijapur-sultanate"],
+      "sources": [{"book": "shivabharat", "chapter": 12}]
     },
     {
       "id": "javali", "date": "1656-01", "lane": "military", "major": true,
@@ -171,7 +173,8 @@
       "people": ["shivaji", "afzal-khan", "ali-adil-shah-ii"],
       "places": ["pratapgad", "javali"],
       "polities": ["bijapur-sultanate"],
-      "wiki": "Battle of Pratapgarh"
+      "wiki": "Battle of Pratapgarh",
+      "sources": [{"book": "shivabharat", "chapter": 21}]
     },
     {
       "id": "kolhapur-battle", "date": "1659-12-28", "lane": "military",
@@ -179,7 +182,8 @@
       "summary": "Pressing his advantage, Shivaji defeats a second Bijapuri army under Rustam-e-Zaman near Kolhapur and takes Panhala.",
       "people": ["shivaji", "netaji-palkar"],
       "places": ["kolhapur", "panhala"],
-      "polities": ["bijapur-sultanate"]
+      "polities": ["bijapur-sultanate"],
+      "sources": [{"book": "shivabharat", "chapter": 24}]
     },
     {
       "id": "panhala-siege", "date": "1660-03-02", "end": "1660-07-13", "lane": "military",
@@ -188,7 +192,8 @@
       "people": ["shivaji", "siddi-jauhar", "ali-adil-shah-ii"],
       "places": ["panhala"],
       "polities": ["bijapur-sultanate"],
-      "wiki": "Siege of Panhala (1660)"
+      "wiki": "Siege of Panhala (1660)",
+      "sources": [{"book": "shivabharat", "chapter": 25}]
     },
     {
       "id": "pavan-khind", "date": "1660-07-13", "lane": "military", "major": true,
@@ -213,7 +218,8 @@
       "summary": "A Mughal force under Kartalab Khan is trapped in a forested pass in the Sahyadris and forced to surrender — a textbook use of guerrilla terrain warfare.",
       "people": ["shivaji"],
       "polities": ["mughal-empire"],
-      "concepts": ["ganimi-kava"]
+      "concepts": ["ganimi-kava"],
+      "sources": [{"book": "shivabharat", "chapter": 29}]
     },
     {
       "id": "shaista-khan-raid", "date": "1663-04-05", "lane": "military", "major": true,
